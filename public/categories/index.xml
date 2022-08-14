@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jun-Liszt Li</title>
-    <link>https://example.org/categories/</link>
+    <link>https://leoj.xyz/categories/</link>
     <description>Recent content in Categories on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://leoj.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R</title>
-      <link>https://example.org/categories/r/</link>
+      <link>https://leoj.xyz/categories/r/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://example.org/categories/r/</guid>
+      <guid>https://leoj.xyz/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beijing, China</title>
-      <link>https://example.org/categories/beijing-china/</link>
+      <link>https://leoj.xyz/categories/beijing-china/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/beijing-china/</guid>
+      <guid>https://leoj.xyz/categories/beijing-china/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CIBR</title>
-      <link>https://example.org/categories/cibr/</link>
+      <link>https://leoj.xyz/categories/cibr/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/cibr/</guid>
+      <guid>https://leoj.xyz/categories/cibr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>releases</title>
-      <link>https://example.org/categories/releases/</link>
+      <link>https://leoj.xyz/categories/releases/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/releases/</guid>
+      <guid>https://leoj.xyz/categories/releases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tranquilpeak</title>
-      <link>https://example.org/categories/tranquilpeak/</link>
+      <link>https://leoj.xyz/categories/tranquilpeak/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/tranquilpeak/</guid>
+      <guid>https://leoj.xyz/categories/tranquilpeak/</guid>
       <description></description>
     </item>
     
     <item>
       <title>showcase</title>
-      <link>https://example.org/categories/showcase/</link>
+      <link>https://leoj.xyz/categories/showcase/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/showcase/</guid>
+      <guid>https://leoj.xyz/categories/showcase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>features</title>
-      <link>https://example.org/categories/features/</link>
+      <link>https://leoj.xyz/categories/features/</link>
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/categories/features/</guid>
+      <guid>https://leoj.xyz/categories/features/</guid>
       <description></description>
     </item>
     
