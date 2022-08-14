@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIBR on Jun-Liszt Li</title>
+    <link>https://example.org/categories/cibr/</link>
+    <description>Recent content in CIBR on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/categories/cibr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大脑连接图谱的“裁缝” ：大规模微观脑图谱的重建与修正</title>
+      <link>https://example.org/2020/04/%E5%A4%A7%E8%84%91%E8%BF%9E%E6%8E%A5%E5%9B%BE%E8%B0%B1%E7%9A%84%E8%A3%81%E7%BC%9D-%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%BE%AE%E8%A7%82%E8%84%91%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%87%8D%E5%BB%BA%E4%B8%8E%E4%BF%AE%E6%AD%A3/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2020/04/%E5%A4%A7%E8%84%91%E8%BF%9E%E6%8E%A5%E5%9B%BE%E8%B0%B1%E7%9A%84%E8%A3%81%E7%BC%9D-%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%BE%AE%E8%A7%82%E8%84%91%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%87%8D%E5%BB%BA%E4%B8%8E%E4%BF%AE%E6%AD%A3/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在复杂生物系统里，往往研究对象的结构决定着其功能。神经网络系统亦是如此。为了理解动物大脑网络结构的复杂性及其潜在的功能，在目前的大脑计划中，脑图谱的绘制是重要的目标之一。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
