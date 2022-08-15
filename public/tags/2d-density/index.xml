@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2d density on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/2d-density/</link>
+    <description>Recent content in 2d density on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 21:13:14 -0500</lastBuildDate><atom:link href="https://leoj.xyz/tags/2d-density/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R plot 2d pixel</title>
+      <link>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</link>
+      <pubDate>Wed, 01 May 2019 21:13:14 -0500</pubDate>
+      
+      <guid>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</guid>
+      <description>2d density plot with ggplot2A 2d density plot is useful to study the relationship between 2 numeric variables if you have a huge number of points.
+To avoid overlapping (as in the scatterplot beside), it divides the plot area in a multitude of small fragment and represents the number of points in this fragment.
+There are several types of 2d density plots. Each has its proper ggplot2 function. This post describes all of them.</description>
+    </item>
+    
+  </channel>
+</rss>

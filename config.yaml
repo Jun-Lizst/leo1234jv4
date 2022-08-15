@@ -24,7 +24,7 @@ author:
   job: Ph.D. Candidate
   location: Beijing, China
   name: Jun-Liszt Li
-  picture: https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png
+  picture: img/Dingtalk_20220815163324.jpg
 menu:
   main:
     - identifier: aboutme
@@ -65,7 +65,7 @@ menu:
     - identifier: about
       name: About
       pre: <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
-      url: /#about
+      url: /page/about
       weight: 8
     - identifier: contact
       name: Contact
@@ -108,7 +108,7 @@ params:
         language: en
         pagerDirection: first
         perPage: 10
-  coverImage: images/cover.jpg
+  coverImage: img/cover2.jpg
   customJS:
     - async: yes
       crossorigin: anonymous

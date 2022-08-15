@@ -1,0 +1,176 @@
+---
+title: Draw connecting routes on map with R
+author: Jun-Liszt Li
+date: '2022-08-15'
+slug: index.en-us
+categories:
+  - R
+tags:
+  - atlas
+  - ggplot2
+---
+
+
+
+<p>Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.</p>
+<!--more-->
+<div id="draw-an-empty-map" class="section level1">
+<h1>Draw an empty map</h1>
+<p>Note: visit the background map section if you want to discover more options to build map in R.</p>
+<pre class="r"><code># World map is available in the maps package
+library(maps)
+
+# No margin
+par(mar=c(0,0,0,0))
+
+# World map
+map(&#39;world&#39;,
+    col=&quot;#f2f2f2&quot;, fill=TRUE, bg=&quot;white&quot;, lwd=0.05,
+    mar=rep(0,4),border=0, ylim=c(-80,80) 
+)</code></pre>
+<p><img src="/posts/2022-08-15-draw-connecting-routes/index.en-us_files/figure-html/map-1.png" width="672" /></p>
+</div>
+<div id="add-three-cities" class="section level1">
+<h1>Add three cities</h1>
+<p>It’s relatively straightforward to add circles at specific positions using the points() function. The hardest part is probably to find out the longitute and latitude of the cities you are interested in.</p>
+<pre class="r"><code># Dplyr for data wrangling and pipe function
+library(dplyr)
+## 
+## 载入程辑包：&#39;dplyr&#39;
+## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+
+# Cities
+Buenos_aires &lt;- c(-58,-34)
+Paris &lt;- c(2,49)
+Melbourne &lt;- c(145,-38)
+
+# Data frame
+data &lt;- rbind(Buenos_aires, Paris, Melbourne) %&gt;% 
+  as.data.frame()
+colnames(data) &lt;- c(&quot;long&quot;,&quot;lat&quot;)
+
+# Show the cities on the map
+map(&#39;world&#39;,
+    col=&quot;#f2f2f2&quot;, fill=TRUE, bg=&quot;white&quot;, lwd=0.05,
+    mar=rep(0,4),border=0, ylim=c(-80,80) 
+)
+points(x=data$long, y=data$lat, col=&quot;slateblue&quot;, cex=3, pch=20)</code></pre>
+<p><img src="/posts/2022-08-15-draw-connecting-routes/index.en-us_files/figure-html/cities-1.png" width="672" /></p>
+</div>
+<div id="show-connection-between-cities" class="section level1">
+<h1>Show connection between cities</h1>
+<p>Now we can connect cities drawing the shortest route between them. This is done using great circles, what gives a better visualization than using straight lines.</p>
+<p>The geosphere package provides the gcIntermediate() function that computes the path. This path can then be plotted using the lines() function.</p>
+<pre class="r"><code># Load geosphere
+library(geosphere)
+
+# Background map
+map(&#39;world&#39;,
+    col=&quot;#f2f2f2&quot;, fill=TRUE, bg=&quot;white&quot;, lwd=0.05,
+    mar=rep(0,4),border=0, ylim=c(-80,80) 
+)
+
+# Dot for cities
+points(x=data$long, y=data$lat, col=&quot;slateblue&quot;, cex=3, pch=20)
+
+# Compute the connection between Buenos Aires and Paris
+inter &lt;- gcIntermediate(Paris,  Buenos_aires, n=50, addStartEnd=TRUE, breakAtDateLine=F)
+
+# Show this connection
+lines(inter, col=&quot;slateblue&quot;, lwd=2)
+ 
+# Between Paris and Melbourne
+inter &lt;- gcIntermediate(Melbourne,  Paris, n=50, addStartEnd=TRUE, breakAtDateLine=F)             
+lines(inter, col=&quot;slateblue&quot;, lwd=2)</code></pre>
+<p><img src="/posts/2022-08-15-draw-connecting-routes/index.en-us_files/figure-html/geosphere-1.png" width="672" /></p>
+</div>
+<div id="apply-it-to-several-pairs-of-cities" class="section level1">
+<h1>Apply it to several pairs of cities</h1>
+<p>If we want to plot many connections, it is totally doable to build a for loop that draws them one by one.</p>
+<p>Moreover, note the use of the text function to add city names.</p>
+<pre class="r"><code># A function to plot connections
+plot_my_connection=function( dep_lon, dep_lat, arr_lon, arr_lat, ...){
+    inter &lt;- gcIntermediate(c(dep_lon, dep_lat), c(arr_lon, arr_lat), n=50, addStartEnd=TRUE, breakAtDateLine=F)             
+    inter=data.frame(inter)
+    diff_of_lon=abs(dep_lon) + abs(arr_lon)
+    if(diff_of_lon &gt; 180){
+        lines(subset(inter, lon&gt;=0), ...)
+        lines(subset(inter, lon&lt;0), ...)
+    }else{
+        lines(inter, ...)
+        }
+    }
+
+# Create dataset
+data &lt;- rbind(
+    Buenos_aires=c(-58,-34),
+    Paris=c(2,49),
+    Melbourne=c(145,-38),
+    Saint.Petersburg=c(30.32, 59.93),
+    Abidjan=c(-4.03, 5.33),
+    Montreal=c(-73.57, 45.52),
+    Nairobi=c(36.82, -1.29),
+    Salvador=c(-38.5, -12.97)
+    )  %&gt;% as.data.frame()
+colnames(data)=c(&quot;long&quot;,&quot;lat&quot;)
+
+# Generate all pairs of coordinates
+all_pairs &lt;- cbind(t(combn(data$long, 2)), t(combn(data$lat, 2))) %&gt;% as.data.frame()
+colnames(all_pairs) &lt;- c(&quot;long1&quot;,&quot;long2&quot;,&quot;lat1&quot;,&quot;lat2&quot;)
+
+# background map
+par(mar=c(0,0,0,0))
+map(&#39;world&#39;,col=&quot;#f2f2f2&quot;, fill=TRUE, bg=&quot;white&quot;, lwd=0.05,mar=rep(0,4),border=0, ylim=c(-80,80) )
+ 
+# add every connections:
+for(i in 1:nrow(all_pairs)){
+    plot_my_connection(all_pairs$long1[i], all_pairs$lat1[i], all_pairs$long2[i], all_pairs$lat2[i], col=&quot;skyblue&quot;, lwd=1)
+    }
+ 
+# add points and names of cities
+points(x=data$long, y=data$lat, col=&quot;slateblue&quot;, cex=2, pch=20)
+text(rownames(data), x=data$long, y=data$lat,  col=&quot;slateblue&quot;, cex=1, pos=4)</code></pre>
+<p><img src="/posts/2022-08-15-draw-connecting-routes/index.en-us_files/figure-html/paircity-1.png" width="672" /></p>
+</div>
+<div id="an-alternative-using-the-greatcircle-function" class="section level1">
+<h1>An alternative using the greatCircle function</h1>
+<p>This is the method suggested by the Simply Statistics Blog to draw a twitter connection map.</p>
+<p>The idea is to calculate the whole great circle, and keep only the part that stays in front of the map, never going behind it.</p>
+<pre class="r"><code># A function that keeps the good part of the great circle, by Jeff Leek:
+getGreatCircle &lt;- function(userLL,relationLL){
+  tmpCircle = greatCircle(userLL,relationLL, n=200)
+  start = which.min(abs(tmpCircle[,1] - data.frame(userLL)[1,1]))
+  end = which.min(abs(tmpCircle[,1] - relationLL[1]))
+  greatC = tmpCircle[start:end,]
+  return(greatC)
+}
+ 
+# background map
+map(&#39;world&#39;,col=&quot;#f2f2f2&quot;, fill=TRUE, bg=&quot;white&quot;, lwd=0.05,mar=rep(0,4),border=0, ylim=c(-80,80) )
+
+# map 3 connections:
+great &lt;- getGreatCircle(Paris, Melbourne)
+lines(great, col=&quot;skyblue&quot;, lwd=2)
+great &lt;- getGreatCircle(Buenos_aires, Melbourne)
+lines(great, col=&quot;skyblue&quot;, lwd=2)
+great &lt;- getGreatCircle(Paris, Buenos_aires)
+lines(great, col=&quot;skyblue&quot;, lwd=2)
+
+# City names and dots
+points(x=data$long, y=data$lat, col=&quot;slateblue&quot;, cex=3, pch=20)
+text(rownames(data), x=data$long, y=data$lat,  col=&quot;slateblue&quot;, cex=1, pos=4)</code></pre>
+<p><img src="/posts/2022-08-15-draw-connecting-routes/index.en-us_files/figure-html/greatcircle-1.png" width="672" /></p>
+</div>
+<div id="reference" class="section level1">
+<h1>Reference<br />
+</h1>
+<ol style="list-style-type: decimal">
+<li><a href="https://r-graph-gallery.com/how-to-draw-connecting-routes-on-map-with-r-and-great-circles.html" class="uri">https://r-graph-gallery.com/how-to-draw-connecting-routes-on-map-with-r-and-great-circles.html</a></li>
+<li><a href="https://cran.r-project.org/web/packages/maps/maps.pdf" class="uri">https://cran.r-project.org/web/packages/maps/maps.pdf</a></li>
+</ol>
+</div>

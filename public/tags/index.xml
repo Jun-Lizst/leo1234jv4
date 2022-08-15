@@ -53,20 +53,29 @@
     </item>
     
     <item>
-      <title>tag1</title>
-      <link>https://leoj.xyz/tags/tag1/</link>
+      <title>CIBR</title>
+      <link>https://leoj.xyz/tags/cibr/</link>
       <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
       
-      <guid>https://leoj.xyz/tags/tag1/</guid>
+      <guid>https://leoj.xyz/tags/cibr/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tag2</title>
-      <link>https://leoj.xyz/tags/tag2/</link>
+      <title>HZAU</title>
+      <link>https://leoj.xyz/tags/hzau/</link>
       <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
       
-      <guid>https://leoj.xyz/tags/tag2/</guid>
+      <guid>https://leoj.xyz/tags/hzau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PKU</title>
+      <link>https://leoj.xyz/tags/pku/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tags/pku/</guid>
       <description></description>
     </item>
     
@@ -89,29 +98,20 @@
     </item>
     
     <item>
-      <title>plot</title>
-      <link>https://leoj.xyz/tags/plot/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>atlas</title>
+      <link>https://leoj.xyz/tags/atlas/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/tags/plot/</guid>
+      <guid>https://leoj.xyz/tags/atlas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>https://leoj.xyz/tags/r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>ggplot2</title>
+      <link>https://leoj.xyz/tags/ggplot2/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://leoj.xyz/tags/regression/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://leoj.xyz/tags/regression/</guid>
+      <guid>https://leoj.xyz/tags/ggplot2/</guid>
       <description></description>
     </item>
     
@@ -125,182 +125,47 @@
     </item>
     
     <item>
-      <title>disqus</title>
-      <link>https://leoj.xyz/tags/disqus/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>brain-oscillation</title>
+      <link>https://leoj.xyz/tags/brain-oscillation/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/tags/disqus/</guid>
+      <guid>https://leoj.xyz/tags/brain-oscillation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>google analytics</title>
-      <link>https://leoj.xyz/tags/google-analytics/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>mini-review</title>
+      <link>https://leoj.xyz/tags/mini-review/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/tags/google-analytics/</guid>
+      <guid>https://leoj.xyz/tags/mini-review/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gravatar</title>
-      <link>https://leoj.xyz/tags/gravatar/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>sleep</title>
+      <link>https://leoj.xyz/tags/sleep/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/tags/gravatar/</guid>
+      <guid>https://leoj.xyz/tags/sleep/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hexo theme</title>
-      <link>https://leoj.xyz/tags/hexo-theme/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>2d density</title>
+      <link>https://leoj.xyz/tags/2d-density/</link>
+      <pubDate>Wed, 01 May 2019 21:13:14 -0500</pubDate>
       
-      <guid>https://leoj.xyz/tags/hexo-theme/</guid>
+      <guid>https://leoj.xyz/tags/2d-density/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>responsive</title>
-      <link>https://leoj.xyz/tags/responsive/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>R Markdown</title>
+      <link>https://leoj.xyz/tags/r-markdown/</link>
+      <pubDate>Wed, 01 May 2019 21:13:14 -0500</pubDate>
       
-      <guid>https://leoj.xyz/tags/responsive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html elements</title>
-      <link>https://leoj.xyz/tags/html-elements/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/html-elements/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://leoj.xyz/tags/markdown/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cover image</title>
-      <link>https://leoj.xyz/tags/cover-image/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/cover-image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github theme</title>
-      <link>https://leoj.xyz/tags/github-theme/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/github-theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>highlight code</title>
-      <link>https://leoj.xyz/tags/highlight-code/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/highlight-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://leoj.xyz/tags/test/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag plugins</title>
-      <link>https://leoj.xyz/tags/tag-plugins/</link>
-      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/tag-plugins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>social</title>
-      <link>https://leoj.xyz/tags/social/</link>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/social/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tags</title>
-      <link>https://leoj.xyz/tags/tags/</link>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pagination</title>
-      <link>https://leoj.xyz/tags/pagination/</link>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/pagination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dailymotion</title>
-      <link>https://leoj.xyz/tags/dailymotion/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/dailymotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>videos integration</title>
-      <link>https://leoj.xyz/tags/videos-integration/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/videos-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vimeo</title>
-      <link>https://leoj.xyz/tags/vimeo/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/vimeo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://leoj.xyz/tags/youtube/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/youtube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>image gallery</title>
-      <link>https://leoj.xyz/tags/image-gallery/</link>
-      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://leoj.xyz/tags/image-gallery/</guid>
+      <guid>https://leoj.xyz/tags/r-markdown/</guid>
       <description></description>
     </item>
     

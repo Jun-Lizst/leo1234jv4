@@ -32,9 +32,9 @@ showActions:    false
 
 5. Gao X#, **Li JL**, Chen X, Ci B, Chen F, Lu N, Shen B, Zheng L, Jia J, Yi Y, Zhang S, Shi Y, Shi K, Propson NE, Huang Y, Poinsatte K, Zhang Z, Yue Y, Bosco DB, Lu YM, Yang SB, Adams RF, Lindner V, Huang F, Wu LJ, Zheng H, Han F, Hippenmeyer S, Stowe AM, Peng B, Margeta M, Wang X, Liu Q, Korbelin J, Trepel M, Lu H, Zhou BO, Zhao H, Sun W, Bachoo RM, Ge WP✝ (9/15/2020) Reduction of neuronal activity mediated by blood-vessel regression in the brain. **BioRxiv** (PDF) [Link](https://www.biorxiv.org/content/10.1101/2020.09.15.262782v1) _**Second author**_
 
-6. Wentong Hong# , Zhonggan Ren# , Pifang Gong# , Jun-Liszt Li. Wenzhi Sun, Woo-PingGe, Chun-Li Zhang, Shumin Duan, Song Qin✝ (2020) Temporal-spatial generation of astrocytes in the developing diencephalon; **J. Neurosci**, under review; _**Second author**_
+6. Wentong Hong# , Zhonggan Ren# , Pifang Gong# , **Jun-Liszt Li**. Wenzhi Sun, Woo-PingGe, Chun-Li Zhang, Shumin Duan, Song Qin✝ (2020) Temporal-spatial generation of astrocytes in the developing diencephalon; **J. Neurosci**, under review; _**Second author**_
 
-7. Beal J, Haddock-Angelli T, Gershater M, de Mora K, Lizarazo M, Hollenhorst J, Randy Rettberg✝,**iGEM interlab Study Contributors** (2016) Reproducibility of Fluorescent Expression from Engineered Biological Constructs in E. coli. PLoS 7NE 11(3): e0150182. doiV10.13•1vjournal.pone.0150182 2015 iGEM Interlab Study Contributors: HZAU-China: Pan Chu, **Jun Li**, Keji Yan [Link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150182)
+7. Beal J, Haddock-Angelli T, Gershater M, de Mora K, Lizarazo M, Hollenhorst J, Randy Rettberg✝,**iGEM interlab Study Contributors** (2016) Reproducibility of Fluorescent Expression from Engineered Biological Constructs in E. coli. PLoS 7NE 11(3): e0150182. doiV10.13•1vjournal.pone.0150182 2015 iGEM Interlab Study Contributors: HZAU-China: Pan Chu, **Jun Li(Jun-Liszt Li)**, Keji Yan [Link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150182)
  
 
 # Academic Publications

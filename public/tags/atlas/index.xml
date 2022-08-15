@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>atlas on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/atlas/</link>
+    <description>Recent content in atlas on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leoj.xyz/tags/atlas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Draw connecting routes on map with R</title>
+      <link>https://leoj.xyz/2022/08/15/index.en-us/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/2022/08/15/index.en-us/</guid>
+      <description>
+
+
+&lt;p&gt;Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

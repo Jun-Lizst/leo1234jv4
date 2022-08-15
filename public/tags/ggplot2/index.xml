@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot2 on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/ggplot2/</link>
+    <description>Recent content in ggplot2 on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leoj.xyz/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Draw connecting routes on map with R</title>
+      <link>https://leoj.xyz/2022/08/15/index.en-us/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/2022/08/15/index.en-us/</guid>
+      <description>
+
+
+&lt;p&gt;Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R plot 2d pixel</title>
+      <link>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</link>
+      <pubDate>Wed, 01 May 2019 21:13:14 -0500</pubDate>
+      
+      <guid>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</guid>
+      <description>2d density plot with ggplot2A 2d density plot is useful to study the relationship between 2 numeric variables if you have a huge number of points.
+To avoid overlapping (as in the scatterplot beside), it divides the plot area in a multitude of small fragment and represents the number of points in this fragment.
+There are several types of 2d density plots. Each has its proper ggplot2 function. This post describes all of them.</description>
+    </item>
+    
+  </channel>
+</rss>

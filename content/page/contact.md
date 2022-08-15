@@ -16,12 +16,12 @@ showActions:    false
 ---
 
 
-![leo1234jxwqexxs](/images/cover-v1.2.0.jpg)
+![leo1234jxwqexxs](/img/cover2.jpg)
 
 Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
 
 
- 
+
 
 ## Email
 

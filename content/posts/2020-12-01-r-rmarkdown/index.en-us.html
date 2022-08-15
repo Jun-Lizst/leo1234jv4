@@ -1,49 +1,108 @@
 ---
-title: "Hello Jun-Liszt Li"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
+title: "R plot 2d pixel"
+author: "Jun-Liszt Li"
+date: 2019-05-01T21:13:14-05:00
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["R Markdown", "2d density", "ggplot2"]
 ---
 
 
 
-<div id="r-markdown" class="section level1">
-<h1>R Markdown</h1>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<div id="d-density-plot-with-ggplot2" class="section level1">
+<h1>2d density plot with ggplot2</h1>
+<p>A 2d density plot is useful to study the relationship between 2 numeric variables if you have a huge number of points.</p>
+<p>To avoid overlapping (as in the scatterplot beside), it divides the plot area in a multitude of small fragment and represents the number of points in this fragment.</p>
+<p>There are several types of 2d density plots. Each has its proper ggplot2 function. This post describes all of them.</p>
 <p>You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932</code></pre>
+<pre class="r"><code># Library
+library(tidyverse)
+## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
+## v ggplot2 3.3.5     v purrr   0.3.4
+## v tibble  3.1.6     v dplyr   1.0.7
+## v tidyr   1.1.4     v stringr 1.4.0
+## v readr   2.1.1     v forcats 0.5.1
+## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+ 
+# Data
+a &lt;- data.frame( x=rnorm(20000, 10, 1.9), y=rnorm(20000, 10, 1.2) )
+b &lt;- data.frame( x=rnorm(20000, 14.5, 1.9), y=rnorm(20000, 14.5, 1.9) )
+c &lt;- data.frame( x=rnorm(20000, 9.5, 1.9), y=rnorm(20000, 15.5, 1.9) )
+data &lt;- rbind(a,b,c)
+ 
+ 
+# Basic scatterplot
+ggplot(data, aes(x=x, y=y) ) +
+  geom_point()</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/2d-1.png" width="672" /></p>
+<pre class="r"><code>library(ggplot2)
+# Show the contour only
+ggplot(data, aes(x=x, y=y) ) +
+  geom_density_2d()</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/2d-2.png" width="672" /></p>
+<pre class="r"><code> 
+# Show the area only
+ggplot(data, aes(x=x, y=y) ) +
+  stat_density_2d(aes(fill = ..level..), geom = &quot;polygon&quot;)</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/2d-3.png" width="672" /></p>
+<pre class="r"><code> 
+# Area + contour
+ggplot(data, aes(x=x, y=y) ) +
+  stat_density_2d(aes(fill = ..level..), geom = &quot;polygon&quot;, colour=&quot;white&quot;)</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/2d-4.png" width="672" /></p>
+<pre class="r"><code> 
+# Using raster
+ggplot(data, aes(x=x, y=y) ) +
+  stat_density_2d(aes(fill = ..density..), geom = &quot;raster&quot;, contour = FALSE) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(
+    legend.position=&#39;none&#39;
+  )</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/2d-5.png" width="672" /></p>
 </div>
-<div id="including-plots" class="section level1">
-<h1>Including Plots</h1>
-<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<pre class="r"><code>par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)</code></pre>
-<div class="figure"><span style="display:block;" id="fig:pie"></span>
-<img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
-<p class="caption">
-Figure 1: A fancy pie chart.
-</p>
+<div id="customize-the-color-palette" class="section level1">
+<h1>Customize the color palette</h1>
+<p>Whatever you use a 2d histogram, a hexbin chart or a 2d distribution, you can and should custom the colour of your chart. Here is a suggestion using the scale_fill_distiller() function. You can see other methods in the ggplot2 section of the gallery.</p>
+<pre class="r"><code># Call the palette with a number
+ggplot(data, aes(x=x, y=y) ) +
+  stat_density_2d(aes(fill = ..density..), geom = &quot;raster&quot;, contour = FALSE) +
+  scale_fill_distiller(palette=4, direction=-1) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(
+    legend.position=&#39;none&#39;
+  )</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/color-1.png" width="672" /></p>
+<pre class="r"><code> 
+# The direction argument allows to reverse the palette
+ggplot(data, aes(x=x, y=y) ) +
+  stat_density_2d(aes(fill = ..density..), geom = &quot;raster&quot;, contour = FALSE) +
+  scale_fill_distiller(palette=4, direction=1) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(
+    legend.position=&#39;none&#39;
+  )</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/color-2.png" width="672" /></p>
+<pre class="r"><code> 
+# You can also call the palette using a name.
+ggplot(data, aes(x=x, y=y) ) +
+  stat_density_2d(aes(fill = ..density..), geom = &quot;raster&quot;, contour = FALSE) +
+  scale_fill_distiller(palette= &quot;Spectral&quot;, direction=1) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(
+    legend.position=&#39;none&#39;
+  )</code></pre>
+<p><img src="/posts/2020-12-01-r-rmarkdown/index.en-us_files/figure-html/color-3.png" width="672" /></p>
 </div>
+<div id="reference" class="section level1">
+<h1>Reference<br />
+</h1>
+<ol style="list-style-type: decimal">
+<li><a href="https://r-graph-gallery.com/2d-density-plot-with-ggplot2.html#hex" class="uri">https://r-graph-gallery.com/2d-density-plot-with-ggplot2.html#hex</a></li>
+<li><a href="https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf" class="uri">https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf</a></li>
+</ol>
 </div>

@@ -44,10 +44,13 @@
     <loc>https://leoj.xyz/page/about/</loc>
     <lastmod>2022-08-15T15:15:42+08:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/tag1/</loc>
+    <loc>https://leoj.xyz/tags/cibr/</loc>
     <lastmod>2022-08-15T15:15:42+08:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/tag2/</loc>
+    <loc>https://leoj.xyz/tags/hzau/</loc>
+    <lastmod>2022-08-15T15:15:42+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/pku/</loc>
     <lastmod>2022-08-15T15:15:42+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/page/contact/</loc>
@@ -59,28 +62,25 @@
     <loc>https://leoj.xyz/tags/twitter/</loc>
     <lastmod>2022-08-15T15:10:15+08:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/2020/12/01/hello-jun-liszt-li/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://leoj.xyz/tags/atlas/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://leoj.xyz/2022/08/15/index.en-us/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/ggplot2/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/posts/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/beijing-china/</loc>
-    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/brain-atlas/</loc>
+    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/categories/by-jun-liszt-li/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/cibr/</loc>
@@ -89,110 +89,29 @@
     <loc>https://leoj.xyz/2020/04/28/%E5%A4%A7%E8%84%91%E8%BF%9E%E6%8E%A5%E5%9B%BE%E8%B0%B1%E7%9A%84%E8%A3%81%E7%BC%9D-%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%BE%AE%E8%A7%82%E8%84%91%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%87%8D%E5%BB%BA%E4%B8%8E%E4%BF%AE%E6%AD%A3/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/disqus/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/tags/brain-oscillation/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/google-analytics/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/tags/mini-review/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/gravatar/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/categories/pku/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/hexo-theme/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/tags/sleep/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/categories/releases/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/tags/responsive/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/tags/2d-density/</loc>
+    <lastmod>2019-05-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/categories/tranquilpeak/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/tags/r-markdown/</loc>
+    <lastmod>2019-05-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/2015/06/15/welcome-to-tranquilpeak-0.5.3-beta/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/showcase/</loc>
-    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2015/06/14/who-is-using-tranquilpeak-hugo-theme/</loc>
-    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2015/05/28/elements-showcase/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/html-elements/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/markdown/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/cover-image/</loc>
-    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2015/05/13/cover-image-showcase/</loc>
-    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/github-theme/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/highlight-code/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2015/03/23/highlighted-code-showcase/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/test/</loc>
-    <lastmod>2015-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/tag-plugins/</loc>
-    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2014/10/29/tags-plugins-showcase/</loc>
-    <lastmod>2014-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2014/08/17/hidden-social-section-showcase/</loc>
-    <lastmod>2014-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/social/</loc>
-    <lastmod>2014-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2014/08/16/hidden-tag-section-showcase/</loc>
-    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/tags/</loc>
-    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2014/08/15/hidden-pagination-showcase/</loc>
-    <lastmod>2014-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/pagination/</loc>
-    <lastmod>2014-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/dailymotion/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2014/08/09/video-integrations-showcase/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/videos-integration/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/vimeo/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/youtube/</loc>
-    <lastmod>2014-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/image-gallery/</loc>
-    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/2013/02/18/image-gallery-showcase/</loc>
-    <lastmod>2013-02-18T00:00:00+00:00</lastmod>
+    <loc>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</loc>
+    <lastmod>2019-05-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/archives/</loc>
   </url>
