@@ -45,7 +45,7 @@ menu:
     - identifier: blog
       name: Blog
       pre: <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
-      url: /
+      url: /posts
       weight: 4
     - identifier: categories
       name: Categories
