@@ -18,8 +18,8 @@ showActions:    false
 
 # Journal Publications
 
-#: First author\
-✝: corresponding author
+**#: First author**\
+**✝: corresponding author**
 
 
 1. Lian Liu#, Linzhi Zou#, Kuan Li#, Hanqing Hou, Qun Hu, Shuang Liu, Jie Li, Chenmeng Song, Jiaofeng Chen, Shufeng Wang, Yangzhen Wang, Changri Li, Haibo Du, **Jun-Liszt Li**, Fangyi Chen, Zhigang Xu, Wenzhi Sun, Qianwen Sun, Wei Xiong✝ (2022) Template-independent genome editing in the Pcdh15av−3j mouse, a model of human DFNB23 nonsyndromic deafness. **Cell Reports** [Link](https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00859-2)
@@ -28,7 +28,7 @@ showActions:    false
 
 3. Huanhuan Pang#, **Jun-Liszt Li#**, Xiaoling Hu, Fei Chen, Xiaofei Gao, Lauren Zacharias, Ralph Deberardinis, Wenzhi Sun✝, Zeping Hu✝, Woo-Ping Ge✝ (12/28/2020) Precision mapping of the mouse brain metabolome. **BioRxiv** ([Shiny app](https://leoj.shinyapps.io/BSMAv1_updated/)) [Link](https://www.biorxiv.org/content/10.1101/2020.12.28.424544v1.full)  _**Co-first author**_
 
-4. Lian Liu#, Kuan Li#, Linzhi Zou, Hanqing Hou, Qun Hu, Shuang Liu, Shufeng Wang, Yangzhen Wang, Jie Li, Chenmeng Song, Jiaofeng Chen, Changri Li, Haibo Du, Jun-Liszt Li, Fangyi Chen, Zhigang Xu, Wenzhi Sun, Qianwen Sun✝, Wei Xiong✝ (2020) Template-independent genome editing and repairing correct frameshift disease in vivo​. **BioRxiv** [Link](https://www.biorxiv.org/content/10.1101/2020.11.13.381160v1.abstract) 
+4. Lian Liu#, Kuan Li#, Linzhi Zou, Hanqing Hou, Qun Hu, Shuang Liu, Shufeng Wang, Yangzhen Wang, Jie Li, Chenmeng Song, Jiaofeng Chen, Changri Li, Haibo Du, **Jun-Liszt Li**, Fangyi Chen, Zhigang Xu, Wenzhi Sun, Qianwen Sun✝, Wei Xiong✝ (2020) Template-independent genome editing and repairing correct frameshift disease in vivo​. **BioRxiv** [Link](https://www.biorxiv.org/content/10.1101/2020.11.13.381160v1.abstract) 
 
 5. Gao X#, **Li JL**, Chen X, Ci B, Chen F, Lu N, Shen B, Zheng L, Jia J, Yi Y, Zhang S, Shi Y, Shi K, Propson NE, Huang Y, Poinsatte K, Zhang Z, Yue Y, Bosco DB, Lu YM, Yang SB, Adams RF, Lindner V, Huang F, Wu LJ, Zheng H, Han F, Hippenmeyer S, Stowe AM, Peng B, Margeta M, Wang X, Liu Q, Korbelin J, Trepel M, Lu H, Zhou BO, Zhao H, Sun W, Bachoo RM, Ge WP✝ (9/15/2020) Reduction of neuronal activity mediated by blood-vessel regression in the brain. **BioRxiv** (PDF) [Link](https://www.biorxiv.org/content/10.1101/2020.09.15.262782v1) _**Second author**_
 
