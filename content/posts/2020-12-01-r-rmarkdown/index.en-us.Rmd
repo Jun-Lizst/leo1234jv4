@@ -1,24 +1,26 @@
 ---
-title: "R plot 2d pixel"
+title: "R plot 2d density"
 author: "Jun-Liszt Li"
 date: 2019-05-01T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "2d density", "ggplot2"]
+thumbnailImage: /img/R_dw_001.png
+thumbnailImagePosition: left
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# 2d density plot with ggplot2
+# a 2d density plot using ggplot2
 
-A 2d density plot is useful to study the relationship between 2 numeric variables if you have a huge number of points.
+If you have a large number of points, a 2d density plot is helpful for examining the connection between 2 numerical variables.
 
-To avoid overlapping (as in the scatterplot beside), it divides the plot area in a multitude of small fragment and represents the number of points in this fragment.
+It divides the plot area into several little fragments to prevent overlapping (as in the scatterplot next to it) and shows the number of points in each fragment.
 
-There are several types of 2d density plots. Each has its proper ggplot2 function. This post describes all of them.
+Different kinds of 2D density graphs exist. Everyone has the appropriate ggplot2 function. All of them are discussed in this post.
 
-You can embed an R code chunk like this:
+This is how you can insert a R code chunk:
 
 ```{r 2d}
 # Library
@@ -57,9 +59,9 @@ ggplot(data, aes(x=x, y=y) ) +
   )
 ```
 
-# Customize the color palette
+# Alter the color palette.
 
-Whatever you use a 2d histogram, a hexbin chart or a 2d distribution, you can and should custom the colour of your chart. Here is a suggestion using the scale_fill_distiller() function. You can see other methods in the ggplot2 section of the gallery.
+You can and should customize the color of your chart regardless of whether you use a 2D histogram, a hexbin chart, or a 2D distribution. The scale fill distiller() method is used in the following recommendation. The ggplot2 portion of the collection contains examples of further techniques.
 
 ```{r color}
 # Call the palette with a number

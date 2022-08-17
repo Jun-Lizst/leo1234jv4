@@ -8,15 +8,17 @@ categories:
 tags:
   - atlas
   - ggplot2
+thumbnailImage: /img/R_dw_001.png
+thumbnailImagePosition: left
 ---
 
 
 
-<p>Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.</p>
+<p>Let’s start with a background of a world map. Fortunately, the maps library includes a world shape. It is simple to plot using the map() function, which takes a few arguments for customization.</p>
 <!--more-->
 <div id="draw-an-empty-map" class="section level1">
 <h1>Draw an empty map</h1>
-<p>Note: visit the background map section if you want to discover more options to build map in R.</p>
+<p>Note: If you want to learn more about building maps in R, go to the background map section.</p>
 <pre class="r"><code># World map is available in the maps package
 library(maps)
 
@@ -32,7 +34,7 @@ map(&#39;world&#39;,
 </div>
 <div id="add-three-cities" class="section level1">
 <h1>Add three cities</h1>
-<p>It’s relatively straightforward to add circles at specific positions using the points() function. The hardest part is probably to find out the longitute and latitude of the cities you are interested in.</p>
+<p>Using the points() function, you can easily add circles at specific locations. The most difficult part will most likely be determining the longitude and latitude of the cities of interest.</p>
 <pre class="r"><code># Dplyr for data wrangling and pipe function
 library(dplyr)
 ## 
@@ -65,7 +67,7 @@ points(x=data$long, y=data$lat, col=&quot;slateblue&quot;, cex=3, pch=20)</code>
 <div id="show-connection-between-cities" class="section level1">
 <h1>Show connection between cities</h1>
 <p>Now we can connect cities drawing the shortest route between them. This is done using great circles, what gives a better visualization than using straight lines.</p>
-<p>The geosphere package provides the gcIntermediate() function that computes the path. This path can then be plotted using the lines() function.</p>
+<p>The gcIntermediate() function, which calculates the path, is available in the geosphere package. The lines() method can then be used to plot this path.</p>
 <pre class="r"><code># Load geosphere
 library(geosphere)
 
@@ -91,8 +93,8 @@ lines(inter, col=&quot;slateblue&quot;, lwd=2)</code></pre>
 </div>
 <div id="apply-it-to-several-pairs-of-cities" class="section level1">
 <h1>Apply it to several pairs of cities</h1>
-<p>If we want to plot many connections, it is totally doable to build a for loop that draws them one by one.</p>
-<p>Moreover, note the use of the text function to add city names.</p>
+<p>Building a for loop that draws connections one at a time is quite feasible if we want to plot a large number of connections.</p>
+<p>Additionally, take notice of how city names were added using the text function.</p>
 <pre class="r"><code># A function to plot connections
 plot_my_connection=function( dep_lon, dep_lat, arr_lon, arr_lat, ...){
     inter &lt;- gcIntermediate(c(dep_lon, dep_lat), c(arr_lon, arr_lat), n=50, addStartEnd=TRUE, breakAtDateLine=F)             
@@ -139,8 +141,8 @@ text(rownames(data), x=data$long, y=data$lat,  col=&quot;slateblue&quot;, cex=1,
 </div>
 <div id="an-alternative-using-the-greatcircle-function" class="section level1">
 <h1>An alternative using the greatCircle function</h1>
-<p>This is the method suggested by the Simply Statistics Blog to draw a twitter connection map.</p>
-<p>The idea is to calculate the whole great circle, and keep only the part that stays in front of the map, never going behind it.</p>
+<p>This approach is recommended by the Simply Statistics Blog for creating a twitter relationship map.</p>
+<p>Calculating the entire great circle is intended, and only that portion should be kept because it never crosses over onto the back of the map.</p>
 <pre class="r"><code># A function that keeps the good part of the great circle, by Jeff Leek:
 getGreatCircle &lt;- function(userLL,relationLL){
   tmpCircle = greatCircle(userLL,relationLL, n=200)

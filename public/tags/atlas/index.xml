@@ -16,7 +16,7 @@
       <description>
 
 
-&lt;p&gt;Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.&lt;/p&gt;
+&lt;p&gt;Let’s start with a background of a world map. Fortunately, the maps library includes a world shape. It is simple to plot using the map() function, which takes a few arguments for customization.&lt;/p&gt;
 </description>
     </item>
     

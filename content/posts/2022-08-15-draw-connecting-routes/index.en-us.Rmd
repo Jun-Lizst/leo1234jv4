@@ -8,6 +8,8 @@ categories:
 tags:
   - atlas
   - ggplot2
+thumbnailImage: /img/R_dw_001.png
+thumbnailImagePosition: left
 ---
 
 ```{r setup, include=FALSE}
@@ -15,13 +17,13 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 
-Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.
+Let's start with a background of a world map. Fortunately, the maps library includes a world shape. It is simple to plot using the map() function, which takes a few arguments for customization.
 
 <!--more-->
 
 # Draw an empty map
 
-Note: visit the background map section if you want to discover more options to build map in R.
+Note: If you want to learn more about building maps in R, go to the background map section.
 
 ```{r map}
 # World map is available in the maps package
@@ -39,7 +41,7 @@ map('world',
 
 # Add three cities
 
-It’s relatively straightforward to add circles at specific positions using the points() function. The hardest part is probably to find out the longitute and latitude of the cities you are interested in.
+Using the points() function, you can easily add circles at specific locations. The most difficult part will most likely be determining the longitude and latitude of the cities of interest.
 
 ```{r cities}
 # Dplyr for data wrangling and pipe function
@@ -67,7 +69,7 @@ points(x=data$long, y=data$lat, col="slateblue", cex=3, pch=20)
 
 Now we can connect cities drawing the shortest route between them. This is done using great circles, what gives a better visualization than using straight lines.
 
-The geosphere package provides the gcIntermediate() function that computes the path. This path can then be plotted using the lines() function.
+The gcIntermediate() function, which calculates the path, is available in the geosphere package. The lines() method can then be used to plot this path.
 
 ```{r geosphere}
 # Load geosphere
@@ -95,9 +97,9 @@ lines(inter, col="slateblue", lwd=2)
 
 # Apply it to several pairs of cities
 
-If we want to plot many connections, it is totally doable to build a for loop that draws them one by one.
+Building a for loop that draws connections one at a time is quite feasible if we want to plot a large number of connections.
 
-Moreover, note the use of the text function to add city names.
+Additionally, take notice of how city names were added using the text function.
 
 ```{r paircity}
 # A function to plot connections
@@ -146,9 +148,9 @@ text(rownames(data), x=data$long, y=data$lat,  col="slateblue", cex=1, pos=4)
 
 # An alternative using the greatCircle function
 
-This is the method suggested by the Simply Statistics Blog to draw a twitter connection map.
+This approach is recommended by the Simply Statistics Blog for creating a twitter relationship map.
 
-The idea is to calculate the whole great circle, and keep only the part that stays in front of the map, never going behind it.
+Calculating the entire great circle is intended, and only that portion should be kept because it never crosses over onto the back of the map.
 
 ```{r greatcircle}
 # A function that keeps the good part of the great circle, by Jeff Leek:

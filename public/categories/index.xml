@@ -44,11 +44,11 @@
     </item>
     
     <item>
-      <title>CIBR</title>
-      <link>https://leoj.xyz/categories/cibr/</link>
+      <title>CIBR talks</title>
+      <link>https://leoj.xyz/categories/cibr-talks/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/categories/cibr/</guid>
+      <guid>https://leoj.xyz/categories/cibr-talks/</guid>
       <description></description>
     </item>
     
@@ -58,6 +58,15 @@
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leoj.xyz/categories/pku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CIBR</title>
+      <link>https://leoj.xyz/categories/cibr/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/categories/cibr/</guid>
       <description></description>
     </item>
     

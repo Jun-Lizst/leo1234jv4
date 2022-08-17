@@ -16,41 +16,52 @@
       <description>
 
 
-&lt;p&gt;Let’s start by drawing a world map backgroud. Fortunately, the world shape is provided by the maps library. It can easily be plotted using the map() function that accepts a few arguments for customization.&lt;/p&gt;
+&lt;p&gt;Let’s start with a background of a world map. Fortunately, the maps library includes a world shape. It is simple to plot using the map() function, which takes a few arguments for customization.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>大脑连接图谱的“裁缝” ：大规模微观脑图谱的重建与修正</title>
-      <link>https://leoj.xyz/2020/04/28/%E5%A4%A7%E8%84%91%E8%BF%9E%E6%8E%A5%E5%9B%BE%E8%B0%B1%E7%9A%84%E8%A3%81%E7%BC%9D-%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%BE%AE%E8%A7%82%E8%84%91%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%87%8D%E5%BB%BA%E4%B8%8E%E4%BF%AE%E6%AD%A3/</link>
+      <title>Tailoring the brain connectivity atlas: reconstruction and revision of large-scale microscopic brain atlas</title>
+      <link>https://leoj.xyz/2020/04/28/tailoring-the-brain-connectivity-atlas-reconstruction-and-revision-of-large-scale-microscopic-brain-atlas/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://leoj.xyz/2020/04/28/%E5%A4%A7%E8%84%91%E8%BF%9E%E6%8E%A5%E5%9B%BE%E8%B0%B1%E7%9A%84%E8%A3%81%E7%BC%9D-%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%BE%AE%E8%A7%82%E8%84%91%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%87%8D%E5%BB%BA%E4%B8%8E%E4%BF%AE%E6%AD%A3/</guid>
+      <guid>https://leoj.xyz/2020/04/28/tailoring-the-brain-connectivity-atlas-reconstruction-and-revision-of-large-scale-microscopic-brain-atlas/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;在复杂生物系统里，往往研究对象的结构决定着其功能。神经网络系统亦是如此。为了理解动物大脑网络结构的复杂性及其潜在的功能，在目前的大脑计划中，脑图谱的绘制是重要的目标之一。&lt;/p&gt;
+&lt;p&gt;In complex biological systems, it is often the structure of the object of study that determines its function. This is also true for neural network systems. In order to understand the complexity of the structure of animal brain networks and their potential functions, brain mapping is one of the important goals in the current brain project.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
     <item>
-      <title>The Origin and function of brain oscillation</title>
+      <title>The origin and function of brain oscillation</title>
       <link>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Since neurobiologist Hans Berger from German first reported spontaneous rhythmic variations in the human electroencephalogram [Berger 1929]. Many researchers become fascinated with this phenomenon and try to uncover its mystery. This rhythmic variations in brain is generally referred to brain oscillation.&lt;/p&gt;
+&lt;p&gt;Since German neurobiologist Hans Berger first documented spontaneous rhythmic fluctuations in the human electroencephalogram. Many scholars become captivated by this phenomena and attempt to unravel its secret. This periodic change in the brain is known as brain oscillation.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
     <item>
-      <title>R plot 2d pixel</title>
-      <link>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</link>
+      <title>R plot 2d density</title>
+      <link>https://leoj.xyz/2019/05/01/r-plot-2d-density/</link>
       <pubDate>Wed, 01 May 2019 21:13:14 -0500</pubDate>
       
-      <guid>https://leoj.xyz/2019/05/01/r-plot-2d-pixel/</guid>
-      <description>2d density plot with ggplot2A 2d density plot is useful to study the relationship between 2 numeric variables if you have a huge number of points.
-To avoid overlapping (as in the scatterplot beside), it divides the plot area in a multitude of small fragment and represents the number of points in this fragment.
-There are several types of 2d density plots. Each has its proper ggplot2 function. This post describes all of them.</description>
+      <guid>https://leoj.xyz/2019/05/01/r-plot-2d-density/</guid>
+      <description>a 2d density plot using ggplot2If you have a large number of points, a 2d density plot is helpful for examining the connection between 2 numerical variables.
+It divides the plot area into several little fragments to prevent overlapping (as in the scatterplot next to it) and shows the number of points in each fragment.
+Different kinds of 2D density graphs exist. Everyone has the appropriate ggplot2 function. All of them are discussed in this post.</description>
+    </item>
+    
+    <item>
+      <title>Summary report of attending SEU-Allen NRA International Workshop</title>
+      <link>https://leoj.xyz/2018/09/25/index.en-us/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/2018/09/25/index.en-us/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The primary focus of this meeting is to bring together expert neuroanatomists and computer scientists from different organizations to discuss cutting-edge research and applications on brain-wide reconstructions of neuron morphologies from whole-brain imaging datasets. Specifically, discussions will focus on effective data management, reconstruction workflows and common data quality and format standards for data sharing and reuse of manual, semi-automatic, and fully automatic neuron reconstructions at different organizations and at different resolution scales.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

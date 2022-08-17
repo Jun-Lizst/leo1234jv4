@@ -9,25 +9,25 @@ tags:
 - brain-oscillation
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg
 thumbnailImagePosition: left
-title: The Origin and function of brain oscillation
+title: The origin and function of brain oscillation
 ---
 
-> Since neurobiologist Hans Berger from German first reported spontaneous rhythmic variations in the human electroencephalogram [Berger 1929]. Many researchers become fascinated with this phenomenon and try to uncover its mystery. This rhythmic variations in brain is generally referred to brain oscillation.
+> Since German neurobiologist Hans Berger first documented spontaneous rhythmic fluctuations in the human electroencephalogram. Many scholars become captivated by this phenomena and attempt to unravel its secret. This periodic change in the brain is known as brain oscillation.
 
 <!--more-->
 
 # Abstract
 
-Since neurobiologist Hans Berger from German first reported spontaneous rhythmic variations in the human electroencephalogram [Berger 1929]. Many researchers become fascinated with this phenomenon and try to uncover its mystery. This rhythmic variations in brain is generally referred to brain oscillation. Here, I reviewed the brain oscillation in two aspect. One is the origin of brain oscillation, the generation mechanism of different oscillation types. The other is the function of brain oscillation, several cognitive functions that the brain oscillation involved.
+Hans Berger, a German neurobiologist, was the first to observe spontaneous rhythmic fluctuations in the human electroencephalogram [Berger 1929]. Many scholars become intrigued by this phenomena and attempt to unravel its secret. Brain oscillation is the term used to describe these periodic fluctuations in the brain. In this section, I will look at the brain oscillation from two perspectives. One is the origin of brain oscillation, which is the process that generates different forms of oscillation. The other is the function of brain oscillation, which involves various cognitive activities.
 
 
 # Introduction
 
-Around 1929, neurobiologist Hans Berger from German first reported spontaneous rhythmic variations in the human electroencephalogram [Berger 1929]. After that, many scientists become interested in this phenomenon and start expand this field. Over the decades, a lot of studies, supported by largely improved electrical recording and analysis technology, have gathered a wealth of evidence that establish the causal relationship between the generation of different frequencies of specific brain oscillations and neuronal cellular property, network formation [Sanchezvives et al., 2000], specific cognitive function[Headley et al., 2017]. Neural oscillations was traditionally clustered into classical frequency bands according to result observed in human EEG researches, including delta (1–4 Hz), theta (4–8 Hz), alpha (8–12 Hz), beta (15–30 Hz), gamma (30–90 Hz), and high gamma (>50 Hz) [Cole et al., 2017].
+Around 1929, German neurobiologist Hans Berger reported the first spontaneous rhythmic fluctuations in the human electroencephalogram[[Berger 1929](https://link.springer.com/content/pdf/10.1007/BF01797193.pdf)]. Following that, many scientists became interested in this phenomenon and began to extend this field. Many studies have accumulated a wealth of evidence that establishes the causal relationship between the generation of different frequencies of specific brain oscillations and neuronal cellular property, network formation [[Sanchezvives et al., 2000](https://journals.physiology.org/doi/full/10.1152/physrev.00035.2008?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)], and specific cognitive function[[Headley et al., 2017]()]. According to the results of human EEG research, neural oscillations have historically been classified into five frequency bands: delta (1-4 Hz), theta (4-8 Hz), alpha (8-12 Hz), beta (15-30 Hz), gamma (30-90 Hz), and high gamma (>50 Hz)[[Cole et al., 2017](https://doi.org/10.1016/j.tics.2016.12.008)].
 
-# The Origin of brain oscillation
+# The origin of brain oscillation
 
-How does the brain oscillation being generated? This question may haunted the scientists decades. Although many researches have been done, there is still no complete and confirmed answer for that. Here I dissect the question into the following ones and will reviewed studies that answer the questions or related to that. 
+How is the brain oscillation generated? This question may have tormented scientists for decades. Despite numerous studies, there is still no complete and confirmed answer. Here, I will break down the question into the following sections and review research that address or are connected to the questions.
 
 **1. Are there central brain oscillation generated region and where?** 
 
@@ -37,8 +37,8 @@ How does the brain oscillation being generated? This question may haunted the sc
 
 **4. Did the different types of oscillation being generated in different mechanisms?** 
 
-Early studies in cat suggest that thalamus will be origin of brain rhythmic activity [Andersson et al., 1971a; 1971b]. Rhythmic slow wave activity has been recorded with multiple micro-electrode penetrations in the intact thalamus of the unanaesthetized cat. The result indicated that the occurrence of rhythmic activity is related to periodic excitability changes in many cells. The specialty of thalamus lies on the relay neuron found in this region which shows dramatic electrical property. The relay neurons demonstrate a dense distribution of **T type Ca2+ channels** in its soma and dendrites that initiation of IT(current) generally leads to an all-or- none Ca2+ spike[Sherman et al., 2009]. Such kind of firing modes are referred **tonic and burst firing**. 
-Interestingly, how does the T type Ca2+ channel give the cell such property? This should go back to the structure of T type Ca2+ channels, this structure contain a two voltage sensitive motif [Talavera et al., 2006] and show various behavior at a relatively hyperpolarized resting membrane potential (about -70 mV): One is the activation gate which is closed, while another is inactivation gate which is open. Therefore the T channel is deactivated and de-inactivated [Sherman et al., 2001; Scholarpedia].
+Early studies in cat suggest that thalamus will be origin of brain rhythmic activity[[Andersson et al., 1971a](https://doi.org/10.1016/0013-4694%2871%2990286-0)][[Andersson et al., 1971b](https://doi.org/10.1016/0013-4694(71)90229-X)]. Rhythmic slow wave activity has been recorded with multiple micro-electrode penetrations in the intact thalamus of the unanaesthetized cat. The result indicated that the occurrence of rhythmic activity is related to periodic excitability changes in many cells. The specialty of thalamus lies on the relay neuron found in this region which shows dramatic electrical property. The relay neurons demonstrate a dense distribution of **T type Ca2+ channels** in its soma and dendrites that initiation of IT(current) generally leads to an all-or- none Ca2+ spike[[Sherman et al., 2009](https://brainmaster.com/software/pubs/brain/Exploring%20the%20Thalamus%20and%20Its%20Role%20in%20Cortical%20Function.pdf)]. Such kind of firing modes are referred **tonic and burst firing**. 
+Interestingly, how does the T type Ca2+ channel give the cell such property? This should go back to the structure of T type Ca2+ channels, this structure contain a two voltage sensitive motif [[Talavera et al., 2006](https://doi.org/10.1016/j.ceca.2006.04.013)] and show various behavior at a relatively hyperpolarized resting membrane potential (about -70 mV): One is the activation gate which is closed, while another is inactivation gate which is open. Therefore the T channel is deactivated and de-inactivated [[Sherman et al., 2001; Scholarpedia](https://doi.org/10.1016/S0166-2236(00)01714-8)].
 
 ![oscillationfig1](/img/oscillation_fig1.png)
 Fig.1 Different properties of the low threshold Ca2+ spike; (adapted from [Sherman and Guillery, 2006; scholarpedia/article/Thalamus]).
@@ -47,19 +47,19 @@ If the relay cell is relatively depolarized for ≥100 msec, T channels are inac
 
 **\_What’s surprising is that every relay cell in every thalamic nucleus of every species studied so far shows this behavior, and this is seen only rarely in other neuronal types in the central nervous system[Scholarpedia]._** This phenomenon draw my interest to find the deeper molecular mechanism of the selectivity and evolutionally conservativeness.
 
-Go back to oscillation, the relationship between the brain oscillation and the T type channel was established by one report that the less active input circuit from cholinergic parabrachial to thalamus during slow-wave sleep phase promote the tendency of relay neurons to fire in the burst mode[Sherman et al., 2009] and this low Ca2+ threshold spikes tends to be synchronized and rhythmic among neurons in the thalamus [Sherman et al., 2009]. What’s more, this synchronized, rhythmic bursting depends on interactions among reticular cells and between reticular and relay cells in thalamus. It is important to note that not all thalamic cells show rhythmic bursting during slow-wave sleep and that such bursting is typically interspersed with periods of tonic firing[Sherman et al., 2009]. 
+Go back to oscillation, the relationship between the brain oscillation and the T type channel was established by one report that the less active input circuit from cholinergic parabrachial to thalamus during slow-wave sleep phase promote the tendency of relay neurons to fire in the burst mode[[Sherman et al., 2009](https://brainmaster.com/software/pubs/brain/Exploring%20the%20Thalamus%20and%20Its%20Role%20in%20Cortical%20Function.pdf)] and this low Ca2+ threshold spikes tends to be synchronized and rhythmic among neurons in the thalamus[[Sherman et al., 2009](https://brainmaster.com/software/pubs/brain/Exploring%20the%20Thalamus%20and%20Its%20Role%20in%20Cortical%20Function.pdf)]. What’s more, this synchronized, rhythmic bursting depends on interactions among reticular cells and between reticular and relay cells in thalamus. It is important to note that not all thalamic cells show rhythmic bursting during slow-wave sleep and that such bursting is typically interspersed with periods of tonic firing[[Sherman et al., 2009](https://brainmaster.com/software/pubs/brain/Exploring%20the%20Thalamus%20and%20Its%20Role%20in%20Cortical%20Function.pdf)]. 
 
-In the cortex, the pyramidal neurons arranged in an extreme order which give an anatomical basis for oscillation generation[Globus et al., 1967a;1967b], The reason seems that when the nerve cells are arranged in the same direction, the pyramidal cells are arranged in a regular way, and their apical dendrites reach to the surface of the cortex in the same direction[Chang et al., 1951], a larger amount of electricity can be recorded, otherwise, electrical signals travel in different directions, cancelling each other out and unable to form a strong electric field[伍国锋 et al., 2000].
+In the cortex, the pyramidal neurons arranged in an extreme order which give an anatomical basis for oscillation generation[[Globus et al., 1967a](https://doi.org/10.1016/0014-4886(67)90093-3)] [[Globus et al., 1967b](https://doi.org/10.1002/cne.901310207)], The reason seems that when the nerve cells are arranged in the same direction, the pyramidal cells are arranged in a regular way, and their apical dendrites reach to the surface of the cortex in the same direction[[Chang et al., 1951](https://doi.org/10.1152/jn.1951.14.1.1)], a larger amount of electricity can be recorded, otherwise, electrical signals travel in different directions, cancelling each other out and unable to form a strong electric field[伍国锋 et al., 2000].
 
-The electrical properties of cortical neurons include the intrinsic electrical activity of the neurons themselves (membrane potential and its fluctuations); conductance of action potential (conduction of nerve impulses); The excitatory or inhibitory postsynaptic potential(EPSP/IPSP) produced during synaptic transmission. Sanchezvives et al. reported that using intracellular direct current injection to hyperpolarize or depolarize cortical neurons did not change either the duration of the depolarized state or the slow oscillation frequency in the recorded neuron which suggested that the slow oscillation is generated as a network event but intrinsically in the neuron recorded [Sanchezvives et al., 2000]. Generally speaking, the brain oscillation is considered to be the sum of postsynaptic potentials when the neuronal groups in the cortex synchronously being active.
+The electrical properties of cortical neurons include the intrinsic electrical activity of the neurons themselves (membrane potential and its fluctuations); conductance of action potential (conduction of nerve impulses); The excitatory or inhibitory postsynaptic potential(EPSP/IPSP) produced during synaptic transmission. Sanchezvives et al. reported that using intracellular direct current injection to hyperpolarize or depolarize cortical neurons did not change either the duration of the depolarized state or the slow oscillation frequency in the recorded neuron which suggested that the slow oscillation is generated as a network event but intrinsically in the neuron recorded[[Sanchezvives et al., 2000](https://doi.org/10.1038/79848)]. Generally speaking, the brain oscillation is considered to be the sum of postsynaptic potentials when the neuronal groups in the cortex synchronously being active.
 
-**Now, we will go into the question that which cell type is the major player in the generation of oscillation?**  It was reported that GABAergic interneurons was considered as one of the major players in generating or regulating the neuronal oscillation according to previous studies [Sohal et al., 2009, Veit et al., 2017]. 
+**Now, we will go into the question that which cell type is the major player in the generation of oscillation?**  It was reported that GABAergic interneurons was considered as one of the major players in generating or regulating the neuronal oscillation according to previous studies[[Sohal et al., 2009](https://doi.org/10.1038/nature07991)][[Veit et al., 2017](https://doi.org/10.1016/j.neuron.2017.11.033)]. 
 
 ## Delta:
-Striatal medium spiny neurons (MSNs), one of the inhibitory neurons, contain distinct neuron activity fluctuations, that is up and down[Wilson et al., 1996, Mahon et al., 2006]. Upstates represent a package of EPSP and IPSP that cause a significant elevation in membrane conductance, whereas downstates are associated with decreased synaptic activity. During upstates, **the mixture of excitatory and inhibitory inputs demonstrate a “balanced” state that favors the generation of gamma oscillations**[Headley et al., 2017]. It is important to note that striatal upstates are not generated by local circuit interactions within the striatum, but imposed by corticostriatal neurons driving striatal interneurons and MSNs[Mahon et al., 2001]. In short, delta oscillations arise from the propagation of activity throughout the cortex and stratum delta activity depends on cortical inputs.
+Striatal medium spiny neurons (MSNs), one of the inhibitory neurons, contain distinct neuron activity fluctuations, that is up and down[[Wilson et al., 1996](https://doi.org/10.1523/jneurosci.16-07-02397.1996)][Mahon et al., 2006](https://doi.org/10.1523/JNEUROSCI.3987-06.2006). Upstates represent a package of EPSP and IPSP that cause a significant elevation in membrane conductance, whereas downstates are associated with decreased synaptic activity. During upstates, **the mixture of excitatory and inhibitory inputs demonstrate a “balanced” state that favors the generation of gamma oscillations**[[Headley et al., 2017](https://doi.org/10.1038/s41539-016-0001-2)]. It is important to note that striatal upstates are not generated by local circuit interactions within the striatum, but imposed by corticostriatal neurons driving striatal interneurons and MSNs[[Mahon et al., 2001](https://doi.org/10.1093/cercor/11.4.360)]. In short, delta oscillations arise from the propagation of activity throughout the cortex and stratum delta activity depends on cortical inputs.
 
 ## Theta:
-Theta oscillations (4–11 Hz) are found active in the hippocampus [Buzsáki et al., 2002]. In the behaving rat, the majority of CA1 interneurons in hippocampus discharge on the descending phase of theta in the pyramidal cells layer and discharge on the ascending phase in the apical dentritic layers [Buzsáki et al., 2002]. Among the interneurons, PV expressing interneurons are found in relation with the mediation of pyramidal cell spiking resonance in the cortical network which support transmission of theta oscillation[Stark et al., 2013]. Pyramidal cell spiking resonance was basically depend on the hyperpolarization-activated cyclic nucleotide-sensitive (HCN) channels, which generate a nonselective cation current(Ih)[Narayanan and Johnston, 2008]. And HCN1 channels was found especially abundant in the distal apical dentrites of CA1 pyramidal cells[Stuart and Spruston, 1998]. But how does HCN1s cause the resonance? Previous study claim that Ih have an inductive effects and can create a negative feedback which opposes the voltage changes and thus creates resonance [Narayanan and Johnston, 2008]. 
+Theta oscillations (4–11 Hz) are found active in the hippocampus[[Buzsáki et al., 2002](https://doi.org/10.1016/s0896-6273(02)00586-x)]. In the behaving rat, the majority of CA1 interneurons in hippocampus discharge on the descending phase of theta in the pyramidal cells layer and discharge on the ascending phase in the apical dentritic layers[[Buzsáki et al., 2002](https://doi.org/10.1016/s0896-6273(02)00586-x)]. Among the interneurons, PV expressing interneurons are found in relation with the mediation of pyramidal cell spiking resonance in the cortical network which support transmission of theta oscillation[Stark et al., 2013]. Pyramidal cell spiking resonance was basically depend on the hyperpolarization-activated cyclic nucleotide-sensitive (HCN) channels, which generate a nonselective cation current(Ih)[Narayanan and Johnston, 2008]. And HCN1 channels was found especially abundant in the distal apical dentrites of CA1 pyramidal cells[Stuart and Spruston, 1998]. But how does HCN1s cause the resonance? Previous study claim that Ih have an inductive effects and can create a negative feedback which opposes the voltage changes and thus creates resonance [Narayanan and Johnston, 2008]. 
 
 ## Beta and Gamma:
 After the creation of optogenetics techniques, scientists are able to manipulate genetically labeled subtype of inhibitory neurons. They find that gamma oscillations in vivo are suppressed by inhibiting PV-expressing interneurons, while driving these interneurons using optogenetics method is sufficient to generate emergent gamma-frequency rhythmicity. These evidences suggested that PV interneurons are important in the generation of gamma rhythms [Sohal et al., 2009]. For Beta basis, Rhythmic activation of SOM cells in the local circuit entrains syntonous activity in the narrow 5- to 30-Hz band(Beta)[Chen et al., 2017]. Distinct subtypes of inhibitory interneuron are known to shape diverse rhythmic activities in the cortex, but **how does the different subtypes of inhibitory interneuron interact with each other to orchestrate specific band activity?**
@@ -133,51 +133,52 @@ Above is all for this short review. Brain oscillation is a big topic and is hard
 19. Stark, Eran, et al. "Inhibition-induced theta resonance in cortical circuits.." Neuron 80.5 (2013): 1263-1276.
 
 20. György Buzsáki. "Theta Oscillations in the Hippocampus." Neuron 33.3(2002):0-340.
-Kopell, N , et al. Gamma and Theta Rhythms in Biophysical Models of Hippocampal Circuits. Hippocampal Microcircuits. Springer New York, 2010.
 
-21. Sohal, Vikaas S., et al. "Parvalbumin neurons and gamma rhythms enhance cortical circuit performance." Nature 459.7247 (2009): 698-702.
+21. Kopell, N , et al. Gamma and Theta Rhythms in Biophysical Models of Hippocampal Circuits. Hippocampal Microcircuits. Springer New York, 2010.
 
-22. Chen, Guang , et al. "Distinct Inhibitory Circuits Orchestrate Cortical, beta, and, gamma, Band Oscillations." Neuron 96.6(2017):1403-1418.e6.
+22. Sohal, Vikaas S., et al. "Parvalbumin neurons and gamma rhythms enhance cortical circuit performance." Nature 459.7247 (2009): 698-702.
 
-23. Veit, Julia , et al. "Cortical gamma band synchronization through somatostatin interneurons." Nature Neuroscience.
+23. Chen, Guang , et al. "Distinct Inhibitory Circuits Orchestrate Cortical, beta, and, gamma, Band Oscillations." Neuron 96.6(2017):1403-1418.e6.
 
-24. Foerde, Karin, Barbara J. Knowlton, and Russell A. Poldrack. "Modulation of competing memory systems by distraction." Proceedings of the National Academy of Sciences of the United States of America 103.31 (2006): 11778-11783.
+24. Veit, J., Hakim, R., Jadi, M. et al. Cortical gamma band synchronization through somatostatin interneurons. Nat Neurosci 20, 951–959 (2017).
 
-25. Squire, L. R. Declarative and nondeclarative memory: multiple brain systems supporting learning and memory. J. Cogn. Neurosci. 4, 232–243 (1992).
+25. Foerde, Karin, Barbara J. Knowlton, and Russell A. Poldrack. "Modulation of competing memory systems by distraction." Proceedings of the National Academy of Sciences of the United States of America 103.31 (2006): 11778-11783.
 
-26. Seidenbecher, T., Laxmi, T. R., Stork, O. & Pape, H. C. Amygdalar and hippocampal theta rhythm synchronization during fear memory retrieval. Science 301, 846–850 (2003).
+26. Squire, L. R. Declarative and nondeclarative memory: multiple brain systems supporting learning and memory. J. Cogn. Neurosci. 4, 232–243 (1992).
 
-27. Fell, J. et al. Rhinal-hippocampal theta coherence during declarative memory formation: interaction with gamma synchronization?. Eur. J. Neurosci. 17, 1082–1088 (2003).
+27. Seidenbecher, T., Laxmi, T. R., Stork, O. & Pape, H. C. Amygdalar and hippocampal theta rhythm synchronization during fear memory retrieval. Science 301, 846–850 (2003).
 
-28. Okeefe, John, and Michael Recce. "Phase relationship between hippocampal place units and the EEG theta rhythm." Hippocampus 3.3 (1993): 317-330.
+28. Fell, J. et al. Rhinal-hippocampal theta coherence during declarative memory formation: interaction with gamma synchronization?. Eur. J. Neurosci. 17, 1082–1088 (2003).
 
-29. Buzsáki, György, and Edvard I. Moser. "Memory, navigation and theta rhythm in the hippocampal-entorhinal system." Nature neuroscience 16.2 (2013): 130.
+29. Okeefe, John, and Michael Recce. "Phase relationship between hippocampal place units and the EEG theta rhythm." Hippocampus 3.3 (1993): 317-330.
 
-30. Stern, Edward A., Dieter Jaeger, and Charles J. Wilson. "Membrane potential synchrony of simultaneously recorded striatal spiny neurons in vivo." Nature 394.6692 (1998): 475.
+30. Buzsáki, György, and Edvard I. Moser. "Memory, navigation and theta rhythm in the hippocampal-entorhinal system." Nature neuroscience 16.2 (2013): 130.
 
-31. Headley, Drew B., and Denis Paré. "Common oscillatory mechanisms across multiple memory systems." npj Science of Learning 2.1 (2017): 1.
+31. Stern, Edward A., Dieter Jaeger, and Charles J. Wilson. "Membrane potential synchrony of simultaneously recorded striatal spiny neurons in vivo." Nature 394.6692 (1998): 475.
 
-32. Benchenane, Karim, et al. "Coherent theta oscillations and reorganization of spike timing in the hippocampal-prefrontal network upon learning." Neuron 66.6 (2010): 921-936.
+32. Headley, Drew B., and Denis Paré. "Common oscillatory mechanisms across multiple memory systems." npj Science of Learning 2.1 (2017): 1.
 
-33. Iaccarino, Hannah F., et al. "Gamma frequency entrainment attenuates amyloid load and modifies microglia." Nature 540.7632 (2016): 230.
+33. Benchenane, Karim, et al. "Coherent theta oscillations and reorganization of spike timing in the hippocampal-prefrontal network upon learning." Neuron 66.6 (2010): 921-936.
 
-34. Martorell, Anthony J., et al. "Multi-sensory Gamma Stimulation Ameliorates Alzheimer’s-Associated Pathology and Improves Cognition." Cell (2019).
+34. Iaccarino, Hannah F., et al. "Gamma frequency entrainment attenuates amyloid load and modifies microglia." Nature 540.7632 (2016): 230.
 
-35. Kandel, E.R., Schwartz, J.H. and Jessell, T.M. eds., 2000. Principles of neural science (Vol. 4, pp. 1227-1246). New York: McGraw-hill.
+35. Martorell, Anthony J., et al. "Multi-sensory Gamma Stimulation Ameliorates Alzheimer’s-Associated Pathology and Improves Cognition." Cell (2019).
 
-36. Weber, Franz, et al. "Control of REM sleep by ventral medulla GABAergic neurons." Nature 526.7573 (2015): 435.
+36. Kandel, E.R., Schwartz, J.H. and Jessell, T.M. eds., 2000. Principles of neural science (Vol. 4, pp. 1227-1246). New York: McGraw-hill.
 
-37. Wang, Zhiqiang, et al. "Quantitative phosphoproteomic analysis of the molecular substrates of sleep need." Nature 558.7710 (2018): 435.
+37. Weber, Franz, et al. "Control of REM sleep by ventral medulla GABAergic neurons." Nature 526.7573 (2015): 435.
 
-38. Funato, Hiromasa, et al. "Forward-genetics analysis of sleep in randomly mutagenized mice." Nature 539.7629 (2016): 378.
+38. Wang, Zhiqiang, et al. "Quantitative phosphoproteomic analysis of the molecular substrates of sleep need." Nature 558.7710 (2018): 435.
 
-39. Dinges, David F., et al. "Sleep deprivation and human immune function." Advances in neuroimmunology 5.2 (1995): 97-110.
+39. Funato, Hiromasa, et al. "Forward-genetics analysis of sleep in randomly mutagenized mice." Nature 539.7629 (2016): 378.
 
-40. Everson, C. A., Bergmann, B. M., & Rechtschaffen, A. (1989). Sleep deprivation in the rat: III. Total sleep deprivation. Sleep, 12(1), 13-21.
+40. Dinges, David F., et al. "Sleep deprivation and human immune function." Advances in neuroimmunology 5.2 (1995): 97-110.
 
-41. Steriade, Mircea. "Acetylcholine systems and rhythmic activities during the waking–sleep cycle." Progress in brain research 145 (2004): 179-196.
+41. Everson, C. A., Bergmann, B. M., & Rechtschaffen, A. (1989). Sleep deprivation in the rat: III. Total sleep deprivation. Sleep, 12(1), 13-21.
 
-42. Steriade, Mircea, David A. McCormick, and Terrence J. Sejnowski. "Thalamocortical oscillations in the sleeping and aroused brain." Science 262.5134 (1993): 679-685.
+42. Steriade, Mircea. "Acetylcholine systems and rhythmic activities during the waking–sleep cycle." Progress in brain research 145 (2004): 179-196.
 
-43. Benchanane, K. et al. Coherent theta oscillations and reorganization of spike timing in the hippocampal-prefrontal network upon learning. Neuron 66, 921–936 (2010).
+43. Steriade, Mircea, David A. McCormick, and Terrence J. Sejnowski. "Thalamocortical oscillations in the sleeping and aroused brain." Science 262.5134 (1993): 679-685.
+
+44. Benchanane, K. et al. Coherent theta oscillations and reorganization of spike timing in the hippocampal-prefrontal network upon learning. Neuron 66, 921–936 (2010).
 
