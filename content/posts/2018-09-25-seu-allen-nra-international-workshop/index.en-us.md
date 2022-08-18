@@ -115,7 +115,7 @@ In the afternoon of the second day of the conference, we also visited the Southe
 To keep up with the international pace, Beijing Brain Science Center also actively participated in the conference. 6 student representatives from the first session of the Center attended the academic conference, and the director of the Northern Center, Researcher Minmin Luo, gave a keynote speech in the conference. I benefited from the international symposium, which greatly expanded my research horizon and inspired me to continue my efforts.
 
 ![group_photo_large001](/img/nanjing_NRA_SEU.jpg)
-
+![group_photo_small001](/img/mmexport1536461645014.jpg)
 ***
 ## Workshop organizers
 
