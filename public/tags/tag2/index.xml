@@ -6,16 +6,37 @@
     <description>Recent content in tag2 on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 15:15:42 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 08:30:11 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About me</title>
-      <link>https://leoj.xyz/page/about/</link>
-      <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
+      <title>Resource</title>
+      <link>https://leoj.xyz/page/resource/resource/</link>
+      <pubDate>Sun, 21 Aug 2022 08:30:11 +0800</pubDate>
       
-      <guid>https://leoj.xyz/page/about/</guid>
-      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
-Interest Areas Brain vasculature system Brain metabolic system scRNAseq &amp;amp; Spatial transcriptome Spatial metabolomics AAV engineering Promoter engineering
-Education Ph.D., Peking University, Beijing SEPTEMBER 2018 &amp;mdash; PRESENT Academy for Advanced Interdisciplinary Studies(AAIS) Major in Neuroscience; CIBR-PKU-joint Ph.</description>
+      <guid>https://leoj.xyz/page/resource/resource/</guid>
+      <description>R programming R-The R Project for Statistical Computing: https://www.r-project.org/
+Rstudio: https://rstudio.com/
+Books:
+Python Python: https://www.python.org/
+Spider IDE: https://www.spyder-ide.org/
+Pycharm: https://www.jetbrains.com/pycharm/
+Anaconda: https://www.anaconda.com/
+Books:
+Linux Redhat: https://www.redhat.com/en
+Ubuntu: https://ubuntu.com/
+CentOS: https://www.centos.org/
+Forums: https://www.linux.org/
+Books:
+myonedrive_share</description>
+    </item>
+    
+    <item>
+      <title>Resource</title>
+      <link>https://leoj.xyz/page/resource/xyz/</link>
+      <pubDate>Sun, 21 Aug 2022 08:30:11 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/resource/xyz/</guid>
+      <description>Brain vasculature system Brain endothelial cells are major component ofbrain vasculature system and involved in many kinds of brain vasculaturedisease, like AVM, CCM, HHT.
+Brain metabolic system Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed.</description>
     </item>
     
   </channel>

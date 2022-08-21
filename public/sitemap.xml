@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://leoj.xyz/categories/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/categories/category/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/image-gallery/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/resource/programing/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/resource/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/categories/subcategory/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/</loc>
+    <lastmod>2022-08-21T08:30:11+08:00</lastmod>
+  </url><url>
     <loc>https://leoj.xyz/tags/brain-metabolic-system/</loc>
     <lastmod>2022-08-15T15:16:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/brain-vasculature-system/</loc>
-    <lastmod>2022-08-15T15:16:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/</loc>
-    <lastmod>2022-08-15T15:16:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/category/</loc>
-    <lastmod>2022-08-15T15:16:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/</loc>
     <lastmod>2022-08-15T15:16:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/page/</loc>
@@ -24,12 +39,6 @@
     <lastmod>2022-08-15T15:16:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/page/research/</loc>
-    <lastmod>2022-08-15T15:16:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/subcategory/</loc>
-    <lastmod>2022-08-15T15:16:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/</loc>
     <lastmod>2022-08-15T15:16:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/transcription-engineering/</loc>

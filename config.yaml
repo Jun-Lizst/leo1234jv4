@@ -20,7 +20,7 @@ markup:
     startLevel: 1
 author:
   bio: Hello, My name is Jun-Liszt Li. my science interest is to understand the fundamental basis of brain metabolic system and brain vasculature system.
-  gravatarEmail: poppingjun7@gmail.com
+  gravatarEmail: 
   job: Ph.D. Candidate
   location: Beijing, China
   name: Jun-Liszt Li
@@ -38,7 +38,7 @@ menu:
       url: /page/research
       weight: 2
     - identifier: publication
-      name: Publications
+      name: Publication
       pre: <i class="sidebar-button-icon fas fa-lg fa-scroll" aria-hidden="true"></i>
       url: /page/publication
       weight: 3
@@ -47,31 +47,36 @@ menu:
       pre: <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
       url: /posts
       weight: 4
+    - identifier: resource
+      name: Resource
+      pre: <i class="sidebar-button-icon fas fa-lg fa-warehouse" aria-hidden="true"></i>
+      url: /resource
+      weight: 5
     - identifier: about
       name: About
       pre: <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
       url: /page/about
-      weight: 5
+      weight: 6
     - identifier: contact
       name: Contact
       pre: <i class="sidebar-button-icon fas fa-lg fa-at" aria-hidden="true"></i>
       url: /page/contact
-      weight: 6  
+      weight: 7  
     - identifier: categories
       name: Categories
       pre: <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
       url: /categories
-      weight: 7
+      weight: 8
     - identifier: tags
       name: Tags
       pre: <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
       url: /tags
-      weight: 8
+      weight: 9
     - identifier: archives
       name: Archives
       pre: <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
       url: /archives
-      weight: 9
+      weight: 10
   misc:
     - identifier: github
       name: GitHub

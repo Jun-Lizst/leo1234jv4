@@ -18,15 +18,18 @@ showActions:    false
 
 ![leo1erefdfxc](/img/BillfishgPXSBX.PNG)
 
-Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
+Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. I ask questions in the cutting-edge field of brain vasculature system and brain metabolic system, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
 
 ## Interest Areas
 
-Brain vasculature system
+- **Biological Question**\
+Brain vasculature system\
 Brain metabolic system
-scRNAseq & Spatial transcriptome
-Spatial metabolomics
-AAV engineering
+
+- **Technology**\
+scRNAseq & Spatial transcriptome\
+Spatial metabolomics\
+AAV engineering\
 Promoter engineering
 
 ## Education
@@ -49,28 +52,28 @@ Major In Bioscience; Class of State Key Educational Base
 
 ---
 
-[This is my CV](), click and download.
+[This is my CV](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVmuSZostuVFsCxtMO5xjlMBjKmKib9U-7qbgYvDbCj8-Q?e=x1tuLU), click and view.
 
 ---
 
 ## Research Experiences
 
-**Graduate student, Chinese institute for Brain Research (CIBR)**\
+**Graduate student, Peking University & Chinese institute for Brain Research (CIBR)**\
 MARCH 2019 — PRESENT\
 Graduate student advised by Dr.Wooping Ge, Ph.D. and Dr.Wenzhi Sun, Ph.D.
 
-- Focusing AAV capsid engineering and make molecular tools for study of brain 
+- Focusing on AAV capsid engineering and make molecular/genetic tools for study of brain 
 vascular system.
 - Applying Next-generation microscopy (Confocal, Lightsheet, Two photon) 
 technology into study of brain vasculature system.
-- Applying Next-generation omics technology (Transcriptome; Metabolomics) to 
+- Applying Next-generation omics technology (Transcriptomics; Metabolomics) to 
 study the molecular architecture of brain metabolic system.
 
 **Rotation student, National institute of Biological Science (NIBS)**\
 DECEMBER 2018 — FEBRUARY 2019\
 Rotation student advised by Dr.Qinghua Liu, Ph.D.
 
-- Learning knowledge and research approaches(Genetics) in the Sleep field.
+- Learning knowledge and research approaches(Genetic screen) in the Sleep field.
 - Designing and implementing Automatic sleep staging system based on manifold 
 and deep learning algorithm(EEG/EMG data processing); Automatic video tracking 
 based sleep staging system based on computer vision algorithms.
@@ -96,6 +99,7 @@ SEPTEMBER 2015 — JANUARY 2017\
 Undergraduate Researcher advised by Dr.Gang Cao, Ph.D.
 - Optimize the MAR-based magneto-genetics tool and develop MAR2.0 for 
 non-invasive manipulation of neuronal activity.
+- MTB(Mycobacterium tuberculosis) gene overexpression and knockout(CRISPR system)
 
 # Posters & Conferences:
 SEPTEMBER 2015 — PRESENT
