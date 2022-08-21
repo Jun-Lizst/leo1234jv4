@@ -1,7 +1,14 @@
 ---
 title: "Imaging tools"
 date: 2022-08-21T10:43:49+08:00
-draft: true
+categories:
+- category
+- subcategory
+tags:
+- Confocal
+- Two-Photon
+- Lightsheet
+- super-resolution
 keywords:
 - tech
 comments:       false

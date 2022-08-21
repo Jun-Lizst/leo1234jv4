@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LS-MS on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/ls-ms/</link>
+    <description>Recent content in LS-MS on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2022 13:24:59 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/ls-ms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mass spectrometry</title>
+      <link>https://leoj.xyz/resource/massspectrometry/</link>
+      <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/massspectrometry/</guid>
+      <description>LC-MS system MALDI system </description>
+    </item>
+    
+  </channel>
+</rss>

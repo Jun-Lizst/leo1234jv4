@@ -6,7 +6,59 @@
     <description>Recent content on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 08:30:11 +0800</lastBuildDate><atom:link href="https://leoj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 13:24:59 +0800</lastBuildDate><atom:link href="https://leoj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mass spectrometry</title>
+      <link>https://leoj.xyz/resource/massspectrometry/</link>
+      <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/massspectrometry/</guid>
+      <description>LC-MS system MALDI system </description>
+    </item>
+    
+    <item>
+      <title>Tissue clearing methods</title>
+      <link>https://leoj.xyz/resource/clearingmethod/</link>
+      <pubDate>Sun, 21 Aug 2022 12:23:57 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/clearingmethod/</guid>
+      <description>Introduction This webinar will explain tissue clearing, how it functions, and the three main methods for making tissues transparent. Moreover, the advantages and limitations of various tissue cleansing methods.
+PEGASOS (Using in our lab, recommended): PEGASOSv2
+CUBIC Ref labs: Ali Erturk lab;</description>
+    </item>
+    
+    <item>
+      <title>Genomics tools</title>
+      <link>https://leoj.xyz/resource/genomicsngs/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/genomicsngs/</guid>
+      <description>RNA-Seq KITS FOR RNA EXTRACTION Takara: Smart-Seq
+SEQUENCING PLATFORM illumina; Huada Gene
+ANALYSIS SOFTWARES QC
+fastqc; multiqc; fastp
+Reads Mapping
+HISAT2: graph-based alignment of next generation sequencing reads to a population of genomes. (Manual)
+STAR: The STAR software package maps large sets of high-throughput sequencing reads to a reference genome with high levels of accuracy and speed. (Manual)
+TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</description>
+    </item>
+    
+    <item>
+      <title>Imaging tools</title>
+      <link>https://leoj.xyz/resource/imagingtools/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:49 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/imagingtools/</guid>
+      <description>Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp;amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, UCB; Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced. It can be utilized to image inside of living animals as well as thick tissue specimens.</description>
+    </item>
+    
     <item>
       <title>Programming</title>
       <link>https://leoj.xyz/resource/programing/</link>

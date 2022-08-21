@@ -1,7 +1,13 @@
 ---
 title: "Tissue clearing methods"
 date: 2022-08-21T12:23:57+08:00
-draft: true
+categories:
+- category
+- subcategory
+tags:
+- PEGASOS
+- CUBIC
+- Clarity
 keywords:
 - tech
 comments:       false

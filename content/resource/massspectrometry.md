@@ -1,7 +1,13 @@
 ---
 title: "Mass spectrometry"
 date: 2022-08-21T13:24:59+08:00
-draft: true
+categories:
+- category
+- subcategory
+tags:
+- LS-MS
+- MALDI
+- Orbitrap
 keywords:
 - tech
 comments:       false
@@ -20,4 +26,3 @@ thumbnailImagePosition: left
 
 
 # MALDI system
-

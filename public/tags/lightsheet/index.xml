@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightsheet on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/lightsheet/</link>
+    <description>Recent content in Lightsheet on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2022 10:43:49 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/lightsheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imaging tools</title>
+      <link>https://leoj.xyz/resource/imagingtools/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:49 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/imagingtools/</guid>
+      <description>Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp;amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, UCB; Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced. It can be utilized to image inside of living animals as well as thick tissue specimens.</description>
+    </item>
+    
+  </channel>
+</rss>

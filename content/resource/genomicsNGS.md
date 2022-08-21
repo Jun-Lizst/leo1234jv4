@@ -1,7 +1,13 @@
 ---
 title: "Genomics tools"
 date: 2022-08-21T10:43:59+08:00
-draft: true
+categories:
+- category
+- subcategory
+tags:
+- RNA-seq
+- scRNAseq
+- NGS
 keywords:
 - tech
 comments:       false
