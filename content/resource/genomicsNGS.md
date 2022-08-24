@@ -13,7 +13,7 @@ keywords:
 comments:       false
 showMeta:       false
 showActions:    false
-thumbnailImage: /img/pmx090121colgenetics-001-1630015763.jpg
+thumbnailImage: /img/genomics_NGSx1.png
 thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---

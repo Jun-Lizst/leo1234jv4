@@ -6,7 +6,23 @@
     <description>Recent content in category on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 13:24:59 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/category/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 20:27:51 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molecular biology tools</title>
+      <link>https://leoj.xyz/resource/molecularbiology/</link>
+      <pubDate>Sun, 21 Aug 2022 20:27:51 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/molecularbiology/</guid>
+      <description>Fluorescence Proteins -iRFP: miRFPnano670
+RFPs: mRuby3, mCherry
+GFPs: mGreenLantern, EGFP
+BFPs: TagBFP2, TagBFP
+Reference FPbase: FPbase is a moderated, user-editable fluorescent protein database designed by microscopists. Tissue/Cell type specific AAVs Tissue/Cell type specific promoter Genetically encoded indicators Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)
+Potassium: Dopaine: Histamine: eCB:
+CRISPR systems DNA target Cas9 based: Knock out: SpCas9, SaCas9 DNA base editor: dCas9-xxx Transcriptional activator:
+RNA target Cas13 RNA knockdown: Cas13d(RfxCas13d or CasRx, Cas13d from Ruminococcus flavefaciens XPD3002)</description>
+    </item>
+    
     <item>
       <title>Mass spectrometry</title>
       <link>https://leoj.xyz/resource/massspectrometry/</link>
@@ -23,8 +39,9 @@
       
       <guid>https://leoj.xyz/resource/clearingmethod/</guid>
       <description>Introduction This webinar will explain tissue clearing, how it functions, and the three main methods for making tissues transparent. Moreover, the advantages and limitations of various tissue cleansing methods.
-PEGASOS (Using in our lab, recommended): PEGASOSv2
-CUBIC Ref labs: Ali Erturk lab;</description>
+PEGASOS (Using in our lab, recommended): Jing, Dian, et al. &amp;ldquo;Tissue clearing of both hard and soft tissue organs with the PEGASOS method.&amp;rdquo; Cell research 28.8 (2018): 803-818. (Link) (PDF)
+PEGASOSv2
+CUBIC Matsumoto, Katsuhiko, et al. &amp;ldquo;Advanced CUBIC tissue clearing for whole-organ cell profiling.</description>
     </item>
     
     <item>
@@ -52,11 +69,13 @@ TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA
       <description>Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp;amp; STELLARIS 8) ZEISS:
 Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
 Ti:Sapphire Femtosecond Laser: From Thorlabs
+AO (Adaptive optics) in 2PFM and for neurobiology
 Commercial Olympus: FVMPE-RS
 Leica: Leica-MP-4Tune
 Scientifica: Multiphoton Imaging System
-Ref labs: Ji Na lab, UCB; Janelia farm
-In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced. It can be utilized to image inside of living animals as well as thick tissue specimens.</description>
+Ref labs: Ji Na lab, University of California, Berkeley
+Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.</description>
     </item>
     
     <item>
@@ -86,8 +105,8 @@ Books:</description>
       <pubDate>Mon, 15 Aug 2022 15:16:05 +0800</pubDate>
       
       <guid>https://leoj.xyz/page/research/</guid>
-      <description>Brain vasculature system Brain endothelial cells are major component ofbrain vasculature system and involved in many kinds of brain vasculaturedisease, like AVM, CCM, HHT.
-Brain metabolic system Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed.</description>
+      <description>Brain vasculature system Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells are one of the major components of brain vasculature system and involved in many kinds of brain vasculature disease, like AVM, CCM, HHT.
+Brain metabolic system Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease.</description>
     </item>
     
     <item>

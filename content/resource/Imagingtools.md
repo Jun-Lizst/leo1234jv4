@@ -31,14 +31,16 @@ thumbnailImagePosition: left
 **Thorlabs**: https://www.thorlabs.com/index.cfm\
 **Ti:Sapphire Femtosecond Laser**: [From Thorlabs](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=8323)
 
+[AO (Adaptive optics) in 2PFM and for neurobiology](https://www.med.upenn.edu/ngg/assets/user-content/documents/ngg-documents/1-s2.0-s0959438817302453-main.pdf)
 
+---
 #### Commercial
 **Olympus**: [FVMPE-RS](https://www.olympus-lifescience.com.cn/en/laser-scanning/fvmpe-rs/)\
 **Leica**: [Leica-MP-4Tune]((https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8-mp/))\
 **Scientifica**: [Multiphoton Imaging System](https://www.scientifica.uk.com/products/multiphoton-imaging-system)
 
 
-**Ref labs**: [Ji Na lab, UCB](UCB:https://www.jilab.net/);
+**Ref labs**: [Ji Na lab, University of California, Berkeley](https://www.jilab.net/)\
 [Janelia farm](https://www.janelia.org/)
 
 ---
@@ -54,9 +56,10 @@ In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to 
 
 #### Lab DIY
 Thorlabs: \
-Liang Gao lab, Westlake University: Tiling Light-Sheet Microscope(TLSM)\
+**Tiling Light-Sheet Microscope(TLSM)**: Liang Gao lab, Westlake University\
 Open-top Light-Sheet Microscopy:\
-Axial-Sweeping technology: Fiolka Reto lab; UTSW
+**Axial-Sweeping technology**: Fiolka Reto lab, 
+- Dean, Kevin M., et al. "Deconvolution-free subcellular imaging with axially swept light sheet microscopy." Biophysical journal 108.12 (2015): 2807-2815. ([Link](https://www.cell.com/biophysj/fulltext/S0006-3495(15)00498-1)) ([PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESykLKp0h4BFnzsJWAcaWFsBtPWYHDmxnvw4WFWgxvRpSQ?e=ujhNPB))
 
 #### Commercial
 Lavision BioTec Inc:
@@ -66,13 +69,13 @@ ZEISS: [ZEISS Lattice Lightsheet 7](https://zeiss.ly/yt-lattice-lightsheet-7)
 
 
 
-AO (Adaptive optics):
+[AO (Adaptive optics) in LSFM](https://opg.optica.org/ol/fulltext.cfm?uri=ol-44-10-2514&id=412284)
 
 
-**Ref labs**: Keffer lab, Janelia farm\
-Eric bezig lab; UCB\
-Fiolka Reto lab; UTSW\
-Liang Gao; Westlake University
+**Ref labs**: [Philipp Keller lab, Janelia farm](https://www.janelia.org/lab/keller-lab)\
+[Eric betzig lab, University of California, Berkeley](http://mcb.berkeley.edu/faculty/CDB/betzige)\
+[Reto Fiolka lab, UTSW](https://www.utsouthwestern.edu/labs/fiolka/)\
+[Liang Gao Lab, Westlake University](https://sls.westlake.edu.cn/en/Faculty/201912/t20191202_2417.shtml)
 
 ---
 
@@ -100,10 +103,10 @@ During 20 years of friendship, Betzig and Hess collaborated to create the first 
 
 ---
 
-**Ref labs**: Xiaowei Zhuang, Harvard\
-Eric betzig lab; UCB\
-Liangyi Chen, PKU\
-Dong Li, IBP
+**Ref labs**: [Xiaowei Zhuang Lab, Harvard University](http://zhuang.harvard.edu/index.html)\
+[Eric betzig lab, University of California, Berkeley](http://mcb.berkeley.edu/faculty/CDB/betzige)\
+[Liangyi Chen, PKU](http://www.cls.edu.cn/english/PrincipalInvestigator/pi/index5506.shtml)\
+[Dong Li, IBP](http://english.ibp.cas.cn/faculty/index_18316.html?json=http://www.ibp.cas.cn/sourcedb_ibp_cas/cn/ibpexport/EN_xsszmL/202005/t20200519_5583002.json)
 
 
 

@@ -26,7 +26,7 @@ gallery:
 
 tags:
 - image gallery
-thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/image-gallery-showcase/city-140.jpg
+thumbnailImage: /img/programmingx1.jpg
 thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---

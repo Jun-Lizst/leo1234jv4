@@ -20,7 +20,7 @@ showActions:    false
 
 ## Brain vasculature system
 ![talkxssqwe](/img/576078_548648.png)
-Brain endothelial cells are major component ofbrain vasculature system and involved in many kinds of brain vasculaturedisease, like AVM, CCM, HHT.
+Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells are one of the major components of brain vasculature system and involved in many kinds of brain vasculature disease, like AVM, CCM, HHT. 
 
 
 
