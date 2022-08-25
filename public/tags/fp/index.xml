@@ -17,10 +17,14 @@
 RFPs: mRuby3, mCherry
 GFPs: mGreenLantern, EGFP
 BFPs: TagBFP2, TagBFP
-Reference FPbase: FPbase is a moderated, user-editable fluorescent protein database designed by microscopists. Tissue/Cell type specific AAVs Tissue/Cell type specific promoter Genetically encoded indicators Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)
-Potassium: Dopaine: Histamine: eCB:
-CRISPR systems DNA target Cas9 based: Knock out: SpCas9, SaCas9 DNA base editor: dCas9-xxx Transcriptional activator:
-RNA target Cas13 RNA knockdown: Cas13d(RfxCas13d or CasRx, Cas13d from Ruminococcus flavefaciens XPD3002)</description>
+Reference FPbase: FPbase is a moderated, user-editable fluorescent protein database designed by microscopists. Tissue/Cell type specific AAVs Brain organ specific: BR1
+Liver specific:
+Brain endothelial cell specific: AAV-BI30
+Tissue/Cell type specific promoter Pan-neuron: hSyn Excitatory neuron: CaMKIIa Inhibitory neuron: pGAD1. mDlx
+Constitutive expression: EF1a, CAG
+Drug induced: Tet-on system
+activity depedent: c-Fos promoter
+Genetically encoded indicators Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)</description>
     </item>
     
   </channel>

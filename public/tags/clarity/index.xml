@@ -6,7 +6,19 @@
     <description>Recent content in Clarity on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 12:23:57 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/clarity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Aug 2022 17:16:39 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/clarity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biochemistry tools</title>
+      <link>https://leoj.xyz/resource/biochemistrytools/</link>
+      <pubDate>Thu, 25 Aug 2022 17:16:39 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/biochemistrytools/</guid>
+      <description>Vendor companies Abcam ThermoFisher R&amp;amp;D Systems BioRad Ref Labs Signaling pathway and basic science Zhijian-James Chen lab, UTSW
+David M. Sabatini lab, MIT
+Xiaodong Wang lab, UTSW, NIBS
+Tool development Alice Ting lab, Stanford </description>
+    </item>
+    
     <item>
       <title>Tissue clearing methods</title>
       <link>https://leoj.xyz/resource/clearingmethod/</link>
@@ -14,9 +26,8 @@
       
       <guid>https://leoj.xyz/resource/clearingmethod/</guid>
       <description>Introduction This webinar will explain tissue clearing, how it functions, and the three main methods for making tissues transparent. Moreover, the advantages and limitations of various tissue cleansing methods.
-PEGASOS (Using in our lab, recommended): Jing, Dian, et al. &amp;ldquo;Tissue clearing of both hard and soft tissue organs with the PEGASOS method.&amp;rdquo; Cell research 28.8 (2018): 803-818. (Link) (PDF)
-PEGASOSv2
-CUBIC Matsumoto, Katsuhiko, et al. &amp;ldquo;Advanced CUBIC tissue clearing for whole-organ cell profiling.</description>
+PEGASOS (Using in our lab, recommended): PEGASOS version 1: Jing, Dian, et al. &amp;ldquo;Tissue clearing of both hard and soft tissue organs with the PEGASOS method.&amp;rdquo; Cell research 28.8 (2018): 803-818. [PDF | DOI Link]
+TESOS system: Yi, Yating, et al. &amp;ldquo;Mapping of individual sensory nerve axons from digits to spinal cord with the Transparent Embedding Solvent System.</description>
     </item>
     
   </channel>

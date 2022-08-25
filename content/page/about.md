@@ -101,6 +101,20 @@ Undergraduate Researcher advised by Dr.Gang Cao, Ph.D.
 non-invasive manipulation of neuronal activity.
 - MTB(Mycobacterium tuberculosis) gene overexpression and knockout(CRISPR system)
 
+**HZAU-iGEM team member,**
+Inovation Lab, College of Life science and technology, HZAU\
+FEBRUARY 2015 - OCTOBER 2016\
+2016 HZAU-iGEM team member with instructor Dr.BingGuang Ma, PhD
+- Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion
+- During the Competition and in our project, I am responsible for the Optical control part which uses light switchable circuit (LSC) to control the expression of bacteria movement related gene CheZ.
+- Website of HZAU-iGEM2016: http://2016.igem.org/Team:HZAU-China
+
+2015 HZAU-iGEM team member with instructor Dr.BingGuang Ma, PhD
+- Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion
+- During the Competition and in our project, I am responsible for the interface part. We choose the light and use Optogenetics technique to regulate the synthetic gene oscillator in bacteria.
+- Website of HZAU-iGEM2015: http://2015.igem.org/Team:HZAU-China
+
+
 # Posters & Conferences:
 SEPTEMBER 2015 — PRESENT
 1. Attendee, High-end-Symposium of Metabolomics and exposomics, Dalian 

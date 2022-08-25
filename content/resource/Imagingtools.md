@@ -56,11 +56,18 @@ In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to 
 
 #### Lab DIY
 Thorlabs: \
-**Tiling Light-Sheet Microscope(TLSM)**: Liang Gao lab, Westlake University\
-Open-top Light-Sheet Microscopy:\
-**Axial-Sweeping technology**: Fiolka Reto lab, 
-- Dean, Kevin M., et al. "Deconvolution-free subcellular imaging with axially swept light sheet microscopy." Biophysical journal 108.12 (2015): 2807-2815. ([Link](https://www.cell.com/biophysj/fulltext/S0006-3495(15)00498-1)) ([PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESykLKp0h4BFnzsJWAcaWFsBtPWYHDmxnvw4WFWgxvRpSQ?e=ujhNPB))
+**Tiling Light-Sheet Microscopy(TLSM)**: Liang Gao lab, Westlake University\
+**Open-top Light-Sheet Microscopy**: Jonathan T. C. Liu Lab, University of Washington
+- Glaser, Adam K., et al. "A hybrid open-top light-sheet microscope for versatile multi-scale imaging of cleared tissues." Nature Methods 19.5 (2022): 613-619.
+[[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWZRt6YMg-FDpu3Y4RThzl4BaRAPnXxKCt2HzW-yC_KiNA?e=skvgl1) |  [Link](https://doi.org/10.1038/s41592-022-01468-5)]
 
+**Axial-Sweeping technology**: Fiolka Reto lab, 
+- Dean, Kevin M., et al. "Deconvolution-free subcellular imaging with axially swept light sheet microscopy." Biophysical journal 108.12 (2015): 2807-2815. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESykLKp0h4BFnzsJWAcaWFsBtPWYHDmxnvw4WFWgxvRpSQ?e=ujhNPB) |  [Link](https://www.cell.com/biophysj/fulltext/S0006-3495(15)00498-1)]
+
+**Mesoscale selective plane illumination microscopy(mesoSPIM)**: [Official website](www.mesospim.org)
+- Voigt, Fabian F., et al. "The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue." Nature methods 16.11 (2019): 1105-1108. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESykLKp0h4BFnzsJWAcaWFsBtPWYHDmxnvw4WFWgxvRpSQ?e=ujhNPB) |  [Link](https://doi.org/10.1038/s41592-019-0554-0)]
+
+---
 #### Commercial
 Lavision BioTec Inc:
 [UltraMicroscope Light Sheet Microscope](https://www.lavisionbiotec.com/)\
