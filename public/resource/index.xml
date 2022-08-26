@@ -6,17 +6,24 @@
     <description>Recent content in Resources on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Aug 2022 17:16:39 +0800</lastBuildDate><atom:link href="https://leoj.xyz/resource/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 16:50:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/resource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genetics tools</title>
+      <link>https://leoj.xyz/resource/geneticstools/</link>
+      <pubDate>Fri, 26 Aug 2022 16:50:25 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/geneticstools/</guid>
+      <description>Mus musculus 129S1 C57BL/6J BALB/cJ
+Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC transgenic mice is suitable for pericyte and Artery SMC labeling in central nervous system. NG2DsRedBAC transgenic mice express an optimized red fluorescent protein variant (DsRed.T1) under the control of the mouse NG2 (Cspg4) promoter/enhancer and may be useful for fluorescent labeling of NG2 cells (oligodendrocyte progenitor cells) in the central nervous system and NG2-expressing cells in other organs, as well as for isolating NG2 cell populations via FACS.</description>
+    </item>
+    
     <item>
       <title>Biochemistry tools</title>
       <link>https://leoj.xyz/resource/biochemistrytools/</link>
       <pubDate>Thu, 25 Aug 2022 17:16:39 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/biochemistrytools/</guid>
-      <description>Vendor companies Abcam ThermoFisher R&amp;amp;D Systems BioRad Ref Labs Signaling pathway and basic science Zhijian-James Chen lab, UTSW
-David M. Sabatini lab, MIT
-Xiaodong Wang lab, UTSW, NIBS
-Tool development Alice Ting lab, Stanford </description>
+      <description>Vendor companies Abcam ThermoFisher R&amp;amp;D Systems BioRad Ref Labs Signaling pathway and basic science Zhijian-James Chen lab, UTSW David M. Sabatini lab, MIT Xiaodong Wang lab, UTSW, NIBS Feng Shao lab, NIBS Tool development Alice Ting lab, Stanford Ref. Protocols Bio-protocol Protocol Exchange </description>
     </item>
     
     <item>
@@ -32,11 +39,8 @@ BFPs: TagBFP2, TagBFP
 Reference FPbase: FPbase is a moderated, user-editable fluorescent protein database designed by microscopists. Tissue/Cell type specific AAVs Brain organ specific: BR1
 Liver specific:
 Brain endothelial cell specific: AAV-BI30
-Tissue/Cell type specific promoter Pan-neuron: hSyn Excitatory neuron: CaMKIIa Inhibitory neuron: pGAD1. mDlx
-Constitutive expression: EF1a, CAG
-Drug induced: Tet-on system
-activity depedent: c-Fos promoter
-Genetically encoded indicators Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)</description>
+Tissue/Cell type specific promoter Pan-neuron: hSyn
+Kügler, S., E. Kilic, and M. Bähr. &amp;ldquo;Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area.</description>
     </item>
     
     <item>

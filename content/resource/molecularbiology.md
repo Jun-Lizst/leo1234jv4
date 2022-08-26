@@ -51,12 +51,15 @@ Brain endothelial cell specific: AAV-BI30
 
 
 
+
 ## Tissue/Cell type specific promoter
 >
 ---
 
-Pan-neuron: hSyn
-Excitatory neuron: CaMKIIa
+- Pan-neuron: hSyn\
+Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area." Gene therapy 10.4 (2003): 337-347. [[DOI Link](https://doi.org/10.1038/sj.gt.3301905) | [PDF]()]
+
+Excitatory neuron: CaMKIIa\
 Inhibitory neuron: pGAD1. mDlx
 
 
@@ -64,15 +67,21 @@ Constitutive expression: EF1a, CAG
 
 Drug induced: Tet-on system
 
-activity depedent: c-Fos promoter
+Activity depedent: c-Fos promoter
+
+
+
 
 
 ## Genetically encoded indicators
-Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)\
-Potassium:
-Dopamine:
-Histamine:
-eCB:
+- Calcium: GCaMP series [[GCaMP8s/m/f](https://www.janelia.org/jgcamp8-calcium-indicators) |  [GCaMP7s/f/b/c](https://doi.org/10.1038/s41592-019-0435-6) |  [GCaMP6s/m/f](https://doi.org/10.1038/nature12354)]\
+- Potassium: [ ]\
+- Dopamine: GRAB-DA[[GRAB-DA1.0](https://doi.org/10.1016/j.cell.2018.06.042) | [GRAB-DA2.0](https://doi.org/10.1038/s41592-020-00981-9)]; dLight[[dLight1.2](https://doi.org/10.1126/science.aat4422), [addgene](https://www.addgene.org/111068/)]\
+- Histamine:
+- eCB:
+- Kinase activity sensor: PKA[]
+
+
 
 
 ## CRISPR systems

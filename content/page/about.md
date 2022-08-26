@@ -58,9 +58,9 @@ Major In Bioscience; Class of State Key Educational Base
 
 ## Research Experiences
 
-**Graduate student, Peking University & Chinese institute for Brain Research (CIBR)**\
+**Graduate student**, [Peking University](https://english.pku.edu.cn/) & [Chinese institute for Brain Research (CIBR)](https://www.cibr.ac.cn/)\
 MARCH 2019 — PRESENT\
-Graduate student advised by Dr.Wooping Ge, Ph.D. and Dr.Wenzhi Sun, Ph.D.
+Graduate student advised by [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) and [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en)
 
 - Focusing on AAV capsid engineering and make molecular/genetic tools for study of brain 
 vascular system.
@@ -104,7 +104,7 @@ non-invasive manipulation of neuronal activity.
 **HZAU-iGEM team member,**
 Inovation Lab, College of Life science and technology, HZAU\
 FEBRUARY 2015 - OCTOBER 2016\
-2016 HZAU-iGEM team member with instructor Dr.BingGuang Ma, PhD
+2016 HZAU-iGEM team member with instructor [Dr.BingGuang Ma, PhD](http://encoi.hzau.edu.cn/info/1016/1034.htm)
 - Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion
 - During the Competition and in our project, I am responsible for the Optical control part which uses light switchable circuit (LSC) to control the expression of bacteria movement related gene CheZ.
 - Website of HZAU-iGEM2016: http://2016.igem.org/Team:HZAU-China
