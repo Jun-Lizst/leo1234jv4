@@ -21,7 +21,7 @@ thumbnailImagePosition: left
 
 <!--more-->
 
-![randyschekman1](/img/randy_schekman.jpg)
+![randyschekman1](/img/randy_cell_enzymes_bag.jpg)
 
 ---
 ## Foudamental techniques
