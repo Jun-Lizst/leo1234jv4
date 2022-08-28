@@ -17,25 +17,12 @@ thumbnailImage: /img/pmx090121colgenetics-001-1630015763.jpg
 thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
+> Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.      --- Sydney Brenner
 
+<!--more-->
 
+![sydneybrenner1](/img/quotes_sydney_brenner.jpg)
 
-## Fluorescence Proteins
-
--iRFP: miRFPnano670
-
-- RFPs: mRuby3, mCherry
-
-
-- GFPs: mGreenLantern, EGFP
-
-
-- BFPs: TagBFP2, TagBFP
-
-
----
-### Reference
-1. [FPbase](https://www.fpbase.org/): FPbase is a moderated, user-editable fluorescent protein database designed by microscopists.
 
 
 ## Tissue/Cell type specific AAVs
@@ -69,7 +56,22 @@ Drug induced: Tet-on system
 
 Activity depedent: c-Fos promoter
 
+---
+## Fluorescence Proteins
 
+-iRFP: miRFPnano670
+
+- RFPs: mRuby3, mCherry
+
+
+- GFPs: mGreenLantern, EGFP
+
+
+- BFPs: TagBFP2, TagBFP
+
+
+#### Ref. websites
+1. [FPbase](https://www.fpbase.org/): FPbase is a moderated, user-editable fluorescent protein database designed by microscopists.
 
 
 
@@ -106,7 +108,7 @@ Transcriptional activator:
 
 ### DNA base editor
 
-
+---
 ## Optogenetics tools
 
 - Neuronal activity activation: 
@@ -140,3 +142,53 @@ ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
 2. [Karl Deisseroth lab, Stanford](https://web.stanford.edu/group/dlab/about_pi.html)
 3. [Yulong Li lab, PKU](http://www.yulonglilab.org/)
 4. [David Liu lab, Harvard](https://www.liugroup.us/)
+
+---
+## Nobel laureates
+- Emmanuelle Charpentier, Max Planck Unit for the Science of Pathogens, Berlin, Germany\
+The Nobel Prize in Chemistry 2020\
+**For the development of a method for genome editing** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdFqVEkJF0VIrA7BvepNFJIBf72T_osrFneQ4oBF3krq3w?e=Zg1j5C)]
+
+- Jennifer A. Doudna, University of California, Berkeley, CA, USA\
+The Nobel Prize in Chemistry 2020\
+**The Chemistry of CRISPR: Editing the Code of Life** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdFqVEkJF0VIrA7BvepNFJIBf72T_osrFneQ4oBF3krq3w?e=Zg1j5C)]
+
+- Osamu Shimomura, Marine Biological Laboratory (MBL), Woods Hole, MA, USA; Boston University Medical School, Massachusetts, MA, USA\
+The Nobel Prize in Chemistry 2008\
+**Discovery of Green Fluorescent Protein, GFP** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ea7xbY7WDeFMjWMlFhE5Rr8BBd-j396_n-03NDA4n3CnsA?e=Qz2IXt) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU8OcGx8TRhEn-haQRwSFb4BauHuAkiGBI2PjtxSXr9XKg?e=4mwPl8) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERYnt5iVZXlPmIs7cG8Z8DIB9h4nRGs9GM_vI6x-hiJgDQ?e=6FHFNa) |  [Source](https://www.nobelprize.org/prizes/chemistry/2008/shimomura/lecture/)]
+
+- Martin Chalfie, Columbia University, New York, NY, USA\
+The Nobel Prize in Chemistry 2008\
+**GFP: Lighting Up Life** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQFIlZcij4dHt1ziRU-APFsBGLj_jXt8Ehvz1gKYnyWw9g?e=d8d8x4) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUB6WdVEbLNCs1laNYyrE1ABL5QxOSOO3wlGXeAq81uKwg?e=ZQRTaZ) | [Source](https://www.nobelprize.org/prizes/chemistry/2008/chalfie/lecture/)]
+
+- Roger Y. Tsien, University of California, San Diego, CA, USA\
+The Nobel Prize in Chemistry 2008\
+**Constructing and Exploiting the Fluorescent Protein Paintbox** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EX_KX-KLPsFBhgk9pOovOzIBqp8mjNiJMFrchuwG72LKxg?e=9C9yCR) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbXNqpxXkjpIrhgjOkKCvzAB_K3sN2tHir1mLW5t61ea4w?e=q1npQ2) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVZYQT1jreBBrSaWJ-MMmU8Bja7PbbZo16NCLwFhcSoJRg?e=QwVmgh) |  [Source](https://www.nobelprize.org/prizes/chemistry/2008/tsien/facts/)]
+
+
+- Phillip A. Sharp, Massachusetts Institute of Technology (MIT), Center for Cancer Research, Cambridge, MA, USA\
+The Nobel Prize in Physiology or Medicine 1993\
+**Split Genes and RNA Splicing** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdFqVEkJF0VIrA7BvepNFJIBf72T_osrFneQ4oBF3krq3w?e=Zg1j5C) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXAic-FpAitMhZO63Hu_Fk0BLgmFdBfA5ekBdp-M6YXerA?e=oXw1fI) | [Source](https://www.nobelprize.org/prizes/medicine/1993/sharp/facts/)]
+- Richard Roberts, New England Biolabs, Beverly, MA, USA\
+The Nobel Prize in Physiology or Medicine 1993\
+**An Amazing Distortion in DNA Induced by a Methyltransferase** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EffVy-YZa5xJhCho-d_ClsQBpUu5KI8463FRFW6BZ8t1Dw?e=9I2cS2) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EURYg9C5uWJDhxl5SriTYugB6RKFveeKkXnfq9xOAeYVHw?e=SFvfnq) | [Source](https://www.nobelprize.org/prizes/medicine/1993/roberts/facts/)]
+- Susumu Tonegawa, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
+The Nobel Prize in Physiology or Medicine 1987\
+**Somatic Generation of Immune Diversity** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXrmZU1m_VxLtWWavzDn3s0Bw7013B1NEqK7RZ2AOrCwEQ?e=D6e6Az) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERFkAs1pvepClNLYtNEEPDQBBrMX_t-wbkoKzRH0NRkUxw?e=QWs5gr) | [Source](https://www.nobelprize.org/prizes/medicine/1987/tonegawa/lecture/)]
+
+- Paul Berg, Stanford University, Stanford, CA, USA\
+The Nobel Prize in Chemistry 1980\
+**Dissections and Reconstructions of Genes and Chromosomes** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Eei88f7LZ4hOrkvR5Irn2QABVfOyABK3paWRENRv3i9ZKg?e=kwt7Fv) | [Source](https://www.nobelprize.org/prizes/chemistry/1980/berg/lecture/)]
+
+- Daniel Nathans, Johns Hopkins University School of Medicine, Baltimore, MD, USA\
+The Nobel Prize in Physiology or Medicine 1978\
+**Restriction Endonucleases, Simian Virus 40, and the New Genetics** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXU0uVvUd6JEr9Z2CyCwtXoBKfAgsNO2Tg78BAbFvOpLrg?e=MdCExv) | [Source](https://www.nobelprize.org/prizes/medicine/1978/nathans/facts/)]
+
+- Werner Arber, Biozentrum der Universität, Basel, Switzerland\
+The Nobel Prize in Physiology or Medicine 1978\
+**Promotion and Limitation of Genetic Exchange** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Eei88f7LZ4hOrkvR5Irn2QABVfOyABK3paWRENRv3i9ZKg?e=tHafsw) | [Source](https://www.nobelprize.org/prizes/medicine/1978/arber/facts/)] 
+
+- Hamilton O. Smith, Johns Hopkins University School of Medicine, Baltimore, MD, USA\
+The Nobel Prize in Physiology or Medicine 1978\
+**Nucleotide Sequence Specificity of Restriction Endonucleases** [[Read the Lecture]() | [Source](https://www.nobelprize.org/prizes/medicine/1978/smith/facts/)]
+

@@ -18,7 +18,8 @@ showActions:    false
 
 ![leo1erefdfxc](/img/BillfishgPXSBX.PNG)
 
-Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. I ask questions in the cutting-edge field of brain vasculature system and brain metabolic system, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
+Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to solve specific problems.
+
 
 ## Interest Areas
 
@@ -104,7 +105,7 @@ non-invasive manipulation of neuronal activity.
 **HZAU-iGEM team member,**
 Inovation Lab, College of Life science and technology, HZAU\
 FEBRUARY 2015 - OCTOBER 2016\
-2016 HZAU-iGEM team member with instructor [Dr.BingGuang Ma, PhD](http://encoi.hzau.edu.cn/info/1016/1034.htm)
+2016 HZAU-iGEM team member with instructor [Dr.Bin-Guang Ma, PhD](http://encoi.hzau.edu.cn/info/1016/1034.htm)
 - Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion
 - During the Competition and in our project, I am responsible for the Optical control part which uses light switchable circuit (LSC) to control the expression of bacteria movement related gene CheZ.
 - Website of HZAU-iGEM2016: http://2016.igem.org/Team:HZAU-China
