@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mouse on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/mouse/</link>
+    <description>Recent content in Mouse on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Aug 2022 16:50:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/mouse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Genetics tools</title>
+      <link>https://leoj.xyz/resource/geneticstools/</link>
+      <pubDate>Fri, 26 Aug 2022 16:50:25 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/geneticstools/</guid>
+      <description>Mus musculus 129S1 C57BL/6J BALB/cJ
+Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC transgenic mice is suitable for pericyte and Artery SMC labeling in central nervous system. NG2DsRedBAC transgenic mice express an optimized red fluorescent protein variant (DsRed.T1) under the control of the mouse NG2 (Cspg4) promoter/enhancer and may be useful for fluorescent labeling of NG2 cells (oligodendrocyte progenitor cells) in the central nervous system and NG2-expressing cells in other organs, as well as for isolating NG2 cell populations via FACS.</description>
+    </item>
+    
+  </channel>
+</rss>

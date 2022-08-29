@@ -23,7 +23,9 @@ Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC 
       <pubDate>Thu, 25 Aug 2022 17:16:39 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/biochemistrytools/</guid>
-      <description>Vendor companies Abcam ThermoFisher R&amp;amp;D Systems BioRad Ref Labs Signaling pathway and basic science Zhijian-James Chen lab, UTSW David M. Sabatini lab, MIT Xiaodong Wang lab, UTSW, NIBS Feng Shao lab, NIBS Tool development Alice Ting lab, Stanford Ref. Protocols Bio-protocol Protocol Exchange </description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Our cells engage in protein production, and many of those proteins are enzymes responsible for the chemistry of life.      &amp;mdash; Randy Schekman&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -32,15 +34,9 @@ Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC 
       <pubDate>Sun, 21 Aug 2022 20:27:51 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/molecularbiology/</guid>
-      <description>Fluorescence Proteins -iRFP: miRFPnano670
-RFPs: mRuby3, mCherry
-GFPs: mGreenLantern, EGFP
-BFPs: TagBFP2, TagBFP
-Reference FPbase: FPbase is a moderated, user-editable fluorescent protein database designed by microscopists. Tissue/Cell type specific AAVs Brain organ specific: BR1
-Liver specific:
-Brain endothelial cell specific: AAV-BI30
-Tissue/Cell type specific promoter Pan-neuron: hSyn
-Kügler, S., E. Kilic, and M. Bähr. &amp;ldquo;Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.      &amp;mdash; Sydney Brenner&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -146,9 +142,8 @@ Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li, Zhe Zhang, Xiaowan Wang, Ruisi Bao, 
       <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
       
       <guid>https://leoj.xyz/page/about/</guid>
-      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. I ask questions in the cutting-edge field of brain vasculature system and brain metabolic system, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
-Interest Areas Biological Question
-Brain vasculature system</description>
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to solve specific problems.
+Interest Areas Biological Question</description>
     </item>
     
     <item>
