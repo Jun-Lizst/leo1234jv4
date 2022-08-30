@@ -124,3 +124,19 @@ Cellfinder: https://github.com/SainsburyWellcomeCentre/cellfinder\
 BrainRender: https://github.com/BrancoLab/BrainRender\
 Allen Developing Brain atlas: https://developingmouse.brain-map.org/static/atlas
 
+
+
+---
+## Nobel laureates
+- **Eric betzig lab**, Janelia/University of California, Berkeley\
+The Nobel Prize in Chemistry 2014\
+**Single Molecules, Cells, and Super-Resolution Optics** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/2017/young/facts/)]
+
+- **Stefan W. Hell**, Max Planck Institute for Biophysical Chemistry, Göttingen, Germany\
+The Nobel Prize in Chemistry 2014\
+**Nanoscopy with Focused Light**
+
+- **Maria Goeppert Mayer**, University of California, San Diego, CA, USA\
+The Nobel Prize in Physics 1963\
+**The Shell Model**
+

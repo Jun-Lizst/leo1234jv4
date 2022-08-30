@@ -59,13 +59,14 @@ Activity depedent: c-Fos promoter
 ---
 ## Fluorescence Proteins
 
--iRFP: miRFPnano670
+-iRFP: miRFP670nano
 
 - RFPs: mRuby3, mCherry
 
 
 - GFPs: mGreenLantern, EGFP
 
+- YFPs: dLanYFP, tdLanYFP
 
 - BFPs: TagBFP2, TagBFP
 
@@ -76,7 +77,7 @@ Activity depedent: c-Fos promoter
 
 
 ## Genetically encoded indicators
-- Calcium: GCaMP series [[GCaMP8s/m/f](https://www.janelia.org/jgcamp8-calcium-indicators) |  [GCaMP7s/f/b/c](https://doi.org/10.1038/s41592-019-0435-6) |  [GCaMP6s/m/f](https://doi.org/10.1038/nature12354)]\
+- Calcium: GCaMP series [[GCaMP8s/m/f](https://www.janelia.org/jgcamp8-calcium-indicators) | [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcWtwJb1nk5Hq3K9u7TelA0Bg6HOZ4OB5_D_0fG75ucM2w?e=tYNu8A) | [DOI Link](https://doi.org/10.1101/2021.11.08.467793)] [GCaMP7s/f/b/c](https://doi.org/10.1038/s41592-019-0435-6) |  [GCaMP6s/m/f](https://doi.org/10.1038/nature12354)]\
 - Potassium: [ ]\
 - Dopamine: GRAB-DA[[GRAB-DA1.0](https://doi.org/10.1016/j.cell.2018.06.042) | [GRAB-DA2.0](https://doi.org/10.1038/s41592-020-00981-9)]; dLight[[dLight1.2](https://doi.org/10.1126/science.aat4422), [addgene](https://www.addgene.org/111068/)]\
 - Histamine:
@@ -120,10 +121,25 @@ ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
 - Light-activated Cyclases: PAC & Cyclop
 
 
+
 # Reference
 1. [Resource website of Optogenetics in neuroscience](https://web.stanford.edu/group/dlab/optogenetics/), Karl Deisseroth lab
 2. [Georg Nagel lab, University of Würzburg](https://www.biozentrum.uni-wuerzburg.de/en/bot1/research/prof-dr-georg-nagel/)
 3. [Peter Hegemann lab, Humboldt-University of Berlin](https://www.unisyscat.de/people/current-group-leaders/hegemann-peter.html)
+
+
+
+## Protein localization motifs
+1. ER localization
+2. Mitochondria localization
+3. Golgi localization
+4. Lysosome localization
+5. Cell membrane localization
+
+
+
+
+
 
 
 ## Open Source & Commercial Softwares
@@ -177,9 +193,19 @@ The Nobel Prize in Physiology or Medicine 2006\
 - Phillip A. Sharp, Massachusetts Institute of Technology (MIT), Center for Cancer Research, Cambridge, MA, USA\
 The Nobel Prize in Physiology or Medicine 1993\
 **Split Genes and RNA Splicing** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdFqVEkJF0VIrA7BvepNFJIBf72T_osrFneQ4oBF3krq3w?e=Zg1j5C) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXAic-FpAitMhZO63Hu_Fk0BLgmFdBfA5ekBdp-M6YXerA?e=oXw1fI) | [Source](https://www.nobelprize.org/prizes/medicine/1993/sharp/facts/)]
+
 - Richard Roberts, New England Biolabs, Beverly, MA, USA\
 The Nobel Prize in Physiology or Medicine 1993\
 **An Amazing Distortion in DNA Induced by a Methyltransferase** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EffVy-YZa5xJhCho-d_ClsQBpUu5KI8463FRFW6BZ8t1Dw?e=9I2cS2) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EURYg9C5uWJDhxl5SriTYugB6RKFveeKkXnfq9xOAeYVHw?e=SFvfnq) | [Source](https://www.nobelprize.org/prizes/medicine/1993/roberts/facts/)]
+
+- Kary B. Mullis, Cetus Corporation\
+The Nobel Prize in Chemistry 1993\
+**The Polymerase Chain Reaction** [[Read the Lecture](https://www.nobelprize.org/prizes/chemistry/1993/mullis/lecture/) | [Source](https://www.nobelprize.org/prizes/chemistry/1993/mullis/facts/)]
+
+- Michael Smith, University of British Columbia, Vancouver, Canada\
+The Nobel Prize in Chemistry 1993\
+**Synthetic DNA and Biology** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQxGZFMgJhhDoVnAPN8Bro4BIM8CP1UgV9XUuyeiK0CVQQ?e=273ecb) | [Source](https://www.nobelprize.org/prizes/chemistry/1993/smith/facts/)]
+
 - Susumu Tonegawa, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
 The Nobel Prize in Physiology or Medicine 1987\
 **Somatic Generation of Immune Diversity** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXrmZU1m_VxLtWWavzDn3s0Bw7013B1NEqK7RZ2AOrCwEQ?e=D6e6Az) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERFkAs1pvepClNLYtNEEPDQBBrMX_t-wbkoKzRH0NRkUxw?e=QWs5gr) | [Source](https://www.nobelprize.org/prizes/medicine/1987/tonegawa/lecture/)]
