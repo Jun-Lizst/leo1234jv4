@@ -20,13 +20,13 @@ thumbnailImagePosition: left
 
 
 
-
+---
 # LC-MS system
 
 
 
 
----
+
 ## Vendor companies
 1. ThermoFisher
 2. SCIEX
@@ -41,7 +41,7 @@ thumbnailImagePosition: left
 
 
 
----
+
 ## Vendor companies
 1. [Bruker](https://www.bruker.com/en.html)
 2. [MassTech™](https://www.apmaldi.com/main/)
@@ -59,6 +59,46 @@ thumbnailImagePosition: left
 
 
 ### Metabolomics analysis softwares
-1. MetaboAnalyst
-2. MZmine3
-3.
+1. [MetaboAnalyst](https://www.metaboanalyst.ca/MetaboAnalyst/home.xhtml): v5.0
+2. [MZmine3](http://mzmine.github.io/)
+3. [MS-DIAL](http://prime.psc.riken.jp/compms/msdial/main.html)
+4. [MaxQuant](https://www.maxquant.org/)
+5. Perseus
+
+
+### Online courses
+1. **2018 North American Mass Spectrometry Summer School(1st Annual)**
+    - [MS-based compound identification in untargeted metabolomics](https://youtu.be/UB1mOfcJwYc), Oliver Fiehn, University of California-Davis 
+    - [Protein Quantification by Mass Spectrometry Part II/Development and Application of Chemical Tags](https://youtu.be/WUO5ZiaJFX0), Lingjun Li, University of Wisconsin-Madison    
+
+2. **2019 North American Mass Spectrometry Summer School(2nd Annual)**
+    - [Ionization](https://youtu.be/cZ5AFL47A1I), Evan R. Williams
+    - [Quantitative Proteomics](https://youtu.be/YdQF6EjQmZA), Lingjun Li
+    - [Exploring Proteomes Using Discovery and Targeted Mass Spectrometry Approaches](https://youtu.be/hC8y1sA4ShA), Ulrike Kusebauch
+    - [Acquisition Methods-DDA, DIA and PRM](https://youtu.be/-_BNOTQu1WQ), Jesse G. Meyer
+    - [Spectral Interpretation](https://youtu.be/9PN2PYX0yUU), Beatrix Ueberheide
+    - [Science Writing](https://youtu.be/CR3aWDNmVCo), Alicia Williams
+    - [Post-translational Modifications](https://youtu.be/IQ5ygy2aTp0), Judit Villen
+    - [Mass Analyzers](https://youtu.be/aypTeWXgihc), Michael Westphall
+    
+3. **2021 North American Mass Spectrometry Summer School(3nd Annual)**
+    - [Deconstructing a Mass Spectrometer](https://youtu.be/4NbxGCS3K1g), Mike Westphall/Kenny Lee
+    - [Separation Science of Complex Biological Mixtures](https://youtu.be/B4zlE0NqovA), Susan Olesik
+    - [Tandem MS](https://youtu.be/PhHdS6oyENU), Joshua Coon
+    - [Data Analysis and interpretation with MaxQuant and Perseus](https://youtu.be/8-OChUiOyiU), Jürgen Cox
+    - [Publishing your Science](https://youtu.be/4Uplxis6eek), Shawnna Buttery
+    - [How to Set-up an LC Run](https://youtu.be/OZ4p5KpPdmw), Laura Muehlbauer/Justin McKetney
+    - [How to Calibrate a Mass Spectrometer](https://youtu.be/rRcC-xhXK4o), Austin Salome/Trent Peters-Clarke
+    - [Post-translational Modifications](https://youtu.be/gOsp0eyaZgg), Evgenia Shishkova
+    - [Experimental Design for Quantitative Proteomics](https://youtu.be/Z824vZXh5Ic), Edward Huttlin
+    - [Metabolomics](https://youtu.be/aJo4s-QaOU4), Jessica Prenni
+    - [Lipidomics](https://youtu.be/rnpudCq9CrU), John A. Bowden
+    - [Top-down and Native MS](https://youtu.be/7EEmZLSU-0E), [Vicki Wysocki](https://research.cbc.osu.edu/wysocki.11/group-home/contact-info/); [nMS-to-SB](https://nativems.osu.edu/resources)
+    - [Data Acquisition Methods](https://youtu.be/dgt9yKtoTg4), Jesper Velgaard Olsen
+    
+4. **2022 North American Mass Spectrometry Summer School(4th Annual)**: Tutorial lecture topics include: Mass Analyzers, Ionization, Tandem MS, Chromatography, Shotgun Proteomics, Instrument Acquisition and Setup, Data analysis, and PTMs. Also planned are lectures workshops for scientific and professional development.
+    - [Exploring the “Social Network” within a Human Cell](https://youtu.be/tlkD4sCbN7o), Edward Huttlin
+    - [Future Technology Needs, Panel Discussion](https://youtu.be/RH7sz8Z8WAE)\
+    Panelists: John A. Bowden, Ben Garcia, Jessica Prenni, Edward Huttlin, Lingjun Li, Rachel Loo, David Geffen, Vicki Wysocki
+    
+    

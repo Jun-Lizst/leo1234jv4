@@ -95,6 +95,10 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 10X genomics;
 
 
+**Transcriptome database of different Brain cell types**
+1. https://www.brainrnaseq.org/, Started at [Ben A. Barre lab](), maintained by [Ye Zhang lab](http://www.yezhanglab.org/yezhang).
+
+
 **Brain single-cell genomics Browsers**
 
 1. Dropviz: http://dropviz.org/
@@ -107,25 +111,32 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 
+
+
 **Ref papers**:
 
 1. Sahraeian, Sayed Mohammad Ebrahim, et al. "Gaining comprehensive biological insight into the transcriptome by performing a broad-spectrum RNA-seq analysis." Nature communications 8.1 (2017): [Link](https://www.nature.com/articles/s41467-017-00050-4)
-
+2. 
 
 
 #### Ref labs
-**Single cell genomics**: [Satija lab, NYU](https://satijalab.org/)\
-**Spatial Transcriptomics**: [Rongfan lab, Yale](https://www.eng.yale.edu/fanlab/Responsive_Fan_lab/index.html)
+1. **Single cell genomics**: [Satija lab, NYU](https://satijalab.org/)\
+2. **Spatial Transcriptomics**: [Rongfan lab, Yale](https://www.eng.yale.edu/fanlab/Responsive_Fan_lab/index.html)
+3. **Transcriptomics of brain cell types**: 
+- **Ben A. Barre(1954-2017)**, Stanford University School of Medicine\
+    Pioneer of glia biology
+    [A Tribute to Ben Barres]()
+    - Cahoy, J. D. et al. A Transcriptome Database for Astrocytes, Neurons, and Oligodendrocytes: A New Resource for Understanding Brain Development and Function. Journal of Neuroscience 28, 264–278 (2008). [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EdtWpOFux75DtCYSoiM3UuUBr-4OU0A1XKl1UBCtVFcWKA?e=o9ZFRu) | [PMID: 18171944](https://pubmed.ncbi.nlm.nih.gov/18171944/) | [DOI Link](https://doi.org/10.1523/jneurosci.4178-07.2008)]
+
 
 ---
-
 ## Nobel laureates
-1. Frederick Sanger(1918-2013), Cambridge University, Great Britain\
+1. **Frederick Sanger(1918-2013)**, Cambridge University, Great Britain\
 The Nobel Prize in Chemistry 1980\
 **Determination of Nucleotide Sequences in DNA**
 [[Public talk](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESLmFc2bPj1NiQLr8MynjR8ByJViMi7kZA4tovrSNIpedg?e=4Bclbz) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZMCejlGVNNGkWrDQA9Ex4sBUyUIoGYRkafoFt2BA7T3SQ?e=Js9jO3) |  [Source](https://www.nobelprize.org/prizes/chemistry/1980/sanger/facts/)]
 
-2. Walter Gilbert(1932-), Harvard University, Biological Laboratories, Cambridge, MA, USA\
+2. **Walter Gilbert(1932-)**, Harvard University, Biological Laboratories, Cambridge, MA, USA\
 The Nobel Prize in Chemistry 1980\
 **DNA Sequencing and Gene Structure**
 [[iBiology interview]() | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESLasGpogvVMvh4lDoG907IB81_uZWP46kxzSYNsvLox8A?e=pWUlZs) | [Source](https://www.nobelprize.org/prizes/chemistry/1980/gilbert/biographical/)]

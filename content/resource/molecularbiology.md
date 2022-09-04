@@ -25,42 +25,59 @@ thumbnailImagePosition: left
 ![quote_feynman](/img/quote_feynman.jpg)
 
 ---
+
+
 ## Tissue/Cell type specific AAVs
 >
 ---
 
-- Brain organ specific: AAV-BR1[[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
-- Liver specific:
 
-- Brain endothelial cell targeting: AAV-BI30[PDF | PMID: | DOI Link]
+- **Liver targeting**:
 
-- Microglia targeting: AAV-MG []
+- **Brain endothelial cell targeting**: 
+    - AAV-BR1: Neurons(Cortex, Striatum, Cerebellum); Brain endothelial cells(Whole brain and spinal cord); has central nervous system specificity. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
+    - AAV-BI30: AAV9 variants, with liver leakage. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUxMCsFh91tDl49LHoAorpkBT1REK6IuHFHofD7ze-dcFA?e=Z0s0iN) | [PMID: 35571675](https://pubmed.ncbi.nlm.nih.gov/35571675/) | [DOI Link](https://doi.org/10.1038/s44161-022-00046-4)]
 
-- Astrocyte targeting: AAV-PhP.eB []
+- **Microglia targeting**: 
+    - AAV2/6(Y731F/Y705F/T492V) [[PMID: 27308302](https://pubmed.ncbi.nlm.nih.gov/27308302/) | [DOI Link](https://doi.org/10.1038/mtm.2016.26)]
+    - AAV-MG[AAV-cMG] [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee-bqHwpqqJIuiYwXlCAJSMBPOUjYvUN59IiY6MLf8tVtg?e=iUmxnI) | [PMID: 35879607](https://pubmed.ncbi.nlm.nih.gov/35879607/) | [DOI Link](https://doi.org/10.1038/s41592-022-01547-7)]
 
+- **Astrocyte targeting**:
+
+
+- **Global/non-specific**: 
+    - AAV-PhP.B: AAV-PHP.B transfers genes throughout the CNS with an efficiency that is at least 40-fold greater than that of the current standard, AAV9. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWltFqorabFEuOGjnhUXIs4BJUwlIvtdn0gvR-D5SiYljw?e=7fGVFB) | [PMID: 26829320](https://pubmed.ncbi.nlm.nih.gov/26829320/) | [DOI Link](https://doi.org/10.1038/nbt.3440)]
+
+    - AAV-PhP.eB: [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee3jKWcTBfNEmGVr907iDgUBvkTOtwgl7KyYe5ic2b56bg?e=dkOFlB) | [PMID: 35879607](https://pubmed.ncbi.nlm.nih.gov/28671695/) | [DOI Link](https://doi.org/10.1038/nn.4593)]
+
+- **Peripheral nervous system**:
+    - AAV-PHP.S: 1 × 10^12 vg of AAV-PHP.S transduced 82% of dorsal root ganglion neurons, as well as cardiac and enteric neurons. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee3jKWcTBfNEmGVr907iDgUBvkTOtwgl7KyYe5ic2b56bg?e=dkOFlB) | [PMID: 35879607](https://pubmed.ncbi.nlm.nih.gov/28671695/) | [DOI Link](https://doi.org/10.1038/nn.4593)]
 
 
 ## Tissue/Cell type specific promoters
 >
 ---
 
-- Pan-neuron: hSyn\
-Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area." Gene therapy 10.4 (2003): 337-347. [[DOI Link](https://doi.org/10.1038/sj.gt.3301905) | [PDF]()]
+- **Pan-neuron**: 
+    - hSyn: Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area." Gene therapy 10.4 (2003): 337-347. [[DOI Link](https://doi.org/10.1038/sj.gt.3301905) | [PDF]()]
 
-- Excitatory neuron: CaMKIIa
-- Inhibitory neuron: pGAD1. mDlx
+- **Excitatory neuron**: CaMKIIa
 
-- Astrocyte: GfABC1D[]
+- **Inhibitory neuron**: pGAD1. mDlx
 
-- Microglia: Cd68[]
+- **Purkinje Cell-specific**: PCP2/L7
 
-- Constitutive expression: EF1a, CAG
+- **Astrocyte**: GfABC1D[]
 
-- Drug induced: Tet-on system
+- **Microglia**: Cd68[]
 
-- Activity depedent: c-Fos promoter
+- **Constitutive expression**: EF1a, CAG
 
-- ERK pathway activation: pKrox24
+- **Drug induced**: Tet-on system
+
+- **Activity depedent**: c-Fos
+
+- **ERK pathway activation**: pKrox24
 
 
 
@@ -143,14 +160,14 @@ Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers hig
 
 
 ## Pioneers
-1. **Stephen W. Kuffler(1913-1980)**: Neurophysiologist and founding father of modern neurobiology. Born in Táp, Hungary, on August 24, 1913, he died on October 11, 1980, in Woods Hole, MA, USA, aged 67 years. 
-- **Synaptic transmission**
--
+1. **Stephen W. Kuffler(1913-1980)**: Neurophysiologist and founding father of modern neurobiology. Born in Táp, Hungary, on August 24, 1913, he died on October 11, 1980, in Woods Hole, MA, USA, aged 67 years. [**Biography** [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESi3sZ3FB_NIr4HXb-VbuoMBtbPska8tvtRzns7Of9twdg?e=f2Vln4)]
+    - **Synaptic transmission**
+    - **GABA as an inhibitory neurotransmitter**
 
-- **GABA as an inhibitory neurotransmitter**
--
-
-
+2. **Solomon H. Snyder**: Snyder's finding of receptors for neurotransmitters and medicines, as well as the characterization of psychotropic agent activities, has resulted in many breakthroughs in molecular neuroscience. [[Talk video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EYM-PFMexBRGpMbUa5lOfSoBJAksIGtWJD3GH_X1otr_GA?e=rjpFaH)]
+    - **Co-discovered the opioid receptor** and later identified the existence of normally occurring opiate-like peptides in the brain.
+    - **Characterization of novel neurotransmitters**, like the gases NO and CO and the D-isomers of amino acids, including D-serine.
+    - **Co-founder of Nova Pharmaceuticals and Guilford Pharmaceuticals**
 
 
 
@@ -191,7 +208,7 @@ Transcriptional activator:
 ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
 
 
-- Neuronal activity scilence: NpHR(Halorhodopsin)
+- Neuronal activity scilence: NpHR(Halorhodopsin), GtaCR1
 
 - Light-activated Cyclases: PAC & Cyclop
 
@@ -280,7 +297,7 @@ TargetP-2.0 server predicts the presence of N-terminal presequences: signal pept
 2. [Addgene](https://www.addgene.org/): Addgene is a non-profit plasmid repository. Addgene facilitates the exchange of genetic material between laboratories by offering plasmids and their associated cloning data to not-for-profit laboratories around the world.
 3. [Vazyme](https://www.vazyme.com/): 
 4. [Geneviz from Azenta](https://www.genewiz.com/): As a leader in R&D genomics services, GENEWIZ provides superior data and high-quality constructs for next generation sequencing, gene synthesis, and sanger sequencing.
-
+5. [Takara](https://www.takarabio.com/products/pcr/high-yield-pcr): Takara provide high-quality PCR polymerases.
 
 ## Ref Labs
 1. [Feng Zhang Lab, MIT](https://zlab.bio/)
@@ -289,6 +306,17 @@ TargetP-2.0 server predicts the presence of N-terminal presequences: signal pept
 4. [Adam Cohen Lab, Harvard](http://cohenweb.rc.fas.harvard.edu/)
 4. [Yulong Li Lab, PKU](http://www.yulonglilab.org/)
 5. [Jin Zhang Lab, UCSD](http://jinzhanglab.ucsd.edu/)
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 ## Nobel laureates

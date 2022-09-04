@@ -63,7 +63,8 @@
       <guid>https://leoj.xyz/resource/massspectrometry/</guid>
       <description>LC-MS system Vendor companies ThermoFisher SCIEX Agilent MALDI system Vendor companies Bruker MassTech™ Ref. Labs Lingjun Li Lab, University of Wisconsin Madison
 West Coast Metabolomics Center, UC Davis
-Fiehn Laboratory for Untargeted Metabolomics Newman Laboratory for Lipid Mediators Hammock Laboratory for Inflammatory Metabolism Metabolomics analysis softwares MetaboAnalyst MZmine3 3. </description>
+Fiehn Laboratory for Untargeted Metabolomics Newman Laboratory for Lipid Mediators Hammock Laboratory for Inflammatory Metabolism Metabolomics analysis softwares MetaboAnalyst: v5.0 MZmine3 MS-DIAL MaxQuant Perseus Online courses 2018 North American Mass Spectrometry Summer School(1st Annual)
+MS-based compound identification in untargeted metabolomics, Oliver Fiehn, University of California-Davis Protein Quantification by Mass Spectrometry Part II/Development and Application of Chemical Tags, Lingjun Li, University of Wisconsin-Madison 2019 North American Mass Spectrometry Summer School(2nd Annual)</description>
     </item>
     
     <item>
@@ -100,7 +101,8 @@ TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA
       
       <guid>https://leoj.xyz/resource/imagingtools/</guid>
       <description>Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp;amp; STELLARIS 8) ZEISS:
-Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Two-Photon Microscopy Cranial window surgery Protocol, by Jun-Liszt Li [Download PDF]
+Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
 Ti:Sapphire Femtosecond Laser: From Thorlabs
 AO (Adaptive optics) in 2PFM and for neurobiology
 Commercial Olympus: FVMPE-RS

@@ -149,6 +149,7 @@ thumbnailImagePosition: left
 # Drosophila melanogaster
 ![seymour_benzer1](/img/Seymour_and_thefly.png)
 Seymour Benzer with mega-Drosophila, 1974.
+- **Seymour Benzer(1921-2007)**, California Institute of Technology [[Public Interview](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESTLH4bQeIVEobzIprKewX0BtTvgmcitTEOq1JAt_DVJBw?e=peh8MA) |  [Read the Interview](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZVmcpluPh9Pkayf_EYVUugB8Q9QW5Y5qCPsVW00Of3z7w?e=faAcdk)] | [Pioneer works: [phage genome structure mapping, 1959, PNAS](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EanvBkFSnedAtSTtSqkzp08B12weMOgnka7hOQbo4FJFyg?e=Xa00vZ) | [Clock Mutants of Drosophila melanogaster, 1971, PNAS](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ebu6ooZTaflCk6zzq4LdNLkB51wPJwNB8mGrdCY4ACm47g?e=2NXNPL)]
 
 
 
@@ -163,10 +164,11 @@ Seymour Benzer with mega-Drosophila, 1974.
 ### Ref. Websites
 1. [ZFIN](https://zfin.org/): The Zebrafish Information Network (ZFIN) is the database of genetic and genomic data for the zebrafish (Danio rerio) as a model organism. ZFIN provides a wide array of expertly curated, organized and cross-referenced zebrafish research data.
 
+
+
 ---
 ## Nobel laureates
 - **Michael W. Young**, Rockefeller University, New York, NY, USA\
-Leading pioneer: **Seymour Benzer(1921-2007)**, California Institute of Technology [[Public Interview](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESTLH4bQeIVEobzIprKewX0BtTvgmcitTEOq1JAt_DVJBw?e=peh8MA) |  [Read the Interview](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZVmcpluPh9Pkayf_EYVUugB8Q9QW5Y5qCPsVW00Of3z7w?e=faAcdk)]\
 The Nobel Prize in Physiology or Medicine 2017\
 **Time Travels: A 40 Year Journey from Drosophila’s Clock Mutants to Human Circadian Disorders** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/2017/young/facts/)]
 
@@ -177,6 +179,18 @@ The Nobel Prize in Physiology or Medicine 2002\
 - **Barbara McClintock(1902-1992)**, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, USA\
 The Nobel Prize in Physiology or Medicine 1983\
 **The Significance of Responses of the Genome to Challenge** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ec3SUiYnkIZAnC5VfbVEuQcBCIB9298kRxmK85J5uhUt0Q?e=Lh7u48) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/1983/mcclintock/facts/)]
+
+- **Max Delbrück(1906-1981)**, California Institute of Technology (Caltech), Pasadena, CA, USA\
+The Nobel Prize in Physiology or Medicine 1969\
+**A Physicist’s Renewed Look at Biology–Twenty Years Later** [[Read the Lecture](https://www.nobelprize.org/prizes/medicine/1969/delbruck/lecture/) | [Source](https://www.nobelprize.org/prizes/medicine/1969/delbruck/facts/)]
+
+- **Alfred D. Hershey(1908-1997)**, Carnegie Institution of Washington, Long Island, New York, NY, USA\
+The Nobel Prize in Physiology or Medicine 1969\
+**Idiosyncrasies of DNA Structure** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUf33ViYqKJGu4HB54BrW_0BN0V8yZyfuIVh0TPC6dN27g?e=UFffO9) | [Source](https://www.nobelprize.org/prizes/medicine/1969/hershey/facts/)]
+
+- **Salvador E. Luria(1912-1991)**, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
+The Nobel Prize in Physiology or Medicine 1969\
+**Phage, colicins and macroregulatory phenomena** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeAqxSmGYFtKmsp1Wq-WrQMBjwfHLohdJ2-wTmZxbWAzrg?e=nDVf7X) | [Source](https://www.nobelprize.org/prizes/medicine/1969/luria/facts/)]
 
 - **Thomas Hunt Morgan(1866-1945)**, California Institute of Technology (Caltech), Pasadena, CA, USA\
 The Nobel Prize in Physiology or Medicine 1933\
