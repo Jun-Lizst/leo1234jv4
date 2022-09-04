@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/linux/</link>
+    <description>Recent content in Linux on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2022 20:27:51 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molecular biology tools</title>
+      <link>https://leoj.xyz/resource/molecularbiology/</link>
+      <pubDate>Sun, 21 Aug 2022 20:27:51 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/molecularbiology/</guid>
+      <description>Fluorescence Proteins RFPs:
+GFPs:
+BFPs:
+Tissue/Cell type specific AAVs Tissue/Cell type specific promoter Genetically encoded indicators Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)
+Potassium: Dopaine: Histamine: eCB:
+CRISPR systems DNA target Cas9 based: Knock out: SpCas9, SaCas9 DNA base editor: dCas9-xxx Transcriptional activator:
+RNA target Cas13 RNA knockdown: Cas13d(RfxCas13d or CasRx, Cas13d from Ruminococcus flavefaciens XPD3002)
+Compared to Cas9-mediated DNA editing, Cas13-based RNA editing tools target dynamically transcribed RNA without permanent alteration of the genome, and the effect of RNA editing can be controlled by means of dose adjustment, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

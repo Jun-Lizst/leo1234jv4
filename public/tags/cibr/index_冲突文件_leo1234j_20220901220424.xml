@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIBR on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/cibr/</link>
+    <description>Recent content in CIBR on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2022 15:15:42 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/cibr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://leoj.xyz/page/about/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/about/</guid>
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. I ask questions in the cutting-edge field of brain vasculature system and brain metabolic system, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
+Interest Areas Biological Question
+Brain vasculature system</description>
+    </item>
+    
+  </channel>
+</rss>

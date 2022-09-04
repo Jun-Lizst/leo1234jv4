@@ -25,4 +25,40 @@ thumbnailImagePosition: left
 
 
 
+
+---
+## Vendor companies
+1. ThermoFisher
+2. SCIEX
+3. Agilent
+
+
+
+
+
+---
 # MALDI system
+
+
+
+---
+## Vendor companies
+1. [Bruker](https://www.bruker.com/en.html)
+2. [MassTech™](https://www.apmaldi.com/main/)
+
+
+---
+## Ref. Labs
+1. [Lingjun Li Lab](https://www.lilabs.org/), University of Wisconsin Madison
+
+2. [West Coast Metabolomics Center](https://metabolomics.ucdavis.edu/), UC Davis
+- Fiehn Laboratory for Untargeted Metabolomics
+- Newman Laboratory for Lipid Mediators
+- Hammock Laboratory for Inflammatory Metabolism
+
+
+
+### Metabolomics analysis softwares
+1. MetaboAnalyst
+2. MZmine3
+3.

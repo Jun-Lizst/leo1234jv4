@@ -36,9 +36,10 @@ thumbnailImagePosition: left
 
 
 ## R 
-R-The R Project for Statistical Computing: https://www.r-project.org/\
-Rstudio: https://rstudio.com/\
-Books:
+**R-The R Project for Statistical Computing**: https://www.r-project.org/\
+**Rstudio**: [Rstudio Workbench](https://rstudio.com/) is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.\
+**RShiny**: [Shiny](https://shiny.rstudio.com/) is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions.\
+**Books**:
 
 ## Python
 

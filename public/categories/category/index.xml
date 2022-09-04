@@ -6,15 +6,29 @@
     <description>Recent content in category on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Aug 2022 16:50:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/category/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Sep 2022 20:14:35 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cellular Metabolism</title>
+      <link>https://leoj.xyz/resource/cellularmetabolism/</link>
+      <pubDate>Sat, 03 Sep 2022 20:14:35 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/cellularmetabolism/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Our cells engage in protein production, and many of those proteins are enzymes responsible for the chemistry of life.&lt;br&gt;
+&amp;mdash; Randy Schekman&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>Genetics tools</title>
       <link>https://leoj.xyz/resource/geneticstools/</link>
       <pubDate>Fri, 26 Aug 2022 16:50:25 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/geneticstools/</guid>
-      <description>Mus musculus 129S1 C57BL/6J BALB/cJ
-Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC transgenic mice is suitable for pericyte and Artery SMC labeling in central nervous system. NG2DsRedBAC transgenic mice express an optimized red fluorescent protein variant (DsRed.T1) under the control of the mouse NG2 (Cspg4) promoter/enhancer and may be useful for fluorescent labeling of NG2 cells (oligodendrocyte progenitor cells) in the central nervous system and NG2-expressing cells in other organs, as well as for isolating NG2 cell populations via FACS.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.&lt;br&gt;
+&amp;mdash; Sydney Brenner&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -24,7 +38,8 @@ Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC 
       
       <guid>https://leoj.xyz/resource/biochemistrytools/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Our cells engage in protein production, and many of those proteins are enzymes responsible for the chemistry of life.      &amp;mdash; Randy Schekman&lt;/p&gt;
+&lt;p&gt;Our cells engage in protein production, and many of those proteins are enzymes responsible for the chemistry of life.&lt;br&gt;
+&amp;mdash; Randy Schekman&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -35,7 +50,8 @@ Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC 
       
       <guid>https://leoj.xyz/resource/molecularbiology/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.      &amp;mdash; Sydney Brenner&lt;/p&gt;
+&lt;p&gt;What I cannot create, I do not understand.&lt;br&gt;
+&amp;mdash; Richard P. Feynman&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -45,7 +61,9 @@ Mouse genetics tools in brain vasculature system field NG2DsRedBAC: NG2DsRedBAC 
       <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/massspectrometry/</guid>
-      <description>LC-MS system MALDI system </description>
+      <description>LC-MS system Vendor companies ThermoFisher SCIEX Agilent MALDI system Vendor companies Bruker MassTech™ Ref. Labs Lingjun Li Lab, University of Wisconsin Madison
+West Coast Metabolomics Center, UC Davis
+Fiehn Laboratory for Untargeted Metabolomics Newman Laboratory for Lipid Mediators Hammock Laboratory for Inflammatory Metabolism Metabolomics analysis softwares MetaboAnalyst MZmine3 3. </description>
     </item>
     
     <item>
@@ -100,18 +118,8 @@ In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to 
       
       <guid>https://leoj.xyz/resource/programing/</guid>
       <description>R R-The R Project for Statistical Computing: https://www.r-project.org/
-Rstudio: https://rstudio.com/
-Books:
-Python Python: https://www.python.org/
-Spider IDE: https://www.spyder-ide.org/
-Pycharm: https://www.jetbrains.com/pycharm/
-Anaconda: https://www.anaconda.com/
-Books:
-Linux Redhat: https://www.redhat.com/en
-Ubuntu: https://ubuntu.com/
-CentOS: https://www.centos.org/
-Forums: https://www.linux.org/
-Books:</description>
+Rstudio: Rstudio Workbench is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
+RShiny: Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards.</description>
     </item>
     
     <item>

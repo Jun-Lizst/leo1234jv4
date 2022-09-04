@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>category on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/categories/category/</link>
+    <description>Recent content in category on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2022 20:27:51 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molecular biology tools</title>
+      <link>https://leoj.xyz/resource/molecularbiology/</link>
+      <pubDate>Sun, 21 Aug 2022 20:27:51 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/molecularbiology/</guid>
+      <description>Fluorescence Proteins RFPs:
+GFPs:
+BFPs:
+Tissue/Cell type specific AAVs Tissue/Cell type specific promoter Genetically encoded indicators Calcium: GCaMP series (GCaMP8, GCaMP7, GCaMP6)
+Potassium: Dopaine: Histamine: eCB:
+CRISPR systems DNA target Cas9 based: Knock out: SpCas9, SaCas9 DNA base editor: dCas9-xxx Transcriptional activator:
+RNA target Cas13 RNA knockdown: Cas13d(RfxCas13d or CasRx, Cas13d from Ruminococcus flavefaciens XPD3002)
+Compared to Cas9-mediated DNA editing, Cas13-based RNA editing tools target dynamically transcribed RNA without permanent alteration of the genome, and the effect of RNA editing can be controlled by means of dose adjustment, etc.</description>
+    </item>
+    
+    <item>
+      <title>Mass spectrometry</title>
+      <link>https://leoj.xyz/resource/massspectrometry/</link>
+      <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/massspectrometry/</guid>
+      <description>LC-MS system MALDI system </description>
+    </item>
+    
+    <item>
+      <title>Tissue clearing methods</title>
+      <link>https://leoj.xyz/resource/clearingmethod/</link>
+      <pubDate>Sun, 21 Aug 2022 12:23:57 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/clearingmethod/</guid>
+      <description>Introduction This webinar will explain tissue clearing, how it functions, and the three main methods for making tissues transparent. Moreover, the advantages and limitations of various tissue cleansing methods.
+PEGASOS (Using in our lab, recommended): PEGASOSv2
+CUBIC Ref labs: Ali Erturk lab;</description>
+    </item>
+    
+    <item>
+      <title>Genomics tools</title>
+      <link>https://leoj.xyz/resource/genomicsngs/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/genomicsngs/</guid>
+      <description>RNA-Seq KITS FOR RNA EXTRACTION Takara: Smart-Seq
+SEQUENCING PLATFORM illumina; Huada Gene
+ANALYSIS SOFTWARES QC
+fastqc; multiqc; fastp
+Reads Mapping
+HISAT2: graph-based alignment of next generation sequencing reads to a population of genomes. (Manual)
+STAR: The STAR software package maps large sets of high-throughput sequencing reads to a reference genome with high levels of accuracy and speed. (Manual)
+TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</description>
+    </item>
+    
+    <item>
+      <title>Imaging tools</title>
+      <link>https://leoj.xyz/resource/imagingtools/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:49 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/imagingtools/</guid>
+      <description>Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp;amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, UCB; Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced. It can be utilized to image inside of living animals as well as thick tissue specimens.</description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://leoj.xyz/resource/programing/</link>
+      <pubDate>Sun, 21 Aug 2022 08:30:11 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/programing/</guid>
+      <description>R R-The R Project for Statistical Computing: https://www.r-project.org/
+Rstudio: https://rstudio.com/
+Books:
+Python Python: https://www.python.org/
+Spider IDE: https://www.spyder-ide.org/
+Pycharm: https://www.jetbrains.com/pycharm/
+Anaconda: https://www.anaconda.com/
+Books:
+Linux Redhat: https://www.redhat.com/en
+Ubuntu: https://ubuntu.com/
+CentOS: https://www.centos.org/
+Forums: https://www.linux.org/
+Books:</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://leoj.xyz/page/research/</link>
+      <pubDate>Mon, 15 Aug 2022 15:16:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/research/</guid>
+      <description>Brain vasculature system Brain endothelial cells are major component ofbrain vasculature system and involved in many kinds of brain vasculaturedisease, like AVM, CCM, HHT.
+Brain metabolic system Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed.</description>
+    </item>
+    
+    <item>
+      <title>Publication</title>
+      <link>https://leoj.xyz/page/publication/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:56 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/publication/</guid>
+      <description>Journal Publications #: First author
+✝: corresponding author
+Lian Liu#, Linzhi Zou#, Kuan Li#, Hanqing Hou, Qun Hu, Shuang Liu, Jie Li, Chenmeng Song, Jiaofeng Chen, Shufeng Wang, Yangzhen Wang, Changri Li, Haibo Du, Jun-Liszt Li, Fangyi Chen, Zhigang Xu, Wenzhi Sun, Qianwen Sun, Wei Xiong✝ (2022) Template-independent genome editing in the Pcdh15av−3j mouse, a model of human DFNB23 nonsyndromic deafness. Cell Reports Link
+Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ (2021) NAMPT deletion in project neurons induces bioenergetic stress and activates cell death and inflammatory pathways: Journal of Cerebral Blood Flow &amp;amp; Metabolism (PDF) Link Second author</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://leoj.xyz/page/about/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/about/</guid>
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. I ask questions in the cutting-edge field of brain vasculature system and brain metabolic system, working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, and next-generation microscopy (Lightsheet, Confocal, 2p), in order to understand the fundamental basis of brain metabolism and brain vasculature system.
+Interest Areas Biological Question
+Brain vasculature system</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://leoj.xyz/page/contact/</link>
+      <pubDate>Mon, 15 Aug 2022 15:10:15 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/contact/</guid>
+      <description>Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
+Email Gmail: poppingjun7@gmail.com
+Outlook: poppingjun@outlook.com</description>
+    </item>
+    
+  </channel>
+</rss>

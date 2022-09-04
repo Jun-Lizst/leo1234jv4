@@ -18,7 +18,15 @@ thumbnailImage: /img/refreshingyourstrains_blogpost.jpg
 thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
+> Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.\
+--- Sydney Brenner
 
+<!--more-->
+
+![sydneybrenner1](/img/quotes_sydney_brenner.jpg)
+
+---
+# Caenorhabditis elegans(C. elegans)
 
 ---
 # Mus musculus
@@ -44,8 +52,8 @@ thumbnailImagePosition: left
 1. **Aldh1l1-EGFP**: In this transgenic strain, Aldh1l1 promoter-active cells in the brain and spinal cord (the majority being astrocytes) express EGFP. Cre-mediated excision of the floxed EGFP/Stop enables DTA-mediated ablation of these cells. [[JAX Strain #:026033](https://www.jax.org/strain/026033) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=026033&protocolID=32517) | [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERxxhv6tqNJJhC7-Zh2Ed10B7Abd5J_NvmqkXRpNZHZt8A?e=tuywZB) | [PMID: 22745251](https://pubmed.ncbi.nlm.nih.gov/22745251/) | [DOI Link](https://doi.org/10.1126/science.1222381)]
 2. **Aldh1l1-CreERT2**: Aldh1l1-Cre/ERT2 BAC transgenic mice have tamoxifen-inducible Cre recombinase expression directed at high levels to the vast majority of astrocytes, with no detectable expression in neurons. These mice allow pan-astrocytic, specific and inducible genetic manipulations in vivo for studying astrocyte biology at different developmental stages in neural circuitry/synapses, behavior, disease and injury/trauma. [[JAX Strain #:029655](https://www.jax.org/strain/029655) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=029684&protocolID=20745)]
 3. **mGFAP-Cre**
-4. **hGfap-CreERT2**:\
-Park, Yongmin Mason, et al. "Astrocyte specificity and coverage of hGFAP-CreERT2 [Tg (GFAP-Cre/ERT2) 13Kdmc] mouse line in various brain regions." Experimental Neurobiology 27.6 (2018): 508. [[PMID: 30636902](https://pubmed.ncbi.nlm.nih.gov/30636902/) | [DOI Link](https://doi.org/10.5607/en.2018.27.6.508)]
+4. **hGfap-CreERT2**:
+    - Park, Yongmin Mason, et al. "Astrocyte specificity and coverage of hGFAP-CreERT2 [Tg (GFAP-Cre/ERT2) 13Kdmc] mouse line in various brain regions." Experimental Neurobiology 27.6 (2018): 508. [[PMID: 30636902](https://pubmed.ncbi.nlm.nih.gov/30636902/) | [DOI Link](https://doi.org/10.5607/en.2018.27.6.508)]
 
 5. **Glast-CreERT2**
 6. **Fgfr3-iCreERT2**
@@ -66,7 +74,7 @@ Park, Yongmin Mason, et al. "Astrocyte specificity and coverage of hGFAP-CreERT2
 8. **Snap25-IRES2-Cre**
 9. **Slc17a7-IRES2-Cre**: Slc17a7 (VGlut1), Excitatory neuron labeling [[PMID: 25071457](https://pubmed.ncbi.nlm.nih.gov/25071457/) | [DOI Link](https://doi.org/10.3389/fncir.2014.00076)]
 10. **Drd1-Cre**: These mice express Cre recombinase under the control of the mouse Drd1a (dopamine receptor D1A) promoter. DRD1A is s a G-protein coupled receptor involved in the regulation of neuronal growth and development. The D1 subtype is the most abundant dopamine receptor in the central nervous system. Homozygotes are viable and fertile. [[MMRRC Strain #037156-JAX](https://www.jax.org/strain/024860) | [DOI Link](https://doi.org/10.1523/jneurosci.3795-06.2006)]
-11. Drd2-Cre
+11. **Drd2-Cre**
 
 
 ### Microglia labeling
@@ -76,8 +84,8 @@ Park, Yongmin Mason, et al. "Astrocyte specificity and coverage of hGFAP-CreERT2
 
 
 ### Oligodendrocytes
-1. Oligo2-Cre
-
+1. **Oligo2-Cre**
+2. **Plp1-CreERT2**: These transgenic mice have a tamoxifen inducible Cre-mediated recombination system driven by the mouse Plp1, proteolipid protein (myelin) 1 promoter. When crossed with a strain containing a loxP site flanked sequence of interest, the offspring are useful for generating tamoxifen-induced, Cre-mediated targeted deletions. Tamoxifen administration allows for ablation of predetermined genes in oligodendrocytes and Schwann cells. [[JAX Strain #:005975](https://www.jax.org/strain/005975) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=005975&protocolID=43081) | [DOI Link](https://doi.org/10.1002/gene.10154)]
 
 ### Precusor cells
 
@@ -115,14 +123,17 @@ Park, Yongmin Mason, et al. "Astrocyte specificity and coverage of hGFAP-CreERT2
 3. [Allen Institute for Brain Research](http://connectivity.brain-map.org/transgenic/)
 
 
-### Ref Labs
+### Ref. Labs
 1. [Susumu Tonegawa Lab](https://tonegawalab.mit.edu/susumu-tonegawa/), MIT
-2. [Joe Z. Tsien Lab](https://loop.frontiersin.org/people/280979/overview), Princeton University/ 
-**Subregion- and Cell Type–Restricted Gene Knockout in Mouse Brain with phage P1–derived Cre/loxP recombination system**
-- Tsien, Joe Z., et al. "Subregion-and cell type–restricted gene knockout in mouse brain." Cell 87.7 (1996): 1317-1326. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee8o1FlF7rlLtenwMNQHY2MBe1rvvTrgiYrFzTkghoxrWA?e=0WhPdu) | [PMID: 8980237](https://pubmed.ncbi.nlm.nih.gov/8980237/) | [DOI Link](https://doi.org/10.1016/S0092-8674(00)81826-7)]
+2. [Joe Z. Tsien Lab](https://loop.frontiersin.org/people/280979/overview), Princeton University
+- **Subregion- and Cell Type–Restricted Gene Knockout in Mouse Brain with phage P1–derived Cre/loxP recombination system**
+    - Tsien, Joe Z., et al. "Subregion-and cell type–restricted gene knockout in mouse brain." Cell 87.7 (1996): 1317-1326. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee8o1FlF7rlLtenwMNQHY2MBe1rvvTrgiYrFzTkghoxrWA?e=0WhPdu) | [PMID: 8980237](https://pubmed.ncbi.nlm.nih.gov/8980237/) | [DOI Link](https://doi.org/10.1016/S0092-8674(00)81826-7)]
 3. [Masashi Yanagisawa Lab](https://sleepymouse.jp/), The International Institute for Integrative Sleep(IIIS)
 4. [Z. Josh Huang Lab](https://www.neuro.duke.edu/research/faculty-labs/huang-lab), Duke University
 
+
+### Ref. Protocols
+1. 
 
 
 
