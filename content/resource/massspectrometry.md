@@ -51,17 +51,28 @@ thumbnailImagePosition: left
 
 
 
+<<<<<<< Updated upstream
 ## Vendor companies
 1. [ThermoFisher](https://www.thermofisher.cn/cn/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms.html)
 2. [SCIEX](https://sciex.com/products/mass-spectrometers)
 3. [Agilent](https://www.agilent.com.cn/zh-cn/product/liquid-chromatography)
 4. [Waters](https://www.waters.com/nextgen/us/en/products/columns.html)
 5. [Shimadzu Corporation](https://support.shimadzu.com.cn/an/resource/index.html#105)
+=======
+---
+## Vendor companies
+1. ThermoFisher
+2. SCIEX
+3. Agilent
+
+
+>>>>>>> Stashed changes
 
 
 
 ---
 # MALDI system
+<<<<<<< Updated upstream
 1. MALDI
     - Rapiflex, MALDI-TOF/TOF, Bruker  
     - TimsTOF, Bruker
@@ -71,6 +82,12 @@ thumbnailImagePosition: left
     - MassTech
     - TransMIT
 
+=======
+
+
+
+---
+>>>>>>> Stashed changes
 ## Vendor companies
 1. [Bruker](https://www.bruker.com/en.html)
 2. [MassTech™](https://www.apmaldi.com/main/)
@@ -88,6 +105,7 @@ thumbnailImagePosition: left
 
 
 ### Metabolomics analysis softwares
+<<<<<<< Updated upstream
 1. [MetaboAnalyst](https://www.metaboanalyst.ca/MetaboAnalyst/home.xhtml): v5.0
 2. [MZmine3](http://mzmine.github.io/)
 3. [MS-DIAL](http://prime.psc.riken.jp/compms/msdial/main.html)
@@ -131,3 +149,8 @@ thumbnailImagePosition: left
     Panelists: John A. Bowden, Ben Garcia, Jessica Prenni, Edward Huttlin, Lingjun Li, Rachel Loo, David Geffen, Vicki Wysocki
     
     
+=======
+1. MetaboAnalyst
+2. MZmine3
+3.
+>>>>>>> Stashed changes

@@ -69,7 +69,8 @@ In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to 
 ---
 
 # Light-sheet Microscopy
-![lightsheet001](/img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp)
+![lightsheet001](/img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp)\
+![tlsm002](/img/Dingtalk_20220903141016.jpg)
 
 #### Lab DIY
 Thorlabs: \
@@ -136,17 +137,23 @@ During 20 years of friendship, Betzig and Hess collaborated to create the first 
 
 # Electron Microscopy
 
+<<<<<<< Updated upstream
 **Ref labs**: 
 1. [Thomas Reese, National Institutes of Health]() and [John Heuser, Washington University in St. Louis]()
 Thomas Reese studies synaptic structure and function using advanced light and electron microscopy techniques. John Heuser developed and spent his career using quick-freeze, deep-etch electron microscopy to study all aspects of cell biology.\
     - **Imaging Synaptic Vesicle Transmission**: Two pioneering electron microscopists, John Heuser and Tom Reese, reminisce about their early attempts to image synaptic vesicle transmission. (**iBiology interview**, recorded in July 2015: [[Part 1: Imaging synaptic vesicle transmission](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQITWJRLtSFKg5tqfCGYYC0BWzaz7CQK-HwYTtVZLXM9QA?e=I3wBVq) | [Part 2: The Future of Electron Microscopy](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EVsGt6E9HN5Cuvfk9zGInF0BCLrcb1P8cZMgwN9UZDU_Xw?e=bm14gg) | [Part 3: Why Collaborate?](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ES-O26Hl429Ilc5a9L6KqAUB7F86M2nlDTxsq1KlX6qNqw?e=OcweNL) | [Source](https://www.ibiology.org/neuroscience/imaging-synaptic-vesicle-transmission/#part-1)])
 
+=======
+**Ref labs**: [Thomas Reese Lab, National Institutes of Health]()\
+[John Heuser Lab, Washington University in St. Louis]()\
+>>>>>>> Stashed changes
 
 
 
 # Croy-Electron Microscopy(cryo-EM)
 
 
+<<<<<<< Updated upstream
 **Ref labs**: 
 1. [Yifan Cheng Lab, UCSF](https://cryoem.ucsf.edu/)\
 **Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF\
@@ -163,12 +170,21 @@ Thomas Reese studies synaptic structure and function using advanced light and el
     - Part 6: Single-particle analysis [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbhLC2uJvGFGhHV2UEnibG0BCTDZaas8XJVuTgZf-MD8vw?e=hgCiGb)]
     - Part 7: 2-D crystallography [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Edo3stS6v9hCrD7fTZ-Gx-cBHfhmwsP_y9zOurIfAVz3xg?e=iBYBXl)]
 
+=======
+**Ref labs**: [Yifan Cheng Lab, UCSF](https://cryoem.ucsf.edu/)\
+**Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF\
+[Liao, et al. 2016, Nature; Cao et al. 2013 Nature and Gao et al. 2016, Nature]
+>>>>>>> Stashed changes
 
 **Ref softwares**:
 1. **MotionCorr**: This program corrects whole frame image motion recordded with dose fractionated image stack. [MotionCor2](https://emcore.ucsf.edu/ucsf-motioncor2)
     - Xueming Li, Paul Mooney, Shawn Zheng, Chris Booth, Michael B. Braunfeld, Sander Gubbens, David A. Agard and Yifan Cheng (2013) Electron counting and beam-induced motion correction enables near atomic resolution single particle cryoEM. Nature Methods, 10, 584-590. PMID: 23644547 
 2. **GeFREALIGN**: FREALIGN is a program developed by Niko Grigorieff laboratory for high-resolution refinement of 3D reconstruction from cryoEM of single particles. 
+<<<<<<< Updated upstream
     - Xueming Li, Nikolaus Grigorieff and Yifan Cheng (2010) GPU-enabled FREALIGN: Accelerating single particle 3D reconstruction and refinement in Fourier space on graphics processors. Journal of Structural Biology, advanced publication online June 14 2010. PMID: 20558298
+=======
+- Xueming Li, Nikolaus Grigorieff and Yifan Cheng (2010) GPU-enabled FREALIGN: Accelerating single particle 3D reconstruction and refinement in Fourier space on graphics processors. Journal of Structural Biology, advanced publication online June 14 2010. PMID: 20558298
+>>>>>>> Stashed changes
 
 **Ref database**:
 1. EMDB: https://www.ebi.ac.uk/pdbe/emdb/

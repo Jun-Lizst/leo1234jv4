@@ -36,6 +36,7 @@ thumbnailImagePosition: left
 
 - **Protein purification**
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
+<<<<<<< Updated upstream
 
 
 
@@ -50,6 +51,8 @@ thumbnailImagePosition: left
     - Guideline of Cell biology experiment, Part II (In Chinese, 细胞实验指南(下)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee5Qbs939yFMvdbCV3iSbD0BdbhidwjLXTkoyxSk9M6TmA?e=fAVeeC)]
     - Gibco Cell Culture Basics Handbook(In Chinese) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EViSuQ_uP71Fqy3SHpHozhUBbA1xmaOYom-gIrwEW4-2sQ?e=UfLvlT)]
     
+=======
+>>>>>>> Stashed changes
 
 ---
 ## Vendor companies
@@ -77,9 +80,13 @@ thumbnailImagePosition: left
 2. [David M. Sabatini lab, WIBR, MIT](https://www.davidmsabatini.com/)
 - **The discovery of mTOR**
     - Sabatini et al. "RAFT1: a mammalian protein that binds to FKBP12 in a rapamycin-dependent fashion and is homologous to yeast TORs." Cell 78.1 (1994): 35-43. [[PDF]() | [DOI Link](https://doi.org/10.1016/0092-8674(94)90570-3)]
+<<<<<<< Updated upstream
     - **iBiology Talk** [[PartI: Introduction to mTOR and the regulation of growth](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Eb3JB4rNE2tMllUhPjex9CgBILDuE3oh47e37JY2pfzBlw?e=sUbxRS)]
 - **Systematic characterization of basic mechanisms that regulate growth including nutrient sensing pathways** [[CASTOR](https://doi.org/10.1016/j.cell.2016.02.035) | [Sestrin2](https://doi.org/10.1126/science.aad2087) | [SAMTOR](https://doi.org/10.1126/science.aao3265)]
     - **iBiology Talks** [[PartII: Regulation of mTORC1 by nutrients](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXIwSNNwJgNAiO7RrVcJgtwBSTARmHylcl-SLXGBUIXDuQ?e=92ZqTV) | [PartIII: Ribophagy and nucleotide recycling](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESKOpuClGHFHn8BlERrknlwBHenie_CticrKRads96R1Mw?e=7d9oQA)]
+=======
+- **Systematic characterization of basic mechanisms that regulate growth including nutrient sensing pathways** [[CASTOR](https://doi.org/10.1016/j.cell.2016.02.035) | [Sestrin2](https://doi.org/10.1126/science.aad2087) | [SAMTOR](https://doi.org/10.1126/science.aao3265)]
+>>>>>>> Stashed changes
 
 3. [Xiaodong Wang lab, UTSW, NIBS](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=779)
 - **The discovery of mitochondria CytoC mediated apoptosis pathway**
@@ -101,8 +108,13 @@ thumbnailImagePosition: left
 
 
 #### **Transcriptional regulation and epigenetics**
+<<<<<<< Updated upstream
 1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)
 - **The discovery of the SV40 large T antigen**
+=======
+1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)\
+[ ] **The discovery of the SV40 large T antigen**
+>>>>>>> Stashed changes
     - Tjian, Robert. "The binding site on SV40 DNA for a T antigen-related protein." Cell 13.1 (1978): 165-179. [[PMID: 202398](https://pubmed.ncbi.nlm.nih.gov/202398/) | [DOI Link](https://doi.org/10.1016/0092-8674(78)90147-2)]
 
 
@@ -110,16 +122,25 @@ thumbnailImagePosition: left
 
 
 3. [Yang Shi lab, HMS/HHMI/University of Oxford](https://www.harvardshilab.org/)\
+<<<<<<< Updated upstream
 - **The discovery of first histone demethylase, LSD1** 
+=======
+[ ] **The discovery of first histone demethylase, LSD1** 
+>>>>>>> Stashed changes
     - Shi, Yujiang, et al. "Histone demethylation mediated by the nuclear amine oxidase homolog LSD1." Cell 119.7 (2004): 941-953. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYPS2hk_U1VCm-bMyCGIu-QBg92LUK47Nw4J3vIEapyRCQ?e=EF25wj) | [DOI Link](https://doi.org/10.1016/j.cell.2004.12.012)]
 
 
 4. [Chuan He lab, University of Chicago/HHMI](https://he-group.uchicago.edu/He%20research.html)\
+<<<<<<< Updated upstream
 - **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
+=======
+[ ] **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
+>>>>>>> Stashed changes
     - Jia, Guifang, et al. "N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO." Nature chemical biology 7.12 (2011): 885-887. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETNp772T_4VNnY3909X_7lUB_8CJ36WsacqULe7ApUAzSA?e=QWFN4P) | [DOI Link](https://doi.org/10.1038/nchembio.687)]
 
 
 #### **Structural Biology**
+<<<<<<< Updated upstream
 1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)
 - **Structural basis of pre-mRNA splicing**
 - **Structural basis of Apoptosis (Programmed Cell Death)**
@@ -146,6 +167,23 @@ thumbnailImagePosition: left
 
 <iframe src="//player.bilibili.com/player.html?aid=466289085&bvid=BV1n5411f7jm&cid=503902575&page=1" scrolling="no" border="0" frameborder="yes" framespacing="0" allowfullscreen="true"> </iframe>
 
+=======
+1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)\
+[ ] **Structural basis of pre-mRNA splicing**\
+[ ] **Structural basis of Apoptosis (Programmed Cell Death)**\
+[ ] **Alzheimer's Disease (AD) and Regulated Intramembrane Proteolysis (RIP)**
+
+3. [Hao Wu lab, Harvard Medical School](https://www.wulab.tch.harvard.edu/)\
+[ ] **The discoverer of signalosomes**, which are large macromolecular complexes involved in cell death and in innate and adaptive immune pathways.
+    - Wu, Hao. "Higher-order assemblies in a new paradigm of signal transduction." Cell 153.2 (2013): 287-292. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES4S-RQx0FFEsL1XMYEsweQBeAjiV5qHw0yrYIDRkcZmMQ?e=8L9mMo) | [DOI Link](https://doi.org/10.1016/j.cell.2013.03.013)]
+
+2. [Nieng Yan lab, Tsinghua University/Princeton University](https://scholar.princeton.edu/yanlab)\
+[ ] **Structural basis of Membrane transport**\
+[ ] **Structural and mechanistic investigation of sterol homeostasis**
+
+
+
+>>>>>>> Stashed changes
 
 
 

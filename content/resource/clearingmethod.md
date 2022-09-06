@@ -50,6 +50,7 @@ This webinar will explain tissue clearing, how it functions, and the three main 
 ### **HYBRiD**
 1. Nudell, Victoria, et al. "HYBRiD: hydrogel-reinforced DISCO for clearing mammalian bodies." Nature Methods 19.4 (2022): 479-485. [[HYBRiD Protocol](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ebg4JFincUFEuKS9YgpUKPMBzZK74iKDo1ZKjsGY7h-YvA?e=metnlq) |  [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ebq6ijWvJd5JvViypRDJ_MEBIDvp5nk4LBZKgMUlrut8Eg?e=IkTZVR) | [PMID: 35347322](https://pubmed.ncbi.nlm.nih.gov/35347322/) | [DOI Link](https://doi.org/10.1038/s41592-022-01427-0)] 
 
+<<<<<<< Updated upstream
 
 ### **Expansion Microscopy**
 1. Expansion Revealing (ExR)
@@ -72,6 +73,20 @@ Deutsches Forschungszentrum für Gesundheit und Umwelt (GmbH)
 1. [Sigma-Aldrich](https://www.sigmaaldrich.com/US/en): Sigma-Aldrich is an American chemical, life science, and biotechnology company that is owned by the German chemical conglomerate Merck Group. Sigma-Aldrich was created in 1975 by the merger of Sigma Chemical Company and Aldrich Chemical Company.
 2. [Aladdin, 阿拉丁](http://api.aladdin-e.com/)： This company covers reagents and R & D materials in high-end chemistry, life sciences, analytical chromatography and materials science.
 
+=======
+
+### Expansion Microscopy
+
+
+
+---
+### **Ref labs**
+1. Ali Erturk Lab, MIT
+2. Edward Boyden Lab, MIT
+3. Hiroki R Ueda Lab, RIKEN
+4. [Ye Li Lab](https://www.ye-lab.org/team), The Scripps Research Institute
+5. Hu Zhao Lab, CIBR
+>>>>>>> Stashed changes
 
 
 ### Reference
