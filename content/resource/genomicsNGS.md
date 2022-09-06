@@ -1,5 +1,5 @@
 ---
-title: "Genomics tools"
+title: "Genomics and Sequencing Foundation"
 date: 2022-08-21T10:43:59+08:00
 categories:
 - category
@@ -78,7 +78,7 @@ http://www.pantherdb.org/
 
 
 **Genome resource**\
-[UCSC Genome Browser](http://genome.ucsc.edu/):
+[UCSC Genome Browser](http://genome.ucsc.edu/):The UCSC Genome Browser is an online and downloadable genome browser hosted by the University of California, Santa Cruz (UCSC). It is an interactive website offering access to genome sequence data from a variety of vertebrate and invertebrate species and major model organisms, integrated with a large collection of aligned annotations.\
 [NCBI Mouse Resources](https://www.ncbi.nlm.nih.gov/genome?term=mus%20musculus):
 
 
@@ -107,8 +107,6 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 3. VascularSingleCell: http://betsholtzlab.org/VascularSingleCells/database.html
 
-4. Bulk RNAseq of different Brain cell types: https://www.brainrnaseq.org/
-
 
 
 
@@ -120,13 +118,48 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 #### Ref labs
-1. **Single cell genomics**: [Satija lab, NYU](https://satijalab.org/)\
-2. **Spatial Transcriptomics**: [Rongfan lab, Yale](https://www.eng.yale.edu/fanlab/Responsive_Fan_lab/index.html)
-3. **Transcriptomics of brain cell types**: 
+1. **Single cell genomics**: 
+- [Satija lab, NYU](https://satijalab.org/)\
+
+2. **Functional genomics**:
+- Wensheng Wei lab, PKU
+
+
+- Xiaole Shiery Liu, Harvard
+
+
+
+3. **Spatial Transcriptomics**: [Rongfan lab, Yale](https://www.eng.yale.edu/fanlab/Responsive_Fan_lab/index.html)
+
+
+
+4. **Transcriptomics of brain cell types**: 
 - **Ben A. Barre(1954-2017)**, Stanford University School of Medicine\
     Pioneer of glia biology
     [A Tribute to Ben Barres]()
     - Cahoy, J. D. et al. A Transcriptome Database for Astrocytes, Neurons, and Oligodendrocytes: A New Resource for Understanding Brain Development and Function. Journal of Neuroscience 28, 264–278 (2008). [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EdtWpOFux75DtCYSoiM3UuUBr-4OU0A1XKl1UBCtVFcWKA?e=o9ZFRu) | [PMID: 18171944](https://pubmed.ncbi.nlm.nih.gov/18171944/) | [DOI Link](https://doi.org/10.1523/jneurosci.4178-07.2008)]
+    - Zhang, Y. et al. An RNA-sequencing transcriptome and splicing database of glia, neurons, and vascular cells of the cerebral cortex. J Neurosci 34, 11929–47 (2014). [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ2ehPMHw3BOseT3pHzv-I0BB0suZlevjEsiVV2y-4dfpg?e=oPm4gO) | [PMID: 25186741](https://pubmed.ncbi.nlm.nih.gov/25186741/) | [DOI Link](https://doi.org/10.1523/jneurosci.1860-14.2014)]
+  
+
+
+
+
+#### Online conferences
+1. **NYU single cell genomics, 2018**
+
+2. **NYU single cell genomics, 2019**
+    - [Mapping the brain with MERFISH](), Jeffery R. Moffitt, Harvard Medical School
+    - []
+
+3. **NYU single cell genomics, 2020**
+    - [New Advances in Single-Cell and Spatial Genomics (2020)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ea1KJmNSIlZAmMKERuPcNEIBJa1-UsO2guziO3HlkZgsdw?e=esedKx)
+    
+4. **NYU single cell genomics, 2021**
+    - [New Advances in Single-Cell and Spatial Genomics (2021)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EaC-F_kt4h5JnSRpiK1KCncBtap5xLJZUKBYqNaA-RA_5w?e=C0hElS)
+    
+5. **NYU single cell genomics, 2022**
+    - [New Advances in Single-Cell and Spatial Genomics (2022)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EW11X86FVwtNiiEWnSfLEJ0Bj8oUJoIf-SrJBGL3mWvpCg?e=U6YQsT)
+
 
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Genetics tools"
+title: "Genetics Foundation"
 date: 2022-08-26T16:50:25+08:00
 categories:
 - category
@@ -98,6 +98,11 @@ thumbnailImagePosition: left
 4. 
 5.
 
+
+### Transgenic mouse line for disease modeling
+1. **5xFAD mouse (Alzheimer disease model)**: These 5XFAD transgenic mice overexpress mutant human amyloid beta (A4) precursor protein 695 (APP) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations along with human presenilin 1 (PS1) harboring two FAD mutations, M146L and L286V. Both transgenes are regulated by the mouse Thy1 promoter to drive overexpression in the brain. 5XFAD mice recapitulate major features of Alzheimer's Disease amyloid pathology and may be a useful model of intraneuronal Abeta-42 induced neurodegeneration and amyloid plaque formation. [[JAX Strain #:006554](https://www.jax.org/strain/006554) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=006554&protocolID=31769) | [PMID: 17021169](https://pubmed.ncbi.nlm.nih.gov/17021169/) | [DOI Link](https://doi.org/10.1523/jneurosci.1202-06.2006)]
+
+2. 
 
 
 

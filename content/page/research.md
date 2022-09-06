@@ -29,7 +29,7 @@ Our goal is to understand the principles underlying the formation of the brain v
 ![talkxssqwe](/img/brain_metabolome.jpg)
 Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed. In our study, we combined a microarray collection system with targeted/untargeted metabolomics analysis and performed precision mapping of the metabolome in the mouse brain, and created maps for 79 metabolites with a resolution of 0.125mm3 per pixel (i.e., brain subregion).
 
-
+**One the road of discovering new metabolic machinery......**
 
 ---
 ## Molecular engineering

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/leoj.xyz\/",
+  "author": {
+    "@type": "Person",
+    "name": "Jun-Liszt Li",
+    
+    "image": "https://leoj.xyz/img/Dingtalk_20220815163324.jpg"
+    
+  },
+  "name":"Jun-Liszt Li",
+  "description":"Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 \u0026amp; STELLARIS 8) ZEISS:\nTwo-Photon Microscopy Lab DIY Thorlabs: https:\/\/www.thorlabs.com\/index.cfm\nTi:Sapphire Femtosecond Laser: From Thorlabs\nAO (Adaptive optics) in 2PFM and for neurobiology\nCommercial Olympus: FVMPE-RS\nLeica: Leica-MP-4Tune\nScientifica: Multiphoton Imaging System\nRef labs: Ji Na lab, University of California, Berkeley\nJanelia farm\nIn this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.",
+  "url":"https:\/\/leoj.xyz\/resource\/imagingtools\/",
+  "keywords":"[tech]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.101.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Jun-Liszt Li">
+<meta name="keywords" content="tech">
+<meta name="description" content="Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+AO (Adaptive optics) in 2PFM and for neurobiology
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, University of California, Berkeley
+Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.">
+
+
+<meta property="og:description" content="Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+AO (Adaptive optics) in 2PFM and for neurobiology
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, University of California, Berkeley
+Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Imaging tools">
+<meta name="twitter:title" content="Imaging tools">
+<meta property="og:url" content="https://leoj.xyz/resource/imagingtools/">
+<meta property="twitter:url" content="https://leoj.xyz/resource/imagingtools/">
+<meta property="og:site_name" content="Jun-Liszt Li">
+<meta property="og:description" content="Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+AO (Adaptive optics) in 2PFM and for neurobiology
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, University of California, Berkeley
+Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.">
+<meta name="twitter:description" content="Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp; STELLARIS 8) ZEISS:
+Two-Photon Microscopy Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
+Ti:Sapphire Femtosecond Laser: From Thorlabs
+AO (Adaptive optics) in 2PFM and for neurobiology
+Commercial Olympus: FVMPE-RS
+Leica: Leica-MP-4Tune
+Scientifica: Multiphoton Imaging System
+Ref labs: Ji Na lab, University of California, Berkeley
+Janelia farm
+In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2022-08-21T10:43:49">
+  
+  
+    <meta property="article:modified_time" content="2022-08-21T10:43:49">
+  
+  
+  
+    
+      <meta property="article:section" content="category">
+    
+      <meta property="article:section" content="subcategory">
+    
+  
+  
+    
+      <meta property="article:tag" content="Confocal">
+    
+      <meta property="article:tag" content="Two-Photon">
+    
+      <meta property="article:tag" content="Lightsheet">
+    
+      <meta property="article:tag" content="super-resolution">
+    
+      <meta property="article:tag" content="Croy-EM">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://leoj.xyz/img/Dingtalk_20220815163324.jpg">
+  <meta property="twitter:image" content="https://leoj.xyz/img/Dingtalk_20220815163324.jpg">
+
+
+
+
+
+  <meta property="og:image" content="https://leoj.xyz/img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp">
+  <meta property="twitter:image" content="https://leoj.xyz/img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp">
+
+
+    <title>Imaging tools</title>
+
+    <link rel="icon" href="https://leoj.xyz/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://leoj.xyz/resource/imagingtools/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://leoj.xyz/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://leoj.xyz/" aria-label="Go to homepage">Jun-Liszt Li</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://leoj.xyz/#about" aria-label="Open the link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://leoj.xyz/img/Dingtalk_20220815163324.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://leoj.xyz/#about" aria-label="Read more about the author">
+          <img class="sidebar-profile-picture" src="https://leoj.xyz/img/Dingtalk_20220815163324.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Jun-Liszt Li</h4>
+        
+          <h5 class="sidebar-profile-bio">Hello, My name is Jun-Liszt Li. my science interest is to understand the fundamental basis of brain metabolic system and brain vasculature system.</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/research" title="Research">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-dna" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Research</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/publication" title="Publication">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-scroll" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Publication</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/posts" title="Blog">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Blog</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/resource" title="Resource">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-warehouse" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Resource</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/about" title="About">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/contact" title="Contact">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-at" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Contact</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/Jun-Lizst" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://scholar.google.com/citations?user=AGPeLy0AAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-google" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Google Scholar</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/poppingjun" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/jun-liszt-li-32916aa3/" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Imaging tools
+    </h1>
+  
+  
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <h1 id="confocal-microscopy">Confocal Microscopy</h1>
+<h4 id="commercial">Commercial</h4>
+<p><strong>Leica</strong>: <a href="https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8/">Leica-SP8</a> (Archived Product Replaced by <a href="https://www.leica-microsystems.com/products/confocal-microscopes/p/stellaris-8/">STELLARIS 5 &amp; STELLARIS 8</a>)
+<strong>ZEISS</strong>:</p>
+<h1 id="two-photon-microscopy">Two-Photon Microscopy</h1>
+<p><img src="https://leoj.xyz/img/IMG_20191125_015442_edited.jpg" alt="2pobjective25x"></p>
+<p><img src="https://leoj.xyz/img/mPFC_Thy1-YFP-H_line.jpg" alt="leo1234j2px"></p>
+<h4 id="lab-diy">Lab DIY</h4>
+<p><strong>Thorlabs</strong>: <a href="https://www.thorlabs.com/index.cfm">https://www.thorlabs.com/index.cfm</a><br>
+<strong>Ti:Sapphire Femtosecond Laser</strong>: <a href="https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=8323">From Thorlabs</a></p>
+<p><a href="https://www.med.upenn.edu/ngg/assets/user-content/documents/ngg-documents/1-s2.0-s0959438817302453-main.pdf">AO (Adaptive optics) in 2PFM and for neurobiology</a></p>
+<hr>
+<h4 id="commercial-1">Commercial</h4>
+<p><strong>Olympus</strong>: <a href="https://www.olympus-lifescience.com.cn/en/laser-scanning/fvmpe-rs/">FVMPE-RS</a><br>
+<strong>Leica</strong>: <a href="(https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8-mp/)">Leica-MP-4Tune</a><br>
+<strong>Scientifica</strong>: <a href="https://www.scientifica.uk.com/products/multiphoton-imaging-system">Multiphoton Imaging System</a></p>
+<p><strong>Ref labs</strong>: <a href="https://www.jilab.net/">Ji Na lab, University of California, Berkeley</a><br>
+<a href="https://www.janelia.org/">Janelia farm</a></p>
+<hr>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/CZifB2aQDDM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced. It can be utilized to image inside of living animals as well as thick tissue specimens.</p>
+<hr>
+<h1 id="light-sheet-microscopy">Light-sheet Microscopy</h1>
+<p><img src="https://leoj.xyz/img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp" alt="lightsheet001"></p>
+<h4 id="lab-diy-1">Lab DIY</h4>
+<p>Thorlabs: <br>
+<strong>Tiling Light-Sheet Microscopy(TLSM)</strong>: Liang Gao lab, Westlake University<br>
+<strong>Open-top Light-Sheet Microscopy</strong>: Jonathan T. C. Liu Lab, University of Washington</p>
+<ul>
+<li>Glaser, Adam K., et al. &ldquo;A hybrid open-top light-sheet microscope for versatile multi-scale imaging of cleared tissues.&rdquo; Nature Methods 19.5 (2022): 613-619.
+[<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWZRt6YMg-FDpu3Y4RThzl4BaRAPnXxKCt2HzW-yC_KiNA?e=skvgl1">PDF</a> |  <a href="https://doi.org/10.1038/s41592-022-01468-5">Link</a>]</li>
+</ul>
+<p><strong>Axial-Sweeping technology</strong>: Fiolka Reto lab,</p>
+<ul>
+<li>Dean, Kevin M., et al. &ldquo;Deconvolution-free subcellular imaging with axially swept light sheet microscopy.&rdquo; Biophysical journal 108.12 (2015): 2807-2815. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESykLKp0h4BFnzsJWAcaWFsBtPWYHDmxnvw4WFWgxvRpSQ?e=ujhNPB">PDF</a> |  <a href="https://www.cell.com/biophysj/fulltext/S0006-3495(15)00498-1">Link</a>]</li>
+</ul>
+<p><strong>Mesoscale selective plane illumination microscopy(mesoSPIM)</strong>: <a href="www.mesospim.org">Official website</a></p>
+<ul>
+<li>Voigt, Fabian F., et al. &ldquo;The mesoSPIM initiative: open-source light-sheet microscopes for imaging cleared tissue.&rdquo; Nature methods 16.11 (2019): 1105-1108. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESykLKp0h4BFnzsJWAcaWFsBtPWYHDmxnvw4WFWgxvRpSQ?e=ujhNPB">PDF</a> |  <a href="https://doi.org/10.1038/s41592-019-0554-0">Link</a>]</li>
+</ul>
+<hr>
+<h4 id="commercial-2">Commercial</h4>
+<p>Lavision BioTec Inc:
+<a href="https://www.lavisionbiotec.com/">UltraMicroscope Light Sheet Microscope</a><br>
+3i Inc: <a href="https://www.intelligent-imaging.com/lattice">Lattice Light Sheet Microscope</a><br>
+ZEISS: <a href="https://zeiss.ly/yt-lattice-lightsheet-7">ZEISS Lattice Lightsheet 7</a></p>
+<p><a href="https://opg.optica.org/ol/fulltext.cfm?uri=ol-44-10-2514&amp;id=412284">AO (Adaptive optics) in LSFM</a></p>
+<p><strong>Ref labs</strong>: <a href="https://www.janelia.org/lab/keller-lab">Philipp Keller lab, Janelia farm</a><br>
+<a href="http://mcb.berkeley.edu/faculty/CDB/betzige">Eric betzig lab, University of California, Berkeley</a><br>
+<a href="https://www.utsouthwestern.edu/labs/fiolka/">Reto Fiolka lab, UTSW</a><br>
+<a href="https://sls.westlake.edu.cn/en/Faculty/201912/t20191202_2417.shtml">Liang Gao Lab, Westlake University</a></p>
+<hr>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/lteywF6wKu8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>The innovative method of light sheet microscopy, also known as selective plane illumination, is discussed in this talk (SPIM). This allows for long-term 3D imaging of dense specimens like growing embryos with less photobleaching and phototoxicity because it uses two objectives-one to illuminate the sample and the other to image it.</p>
+<hr>
+<h1 id="super-resolution-microscopy">Super-resolution microscopy</h1>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/BmRRYPDq4bY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In comparison to traditional microscopy with diffraction-limited optics, a range of contemporary techniques are surveyed in this presentation. These include various patterns of illumination (such as STED and SIM microscopy) or methods that construct images by randomly turning on single fluorescent molecules and precisely localizing each molecule in space (STORM, PALM, FPALM).</p>
+<hr>
+<hr>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/GcQ24khZzvU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>During 20 years of friendship, Betzig and Hess collaborated to create the first super-high-resolution PALM microscope after working independently and jointly in academia and industry. They describe the journey to us, emphasizing how their diverse and unusual backgrounds gave them the necessary abilities to complete the project.</p>
+<hr>
+<p><strong>Ref labs</strong>: <a href="http://zhuang.harvard.edu/index.html">Xiaowei Zhuang Lab, Harvard University</a><br>
+<a href="http://mcb.berkeley.edu/faculty/CDB/betzige">Eric betzig lab, University of California, Berkeley</a><br>
+<a href="http://www.cls.edu.cn/english/PrincipalInvestigator/pi/index5506.shtml">Liangyi Chen, PKU</a><br>
+<a href="http://english.ibp.cas.cn/faculty/index_18316.html?json=http://www.ibp.cas.cn/sourcedb_ibp_cas/cn/ibpexport/EN_xsszmL/202005/t20200519_5583002.json">Dong Li, IBP</a></p>
+<h1 id="electron-microscopy">Electron Microscopy</h1>
+<p><strong>Ref labs</strong>:</p>
+<ol>
+<li><a href="">Thomas Reese, National Institutes of Health</a> and <a href="">John Heuser, Washington University in St. Louis</a><br>
+Thomas Reese studies synaptic structure and function using advanced light and electron microscopy techniques. John Heuser developed and spent his career using quick-freeze, deep-etch electron microscopy to study all aspects of cell biology.\
+<ul>
+<li><strong>Imaging Synaptic Vesicle Transmission</strong>: Two pioneering electron microscopists, John Heuser and Tom Reese, reminisce about their early attempts to image synaptic vesicle transmission. (<strong>iBiology interview</strong>, recorded in July 2015: [<a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQITWJRLtSFKg5tqfCGYYC0BWzaz7CQK-HwYTtVZLXM9QA?e=I3wBVq">Part 1: Imaging synaptic vesicle transmission</a> | <a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EVsGt6E9HN5Cuvfk9zGInF0BCLrcb1P8cZMgwN9UZDU_Xw?e=bm14gg">Part 2: The Future of Electron Microscopy</a> | <a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ES-O26Hl429Ilc5a9L6KqAUB7F86M2nlDTxsq1KlX6qNqw?e=OcweNL">Part 3: Why Collaborate?</a> | <a href="https://www.ibiology.org/neuroscience/imaging-synaptic-vesicle-transmission/#part-1">Source</a>])</li>
+</ul>
+</li>
+</ol>
+<h1 id="croy-electron-microscopycryo-em">Croy-Electron Microscopy(cryo-EM)</h1>
+<p><strong>Ref labs</strong>:</p>
+<ol>
+<li><a href="https://cryoem.ucsf.edu/">Yifan Cheng Lab, UCSF</a><br>
+<strong>Atomic structures of TRPV1</strong>: With David Julius’s laboratory at UCSF<br>
+[Liao, et al. 2016, Nature; Cao et al. 2013 Nature and Gao et al. 2016, Nature]<br>
+<strong>iBiology Talks</strong>: [<a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EfUivsENbh5Gj8E10GGp0KEBynIVfURLM06aJ4xv6Y3XxQ?e=I8Ahs5">Part 1: Single Particle Cryo-EM</a> | <a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXRwR0JzrnBOoKHcQUQvjNMB5kaISskZMilMzXJFH2FAAw?e=05Bk8U">Part 2: Single particle Cyro-EM of membrane proteins</a>]</li>
+<li><a href="https://grigoriefflab.umassmed.edu/research_interests">Niko Grigorieff Lab</a></li>
+<li><a href="https://jensenlab.caltech.edu/">Grant Jensen Lab, Caltech</a></li>
+</ol>
+<ul>
+<li><strong>Course</strong>: <a href="https://cryo-em-course.caltech.edu/unit-1-outline">“Getting Started in Cryo-EM”</a>
+<ul>
+<li>Part 1: Currents, coils, knobs and names: Basic anatomy of the electron microscope [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efnw9H9kQwJAofudECHPDx4BMdMTU8d3jnUXn_azQBxEJQ?e=uAgYIL">PDF</a>]</li>
+<li>Part 2: Fourier transforms and reciprocal space for beginners [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ-oIS9Yk7RGlqvf08WdC-QBT99tJ16X4OvHbVl9T5E_lQ?e=dnQFtD">PDF</a>]</li>
+<li>Part 3: Image formation [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERImtLbXQxlNokWvDjq5fy4BnvdxCzDRxq57QySSTyy-8Q?e=Nc09nz">PDF</a>]</li>
+<li>Part 4: Fundamental challenges in biological EM [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZlN7ooM88xIkP2RPzrPj8MByqRvauoFSaF5-aHZsefRlA?e=sLCZHP">PDF</a>]</li>
+<li>Part 5: Tomography [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWfU4XfSAclLtLgYmv03_8MBeR8cDnqgOVFlQDCUqMikkA?e=JGdF04">PDF</a>]</li>
+<li>Part 6: Single-particle analysis [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbhLC2uJvGFGhHV2UEnibG0BCTDZaas8XJVuTgZf-MD8vw?e=hgCiGb">PDF</a>]</li>
+<li>Part 7: 2-D crystallography [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Edo3stS6v9hCrD7fTZ-Gx-cBHfhmwsP_y9zOurIfAVz3xg?e=iBYBXl">PDF</a>]</li>
+</ul>
+</li>
+</ul>
+<p><strong>Ref softwares</strong>:</p>
+<ol>
+<li><strong>MotionCorr</strong>: This program corrects whole frame image motion recordded with dose fractionated image stack. <a href="https://emcore.ucsf.edu/ucsf-motioncor2">MotionCor2</a>
+<ul>
+<li>Xueming Li, Paul Mooney, Shawn Zheng, Chris Booth, Michael B. Braunfeld, Sander Gubbens, David A. Agard and Yifan Cheng (2013) Electron counting and beam-induced motion correction enables near atomic resolution single particle cryoEM. Nature Methods, 10, 584-590. PMID: 23644547</li>
+</ul>
+</li>
+<li><strong>GeFREALIGN</strong>: FREALIGN is a program developed by Niko Grigorieff laboratory for high-resolution refinement of 3D reconstruction from cryoEM of single particles.
+<ul>
+<li>Xueming Li, Nikolaus Grigorieff and Yifan Cheng (2010) GPU-enabled FREALIGN: Accelerating single particle 3D reconstruction and refinement in Fourier space on graphics processors. Journal of Structural Biology, advanced publication online June 14 2010. PMID: 20558298</li>
+</ul>
+</li>
+</ol>
+<p><strong>Ref database</strong>:</p>
+<ol>
+<li>EMDB: <a href="https://www.ebi.ac.uk/pdbe/emdb/">https://www.ebi.ac.uk/pdbe/emdb/</a></li>
+<li>EMPIAR: <a href="https://www.ebi.ac.uk/pdbe/emdb/empiar/">https://www.ebi.ac.uk/pdbe/emdb/empiar/</a></li>
+</ol>
+<h4 id="open-source-softwares">Open Source Softwares</h4>
+<p>Fuji: Fuji is just imagej. <a href="https://fiji.sc/">Link</a><br>
+Imaris Viewer: <a href="https://imaris.oxinst.com/imaris-viewer">https://imaris.oxinst.com/imaris-viewer</a><br>
+Cellfinder: <a href="https://github.com/SainsburyWellcomeCentre/cellfinder">https://github.com/SainsburyWellcomeCentre/cellfinder</a><br>
+BrainRender: <a href="https://github.com/BrancoLab/BrainRender">https://github.com/BrancoLab/BrainRender</a><br>
+Allen Developing Brain atlas: <a href="https://developingmouse.brain-map.org/static/atlas">https://developingmouse.brain-map.org/static/atlas</a></p>
+<hr>
+<h2 id="nobel-laureates">Nobel laureates</h2>
+<ul>
+<li>
+<p><strong>Jacques Dubochet</strong>, University of Lausanne, Lausanne, Switzerland<br>
+The Nobel Prize in Chemistry 2017<br>
+<strong>Early cryo-electron microscopy</strong> [<a href="https://www.youtube.com/watch?v=Blm3QwT-rRk&amp;ab_channel=NobelPrize">Nobel Lecture video</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib">Lecture Slides</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2">Read the Lecture</a> | <a href="https://www.nobelprize.org/prizes/chemistry/2017/dubochet/facts/">Source</a>]</p>
+</li>
+<li>
+<p><strong>Joachim Frank</strong>, Columbia University, New York, NY, USA<br>
+The Nobel Prize in Chemistry 2017<br>
+<strong>Single-Particle Reconstruction – Story in a Sample</strong> [<a href="https://www.youtube.com/watch?v=Blm3QwT-rRk&amp;ab_channel=NobelPrize">Nobel Lecture video</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib">Lecture Slides</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2">Read the Lecture</a> | <a href="https://www.nobelprize.org/prizes/chemistry/2017/frank/facts/">Source</a>]</p>
+</li>
+<li>
+<p><strong>Richard Henderson</strong>, MRC Laboratory of Molecular Biology, Cambridge, United Kingdom<br>
+The Nobel Prize in Chemistry 2017<br>
+<strong>From Electron Crystallography to Single Particle cryoEM</strong> [<a href="https://www.youtube.com/watch?v=Blm3QwT-rRk&amp;ab_channel=NobelPrize">Nobel Lecture video</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib">Lecture Slides</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2">Read the Lecture</a> | <a href="https://www.nobelprize.org/prizes/chemistry/2017/henderson/facts/">Source</a>]</p>
+</li>
+<li>
+<p><strong>Eric betzig</strong>, Janelia/University of California, Berkeley<br>
+The Nobel Prize in Chemistry 2014<br>
+<strong>Single Molecules, Cells, and Super-Resolution Optics</strong> [<a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ebp6gGAHF0BCqDucjArTPrsBjqwEbcroCr-chiOm3mfrlg?e=zoTrEg">Nobel Lecture video</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbaVxtGmO65GoDa7eS1W5uAB2_9z7ptjsNjG6dGNVxjVcg?e=RSkvRt">Lecture Slides</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERZDAZldU0BKklSfAgFsYB4BtEm3xjFE1hOp9ye54H3uXA?e=9LgHZE">Read the Lecture</a> | <a href="https://www.nobelprize.org/prizes/chemistry/2014/betzig/facts/">Source</a>]</p>
+</li>
+<li>
+<p><strong>William E. Moerner</strong>, Stanford University, Stanford, CA, USA<br>
+The Nobel Prize in Chemistry 2014<br>
+<strong>Single-Molecule Spectroscopy, Imaging, and Photocontrol: Foundations for Super-Resolution Microscopy</strong> [<a href="https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EcvxLKzUPedAtoVR3FVYS1oBJtP7eBazkziH0ky-nHMkZQ?e=kOZfOc">Nobel Lecture video</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EV5VyEHNUgRHn1sSDdDewyMBst00_HvK1Dspl3QI86Jp_w?e=hBFtht">Lecture Slides</a> | <a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETSl8BuTyGNMsT2kPgm58VkBrNCk19ZdSI61Ad19fR28Tg?e=J5uAV4">Read the Lecture</a> | <a href="https://www.nobelprize.org/prizes/chemistry/2014/moerner/facts/">Source</a>]</p>
+</li>
+<li>
+<p><strong>Maria Goeppert Mayer</strong>, University of California, San Diego, CA, USA<br>
+The Nobel Prize in Physics 1963<br>
+<strong>The Shell Model</strong></p>
+</li>
+</ul>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/confocal/">Confocal</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/two-photon/">Two-Photon</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/lightsheet/">Lightsheet</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/super-resolution/">super-resolution</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/croy-em/">Croy-EM</a>
+
+                  </div>
+                
+              
+            
+            
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/leoj.xyz\/resource\/imagingtools\/';
+        
+          this.page.identifier = '\/resource\/imagingtools\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'hugo-tranquilpeak-theme';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2022 Jun-Liszt Li. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fleoj.xyz%2Fresource%2Fimagingtools%2F" aria-label="Share on Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fleoj.xyz%2Fresource%2Fimagingtools%2F" aria-label="Share on Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Share on Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://leoj.xyz/img/Dingtalk_20220815163324.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Jun-Liszt Li</h4>
+    
+      <div id="about-card-bio">Hello, My name is Jun-Liszt Li. my science interest is to understand the fundamental basis of brain metabolic system and brain vasculature system.</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Ph.D. Candidate
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker-alt"></i>
+        <br/>
+        Beijing, China
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://leoj.xyz/img/cover2.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://leoj.xyz/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

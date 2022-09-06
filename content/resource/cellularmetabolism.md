@@ -35,6 +35,10 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
     - Goldstein, Joseph L., and Michael S. Brown. “A Century of Cholesterol and Coronaries: From Plaques to Genes and Statins.” Cell 161, no. 1 (2015): 161–72. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVmM9yqeT0lPuIKaqQlzvkwB0cx7RREjxtfaEAEvtxji5A?e=gxGANA) | [PMID: 25815993](https://pubmed.ncbi.nlm.nih.gov/25815993/) | [DOI Link](https://doi.org/10.1016/j.cell.2015.01.036)]
 
 
+3. **Mitochondria role in Energy metabolism**
+    - Review in 1979: [METABOLITE TRANSPORT IN MITOCHONDRIA](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeWcvgdnEsJHqnu77uAAWGoBq6d7dUWpyr1Kromjrev6Rg?e=ylv6xV)
+
+
 ### Textbooks
 1. **Fundamentals of Biochemistry**, Life at the Molecular Level, 5th edition [[View PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcFG-3Lm2OJFke8OOve0-woB-DUv2B9KUW9Z6btHINjJnA?e=Sin51O)]
 ![textbookbioche001](/img/Dingtalk_20220904010544.jpg)

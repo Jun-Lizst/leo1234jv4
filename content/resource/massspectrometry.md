@@ -1,5 +1,5 @@
 ---
-title: "Mass spectrometry"
+title: "Mass spectrometry Foundation"
 date: 2022-08-21T13:24:59+08:00
 categories:
 - category
@@ -23,24 +23,53 @@ thumbnailImagePosition: left
 ---
 # LC-MS system
 
+**| LC(Liquid Chromatography) part**
+1. LC
+
+2. HPLC
+    - [HPLC User Maintenance & Troubleshooting](), Agilent
+    - HPLC Columns
+    - Nexera UHPLC/HPLC System, [Shimadzu Corporation](https://www.shimadzu.com.cn/an/hplc/nexera-uhplc-hplc-system/3385.html)
+
+**| MS(Mass spectrometry) part**
+1. Orbitrap based: 
+- **Review article**: Evolution of Orbitrap Mass Spectrometry Instrumentation [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQUzf1IT4yFAnxTzocu7x3ABLgI2qWrPlVhiKY0rRi89-g?e=J304Ws) | [PMID: 26161972](https://pubmed.ncbi.nlm.nih.gov/26161972/) | [DOI Link](https://doi.org/10.1146/annurev-anchem-071114-040325)]
+    - Q Exactive-HF
+    - Q Exactive-fusion
+    - Orbitrap Exploris 240
+    - Orbitrap Exploris 480
+    - Lumos
+    
+
+2. Triple Quadrupole based
+    - TSQ Quantum
+    - TSQ Altis
+    - SCIEX QTRAP5500
+    - SCIEX QTRAP6500
+    
 
 
 
 
 ## Vendor companies
-1. ThermoFisher
-2. SCIEX
-3. Agilent
-
-
+1. [ThermoFisher](https://www.thermofisher.cn/cn/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms.html)
+2. [SCIEX](https://sciex.com/products/mass-spectrometers)
+3. [Agilent](https://www.agilent.com.cn/zh-cn/product/liquid-chromatography)
+4. [Waters](https://www.waters.com/nextgen/us/en/products/columns.html)
+5. [Shimadzu Corporation](https://support.shimadzu.com.cn/an/resource/index.html#105)
 
 
 
 ---
 # MALDI system
+1. MALDI
+    - Rapiflex, MALDI-TOF/TOF, Bruker  
+    - TimsTOF, Bruker
 
 
-
+2. AP/MALDI
+    - MassTech
+    - TransMIT
 
 ## Vendor companies
 1. [Bruker](https://www.bruker.com/en.html)

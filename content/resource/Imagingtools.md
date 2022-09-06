@@ -1,5 +1,5 @@
 ---
-title: "Imaging tools"
+title: "Imaging Foundation"
 date: 2022-08-21T10:43:49+08:00
 categories:
 - category
@@ -19,13 +19,22 @@ thumbnailImage: /img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp
 thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
+> Believing is seeing and seeing is believing.\
+--- Tom Hanks
 
+<!--more-->
+
+![tomhanks1](/img/99081f4c.jpeg)
+
+
+---
 # Confocal Microscopy
 
 #### Commercial
-**Leica**: [Leica-SP8](https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8/) (Archived Product Replaced by [STELLARIS 5 & STELLARIS 8](https://www.leica-microsystems.com/products/confocal-microscopes/p/stellaris-8/))
-**ZEISS**: 
+**Leica**: [Leica-SP8](https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8/) (Archived Product Replaced by [STELLARIS 5 & STELLARIS 8](https://www.leica-microsystems.com/products/confocal-microscopes/p/stellaris-8/))\
+**Carl Zeiss**: [LSM 880, with Airyscan](): The Zeiss LSM880 with Ariyscan 2 is an inverted confocal microscope. The system is equipped with 7 laser lines 405nm, 458nm, 488nm, 514 nm, 561nm, 594nm and 633 nm. The newly designed excitation beam is elongated in y which acquires four lines of image information instead of only one with just one horizontal scanner movement. [[Standard Operation Protocol](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES8YWy6g61VJpaYUmIcrrG4Bq9dhrJ25WxYgI4cMiapkXQ?e=dLf0sO) | [Detailed Configuration](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfIoB6QWG2xBglZICiWEwR0BYDtYKGV1VDXC8iwCIuNMeQ?e=duyppQ)]
 
+---
 # Two-Photon Microscopy
 ![2pobjective25x](/img/IMG_20191125_015442_edited.jpg)
 
@@ -44,6 +53,8 @@ thumbnailImagePosition: left
 **Olympus**: [FVMPE-RS](https://www.olympus-lifescience.com.cn/en/laser-scanning/fvmpe-rs/)\
 **Leica**: [Leica-MP-4Tune]((https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8-mp/))\
 **Scientifica**: [Multiphoton Imaging System](https://www.scientifica.uk.com/products/multiphoton-imaging-system)
+**TMC**: TMC combines state-of-the-art floor vibration cancellation technology with a commitment to manufacturing. [Link](https://www.techmfg.com/)
+
 
 
 **Ref labs**: [Ji Na lab, University of California, Berkeley](https://www.jilab.net/)\
@@ -126,7 +137,7 @@ During 20 years of friendship, Betzig and Hess collaborated to create the first 
 # Electron Microscopy
 
 **Ref labs**: 
-1. [Thomas Reese, National Institutes of Health]() and [John Heuser, Washington University in St. Louis]()\
+1. [Thomas Reese, National Institutes of Health]() and [John Heuser, Washington University in St. Louis]()
 Thomas Reese studies synaptic structure and function using advanced light and electron microscopy techniques. John Heuser developed and spent his career using quick-freeze, deep-etch electron microscopy to study all aspects of cell biology.\
     - **Imaging Synaptic Vesicle Transmission**: Two pioneering electron microscopists, John Heuser and Tom Reese, reminisce about their early attempts to image synaptic vesicle transmission. (**iBiology interview**, recorded in July 2015: [[Part 1: Imaging synaptic vesicle transmission](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQITWJRLtSFKg5tqfCGYYC0BWzaz7CQK-HwYTtVZLXM9QA?e=I3wBVq) | [Part 2: The Future of Electron Microscopy](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EVsGt6E9HN5Cuvfk9zGInF0BCLrcb1P8cZMgwN9UZDU_Xw?e=bm14gg) | [Part 3: Why Collaborate?](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ES-O26Hl429Ilc5a9L6KqAUB7F86M2nlDTxsq1KlX6qNqw?e=OcweNL) | [Source](https://www.ibiology.org/neuroscience/imaging-synaptic-vesicle-transmission/#part-1)])
 
@@ -165,11 +176,12 @@ Thomas Reese studies synaptic structure and function using advanced light and el
 
 
 #### Open Source Softwares
-Fuji: Fuji is just imagej. [Link](https://fiji.sc/)\
-Imaris Viewer: https://imaris.oxinst.com/imaris-viewer\
-Cellfinder: https://github.com/SainsburyWellcomeCentre/cellfinder\
-BrainRender: https://github.com/BrancoLab/BrainRender\
-Allen Developing Brain atlas: https://developingmouse.brain-map.org/static/atlas
+1. Fuji: Fuji is just imagej. [Link](https://fiji.sc/)
+2. Imaris Viewer: https://imaris.oxinst.com/imaris-viewer\
+  [ ] Imaris 9.0 tutorial [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYivY8pT_3pOqcmRKiAmhkABqUR4F4GyGQm3OyyctRJ4LQ?e=WnFKRE)]
+3. Cellfinder: https://github.com/SainsburyWellcomeCentre/cellfinder
+4. BrainRender: https://github.com/BrancoLab/BrainRender
+5. Allen Developing Brain atlas: https://developingmouse.brain-map.org/static/atlas
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Molecular biology tools"
+title: "Molecular Biology Foundation"
 date: 2022-08-21T20:27:51+08:00
 categories:
 - category
@@ -59,15 +59,27 @@ thumbnailImagePosition: left
 ---
 
 - **Pan-neuron**: 
-    - hSyn: Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area." Gene therapy 10.4 (2003): 337-347. [[DOI Link](https://doi.org/10.1038/sj.gt.3301905) | [PDF]()]
+    - hSyn: Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area." Gene therapy 10.4 (2003): 337-347. [[PDF]() | [DOI Link](https://doi.org/10.1038/sj.gt.3301905) ]
 
-- **Excitatory neuron**: CaMKIIa
+- **Excitatory neurons**: 
+    - CaMKIIa: Sunyer, T. & Sahyoun, N. Sequence analysis and DNA-protein interactions within the 5’ flanking region of the Ca2+/calmodulin-dependent protein kinase II alpha-subunit gene. Proc Natl Acad Sci U S A 87, 278–82 (1990). [[PDF]() | | [PMID: 2153289](https://pubmed.ncbi.nlm.nih.gov/2153289/) | [DOI Link](https://doi.org/10.1073/pnas.87.1.278)]
+    
 
-- **Inhibitory neuron**: pGAD1. mDlx
+- **Inhibitory neurons**: pGAD1. mDlx
+
+- **Interneurons**
+    - **SST neurons**: pSST [[PMID: 18391943](https://pubmed.ncbi.nlm.nih.gov/18391943/)]
+    - **Cholecystokinin(CCK) neurons**: pCCK [[PMID: 19164102](https://pubmed.ncbi.nlm.nih.gov/19164102/)]
 
 - **Purkinje Cell-specific**: PCP2/L7
 
-- **Astrocyte**: GfABC1D[]
+- **TH+ Neurons**: pTH(Rat), pTH(Mus)
+
+- **Hypocretin neurons**: Hypocretin(Hcrt, also known as orexin), mHcrt Pro[[PMID: 17082459](https://pubmed.ncbi.nlm.nih.gov/17082459/) | [PMID: 10364220](https://pubmed.ncbi.nlm.nih.gov/10364220/)]
+
+- **Melanin concentrating hormone neurons**: ppMCH [[PMID: 15157424](https://pubmed.ncbi.nlm.nih.gov/15157424/)]
+
+- **Astrocyte**: GfABC1D: short GFAP promoter[]
 
 - **Microglia**: Cd68[]
 
@@ -85,19 +97,16 @@ thumbnailImagePosition: left
 ## Fluorescence Proteins
 
 - NIR FPs: 
--
   - **miRFP670nano**: Unlike BphP-derived NIR FPs, miRFP670nano is highly stable to denaturation and degradation and can be used as an internal protein tag. miRFP670nano is an effective FRET donor for red-shifted NIR FPs, enabling engineering NIR FRET biosensors spectrally compatible with GFP-like FPs and blue-green optogenetic tools. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUyyrwoLIGhLmPy3YtH0ExEBal0dkC8RTA-0-Syq7q7-2A?e=8F9zoB) | [PMID: 30655515](https://pubmed.ncbi.nlm.nih.gov/30655515/) | [DOI Link](https://doi.org/10.1038/s41467-018-08050-8)]
   - **miRFP670nano3**: The enhanced miRFP670nano3 protein fluoresces at excitation and emission wavelengths of 645 nm and 670 nm, respectively, and its spectral properties are similar to those of the parental miRFP670nano. miRFP670nano3 has a molecular brightness (product of molar extinction coefficient and quantum yield) **twice as high as** that of miRFP670nano and **1.5 times higher** than that of the widely used red FPs mCherry or mCardinal. The extinction coefficient (129,000 M-1 cm-1) and fluorescence quantum yield (18.5%) of miRFP670nano3 are **the highest among all monomeric NIR FPs** with BV chromophores. [[Addgene Plasmid: #184668](https://www.addgene.org/184668/) |  [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUyyrwoLIGhLmPy3YtH0ExEBal0dkC8RTA-0-Syq7q7-2A?e=sWUdzi) | [PMID: 35606446](https://pubmed.ncbi.nlm.nih.gov/35606446/) | [DOI Link](https://doi.org/10.1038/s41592-022-01467-6)]
 
 - RFPs:  
--
   - **mCherry2**: mCherry2 is a basic (constitutively fluorescent) red fluorescent protein published in 2017[Shen, Yi, et al. PLoS One], derived from Discosoma sp.. It has very low acid sensitivity. [[Addgene Plasmid: #54800](https://www.addgene.org/54800/) | [PMID: 28241009](https://pubmed.ncbi.nlm.nih.gov/28241009/) | [DOI Link](https://doi.org/10.1371/journal.pone.0171257)]
   - **mCardinal**: mCardinal is a basic (constitutively fluorescent) far red fluorescent protein published in 2014[Chu, Jun, et al Nature methods 2014], derived from Entacmaea quadricolor. It is reported to be a rapidly-maturing monomer with moderate acid sensitivity. [[Addgene Plasmid: #54800](https://www.addgene.org/54800/) | [PMID: 24633408](https://pubmed.ncbi.nlm.nih.gov/24633408/) | [DOI Link](https://doi.org/10.1038/nmeth.2888)]
   - **mRuby3**：mRuby3 is a basic (constitutively fluorescent) red fluorescent protein published in 2016, derived from Entacmaea quadricolor. It has low acid sensitivity.
 [[Addgene Plasmid: #74234](https://www.addgene.org/74234/) | [PMID: 26879144](https://pubmed.ncbi.nlm.nih.gov/26879144/) | [DOI Link](https://doi.org/10.1038/srep20889)]
 
 - GFPs: 
--
   - **EGFP**: EGFP is a basic (constitutively fluorescent) green fluorescent protein published in 1996, derived from Aequorea victoria. It is reported to be a rapidly-maturing weak dimer with moderate acid sensitivity. [[FPbase](https://www.fpbase.org/protein/egfp/) | 
 [PMID: 8707053](https://pubmed.ncbi.nlm.nih.gov/8707053/) | [DOI Link](https://doi.org/10.1016/0378-1119(95)00685-0)]
   - **mGreenLantern**: mGreenLantern is a basic (constitutively fluorescent) green fluorescent protein published in 2020[Campbell, Benjamin C., et al. PNAS], derived from Aequorea victoria. It is reported to be a very rapidly-maturing monomer with moderate acid sensitivity. **mGreenLantern was 190% brighter than mNeonGreen, 260% brighter than Clover, and 620% brighter than EGFP when expressed in HeLa cells and showed faster and complete maturation.**
@@ -106,7 +115,6 @@ thumbnailImagePosition: left
 
 
 - YFPs: 
--
   - **dLanYFP**: dLanYFP is a basic (constitutively fluorescent) green/yellow fluorescent protein published in 2013, derived from Branchiostoma lanceolatum. [[Addgene Plasmid: #164469]() | [PMID: 23524392](https://pubmed.ncbi.nlm.nih.gov/23524392/) | [DOI Link](https://doi.org/10.1038/nmeth.2413)]
   - **tdLanYFP**: tdLanYFP, derived from the tetrameric protein from the cephalochordate B. lanceolatum, LanYFP. Contrasting with EYFP and its derivatives, tdLanYFP has a very high photostability in vitro and in live cells. As a consequence, tdLanYFP allows imaging of cellular structures with sub-diffraction resolution using STED nanoscopy and is compatible with the use of spectro-microscopies in single molecule regimes. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfWLZ4vhkepOrKXwwTKIFpsBI_15ugNDSw613yqidDq4aA?e=ofNQ7S) | 
 [DOI Link](http://dx.doi.org/10.1021/acssensors.1c00874)]
@@ -114,7 +122,6 @@ thumbnailImagePosition: left
 
 
 - BFPs: 
--
   - **TagBFP**: TagBFP is a basic (constitutively fluorescent) blue fluorescent protein published in 2008, derived from Entacmaea quadricolor. It is reported to be a very rapidly-maturing monomer with very low acid sensitivity. [[FPbase](https://www.fpbase.org/protein/tagbfp/) | [PMID: 18940671](https://pubmed.ncbi.nlm.nih.gov/18940671/) | [DOI Link](https://doi.org/10.1016/j.chembiol.2008.08.006)]
   - **mTagBFP2**: mTagBFP2 is a basic (constitutively fluorescent) blue fluorescent protein published in 2011, derived from Entacmaea quadricolor. It is reported to be a very rapidly-maturing monomer with very low acid sensitivity. [[FPbase](https://www.fpbase.org/protein/mtagbfp2/) | [PMID: 22174863](https://pubmed.ncbi.nlm.nih.gov/22174863/) | [DOI Link](https://doi.org/10.1371/journal.pone.0028674)]
 
@@ -122,19 +129,26 @@ thumbnailImagePosition: left
 
 
 ## Genetically encoded indicators
+- **Pioneer work**: 
+    - Engineer of cpEGFP and GCaMP1 [[PMID: 11248055](https://pubmed.ncbi.nlm.nih.gov/11248055/)]
 - **Calcium**: GCaMP series [[GCaMP8s/m/f](https://www.janelia.org/jgcamp8-calcium-indicators) | [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcWtwJb1nk5Hq3K9u7TelA0Bg6HOZ4OB5_D_0fG75ucM2w?e=tYNu8A) | [DOI Link](https://doi.org/10.1101/2021.11.08.467793)]; [[GCaMP7s/f/b/c](https://doi.org/10.1038/s41592-019-0435-6)];  [GCaMP6s/m/f](https://doi.org/10.1038/nature12354)]
 - **Potassium**: GINKO1: dicator of K+ for optical imaging [[PMID: 30652129](https://pubmed.ncbi.nlm.nih.gov/30652129/) | [DOI Link](https://doi.org/10.1038/s42003-018-0269-2)]
 - **Glutamate**: iGluSnFR[[PMID: 30377363](https://pubmed.ncbi.nlm.nih.gov/30377363/) | [DOI Link](https://doi.org/10.1038/s41592-018-0171-3)] ;  iGluSnFR3[[DOI Link](https://doi.org/10.1101/2022.02.13.480251)]
+
+**| Use GPCR as molecular framework**
 - **Gamma-aminobutyric acid(GABA)**: iGABASnFR [[PMID: 31308547](https://pubmed.ncbi.nlm.nih.gov/31308547/) | [DOI Link](https://doi.org/10.1038/s41592-019-0471-2)]
 - **Dopamine**: 
   - GRAB-DA[[GRAB-DA1.0](https://doi.org/10.1016/j.cell.2018.06.042) | [GRAB-DA2.0](https://doi.org/10.1038/s41592-020-00981-9)] 
   - dLight[[dLight1.2](https://doi.org/10.1126/science.aat4422), [addgene](https://www.addgene.org/111068/)]
 - **Histamine**:
 - **eCB**:
+
+
+
 - **Glucose**:
 
 - **Voltage indicator**: 
-  - VSD-based[]
+  - VSD-based[[ASAP1](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EaqAq7jvyYhMtPz_Iut6PSEBXapEYn5V30MoeToLPwHOuQ?e=hfyjvW)]
   - Rhodopsin-based[[QuasAr1/2/3/6]() | [Archon1/2] ]
 
 - **Kinase activity**: 
@@ -150,6 +164,8 @@ thumbnailImagePosition: left
 #### Ref. Labs
 1. [Robert E. Campbell Lab](https://campbellweb.chem.ualberta.ca/), University of Alberta, Canada
 2. [Loren Looger Lab](), Janelia farm/UCSD
+3. [Michael Z Lin](), Stanford
+4. [Mark J Schnitzer](), Stanford
 
 
 #### Ref. websites
@@ -164,7 +180,7 @@ thumbnailImagePosition: left
     - **Synaptic transmission**
     - **GABA as an inhibitory neurotransmitter**
 
-2. **Solomon H. Snyder**: Snyder's finding of receptors for neurotransmitters and medicines, as well as the characterization of psychotropic agent activities, has resulted in many breakthroughs in molecular neuroscience. [[Talk video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EYM-PFMexBRGpMbUa5lOfSoBJAksIGtWJD3GH_X1otr_GA?e=rjpFaH)]
+2. **Solomon H. Snyder**: Snyder's finding of receptors for neurotransmitters and medicines, as well as the characterization of psychotropic agent activities, has resulted in many breakthroughs in molecular neuroscience. [[Talk video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EYM-PFMexBRGpMbUa5lOfSoBJAksIGtWJD3GH_X1otr_GA?e=rjpFaH)] [**Biography: A Life of Neurotransmitters** [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERD2vU-Uo7VLuxI0ldTjXK8BChBVhpds_TwEAjjV4bbZmg?e=2BeB1c)]
     - **Co-discovered the opioid receptor** and later identified the existence of normally occurring opiate-like peptides in the brain.
     - **Characterization of novel neurotransmitters**, like the gases NO and CO and the D-isomers of amino acids, including D-serine.
     - **Co-founder of Nova Pharmaceuticals and Guilford Pharmaceuticals**
@@ -176,9 +192,11 @@ thumbnailImagePosition: left
 ---
 
 ### DNA target Cas9 based
-**Knock out**: SpCas9, SaCas9\
-DNA base editor: dCas9-xxx\
-Transcriptional activator:
+- **Knock out**: SpCas9, SaCas9
+- DNA base editor: dCas9-xxx
+- Transcriptional activator:
+
+- Cas9 based whole-genome scale pool screen
 
 
 ### RNA target Cas13 based
@@ -246,19 +264,23 @@ ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
 ---
 ## Protein localization motifs
 1. **ER localization**
--
-- **ER-targeting sequence**: MLLPVPLLLGLLGAAAD (N terminal on insert)
-- **ER-retention sequence**: KDEL(Lys-Asp-Glu-Leu), HDEI(His-Asp-Glu-Ile) (C terminal on insert)
+- **ER-export motifs**: MLLPVPLLLGLLGAAAD (N terminal on insert)
+    - FCYENE(Kir2.1 channel[[PMID: 11209084](https://pubmed.ncbi.nlm.nih.gov/11209084/)] | [PMID: 11287009](https://pubmed.ncbi.nlm.nih.gov/11287009/))
+- **ER-retention/retrieval motifs**: KDEL(Lys-Asp-Glu-Leu), HDEI(His-Asp-Glu-Ile) (C terminal on insert)
 2. **Mitochondria localization**
 - **Transit peptide**: the signal sequence consisting of a positively charged amino acid (Arg) and an uncharged amino acid (Ser) at the N terminus of the guide peptide of proteins, which enters the mitochondria.
 3. **Golgi localization**
 4. **Lysosome localization**
 
-5. **Cell membrane localization**
+5. **Cell membrane localization**: 
+    - C-terminal CAAX motif of ras proteins [[PMID: 2208277](https://pubmed.ncbi.nlm.nih.gov/2208277/)]
 6. **Nucleus**
 - **Nuclear localization signal(NLS)**: Normally included Pro-Lys-Lys-Lys-Lys-Arg-Val.
 - **Nuclear export signal(NES)**: Interphase arrangement of hydrophobic amino acids on ribosomal proteins
 8. **Peroxisomal targeting signal(PTS)**: C-terminal SKL i.e. Ser-Lys-Leu
+
+9. **Axon targeting**:
+
 
 
 ## Prediction of the subcellular localization of proteins
@@ -294,10 +316,19 @@ TargetP-2.0 server predicts the presence of N-terminal presequences: signal pept
 
 ## Vendor company
 1. [New England Biolabs(NEB)](https://international.neb.com/): NEB is a leader in the discovery and development of molecular biology reagents.
+    - Restriction enzymes
+    - Gibson Mix [[Manual]() | [Source]()]
 2. [Addgene](https://www.addgene.org/): Addgene is a non-profit plasmid repository. Addgene facilitates the exchange of genetic material between laboratories by offering plasmids and their associated cloning data to not-for-profit laboratories around the world.
 3. [Vazyme](https://www.vazyme.com/): 
+    - One-step cloning kit [[Manual]() | [Source]()]
 4. [Geneviz from Azenta](https://www.genewiz.com/): As a leader in R&D genomics services, GENEWIZ provides superior data and high-quality constructs for next generation sequencing, gene synthesis, and sanger sequencing.
+    - Primer(Oligos) synthesis
+    - Gene(dsDNA) synthesis and subcloning
 5. [Takara](https://www.takarabio.com/products/pcr/high-yield-pcr): Takara provide high-quality PCR polymerases.
+    - PrimeSTAR HS Polymerase [[Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESuaz2tU5xVBl5JBOENFbIcBln_RBGmfKGnq9zWmFmQwuQ?e=YdiQod) | [Cat. #: R040A](https://www.takarabio.com/products/pcr/high-fidelity-pcr/primestar-hs-dna-polymerase)]
+6. [Thermo Scientific](https://www.thermofisher.com/search/browse/category/us/en/90220140/enzymes+and+inhibitors)
+    - T4 DNA ligase [[Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EX57gCIxJENDr2YmEfO7hYQB2uYgXV7BPZlZeZm0h3-EeA?e=g9qahA) | [Cat. #: EL0011](https://www.thermofisher.com/order/catalog/product/EL0011)]
+
 
 ## Ref Labs
 1. [Feng Zhang Lab, MIT](https://zlab.bio/)
@@ -309,8 +340,22 @@ TargetP-2.0 server predicts the presence of N-terminal presequences: signal pept
 
 
 
+---
+## Molecular Cloning Basis
+1. Performance Chart for Restriction Enzymes [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcwACbUakrtJiDUsLMcYFwIBuJ4Ou_lzt9Xj-jiVglstbg?e=usbUiE)]
+2. NEB biolabs catalog technical references [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeE2HTSyigtPoTB-XQAlQMgByIS8ytW1LVmneBgjgA57Eg?e=w0k38a)]
+3.
 
 
+
+### Online Courses:
+- **Molecular Biology, MIT, EdX**
+1. **Part 1: DNA Replication and Repair**: An in-depth adventure through DNA replication and repair to strengthen your scientific thinking and experimental design skills. [[Source](https://www.edx.org/course/molecular-biology-part-2-transcription-and-transposition)]
+    
+2. **Part 2: Transcription and Transposition**: Strengthen your scientific thinking and experimental design skills in this adventure through transcription and transposition. [[Source](https://www.edx.org/course/molecular-biology-part-2-transcription-and-transposition)]
+    - Week 1 : Machinery and Promoters of Bacterial Transcription
+    
+3. **Part 3: RNA Processing and Translation**: An in-depth adventure through RNA Processing and Translation. Strengthen your scientific thinking and biological experimental design skills. [[Source](https://www.edx.org/course/molecular-biology-part-3-rna-processing-and-transl)]
 
 
 
@@ -366,7 +411,7 @@ The Nobel Prize in Chemistry 1993\
 
 - **Susumu Tonegawa**, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
 The Nobel Prize in Physiology or Medicine 1987\
-**Somatic Generation of Immune Diversity** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXrmZU1m_VxLtWWavzDn3s0Bw7013B1NEqK7RZ2AOrCwEQ?e=D6e6Az) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERFkAs1pvepClNLYtNEEPDQBBrMX_t-wbkoKzRH0NRkUxw?e=QWs5gr) | [Source](https://www.nobelprize.org/prizes/medicine/1987/tonegawa/lecture/)]
+**Somatic Generation of Immune Diversity** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXrmZU1m_VxLtWWavzDn3s0Bw7013B1NEqK7RZ2AOrCwEQ?e=D6e6Az) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERFkAs1pvepClNLYtNEEPDQBBrMX_t-wbkoKzRH0NRkUxw?e=QWs5gr) | [Source](https://www.nobelprize.org/prizes/medicine/1987/tonegawa/lecture/)]
 
 - **Paul Berg**, Stanford University, Stanford, CA, USA\
 The Nobel Prize in Chemistry 1980\

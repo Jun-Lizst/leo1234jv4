@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://leoj.xyz/tags/brain-atlas/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
     <loc>https://leoj.xyz/categories/</loc>
-    <lastmod>2022-09-03T20:14:35+08:00</lastmod>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/category/</loc>
-    <lastmod>2022-09-03T20:14:35+08:00</lastmod>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/multi-omics/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/shiny-app/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/spatialmeta/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tooldevelopment/spatialmeta/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/categories/subcategory/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tooldevelopment/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/cell-biology/</loc>
     <lastmod>2022-09-03T20:14:35+08:00</lastmod>
@@ -17,19 +44,10 @@
     <loc>https://leoj.xyz/resource/cellularmetabolism/</loc>
     <lastmod>2022-09-03T20:14:35+08:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/</loc>
-    <lastmod>2022-09-03T20:14:35+08:00</lastmod>
-  </url><url>
     <loc>https://leoj.xyz/tags/metabolism/</loc>
     <lastmod>2022-09-03T20:14:35+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/resource/</loc>
-    <lastmod>2022-09-03T20:14:35+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/subcategory/</loc>
-    <lastmod>2022-09-03T20:14:35+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/</loc>
     <lastmod>2022-09-03T20:14:35+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/drosophila/</loc>
@@ -181,9 +199,6 @@
   </url><url>
     <loc>https://leoj.xyz/categories/r/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/brain-atlas/</loc>
-    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/by-jun-liszt-li/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>

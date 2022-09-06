@@ -1,5 +1,5 @@
 ---
-title: "Biochemistry tools"
+title: "Biochemistry Foundation"
 date: 2022-08-25T17:16:39+08:00
 categories:
 - category
@@ -38,12 +38,18 @@ thumbnailImagePosition: left
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
 
 
+
 - **Protein interaction**
     - co-IP
     - 
 
 
-
+- **Cell culture basis**
+    - ATCC® ANIMAL CELL CULTURE GUIDE(tips and techniques for continuous cell lines) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYU7m2YqpAZNqy3oJNdiqSsBNpQMMGQkw7M4hro63wuWqw?e=njcNcQ)]
+    - Guideline of Cell biology experiment, Part I (In Chinese, 细胞实验指南(上)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeCUDsikGUFDtGqAy4-lErsBsKRz0Qn2T329ETyT0KjRzw?e=wTaHrr)]
+    - Guideline of Cell biology experiment, Part II (In Chinese, 细胞实验指南(下)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee5Qbs939yFMvdbCV3iSbD0BdbhidwjLXTkoyxSk9M6TmA?e=fAVeeC)]
+    - Gibco Cell Culture Basics Handbook(In Chinese) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EViSuQ_uP71Fqy3SHpHozhUBbA1xmaOYom-gIrwEW4-2sQ?e=UfLvlT)]
+    
 
 ---
 ## Vendor companies
@@ -52,6 +58,11 @@ thumbnailImagePosition: left
 3. [ThermoFisher](https://www.thermofisher.cn/cn/zh/home/life-science/antibodies/primary-antibodies.html?icid=ab-search-primary-icons)
 4. [R&D Systems](https://www.rndsystems.com/products)
 5. [BioRad](https://www.bio-rad.com/)
+6. [ATCC](https://www.atcc.org/cell-products/animal-cells): ATCC has the world's largest and most extensive product catalog of human and animal cell lines for research purposes.
+7. [Gibco](https://www.thermofisher.cn/cn/zh/home/brands/gibco.html)
+8. [Corning](https://www.corning.com/worldwide/en/products/life-sciences/products/media-sera-reagents.html)
+9. [HyClone](https://www.cytivalifesciences.com/en/us/shop/cell-culture-and-fermentation/sera/fetal-bovine-serum/hyclone-defined-fetal-bovine-serum-fbs-u-s-origin-p-06090)
+10. [Sigma](https://www.sigmaaldrich.cn/CN/zh)
 
 
 ---
@@ -90,8 +101,8 @@ thumbnailImagePosition: left
 
 
 #### **Transcriptional regulation and epigenetics**
-1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)\
-[ ] **The discovery of the SV40 large T antigen**
+1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)
+- **The discovery of the SV40 large T antigen**
     - Tjian, Robert. "The binding site on SV40 DNA for a T antigen-related protein." Cell 13.1 (1978): 165-179. [[PMID: 202398](https://pubmed.ncbi.nlm.nih.gov/202398/) | [DOI Link](https://doi.org/10.1016/0092-8674(78)90147-2)]
 
 
@@ -99,36 +110,36 @@ thumbnailImagePosition: left
 
 
 3. [Yang Shi lab, HMS/HHMI/University of Oxford](https://www.harvardshilab.org/)\
-[ ] **The discovery of first histone demethylase, LSD1** 
+- **The discovery of first histone demethylase, LSD1** 
     - Shi, Yujiang, et al. "Histone demethylation mediated by the nuclear amine oxidase homolog LSD1." Cell 119.7 (2004): 941-953. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYPS2hk_U1VCm-bMyCGIu-QBg92LUK47Nw4J3vIEapyRCQ?e=EF25wj) | [DOI Link](https://doi.org/10.1016/j.cell.2004.12.012)]
 
 
 4. [Chuan He lab, University of Chicago/HHMI](https://he-group.uchicago.edu/He%20research.html)\
-[ ] **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
+- **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
     - Jia, Guifang, et al. "N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO." Nature chemical biology 7.12 (2011): 885-887. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETNp772T_4VNnY3909X_7lUB_8CJ36WsacqULe7ApUAzSA?e=QWFN4P) | [DOI Link](https://doi.org/10.1038/nchembio.687)]
 
 
 #### **Structural Biology**
-1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)\
-[ ] **Structural basis of pre-mRNA splicing**\
-[ ] **Structural basis of Apoptosis (Programmed Cell Death)**\
-[ ] **Alzheimer's Disease (AD) and Regulated Intramembrane Proteolysis (RIP)**
+1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)
+- **Structural basis of pre-mRNA splicing**
+- **Structural basis of Apoptosis (Programmed Cell Death)**
+- **Alzheimer's Disease (AD) and Regulated Intramembrane Proteolysis (RIP)**
 
-2. [Hao Wu lab, Harvard Medical School](https://www.wulab.tch.harvard.edu/)\
-[ ] **The discoverer of signalosomes**, which are large macromolecular complexes involved in cell death and in innate and adaptive immune pathways.
+2. [Hao Wu lab, Harvard Medical School](https://www.wulab.tch.harvard.edu/)
+- **The discoverer of signalosomes**, which are large macromolecular complexes involved in cell death and in innate and adaptive immune pathways.
     - Wu, Hao. "Higher-order assemblies in a new paradigm of signal transduction." Cell 153.2 (2013): 287-292. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES4S-RQx0FFEsL1XMYEsweQBeAjiV5qHw0yrYIDRkcZmMQ?e=8L9mMo) | [DOI Link](https://doi.org/10.1016/j.cell.2013.03.013)]
 
-3. [Nieng Yan lab, Tsinghua University/Princeton University](https://scholar.princeton.edu/yanlab)\
-[ ] **Structural basis of Membrane transport**\
-[ ] **Structural and mechanistic investigation of sterol homeostasis**
+3. [Nieng Yan lab, Tsinghua University/Princeton University](https://scholar.princeton.edu/yanlab)
+- **Structural basis of Membrane transport**
+- **Structural and mechanistic investigation of sterol homeostasis**
 
 
 
 
 
 #### Ref. softwares
-1. Pymol
-2. 
+1. [PyMOL](https://pymol.org/2/): PyMOL is a user-sponsored molecular visualization system on an open-source foundation, maintained and distributed by Schrödinger.
+2. [UCSF ChimeraX](https://www.rbvi.ucsf.edu/chimerax/): UCSF ChimeraX (or simply ChimeraX) is the next-generation molecular visualization program from the Resource for Biocomputing, Visualization, and Informatics (RBVI), following UCSF Chimera.
 
 
 <iframe height="400" width="600" src="https://www.bilibili.com/video/BV1n5411f7jm?spm_id_from=333.337.search-card.all.click&vd_source=e2ac88eb8a76774c90a469bf333206b0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>

@@ -6,7 +6,17 @@
     <description>Recent content on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Sep 2022 20:14:35 +0800</lastBuildDate><atom:link href="https://leoj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 10:40:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpatialMeta (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/spatialmeta/</link>
+      <pubDate>Mon, 05 Sep 2022 10:40:25 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/spatialmeta/</guid>
+      <description> A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
+References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] </description>
+    </item>
+    
     <item>
       <title>Cellular Metabolism</title>
       <link>https://leoj.xyz/resource/cellularmetabolism/</link>
@@ -20,7 +30,7 @@
     </item>
     
     <item>
-      <title>Genetics tools</title>
+      <title>Genetics Foundation</title>
       <link>https://leoj.xyz/resource/geneticstools/</link>
       <pubDate>Fri, 26 Aug 2022 16:50:25 +0800</pubDate>
       
@@ -32,7 +42,7 @@
     </item>
     
     <item>
-      <title>Biochemistry tools</title>
+      <title>Biochemistry Foundation</title>
       <link>https://leoj.xyz/resource/biochemistrytools/</link>
       <pubDate>Thu, 25 Aug 2022 17:16:39 +0800</pubDate>
       
@@ -44,7 +54,7 @@
     </item>
     
     <item>
-      <title>Molecular biology tools</title>
+      <title>Molecular Biology Foundation</title>
       <link>https://leoj.xyz/resource/molecularbiology/</link>
       <pubDate>Sun, 21 Aug 2022 20:27:51 +0800</pubDate>
       
@@ -56,15 +66,16 @@
     </item>
     
     <item>
-      <title>Mass spectrometry</title>
+      <title>Mass spectrometry Foundation</title>
       <link>https://leoj.xyz/resource/massspectrometry/</link>
       <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/massspectrometry/</guid>
-      <description>LC-MS system Vendor companies ThermoFisher SCIEX Agilent MALDI system Vendor companies Bruker MassTech™ Ref. Labs Lingjun Li Lab, University of Wisconsin Madison
-West Coast Metabolomics Center, UC Davis
-Fiehn Laboratory for Untargeted Metabolomics Newman Laboratory for Lipid Mediators Hammock Laboratory for Inflammatory Metabolism Metabolomics analysis softwares MetaboAnalyst: v5.0 MZmine3 MS-DIAL MaxQuant Perseus Online courses 2018 North American Mass Spectrometry Summer School(1st Annual)
-MS-based compound identification in untargeted metabolomics, Oliver Fiehn, University of California-Davis Protein Quantification by Mass Spectrometry Part II/Development and Application of Chemical Tags, Lingjun Li, University of Wisconsin-Madison 2019 North American Mass Spectrometry Summer School(2nd Annual)</description>
+      <description>LC-MS system | LC(Liquid Chromatography) part
+LC
+HPLC
+HPLC User Maintenance &amp;amp; Troubleshooting, Agilent HPLC Columns Nexera UHPLC/HPLC System, Shimadzu Corporation | MS(Mass spectrometry) part
+Orbitrap based: Review article: Evolution of Orbitrap Mass Spectrometry Instrumentation [PDF | PMID: 26161972 | DOI Link] Q Exactive-HF Q Exactive-fusion Orbitrap Exploris 240 Orbitrap Exploris 480 Lumos Triple Quadrupole based TSQ Quantum TSQ Altis SCIEX QTRAP5500 SCIEX QTRAP6500 Vendor companies ThermoFisher SCIEX Agilent Waters Shimadzu Corporation MALDI system MALDI</description>
     </item>
     
     <item>
@@ -79,7 +90,7 @@ TESOS system: Yi, Yating, et al. &amp;ldquo;Mapping of individual sensory nerve 
     </item>
     
     <item>
-      <title>Genomics tools</title>
+      <title>Genomics and Sequencing Foundation</title>
       <link>https://leoj.xyz/resource/genomicsngs/</link>
       <pubDate>Sun, 21 Aug 2022 10:43:59 +0800</pubDate>
       
@@ -95,26 +106,19 @@ TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA
     </item>
     
     <item>
-      <title>Imaging tools</title>
+      <title>Imaging Foundation</title>
       <link>https://leoj.xyz/resource/imagingtools/</link>
       <pubDate>Sun, 21 Aug 2022 10:43:49 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/imagingtools/</guid>
-      <description>Confocal Microscopy Commercial Leica: Leica-SP8 (Archived Product Replaced by STELLARIS 5 &amp;amp; STELLARIS 8) ZEISS:
-Two-Photon Microscopy Cranial window surgery Protocol, by Jun-Liszt Li [Download PDF]
-Lab DIY Thorlabs: https://www.thorlabs.com/index.cfm
-Ti:Sapphire Femtosecond Laser: From Thorlabs
-AO (Adaptive optics) in 2PFM and for neurobiology
-Commercial Olympus: FVMPE-RS
-Leica: Leica-MP-4Tune
-Scientifica: Multiphoton Imaging System
-Ref labs: Ji Na lab, University of California, Berkeley
-Janelia farm
-In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Believing is seeing and seeing is believing.&lt;br&gt;
+&amp;mdash; Tom Hanks&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
-      <title>Programming</title>
+      <title>Programming Foundation</title>
       <link>https://leoj.xyz/resource/programing/</link>
       <pubDate>Sun, 21 Aug 2022 08:30:11 +0800</pubDate>
       
@@ -152,7 +156,7 @@ Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li, Zhe Zhang, Xiaowan Wang, Ruisi Bao, 
       <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
       
       <guid>https://leoj.xyz/page/about/</guid>
-      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to solve specific problems.
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to address specific problems.
 Interest Areas Biological Question</description>
     </item>
     

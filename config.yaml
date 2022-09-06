@@ -5,7 +5,7 @@ title: Jun-Liszt Li
 theme: hugo-tranquilpeak-theme
 disqusShortname: hugo-tranquilpeak-theme
 googleAnalytics: "327157081"
-paginate: 9
+paginate: 11
 canonifyurls: yes
 permalinks:
   posts: /:year/:month/:day/:slug/
@@ -47,36 +47,41 @@ menu:
       pre: <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
       url: /posts
       weight: 4
+    - identifier: tools
+      name: Tool develop
+      pre: <i class="sidebar-button-icon fas fa-lg fa-wrench" aria-hidden="true"></i>
+      url: /tooldevelopment
+      weight: 5
     - identifier: resource
       name: Resource
       pre: <i class="sidebar-button-icon fas fa-lg fa-warehouse" aria-hidden="true"></i>
       url: /resource
-      weight: 5
+      weight: 6
     - identifier: about
       name: About
       pre: <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
       url: /page/about
-      weight: 6
+      weight: 7
     - identifier: contact
       name: Contact
       pre: <i class="sidebar-button-icon fas fa-lg fa-at" aria-hidden="true"></i>
       url: /page/contact
-      weight: 7  
+      weight: 8
     - identifier: categories
       name: Categories
       pre: <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
       url: /categories
-      weight: 8
+      weight: 9
     - identifier: tags
       name: Tags
       pre: <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
       url: /tags
-      weight: 9
+      weight: 10
     - identifier: archives
       name: Archives
       pre: <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
       url: /archives
-      weight: 10
+      weight: 11
   misc:
     - identifier: github
       name: GitHub
