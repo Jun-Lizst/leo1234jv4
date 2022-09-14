@@ -16,7 +16,7 @@
     
   },
   "name":"Jun-Liszt Li",
-  "description":" A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.\nReferences Atlas Mouse brain atlas, Adult, Male, C57BL\/6J [PDF] Rat brain atlas, v5.0 [PDF] ",
+  "description":"\u003cblockquote\u003e\n\u003cp\u003eA online interactive website for analyzing MALDI and spatial metabolomics\/proteomics data.\u003c\/p\u003e\n\u003c\/blockquote\u003e",
   "url":"https:\/\/leoj.xyz\/tooldevelopment\/spatialmeta\/",
   "keywords":"[tech]"
 }
@@ -28,22 +28,26 @@
 <meta name="generator" content="Hugo 0.101.0 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="Jun-Liszt Li">
 <meta name="keywords" content="tech">
-<meta name="description" content=" A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
-References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] ">
+<meta name="description" content="
+A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.
+">
 
 
-<meta property="og:description" content=" A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
-References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] ">
+<meta property="og:description" content="
+A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.
+">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SpatialMeta (Spatial Multi-omics Brain Explorer)">
-<meta name="twitter:title" content="SpatialMeta (Spatial Multi-omics Brain Explorer)">
+<meta property="og:title" content="SpatialMeta (Online MALDI data analysis server)">
+<meta name="twitter:title" content="SpatialMeta (Online MALDI data analysis server)">
 <meta property="og:url" content="https://leoj.xyz/tooldevelopment/spatialmeta/">
 <meta property="twitter:url" content="https://leoj.xyz/tooldevelopment/spatialmeta/">
 <meta property="og:site_name" content="Jun-Liszt Li">
-<meta property="og:description" content=" A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
-References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] ">
-<meta name="twitter:description" content=" A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
-References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] ">
+<meta property="og:description" content="
+A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.
+">
+<meta name="twitter:description" content="
+A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.
+">
 <meta property="og:locale" content="en-us">
 
   
@@ -92,7 +96,7 @@ References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas,
   <meta property="twitter:image" content="https://leoj.xyz/img/">
 
 
-    <title>SpatialMeta (Spatial Multi-omics Brain Explorer)</title>
+    <title>SpatialMeta (Online MALDI data analysis server)</title>
 
     <link rel="icon" href="https://leoj.xyz/favicon.png">
     
@@ -339,7 +343,7 @@ References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas,
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title">
-      SpatialMeta (Spatial Multi-omics Brain Explorer)
+      SpatialMeta (Online MALDI data analysis server)
     </h1>
   
   
@@ -348,17 +352,53 @@ References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas,
           <div class="post-content markdown">
             <div class="main-content-wrap">
               <blockquote>
-<p>A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.</p>
+<p>A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.</p>
 </blockquote>
 <hr>
-<h3 id="references">References</h3>
-<h4 id="atlas">Atlas</h4>
+<h1 id="introduction">Introduction</h1>
+<p>MALDI MSI, also known as matrix-assisted laser desorption/ionization mass spectrometry imaging, is a
+an instrument to evaluate the spatial distribution of analytes (proteins, peptides, medicines, lipids, and metabolites) in thin tissue sections.</p>
+<h1 id="step-1">Step 1</h1>
+<ul>
+<li><strong>Data format convertion</strong><br>
+We have tested datas from the Bruker MALDI-TOF system. Data from Bruker MALDI-TOF system can be easily exported as .imzML and .ibd format. Our SpatialMeta accept these two input formats for downstream analysis pipeline.</li>
+</ul>
+<p>You may need <a href="https://github.com/AlanRace/imzMLConverter">imzMLConverter</a>,
+in order to get ready, you need to do as following:</p>
+<ul>
+<li>Download the latest version of imzMLConverter</li>
+<li>Install Java SE 8 JRE</li>
+<li>Install ProteoWizard</li>
+<li>[Optional] Install <a href="https://sciex.com/form-pages/sw-downloads-form?d=ab_sciex_ms_data_converter_V1.3%20beta.zip&amp;asset=software&amp;softwareProduct=MS%20Data%20Converter%20(Beta%20Version%201.3)">MS Data Converter (SCIEX)</a> to enable conversion of data from AB SCIEX data instruments</li>
+</ul>
+<h1 id="step-2">Step 2</h1>
+<ul>
+<li><strong>Data upload</strong></li>
+</ul>
+<h1 id="step-3">Step 3</h1>
+<ul>
+<li><strong>Start your analysis</strong></li>
+</ul>
+<hr>
+<h3 id="vendor-instruments">Vendor instruments</h3>
 <ol>
-<li>Mouse brain atlas, Adult, Male, C57BL/6J [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU52M0jlmw5JmAPEhyOf6i0B2AOQIwNkJFjv5Prfu9pGYw?e=7dCyUM">PDF</a>]</li>
-<li>Rat brain atlas, v5.0 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbWQDRv7medPs__yyEA4R2QB6PzbYR70OATcisI0JwHtyw?e=keYTc6">PDF</a>]</li>
-<li></li>
+<li><a href="https://www.apmaldi.com/main/products/apmaldi-ng-uhr/">AP/MALDI (ng) UHR</a>, MassTech
+<ul>
+<li>The AP-MALDI(ng) UHR is available for all mass spectrometers currently supported by the regular AP-MALDI. The AP-MALDI(ng) UHR includes upgraded optics, source housing and eliminates the use of optical fiber which allow for a focused laser spot less than 10 micron in diameter.</li>
+<li>AP-MALDI(ng) UHR includes an upgraded laser – it is still a solid state Nd:YAG laser at 355 nm wavelength, but the output frequency is up to 10 kHz.</li>
+</ul>
+</li>
 </ol>
-
+<p><img src="https://leoj.xyz/img/Snipaste_2022-09-10_15-26-39.png" alt="apmaldiuhr"></p>
+<hr>
+<ol start="2">
+<li><a href="https://www.bruker.com/en/products-and-solutions/mass-spectrometry/maldi-tof/rapiflex.html">rapifleX®</a>, MALDI-TOF/TOF system, Bruker
+<ul>
+<li><strong>Speed</strong>, Make the best decisions in the shortest amount of time with the 10 kHz scanning smartbeam 3D laser, for throughput up to 20 times faster than traditional MALDI-TOF systems.</li>
+<li><strong>Robustness</strong>, Most robust, yet easy to access ion source enables straightforward cleaning, designed for maximum uptime in 24/7 operations.</li>
+</ul>
+</li>
+</ol>
               
 
 

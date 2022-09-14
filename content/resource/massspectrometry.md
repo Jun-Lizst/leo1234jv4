@@ -30,6 +30,7 @@ thumbnailImagePosition: left
     - [HPLC User Maintenance & Troubleshooting](), Agilent
     - HPLC Columns
     - Nexera UHPLC/HPLC System, [Shimadzu Corporation](https://www.shimadzu.com.cn/an/hplc/nexera-uhplc-hplc-system/3385.html)
+    - Thermo Vanquish UHPLC FLEX [[]]
 
 **| MS(Mass spectrometry) part**
 1. Orbitrap based: 
@@ -50,47 +51,57 @@ thumbnailImagePosition: left
 
 
 
-
-<<<<<<< Updated upstream
 ## Vendor companies
 1. [ThermoFisher](https://www.thermofisher.cn/cn/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms.html)
 2. [SCIEX](https://sciex.com/products/mass-spectrometers)
 3. [Agilent](https://www.agilent.com.cn/zh-cn/product/liquid-chromatography)
 4. [Waters](https://www.waters.com/nextgen/us/en/products/columns.html)
 5. [Shimadzu Corporation](https://support.shimadzu.com.cn/an/resource/index.html#105)
-=======
----
-## Vendor companies
-1. ThermoFisher
-2. SCIEX
-3. Agilent
-
-
->>>>>>> Stashed changes
 
 
 
 ---
 # MALDI system
-<<<<<<< Updated upstream
 1. MALDI
     - Rapiflex, MALDI-TOF/TOF, Bruker  
-    - TimsTOF, Bruker
+    - TimsTOF-Pro, Bruker: powered by the Trapped Ion Mobility Spectrometry(TIMS) [[]]
+    - TimsTOF Pro 2, Bruker: powered by the latest Parallel Accumulation SErial Fragmentation (PASEF®) [[Introduction video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQSslVa3f-dJlTXJ4rvUBKEBovb_PKEZPVqk4agNviBp6A?e=D09vdD)]
 
 
 2. AP/MALDI
     - MassTech
     - TransMIT
 
-=======
 
 
 
 ---
->>>>>>> Stashed changes
 ## Vendor companies
 1. [Bruker](https://www.bruker.com/en.html)
 2. [MassTech™](https://www.apmaldi.com/main/)
+
+
+
+### Proteomics
+- **Bruker Proteomics solution**
+- Instrumentation
+    - nanoElute (Bruker Daltonics)
+    - 25cm * 75um * 1.6um C18 column(IonOpticks, Australia)
+    - Column oven(Sonation)
+    - captiveSpray Ion source(Bruker)
+    - timsTOF Pro(Bruker Daltonics)
+- Method
+    - PASEF
+    - dia-PASEF
+    - prm-PASEF
+- Data Processing
+    - PEAKS Studio, PEAKS Online
+    - MaxQuant
+    - Skyline
+    - ProteinMetrics
+
+
+
 
 
 ---
@@ -104,13 +115,15 @@ thumbnailImagePosition: left
 
 
 
+
 ### Metabolomics analysis softwares
-<<<<<<< Updated upstream
 1. [MetaboAnalyst](https://www.metaboanalyst.ca/MetaboAnalyst/home.xhtml): v5.0
 2. [MZmine3](http://mzmine.github.io/)
 3. [MS-DIAL](http://prime.psc.riken.jp/compms/msdial/main.html)
 4. [MaxQuant](https://www.maxquant.org/)
-5. Perseus
+5. [SpatialMeta]()
+
+
 
 
 ### Online courses
@@ -149,8 +162,5 @@ thumbnailImagePosition: left
     Panelists: John A. Bowden, Ben Garcia, Jessica Prenni, Edward Huttlin, Lingjun Li, Rachel Loo, David Geffen, Vicki Wysocki
     
     
-=======
-1. MetaboAnalyst
-2. MZmine3
-3.
->>>>>>> Stashed changes
+
+

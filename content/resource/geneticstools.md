@@ -34,6 +34,7 @@ thumbnailImagePosition: left
 ![c57bl6jx1](/img/b6j_20220826193408.png) [C57BL/6J](https://www.jax.org/strain/000664)
 ![balbcjx1](/img/BALBcj_20220826194024.png) [BALB/cJ](https://www.jax.org/strain/000651)
 
+
 ### Mouse genetics tools in brain vasculature system field
 1. **NG2DsRedBAC**: NG2DsRedBAC transgenic mice is suitable for pericyte and Artery SMC labeling in central nervous system. NG2DsRedBAC transgenic mice express an optimized red fluorescent protein variant (DsRed.T1) under the control of the mouse NG2 (Cspg4) promoter/enhancer and may be useful for fluorescent labeling of NG2 cells (oligodendrocyte progenitor cells) in the central nervous system and NG2-expressing cells in other organs, as well as for isolating NG2 cell populations via FACS. [[JAX Strain #:008241](https://www.jax.org/strain/008241) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=008241&protocolID=18794)] | [DOI Link](https://doi.org/10.1242/dev.004895)]
 2. **Tek-Cre**: The Tie2-Cre (Tek-Cre) transgene has the mouse endothelial-specific receptor tyrosine kinase (Tek or Tie2) promoter directing expression of Cre recombinase. These Tek-Cre transgenic mice are a Cre-lox tool useful for deletion of floxed sequences in endothelial cells during embryogenesis and adulthood. **Cre recombinase activity is also detected in microglia in central nervous system.**  [[JAX Strain #:008863](https://www.jax.org/strain/008863) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=008863&protocolID=22392) | [DOI Link](https://doi.org/10.1006/dbio.2000.0106)]
@@ -64,17 +65,20 @@ thumbnailImagePosition: left
 ### Neuron labeling
 1. **Thy1-YFP-M**: These Thy1-GFP-M transgenic mice may be useful in neurobiological studies for fluorescent labeling of neural tissues, especially for mossy fibers in the cerebellum and intense, yet sparse, labeling of a variety of neuronal subsets. [[JAX Strain #:007788](https://www.jax.org/strain/007788) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=007788&protocolID=25728)]
 2. **Thy1-YFP-16J**: These thy1-YFP-16 transgenic mice express yellow fluorescent protein at high levels in motor and sensory neurons, as well as in subsets of central neurons. This line provides a strong and specific vital marker for axons, and expression is strong from a mid-gestational stage into adulthood. [[JAX Strain #:003709](https://www.jax.org/strain/003709) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=003709&protocolID=23870)]
-2. **Gad1-EGFP**: Also called Gad67-EGFP, Inhibitory GABAnergic neuron labeling. [[JAX Strain #:007677](https://www.jax.org/strain/007677) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=007677&protocolID=22102) | [DOI Link](https://doi.org/10.1523/jneurosci.1851-04.2004)] 
-3. **Slc32a1-IRES2-FlpO**: Slc32a1-IRES2-FlpO-D knock-in mice are designed to have optimized FLP recombinase expression directed to VGAT-expressing cells. FlpO expression/activity largely recapitulates the endogenous Slc32a1 gene in the brain - scattered Cre expression is observed throughout many brain regions, including the cortex, hippocampus, striatum and thalamus. These mice may be used to generate conditional mutations for studying gain-or-loss of function and/or fate mapping related to GABAergic neuronal function. [[JAX Strain #:031331](https://www.jax.org/strain/31331) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031331&protocolID=33044) | [PMID: 30007418](https://pubmed.ncbi.nlm.nih.gov/30007418/) | [DOI Link](https://doi.org/10.1016/j.cell.2018.06.035)]
-4. **Vip-Cre**: Vip+ Interneuron labeling.
-5. **Sst-Cre**: Sst+ Interneuron labeling.
-6. **Som-Cre**: Som+ Interneuron labeling.
-7. **PV-Cre**: PV+ Interneuron labeling.
-7. **CamKIIa-Cre**: Random insertion, Expression pattern in brain(Throughout the cortex, hippocampus, striatum, and other structures) | [Susumu Tonegawa] | 
-8. **Snap25-IRES2-Cre**
-9. **Slc17a7-IRES2-Cre**: Slc17a7 (VGlut1), Excitatory neuron labeling [[PMID: 25071457](https://pubmed.ncbi.nlm.nih.gov/25071457/) | [DOI Link](https://doi.org/10.3389/fncir.2014.00076)]
-10. **Drd1-Cre**: These mice express Cre recombinase under the control of the mouse Drd1a (dopamine receptor D1A) promoter. DRD1A is s a G-protein coupled receptor involved in the regulation of neuronal growth and development. The D1 subtype is the most abundant dopamine receptor in the central nervous system. Homozygotes are viable and fertile. [[MMRRC Strain #037156-JAX](https://www.jax.org/strain/024860) | [DOI Link](https://doi.org/10.1523/jneurosci.3795-06.2006)]
-11. **Drd2-Cre**
+3. **Thy1-CreERT2**:
+3. **Gad1-EGFP**: Also called Gad67-EGFP, Inhibitory GABAnergic neuron labeling. [[JAX Strain #:007677](https://www.jax.org/strain/007677) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=007677&protocolID=22102) | [DOI Link](https://doi.org/10.1523/jneurosci.1851-04.2004)] 
+4. **Slc32a1-IRES2-FlpO**: Slc32a1-IRES2-FlpO-D knock-in mice are designed to have optimized FLP recombinase expression directed to VGAT-expressing cells. FlpO expression/activity largely recapitulates the endogenous Slc32a1 gene in the brain - scattered Cre expression is observed throughout many brain regions, including the cortex, hippocampus, striatum and thalamus. These mice may be used to generate conditional mutations for studying gain-or-loss of function and/or fate mapping related to GABAergic neuronal function. [[JAX Strain #:031331](https://www.jax.org/strain/31331) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031331&protocolID=33044) | [PMID: 30007418](https://pubmed.ncbi.nlm.nih.gov/30007418/) | [DOI Link](https://doi.org/10.1016/j.cell.2018.06.035)]
+5. **Vip-Cre**: Vip+ Interneuron labeling.
+6. **Sst-Cre**: Sst+ Interneuron labeling.
+7. **Som-Cre**: Som+ Interneuron labeling.
+8. **PV-Cre**: PV+ Interneuron labeling.
+9. **CamKIIa-Cre**: Random insertion, Expression pattern in brain(Throughout the cortex, hippocampus, striatum, and other structures) | [Susumu Tonegawa] | 
+10. **Snap25-IRES2-Cre**
+11. **Slc17a7-IRES2-Cre**: Slc17a7 (VGlut1), Excitatory neuron labeling [[PMID: 25071457](https://pubmed.ncbi.nlm.nih.gov/25071457/) | [DOI Link](https://doi.org/10.3389/fncir.2014.00076)]
+12. **Drd1-Cre**: These mice express Cre recombinase under the control of the mouse Drd1a (dopamine receptor D1A) promoter. DRD1A is s a G-protein coupled receptor involved in the regulation of neuronal growth and development. The D1 subtype is the most abundant dopamine receptor in the central nervous system. Homozygotes are viable and fertile. [[MMRRC Strain #037156-JAX](https://www.jax.org/strain/024860) | [DOI Link](https://doi.org/10.1523/jneurosci.3795-06.2006)]
+13. **Drd2-Cre**:
+14. **TH-Cre**:
+
 
 
 ### Microglia labeling
@@ -83,9 +87,12 @@ thumbnailImagePosition: left
 3. **Tmem119-P2A-iCreERT2**:  [[JAX Strain #:031820](https://www.jax.org/strain/031820) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031820&protocolID=34019) | [DOI Link](https://doi.org/10.1523/eneuro.0448-18.2019)]
 
 
+
 ### Oligodendrocytes
 1. **Oligo2-Cre**
 2. **Plp1-CreERT2**: These transgenic mice have a tamoxifen inducible Cre-mediated recombination system driven by the mouse Plp1, proteolipid protein (myelin) 1 promoter. When crossed with a strain containing a loxP site flanked sequence of interest, the offspring are useful for generating tamoxifen-induced, Cre-mediated targeted deletions. Tamoxifen administration allows for ablation of predetermined genes in oligodendrocytes and Schwann cells. [[JAX Strain #:005975](https://www.jax.org/strain/005975) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=005975&protocolID=43081) | [DOI Link](https://doi.org/10.1002/gene.10154)]
+
+
 
 ### Precusor cells
 
@@ -138,7 +145,11 @@ thumbnailImagePosition: left
 
 
 ### Ref. Protocols
-1. 
+1. Rosa26 Knockin
+2. H11 knockin
+3. CRISPR-Cas9 system + ssDNA as template
+
+
 
 
 

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>subcategory on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/categories/subcategory/</link>
+    <description>Recent content in subcategory on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2022 10:40:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpatialMeta (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/spatialmeta/</link>
+      <pubDate>Mon, 05 Sep 2022 10:40:25 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/spatialmeta/</guid>
+      <description> A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
+References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] </description>
+    </item>
+    
+    <item>
+      <title>Cellular Metabolism</title>
+      <link>https://leoj.xyz/resource/cellularmetabolism/</link>
+      <pubDate>Sat, 03 Sep 2022 20:14:35 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/cellularmetabolism/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Our cells engage in protein production, and many of those proteins are enzymes responsible for the chemistry of life.&lt;br&gt;
+&amp;mdash; Randy Schekman&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Genetics Foundation</title>
+      <link>https://leoj.xyz/resource/geneticstools/</link>
+      <pubDate>Fri, 26 Aug 2022 16:50:25 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/geneticstools/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.&lt;br&gt;
+&amp;mdash; Sydney Brenner&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Biochemistry Foundation</title>
+      <link>https://leoj.xyz/resource/biochemistrytools/</link>
+      <pubDate>Thu, 25 Aug 2022 17:16:39 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/biochemistrytools/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Our cells engage in protein production, and many of those proteins are enzymes responsible for the chemistry of life.&lt;br&gt;
+&amp;mdash; Randy Schekman&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Molecular Biology Foundation</title>
+      <link>https://leoj.xyz/resource/molecularbiology/</link>
+      <pubDate>Sun, 21 Aug 2022 20:27:51 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/molecularbiology/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;What I cannot create, I do not understand.&lt;br&gt;
+&amp;mdash; Richard P. Feynman&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mass spectrometry Foundation</title>
+      <link>https://leoj.xyz/resource/massspectrometry/</link>
+      <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/massspectrometry/</guid>
+      <description>LC-MS system | LC(Liquid Chromatography) part
+LC
+HPLC
+HPLC User Maintenance &amp;amp; Troubleshooting, Agilent HPLC Columns Nexera UHPLC/HPLC System, Shimadzu Corporation | MS(Mass spectrometry) part
+Orbitrap based: Review article: Evolution of Orbitrap Mass Spectrometry Instrumentation [PDF | PMID: 26161972 | DOI Link] Q Exactive-HF Q Exactive-fusion Orbitrap Exploris 240 Orbitrap Exploris 480 Lumos Triple Quadrupole based TSQ Quantum TSQ Altis SCIEX QTRAP5500 SCIEX QTRAP6500 Vendor companies ThermoFisher SCIEX Agilent Waters MALDI system MALDI</description>
+    </item>
+    
+    <item>
+      <title>Tissue clearing methods</title>
+      <link>https://leoj.xyz/resource/clearingmethod/</link>
+      <pubDate>Sun, 21 Aug 2022 12:23:57 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/clearingmethod/</guid>
+      <description>Introduction This webinar will explain tissue clearing, how it functions, and the three main methods for making tissues transparent. Moreover, the advantages and limitations of various tissue cleansing methods.
+PEGASOS (Using in our lab, recommended): PEGASOS version 1: Jing, Dian, et al. &amp;ldquo;Tissue clearing of both hard and soft tissue organs with the PEGASOS method.&amp;rdquo; Cell research 28.8 (2018): 803-818. [PDF | DOI Link]
+TESOS system: Yi, Yating, et al. &amp;ldquo;Mapping of individual sensory nerve axons from digits to spinal cord with the Transparent Embedding Solvent System.</description>
+    </item>
+    
+    <item>
+      <title>Genomics and Sequencing Foundation</title>
+      <link>https://leoj.xyz/resource/genomicsngs/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:59 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/genomicsngs/</guid>
+      <description>RNA-Seq KITS FOR RNA EXTRACTION Takara: Smart-Seq
+SEQUENCING PLATFORM illumina; Huada Gene
+ANALYSIS SOFTWARES QC
+fastqc; multiqc; fastp
+Reads Mapping
+HISAT2: graph-based alignment of next generation sequencing reads to a population of genomes. (Manual)
+STAR: The STAR software package maps large sets of high-throughput sequencing reads to a reference genome with high levels of accuracy and speed. (Manual)
+TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</description>
+    </item>
+    
+    <item>
+      <title>Imaging Foundation</title>
+      <link>https://leoj.xyz/resource/imagingtools/</link>
+      <pubDate>Sun, 21 Aug 2022 10:43:49 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/imagingtools/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Believing is seeing and seeing is believing.&lt;br&gt;
+&amp;mdash; Tom Hanks&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Programming Foundation</title>
+      <link>https://leoj.xyz/resource/programing/</link>
+      <pubDate>Sun, 21 Aug 2022 08:30:11 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/resource/programing/</guid>
+      <description>R R-The R Project for Statistical Computing: https://www.r-project.org/
+Rstudio: Rstudio Workbench is an integrated development environment for R and Python, with a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging and workspace management.
+RShiny: Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://leoj.xyz/page/research/</link>
+      <pubDate>Mon, 15 Aug 2022 15:16:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/research/</guid>
+      <description>Brain vasculature system Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells are one of the major components of brain vasculature system and involved in many kinds of brain vasculature disease, like AVM, CCM, HHT.
+Brain metabolic system Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease.</description>
+    </item>
+    
+    <item>
+      <title>Publication</title>
+      <link>https://leoj.xyz/page/publication/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:56 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/publication/</guid>
+      <description>Journal Publications #: First author
+✝: corresponding author
+Lian Liu#, Linzhi Zou#, Kuan Li#, Hanqing Hou, Qun Hu, Shuang Liu, Jie Li, Chenmeng Song, Jiaofeng Chen, Shufeng Wang, Yangzhen Wang, Changri Li, Haibo Du, Jun-Liszt Li, Fangyi Chen, Zhigang Xu, Wenzhi Sun, Qianwen Sun, Wei Xiong✝ (2022) Template-independent genome editing in the Pcdh15av−3j mouse, a model of human DFNB23 nonsyndromic deafness. Cell Reports [DOI Link]
+Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ (2021) NAMPT deletion in project neurons induces bioenergetic stress and activates cell death and inflammatory pathways: Journal of Cerebral Blood Flow &amp;amp; Metabolism [PDF | DOI Link] Second author</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://leoj.xyz/page/about/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/about/</guid>
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to address specific problems.
+Interest Areas Biological Question</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://leoj.xyz/page/contact/</link>
+      <pubDate>Mon, 15 Aug 2022 15:10:15 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/contact/</guid>
+      <description>Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
+Email Gmail: poppingjun7@gmail.com
+Outlook: poppingjun@outlook.com</description>
+    </item>
+    
+  </channel>
+</rss>

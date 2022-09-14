@@ -8,13 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Sep 2022 10:40:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/categories/subcategory/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SpatialMeta (Spatial Multi-omics Brain Explorer)</title>
+      <title>SpatialMeta (Online MALDI data analysis server)</title>
       <link>https://leoj.xyz/tooldevelopment/spatialmeta/</link>
       <pubDate>Mon, 05 Sep 2022 10:40:25 +0800</pubDate>
       
       <guid>https://leoj.xyz/tooldevelopment/spatialmeta/</guid>
-      <description> A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq.
-References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas, v5.0 [PDF] </description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -71,17 +72,11 @@ References Atlas Mouse brain atlas, Adult, Male, C57BL/6J [PDF] Rat brain atlas,
       <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
       
       <guid>https://leoj.xyz/resource/massspectrometry/</guid>
-<<<<<<< Updated upstream
       <description>LC-MS system | LC(Liquid Chromatography) part
 LC
 HPLC
-HPLC User Maintenance &amp;amp; Troubleshooting, Agilent HPLC Columns Nexera UHPLC/HPLC System, Shimadzu Corporation | MS(Mass spectrometry) part
+HPLC User Maintenance &amp;amp; Troubleshooting, Agilent HPLC Columns Nexera UHPLC/HPLC System, Shimadzu Corporation Thermo Vanquish UHPLC FLEX [[]] | MS(Mass spectrometry) part
 Orbitrap based: Review article: Evolution of Orbitrap Mass Spectrometry Instrumentation [PDF | PMID: 26161972 | DOI Link] Q Exactive-HF Q Exactive-fusion Orbitrap Exploris 240 Orbitrap Exploris 480 Lumos Triple Quadrupole based TSQ Quantum TSQ Altis SCIEX QTRAP5500 SCIEX QTRAP6500 Vendor companies ThermoFisher SCIEX Agilent Waters Shimadzu Corporation MALDI system MALDI</description>
-=======
-      <description>LC-MS system Vendor companies ThermoFisher SCIEX Agilent MALDI system Vendor companies Bruker MassTech™ Ref. Labs Lingjun Li Lab, University of Wisconsin Madison
-West Coast Metabolomics Center, UC Davis
-Fiehn Laboratory for Untargeted Metabolomics Newman Laboratory for Lipid Mediators Hammock Laboratory for Inflammatory Metabolism Metabolomics analysis softwares MetaboAnalyst MZmine3 3. </description>
->>>>>>> Stashed changes
     </item>
     
     <item>
@@ -103,12 +98,8 @@ TESOS system: Yi, Yating, et al. &amp;ldquo;Mapping of individual sensory nerve 
       <guid>https://leoj.xyz/resource/genomicsngs/</guid>
       <description>RNA-Seq KITS FOR RNA EXTRACTION Takara: Smart-Seq
 SEQUENCING PLATFORM illumina; Huada Gene
-ANALYSIS SOFTWARES QC
-fastqc; multiqc; fastp
-Reads Mapping
-HISAT2: graph-based alignment of next generation sequencing reads to a population of genomes. (Manual)
-STAR: The STAR software package maps large sets of high-throughput sequencing reads to a reference genome with high levels of accuracy and speed. (Manual)
-TopHat: TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.</description>
+ANALYSIS SOFTWARES QC:
+fastqc: FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.</description>
     </item>
     
     <item>

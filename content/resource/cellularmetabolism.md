@@ -38,7 +38,16 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
 3. **Mitochondria role in Energy metabolism**
     - Review in 1979: [METABOLITE TRANSPORT IN MITOCHONDRIA](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeWcvgdnEsJHqnu77uAAWGoBq6d7dUWpyr1Kromjrev6Rg?e=ylv6xV)
 
+4. **Nutrient sensors**
+    - Cholesterol: LYsosomal CHOlesterol Signaling (LYCHOS, previously annotated as G-protein coupled receptor 155)
+    - 
 
+5. **Open questions**
+    - How cells sense, integrate and respond to nutrient availability and how lysosomes are involved in the process?
+
+
+
+---
 ### Textbooks
 1. **Fundamentals of Biochemistry**, Life at the Molecular Level, 5th edition [[View PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcFG-3Lm2OJFke8OOve0-woB-DUv2B9KUW9Z6btHINjJnA?e=Sin51O)]
 ![textbookbioche001](/img/Dingtalk_20220904010544.jpg)

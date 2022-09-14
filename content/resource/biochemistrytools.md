@@ -36,13 +36,11 @@ thumbnailImagePosition: left
 
 - **Protein purification**
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
-<<<<<<< Updated upstream
-
 
 
 - **Protein interaction**
     - co-IP
-    - 
+    - Proximity labeling
 
 
 - **Cell culture basis**
@@ -50,9 +48,7 @@ thumbnailImagePosition: left
     - Guideline of Cell biology experiment, Part I (In Chinese, 细胞实验指南(上)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeCUDsikGUFDtGqAy4-lErsBsKRz0Qn2T329ETyT0KjRzw?e=wTaHrr)]
     - Guideline of Cell biology experiment, Part II (In Chinese, 细胞实验指南(下)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee5Qbs939yFMvdbCV3iSbD0BdbhidwjLXTkoyxSk9M6TmA?e=fAVeeC)]
     - Gibco Cell Culture Basics Handbook(In Chinese) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EViSuQ_uP71Fqy3SHpHozhUBbA1xmaOYom-gIrwEW4-2sQ?e=UfLvlT)]
-    
-=======
->>>>>>> Stashed changes
+
 
 ---
 ## Vendor companies
@@ -80,13 +76,10 @@ thumbnailImagePosition: left
 2. [David M. Sabatini lab, WIBR, MIT](https://www.davidmsabatini.com/)
 - **The discovery of mTOR**
     - Sabatini et al. "RAFT1: a mammalian protein that binds to FKBP12 in a rapamycin-dependent fashion and is homologous to yeast TORs." Cell 78.1 (1994): 35-43. [[PDF]() | [DOI Link](https://doi.org/10.1016/0092-8674(94)90570-3)]
-<<<<<<< Updated upstream
     - **iBiology Talk** [[PartI: Introduction to mTOR and the regulation of growth](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Eb3JB4rNE2tMllUhPjex9CgBILDuE3oh47e37JY2pfzBlw?e=sUbxRS)]
 - **Systematic characterization of basic mechanisms that regulate growth including nutrient sensing pathways** [[CASTOR](https://doi.org/10.1016/j.cell.2016.02.035) | [Sestrin2](https://doi.org/10.1126/science.aad2087) | [SAMTOR](https://doi.org/10.1126/science.aao3265)]
     - **iBiology Talks** [[PartII: Regulation of mTORC1 by nutrients](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXIwSNNwJgNAiO7RrVcJgtwBSTARmHylcl-SLXGBUIXDuQ?e=92ZqTV) | [PartIII: Ribophagy and nucleotide recycling](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESKOpuClGHFHn8BlERrknlwBHenie_CticrKRads96R1Mw?e=7d9oQA)]
-=======
-- **Systematic characterization of basic mechanisms that regulate growth including nutrient sensing pathways** [[CASTOR](https://doi.org/10.1016/j.cell.2016.02.035) | [Sestrin2](https://doi.org/10.1126/science.aad2087) | [SAMTOR](https://doi.org/10.1126/science.aao3265)]
->>>>>>> Stashed changes
+
 
 3. [Xiaodong Wang lab, UTSW, NIBS](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=779)
 - **The discovery of mitochondria CytoC mediated apoptosis pathway**
@@ -101,46 +94,31 @@ thumbnailImagePosition: left
 
 
 5. [Feng Shao lab, NIBS](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=777)
-- **The discovery of GSDMD mediated pyroptosis pathway**
+- **The discovery and characterization of GSDMD mediated pyroptosis pathway** [[Online Talk](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESMkgErwCLBJpX7uvSWuP2cBIi1aDrrquoFlQVkrOD3RKw?e=xocLlb)]
     - Shi, Jianjin, et al. "Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death." Nature 526.7575 (2015): 660-665. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ER85jPeKCyVIj24uQEX75W4BDUoOxtQY5Ap89wOXnDH6pw?e=8pOlMx) | [DOI Link](https://doi.org/10.1038/nature15514)]
 
 
 
-
 #### **Transcriptional regulation and epigenetics**
-<<<<<<< Updated upstream
 1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)
 - **The discovery of the SV40 large T antigen**
-=======
-1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)\
-[ ] **The discovery of the SV40 large T antigen**
->>>>>>> Stashed changes
     - Tjian, Robert. "The binding site on SV40 DNA for a T antigen-related protein." Cell 13.1 (1978): 165-179. [[PMID: 202398](https://pubmed.ncbi.nlm.nih.gov/202398/) | [DOI Link](https://doi.org/10.1016/0092-8674(78)90147-2)]
 
 
 2. [Yi Zhang lab, University of North Carolina at Chapel Hill/HMS/HHMI](https://www.zhanglab.tch.harvard.edu/)
 
 
-3. [Yang Shi lab, HMS/HHMI/University of Oxford](https://www.harvardshilab.org/)\
-<<<<<<< Updated upstream
+3. [Yang Shi lab, HMS/HHMI/University of Oxford](https://www.harvardshilab.org/)
 - **The discovery of first histone demethylase, LSD1** 
-=======
-[ ] **The discovery of first histone demethylase, LSD1** 
->>>>>>> Stashed changes
     - Shi, Yujiang, et al. "Histone demethylation mediated by the nuclear amine oxidase homolog LSD1." Cell 119.7 (2004): 941-953. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYPS2hk_U1VCm-bMyCGIu-QBg92LUK47Nw4J3vIEapyRCQ?e=EF25wj) | [DOI Link](https://doi.org/10.1016/j.cell.2004.12.012)]
 
 
-4. [Chuan He lab, University of Chicago/HHMI](https://he-group.uchicago.edu/He%20research.html)\
-<<<<<<< Updated upstream
+4. [Chuan He lab, University of Chicago/HHMI](https://he-group.uchicago.edu/He%20research.html)
 - **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
-=======
-[ ] **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
->>>>>>> Stashed changes
     - Jia, Guifang, et al. "N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO." Nature chemical biology 7.12 (2011): 885-887. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETNp772T_4VNnY3909X_7lUB_8CJ36WsacqULe7ApUAzSA?e=QWFN4P) | [DOI Link](https://doi.org/10.1038/nchembio.687)]
 
 
 #### **Structural Biology**
-<<<<<<< Updated upstream
 1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)
 - **Structural basis of pre-mRNA splicing**
 - **Structural basis of Apoptosis (Programmed Cell Death)**
@@ -157,39 +135,32 @@ thumbnailImagePosition: left
 
 
 
-
 #### Ref. softwares
 1. [PyMOL](https://pymol.org/2/): PyMOL is a user-sponsored molecular visualization system on an open-source foundation, maintained and distributed by Schrödinger.
 2. [UCSF ChimeraX](https://www.rbvi.ucsf.edu/chimerax/): UCSF ChimeraX (or simply ChimeraX) is the next-generation molecular visualization program from the Resource for Biocomputing, Visualization, and Informatics (RBVI), following UCSF Chimera.
-
-
-<iframe height="400" width="600" src="https://www.bilibili.com/video/BV1n5411f7jm?spm_id_from=333.337.search-card.all.click&vd_source=e2ac88eb8a76774c90a469bf333206b0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<iframe src="//player.bilibili.com/player.html?aid=466289085&bvid=BV1n5411f7jm&cid=503902575&page=1" scrolling="no" border="0" frameborder="yes" framespacing="0" allowfullscreen="true"> </iframe>
-
-=======
-1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)\
-[ ] **Structural basis of pre-mRNA splicing**\
-[ ] **Structural basis of Apoptosis (Programmed Cell Death)**\
-[ ] **Alzheimer's Disease (AD) and Regulated Intramembrane Proteolysis (RIP)**
-
-3. [Hao Wu lab, Harvard Medical School](https://www.wulab.tch.harvard.edu/)\
-[ ] **The discoverer of signalosomes**, which are large macromolecular complexes involved in cell death and in innate and adaptive immune pathways.
-    - Wu, Hao. "Higher-order assemblies in a new paradigm of signal transduction." Cell 153.2 (2013): 287-292. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES4S-RQx0FFEsL1XMYEsweQBeAjiV5qHw0yrYIDRkcZmMQ?e=8L9mMo) | [DOI Link](https://doi.org/10.1016/j.cell.2013.03.013)]
-
-2. [Nieng Yan lab, Tsinghua University/Princeton University](https://scholar.princeton.edu/yanlab)\
-[ ] **Structural basis of Membrane transport**\
-[ ] **Structural and mechanistic investigation of sterol homeostasis**
-
-
-
->>>>>>> Stashed changes
+3. [HMMER](https://www.ebi.ac.uk/Tools/hmmer/): HMMER is a software package that provides tools for making
+probabilistic models of protein and DNA sequence domain families –
+called profile hidden Markov models, profile HMMs, or just profiles
+– and for using these profiles to annotate new sequences, to search
+sequence databases for additional homologs, and to make deep multiple sequence alignments. 
+    - HMMER underlies several comprehensive collections of alignments and profiles of known protein and DNA
+sequence domain families, including the Pfam database. [[User's Guide](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ed04ig0fcPFFumd5FpDwVrwBBOoMKw654YqCW22tYm2WDA?e=04v42b)]
+4. [Pfam 35.0](http://pfam.xfam.org/)
+    - The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs).
+    - Pfam 35.0 contains a total of 19,632 families and clans.
 
 
 
 #### **Tool development**
 1. [Alice Ting lab, Stanford](http://www.tinglab.org/)
+- **PROXIMITY LABELING**
+    - APEX
+    - TurbID
 
+- Stanford Neuro-omics Initiative, 2020 Virtual Workshop
+    - **"Proteomics and proximity labeling in neuroscience”**, by Alice Ting [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EURtS-fx5pdFph-mL6kXDBABw_5emkw7C2HCPO56SJqWJA?e=nHoZid)]
+    - **“Design and execution of proximity labeling experiments”**, by Tess Branon [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcWMnFwx-yBIm2EZMn-b6iwBSEHgCjWSW653PifJ0IsUWA?e=DQaNMA)]
+    - **“Analysis of proximity labeling data”**, by Shuo Han [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESFYHhnoc-5Lj82mPOTuVaQB9zZkrxfXJddxrLED6dHSkA?e=b2j49X)]
 
 ---
 ### Ref. Protocols
@@ -220,6 +191,19 @@ The Nobel Prize in Chemistry 2009\
 - **Roger D. Kornberg(1947-)**, Stanford University, Stanford, CA, USA\
 The Nobel Prize in Chemistry 2006\
 **The Molecular Basis of Eukaryotic Transcription** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERw7C9PRlohLhRtknICEV7MBBSPm_2mWVIesmDVd2YOG4A?e=hF2pWW) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESyDWhQ3fdVKgUJCgAx60r0B_CtmOIHrlltak3g1vOG7IQ?e=I34sDq) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZT0GvMQveJMq-ixnGwABJUBS-5i5dHmP0wara5wRomYgA?e=3BsqbQ) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
+
+- **Aaron Ciechanover(1947-)**, Technion - Israel Institute of Technology, Haifa, Israel\
+The Nobel Prize in Chemistry 2004\
+**Intracellular Protein Degradation: From a Vague Idea thru the Lysosome and the Ubiquitin-Proteasome System and onto Human Diseases and Drug Targeting** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERdlJ9rdPcFJv_R1mJut84kBUPLMOWBZXB7qbeCeSX5ryw?e=gqwpxE) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYYwKnERfjlNlR8M2dUaBRkBRtKflup1lcj0mwyKSRIDGw?e=F7p9qz) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU43Ls9wC8hElhPZYmT6Mw4BqaFkBXTstZ0pMxcKkRDlcw?e=radGHz) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/ciechanover/facts/)]
+
+- **Avram Hershko(1937-)**, Technion - Israel Institute of Technology, Haifa, Israel\
+The Nobel Prize in Chemistry 2004\
+**The Ubiquitin System for Protein Degradation and some of its Roles in the Control of the Cell Division Cycle** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERK-w8_ezhdIgvzoRmAUiZYBP7U646FMYt5MwzffiOdsBg?e=1cjjXH) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU8HK0tUDq5GvbVsQQO0y2sBBhjvde1SrnZ-7spfFiXV-Q?e=KJ6WG5) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXSPPRnxcpZHhY4P0UAcdkEB8Bbl08QCMFZvLS5EGsUVng?e=fUDQcO) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/hershko/facts/)]
+
+- **Irwin Rose(1926-2015)**, University of California, Irvine, CA, USA\
+The Nobel Prize in Chemistry 2004\
+**Ubiquitin at Fox Chase** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ET4_5AecXu9Cnf0uM19F4JsBS9IZDC6c5ICFlR0vH87a4g?e=siEias) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXbdZe1w5q9BkWFcrk386rQBAxL3Vs5s6363DWlxUCbwgA?e=jSkAIL) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETFDWhuZpgpKskP64kZaOyQBuQdyyA_dyO4bLO0hdcZvAQ?e=7iQmn9) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/rose/biographical/)]
+
 
 - **H. Robert Horvitz**, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
 The Nobel Prize in Physiology or Medicine 2002\

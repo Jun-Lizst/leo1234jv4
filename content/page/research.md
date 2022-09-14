@@ -31,11 +31,10 @@ Metabolism is physiologically fundamental to a biological system. Understanding 
 
 **One the road of discovering new metabolic machinery......**
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 ---
 ## Molecular engineering
 ![5](/img/homepage_aav.jpg)
 Synthetic protein structures and functions can now be designed entirely on a computer or produced through directed evolution in the laboratory. AAV capsid engineering is based on protein engineering, genetically encoded ion and metabolite sensors can be developed through protein engineering. We leverage this approach to create a next-generation platform for the study of brain vasculature system and brain metabolic system.
+
+**One the road of creating next generation tools......**

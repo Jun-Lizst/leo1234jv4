@@ -34,17 +34,17 @@ Takara: Smart-Seq
 
 #### ANALYSIS SOFTWARES
 
-**QC**\
-[fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/);
-[multiqc](https://multiqc.info/);
-[fastp](https://github.com/OpenGene/fastp)
+**QC**:
+  - [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/): FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.
+  - [multiqc](https://multiqc.info/): MultiQC searches a given directory for analysis logs and compiles a HTML report. It's a general use tool, perfect for summarising the output from numerous bioinformatics tools.
+  - [fastp](https://github.com/OpenGene/fastp): an ultra-fast all-in-one FASTQ preprocessor
 
 
 
-**Reads Mapping**\
-[HISAT2](http://daehwankimlab.github.io/hisat2/): graph-based alignment of next generation sequencing reads to a population of genomes. ([Manual](http://daehwankimlab.github.io/hisat2/manual/))\
-[STAR](https://github.com/alexdobin/STAR): The STAR software package maps large sets of high-throughput sequencing reads to a reference genome with high levels of accuracy and speed. ([Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWzT0NuF1ANJsMKXYwCwuNYBIRXeIC-AcJ-hx6XSar7Ebw?e=j0P6Rs))\
-[TopHat](http://ccb.jhu.edu/software/tophat/index.shtml): TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons. ([Manual](http://ccb.jhu.edu/software/tophat/manual.shtml))
+**Reads Mapping**:
+  - [HISAT2](http://daehwankimlab.github.io/hisat2/): graph-based alignment of next generation sequencing reads to a population of genomes. ([Manual](http://daehwankimlab.github.io/hisat2/manual/))
+  - [STAR](https://github.com/alexdobin/STAR): The STAR software package maps large sets of high-throughput sequencing reads to a reference genome with high levels of accuracy and speed. ([Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWzT0NuF1ANJsMKXYwCwuNYBIRXeIC-AcJ-hx6XSar7Ebw?e=j0P6Rs))\
+  - [TopHat](http://ccb.jhu.edu/software/tophat/index.shtml): TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons. ([Manual](http://ccb.jhu.edu/software/tophat/manual.shtml))
 
 
 
@@ -77,14 +77,16 @@ https://www.syngoportal.org/convert.html
 http://www.pantherdb.org/
 
 
-**Genome resource**\
-[UCSC Genome Browser](http://genome.ucsc.edu/):The UCSC Genome Browser is an online and downloadable genome browser hosted by the University of California, Santa Cruz (UCSC). It is an interactive website offering access to genome sequence data from a variety of vertebrate and invertebrate species and major model organisms, integrated with a large collection of aligned annotations.\
-[NCBI Mouse Resources](https://www.ncbi.nlm.nih.gov/genome?term=mus%20musculus):
+**Genome resource**
+- [UCSC Genome Browser](http://genome.ucsc.edu/):The UCSC Genome Browser is an online and downloadable genome browser hosted by the University of California, Santa Cruz (UCSC). It is an interactive website offering access to genome sequence data from a variety of vertebrate and invertebrate species and major model organisms, integrated with a large collection of aligned annotations.
+- [NCBI Mouse Resources](https://www.ncbi.nlm.nih.gov/genome?term=mus%20musculus):
 
 
-**Gene name search**\
-[MGI](http://www.informatics.jax.org/marker/MGI:2685385):
-[Uniprot](https://www.uniprot.org/):
+**Gene name search**
+- [MGI](http://www.informatics.jax.org/): MGI is the international database resource for the laboratory mouse, providing integrated genetic, genomic, and biological data to facilitate the study of human health and disease.
+- [Uniprot](https://www.uniprot.org/): UniProt is the world's leading high-quality, comprehensive and freely accessible resource of protein sequence and functional information.
+- [HUGO](https://www.genenames.org/): HUGO Gene Nomenclature Committee, The HGNC is a resource for approved human gene nomenclature containing ~42000 gene symbols and names and 1300+ gene families and sets.
+
 
 
 **Brain Atlas from Allen Institute for Brain Science(AIBS)**\
@@ -92,7 +94,12 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 **Single Cell Sequencing Platforms**
-10X genomics;
+- **High-throughput**
+  - 10X genomics [[Introduction video]()]
+    - Chromium Single Cell 3' Reagent Kits User Guide (v3.1 Chemistry) [User Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETHl5W_dmbtHqUrrZr-L7BMB5eSuW_qiZce1ZNfYYKS7_w?e=lJ42Z2)]
+  - ICELL8 cx Single-Cell System [[Introduction video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EYT8Rtj2eX1Cs5cW4cfnjKUBWJ7BqMcDQ4TZ7_mwDa5tuw?e=F3lfyc) | [User Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERTyEi1mUSlBsm1jGzs0LmgBxlxYpDfvC3V9gP-Ej66SpA?e=9qTuTe)]
+- **Manual**
+  - SMART-Seq v4 Ultra Low Input RNA Kit for Sequencing (Takara Cat# 634894) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQZou07bFiJAoNWvSKIMrLUB0zvJmkjlfLBhIv7Rnl3qXw?e=4FbLKD)]
 
 
 **Transcriptome database of different Brain cell types**
@@ -100,14 +107,13 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 **Brain single-cell genomics Browsers**
-
 1. Dropviz: http://dropviz.org/
 
 2. Mousebrain (Both adolescent and development): http://mousebrain.org/
 
 3. VascularSingleCell: http://betsholtzlab.org/VascularSingleCells/database.html
 
-
+4. [Fly Cell Atlas](https://flycellatlas.org/): The Fly Cell Atlas brings together Drosophila researchers interested in single-cell genomics, transcriptomics, and epigenomics, to build comprehensive cell atlases during different developmental stages and disease models.
 
 
 
@@ -119,7 +125,7 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 #### Ref labs
 1. **Single cell genomics**: 
-- [Satija lab, NYU](https://satijalab.org/)\
+- [Satija lab, NYU](https://satijalab.org/)
 
 2. **Functional genomics**:
 - Wensheng Wei lab, PKU
@@ -143,13 +149,14 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 
-
+---
 #### Online conferences
 1. **NYU single cell genomics, 2018**
 
 2. **NYU single cell genomics, 2019**
-    - [Mapping the brain with MERFISH](), Jeffery R. Moffitt, Harvard Medical School
-    - []
+    - [Mapping the brain with MERFISH](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EbWme5Hh81BKpICBuyT4d4sBmPm_QoONccpQi2v_M9jy8Q?e=lzXz6u), Jeffery R. Moffitt, Harvard Medical School
+    - [Reconstruction of developmental trajectories during zebrafish embryogenesis](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdeugURNrcFGuN2mcnKaeWkBJFj2d6BkULUKJM6jpe-cRA?e=fX40R0), Jeff Farrell, Harvard University
+
 
 3. **NYU single cell genomics, 2020**
     - [New Advances in Single-Cell and Spatial Genomics (2020)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ea1KJmNSIlZAmMKERuPcNEIBJa1-UsO2guziO3HlkZgsdw?e=esedKx)
