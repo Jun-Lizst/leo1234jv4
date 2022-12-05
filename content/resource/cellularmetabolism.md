@@ -51,7 +51,8 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
 Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZgzP49XBXxLkseXtjZA-PUB_zSWROkzRhi8hLTUYoCIfA?e=sajlnb) | [PMID:28768171](https://pubmed.ncbi.nlm.nih.gov/28768171/) | [DOI Link](https://doi.org/10.1016/j.cmet.2017.07.001)] \
     --- Leucine > Sestrin \
     --- Arginine > CASTOR
-    
+    - Glucose: \
+    ---AMPK
     
 
 5. **Open questions**

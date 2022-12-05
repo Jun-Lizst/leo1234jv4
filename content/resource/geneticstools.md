@@ -1,5 +1,5 @@
 ---
-title: "Genetics Foundation"
+title: "Genetics"
 date: 2022-08-26T16:50:25+08:00
 categories:
 - category

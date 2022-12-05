@@ -1,5 +1,5 @@
 ---
-title: "Molecular Biology Foundation"
+title: "Molecular Biology"
 date: 2022-08-21T20:27:51+08:00
 categories:
 - category

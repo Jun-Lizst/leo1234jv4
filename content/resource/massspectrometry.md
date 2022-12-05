@@ -1,5 +1,5 @@
 ---
-title: "Mass spectrometry Foundation"
+title: "Mass spectrometry"
 date: 2022-08-21T13:24:59+08:00
 categories:
 - category

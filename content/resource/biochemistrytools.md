@@ -1,5 +1,5 @@
 ---
-title: "Biochemistry Foundation"
+title: "Biochemistry"
 date: 2022-08-25T17:16:39+08:00
 categories:
 - category
@@ -25,7 +25,7 @@ thumbnailImagePosition: left
 ![randyschekman1](/img/randy_cell_enzymes_bag.jpg)
 
 ---
-## Foundational techniques
+## Fundamental techniques
 
 - **Protein quantification**
     - SDS-PAGE(In-gel)
@@ -42,13 +42,18 @@ thumbnailImagePosition: left
     - co-IP
     - Proximity labeling
 
+- **Protein identification**
+    - Protein sequencing:
+    - IP-MS:
+    
 
 - **Organelle isolation**
-    - mitochondria:
-    - Lysosome
-    - ER
-    - Golgi
-    
+    - mitochondria: Mito-IP []
+    - Lysosome: LysoIP []
+    - ER:
+    - Golgi: Golgi-IP []
+    - Synaptosome:     
+
 
 - **Cell culture basis**
     - ATCC® ANIMAL CELL CULTURE GUIDE(tips and techniques for continuous cell lines) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYU7m2YqpAZNqy3oJNdiqSsBNpQMMGQkw7M4hro63wuWqw?e=njcNcQ)]
@@ -74,7 +79,7 @@ thumbnailImagePosition: left
 ---
 ## Ref. Labs
 
-#### **Signaling pathway and basic science**
+#### **Signaling pathways**
 1. [Zhijian-James Chen lab, UTSW](https://www.james-zhijian-chen-lab.org/)
 - **Discovery of cGAS-cGAMP pathway and its role in immune defense**
     - Sun, Lijun, et al. "Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway." Science 339.6121 (2013): 786-791. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWZWjSjbymdFsI777Dv2EYsBAlzY_hKLXIg1JZQzN8XxeQ?e=y4CBrs) | [PMID: 23258413](https://pubmed.ncbi.nlm.nih.gov/23258413/) | [DOI Link](https://www.doi.org/10.1126/science.1232458)]
@@ -169,6 +174,8 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
     - **“Design and execution of proximity labeling experiments”**, by Tess Branon [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcWMnFwx-yBIm2EZMn-b6iwBSEHgCjWSW653PifJ0IsUWA?e=DQaNMA)]
     - **“Analysis of proximity labeling data”**, by Shuo Han [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESFYHhnoc-5Lj82mPOTuVaQB9zZkrxfXJddxrLED6dHSkA?e=b2j49X)]
 
+
+
 ---
 ### Ref. Protocols
 1. [Bio-protocol](https://cn.bio-protocol.org/cn/default.aspx)
@@ -179,6 +186,11 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
 
 ---
 ## Nobel laureates
+- **Carolyn Bertozzi**, Stanford University, Stanford, CA, USA; Howard Hughes Medical Institute, USA [[lab link](https://bertozzigroup.stanford.edu/research)]\
+The Nobel Prize in Chemistry 2022\
+**The Bioorthogonal Chemistry Journey, from Laboratory to Life** [[Nobel Lecture video](https://youtu.be/pgIzEf_RfII) | [Lecture Slides]() | [Read the Lecture]() | [Source](https://www.nobelprize.org/prizes/chemistry/2022/bertozzi/facts/)]
+   - iBiology Talk[[PartII: Imaging the glycome](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EY_HgB0cTHNDsXnohVjQeA4BIsfayV86bt3g40XGvpFEPA?e=7xJwMx)]
+
 - **Yoshinori Ohsumi**, Tokyo Institute of Technology, Tokyo, Japan\
 The Nobel Prize in Physiology or Medicine 2016\
 **Molecular Mechanisms of Autophagy in Yeast** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQdBmtJNhnxFohd7o6ylMFoBL3J18eRXC1mlvmXWVX3scg?e=l6f8ia) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVa5BW1XUtNPiVyfzKQqoMEBDzMmDIKUw5pH5yebj17WLQ?e=OFDub1) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcTKfynF9kNNpsISMOp61uIBlEpIFyg92MYf9mq9M6E8Ww?e=k7UC5c) | [Source](https://www.nobelprize.org/prizes/medicine/2016/ohsumi/facts/)]

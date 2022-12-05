@@ -1,5 +1,5 @@
 ---
-title: "Genomics and Sequencing Foundation"
+title: "Genomics and Sequencing"
 date: 2022-08-21T10:43:59+08:00
 categories:
 - category
