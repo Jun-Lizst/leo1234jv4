@@ -34,7 +34,6 @@ thumbnailImagePosition: left
 ![c57bl6jx1](/img/b6j_20220826193408.png) [C57BL/6J](https://www.jax.org/strain/000664)
 ![balbcjx1](/img/BALBcj_20220826194024.png) [BALB/cJ](https://www.jax.org/strain/000651)
 
-
 ### Mouse genetics tools in brain vasculature system field
 1. **NG2DsRedBAC**: NG2DsRedBAC transgenic mice is suitable for pericyte and Artery SMC labeling in central nervous system. NG2DsRedBAC transgenic mice express an optimized red fluorescent protein variant (DsRed.T1) under the control of the mouse NG2 (Cspg4) promoter/enhancer and may be useful for fluorescent labeling of NG2 cells (oligodendrocyte progenitor cells) in the central nervous system and NG2-expressing cells in other organs, as well as for isolating NG2 cell populations via FACS. [[JAX Strain #:008241](https://www.jax.org/strain/008241) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=008241&protocolID=18794)] | [DOI Link](https://doi.org/10.1242/dev.004895)]
 2. **Tek-Cre**: The Tie2-Cre (Tek-Cre) transgene has the mouse endothelial-specific receptor tyrosine kinase (Tek or Tie2) promoter directing expression of Cre recombinase. These Tek-Cre transgenic mice are a Cre-lox tool useful for deletion of floxed sequences in endothelial cells during embryogenesis and adulthood. **Cre recombinase activity is also detected in microglia in central nervous system.**  [[JAX Strain #:008863](https://www.jax.org/strain/008863) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=008863&protocolID=22392) | [DOI Link](https://doi.org/10.1006/dbio.2000.0106)]
@@ -65,20 +64,18 @@ thumbnailImagePosition: left
 ### Neuron labeling
 1. **Thy1-YFP-M**: These Thy1-GFP-M transgenic mice may be useful in neurobiological studies for fluorescent labeling of neural tissues, especially for mossy fibers in the cerebellum and intense, yet sparse, labeling of a variety of neuronal subsets. [[JAX Strain #:007788](https://www.jax.org/strain/007788) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=007788&protocolID=25728)]
 2. **Thy1-YFP-16J**: These thy1-YFP-16 transgenic mice express yellow fluorescent protein at high levels in motor and sensory neurons, as well as in subsets of central neurons. This line provides a strong and specific vital marker for axons, and expression is strong from a mid-gestational stage into adulthood. [[JAX Strain #:003709](https://www.jax.org/strain/003709) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=003709&protocolID=23870)]
-3. **Thy1-CreERT2**:
-3. **Gad1-EGFP**: Also called Gad67-EGFP, Inhibitory GABAnergic neuron labeling. [[JAX Strain #:007677](https://www.jax.org/strain/007677) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=007677&protocolID=22102) | [DOI Link](https://doi.org/10.1523/jneurosci.1851-04.2004)] 
-4. **Slc32a1-IRES2-FlpO**: Slc32a1-IRES2-FlpO-D knock-in mice are designed to have optimized FLP recombinase expression directed to VGAT-expressing cells. FlpO expression/activity largely recapitulates the endogenous Slc32a1 gene in the brain - scattered Cre expression is observed throughout many brain regions, including the cortex, hippocampus, striatum and thalamus. These mice may be used to generate conditional mutations for studying gain-or-loss of function and/or fate mapping related to GABAergic neuronal function. [[JAX Strain #:031331](https://www.jax.org/strain/31331) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031331&protocolID=33044) | [PMID: 30007418](https://pubmed.ncbi.nlm.nih.gov/30007418/) | [DOI Link](https://doi.org/10.1016/j.cell.2018.06.035)]
-5. **Vip-Cre**: Vip+ Interneuron labeling.
-6. **Sst-Cre**: Sst+ Interneuron labeling.
-7. **Som-Cre**: Som+ Interneuron labeling.
-8. **PV-Cre**: PV+ Interneuron labeling.
-9. **CamKIIa-Cre**: Random insertion, Expression pattern in brain(Throughout the cortex, hippocampus, striatum, and other structures) | [Susumu Tonegawa] | 
-10. **Snap25-IRES2-Cre**
-11. **Slc17a7-IRES2-Cre**: Slc17a7 (VGlut1), Excitatory neuron labeling [[PMID: 25071457](https://pubmed.ncbi.nlm.nih.gov/25071457/) | [DOI Link](https://doi.org/10.3389/fncir.2014.00076)]
-12. **Drd1-Cre**: These mice express Cre recombinase under the control of the mouse Drd1a (dopamine receptor D1A) promoter. DRD1A is s a G-protein coupled receptor involved in the regulation of neuronal growth and development. The D1 subtype is the most abundant dopamine receptor in the central nervous system. Homozygotes are viable and fertile. [[MMRRC Strain #037156-JAX](https://www.jax.org/strain/024860) | [DOI Link](https://doi.org/10.1523/jneurosci.3795-06.2006)]
-13. **Drd2-Cre**:
-14. **TH-Cre**:
-
+2. **Gad1-EGFP**: Also called Gad67-EGFP, Inhibitory GABAnergic neuron labeling. [[JAX Strain #:007677](https://www.jax.org/strain/007677) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=007677&protocolID=22102) | [DOI Link](https://doi.org/10.1523/jneurosci.1851-04.2004)] 
+3. **Slc32a1-IRES2-FlpO**: Slc32a1-IRES2-FlpO-D knock-in mice are designed to have optimized FLP recombinase expression directed to VGAT-expressing cells. FlpO expression/activity largely recapitulates the endogenous Slc32a1 gene in the brain - scattered Cre expression is observed throughout many brain regions, including the cortex, hippocampus, striatum and thalamus. These mice may be used to generate conditional mutations for studying gain-or-loss of function and/or fate mapping related to GABAergic neuronal function. [[JAX Strain #:031331](https://www.jax.org/strain/31331) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031331&protocolID=33044) | [PMID: 30007418](https://pubmed.ncbi.nlm.nih.gov/30007418/) | [DOI Link](https://doi.org/10.1016/j.cell.2018.06.035)]
+4. **Vip-Cre**: Vip+ Interneuron labeling.
+5. **Sst-Cre**: Sst+ Interneuron labeling.
+6. **Som-Cre**: Som+ Interneuron labeling.
+7. **PV-Cre**: PV+ Interneuron labeling.
+7. **CamKIIa-Cre**: Random insertion, Expression pattern in brain(Throughout the cortex, hippocampus, striatum, and other structures) | [Susumu Tonegawa] | 
+8. **Snap25-IRES2-Cre-D**: Snap25-IRES2-Cre-D knockin mice have widespread Cre recombinase expression directed throughout the brain, without disrupting endogenous synaptosomal-associated protein 25 expression. These mice may be useful for studying t-SNARE proteins and synaptic vesicle/plasma membrane fusion. [[Strain #:023525](https://www.jax.org/strain/023525) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=023525&protocolID=25447) | [DOI Link](https://doi.org/10.3389/fncir.2014.00076)]
+    - Snap25-IRES2-cre is superior to Syn1-cre as a pan-neuronal Cre driver. 
+9. **Slc17a7-IRES2-Cre**: Slc17a7 (VGlut1), Excitatory neuron labeling [[PMID: 25071457](https://pubmed.ncbi.nlm.nih.gov/25071457/) | [DOI Link](https://doi.org/10.3389/fncir.2014.00076)]
+10. **Drd1-Cre**: These mice express Cre recombinase under the control of the mouse Drd1a (dopamine receptor D1A) promoter. DRD1A is s a G-protein coupled receptor involved in the regulation of neuronal growth and development. The D1 subtype is the most abundant dopamine receptor in the central nervous system. Homozygotes are viable and fertile. [[MMRRC Strain #037156-JAX](https://www.jax.org/strain/024860) | [DOI Link](https://doi.org/10.1523/jneurosci.3795-06.2006)]
+11. **Drd2-Cre**
 
 
 ### Microglia labeling
@@ -87,15 +84,13 @@ thumbnailImagePosition: left
 3. **Tmem119-P2A-iCreERT2**:  [[JAX Strain #:031820](https://www.jax.org/strain/031820) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031820&protocolID=34019) | [DOI Link](https://doi.org/10.1523/eneuro.0448-18.2019)]
 
 
-
 ### Oligodendrocytes
-1. **Oligo2-Cre**
+1. **Oligo2-Cre**: Oligo2-cre mice have a Cre recombinase inserted into the only exon of the oligodendrocyte transcription factor 2 Olig2 gene. The presence of cre abolishes expression of Olig2. OLIG2 is a basic helix-loop-helix transcription factor required for oligodendrocyte and motor neuron specification in the spinal cord, and for the development of somatic motor neurons in the hindbrain. Heterozygous mice are viable and fertile. [[Strain #:025567](https://www.jax.org/strain/025567) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=025567&protocolID=27398) | [DOI Link](https://doi.org/10.1016/j.stem.2010.04.002)]
+
 2. **Plp1-CreERT2**: These transgenic mice have a tamoxifen inducible Cre-mediated recombination system driven by the mouse Plp1, proteolipid protein (myelin) 1 promoter. When crossed with a strain containing a loxP site flanked sequence of interest, the offspring are useful for generating tamoxifen-induced, Cre-mediated targeted deletions. Tamoxifen administration allows for ablation of predetermined genes in oligodendrocytes and Schwann cells. [[JAX Strain #:005975](https://www.jax.org/strain/005975) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=005975&protocolID=43081) | [DOI Link](https://doi.org/10.1002/gene.10154)]
 
-
-
 ### Precusor cells
-
+1. **Nestin-Cre**: This strain is commonly known as nestin-Cre. Nestin promoter driven Cre recombinase is expressed in the central and peripheral nervous system, including neuronal and glial cell precursors. There are reports of Cre recombinase activity in a few isolated kidney and heart cells. Hemizygous nestin-cre mice exhibit mild hypopituitarism, growth retardation, impaired fear response, and a metabolic phenotype. Mice also show a strong impairment in the acquisition of both contextual- and cued-fear conditioning. [[Strain #:003771](https://www.jax.org/strain/003771) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=003771&protocolID=31758) | [DOI Link](https://doi.org/10.1016/j.jpsychires.2014.04.002)]
 
 
 ### Reporter Lines
@@ -114,16 +109,16 @@ thumbnailImagePosition: left
 
 
 ### Transgenic line for Calcium imaging
-1. Thy1-GCaMP6f
-2. Thy1-JRGECO1a
-3. Ai96(Rosa26-CAG-LSL-GCaMP6s)
+1. **Thy1-GCaMP6f**: These transgenic mice, made by the Genetically-Encoded Neuronal Indicator and Effector (GENIE) Project, express the green fluorescent calcium indicator, GCaMP6f, in subsets of excitatory neurons in the brain and possibly other cell types and tissues. The GCaMP6f indicator is an ultrasensitive detector of single neuronal action potentials and has fast response kinetics. [[JAX Strain #:024339](https://www.jax.org/strain/024339) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=024339&protocolID=28487) | [PMID: 23868258](https://pubmed.ncbi.nlm.nih.gov/23868258/) | [DOI Link](https://doi.org/10.1038/nature12354)]
+2. **Thy1-JRGECO1a**
+3. **Ai96(Rosa26-CAG-LSL-GCaMP6s)**
 
 
 
 
 ### Transgenic line for genome editing
-1. Rosa26-CAG-LSL-SpCas9-P2A-EGFP
-2. Rosa26-CAG-SpCas9-P2A-EGFP
+1. **Rosa26-CAG-LSL-SpCas9-P2A-EGFP(Rosa26-floxed STOP-Cas9 knockin)**: These CRISPR/Cas9 knockin mice have Cre recombinase-dependent expression of CRISPR associated protein 9 (cas9) endonuclease, a 3X-FLAG epitope tag and EGFP directed by a CAG promoter. **Expression of Cas9 and EGFP is prevented by an upstream Lox-Stop-Lox (LSL) sequence.** When used in combination with single guide RNAs and a Cre source, they allow editing of single or multiple mouse genes in vivo or ex vivo. [[Strain #:024857](https://www.jax.org/strain/024857) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=024857&protocolID=21206) | [PMID: 25263330](https://pubmed.ncbi.nlm.nih.gov/25263330/) | [DOI Link](https://doi.org/10.1016/j.cell.2014.09.014)]
+2. **Rosa26-CAG-SpCas9-P2A-EGFP(Rosa26-Cas9 knockin)**: These CRISPR/Cas9 knockin mice **constitutively express** CRISPR associated protein 9 (cas9) endonuclease, a 3X-FLAG epitope tag and EGFP in a widespread fashion under the direction of a CAG promoter. Breeding to a germ-line expressed Cre strain during development removed a Lox-Stop-Lox (LSL) sequence to allow ubiquitous expression of the knockin construct. When used in combination with single guide RNAs, they allow editing of single or multiple mouse genes in vivo or ex vivo. [[Strain #:024858](https://www.jax.org/strain/024858) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=024858&protocolID=21168) | [PMID: 25263330](https://pubmed.ncbi.nlm.nih.gov/25263330/) | [DOI Link](https://doi.org/10.1016/j.cell.2014.09.014)]
 
 
 
@@ -145,13 +140,26 @@ thumbnailImagePosition: left
 
 
 ### Ref. Protocols
-1. Rosa26 Knockin
-2. H11 knockin
-3. CRISPR-Cas9 system + ssDNA as template
+1. Long ssDNA for Knockin
+- **Guide-it Long ssDNA Production System v2** [[Takara Cat. #: 632666](https://www.takarabio.com/products/gene-function/gene-editing/crispr-cas9/long-ssdna-for-knockins) | [User Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQfVXyLR-9xErAlcdXB085IBFjULGkeVfsw9MJL4lLnAkw?e=fRNBvA)]
+    - The kit employs a simple and fast method that involves conversion of a dsDNA PCR product into ssDNA via selective digestion of either the sense or the antisense strand. Following digestion, ssDNA products are purified using silica membrane spin columns included with the kit.
+    - It has been demonstrated that ssDNA offers two key advantages over dsDNA templates for precise genome editing applications: **greatly reduced toxicity** and **a much lower likelihood of random or off-target integration**.
+- **Easi-CRISPR**
+    - Miura, Hiromi, et al. "Easi-CRISPR for creating knock-in and conditional knockout mouse models using long ssDNA donors." Nature protocols 13.1 (2018): 195-215. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbBtyRIDnGdGvN-Uz9PrnSEB3wg_c-pGRSK06YcWY4eCNA?e=NzuX1B) | [PMID: 29266098](https://pubmed.ncbi.nlm.nih.gov/29266098/) | [DOI Link](https://doi.org/10.1038/nprot.2017.153)]
 
 
+2. Genetic screen
+- ENU mutagenesis, forward genetic screen
+    - Funato H, Miyoshi C, Fujiyama T, et al. Forward-genetics analysis of sleep in randomly mutagenized mice[J]. Nature, 2016, 539(7629): 378-383. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERGLKbQ9ev1NveMh3Z4YvRwBo0Ffy3v_fI3WnMKzq88NkQ?e=aij4Kn) | [PMID: 27806374](https://pubmed.ncbi.nlm.nih.gov/27806374/) | [DOI Link](https://doi.org/10.1038/nature20142)]
+- CRISPR based pool screen, in cell line.
 
 
+---
+### Vendor company
+1. [The Jackson Laboratory](https://www.jax.org/jax-mice-and-services)
+2. [Charles River, China](https://www.vitalriver.com/#/home)
+3. [Charles River, International](https://www.criver.com/products-services/research-models-services)
+4. [GenPharmatech, China](https://www.gempharmatech.us/en/)
 
 ---
 # Rat
@@ -179,6 +187,13 @@ Seymour Benzer with mega-Drosophila, 1974.
 
 ### Ref. Websites
 1. [ZFIN](https://zfin.org/): The Zebrafish Information Network (ZFIN) is the database of genetic and genomic data for the zebrafish (Danio rerio) as a model organism. ZFIN provides a wide array of expertly curated, organized and cross-referenced zebrafish research data.
+
+
+### Ref protocol
+2. Genetic screen
+- ENU mutagenesis, forward genetic screen
+    - Patton E E, Zon L I. The art and design of genetic screens: zebrafish[J]. Nature Reviews Genetics, 2001, 2(12): 956-966. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EarLtv_CAstMu0i1aFwvOl8BIfliaa_OPEpMmDnEjvNPRw?e=nDXbMJ) | [PMID: 11733748](https://pubmed.ncbi.nlm.nih.gov/11733748/) | [DOI Link](https://doi.org/10.1038/35103567)]
+
 
 
 

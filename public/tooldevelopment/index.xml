@@ -6,7 +6,38 @@
     <description>Recent content in Tooldevelopments on Jun-Liszt Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Sep 2022 10:40:25 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tooldevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 00:50:05 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tooldevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SleepyR</title>
+      <link>https://leoj.xyz/tooldevelopment/sleepyman/</link>
+      <pubDate>Wed, 19 Oct 2022 00:50:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/sleepyman/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;SleepyR is a integrated app for automatic sleep staging analysis of EEG-EMG data.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>MetaBrain Explorer (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/metabrain/</link>
+      <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/metabrain/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>VasCode system</title>
+      <link>https://leoj.xyz/tooldevelopment/minibend/</link>
+      <pubDate>Mon, 05 Sep 2022 10:48:56 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/minibend/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>SpatialMeta (Online MALDI data analysis server)</title>
       <link>https://leoj.xyz/tooldevelopment/spatialmeta/</link>

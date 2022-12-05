@@ -5,10 +5,9 @@ categories:
 - category
 - subcategory
 tags:
-- SpatialMeta
-- Brain Atlas
+- Spatial metabolomics
+- MALDI
 - shiny app
-- Multi-omics
 keywords:
 - tech
 comments:       false

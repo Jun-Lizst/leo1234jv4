@@ -29,14 +29,17 @@ This webinar will explain tissue clearing, how it functions, and the three main 
 ---
 
 ### PEGASOS (Using in our lab, recommended):
-1. **PEGASOS version 1:** Jing, Dian, et al. "Tissue clearing of both hard and soft tissue organs with the PEGASOS method." Cell research 28.8 (2018): 803-818. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcRC9PmbyA9BrlgLKSaS3bIB9E8yuXrCHZV1DNa0FvrtzA?e=cCFpYf) |  [DOI Link](https://doi.org/10.1038/s41422-018-0049-z)]
+1. **PEGASOS version 1**：**Polyethylene glycol(PEG) Associated Solvent System** 
+    - Jing, Dian, et al. "Tissue clearing of both hard and soft tissue organs with the PEGASOS method." Cell research 28.8 (2018): 803-818. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcRC9PmbyA9BrlgLKSaS3bIB9E8yuXrCHZV1DNa0FvrtzA?e=cCFpYf) |  [DOI Link](https://doi.org/10.1038/s41422-018-0049-z)]
 
-2. **TESOS system:** Yi, Yating, et al. "Mapping of individual sensory nerve axons from digits to spinal cord with the Transparent Embedding Solvent System." bioRxiv (2021).
+2. **TESOS system:** 
+    - Yi, Yating, et al. "Mapping of individual sensory nerve axons from digits to spinal cord with the Transparent Embedding Solvent System." bioRxiv (2021).
 [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERb89_2_XC1PsTprUqvJW-4By5iukXykpOZSn9FGqHin0g?e=ZFJwNs) |  [DOI Link](https://doi.org/10.1101/2021.11.13.467610)]
 
 ### **CUBIC** 
-1. Matsumoto, Katsuhiko, et al. "Advanced CUBIC tissue clearing for whole-organ cell profiling." Nature protocols 14.12 (2019): 3506-3537. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWJ98QI4jH9EilElkpcsP_YBHCZWy2BbVRPylE8RaoM48w?e=1hmNwM) | [DOI Link](https://doi.org/10.1038/s41596-019-0240-9)] 
-
+- **The alcoholic amines** in CUBIC can effectively remove the heme pigments within the sample hemoglobin and myoglobin, which can further reduce the light scattering and absorption and increase the transparency effect.
+    - Matsumoto, Katsuhiko, et al. "Advanced CUBIC tissue clearing for whole-organ cell profiling." Nature protocols 14.12 (2019): 3506-3537. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWJ98QI4jH9EilElkpcsP_YBHCZWy2BbVRPylE8RaoM48w?e=1hmNwM) | [DOI Link](https://doi.org/10.1038/s41596-019-0240-9)] 
+- **CUBIC-HL**：CUBIC-HL is capable of degreasing and decolorizing samples, with N-butyldiethanolamine and 1,3-bis(diaminomethyl)cyclohexane as the main components.
 
 ### **DISCO**
 1. uDISCO
@@ -47,10 +50,15 @@ This webinar will explain tissue clearing, how it functions, and the three main 
 1. Chung, Kwanghun, et al. "Structural and molecular interrogation of intact biological systems." Nature 497.7449 (2013): 332-337.
 [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeRWa1y-2KRAkXVZSb9BWCEBxPE4tILssQiVjyazDavKYw?e=Zz1x8K) | [DOI Link](https://doi.org/10.1038/nature12107)] 
 
+### **SHIELD**
+- **P3PE**： SHIELD started from protein conformation protection and selected P3PE from hundreds of chemical reagents. Its epoxidation of tissues makes it show very excellent performance in tissue fluorescence protection, endogenous protein and RNA structure protection, and reduction of autofluorescence, so SHIELD method completely abandoned the original acrylamide fixation and chose P3PE as fixative, and also abandoned the step of acrylamide gel embedding, and the fixed samples do not need embedding and can be directly subjected to SDS transparency.
+
+
 ### **HYBRiD**
 1. Nudell, Victoria, et al. "HYBRiD: hydrogel-reinforced DISCO for clearing mammalian bodies." Nature Methods 19.4 (2022): 479-485. [[HYBRiD Protocol](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ebg4JFincUFEuKS9YgpUKPMBzZK74iKDo1ZKjsGY7h-YvA?e=metnlq) |  [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ebq6ijWvJd5JvViypRDJ_MEBIDvp5nk4LBZKgMUlrut8Eg?e=IkTZVR) | [PMID: 35347322](https://pubmed.ncbi.nlm.nih.gov/35347322/) | [DOI Link](https://doi.org/10.1038/s41592-022-01427-0)] 
 
-<<<<<<< Updated upstream
+
+
 
 ### **Expansion Microscopy**
 1. Expansion Revealing (ExR)
@@ -65,17 +73,15 @@ This webinar will explain tissue clearing, how it functions, and the three main 
 Deutsches Forschungszentrum für Gesundheit und Umwelt (GmbH)
 2. [Edward Boyden Lab](http://syntheticneurobiology.org/), Synthetic Neurobiology Group, MIT
 3. [Hiroki R Ueda Lab](http://www.qbic.riken.jp/syn-bio/publications/index.html), Quantitative Biology Center, RIKEN
-4. [Ye Li Lab](https://www.ye-lab.org/team), The Scripps Research Institute
-5. [Hu Zhao Lab](https://www.cibr.ac.cn/science/team/detail/731?language=en), CIBR
+4. [Kwanghun Chung Lab](http://www.chunglab.org/), MIT
+5. [Ye Li Lab](https://www.ye-lab.org/team), The Scripps Research Institute
+6. [Hu Zhao Lab](https://www.cibr.ac.cn/science/team/detail/731?language=en), CIBR
 
 
 ## Vendor company
 1. [Sigma-Aldrich](https://www.sigmaaldrich.com/US/en): Sigma-Aldrich is an American chemical, life science, and biotechnology company that is owned by the German chemical conglomerate Merck Group. Sigma-Aldrich was created in 1975 by the merger of Sigma Chemical Company and Aldrich Chemical Company.
 2. [Aladdin, 阿拉丁](http://api.aladdin-e.com/)： This company covers reagents and R & D materials in high-end chemistry, life sciences, analytical chromatography and materials science.
 
-=======
-
-### Expansion Microscopy
 
 
 
@@ -86,7 +92,7 @@ Deutsches Forschungszentrum für Gesundheit und Umwelt (GmbH)
 3. Hiroki R Ueda Lab, RIKEN
 4. [Ye Li Lab](https://www.ye-lab.org/team), The Scripps Research Institute
 5. Hu Zhao Lab, CIBR
->>>>>>> Stashed changes
+
 
 
 ### Reference

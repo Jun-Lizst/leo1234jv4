@@ -43,14 +43,9 @@ thumbnailImagePosition: left
 - **Astrocyte targeting**:
     - AAV-PhP.B5
 
-- Brain organ specific: AAV-BR1[[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
-- Liver specific:
+- **Brain organ specific**: 
+    - AAV-BR1: Based on AAV2 wt cap, screen and recovered by brain homing assay. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
 
-- Brain endothelial cell targeting: AAV-BI30[PDF | PMID: | DOI Link]
-
-- Microglia targeting: AAV-MG []
-
-- Astrocyte targeting: AAV-PhP.eB []
 
 
 - **Global/non-specific**: 
@@ -73,7 +68,9 @@ thumbnailImagePosition: left
     - CaMKIIa: Sunyer, T. & Sahyoun, N. Sequence analysis and DNA-protein interactions within the 5’ flanking region of the Ca2+/calmodulin-dependent protein kinase II alpha-subunit gene. Proc Natl Acad Sci U S A 87, 278–82 (1990). [[PDF]() | | [PMID: 2153289](https://pubmed.ncbi.nlm.nih.gov/2153289/) | [DOI Link](https://doi.org/10.1073/pnas.87.1.278)]
     
 
-- **Inhibitory neurons**: pGAD1. mDlx
+- **Inhibitory neurons**: 
+    - pGAD1 
+    - mDlx
 
 - **Interneurons**
     - **SST neurons**: pSST [[PMID: 18391943](https://pubmed.ncbi.nlm.nih.gov/18391943/)]
@@ -94,28 +91,14 @@ thumbnailImagePosition: left
 
 - **Constitutive expression**: EF1a, CAG
 
+
+## Activity response promoters:
+
 - **Drug induced**: Tet-on system
 
-- **Activity depedent**: c-Fos
+- **Activity dependent**: c-Fos
 
-- **ERK pathway activation**: pKrox24
-
-- Excitatory neuron: CaMKIIa
-
-- Inhibitory neuron: pGAD1. mDlx
-
-- Astrocyte: GfABC1D[]
-
-- Microglia: Cd68[]
-
-- Constitutive expression: EF1a, CAG
-
-- Drug induced: Tet-on system
-
-- Activity depedent: c-Fos promoter
-
-- ERK pathway activation: pKrox24
-
+- **ERK pathway activation**: pKrox24 [[PMID: 28199182](https://pubmed.ncbi.nlm.nih.gov/28199182/) | [DOI Link](https://doi.org/10.7554/elife.21536)]
 
 
 
@@ -267,6 +250,10 @@ thumbnailImagePosition: left
 
 
 
+### Prime editor(PE)
+  - Split PE system
+  - RT families:
+
 ### Retron based genome editing
 
 
@@ -327,8 +314,10 @@ ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
 
 2. **Mitochondria localization**
     - **Transit peptide**: the signal sequence consisting of a positively charged amino acid (Arg) and an uncharged amino acid (Ser) at the N terminus of the guide peptide of proteins, which enters the mitochondria.
-3. **Golgi localization**
-4. **Lysosome localization**
+3. **Golgi localization**：
+
+
+4. **Lysosome localization**：
 
 
 5. **Cell membrane localization**: 

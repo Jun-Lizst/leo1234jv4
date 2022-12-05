@@ -38,12 +38,26 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
 3. **Mitochondria role in Energy metabolism**
     - Review in 1979: [METABOLITE TRANSPORT IN MITOCHONDRIA](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeWcvgdnEsJHqnu77uAAWGoBq6d7dUWpyr1Kromjrev6Rg?e=ylv6xV)
 
-4. **Nutrient sensors**
-    - Cholesterol: LYsosomal CHOlesterol Signaling (LYCHOS, previously annotated as G-protein coupled receptor 155)
-    - 
+4. **Nutrient sensing machinery**
+    - Cholesterol: \
+    --- LYsosomal CHOlesterol Signaling protein (LYCHOS, previously annotated as G-protein coupled receptor 155), Reported at 25-Aug-2022 [[PDF]() | [PMID:36007018](https://pubmed.ncbi.nlm.nih.gov/36007018/) | [DOI Link](https://doi.org/10.1126/science.abg6621)]\
+    --- PATCHED,\
+    --- HMG-CoA reductase, \
+    --- Niemann-Pick type C protein 1 (NPC1), Reported at 11-Jul-1997 [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeFpXfiJMvtMnHHJFEP9kWEBll3GHkSLBymuXpv5xewIDA?e=UHeLri) | [PMID:9211849](https://pubmed.ncbi.nlm.nih.gov/9211849/) | [DOI Link](https://doi.org/10.1126/science.277.5323.228)]\
+    --- SREBP(Sterol regulatory element-binding protein),\
+    --- SREBP cleavage-activating protein (SCAP), 
+    - Amino acids: 
+    - Review: **The Dawn of the Age of Amino Acid
+Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZgzP49XBXxLkseXtjZA-PUB_zSWROkzRhi8hLTUYoCIfA?e=sajlnb) | [PMID:28768171](https://pubmed.ncbi.nlm.nih.gov/28768171/) | [DOI Link](https://doi.org/10.1016/j.cmet.2017.07.001)] \
+    --- Leucine > Sestrin \
+    --- Arginine > CASTOR
+    
+    
 
 5. **Open questions**
     - How cells sense, integrate and respond to nutrient availability and how lysosomes are involved in the process?
+    - How amino acids were sensed? More amino acid sensors?
+    - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms?
 
 
 

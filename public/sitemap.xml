@@ -2,37 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://leoj.xyz/tags/brain-atlas/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
-  </url><url>
     <loc>https://leoj.xyz/categories/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/category/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/deep-learning/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/eeg-emg/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/manifold-learning/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/non-supervised-classification/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/sleep-staging-system/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tooldevelopment/sleepyman/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/categories/subcategory/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tooldevelopment/</loc>
+    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/brain-atlas/</loc>
+    <lastmod>2022-09-10T09:46:13+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tooldevelopment/metabrain/</loc>
+    <lastmod>2022-09-10T09:46:13+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/multi-omics/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+    <lastmod>2022-09-10T09:46:13+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/shiny-app/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+    <lastmod>2022-09-10T09:46:13+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/spatialmeta/</loc>
+    <lastmod>2022-09-10T09:46:13+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/aav-engineering/</loc>
+    <lastmod>2022-09-05T10:48:56+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/molecular-evolution/</loc>
+    <lastmod>2022-09-05T10:48:56+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/promoter-engineering/</loc>
+    <lastmod>2022-09-05T10:48:56+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tooldevelopment/minibend/</loc>
+    <lastmod>2022-09-05T10:48:56+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/maldi/</loc>
+    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/spatial-metabolomics/</loc>
     <lastmod>2022-09-05T10:40:25+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tooldevelopment/spatialmeta/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/subcategory/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/</loc>
-    <lastmod>2022-09-05T10:40:25+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tooldevelopment/</loc>
     <lastmod>2022-09-05T10:40:25+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/cell-biology/</loc>
@@ -81,9 +120,6 @@
     <lastmod>2022-08-21T20:27:51+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/ls-ms/</loc>
-    <lastmod>2022-08-21T13:24:59+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/maldi/</loc>
     <lastmod>2022-08-21T13:24:59+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/resource/massspectrometry/</loc>

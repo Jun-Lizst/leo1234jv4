@@ -1,7 +1,22 @@
 ---
 title: "MetaBrain Explorer (Spatial Multi-omics Brain Explorer)"
 date: 2022-09-10T09:46:13+08:00
-draft: true
+categories:
+- category
+- subcategory
+tags:
+- SpatialMeta
+- Brain Atlas
+- shiny app
+- Multi-omics
+keywords:
+- tech
+comments:       false
+showMeta:       false
+showActions:    false
+thumbnailImage: /img/
+thumbnailImagePosition: left
+#thumbnailImage: //example.com/image.jpg
 ---
 
 > A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.

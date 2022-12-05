@@ -1,0 +1,512 @@
+blogdown::stop_server()
+library(blogdown)
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+library(celltalker)
+#-------------------------P4 sagittal MALDI-TOF imaging--------------------------#
+{
+#################################Load library needed
+library(Cardinal)
+library(dplyr)
+library(Seurat)   ###Seurat analysis pipeline
+}
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/")
+msi_folder <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/"
+name_list <- list.files(path = "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/", pattern='.imzML')
+name_1 <- substr(name_list[1], 1, nchar(name_list[1])-6)
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+name_1
+name_list
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/")
+msi_folder <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/"
+name_list <- list.files(path = "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/", pattern='.imzML')
+name_1 <- substr(name_list[1], 1, nchar(name_list[1])-6)
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+name_1
+MSI_obj@featureData@resolution
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+dir.create("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/")
+plot_path <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/"
+plot(MSI_obj_mean, main = "Mean_Neg_1-5DAN_human_tumor")
+png(paste0(plot_path, "Mean_Neg_mode_1-5DAN_2022_0909_human_tumor.png"), width =1200, height = 400)
+plot(MSI_obj_mean, main = "Mean_Neg_1-5DAN_human_tumor")
+dev.off()
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+setwd("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/")
+#################################export all mz spectrum into one pdf and have a profile view;
+##dir.create("D:/lijun_2022/lijun_All_data/2022_04_12_in_guodian_MALDI/neg_wholebrain_batch_A")
+plot_path <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/"
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[100], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "human_tumor_after_peak_picking_378_features_1_5_DAN_neg_09_09.pdf"), width = 35.1/8, height = 23.6/8)
+4.13、2
+4.13/2
+35.1/8
+23.6/8
+pdf(paste0(plot_path, "human_tumor_after_peak_picking_378_features_1_5_DAN_neg_09_09.pdf"), width = 4.13, height = 5.21)
+###4.13 * 5.21
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+name_list <- list.files(path = "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/", pattern='.imzML')
+name_1 <- substr(name_list[2], 1, nchar(name_list[1])-6)
+name_1
+gc()
+#-------------------------P4 sagittal MALDI-TOF imaging--------------------------#
+{
+#################################Load library needed
+library(Cardinal)
+library(dplyr)
+library(Seurat)   ###Seurat analysis pipeline
+}
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/")
+msi_folder <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/"
+name_list <- list.files(path = "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/", pattern='.imzML')
+name_1 <- substr(name_list[2], 1, nchar(name_list[1])-6)
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+name_list <- list.files(path = "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/", pattern='.imzML')
+name_1 <- substr(name_list[2], 1, nchar(name_list[1])-6)
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+name_1
+name_1 <- substr(name_list[2], 1, nchar(name_list[1])-7)
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+MSI_obj@featureData@resolution
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+###dir.create("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/")
+plot_path <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/"
+png(paste0(plot_path, "Mean_Neg_mode_1-5DAN_20um_2022_0909_human_tumor.png"), width =1200, height = 400)
+plot(MSI_obj_mean, main = "Mean_Neg_1-5DAN_20um_human_tumor")
+dev.off()
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+fig_mid_mean <- plot_ly(data = feature_data_mean, x = ~mz, y =~mean, mode = 'lines')
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+setwd("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/")
+#################################export all mz spectrum into one pdf and have a profile view;
+##dir.create("D:/lijun_2022/lijun_All_data/2022_04_12_in_guodian_MALDI/neg_wholebrain_batch_A")
+plot_path <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/"
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[100], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "human_tumor_20um_after_peak_picking_250_features_1_5_DAN_neg_09_09.pdf"), width = 3.01, height = 2.53)
+###width = 3.01, height = 2.53
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+gc()
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+library(blogdown)
+blogdown::serve_site()
+#
+# This is a Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+#library(shinyjs)
+library(shiny)
+library(DT)
+#############################Load plot function;
+###############################StackedVlnPlot function;
+#################################plot function
+{
+library(Seurat)
+library(patchwork)
+library(ggplot2)
+## remove the x-axis text and tick
+## plot.margin to adjust the white space between each plot.
+## ... pass any arguments to VlnPlot in Seurat
+modify_vlnplot<- function(obj,
+feature,
+pt.size = 0,
+plot.margin = unit(c(-0.75, 0, -0.75, 0), "cm"),
+...) {
+p<- VlnPlot(obj, features = feature, pt.size = pt.size, ... )  +
+xlab("") + ylab(feature) + ggtitle("") +
+theme(legend.position = "none",
+axis.text.x = element_blank(),
+axis.ticks.x = element_blank(),
+axis.title.y = element_text(size = rel(1), angle = 0),
+axis.text.y = element_text(size = rel(1)),
+plot.margin = plot.margin )
+return(p)
+}
+## extract the max value of the y axis
+extract_max<- function(p){
+ymax<- max(ggplot_build(p)$layout$panel_scales_y[[1]]$range$range)
+return(ceiling(ymax))
+}
+## main function
+StackedVlnPlot<- function(obj, features,
+pt.size = 0,
+plot.margin = unit(c(-0.75, 0, -0.75, 0), "cm"),
+...) {
+plot_list<- purrr::map(features, function(x) modify_vlnplot(obj = obj,feature = x, ...))
+# Add back x-axis title to bottom plot. patchwork is going to support this?
+plot_list[[length(plot_list)]]<- plot_list[[length(plot_list)]] +
+theme(axis.text.x=element_text(), axis.ticks.x = element_line())
+# change the y-axis tick to only max value
+ymaxs<- purrr::map_dbl(plot_list, extract_max)
+plot_list<- purrr::map2(plot_list, ymaxs, function(x,y) x +
+scale_y_continuous(breaks = c(y)) +
+expand_limits(y = y))
+p<- patchwork::wrap_plots(plotlist = plot_list, ncol = 1)
+return(p)
+}
+}
+##############
+################reload in 2022-09-13;
+dgez <- readRDS(file = "G:/NGS_data/dropviz/SubstantiaNigra/2022_09_running/umap_dim20_SubstantiaNigra_final.rds")
+###Standard neuonal clustering
+##pan neuronal cell
+FeaturePlot(object = dgez, features = c("Snap25", "Syt1"), cols = c("grey", "red"), raster=FALSE, label = T)
+StackedVlnPlot(obj = dgez, features = c("Snap25", "Syt1"))
+###pan excitatory neurons, Slc17a7(Vglut1),
+FeaturePlot(object = dgez, features = c("Slc17a7", "Slc17a6"), cols = c("grey", "red"), raster=FALSE, label = T)
+StackedVlnPlot(obj = dgez, features = c("Slc17a7", "Slc17a6"))
+###inhibitory neurons, GABAnergic neuron
+FeaturePlot(object = dgez, features = c("Slc32a1", "Gad1", "Gad2"), cols = c("grey", "red"), raster=FALSE, label = T)
+StackedVlnPlot(obj = dgez, features = c("Slc32a1", "Gad1", "Gad2"))
+##############Oligodendrocytes; requested variables were not found: Oligo2
+FeaturePlot(object = dgez, features = c("Olig1", "Mbp", "Plp1"), cols = c("grey", "red"), raster=FALSE, label = T)
+StackedVlnPlot(obj = dgez, features = c("Olig1", "Mbp", "Plp1"))
+############Brain endothelial cells
+FeaturePlot(object = dgez, features = c("Cldn5", "Slc2a1", "Cdh5"), cols = c("grey", "red"), raster=FALSE, label = T)
+StackedVlnPlot(obj = dgez, features = c("Cldn5", "Slc2a1", "Cdh5"))
+############################microgla;
+FeaturePlot(object = dgez, features = c("Cx3cr1", "Tmem119", "C1qa"), cols = c("grey", "red"), raster=FALSE, label = T)
+#############################Astrocyte marker;
+FeaturePlot(dgez, features = c("Aldh1l1", "Gfap", "Slc1a3"), cols = c("grey", "red"), raster=FALSE, label = T)
+StackedVlnPlot(obj = dgez, features = c("Aldh1l1", "Gfap", "Slc1a3"))
+# find markers for every cluster compared to all remaining cells, report
+# only the positive ones
+dgez.markers <- FindAllMarkers(object = dgez, only.pos = TRUE, min.pct = 0.25,
+logfc.threshold = 0.25)
+# setting slim.col.label to TRUE will print just the cluster IDS instead of
+# every cell name
+###DoHeatmap() generates an expression heatmap for given cells and features.
+###In this case, we are plotting the top 20 markers (or all markers if less than
+###20) for each cluster.
+dgez.markers %>%
+group_by(cluster) %>%
+top_n(n = 10, wt = avg_log2FC) -> top10
+library(dplyr)
+# setting slim.col.label to TRUE will print just the cluster IDS instead of
+# every cell name
+###DoHeatmap() generates an expression heatmap for given cells and features.
+###In this case, we are plotting the top 20 markers (or all markers if less than
+###20) for each cluster.
+dgez.markers %>%
+group_by(cluster) %>%
+top_n(n = 10, wt = avg_log2FC) -> top10
+DoHeatmap(dgez, features = top10$gene) + NoLegend()
+######################################pathway graph mapping; stop at 159, 185, 186, 240,
+gene_mmu <- list()
+setwd("G:/NGS_data/dropviz/cortex_post/2022_04_running/KEGG_mapping/")
+setwd("J:/lijun/NGS_data/KEGG_mapping/SubstantiaNigra_2022_09_running/")
+for(i in 241:length(KEGG_2019_mus_path_names)){
+gene_mmu[[i]] = bitr(kegg_geneset_inputxy[[i]], fromType="SYMBOL", toType="ENTREZID", OrgDb="org.Mm.eg.db")
+id = as.character(gene_mmu[[i]][["ENTREZID"]])
+mmu_path <- pathview(gene.data = id, pathway.id = paste0("mmu", (substr(a[i], nchar(a[i])-4, nchar(a[i])))),
+species = "mmu")
+mmu_graph <- pathview(gene.data = mmu_path$plot.data.gene$kegg.names,
+cpd.data = mmu_path$plot.data.cpd$kegg.names, pathway.id = paste0("mmu", (substr(a[i], nchar(a[i])-4, nchar(a[i])))),
+species = "mmu", out.suffix = KEGG_2019_mus_path_names[i], keys.align = "y",
+kegg.native = T, match.data = F, multi.state = T, same.layer = T, pdf.size = c(7, 8))
+##key.pos = demo.paths$kpos2[i], sign.pos = demo.paths$spos[i],
+##pathview(gene.data = id, pathway.id = paste0("mmu", (substr(a[i], nchar(a[i])-4, nchar(a[i])))),
+##                   species = "mmu")
+}
+library(dplyr)
+library(KEGGREST)
+listDatabases()
+####################################
+org <- keggList("organism")
+head(org)
+org <- as.data.frame(org)
+mmu_kegg <- dplyr::filter(org, organism == "mmu")
+############All mmu genes;
+all_mmu_kegg <- keggList("mmu")
+#################
+a <- keggFind("pathway", c("Alanine", "aspartate",  "glutamate metabolism"))
+###path:map00250
+##"Alanine, aspartate and glutamate metabolism"
+a <- keggFind("pathway", KEGG_2019_mus_path_names[1])
+##################################
+##################cannot map directly: 19;26
+#y_210 <- keggFind("pathway", c("Porphyrin", "metabolism"))
+#a[210] <- names(y_210)
+#y_213 <- keggFind("pathway", c("Prion", "disease"))
+#a[213] <- names(y_213)
+KEGG_2019_mus_path_names[19] <- "Amyotrophic lateral sclerosis"
+########################KEGG pathway views;
+library(pathview)
+library(clusterProfiler)
+gene_mmu = bitr(kegg_geneset_inputxy[[9]], fromType="SYMBOL", toType="ENTREZID", OrgDb="org.Mm.eg.db")
+id = as.character(gene_mmu[,2])
+########################巧用Read.GMT function;
+###install.packages("ActivePathways")
+library(ActivePathways)
+KEGG_2019_mus <- read.GMT("G:/NGS_data/dropviz/hipp/2022_02_running/KEGG_2019_Mouse.txt")
+KEGG_2019_mus_path_names <- names(KEGG_2019_mus)
+library(Hmisc)
+kegg_geneset_input <- capitalize(tolower(KEGG_2019_mus[[1]]$genes))
+###########make a geneset list;
+kegg_geneset_inputx <- list()
+########1: In FetchData(object = object, vars = c(dims, "ident",  ... :
+###1.The following requested variables were not found: Abcg8, Abcg5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              The following requested variables were not found: Gng5-ps
+###2.The following requested variables were not found: Diaph1, Vegfd
+###3.The following requested variables were not found: Lep, Gm2446, Gm2436, G6pc2, Hnf4a
+for(i in 1:length(KEGG_2019_mus_path_names)){
+kegg_geneset_inputx[[i]] <- capitalize(tolower(KEGG_2019_mus[[i]]$genes))
+}
+################Clever mapping; by Jun-Liszt Li; 以总体思路入手，所有gene 是一个pool, 那些map不到的基因无非不在total gene list里面，只要通过总集进行匹配剔除即可。
+dropviz_hipp_all_genes <- rownames(dgez@assays$RNA)
+length(dropviz_hipp_all_genes)    ###[1] 22638
+kegg_geneset_inputxy <- kegg_geneset_inputx
+####################
+gene_count_no_mapped = rep(0,303)
+for(i in 1:length(KEGG_2019_mus_path_names)){
+################mapping with all_gene list and return those are true;
+############Attribute all genes into certain pathway list;
+kegg_geneset_inputxy[[i]] <- kegg_geneset_inputx[[i]][kegg_geneset_inputx[[i]] %in% dropviz_hipp_all_genes]
+gene_count_no_mapped[i] <- length(kegg_geneset_inputx[[i]])-length(kegg_geneset_inputxy[[i]])
+}
+##############################Plot all umap plots; pathway name format correction;
+#############################"Glycolysis / Gluconeogenesis" to “Glycolysis Gluconeogenesis"
+KEGG_2019_mus_path_names[107] <- "Glycolysis Gluconeogenesis"
+################################
+setwd(plot_path)
+###########################umap
+##############umap 2d feature plot; cluster density plot; plot the 303 metabolic pathways;
+##############
+#dir.create("G:/NGS_data/dropviz/Globusp/2022_09_running/KEGG_mapping/")
+###
+plot_path <- "J:/lijun/NGS_data/KEGG_mapping/SubstantiaNigra_2022_09_running/"
+########################KEGG pathway views;
+library(pathview)
+library(clusterProfiler)
+gene_mmu = bitr(kegg_geneset_inputxy[[9]], fromType="SYMBOL", toType="ENTREZID", OrgDb="org.Mm.eg.db")
+id = as.character(gene_mmu[,2])
+mmu00250 <- pathview(gene.data = id, pathway.id = "mmu00250",
+species = "mmu")
+###default; entrez's gene id，gene.idtype = “entrez”
+pv.out <- pathview(gene.data = pv.out$plot.data.gene$kegg.names, pathway.id = "00250", species = "mmu", out.suffix = "geneid", kegg.native = T)
+pv.out <- keggview.native(gene.data = id, pathway.id = "00250", species = "mmu", out.suffix = "geneid")
+head(pv.out$plot.data.cpd)
+pv.out$plot.data.gene
+##########################################
+pv.outx <- pathview(gene.data = pv.out$plot.data.gene$kegg.names,
+cpd.data = pv.out$plot.data.cpd$kegg.names, pathway.id = "00250",
+species = "mmu", out.suffix = KEGG_2019_mus_path_names[9], keys.align = "y",
+kegg.native = F, match.data = F, multi.state = T, same.layer = T,
+key.pos = demo.paths$kpos2[i], sign.pos = demo.paths$spos[i], pdf.size = c(7, 8))
+data(gse16873.d)
+pv.out_hsa <- pathview(gene.data = gse16873.d[, 1], pathway.id = demo.paths$sel.paths[i],
+species = "hsa", out.suffix = "gse16873", kegg.native = F,
+sign.pos = demo.paths$spos[i])
+library(dplyr)
+library(KEGGREST)
+listDatabases()
+####################################
+org <- keggList("organism")
+head(org)
+org <- as.data.frame(org)
+mmu_kegg <- dplyr::filter(org, organism == "mmu")
+############All mmu genes;
+all_mmu_kegg <- keggList("mmu")
+#################
+a <- keggFind("pathway", c("Alanine", "aspartate",  "glutamate metabolism"))
+###path:map00250
+##"Alanine, aspartate and glutamate metabolism"
+a <- keggFind("pathway", KEGG_2019_mus_path_names[1])
+##################################
+##################cannot map directly: 19;26
+#y_210 <- keggFind("pathway", c("Porphyrin", "metabolism"))
+#a[210] <- names(y_210)
+#y_213 <- keggFind("pathway", c("Prion", "disease"))
+#a[213] <- names(y_213)
+KEGG_2019_mus_path_names[19] <- "Amyotrophic lateral sclerosis"
+##################################
+##################cannot map directly: 19;26
+#y_210 <- keggFind("pathway", c("Porphyrin", "metabolism"))
+#a[210] <- names(y_210)
+#y_213 <- keggFind("pathway", c("Prion", "disease"))
+#a[213] <- names(y_213)
+KEGG_2019_mus_path_names[19] <- "Amyotrophic lateral sclerosis"
+KEGG_2019_mus_path_names[26] <- "Arrhythmogenic right ventricular cardiomyopathy"
+KEGG_2019_mus_path_names[47] <- "Cell adhesion molecules"
+KEGG_2019_mus_path_names[51] <- "Chagas disease"
+KEGG_2019_mus_path_names[60] <- "Citrate cycle"
+KEGG_2019_mus_path_names[71] <- "Dilated cardiomyopathy"
+KEGG_2019_mus_path_names[130] <- "Hypertrophic cardiomyopathy"
+KEGG_2019_mus_path_names[132] <- "Inflammatory bowel disease"
+KEGG_2019_mus_path_names[176] <- "Non-alcoholic fatty liver disease"
+KEGG_2019_mus_path_names[210] <- "Porphyrin metabolism"
+KEGG_2019_mus_path_names[213] <- "Prion disease"
+KEGG_2019_mus_path_names[230] <- "Nucleocytoplasmic transport"
+KEGG_2019_mus_path_names[262] <- "Butanoate metabolism"
+a = c(1:303)
+for(i in 1:length(KEGG_2019_mus_path_names)){
+y <- keggFind("pathway", KEGG_2019_mus_path_names[i])
+a[i] <- names(y)
+}
+######################################pathway graph mapping; stop at 159, 185, 186, 240,
+gene_mmu <- list()
+setwd("J:/lijun/NGS_data/KEGG_mapping/SubstantiaNigra_2022_09_running/")
+for(i in 241:length(KEGG_2019_mus_path_names)){
+gene_mmu[[i]] = bitr(kegg_geneset_inputxy[[i]], fromType="SYMBOL", toType="ENTREZID", OrgDb="org.Mm.eg.db")
+id = as.character(gene_mmu[[i]][["ENTREZID"]])
+mmu_path <- pathview(gene.data = id, pathway.id = paste0("mmu", (substr(a[i], nchar(a[i])-4, nchar(a[i])))),
+species = "mmu")
+mmu_graph <- pathview(gene.data = mmu_path$plot.data.gene$kegg.names,
+cpd.data = mmu_path$plot.data.cpd$kegg.names, pathway.id = paste0("mmu", (substr(a[i], nchar(a[i])-4, nchar(a[i])))),
+species = "mmu", out.suffix = KEGG_2019_mus_path_names[i], keys.align = "y",
+kegg.native = T, match.data = F, multi.state = T, same.layer = T, pdf.size = c(7, 8))
+##key.pos = demo.paths$kpos2[i], sign.pos = demo.paths$spos[i],
+##pathview(gene.data = id, pathway.id = paste0("mmu", (substr(a[i], nchar(a[i])-4, nchar(a[i])))),
+##                   species = "mmu")
+}
+gc()
+gc()
