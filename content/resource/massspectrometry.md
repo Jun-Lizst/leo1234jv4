@@ -31,6 +31,7 @@ thumbnailImagePosition: left
     - HPLC Columns
     - Nexera UHPLC/HPLC System, [Shimadzu Corporation](https://www.shimadzu.com.cn/an/hplc/nexera-uhplc-hplc-system/3385.html)
     - Thermo Vanquish UHPLC FLEX [[]]
+    - ACQUITY UPLC[Waters](https://www.waters.com/nextgen/us/en/products/chromatography-systems/acquity-premier-system.html)
 
 **| MS(Mass spectrometry) part**
 1. Orbitrap based: 
@@ -47,7 +48,13 @@ thumbnailImagePosition: left
     - TSQ Altis
     - SCIEX QTRAP5500
     - SCIEX QTRAP6500
-    
+    - SCIEX QTRAP7500
+
+
+3. Protocol for metabolite extraction
+    - From tissue/organ for HILIC LC-MS: [PDF]()
+    - From Plasma: [PDF]()
+    - From adherent cell line: [PDF]()
 
 
 
