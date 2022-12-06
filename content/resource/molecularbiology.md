@@ -32,6 +32,7 @@ thumbnailImagePosition: left
 
 - **Liver targeting**:
 
+
 - **Brain endothelial cell targeting**: 
     - AAV-BR1: Neurons(Cortex, Striatum, Cerebellum); Brain endothelial cells(Whole brain and spinal cord); has central nervous system specificity. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
     - AAV-BI30: AAV9 variants, with liver leakage. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUxMCsFh91tDl49LHoAorpkBT1REK6IuHFHofD7ze-dcFA?e=Z0s0iN) | [PMID: 35571675](https://pubmed.ncbi.nlm.nih.gov/35571675/) | [DOI Link](https://doi.org/10.1038/s44161-022-00046-4)]
@@ -89,6 +90,10 @@ thumbnailImagePosition: left
 
 - **Microglia**: Cd68[]
 
+- **Endothelial cells**: 
+
+- **Liver hepatocyte**: P3[]
+
 - **Constitutive expression**: EF1a, CAG
 
 
@@ -108,6 +113,9 @@ thumbnailImagePosition: left
 - NIR FPs: 
   - **miRFP670nano**: Unlike BphP-derived NIR FPs, miRFP670nano is highly stable to denaturation and degradation and can be used as an internal protein tag. miRFP670nano is an effective FRET donor for red-shifted NIR FPs, enabling engineering NIR FRET biosensors spectrally compatible with GFP-like FPs and blue-green optogenetic tools. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUyyrwoLIGhLmPy3YtH0ExEBal0dkC8RTA-0-Syq7q7-2A?e=8F9zoB) | [PMID: 30655515](https://pubmed.ncbi.nlm.nih.gov/30655515/) | [DOI Link](https://doi.org/10.1038/s41467-018-08050-8)]
   - **miRFP670nano3**: The enhanced miRFP670nano3 protein fluoresces at excitation and emission wavelengths of 645 nm and 670 nm, respectively, and its spectral properties are similar to those of the parental miRFP670nano. miRFP670nano3 has a molecular brightness (product of molar extinction coefficient and quantum yield) **twice as high as** that of miRFP670nano and **1.5 times higher** than that of the widely used red FPs mCherry or mCardinal. The extinction coefficient (129,000 M-1 cm-1) and fluorescence quantum yield (18.5%) of miRFP670nano3 are **the highest among all monomeric NIR FPs** with BV chromophores. [[Addgene Plasmid: #184668](https://www.addgene.org/184668/) |  [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUyyrwoLIGhLmPy3YtH0ExEBal0dkC8RTA-0-Syq7q7-2A?e=sWUdzi) | [PMID: 35606446](https://pubmed.ncbi.nlm.nih.gov/35606446/) | [DOI Link](https://doi.org/10.1038/s41592-022-01467-6)]
+  - **miRFP718nano**: miRFP718nano efciently binds endogenous biliverdin chromophore and brightly
+fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 718 nm and an emission tail in the short-wave infrared (SWIR) region, allowing deep-penetrating of-peak fuorescence imaging in vivo. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ef476-SLNONImc8HX00Ii7kBftzF3asjtA6P1n4mQzU0UA?e=wh8VH4) | [PMID: 36456785](https://pubmed.ncbi.nlm.nih.gov/36456785/) | [DOI Link](https://doi.org/10.1038/s41592-022-01683-0)]
+
 
 - RFPs:  
   - **mCherry2**: mCherry2 is a basic (constitutively fluorescent) red fluorescent protein published in 2017[Shen, Yi, et al. PLoS One], derived from Discosoma sp.. It has very low acid sensitivity. [[Addgene Plasmid: #54800](https://www.addgene.org/54800/) | [PMID: 28241009](https://pubmed.ncbi.nlm.nih.gov/28241009/) | [DOI Link](https://doi.org/10.1371/journal.pone.0171257)]
@@ -130,13 +138,7 @@ thumbnailImagePosition: left
   - **dLanYFP**: dLanYFP is a basic (constitutively fluorescent) green/yellow fluorescent protein published in 2013, derived from Branchiostoma lanceolatum. [[Addgene Plasmid: #164469]() | [PMID: 23524392](https://pubmed.ncbi.nlm.nih.gov/23524392/) | [DOI Link](https://doi.org/10.1038/nmeth.2413)]
   - **tdLanYFP**: tdLanYFP, derived from the tetrameric protein from the cephalochordate B. lanceolatum, LanYFP. Contrasting with EYFP and its derivatives, tdLanYFP has a very high photostability in vitro and in live cells. As a consequence, tdLanYFP allows imaging of cellular structures with sub-diffraction resolution using STED nanoscopy and is compatible with the use of spectro-microscopies in single molecule regimes. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfWLZ4vhkepOrKXwwTKIFpsBI_15ugNDSw613yqidDq4aA?e=ofNQ7S) | 
 [DOI Link](http://dx.doi.org/10.1021/acssensors.1c00874)]
-  - **hStaGL**:
-
-
-- YFPs: 
-  - **dLanYFP**: dLanYFP is a basic (constitutively fluorescent) green/yellow fluorescent protein published in 2013, derived from Branchiostoma lanceolatum. [[Addgene Plasmid: #164469]() | [PMID: 23524392](https://pubmed.ncbi.nlm.nih.gov/23524392/) | [DOI Link](https://doi.org/10.1038/nmeth.2413)]
-  - **tdLanYFP**: tdLanYFP, derived from the tetrameric protein from the cephalochordate B. lanceolatum, LanYFP. Contrasting with EYFP and its derivatives, tdLanYFP has a very high photostability in vitro and in live cells. As a consequence, tdLanYFP allows imaging of cellular structures with sub-diffraction resolution using STED nanoscopy and is compatible with the use of spectro-microscopies in single molecule regimes. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfWLZ4vhkepOrKXwwTKIFpsBI_15ugNDSw613yqidDq4aA?e=ofNQ7S) | 
-[DOI Link](http://dx.doi.org/10.1021/acssensors.1c00874)]
+  - **hfYFP**: ‘hyperfolder YFP’ (hfYFP), hfYFP contains no cysteines, is chloride insensitive and tolerates aldehyde and osmium tetroxide fixation better than common fluorescent proteins, enabling its use in expansion and electron microscopies. [[PMID: 36344833](https://pubmed.ncbi.nlm.nih.gov/36344833/) | [DOI Link](https://doi.org/10.1038/s41592-022-01660-7)]
 
 
 
@@ -162,6 +164,7 @@ thumbnailImagePosition: left
 - **Histamine**:
 - **eCB**:
 - **Glucose**:
+    - iGlucoSnFR: A genetically encoded single-wavelength sensor for imaging cytosolic glucose [[PMID: 34161775](https://pubmed.ncbi.nlm.nih.gov/34161775/) | [DOI Link](https://doi.org/10.1016/j.celrep.2021.109284)]
 - **ATP**: 
     - iATPSnFR1.0: A genetically encoded single-wavelength sensor for imaging cytosolic and cell surface ATP [[PMID: 30755613](https://pubmed.ncbi.nlm.nih.gov/30755613/) | [DOI Link](https://doi.org/10.1038/s41467-019-08441-5)]
     - GRABATP1.0: A sensitive GRAB sensor for detecting extracellular ATP in vitro and in vivo [[PMID: 34942116](https://pubmed.ncbi.nlm.nih.gov/34942116/) | [DOI Link](https://doi.org/10.1016/j.neuron.2021.11.027)]
@@ -184,25 +187,18 @@ thumbnailImagePosition: left
 ## Protein Protein interaction Probe
 - **BiFC**: LC151 + KN151
 
-- BFPs: 
-  - **TagBFP**: TagBFP is a basic (constitutively fluorescent) blue fluorescent protein published in 2008, derived from Entacmaea quadricolor. It is reported to be a very rapidly-maturing monomer with very low acid sensitivity. [[FPbase](https://www.fpbase.org/protein/tagbfp/) | [PMID: 18940671](https://pubmed.ncbi.nlm.nih.gov/18940671/) | [DOI Link](https://doi.org/10.1016/j.chembiol.2008.08.006)]
-  - **mTagBFP2**: mTagBFP2 is a basic (constitutively fluorescent) blue fluorescent protein published in 2011, derived from Entacmaea quadricolor. It is reported to be a very rapidly-maturing monomer with very low acid sensitivity. [[FPbase](https://www.fpbase.org/protein/mtagbfp2/) | [PMID: 22174863](https://pubmed.ncbi.nlm.nih.gov/22174863/) | [DOI Link](https://doi.org/10.1371/journal.pone.0028674)]
-
-
 
 
 
 #### Ref. Labs
-1. [Robert E. Campbell Lab](https://campbellweb.chem.ualberta.ca/), University of Alberta, Canada
+1. [Robert E. Campbell Lab](https://www.chem.s.u-tokyo.ac.jp/campbell/?doing_wp_cron=1670243926.4282240867614746093750),  The University of Tokyo(2022-), University of Alberta, Canada(Previous)
 2. [Loren Looger Lab](), Janelia farm/UCSD
-3. [Michael Z Lin Lab](), Stanford
-4. [Mark J Schnitzer Lab](), Stanford
+3. [Michael Z Lin Lab](https://web.stanford.edu/~mzlin/), Stanford
+4. [Mark J Schnitzer Lab](https://pyramidal.stanford.edu/), Stanford
 5. [Adam E. Cohen Lab](http://cohenweb.rc.fas.harvard.edu/), harvard
 
 
-#### Ref. Labs
-1. [Robert E. Campbell Lab](https://campbellweb.chem.ualberta.ca/), University of Alberta, Canada
-2. [Loren Looger Lab]()
+
 
 
 
@@ -410,7 +406,7 @@ TargetP-2.0 server predicts the presence of N-terminal presequences: signal pept
 ## Molecular Cloning Basis
 1. Performance Chart for Restriction Enzymes [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcwACbUakrtJiDUsLMcYFwIBuJ4Ou_lzt9Xj-jiVglstbg?e=usbUiE)]
 2. NEB biolabs catalog technical references [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeE2HTSyigtPoTB-XQAlQMgByIS8ytW1LVmneBgjgA57Eg?e=w0k38a)]
-3.
+
 
 
 

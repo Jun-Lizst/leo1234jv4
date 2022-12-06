@@ -64,7 +64,7 @@ MARCH 2019 — PRESENT\
 Graduate student advised by [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) and [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en)
 
 - Focusing on AAV capsid engineering and make molecular/genetic tools for study of brain 
-vascular system.
+vasculature system.
 - Applying Next-generation microscopy (Confocal, Lightsheet, Two photon) 
 technology into study of brain vasculature system.
 - Applying Next-generation omics technology (Transcriptomics; Metabolomics) to 
