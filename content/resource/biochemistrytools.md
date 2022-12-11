@@ -232,6 +232,11 @@ The Nobel Prize in Physiology or Medicine 2002\
 The Nobel Prize in Physiology or Medicine 2002\
 **C. elegans: The Cell Lineage and Beyond** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQyBLGKYDXhIplo0bRLbZHIBuxKwPpICJlWsDYRL8D4Gug?e=MOfPPp) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUf4LzKYM2xKmoI5ZQzCK70Bn8zIdWvG-LCJOXsS7Gw3Qw?e=malH66) | [Source](https://www.nobelprize.org/prizes/medicine/2002/sulston/facts/)]
 
+- **Tim Hunt**, Imperial Cancer Research Fund, London, United Kingdom\
+The Nobel Prize in Physiology or Medicine 2001\
+**Protein Synthesis, Proteolysis, and Cell Cycle Transitions** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EaOQ-Mm3pGdHlV4I8wW2TekBDyip0iCCG2VWo9Z7L7YVRQ?e=qDd7zC) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUJnTxOTUVVOny_JXNJ3CQ8BrtlQv39qjtxkry_heWS9QQ?e=ZJHRVY) | [Source](https://www.nobelprize.org/prizes/medicine/2001/hunt/facts/) | [Careers interview](https://www.science.org/content/article/tim-hunt)]
+
+
 - **Paul Greengard(1925-2019)**, Rockefeller University, New York, NY, USA\
 The Nobel Prize in Physiology or Medicine 2000\
 **The Neurobiology of Dopamine Signaling** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EZblptFXMR1Kk6z-nBXYQi0Bv5fQX93w5C1VfCkhzwxm3g?e=hvw6ZD) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVLV6ZEeoeVOtiH1frpXBrwBHfp2b2kRneQpzihNUc1nfw?e=DBrwHF) | [Source](https://www.nobelprize.org/prizes/medicine/2000/greengard/facts/)]
