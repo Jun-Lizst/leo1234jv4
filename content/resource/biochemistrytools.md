@@ -191,6 +191,18 @@ The Nobel Prize in Chemistry 2022\
 **The Bioorthogonal Chemistry Journey, from Laboratory to Life** [[Nobel Lecture video](https://youtu.be/pgIzEf_RfII) | [Lecture Slides]() | [Read the Lecture]() | [Source](https://www.nobelprize.org/prizes/chemistry/2022/bertozzi/facts/)]
    - iBiology Talk[[PartII: Imaging the glycome](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EY_HgB0cTHNDsXnohVjQeA4BIsfayV86bt3g40XGvpFEPA?e=7xJwMx)]
 
+- **Sir Peter J. Ratcliffe**, University of Oxford, Oxford, United Kingdom; Francis Crick Institute, London, United Kingdom
+The Nobel Prize in Physiology or Medicine 2019\
+**Elucidation of Oxygen Sensing Mechanisms in Human and Animal Cells** [[Nobel Lecture video](https://www.youtube.com/watch?v=-Q0OGLCzKEE&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXOiww-BbPVPk0ylchpMitcBK5MC0hqaj_dZfUS6TWHarw?e=WoVdIG) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVUxJoGlhiRJgtrbPqSTru0Blv3QBO-62yoz7SBpmWC27Q?e=xbjTH6) | [Source](https://www.nobelprize.org/prizes/medicine/2019/ratcliffe/facts/)]
+
+- **William G. Kaelin Jr**, Harvard Medical School, Boston, MA, USA; Howard Hughes Medical Institute, Chevy Chase, MD, USA; Dana-Farber Cancer Institute, Boston, MA, USA; Brigham and Women's Hospital, Boston, MA, USA
+The Nobel Prize in Physiology or Medicine 2019\
+**The von Hippel-Lindau Tumor Suppressor Gene: Insights into Oxygen Sensing and Cancer** [[Nobel Lecture video](https://www.youtube.com/watch?v=-Q0OGLCzKEE&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ed26wXIWXDpImtuMAPsOucsBrHS2hzA9eGG0lF-_5vqCuA?e=kBHsWg) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ecvul5W3ggdPp5i5XkVZ-iwByfWLcklqBqlZTOwLhRJAkg?e=PMc1RQ) | [Source](https://www.nobelprize.org/prizes/medicine/2019/kaelin/facts/)]
+
+- **Gregg L. Semenza**, Johns Hopkins University, Baltimore, MD, USA
+The Nobel Prize in Physiology or Medicine 2019\
+**Hypoxia-Inducible Factors in Physiology and Medicine** [[Nobel Lecture video](https://www.youtube.com/watch?v=B_KBgSXUWoM&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESNkopdpfo1Hg4snunzkMBcB1tf8zbRYfc1SPzC7SIElHw?e=iCgGHX) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efl45HbMeoVFlKFDaQ3nlrEBpioqP1dJAdmLpltUt8RqSw?e=8BU3qs) | [Source](https://www.nobelprize.org/prizes/medicine/2019/semenza/facts/)]
+
 - **Yoshinori Ohsumi**, Tokyo Institute of Technology, Tokyo, Japan\
 The Nobel Prize in Physiology or Medicine 2016\
 **Molecular Mechanisms of Autophagy in Yeast** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQdBmtJNhnxFohd7o6ylMFoBL3J18eRXC1mlvmXWVX3scg?e=l6f8ia) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVa5BW1XUtNPiVyfzKQqoMEBDzMmDIKUw5pH5yebj17WLQ?e=OFDub1) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcTKfynF9kNNpsISMOp61uIBlEpIFyg92MYf9mq9M6E8Ww?e=k7UC5c) | [Source](https://www.nobelprize.org/prizes/medicine/2016/ohsumi/facts/)]
