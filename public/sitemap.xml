@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://leoj.xyz/categories/by-jun-liszt-li/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/calcium-imaging/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://leoj.xyz/categories/</loc>
-    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/categories/pku/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/posts/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/protocol/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/tags/two-photon-microscopy/</loc>
+    <lastmod>2022-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/category/</loc>
     <lastmod>2022-10-19T00:50:05+08:00</lastmod>
@@ -12,9 +39,6 @@
     <lastmod>2022-10-19T00:50:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/eeg-emg/</loc>
-    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/</loc>
     <lastmod>2022-10-19T00:50:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/manifold-learning/</loc>
@@ -30,9 +54,6 @@
     <lastmod>2022-10-19T00:50:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/categories/subcategory/</loc>
-    <lastmod>2022-10-19T00:50:05+08:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/tags/</loc>
     <lastmod>2022-10-19T00:50:05+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tooldevelopment/</loc>
@@ -93,6 +114,9 @@
     <lastmod>2022-08-26T16:50:25+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/resource/geneticstools/</loc>
+    <lastmod>2022-08-26T16:50:25+08:00</lastmod>
+  </url><url>
+    <loc>https://leoj.xyz/resource/geneticstools_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20221223213016/</loc>
     <lastmod>2022-08-26T16:50:25+08:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/gentics/</loc>
@@ -230,14 +254,8 @@
     <loc>https://leoj.xyz/tags/ggplot2/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://leoj.xyz/posts/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://leoj.xyz/categories/r/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/by-jun-liszt-li/</loc>
-    <lastmod>2020-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/cibr-talk/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>
@@ -255,9 +273,6 @@
     <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/mini-review/</loc>
-    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leoj.xyz/categories/pku/</loc>
     <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leoj.xyz/tags/sleep/</loc>

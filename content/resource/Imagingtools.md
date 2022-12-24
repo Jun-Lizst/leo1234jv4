@@ -39,7 +39,8 @@ thumbnailImagePosition: left
 ![2pobjective25x](/img/IMG_20191125_015442_edited.jpg)
 
 ![leo1234j2px](/img/mPFC_Thy1-YFP-H_line.jpg)
-> **Cranial window surgery Protocol**, by Jun-Liszt Li [[Download PDF]()]
+> **Protocol for mouse cranial window surgery**, by Jun-Liszt Li [[Download PDF]()]\
+> **Protocol for in vivo calcium imaging of neuronal populations**, by Jun-Liszt Li [[Download PDF]()]
 
 ---
 #### Lab DIY
@@ -52,13 +53,18 @@ thumbnailImagePosition: left
 #### Commercial
 **Olympus**: [FVMPE-RS](https://www.olympus-lifescience.com.cn/en/laser-scanning/fvmpe-rs/)\
 **Leica**: [Leica-MP-4Tune]((https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8-mp/))\
-**Scientifica**: [Multiphoton Imaging System](https://www.scientifica.uk.com/products/multiphoton-imaging-system)
+**Scientifica**: [Multiphoton Imaging System](https://www.scientifica.uk.com/products/multiphoton-imaging-system)\
 **TMC**: TMC combines state-of-the-art floor vibration cancellation technology with a commitment to manufacturing. [Link](https://www.techmfg.com/)
 
 
 
 **Ref labs**: [Ji Na lab, University of California, Berkeley](https://www.jilab.net/)\
 [Janelia farm](https://www.janelia.org/)
+
+**Ref softwares**:
+1. **Suite2p** [[Offical website](https://www.suite2p.org/) | [Github](https://github.com/MouseLand/suite2p)]
+2. **CalmAn** [[Online documentation](https://caiman.readthedocs.io/en/latest/CaImAn_features_and_references.html) | [Github](https://github.com/flatironinstitute/CaImAn)]
+3. **CNMF_E** [[Github](https://github.com/zhoupc/CNMF_E) | [DOI Link](https://doi.org/10.1016/j.neuron.2015.11.037)]
 
 ---
 
