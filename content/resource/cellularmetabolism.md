@@ -35,8 +35,10 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
     - Goldstein, Joseph L., and Michael S. Brown. “A Century of Cholesterol and Coronaries: From Plaques to Genes and Statins.” Cell 161, no. 1 (2015): 161–72. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVmM9yqeT0lPuIKaqQlzvkwB0cx7RREjxtfaEAEvtxji5A?e=gxGANA) | [PMID: 25815993](https://pubmed.ncbi.nlm.nih.gov/25815993/) | [DOI Link](https://doi.org/10.1016/j.cell.2015.01.036)]
 
 
-3. **Mitochondria role in Energy metabolism**
+3. **Regulation of Energy metabolism**
     - Review in 1979: [METABOLITE TRANSPORT IN MITOCHONDRIA](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeWcvgdnEsJHqnu77uAAWGoBq6d7dUWpyr1Kromjrev6Rg?e=ylv6xV)
+    - internal energy stress sensing and response program in brain ?
+
 
 4. **Lysosome role in metabolic signalling**
     - Review in 2019: **The lysosome as a cellular centre for signalling, metabolism and quality control** (Rosalie and Roberto, 2019) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcboMO4gKndOlJOzXWV8ohEBy6mrjgr8mpQGztgPqgYttw?e=yOvXBj) | [PMID: 30602725](https://pubmed.ncbi.nlm.nih.gov/30602725/) | [DOI Link](https://doi.org/10.1038/s41556-018-0244-7)]
@@ -66,6 +68,7 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     - How amino acids were sensed? More amino acid sensors?
     - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms?
     - Is GATOR2 the nutrient sensing hub complex ? How does it work to integrate multiple nutrient inputs?
+    - How does brain sense the stress of energy supply and initiate its response program?
 
 
 ---
