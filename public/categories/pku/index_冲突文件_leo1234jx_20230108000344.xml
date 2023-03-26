@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PKU on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/categories/pku/</link>
+    <description>Recent content in PKU on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leoj.xyz/categories/pku/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protocol for calcium imaging of free-moving mice</title>
+      <link>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The origin and function of brain oscillation</title>
+      <link>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Since German neurobiologist Hans Berger first documented spontaneous rhythmic fluctuations in the human electroencephalogram. Many scholars become captivated by this phenomena and attempt to unravel its secret. This periodic change in the brain is known as brain oscillation.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

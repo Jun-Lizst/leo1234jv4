@@ -103,7 +103,10 @@ thumbnailImagePosition: left
 
 - **Activity dependent**: c-Fos
 
-- **ERK pathway activation**: pKrox24 [[PMID: 28199182](https://pubmed.ncbi.nlm.nih.gov/28199182/) | [DOI Link](https://doi.org/10.7554/elife.21536)]
+- **ERK pathway activation**: 
+    - pKrox24 [[PMID: 28199182](https://pubmed.ncbi.nlm.nih.gov/28199182/) | [DOI Link](https://doi.org/10.7554/elife.21536)]
+    - ERK-KTR: Kinase translocation reporters(KTRs) enable multiplexed measurements of the dynamics of kinase activity at a single-cell level. [[PMID: 29266096](https://pubmed.ncbi.nlm.nih.gov/29266096/) | [DOI Link](https://doi.org/10.1038/nprot.2017.128)]
+
 
 
 
@@ -163,6 +166,12 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
   - dLight[[dLight1.2](https://doi.org/10.1126/science.aat4422), [addgene](https://www.addgene.org/111068/)]
 - **Histamine**:
 - **eCB**:
+
+**| Engineered neuropeptide sensors**
+- **Oxytocin (OT)**:
+  - GRAB-OT[[GRAB-OT1.0](https://doi.org/10.1038/s41587-022-01561-2)]
+
+
 - **Glucose**:
     - iGlucoSnFR: A genetically encoded single-wavelength sensor for imaging cytosolic glucose [[PMID: 34161775](https://pubmed.ncbi.nlm.nih.gov/34161775/) | [DOI Link](https://doi.org/10.1016/j.celrep.2021.109284)]
 - **ATP**: 
@@ -225,11 +234,19 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
 ---
 
 ### DNA target Cas9 based
-- **Knock out**: SpCas9, SaCas9
-- DNA base editor: dCas9-xxx
-- Transcriptional activator:
+> Because of the simplicity with which gRNAs may be designed and the capacity to change practically any genomic locus, CRISPR is a powerful tool for genetic screening investigations.
+---
 
-- Cas9 based whole-genome scale pool screen
+- **Knock out**: SpCas9, SaCas9
+- **DNA base editor**: dCas9-xxx
+- **Transcriptional activator**: dCas9-Suntag system
+
+- **Cas9 based whole-genome scale pool screen**
+    - **CRISPR Pooled Libraries**: Pooled CRISPR libraries are made up of hundreds of plasmids, each holding several gRNAs for each target gene. Target cells are treated with the pooled library in a CRISPR screening experiment to generate a population of mutant cells, which are then screened for a phenotypic of interest. Experiments with a pooled CRISPR library are significantly more complicated than utilizing CRISPR to change a single genetic region. [[Addgene Link](https://www.addgene.org/crispr/libraries/)]
+    - Human Activity-Optimized CRISPR Knockout Library (3 sub-libraries in lentiCRISPRv1) [[Addgene:#1000000100](https://www.addgene.org/pooled-library/sabatini-crispr-human-high-activity-3-sublibraries/) | [DOI Link](https://doi.org/10.1126/science.aac7041) | [PMID: 26472758](https://pubmed.ncbi.nlm.nih.gov/26472758/) | Sabatini/Lander lab]
+    - Human CRISPR Knockout Pooled Library (GeCKO v2) [Addgene:#1000000048,#1000000049]()
+    - Human CRISPR Metabolic Gene Knockout Library [[Addgene:#110066](https://www.addgene.org/pooled-library/sabatini-human-crispr-metabolic-knockout/) | [DOI Link](https://doi.org/10.1016/j.cell.2015.07.016) | [PMID: 26232224](https://pubmed.ncbi.nlm.nih.gov/26232224/) | Sabatini lab]
+    - Drosophila Cell CRISPR Knockout Library [[Addgene:#134582,#134583,#134584](https://www.addgene.org/pooled-library/perrimon-drosophila-crispr-knockout/) | [DOI Link](https://doi.org/10.7554/elife.36333) | [PMID: 30051818](https://pubmed.ncbi.nlm.nih.gov/30051818/) | Norbert Perrimon lab]
 
 
 ### RNA target Cas13 based

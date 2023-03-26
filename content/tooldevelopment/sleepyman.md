@@ -1,5 +1,5 @@
 ---
-title: "SleepyR"
+title: "SleepyBoy"
 date: 2022-10-19T00:50:05+08:00
 categories:
 - category
@@ -20,16 +20,12 @@ thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
 
-> SleepyR is a integrated app for automatic sleep staging analysis of EEG-EMG data.
+> SleepyBoy is a integrated app for automatic sleep staging analysis and visualization of EEG-EMG data.
 
 <!--more-->
 
 
-SleepyR supports several data file formats and provides several scoring aid including the detection of essential features of NREM and REM sleep such as spindles, K-complexes, slow waves, and REM.
-
-SleepyR was written in R, an easy-to-learn and high-level programming language widely used in the scientific community.
-
-
+SleepyBoy supports several data file formats and provides several scoring aid including the detection of essential features of NREM and REM sleep such as spindles, K-complexes, slow waves, and REM.
 
 
 
@@ -58,6 +54,11 @@ SleepyR was written in R, an easy-to-learn and high-level programming language w
 4. Zhou, R., Wang, G., Li, Q. et al. A signalling pathway for transcriptional regulation of sleep amount in mice. Nature (2022). [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcbUCC_QItFPnCVBm6SVGKgBtBvjuqRbkxLRIlX_Ae-6AA?e=DrQ8t1) | [DOI Link](https://doi.org/10.1038/s41586-022-05510-6)]
 
 
+### Open source tools
+1. [EDFbrowser](https://www.teuniz.net/edfbrowser/): A free, open-source, multiplatform, universal viewer, annotator and toolbox intended for, but not limited to, time-series storage files like EEG, EMG, ECG, BioImpedance, etc.
 
 
+### Open source database
+1. [Sleep-EDF Database](https://physionet.org/content/sleep-edfx/1.0.0/): 
+The sleep-edf database contains 197 PolySomnoGraphic whole-night sleep recordings with EEG, EOG, chin EMG, and event markers. Some recordings additionally include information about respiration and body temperature. Corresponding hypnograms (sleep patterns) were manually scored by well-trained technicians according to the Rechtschaffen and Kales manual. [[ref-Article](https://www.doi.org/10.1109/10.867928) | [PhysioNet](https://physionet.org/content/sleep-edfx/1.0.0/)]
 

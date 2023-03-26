@@ -34,6 +34,23 @@ thumbnailImagePosition: left
 **Leica**: [Leica-SP8](https://www.leica-microsystems.com/products/confocal-microscopes/p/leica-tcs-sp8/) (Archived Product Replaced by [STELLARIS 5 & STELLARIS 8](https://www.leica-microsystems.com/products/confocal-microscopes/p/stellaris-8/))\
 **Carl Zeiss**: [LSM 880, with Airyscan](): The Zeiss LSM880 with Ariyscan 2 is an inverted confocal microscope. The system is equipped with 7 laser lines 405nm, 458nm, 488nm, 514 nm, 561nm, 594nm and 633 nm. The newly designed excitation beam is elongated in y which acquires four lines of image information instead of only one with just one horizontal scanner movement. [[Standard Operation Protocol](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES8YWy6g61VJpaYUmIcrrG4Bq9dhrJ25WxYgI4cMiapkXQ?e=dLf0sO) | [Detailed Configuration](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfIoB6QWG2xBglZICiWEwR0BYDtYKGV1VDXC8iwCIuNMeQ?e=duyppQ)]
 
+
+#### Information about Microscope Objectives
+- Please refer to the following inventory for all of the objectives available at the [Janelia imaging core facility](https://www.janelia.org/support-team/light-microscopy/resources). [[Inventory list](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EX0KqlaSJAhHhH-vXt23DrQBmQ-MBuEJ_ELtydJhkT-9VA?e=JJdRZq) | [Zeiss confocal objectives](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWUOJGSGpkdKgNuo0bpumCcB-o_zM3hhNK39CEPT-Fc_3A?e=kAh7z0)]
+- Manufacturer brochures for objective types can also be viewed: [Zeiss Objectives](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWtf_iuyHhFPvd8YoaBEJO8BLWgJ5C_Fqbl1vakkVVi2ag?e=BKLcaB), [Nikon Objectives](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVhT7WvjQLRMsDdFnJ7Je9wBwNQtOV1XTq7fxCTMJ59MVA?e=NnomWS), and [Olympus Objectives](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbWytDbHvWVBnvz9W484lvUB8eWBxy98abCpNoJtETaJOA?e=NYHfoF).
+
+
+#### SpectraViewers
+- [Fluorescence SpectraViewer](https://www.thermofisher.cn/order/fluorescence-spectraviewer#!/), ThermoFisher [[Manual](https://www.thermofisher.cn/cn/en/home/life-science/cell-analysis/fluorophores/guide-fluorescence-spectraviewer.html)]
+- [SearchLight](https://searchlight.semrock.com/), Semrock [[Manual](https://searchlight.semrock.com/Help.aspx)]
+- [Fluorescence Spectrum Viewer](https://www.bdbiosciences.com/en-us/resources/bd-spectrum-viewer), BD Biosciences: The BD Spectrum Viewer is a tool that depicts the excitation and emission curves of fluorochromes common to flow cytometry. This tool can be used to determine appropriate filters to detect a fluorochrome as well as fluorochrome compatibility and fluorescent spillover.
+
+
+#### Staining
+- [Fluorescence Dye and Filter Database](https://www.micro-shop.zeiss.com/en/us/shop/filterAssistant/dyes/), Zeiss
+- [Cell Staining Simulation Tool](https://www.thermofisher.cn/cn/en/home/life-science/lab-data-management-analysis-software/lab-apps/cell-staining-tool.html?adobe_mc=MCMID%7C32915283128660043822078872448289181953%7CMCAID%3D318B7E039CF16E3C-60001D2314A987EE%7CMCORGID%3D5B135A0C5370E6B40A490D44%40AdobeOrg%7CTS=1614293705), Life Technologies
+
+
 ---
 # Two-Photon Microscopy
 ![2pobjective25x](/img/IMG_20191125_015442_edited.jpg)
@@ -73,6 +90,7 @@ thumbnailImagePosition: left
 In this talk, two-photon microscopy-which uses strong pulsed infrared lasers to produce detailed images inside biological samples-is introduced. It can be utilized to image inside of living animals as well as thick tissue specimens.
 
 ---
+
 
 # Light-sheet Microscopy
 ![lightsheet001](/img/536fbb_e905706e774b47b19e8802138342a844_mv2.webp)\
@@ -148,10 +166,6 @@ During 20 years of friendship, Betzig and Hess collaborated to create the first 
 Thomas Reese studies synaptic structure and function using advanced light and electron microscopy techniques. John Heuser developed and spent his career using quick-freeze, deep-etch electron microscopy to study all aspects of cell biology.\
     - **Imaging Synaptic Vesicle Transmission**: Two pioneering electron microscopists, John Heuser and Tom Reese, reminisce about their early attempts to image synaptic vesicle transmission. (**iBiology interview**, recorded in July 2015: [[Part 1: Imaging synaptic vesicle transmission](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQITWJRLtSFKg5tqfCGYYC0BWzaz7CQK-HwYTtVZLXM9QA?e=I3wBVq) | [Part 2: The Future of Electron Microscopy](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EVsGt6E9HN5Cuvfk9zGInF0BCLrcb1P8cZMgwN9UZDU_Xw?e=bm14gg) | [Part 3: Why Collaborate?](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ES-O26Hl429Ilc5a9L6KqAUB7F86M2nlDTxsq1KlX6qNqw?e=OcweNL) | [Source](https://www.ibiology.org/neuroscience/imaging-synaptic-vesicle-transmission/#part-1)])
 
-=======
-**Ref labs**: [Thomas Reese Lab, National Institutes of Health]()\
-[John Heuser Lab, Washington University in St. Louis]()\
->>>>>>> Stashed changes
 
 
 
@@ -194,7 +208,8 @@ Thomas Reese studies synaptic structure and function using advanced light and el
 3. Cellfinder: https://github.com/SainsburyWellcomeCentre/cellfinder
 4. BrainRender: https://github.com/BrancoLab/BrainRender
 5. Allen Developing Brain atlas: https://developingmouse.brain-map.org/static/atlas
-
+6. NeuronStudio: A free platform that provides tools for 2D/3D visualization as well as manual and automatic detection/tracing of dendritic structures. [Link](http://research.mssm.edu/cnic/tools-ns.html)
+7. yEd: A free, open-source, cross-platform graph editor used to quickly and effectively generate high-quality diagrams.
 
 
 ---

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/categories/</link>
+    <description>Recent content in Categories on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leoj.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>by Jun-Liszt Li</title>
+      <link>https://leoj.xyz/categories/by-jun-liszt-li/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/categories/by-jun-liszt-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PKU</title>
+      <link>https://leoj.xyz/categories/pku/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/categories/pku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>category</title>
+      <link>https://leoj.xyz/categories/category/</link>
+      <pubDate>Wed, 19 Oct 2022 00:50:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://leoj.xyz/categories/subcategory/</link>
+      <pubDate>Wed, 19 Oct 2022 00:50:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://leoj.xyz/categories/r/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CIBR talks</title>
+      <link>https://leoj.xyz/categories/cibr-talks/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/categories/cibr-talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CIBR</title>
+      <link>https://leoj.xyz/categories/cibr/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/categories/cibr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
