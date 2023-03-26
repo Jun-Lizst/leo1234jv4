@@ -34,8 +34,8 @@ The VasCode system aims to integrate next-generation sequencing technologies suc
 
 
 
-## Module 2: AAV-miniBEND system
-**AAV-miniBEND system** is in the midstream of The Big VasCode system. We developed a novel technology that combined a series of AAV capsids that has unprecedented power of transduction in different model organisms, like Mouse, Rat, Pig, Marmmoset etc.
+## Module 2: AAV-VasCode system
+**AAV-VasCode system** is in the midstream of The Big VasCode system. We developed a novel technology that combined a series of AAV capsids that has unprecedented power of transduction in different model organisms, like Mouse, Rat, Pig, Marmmoset etc.
 
 
 
