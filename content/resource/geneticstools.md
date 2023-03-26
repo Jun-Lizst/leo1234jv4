@@ -215,9 +215,9 @@ Seymour Benzer with mega-Drosophila, 1974.
 The Nobel Prize in Physiology or Medicine 2017\
 **Time Travels: A 40 Year Journey from Drosophila’s Clock Mutants to Human Circadian Disorders** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/2017/young/facts/)]
 
-- **Robert G. Edwards**, University of Cambridge, Cambridge, United Kingdom\
+- **Robert G. Edwards(1925-2013)**, University of Cambridge, Cambridge, United Kingdom\
 The Nobel Prize in Physiology or Medicine 2010\
-**Robert Edwards: Nobel Laureate in Physiology or Medicine**  [[Nobel Lecture video]() | [Lecture Slides]() | [Read the Lecture]() | [Source](https://www.nobelprize.org/prizes/medicine/2010/edwards/facts/)]
+**Robert Edwards: Nobel Laureate in Physiology or Medicine**  [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EZVBBylQMrFLuDOU-9kIph4BJu6Y8KdbtKUaQDOES1i2vA?e=wRnksB) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWiQV8Zn_OhOgycRjFR8ZeIBnfJ905XcM9RTUmh1BVZzlQ?e=2Zlecf) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESsb9s5dUqZGjmCDKdfucEMBshAhJaD6jWWoWFur5R55Zg?e=fD0L6O) | [Source](https://www.nobelprize.org/prizes/medicine/2010/edwards/facts/)]
 
 - **Sydney Brenner(1927-2019)**, The Molecular Sciences Institute, Berkeley, CA\
 The Nobel Prize in Physiology or Medicine 2002\
