@@ -17,13 +17,13 @@
     </item>
     
     <item>
-      <title>SleepyR</title>
+      <title>SleepyBoy</title>
       <link>https://leoj.xyz/tooldevelopment/sleepyman/</link>
       <pubDate>Wed, 19 Oct 2022 00:50:05 +0800</pubDate>
       
       <guid>https://leoj.xyz/tooldevelopment/sleepyman/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;SleepyR is a integrated app for automatic sleep staging analysis of EEG-EMG data.&lt;/p&gt;
+&lt;p&gt;SleepyBoy is a integrated app for automatic sleep staging analysis and visualization of EEG-EMG data.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -44,7 +44,9 @@
       <pubDate>Mon, 05 Sep 2022 10:48:56 +0800</pubDate>
       
       <guid>https://leoj.xyz/tooldevelopment/minibend/</guid>
-      <description></description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The VasCode system aims to integrate next-generation sequencing technologies such as whole-exome sequencing and CNV sequencing to identify potential disease-causing gene mutations.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -184,8 +186,7 @@ Brain metabolic system Metabolism is physiologically fundamental to a biological
       <guid>https://leoj.xyz/page/publication/</guid>
       <description>Journal Publications #: First author
 ✝: corresponding author
-Lian Liu#, Linzhi Zou#, Kuan Li#, Hanqing Hou, Qun Hu, Shuang Liu, Jie Li, Chenmeng Song, Jiaofeng Chen, Shufeng Wang, Yangzhen Wang, Changri Li, Haibo Du, Jun-Liszt Li, Fangyi Chen, Zhigang Xu, Wenzhi Sun, Qianwen Sun, Wei Xiong✝ (2022) Template-independent genome editing in the Pcdh15av−3j mouse, a model of human DFNB23 nonsyndromic deafness. Cell Reports [DOI Link]
-Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ (2021) NAMPT deletion in project neurons induces bioenergetic stress and activates cell death and inflammatory pathways: Journal of Cerebral Blood Flow &amp;amp; Metabolism [PDF | DOI Link] Second author</description>
+Jian Ren#, Yazi Huang#, Yeqing Ren#, Tianqi Tu, Baoshan Qiu, Daosheng Ai, Zhanying Bi, Xue Bai, Fengzhi Li, Jun-Liszt Li ¶, Xing-jun Chen, Ziyan Feng, Zongpei Guo, Jianfeng Lei, An Tian, Ziwei Cui, Volkhard Lindner, Ralf H Adams, Yibo Wang, Fei Zhao, Jakob Körbelin, Wenzhi Sun, Yilong Wang, Hongqi Zhang, Tao Hong✝, Woo-ping Ge✝ (2023/03/30) Somatic variants of MAP3K3 are sufficient to cause cerebral and spinal cord cavernous malformations.</description>
     </item>
     
     <item>
