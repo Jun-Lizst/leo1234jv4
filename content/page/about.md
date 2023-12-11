@@ -40,8 +40,8 @@ Promoter engineering
 ![tranquilx1](/img/Image_22.png)
 
 **Ph.D.**, Peking University, Beijing\
-SEPTEMBER 2018 --- PRESENT\
-Academy for Advanced Interdisciplinary Studies(AAIS)\
+SEPTEMBER 2018 --- DECEMBER 2023\
+Academy for Advanced Interdisciplinary Studies (AAIS)\
 Major in Neuroscience; CIBR-PKU-joint Ph.D. program
 
 ![Tranquilyyy](/img/Hzau2018.png)
@@ -60,7 +60,7 @@ Major In Bioscience; Class of State Key Educational Base
 ## Research Experiences
 
 **Graduate student**, [Peking University](https://english.pku.edu.cn/) & [Chinese institute for Brain Research (CIBR)](https://www.cibr.ac.cn/)\
-MARCH 2019 — PRESENT\
+MARCH 2019 — DECEMBER 2023\
 Graduate student advised by [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) and [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en)
 
 - Focusing on AAV capsid engineering and make molecular/genetic tools for study of brain 

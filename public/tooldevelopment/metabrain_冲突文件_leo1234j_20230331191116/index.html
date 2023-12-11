@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/leoj.xyz\/",
+  "author": {
+    "@type": "Person",
+    "name": "Jun-Liszt Li",
+    
+    "image": "https://leoj.xyz/img/Dingtalk_20220815163324.jpg"
+    
+  },
+  "name":"Jun-Liszt Li",
+  "description":"\u003cblockquote\u003e\n\u003cp\u003eA online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.\u003c\/p\u003e\n\u003c\/blockquote\u003e",
+  "url":"https:\/\/leoj.xyz\/tooldevelopment\/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116\/",
+  "keywords":"[tech]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.101.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Jun-Liszt Li">
+<meta name="keywords" content="tech">
+<meta name="description" content="
+A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.
+">
+
+
+<meta property="og:description" content="
+A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.
+">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MetaBrain Explorer (Spatial Multi-omics Brain Explorer)">
+<meta name="twitter:title" content="MetaBrain Explorer (Spatial Multi-omics Brain Explorer)">
+<meta property="og:url" content="https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/">
+<meta property="twitter:url" content="https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/">
+<meta property="og:site_name" content="Jun-Liszt Li">
+<meta property="og:description" content="
+A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.
+">
+<meta name="twitter:description" content="
+A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.
+">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2022-09-10T09:46:13">
+  
+  
+    <meta property="article:modified_time" content="2022-09-10T09:46:13">
+  
+  
+  
+    
+      <meta property="article:section" content="category">
+    
+      <meta property="article:section" content="subcategory">
+    
+  
+  
+    
+      <meta property="article:tag" content="SpatialMeta">
+    
+      <meta property="article:tag" content="Brain Atlas">
+    
+      <meta property="article:tag" content="shiny app">
+    
+      <meta property="article:tag" content="Multi-omics">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://leoj.xyz/img/Dingtalk_20220815163324.jpg">
+  <meta property="twitter:image" content="https://leoj.xyz/img/Dingtalk_20220815163324.jpg">
+
+
+
+
+
+  <meta property="og:image" content="https://leoj.xyz/img/">
+  <meta property="twitter:image" content="https://leoj.xyz/img/">
+
+
+    <title>MetaBrain Explorer (Spatial Multi-omics Brain Explorer)</title>
+
+    <link rel="icon" href="https://leoj.xyz/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://leoj.xyz/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://leoj.xyz/" aria-label="Go to homepage">Jun-Liszt Li</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://leoj.xyz/#about" aria-label="Open the link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://leoj.xyz/img/Dingtalk_20220815163324.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://leoj.xyz/#about" aria-label="Read more about the author">
+          <img class="sidebar-profile-picture" src="https://leoj.xyz/img/Dingtalk_20220815163324.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Jun-Liszt Li</h4>
+        
+          <h5 class="sidebar-profile-bio">Hello, My name is Jun-Liszt Li. my science interest is to understand the fundamental basis of brain metabolic system and brain vasculature system.</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/research" title="Research">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-dna" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Research</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/publication" title="Publication">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-scroll" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Publication</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/posts" title="Blog">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Blog</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/tooldevelopment" title="Tool develop">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-wrench" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tool develop</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/resource" title="Resource">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-warehouse" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Resource</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/about" title="About">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/page/contact" title="Contact">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-at" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Contact</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/Jun-Lizst" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://scholar.google.com/citations?user=AGPeLy0AAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-google" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Google Scholar</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/poppingjun" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/jun-liszt-li-32916aa3/" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://leoj.xyz/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      MetaBrain Explorer (Spatial Multi-omics Brain Explorer)
+    </h1>
+  
+  
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <blockquote>
+<p>A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.</p>
+</blockquote>
+<hr>
+<h3 id="heading"></h3>
+<hr>
+<h3 id="references">References</h3>
+<h4 id="atlas">Atlas</h4>
+<ol>
+<li>Mouse brain atlas, Adult, Male, C57BL/6J [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU52M0jlmw5JmAPEhyOf6i0B2AOQIwNkJFjv5Prfu9pGYw?e=7dCyUM">PDF</a>]</li>
+<li>Rat brain atlas, v5.0 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbWQDRv7medPs__yyEA4R2QB6PzbYR70OATcisI0JwHtyw?e=keYTc6">PDF</a>]</li>
+<li>Developing Rat brain atlas
+<ul>
+<li>P0 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EagOjukPClpDoqnaxN13FfwBrpbg0tH4iZwfrPlRUdhK6w?e=f56v6G">PDF</a>]</li>
+<li>P1 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbTarUI2xntFhbdX7YmX_NEB1n6Kkd2xkiIuFT4PNUbqbg?e=wvc1S5">PDF</a>]</li>
+<li>P2 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbMWu7I28IpGvAT01OYLjbsBHBlZZ7Bsi7WtSHqE643LTw?e=4NUAS8">PDF</a>]</li>
+<li>P3 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZxNQZqdgQ1KkStayyZs8ysBU1zQVfpcE-5Dl2X1OcQZGQ?e=vCOYle">PDF</a>]</li>
+<li>P4 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcCAnuEVF9lLl2LB3gi7qo4B11uXXUfavtWcfxwE-iF65Q?e=6oO3x2">PDF</a>]</li>
+<li>P5 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EX36QZBjaaVOh8-N3DXbECkBLavk7nfeQdGw3y5T38TYYw?e=lbQI6P">PDF</a>]</li>
+<li>P6 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ1EF2tXXZ9Bg2ekW-jnwCYBhWdQPbJzzacAh9F_6MowVQ?e=JhuiRR">PDF</a>]</li>
+<li>P7 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EX6U5BcjxTVPkvOn4t2KFqMBxSxaIWoN0NMpRhrGRiGboQ?e=Cfy22R">PDF</a>]</li>
+<li>P8 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EdhdOc14g7hLiVM3mEA_pfcBHHLofFozJk5ZW9MXf4aE8A?e=ivzZsU">PDF</a>]</li>
+<li>P9 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee_JVj4f8vRDoq-_qDEW2NEBFhmzQnN7IWw9TYF929WRog?e=Ntj91d">PDF</a>]</li>
+<li>P10 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EaCJEEmuUddKvMckzO4NVdoBdN1rJhRmzDEL751r2-TI_Q?e=8b4H2Q">PDF</a>]</li>
+<li>P14 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Eb7Hx2y17whHqWo-3LDpzskBlrlKEHgmhZrFZsxxRAkFLg?e=KiRo6X">PDF</a>]</li>
+<li>P21 [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUrRbywsZitCtGdFFJwxzSYBo1iHl4GMrssRxiOyOVh3Tw?e=2kVpHJ">PDF</a>]</li>
+</ul>
+</li>
+</ol>
+<h4 id="sc-rnaseq-datasets">sc-RNAseq datasets</h4>
+<ol>
+<li>
+<p>Brain vasculature system, Mouse, Adult</p>
+</li>
+<li>
+<p>Developing brain, Mouse, E8-E16</p>
+<ul>
+<li>La Manno, Gioele, et al. &ldquo;Molecular architecture of the developing mouse brain.&rdquo; Nature 596.7870 (2021): 92-96. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUys66UY2qJGrmdAzz2Q_l0B1lq3s6cBZydWt1O7W9TG_A?e=uvgDRR">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/34321664/">PMID: 34321664</a> | <a href="https://doi.org/10.1038/s41586-021-03775-x">DOI Link</a>]</li>
+</ul>
+</li>
+<li>
+<p>Developing Cortex, Mouse</p>
+<ul>
+<li>Di Bella, Daniela J., et al. &ldquo;Molecular logic of cellular diversification in the mouse cerebral cortex.&rdquo; Nature 595.7868 (2021): 554-559. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee9YuhYUo8FFr_-fQcssEpUBUktL_0LyZHg7VO2cPcJ4oA?e=4S1tdf">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/34163074/">PMID: 34163074</a> | <a href="https://doi.org/10.1038/s41586-021-03670-5">DOI Link</a>]</li>
+</ul>
+</li>
+<li>
+<p>9 Brain regions, Mouse, Adult</p>
+<ul>
+<li>Saunders, Arpiar, et al. &ldquo;Molecular diversity and specializations among the cells of the adult mouse brain.&rdquo; Cell 174.4 (2018): 1015-1030. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVT_hw8h5ytHqq_nYYXs6h4BRA4zP-M5wc95_U1yL6QuPQ?e=qL8Jvo">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/30096314/">PMID: 30096314</a> | <a href="https://doi.org/10.1016/j.cell.2018.06.021">DOI Link</a>]</li>
+</ul>
+</li>
+<li>
+<p>11 Brain regions, Mouse, Adolescent</p>
+<ul>
+<li>Zeisel, Amit, et al. &ldquo;Molecular architecture of the mouse nervous system.&rdquo; Cell 174.4 (2018): 999-1014. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXEbgkfQHcVNuhio5-wW7HYByv9j2zBGk4ILN9wXdx_a9w?e=8d8gS8">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/30096314/">PMID: 30096314</a> | <a href="https://doi.org/10.1016/j.cell.2018.06.021">DOI Link</a>]</li>
+</ul>
+</li>
+<li>
+<p>2021-Cell-Allen brain-HPF and isocortex</p>
+<ul>
+<li>Yao, Zizhen, et al. &ldquo;A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation.&rdquo; Cell 184.12 (2021): 3222-3241. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EddKYAm5NjVItXKLm10hTZ0BlCrXE8Bi_8y_RilmbW1zPw?e=0SEVUi">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/34004146/">PMID: 34004146</a> | <a href="https://doi.org/10.1016/j.cell.2021.04.021">DOI Link</a>]</li>
+</ul>
+</li>
+<li>
+<p>Aging mouse brain[8 young
+(2–3 months) and 8 old (21–23 months) mice], 50,212 cells(24,401 young and 25,811 old)</p>
+<ul>
+<li>Ximerakis, Methodios, et al. &ldquo;Single-cell transcriptomic profiling of the aging mouse brain.&rdquo; Nature neuroscience 22.10 (2019): 1696-1708. [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Edtqg9wHakdIkCrjC3W75doBS3ezijbDgNali9M1tWc_Nw?e=XLpADE">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/31551601/">PMID: 31551601</a> | <a href="https://doi.org/10.1038/s41593-019-0491-3">DOI Link</a>]</li>
+</ul>
+</li>
+</ol>
+<h4 id="sc-atacseq-datasets">sc-ATACseq datasets</h4>
+<ol>
+<li>Developing mouse cerebellum, 11 stages, ~90,000 cells, snATAC-seq
+<ul>
+<li>Sarropoulos, Ioannis, et al. &ldquo;Developmental and evolutionary dynamics of cis-regulatory elements in mouse cerebellar cells.&rdquo; Science 373.6558 (2021): eabg4696. [<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7611596/pdf/EMS132835.pdf">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/34446581/">PMID: 34446581</a> | <a href="https://doi.org/10.1126/science.abg4696">DOI Link</a>]</li>
+</ul>
+</li>
+<li>45 regions of mouse cerebrum, Adult, 800,000 nuclei, snATAC-seq
+<ul>
+<li>Li, Yang Eric, et al. &ldquo;An atlas of gene regulatory elements in adult mouse cerebrum.&rdquo; Nature 598.7879 (2021): 129-136. [<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8494637/pdf/41586_2021_Article_3604.pdf">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/34616068/">PMID: 34616068</a> | <a href="https://doi.org/10.1038/s41586-021-03604-1">DOI Link</a>]</li>
+</ul>
+</li>
+<li></li>
+<li></li>
+</ol>
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/spatialmeta/">SpatialMeta</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/brain-atlas/">Brain Atlas</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/shiny-app/">shiny app</a>
+
+  <a class="tag tag--primary tag--small" href="https://leoj.xyz/tags/multi-omics/">Multi-omics</a>
+
+                  </div>
+                
+              
+            
+            
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/leoj.xyz\/tooldevelopment\/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116\/';
+        
+          this.page.identifier = '\/tooldevelopment\/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'hugo-tranquilpeak-theme';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Jun-Liszt Li. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+        
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="1">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fleoj.xyz%2Ftooldevelopment%2Fmetabrain_%25E5%2586%25B2%25E7%25AA%2581%25E6%2596%2587%25E4%25BB%25B6_leo1234j_20230331191116%2F" aria-label="Share on Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fleoj.xyz%2Ftooldevelopment%2Fmetabrain_%25E5%2586%25B2%25E7%25AA%2581%25E6%2596%2587%25E4%25BB%25B6_leo1234j_20230331191116%2F" aria-label="Share on Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Share on Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://leoj.xyz/img/Dingtalk_20220815163324.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Jun-Liszt Li</h4>
+    
+      <div id="about-card-bio">Hello, My name is Jun-Liszt Li. my science interest is to understand the fundamental basis of brain metabolic system and brain vasculature system.</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Ph.D. Candidate
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker-alt"></i>
+        <br/>
+        Beijing, China
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://leoj.xyz/img/cover2.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://leoj.xyz/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

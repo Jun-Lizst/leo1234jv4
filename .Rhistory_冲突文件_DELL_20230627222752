@@ -1,0 +1,512 @@
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+MSI_obj@featureData@resolution
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+###dir.create("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/")
+plot_path <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/"
+png(paste0(plot_path, "Mean_Neg_mode_1-5DAN_20um_2022_0909_human_tumor.png"), width =1200, height = 400)
+plot(MSI_obj_mean, main = "Mean_Neg_1-5DAN_20um_human_tumor")
+dev.off()
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+fig_mid_mean <- plot_ly(data = feature_data_mean, x = ~mz, y =~mean, mode = 'lines')
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+setwd("E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/")
+#################################export all mz spectrum into one pdf and have a profile view;
+##dir.create("D:/lijun_2022/lijun_All_data/2022_04_12_in_guodian_MALDI/neg_wholebrain_batch_A")
+plot_path <- "E:/LC_MS_raw_data/20220909_gelab_human_tumor/NIN-tumor/export_plot/"
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[100], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "human_tumor_20um_after_peak_picking_250_features_1_5_DAN_neg_09_09.pdf"), width = 3.01, height = 2.53)
+###width = 3.01, height = 2.53
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+gc()
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+library(blogdown)
+blogdown::serve_site()
+#
+# This is a Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+#library(shinyjs)
+library(shiny)
+library(DT)
+#
+# This is a Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+#library(shinyjs)
+library(shiny)
+library(DT)
+library(Cardinal)   ####???
+install.packages("Cardinal")
+install.packages("BiocManager")
+BiocManager::install("Cardinal")
+install.packages("locfit")
+library(Cardinal)   ####???
+library(plotly)
+library(ggplot2)
+library(Seurat)
+#library(fontawesome)
+library(bs4Dash)
+library(tidyverse)
+if (!require("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("Cardinal")
+library(Cardinal)   ####???
+if (!require("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("EBImage")
+if (!require("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("EBImage", force = TRUE)
+library(Seurat)
+#library(fontawesome)
+library(bs4Dash)
+library(tidyverse)
+library(shinydashboard)
+library(DT)
+library(blogdown)
+library(blogdown)
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+blogdown::serve_site()
+blogdown::serve_site()
+blogdown::stop_server()
+library(blogdown)
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+blogdown::serve_site()
+install.packages("leaflet")
+library(blogdown)
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+library(blogdown)
+blogdown::serve_site()
+592-450
+143*3
+20^4
+20^5
+20^6
+20^7
+4574-3955
+library(blogdown)
+setwd("D:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+blogdown::serve_site()
+## try http:// if https:// URLs are not supported
+source("https://bioconductor.org/biocLite.R")
+## biocLite("BiocUpgrade") ## you may need this
+biocLite("ggtree")
+if (!require("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("ggtree")
+library(ggtree)
+if (!require("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("ggtree")
+install.packages("dplyr")
+install.packages("dplyr")
+library(ggtree)
+library(blogdown)
+setwd("F:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::serve_site()
+install.packages("edfReader")
+library(blogdown)
+setwd("F:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()
+library(ggpubr)
+# Create a simple bar plot
+ggbarplot(
+ToothGrowth, x = "dose", y = "len",
+add = c("mean_se", "jitter"),
+fill = "#BF504D"
+)
+ToothGrowth
+# Grouped bar plots
+# Colored by groups
+ggbarplot(
+ToothGrowth, x = "dose", y = "len",
+add = c("mean_sd", "jitter"),
+color = "supp", palette = c("#807F7F", "#BF504D"),
+position = position_dodge(0.8)
+)
+# Create a simple bar plot
+ggbarplot(
+ToothGrowth, x = "dose", y = "len",
+add = c("mean_se", "jitter"),
+fill = "#BF504D"
+)
+# Change bars fill color by groups
+# You need to change also point shapes by groups
+ggbarplot(
+ToothGrowth, x = "dose", y = "len",
+add = c("mean_sd", "jitter"),
+add.params = list(shape = "supp"),
+fill= "supp", palette = c("#807F7F", "#BF504D"),
+position = position_dodge(0.8)
+)
+# Create a simple bar plot
+ggbarplot(
+ToothGrowth, x = "dose", y = "len",
+add = c("mean_se", "jitter"),
+fill = "#BF504D"
+)
+library(devtools)
+install.packages('colocr')
+library(colocr)
+{
+#################################Load library needed
+library(Cardinal)
+}
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("I:/lijun_LJ/MALDI_data/NO1_no80_glioma_mouse_20um/")
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "NO1_#80_glioma_mouse_20um"
+msi_folder <- "I:/lijun_LJ/MALDI_data/NO1_no80_glioma_mouse_20um/"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "NO3_#80_glioma_mouse_10um"
+msi_folder <- "I:/lijun_LJ/MALDI_data/NO3_no80_glioma_mouse_10um/"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+MSI_obj@featureData@resolution
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+png(paste0(plot_path, "/Mean_Neg_mode_1-5DAN_no3_10um_yemeng.png"))
+plot_path <- getwd()
+MSI_obj_mean
+png(paste0(plot_path, "/Mean_Neg_mode_1-5DAN_no3_10um_yemeng.png"))
+plot(MSI_obj_mean, main = "Mean_Neg_mode_1-5DAN_no3_10um_yemeng")
+dev.off()
+plot_path
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("I:/lijun_LJ/MALDI_data/NO3_no80_glioma_mouse_10um/")
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+plot(MSI_obj_mean, main = "Mean_Neg_mode_1-5DAN_no3_10um_yemeng")
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+fig_mid_mean <- plot_ly(data = feature_data_mean, x = ~mz, y =~mean, mode = 'lines')
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+#####################open the interactive viewer and check the lowest SNR;
+fig_mid_mean
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########
+image(lj_100um_mid_tic)
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+#################################export all mz spectrum into one pdf and have a profile view;
+plot_path <- getwd()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=2) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.5) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[1], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "/after_peak_picking_238_features_no3_10um_yemeng.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.17, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("I:/lijun_LJ/MALDI_data/NO4_no80_glioma_mouse_5um/")
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "NO4_no80_glioma_mouse_5um"
+msi_folder <- "I:/lijun_LJ/MALDI_data/NO4_no80_glioma_mouse_5um/"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "NO4_#80_glioma_mouse_5um"
+msi_folder <- "I:/lijun_LJ/MALDI_data/NO4_no80_glioma_mouse_5um/"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+MSI_obj@featureData@resolution
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+plot(MSI_obj_mean, main = "Mean_Neg_mode_1-5DAN_no4_5um_yemeng")
+plot_path <- getwd()
+png(paste0(plot_path, "/Mean_Neg_mode_1-5DAN_no4_5um_yemeng.png"))
+plot(MSI_obj_mean, main = "Mean_Neg_mode_1-5DAN_no4_5um_yemeng")
+dev.off()
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+fig_mid_mean <- plot_ly(data = feature_data_mean, x = ~mz, y =~mean, mode = 'lines')
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########
+image(lj_100um_mid_tic)
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+#################################export all mz spectrum into one pdf and have a profile view;
+plot_path <- getwd()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.5) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.0) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[1], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "/after_peak_picking_237_features_no4_5um_yemeng.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.17, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("I:/lijun_LJ/MALDI_data/NO1_no80_glioma_mouse_20um/")
+{
+#################################Load library needed
+library(Cardinal)
+}
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "NO1_#80_glioma_mouse_20um"
+msi_folder <- "I:/lijun_LJ/MALDI_data/NO1_no80_glioma_mouse_20um/"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+MSI_obj@featureData@resolution
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+plot(MSI_obj_mean, main = "Mean_Neg_mode_1-5DAN_no1_20um_yemeng")
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+fig_mid_mean <- plot_ly(data = feature_data_mean, x = ~mz, y =~mean, mode = 'lines')
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########
+image(lj_100um_mid_tic)
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+#################################export all mz spectrum into one pdf and have a profile view;
+plot_path <- getwd()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()

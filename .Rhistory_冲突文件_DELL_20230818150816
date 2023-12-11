@@ -1,0 +1,512 @@
+Microglia_PID27.combined <- RunPCA(Microglia_PID27.combined, features = VariableFeatures(object = Microglia_PID27.combined))
+#Seurat provides several useful ways of visualizing both cells and features that define the PCA, including VizDimReduction(), DimPlot(), and DimHeatmap()
+# Examine and visualize PCA results a few different ways
+print(Microglia_PID27.combined[["pca"]], dims = 1:5, nfeatures = 5)
+#------------------------------Cluster the cells----------------------------------#
+Microglia_PID27.combined <- FindNeighbors(Microglia_PID27.combined, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+Microglia_PID27.combined <- FindClusters(Microglia_PID27.combined, resolution = 0.2)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Microglia_PID27.combined), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+Microglia_PID27.combined <- RunUMAP(Microglia_PID27.combined, dims = 1:20)
+DimPlot(Microglia_PID27.combined, reduction = "umap", label = T)
+# find markers for every cluster compared to all remaining cells, report only the positive ones
+Microglia_PID27.markers <- FindAllMarkers(Microglia_PID27.combined, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+Microglia_PID27.markers %>%
+group_by(cluster) %>%
+slice_max(n = 2, order_by = avg_log2FC)
+Microglia_PID27.markers %>%
+group_by(cluster) %>%
+top_n(n = 10, wt = avg_log2FC) -> top10
+DoHeatmap(Microglia_PID27.combined, features = top10$gene) + NoLegend()
+# Subset Seurat object based on identity class, also see ?SubsetData
+###Cluster.1.8.12.only <- subset(x = seuratA, idents = c('1','8', '12'))
+Microglia_PID27a1 <- subset(x = PID27a1, idents = c('0', '22'))
+Microglia_PID27a1
+# Subset Seurat object based on identity class, also see ?SubsetData
+###Cluster.1.8.12.only <- subset(x = seuratA, idents = c('1','8', '12'))
+Microglia_PID27c1 <- subset(x = PID27c1, idents = c('2', '20'))
+Microglia_PID27c1
+Microglia_PID27.combined <- merge(Microglia_PID27a1, y = Microglia_PID27c1, add.cell.ids = c("a1_Exp", "c1_Ctrl"), project = "Microglia_PID27")
+Microglia_PID27.combined
+#------------------------------------Normalizing the data--------------------------------------------#
+Microglia_PID27.combined <- NormalizeData(Microglia_PID27.combined, normalization.method = "LogNormalize", scale.factor = 10000)
+#-------------------Identification of highly variable features (feature selection)--------------------#
+Microglia_PID27.combined <- FindVariableFeatures(Microglia_PID27.combined, selection.method = "vst", nfeatures = 2000)
+#-------------------------------Scaling the data----------------------------------------#
+all.genes <- rownames(Microglia_PID27.combined)
+Microglia_PID27.combined <- ScaleData(Microglia_PID27.combined, features = all.genes)
+#---------------------Perform linear dimensional reduction------------------------------#
+#Next we perform PCA on the scaled data. By default, only the previously determined variable features are used as input, but can be defined using features argument if you wish to choose a different subset.
+Microglia_PID27.combined <- RunPCA(Microglia_PID27.combined, features = VariableFeatures(object = Microglia_PID27.combined))
+#Seurat provides several useful ways of visualizing both cells and features that define the PCA, including VizDimReduction(), DimPlot(), and DimHeatmap()
+# Examine and visualize PCA results a few different ways
+print(Microglia_PID27.combined[["pca"]], dims = 1:5, nfeatures = 5)
+#------------------------------Cluster the cells----------------------------------#
+Microglia_PID27.combined <- FindNeighbors(Microglia_PID27.combined, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+Microglia_PID27.combined <- FindClusters(Microglia_PID27.combined, resolution = 0.2)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Microglia_PID27.combined), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+Microglia_PID27.combined <- RunUMAP(Microglia_PID27.combined, dims = 1:20)
+DimPlot(Microglia_PID27.combined, reduction = "umap", label = T)
+#-----------------------------------Check whether cluster4 is ctrl or exp. group------------------------------------#
+Microglia_combined_c4 <- subset(x = Microglia_PID27.combined, idents = '4')
+##############
+head(Idents(Microglia_combined_c4), 20)
+#-----------------------------------Check whether cluster2 is ctrl or exp. group------------------------------------#
+Microglia_combined_c2 <- subset(x = Microglia_PID27.combined, idents = '2')
+##############
+head(Idents(Microglia_combined_c2), 20)
+#-----------------------------------Check whether cluster0 is ctrl or exp. group------------------------------------#
+Microglia_combined_c0 <- subset(x = Microglia_PID27.combined, idents = '0')
+##############
+head(Idents(Microglia_combined_c0), 20)
+##############Cluster3 and Cluster1 are cells from Ctrl group
+#-----------------------------------Check whether cluster3 is ctrl or exp. group------------------------------------#
+Microglia_combined_c3 <- subset(x = Microglia_PID27.combined, idents = '3')
+##############
+head(Idents(Microglia_combined_c3), 20)
+#-----------------------------------Check whether cluster1 is ctrl or exp. group------------------------------------#
+Microglia_combined_c1 <- subset(x = Microglia_PID27.combined, idents = '3')
+##############
+head(Idents(Microglia_combined_c1), 20)
+#-----------------------------------Check whether cluster0 is ctrl or exp. group------------------------------------#
+Microglia_combined_c0 <- subset(x = Microglia_PID27.combined, idents = '0')
+##############
+head(Idents(Microglia_combined_c0), 20)
+#-----------------------------------Check whether cluster1 is ctrl or exp. group------------------------------------#
+Microglia_combined_c1 <- subset(x = Microglia_PID27.combined, idents = '3')
+##############
+head(Idents(Microglia_combined_c1), 20)
+#-----------------------------------Check whether cluster2 is ctrl or exp. group------------------------------------#
+Microglia_combined_c2 <- subset(x = Microglia_PID27.combined, idents = '2')
+##############
+head(Idents(Microglia_combined_c2), 20)
+##############Cluster3 and Cluster1 are cells from Ctrl group
+#-----------------------------------Check whether cluster3 is ctrl or exp. group------------------------------------#
+Microglia_combined_c3 <- subset(x = Microglia_PID27.combined, idents = '3')
+##############
+head(Idents(Microglia_combined_c3), 20)
+#-----------------------------------Check whether cluster4 is ctrl or exp. group------------------------------------#
+Microglia_combined_c4 <- subset(x = Microglia_PID27.combined, idents = '4')
+##############
+head(Idents(Microglia_combined_c4), 20)
+#---------Finding differentially expressed features (cluster biomarkers)-----------#
+# find all markers of cluster 4
+Microglia_C4_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(0,1,2,3), min.pct = 0.25)
+head(Microglia_C4_exp_diffs, n = 10)
+##############Cluster 4 markers;
+FeaturePlot(object = Microglia_PID27.combined, features = rownames(Astro_C4_exp_diffs)[1:9], cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = c("Hmga2", "Fam189a1", "Klhl1", "Gabrg3", "Tnc", "Cdh13", "Chrm3"), cols = c("grey", "red"), raster=FALSE, label = T)
+##############Cluster 4 markers;
+FeaturePlot(object = Microglia_PID27.combined, features = rownames(Microglia_C4_exp_diffs)[1:9], cols = c("grey", "red"), raster=FALSE, label = T)
+#-----------------------------------Check whether cluster1 is ctrl or exp. group------------------------------------#
+Microglia_combined_c1 <- subset(x = Microglia_PID27.combined, idents = '1')
+##############
+head(Idents(Microglia_combined_c1), 20)
+##############
+head(Idents(Microglia_combined_c1), 20)
+##############
+head(Idents(Microglia_combined_c2), 20)
+##############Cluster3 and Cluster1 are cells from Ctrl group
+#-----------------------------------Check whether cluster3 is ctrl or exp. group------------------------------------#
+Microglia_combined_c3 <- subset(x = Microglia_PID27.combined, idents = '3')
+##############
+head(Idents(Microglia_combined_c3), 20)
+#-----------------------------------Check whether cluster4 is ctrl or exp. group------------------------------------#
+Microglia_combined_c4 <- subset(x = Microglia_PID27.combined, idents = '4')
+##############
+head(Idents(Microglia_combined_c4), 20)
+##############Cluster3 and Cluster1 are cells from Ctrl group
+#-----------------------------------Check whether cluster3 is ctrl or exp. group------------------------------------#
+Microglia_combined_c3 <- subset(x = Microglia_PID27.combined, idents = '3')
+##############
+head(Idents(Microglia_combined_c3), 20)
+#-----------------------------------Check whether cluster2 is ctrl or exp. group------------------------------------#
+Microglia_combined_c2 <- subset(x = Microglia_PID27.combined, idents = '2')
+##############
+head(Idents(Microglia_combined_c2), 20)
+# find markers for every cluster compared to all remaining cells, report only the positive ones
+Microglia_PID27.markers <- FindAllMarkers(Microglia_PID27.combined, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+Microglia_PID27.markers %>%
+group_by(cluster) %>%
+slice_max(n = 2, order_by = avg_log2FC)
+Microglia_PID27.markers %>%
+group_by(cluster) %>%
+top_n(n = 10, wt = avg_log2FC) -> top10
+DoHeatmap(Microglia_PID27.combined, features = top10$gene) + NoLegend()
+# find all markers of cluster 2
+Microglia_C2_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(0,2,3), min.pct = 0.25)
+head(Microglia_C2_exp_diffs, n = 10)
+# find all markers of cluster 0
+Microglia_C2_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(1,2,3,4), min.pct = 0.25)
+head(Microglia_C2_exp_diffs, n = 10)
+nrow(Microglia_C2_exp_diffs)
+#---------Finding differentially expressed features (cluster biomarkers)-----------#
+# find all markers of cluster 4
+Microglia_C4_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(0,1,2,3), min.pct = 0.25)
+head(Microglia_C4_exp_diffs, n = 10)
+#---------Finding differentially expressed features (cluster biomarkers)-----------#
+# find all markers of cluster 1
+Microglia_C1_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(0,2,3,4), min.pct = 0.25)
+head(Microglia_C1_exp_diffs, n = 10)
+##############Cluster 4 markers;
+FeaturePlot(object = Microglia_PID27.combined, features = rownames(Microglia_C1_exp_diffs)[1:9], cols = c("grey", "red"), raster=FALSE, label = T)
+rownames(Microglia_C1_exp_diffs)[1:9]
+# find all markers of cluster 0
+Microglia_C0_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(1,2,3,4), min.pct = 0.25)
+head(Microglia_C0_exp_diffs, n = 10)
+rownames(Microglia_C0_exp_diffs)[1:9]
+##############Cluster 0 markers;
+###[1] "H2-Ab1"  "H2-Aa"   "H2-Eb1"  "Cd74"    "C1qc"    "Apoe"    "Gm42418" "C1qb"    "Cd81"
+FeaturePlot(object = Microglia_PID27.combined, features = rownames(Microglia_C0_exp_diffs)[1:9], cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "Tmem119", cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "Apoe", cols = c("grey", "red"), raster=FALSE, label = T)
+##############################降低UMAP的分群分辨率，把这5群细胞单独分为两群；
+#------------------------------Cluster the cells----------------------------------#
+Microglia_PID27.combined <- FindNeighbors(Microglia_PID27.combined, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+Microglia_PID27.combined <- FindClusters(Microglia_PID27.combined, resolution = 0.1)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Microglia_PID27.combined), 5)
+#Computing nearest neighbor graph
+#Computing SNN
+Microglia_PID27.combined <- FindClusters(Microglia_PID27.combined, resolution = 0.05)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Microglia_PID27.combined), 5)
+#Computing nearest neighbor graph
+#Computing SNN
+Microglia_PID27.combined <- FindClusters(Microglia_PID27.combined, resolution = 0.01)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Microglia_PID27.combined), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+Microglia_PID27.combined <- RunUMAP(Microglia_PID27.combined, dims = 1:20)
+DimPlot(Microglia_PID27.combined, reduction = "umap", label = T)
+#-----------------------------------------Analysis DEGs of Microglia in bAVM V.S. Ctrl region-----------------------#
+Microglia_C12_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(1,2), min.pct = 0.25)
+head(Microglia_C02_exp_diffs, n = 10)
+head(Microglia_C12_exp_diffs, n = 10)
+####Volcano plot
+##data$significant <- as.factor(data$PValue<0.05 & abs(data$logFC) > 1)
+##data$gene <- data$GENE_NAME
+Microglia_C12_exp_diffs$SYMBOL <- rownames(Microglia_C12_exp_diffs)
+colnames(Microglia_C12_exp_diffs)[5] <- "padj"
+colnames(Microglia_C12_exp_diffs)[2] <- "log2FoldChange"
+data <- Microglia_C12_exp_diffs
+data$significant <- as.factor(data$padj<0.05 & abs(data$log2FoldChange) > 1)
+#########store gene names
+data$gene <- Microglia_C02_exp_diffs$SYMBOL
+#########store gene names
+data$gene <- Microglia_C12_exp_diffs$SYMBOL
+library(ggrepel)
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 2),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 2), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+#-----------------------------------------Analysis DEGs of Microglia in bAVM V.S. Ctrl region-----------------------#
+Microglia_C0_exp_diffs <- FindMarkers(Microglia_PID27.combined, ident.1 = c(0), min.pct = 0.25)
+head(Microglia_C0_exp_diffs, n = 10)
+####Volcano plot
+##data$significant <- as.factor(data$PValue<0.05 & abs(data$logFC) > 1)
+##data$gene <- data$GENE_NAME
+Microglia_C0_exp_diffs$SYMBOL <- rownames(Microglia_C0_exp_diffs)
+####Volcano plot
+##data$significant <- as.factor(data$PValue<0.05 & abs(data$logFC) > 1)
+##data$gene <- data$GENE_NAME
+Microglia_C0_exp_diffs$SYMBOL <- rownames(Microglia_C0_exp_diffs)
+colnames(Microglia_C0_exp_diffs)[5] <- "padj"
+colnames(Microglia_C0_exp_diffs)[2] <- "log2FoldChange"
+data <- Microglia_C0_exp_diffs
+data$significant <- as.factor(data$padj<0.05 & abs(data$log2FoldChange) > 1)
+#########store gene names
+data$gene <- Microglia_C0_exp_diffs$SYMBOL
+library(ggrepel)
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 2),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 2), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 2),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.5),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.8),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.6),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.6),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.6), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+p <- ggplot(data=data, aes(x=log2FoldChange, y =-log10(padj), color=significant)) +
+geom_point(alpha=0.8, size=1.2, col="grey50")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange > 1),alpha=0.8, size=1.2,col="#cf558e")+
+geom_point(data=subset(data, data$padj<0.05 & data$log2FoldChange < -1),alpha=0.8, size=1.2,col="#558acf")+
+labs(x="log2(Fold Change)",y="-log10 (padj)", title="Microglia, Ctrl vs bAVM(PID27)")+
+theme(plot.title = element_text(hjust = 0.4))+
+geom_hline(yintercept = -log10(0.05),lty=4,lwd=0.6,alpha=0.8)+
+geom_vline(xintercept = c(1,-1),lty=4,lwd=0.6,alpha=0.8)+
+theme(legend.position='none')+
+theme_bw()+
+####remove the border
+theme(panel.border = element_blank(),
+panel.grid.major = element_blank(),
+panel.grid.minor = element_blank(),
+axis.line = element_line(colour = "black")) +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.7),alpha=0.8, size=3,col="red") +
+geom_point(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2),alpha=0.8, size=3,col="blue") +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange > 1.7), aes(label=gene), col="black", size = 5.5, alpha = 0.8) +
+geom_text_repel(data=subset(data, data$padj < 1*10^(-3) & data$log2FoldChange < -2.5), aes(label=gene), col="black", size = 5.5, alpha = 0.8)
+p+ theme(
+title = element_text(color="black", size=19, face="bold"),
+axis.title.x = element_text(color="black", size=19, face="bold"),
+axis.title.y = element_text(color="black", size=19, face="bold"),
+axis.text=element_text(size=18,face = "bold"),
+line = element_line(size =1)) + scale_x_continuous(name="Log2(Fold change)", limits=c(-5, 8))
+#####################Upregulated markers:
+FeaturePlot(object = Microglia_PID27.combined, features = "Apoe", cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "Aoah", cols = c("grey", "red"), raster=FALSE, label = T)
+#####################Upregulated markers:
+FeaturePlot(object = Microglia_PID27.combined, features = "Apoe", cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "Cp", cols = c("grey", "red"), raster=FALSE, label = T)
+#####################Downregulated markers:
+FeaturePlot(object = Microglia_PID27.combined, features = "Cd74", cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "H2-Aa", cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "H2-Aa", cols = c("grey", "Blue"), raster=FALSE, label = T)
+#####################Downregulated markers:
+FeaturePlot(object = Microglia_PID27.combined, features = "Cd74", cols = c("grey", "red"), raster=FALSE, label = T)
+#####################Downregulated markers:
+FeaturePlot(object = Microglia_PID27.combined, features = "Cd74", cols = c("grey", "Blue"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "H2-Ab1", cols = c("grey", "red"), raster=FALSE, label = T)
+FeaturePlot(object = Microglia_PID27.combined, features = "H2-Ab1", cols = c("grey", "Blue"), raster=FALSE, label = T)
+# Subset Seurat object based on identity class, also see ?SubsetData
+###Cluster.1.8.12.only <- subset(x = seuratA, idents = c('1','8', '12'))
+Astro_PID27a1 <- subset(x = PID27a1, idents = '9')
+Astro_PID27a1
+# Subset Seurat object based on identity class, also see ?SubsetData
+###Cluster.1.8.12.only <- subset(x = seuratA, idents = c('1','8', '12'))
+Astro_PID27c1 <- subset(x = PID27c1, idents = '9')
+Astro_PID27c1
+Astro_PID27.combined <- merge(Astro_PID27a1, y = Astro_PID27c1, add.cell.ids = c("a1_Exp", "c1_Ctrl"), project = "Astro_PID27")
+Astro_PID27.combined
+#------------------------------------Normalizing the data--------------------------------------------#
+Astro_PID27.combined <- NormalizeData(Astro_PID27.combined, normalization.method = "LogNormalize", scale.factor = 10000)
+#-------------------Identification of highly variable features (feature selection)--------------------#
+Astro_PID27.combined <- FindVariableFeatures(Astro_PID27.combined, selection.method = "vst", nfeatures = 2000)
+#-------------------------------Scaling the data----------------------------------------#
+all.genes <- rownames(Astro_PID27.combined)
+Astro_PID27.combined <- ScaleData(Astro_PID27.combined, features = all.genes)
+#---------------------Perform linear dimensional reduction------------------------------#
+#Next we perform PCA on the scaled data. By default, only the previously determined variable features are used as input, but can be defined using features argument if you wish to choose a different subset.
+Astro_PID27.combined <- RunPCA(Astro_PID27.combined, features = VariableFeatures(object = Astro_PID27.combined))
+#Seurat provides several useful ways of visualizing both cells and features that define the PCA, including VizDimReduction(), DimPlot(), and DimHeatmap()
+# Examine and visualize PCA results a few different ways
+print(Astro_PID27.combined[["pca"]], dims = 1:5, nfeatures = 5)
+#------------------------------Cluster the cells----------------------------------#
+Astro_PID27.combined <- FindNeighbors(Astro_PID27.combined, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+Astro_PID27.combined <- FindClusters(Astro_PID27.combined, resolution = 0.2)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Astro_PID27.combined), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+Astro_PID27.combined <- RunUMAP(Astro_PID27.combined, dims = 1:20)
+DimPlot(Astro_PID27.combined, reduction = "umap", label = T)
+# find markers for every cluster compared to all remaining cells, report only the positive ones
+Astro_PID27.markers <- FindAllMarkers(Astro_PID27.combined, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+Astro_PID27.markers %>%
+group_by(cluster) %>%
+slice_max(n = 2, order_by = avg_log2FC)
+Astro_PID27.markers %>%
+group_by(cluster) %>%
+top_n(n = 10, wt = avg_log2FC) -> top10
+DoHeatmap(Astro_PID27.combined, features = top10$gene) + NoLegend()
+#############################differentiate the exp group cells and ctrl group cells by several
+FeaturePlot(Astro_PID27.combined, features = c("Tspan7"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+FeaturePlot(Astro_PID27.combined, features = c("Clu"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+#############################Upregluated genes in astrocyte;
+FeaturePlot(Astro_PID27.combined, features = c("Cdh13"), cols = c("grey", "Red"), raster=FALSE, label = T)
+#Computing nearest neighbor graph
+#Computing SNN
+Astro_PID27.combined <- FindClusters(Astro_PID27.combined, resolution = 0.5)
+# Look at cluster IDs of the first 5 cells
+head(Idents(Astro_PID27.combined), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+Astro_PID27.combined <- RunUMAP(Astro_PID27.combined, dims = 1:20)
+DimPlot(Astro_PID27.combined, reduction = "umap", label = T)
+#############################Upregluated genes in astrocyte;
+FeaturePlot(Astro_PID27.combined, features = c("Cdh13"), cols = c("grey", "Red"), raster=FALSE, label = T)
+#############################Downregluated genes in astrocyte;
+FeaturePlot(Astro_PID27.combined, features = c("Tspan7"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+FeaturePlot(Astro_PID27.combined, features = c("Clu"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+FeaturePlot(Astro_PID27.combined, features = c("Cst3"), cols = c("grey", "Blue"), raster=FALSE, label = T)
