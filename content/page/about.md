@@ -40,9 +40,9 @@ Promoter engineering
 ![tranquilx1](/img/Image_22.png)
 
 **Ph.D.**, Peking University, Beijing\
-SEPTEMBER 2018 --- DECEMBER 2023\
+SEPTEMBER 2018 --- January 2024\
 Academy for Advanced Interdisciplinary Studies (AAIS)\
-Major in Neuroscience; CIBR-PKU-joint Ph.D. program
+Major in Neurobiology; CIBR-PKU-joint Ph.D. program
 
 ![Tranquilyyy](/img/Hzau2018.png)
 
@@ -53,7 +53,7 @@ Major In Bioscience; Class of State Key Educational Base
 
 ---
 
-[This is my CV](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVmuSZostuVFsCxtMO5xjlMBjKmKib9U-7qbgYvDbCj8-Q?e=x1tuLU), click and view.
+[This is my CV](), click and view.
 
 ---
 
@@ -151,21 +151,23 @@ University, Beijing, China
 APRIL 2014 — PRESENT
 
 ## Honors
-1. **Excellent student Scholarship of Baosteel**, 10/2021, (Baosteel Education Foundation), China
-2. **Dean Scholarship** (The highest scholarship that represents student’s academic 
+1.	China Optics Valley Scholarship, 12/2022, Optical Valley Foundation, China
+2. **Excellent student Scholarship of Baosteel**, 10/2021, (Baosteel Education Foundation), China
+3.	Outstanding Graduates, 06/2018, College of life Science and Technology, HZAU
+4. **Dean Scholarship** (The highest scholarship that represents student’s academic 
 performance), 09/2017, College of life Science and Technology, HZAU
-3. **National Endeavor Scholarship**, 09/2017, Hubei Province Department of 
+5. **National Endeavor Scholarship**, 09/2017, Hubei Province Department of 
 Education, China
-4. **Qifa Zhang Scholarship** (Funded by Qifa Zhang who is an academician of Chinese 
+6. **Qifa Zhang Scholarship** (Funded by Qifa Zhang who is an academician of Chinese 
 academy of sciences, foreign academician of the American academy of sciences 
 and The third world academy of sciences), 10/2015, College of life Science and 
 Technology, HZAU
-5. **Freshman Principle special Scholarship** (Scholarship for Freshman year student 
+7. **Freshman Principle special Scholarship** (Scholarship for Freshman year student 
 honored by the president of HZAU), 09/2014, Huazhong Agricultural University
-6. **Model Student of Academic Records**, 10/2016, College of life Science and 
+8. **Model Student of Academic Records**, 10/2016, College of life Science and 
 Technology, HZAU
-7. **Triple-A Student**, 2017, College of Life Science and Technology, HZAU
-8. **Triple-A Student**, 2015, College of Life Science and Technology, HZAU
+9. **Triple-A Student**, 2017, College of Life Science and Technology, HZAU
+10. **Triple-A Student**, 2015, College of Life Science and Technology, HZAU
 
 ## Awards
 1. **Bronze medal of iGEM-2016 Competition** (International Genetically Engineered 

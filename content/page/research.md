@@ -20,8 +20,9 @@ showActions:    false
 
 ## Brain vasculature system
 ![talkxssqwe](/img/576078_548648.png)
-Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells are one of the major components of brain vasculature system and involved in many kinds of brain vasculature disease, like AVM, CCM, HHT. 
+Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
 
+**One the road of hunting new disease target......**
 
 
 ---
