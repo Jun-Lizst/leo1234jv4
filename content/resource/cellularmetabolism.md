@@ -55,15 +55,17 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
     [ ] Review: **The Dawn of the Age of Amino Acid
 Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZgzP49XBXxLkseXtjZA-PUB_zSWROkzRhi8hLTUYoCIfA?e=sajlnb) | [PMID:28768171](https://pubmed.ncbi.nlm.nih.gov/28768171/) | [DOI Link](https://doi.org/10.1016/j.cmet.2017.07.001)] \
     --- Leucine > Sestrin2 \
-    --- Arginine > CASTOR1 \
+    --- Arginine(Cytosolic) > CASTOR1 [(David M Sabatini's lab, 24/03/2016) | [PMID: 26972053](https://pubmed.ncbi.nlm.nih.gov/26972053/)] \
+    --- Arginine(Cytosolic) > RBM39 [(Michael N Hall's lab, 09/11/2023) | [PMID: 37804830](https://pubmed.ncbi.nlm.nih.gov/37804830/)] \
+    --- Arginine(lysosomal) > SLC38A9 \
+    --- S-adenosylmethionine > SAMTOR \
+    --- S-adenosylmethionine > Unmet(Fly specific)    
     [ ] GATOR2 > Nutrient sensing hub!? [[CroyEM Structure of human GATOR2 complex](https://doi.org/10.1038/s41586-022-04939-z)]
     
     - Glucose: \
     ---AMPK
-    
 
-
-5. **Open questions**
+6. **Open questions**
     - How cells sense, integrate and respond to nutrient availability and how lysosomes are involved in the process?
     - How amino acids were sensed? More amino acid sensors?
     - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms?

@@ -34,8 +34,11 @@ thumbnailImagePosition: left
 
 
 - **Brain endothelial cell targeting**: 
-    - AAV-BR1: Neurons(Cortex, Striatum, Cerebellum); Brain endothelial cells(Whole brain and spinal cord); has central nervous system specificity. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
-    - AAV-BI30: AAV9 variants, with liver leakage. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUxMCsFh91tDl49LHoAorpkBT1REK6IuHFHofD7ze-dcFA?e=Z0s0iN) | [PMID: 35571675](https://pubmed.ncbi.nlm.nih.gov/35571675/) | [DOI Link](https://doi.org/10.1038/s44161-022-00046-4)]
+    - AAV-BR1: transduce Neurons(Cortex, Striatum, Cerebellum); Brain endothelial cells(Whole brain and spinal cord); has central nervous system specificity. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
+    - AAV-BI30: AAV9 variants, with liver leakage, has brainEC specificity when used in adult mice. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUxMCsFh91tDl49LHoAorpkBT1REK6IuHFHofD7ze-dcFA?e=Z0s0iN) | [PMID: 35571675](https://pubmed.ncbi.nlm.nih.gov/35571675/) | [DOI Link](https://doi.org/10.1038/s44161-022-00046-4)]
+    - AAV-X1.1: AAV9 variants, not specific when retro-orbitally injected into rat.
+[[PDF]() | [PMID: 37291094](https://pubmed.ncbi.nlm.nih.gov/37291094/) | [DOI Link](https://doi.org/10.1038/s41467-023-38582-7)]    
+
 
 - **Microglia targeting**: 
     - AAV2/6(Y731F/Y705F/T492V) [[PMID: 27308302](https://pubmed.ncbi.nlm.nih.gov/27308302/) | [DOI Link](https://doi.org/10.1038/mtm.2016.26)]
@@ -43,7 +46,8 @@ thumbnailImagePosition: left
 
 - **Astrocyte targeting**:
     - AAV-PhP.B5
-    - AAV-PhP.AX [[]]
+    - AAV-PhP.AX [[PDF]() | [PMID: 37291094](https://pubmed.ncbi.nlm.nih.gov/36702899/) | [DOI Link](https://doi.org/10.1038/s41587-022-01648-w)] 
+
 
 - **Brain organ specific**: 
     - AAV-BR1: Based on AAV2 wt cap, screen and recovered by brain homing assay. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
@@ -87,9 +91,13 @@ thumbnailImagePosition: left
 
 - **Melanin concentrating hormone neurons**: ppMCH [[PMID: 15157424](https://pubmed.ncbi.nlm.nih.gov/15157424/)]
 
-- **Astrocyte**: GfABC1D: short GFAP promoter[]
+- **Astrocyte**: 
+    - GfABC1D: short GFAP promoter[[PMID: 18240313](https://pubmed.ncbi.nlm.nih.gov/18240313/)], 
+    - 4x6T: four copies of six miRNA targeting sequences, when combinded with GfABC1D, >99% astrocytic specificity. [[PMID: 15157424](https://pubmed.ncbi.nlm.nih.gov/15157424/)]
 
-- **Microglia**: Cd68[]
+- **Microglia**: 
+    - pIba1: 1.7kb promoter region of Iba1 gene [[PMID: 36369525](https://pubmed.ncbi.nlm.nih.gov/36369525/)]
+    - pCd68[]:
 
 - **Endothelial cells**: 
 
