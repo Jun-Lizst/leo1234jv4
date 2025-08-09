@@ -1,0 +1,512 @@
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[1], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "NO1_20UM_after_peak_picking_2_features_1_5_DAN_neg.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.17, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+plot_path
+fig_mid_mean
+fig_mid_mean
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=2) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.###重新调整SNR, 最低信号intensity 为2.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.5) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.###重新调整SNR, 最低信号intensity 为2.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=1.1) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.###重新调整SNR, 最低信号intensity 为2.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+length(lj_100um_mid_peaks@featureData@mz)
+image(MSI_obj, mz=lj_100um_mid_peaks@featureData@mz[1], plusminus=0.1, colorscale = colors, contrast.enhance = c("suppression"))
+#################Export result MSI after peak picking;
+mz_array_peaks <- lj_100um_mid_peaks@featureData@mz
+pdf(paste0(plot_path, "NO1_20UM_after_peak_picking_101_features_1_5_DAN_neg.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array_peaks)){
+p <- image(MSI_obj, mz=mz_array_peaks[i], plusminus=0.17, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+{
+#################################Load library needed
+library(Cardinal)
+}
+{
+#################################Load library needed
+library(Cardinal)
+}
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/P56-IMZML-NEW/")
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "20220412-1_5dan-100um-b1-4-total ion count"
+msi_folder <- "E:/P56-IMZML-NEW/"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+########Naming logic: Glass one-Slice one: B1-1;
+############################ Read imzML files
+name_1 <- "20220412-1_5dan-100um-b1-1-total ion count"
+MSI_obj <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+################Pre-processing;
+###We calculate the mean spectrum using summarizeFeatures().
+#Fun: A function or list of functions that return statistical summaries.
+#Known statistics can be provided to be computed more efficiently than providing the equivalent function.
+#Known statistics include "min", "max", "mean", "sum", "sd", and "var".
+MSI_obj_mean <- summarizeFeatures(MSI_obj, "mean")
+plot_path <- "E:/P56-IMZML-NEW/"
+plot(MSI_obj_mean, main = "Mean_Neg_mode_1-5DAN_0724_b1_1-test")
+######################Apply plotly plot to interactively visualize TIC plot, and check individual peaks;
+feature_data_mean <- as.data.frame(cbind(MSI_obj_mean@featureData@mz, MSI_obj_mean@featureData$mean))
+colnames(feature_data_mean) <- c("mz", "mean")
+library(plotly)
+fig_mid_mean <- plot_ly(data = feature_data_mean, x = ~mz, y =~mean, mode = 'lines')
+###################normalize all pixels with TIC method;
+##In order to make the mass spectra comparable between different pixels, it is necessary to normalize the data. We will use TIC normalization.
+##Let’s calculate the TIC to see how it currently varies across the dataset in the raw, unprocessed specra.
+###summarizePixels(x, FUN = "mean", ...)   FUN = "sum";
+# summarize image by TIC
+lj_100um_mid_tic <- summarizePixels(MSI_obj, c(tic="sum"))
+###########
+image(lj_100um_mid_tic)
+###########All m/z;
+all_mz <- MSI_obj@featureData@mz
+all_mz <- as.data.frame(all_mz)
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+setwd("D:/lijun_2022/lijun_All_data/2022_04_12_in_guodian_MALDI/")
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+View(MSI_obj)
+MSI_obj@featureData@mz
+export_csv <- export_csv(MSI_obj@featureData@mz, "E:/P56-IMZML-NEW/818features_b1_1.csv")
+library(tidyverse)
+library(dplyr)
+export_csv <- export_csv(MSI_obj@featureData@mz, "E:/P56-IMZML-NEW/818features_b1_1.csv")
+export_csv(MSI_obj@featureData@mz, "E:/P56-IMZML-NEW/818features_b1_1.csv")
+write.csv(MSI_obj@featureData@mz, "E:/P56-IMZML-NEW/818features_b1_1.csv")
+###########All m/z;
+all_mz_1 <- MSI_obj@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+length(lj_100um_mid_peaks@featureData@mz)
+lj_100um_mid_peaks    ###(tol = 0.26 mz)
+###Now we bin the rest of the dataset to the reference peaks.
+lj_100um_mid_peaks <- MSI_obj %>%
+normalize(method="tic") %>%
+peakBin(ref=mz(lj_100um_mid_ref),
+tolerance=0.26,    ###units = c("ppm", "mz")   #######0.26, manual measured
+units="mz") %>%   ###The units to use for the tolerance.
+process()
+################create a reference peaks;
+###To process the dataset, we will first perform peak picking on the mean spectrum to create a set of reference peaks.
+###We will then bin the peaks in the entire dataset to this reference.
+lj_100um_mid_ref <- MSI_obj_mean %>%
+peakPick(SNR=3) %>%        ###SNR; The minimum signal-to-noise ratio to be considered a peak.
+peakAlign(ref="mean",     ###ref; A reference to which to align the peaks.
+tolerance=0.5,  ###The tolerance to be used when aligning detected peaks to the reference. If this is NA, then automatically guess a tolerance from the data.
+units="mz") %>%  ###The units to use for the tolerance. Either parts-per-million or the raw m/z values.
+peakFilter() %>%          ###
+process()
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj)[1:nrow(all_mz_1), 1:nrow(lj_100um_mid_peaks@elementMetadata@coord)]
+dim(df_all_raw)
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_x <- MSI_obj@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj@elementMetadata@coord@listData[["y"]]
+#################give the annotation to certain variants;
+for(j in 1:ncol(df_all_raw)){
+pixel_loc[j] <- paste0(-(all_x[j]),
+"_", -(all_y[j]))
+}
+###########################
+colnames(df_all_raw) <- pixel_loc
+rownames(df_all_raw) <- all_mz_1$all_mz_1
+###########################
+#final_prefix <- substr(name_list[i], 1, nchar(name_list[i])-21)
+write.csv(df_all_raw, "E:/P56-IMZML-NEW/818features_b1_1.csv", row.names = T)
+###########################
+#final_prefix <- substr(name_list[i], 1, nchar(name_list[i])-21)
+write.csv(df_all_raw, "E:/P56-IMZML-NEW/818features_b1_1x.csv", row.names = T)
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/p56-new-818-intensity/")
+msi_folder <- "E:/p56-new-818-intensity/"
+name_list <- list.files(path = "E:/p56-new-818-intensity/", pattern='.imzML')
+name_list
+i = 1
+name_1 <- substr(name_list[i], 1, nchar(name_list[i])-6)
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj_1@elementMetadata@coord@listData[["y"]]
+#################give the annotation to certain variants;
+for(j in 1:ncol(df_all_raw)){
+pixel_loc[j] <- paste0(-(all_x[j]),
+"_", -(all_y[j]))
+}
+###########################
+colnames(df_all_raw) <- pixel_loc
+rownames(df_all_raw) <- all_mz_1$all_mz_1
+###########################
+final_prefix <- substr(name_list[i], 1, nchar(name_list[i])-21)
+{
+#################################Load library needed
+library(Cardinal)
+}
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/p56-new-818-intensity/")
+msi_folder <- "E:/p56-new-818-intensity/"
+name_list <- list.files(path = "E:/p56-new-818-intensity/", pattern='.imzML')
+###########################################export all data matrix with single line cycling process;
+for(i in 1:length(name_list)){
+name_1 <- substr(name_list[i], 1, nchar(name_list[i])-6)
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+###[1]  818 5040
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj_1@elementMetadata@coord@listData[["y"]]
+#################give the annotation to certain variants;
+for(j in 1:ncol(df_all_raw)){
+pixel_loc[j] <- paste0(-(all_x[j]),
+"_", -(all_y[j]))
+}
+###########################
+colnames(df_all_raw) <- pixel_loc
+rownames(df_all_raw) <- all_mz_1$all_mz_1
+###########################
+final_prefix <- substr(name_list[i], 1, nchar(name_list[i])-21)
+write.csv(df_all_raw, paste0("E:/p56-new-818-intensity/exported_data_matrix/", final_prefix, "TIC.csv"), row.names = T)
+}
+{
+#################################Load library needed
+library(Cardinal)
+}
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/p56-new-818-intensity/")
+msi_folder <- "E:/p56-new-818-intensity/"
+name_list <- list.files(path = "E:/p56-new-818-intensity/", pattern='.imzML')
+i=7
+name_1 <- substr(name_list[i], 1, nchar(name_list[i])-6)
+name_1
+name_1 <- "20220412-1_5dan-100um-b1-7-total ion count.imzML"
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+name_1 <- "20220412-1_5dan-100um-b1-7-total ion count"
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+MSI_obj_1@featureData@resolution
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj_1@elementMetadata@coord@listData[["y"]]
+p <- image(MSI_obj_1, mz=779.675, plusminus=0.111, colorscale = colors, contrast.enhance = c("suppression"))
+p
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+p <- image(MSI_obj_1, mz=779.675, plusminus=0.111, colorscale = colors, contrast.enhance = c("suppression"))
+p
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj_1@elementMetadata@coord@listData[["y"]]
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+p <- image(MSI_obj_1, mz=779.675, plusminus=0.111, colorscale = colors, contrast.enhance = c("suppression"))
+p
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+p <- image(MSI_obj_1, mz=779.675, plusminus=0.111, colorscale = colors, contrast.enhance = c("suppression"))
+p
+name_1 <- "20220412-1_5dan-100um-b1-7-total ion count"
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+MSI_obj_1@featureData@resolution
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+################Flip the image;
+MSI_obj@elementMetadata@coord@listData[["x"]] <- -(MSI_obj@elementMetadata@coord@listData[["x"]])
+MSI_obj@elementMetadata@coord@listData[["y"]] <- -(MSI_obj@elementMetadata@coord@listData[["y"]])
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+################Flip the image;
+MSI_obj_1@elementMetadata@coord@listData[["x"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["x"]])
+MSI_obj_1@elementMetadata@coord@listData[["y"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["y"]])
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+p <- image(MSI_obj_1, mz=779.675, plusminus=0.111, colorscale = colors, contrast.enhance = c("suppression"))
+p
+p <- image(MSI_obj_1, mz=782.58, plusminus=0.097, colorscale = colors, contrast.enhance = c("suppression"))
+p
+p <- image(MSI_obj_1, mz=788.699, plusminus=0.057, colorscale = colors, contrast.enhance = c("suppression"))
+p
+p <- image(MSI_obj_1, mz=791.648, plusminus=0.053, colorscale = colors, contrast.enhance = c("suppression"))
+p
+#######################################Analysis our Rapidflex MALDI-TOF/TOF data;
+setwd("E:/p56-new-818-intensity/")
+msi_folder <- "E:/p56-new-818-intensity/"
+name_list <- list.files(path = "E:/p56-new-818-intensity/", pattern='.imzML')
+###########################################export all data matrix with single line cycling process;
+for(i in 1:length(name_list)){
+name_1 <- substr(name_list[i], 1, nchar(name_list[i])-6)
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+###[1]  818 5040
+################Flip the image;
+MSI_obj_1@elementMetadata@coord@listData[["x"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["x"]])
+MSI_obj_1@elementMetadata@coord@listData[["y"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["y"]])
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj_1@elementMetadata@coord@listData[["y"]]
+#################give the annotation to certain variants;
+for(j in 1:ncol(df_all_raw)){
+pixel_loc[j] <- paste0(-(all_x[j]),
+"_", -(all_y[j]))
+}
+###########################
+colnames(df_all_raw) <- pixel_loc
+rownames(df_all_raw) <- all_mz_1$all_mz_1
+###########################
+final_prefix <- substr(name_list[i], 1, nchar(name_list[i])-21)
+write.csv(df_all_raw, paste0("E:/p56-new-818-intensity/exported_data_matrix/", final_prefix, "TIC.csv"), row.names = T)
+}
+#################################################
+name_1 <- "20220412-1_5dan-100um-b1-1-total ion count"
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+MSI_obj_1@featureData@resolution
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+################Flip the image;
+MSI_obj_1@elementMetadata@coord@listData[["x"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["x"]])
+MSI_obj_1@elementMetadata@coord@listData[["y"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["y"]])
+################Export the coordinates;
+pixel_loc <- c(1:ncol(df_all_raw))
+all_x <- MSI_obj_1@elementMetadata@coord@listData[["x"]]
+all_y <- MSI_obj_1@elementMetadata@coord@listData[["y"]]
+#############################################setting the color bar;
+#library(devtools)
+#install_github("marchtaylor/sinkr")
+library(sinkr) # https://github.com/marchtaylor/sinkr
+ncolors <- 256
+colors <- jetPal(ncolors)
+p <- image(MSI_obj_1, mz=779.675, plusminus=0.111, colorscale = colors, contrast.enhance = c("suppression"))
+p
+p <- image(MSI_obj_1, mz=782.58, plusminus=0.097, colorscale = colors, contrast.enhance = c("suppression"))
+p
+p <- image(MSI_obj_1, mz=788.699, plusminus=0.057, colorscale = colors, contrast.enhance = c("suppression"))
+p
+p <- image(MSI_obj_1, mz=791.648, plusminus=0.053, colorscale = colors, contrast.enhance = c("suppression"))
+p
+length(all_mz_1)
+all_mz_1
+all_mz_1[1]
+all_mz_1$all_mz_1
+mz_array <- all_mz_1$all_mz_1
+length(mz_array)
+plot_path <- "E:/p56-new-818-intensity/exported_data_matrix/"
+pdf(paste0(plot_path, "MALDI_100_1200_bin6000_mz_1_5_DAN_neg_04_12.pdf"), width = 35.1/8, height = 23.6/8)
+##########################################Export all
+{
+plot_path <- "E:/p56-new-818-intensity/exported_data_matrix/"
+mz_array <- all_mz_1$all_mz_1
+pdf(paste0(plot_path, "MALDI_100_1200_bin6000_mz_1_5_DAN_neg_04_12.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array)){
+p <- image(MSI_obj_1, mz=mz_array[i], plusminus=0.05, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+}
+##########################################Export all
+{
+plot_path <- "E:/p56-new-818-intensity/exported_data_matrix/"
+mz_array <- all_mz_1$all_mz_1
+pdf(paste0(plot_path, "MALDI_818_features_1_5_DAN_neg_07_26.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array)){
+p <- image(MSI_obj_1, mz=mz_array[i], plusminus=0.05, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+}
+#################################################
+name_1 <- "20220412-1_5dan-100um-b1-7-total ion count"
+MSI_obj_1 <- readImzML(name_1, folder = msi_folder, attach.only = TRUE,
+mass.range = NULL, resolution = NA, units = c("ppm", "mz"),
+as = "MSImagingExperiment", parse.only = FALSE,
+BPPARAM = getCardinalBPPARAM())
+MSI_obj_1
+MSI_obj_1@featureData@resolution
+###########All m/z;
+all_mz_1 <- MSI_obj_1@featureData@mz
+all_mz_1 <- as.data.frame(all_mz_1)
+##########################export expression matrix dataset;
+df_all_raw <- spectra(MSI_obj_1)[1:nrow(all_mz_1), 1:nrow(MSI_obj_1@elementMetadata@coord)]
+dim(df_all_raw)
+################Flip the image;
+MSI_obj_1@elementMetadata@coord@listData[["x"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["x"]])
+MSI_obj_1@elementMetadata@coord@listData[["y"]] <- -(MSI_obj_1@elementMetadata@coord@listData[["y"]])
+##########################################Export all, b1-7
+{
+plot_path <- "E:/p56-new-818-intensity/exported_data_matrix/"
+mz_array <- all_mz_1$all_mz_1
+pdf(paste0(plot_path, "b1_7_818_features_1_5_DAN_neg_07_26.pdf"), width = 35.1/8, height = 23.6/8)
+for(i in 1:length(mz_array)){
+p <- image(MSI_obj_1, mz=mz_array[i], plusminus=0.05, colorscale = colors, contrast.enhance = c("suppression"))
+print(p)
+}
+dev.off()
+}
+library(blogdown)
+setwd("F:/BaiduSyncdisk/lijun_All_codes/leo1234j_website/leo1234jv4/")
+blogdown::serve_site()
+blogdown::stop_server()
+blogdown::build_site()

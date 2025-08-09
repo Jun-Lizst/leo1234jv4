@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiny app on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/shiny-app/</link>
+    <description>Recent content in shiny app on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Sep 2022 09:46:13 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/shiny-app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MetaBrain Explorer (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/metabrain/</link>
+      <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/metabrain/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>MetaBrain Explorer (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</link>
+      <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>SpatialMeta (Online MALDI data analysis server)</title>
+      <link>https://leoj.xyz/tooldevelopment/spatialmeta/</link>
+      <pubDate>Mon, 05 Sep 2022 10:40:25 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/spatialmeta/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for analyzing MALDI and spatial metabolomics/proteomics data.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

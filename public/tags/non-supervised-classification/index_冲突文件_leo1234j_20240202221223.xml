@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Non-supervised classification on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/non-supervised-classification/</link>
+    <description>Recent content in Non-supervised classification on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2022 00:50:05 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/non-supervised-classification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SleepyBoy</title>
+      <link>https://leoj.xyz/tooldevelopment/sleepyman/</link>
+      <pubDate>Wed, 19 Oct 2022 00:50:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/sleepyman/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;SleepyBoy is a integrated app for automatic sleep staging analysis and visualization of EEG-EMG data.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>SleepyR</title>
+      <link>https://leoj.xyz/tooldevelopment/sleepyman_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</link>
+      <pubDate>Wed, 19 Oct 2022 00:50:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/sleepyman_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;SleepyR is a integrated app for automatic sleep staging analysis of EEG-EMG data.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

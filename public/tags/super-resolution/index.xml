@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>super-resolution on Jun-Liszt Li</title>
+    <title>Super-Resolution on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/super-resolution/</link>
-    <description>Recent content in super-resolution on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Super-Resolution on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 10:43:49 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/super-resolution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 10:43:49 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/super-resolution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microscopic Imaging</title>
       <link>https://leoj.xyz/resource/imagingtools/</link>
       <pubDate>Sun, 21 Aug 2022 10:43:49 +0800</pubDate>
-      
       <guid>https://leoj.xyz/resource/imagingtools/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Believing is seeing and seeing is believing.&lt;br&gt;
-&amp;mdash; Tom Hanks&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Believing is seeing and seeing is believing.&lt;br&gt;&#xA;&amp;mdash; Tom Hanks&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
   </channel>
 </rss>

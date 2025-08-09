@@ -31,16 +31,17 @@ thumbnailImagePosition: left
     - SDS-PAGE(In-gel)
     - Western blot
     - ELISA
-
+    - BCA
 
 
 - **Protein purification**
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
 
 
+
 - **Protein interaction**
-    - co-IP
-    - Proximity labeling
+    - **co-IP**: Anti-FLAG Magnetic Agarose beads [[Thermo](https://www.thermofisher.com/order/catalog/product/A36798?ef_id=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE:G:s&s_kwcid=AL!3652!3!730146096394!!!g!!!22158546157!172279481245&cid=bid_sap_prp_r01_co_cp1362_pjt0000_bid00000_0se_gaw_dy_pur_con&gad_source=1&gad_campaignid=22158546157&gbraid=0AAAAADxi_GQApzePpHkuQmiLo2ZT9fVkx&gclid=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE) | [Sigma](https://www.sigmaaldrich.cn/CN/en/product/sigma/m8823?srsltid=AfmBOoq6WDnv8XUxZ__m1yIopkj5LQ8DzGDd35wvJ0y0Waw-PB0f2HU8)]; Anti-HA Magnetic Agarose [[Thermo](https://www.thermofisher.com/order/catalog/product/88837?SID=srch-srp-88837)]
+    - Proximity labeling: APEX[]; TurboID[];
 
 - **Protein identification**
     - Protein sequencing:
@@ -48,10 +49,10 @@ thumbnailImagePosition: left
     
 
 - **Organelle isolation**
-    - mitochondria: Mito-IP []
-    - Lysosome: LysoIP []
+    - mitochondria: Mito-IP []; Mito-IP tg mice
+    - Lysosome: LysoIP [[PMID: 29074583](https://pubmed.ncbi.nlm.nih.gov/29074583/) | [Protocol](https://www.protocols.io/view/lysosome-immunopurification-lysoip-protocol-for-su-eq2lypy1rlx9/v1)] ; LysoIP tg mice [[PMID: 36131016](https://pubmed.ncbi.nlm.nih.gov/36131016/)]
     - ER:
-    - Golgi: Golgi-IP []
+    - Golgi: Golgi-IP [[PMID: 37155866](https://pubmed.ncbi.nlm.nih.gov/37155866/) | [Protocol](https://www.protocols.io/view/golgi-immunopurification-golgi-ip-for-subcellular-5qpvor3dbv4o/v1)]
     - Synaptosome:     
 
 
@@ -85,31 +86,54 @@ thumbnailImagePosition: left
     - Sun, Lijun, et al. "Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway." Science 339.6121 (2013): 786-791. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWZWjSjbymdFsI777Dv2EYsBAlzY_hKLXIg1JZQzN8XxeQ?e=y4CBrs) | [PMID: 23258413](https://pubmed.ncbi.nlm.nih.gov/23258413/) | [DOI Link](https://www.doi.org/10.1126/science.1232458)]
     - Wu, Jiaxi, et al. "Cyclic GMP-AMP is an endogenous second messenger in innate immune signaling by cytosolic DNA." Science 339.6121 (2013): 826-830. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcEtj2d-iKlGuWeCOcAUFisBiju-HRGaphC-v8jjZmznkA?e=SsslUO) | [DOI Link](https://www.doi.org/10.1126/science.1229963)]
 
-2. [David M. Sabatini lab, WIBR, MIT](https://www.davidmsabatini.com/)
+2. [David M. Sabatini lab, WIBR, MIT; IOCB-Prague, Boston](https://www.davidmsabatini.com/)
 - **The discovery of mTOR**
     - Sabatini et al. "RAFT1: a mammalian protein that binds to FKBP12 in a rapamycin-dependent fashion and is homologous to yeast TORs." Cell 78.1 (1994): 35-43. [[PDF]() | [DOI Link](https://doi.org/10.1016/0092-8674(94)90570-3)]
     - **iBiology Talk** [[PartI: Introduction to mTOR and the regulation of growth](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Eb3JB4rNE2tMllUhPjex9CgBILDuE3oh47e37JY2pfzBlw?e=sUbxRS)]
-- **Systematic characterization of basic mechanisms that regulate growth including nutrient sensing pathways** [[CASTOR](https://doi.org/10.1016/j.cell.2016.02.035) | [Sestrin2](https://doi.org/10.1126/science.aad2087) | [SAMTOR](https://doi.org/10.1126/science.aao3265)]
+    
+- **Discovery and systematic characterization of basic mechanisms that regulate growth including nutrient sensing pathways** 
+    - **Nutrient sensors**: [[CASTOR](https://doi.org/10.1016/j.cell.2016.02.035) | [Sestrin2](https://doi.org/10.1126/science.aad2087) | [SAMTOR](https://doi.org/10.1126/science.aao3265)]
+    - **Nutrient sensing hub**: [[GATOR1]() | [GATOR2]() | [KICSTOR]()]
     - **iBiology Talks** [[PartII: Regulation of mTORC1 by nutrients](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXIwSNNwJgNAiO7RrVcJgtwBSTARmHylcl-SLXGBUIXDuQ?e=92ZqTV) | [PartIII: Ribophagy and nucleotide recycling](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESKOpuClGHFHn8BlERrknlwBHenie_CticrKRads96R1Mw?e=7d9oQA)]
 
 
-3. [Xiaodong Wang lab, UTSW, NIBS](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=779)
+3. [Xiaodong Wang lab](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=779), UTSW; NIBS
 - **The discovery of mitochondria CytoC mediated apoptosis pathway**
     - Zou, Hua, et al. "Apaf-1, a human protein homologous to C. elegans CED-4, participates in cytochrome c–dependent activation of caspase-3." Cell 90.3 (1997): 405-413.
     [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERv446uXYcxCuPrmRHgWvgYBgN04_ogoRRKU8jTIB-WTEw?e=JvdhVY) | [PMID: 9267021](https://pubmed.ncbi.nlm.nih.gov/9267021/) | [DOI Link](https://doi.org/10.1016/s0092-8674(00)80501-2)]
 
-4. [Ronald David Vale Lab](https://valelab.ucsf.edu/), University of California, San Francisco/HHMI
+4. [Ronald David Vale lab](https://valelab.ucsf.edu/), University of California; San Francisco/HHMI
 - **The discovery of Kinesin** [[iBiology Talk]()]
     - Vale, Ronald D., et al. "Direct observation of single kinesin molecules moving along microtubules." Nature 380.6573 (1996): 451-453. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EW-o1QEOPyJEsgXt-_DClf8BveckhtoI-3VhkeYs7lROaw?e=8eRGFW) | [PMID: 8602245](https://pubmed.ncbi.nlm.nih.gov/8602245/) | [DOI Link](https://doi.org/10.1038/380451a0)]
+    
 - **The Characterization of Molecular Motor Proteins** [[iBiology Talk 1]() | [iBiology Talk 2]() | [iBiology Talk 3]()]  
     - Sablin, Elena P., et al. "Crystal structure of the motor domain of the kinesin-related motor ncd." Nature 380.6574 (1996): 555-559. [[PDF]() | [PMID: 8606780](https://pubmed.ncbi.nlm.nih.gov/8606780/) | [DOI Link]()]
 
+5. [Vishva Dixit lab](https://www.gene.com/scientists/our-scientists/vishva-dixit), Genentech
+- **Summary of all research and key publications** [[PDF](https://www.gene.com/assets/frontend/pdf/content/scientists/Vishva-Dixit_Past-Research_April-2021.pdf)]
+
+- **Define a death receptor-induced apoptotic pathway**
+    -  Tewari, Muneesh, and Vishva M. Dixit. "Fas-and tumor necrosis factor-induced apoptosis is inhibited by the poxvirus crmA gene product." Journal of Biological Chemistry 270.7 (1995): 3255-3260.
+    
+    - **key downstream executioner protease**: [YAMA/caspase-3]()
+       -  Tewari, Muneesh, et al. "Yama/CPP32β, a mammalian homolog of CED-3, is a CrmA-inhibitable protease that cleaves the death substrate poly (ADP-ribose) polymerase." Cell 81.5 (1995): 801-809.
+    
+    - **FADD-caspase-8 pathway as the central apoptotic conduit used by all death receptors **: [[FADD]() | [FLICE/caspase-8]()]
+       -  Pan, Guohua, et al. "The receptor for the cytotoxic ligand TRAIL." Science 276.5309 (1997): 111-113. [[PMID: 9082980](https://pubmed.ncbi.nlm.nih.gov/9082980/)]
+    
+    
+- **The discovery and characterization of non-canonical Inflammasome pathway that responds to the presence of intracellular LPS independent of toll-like receptors** 
+    -  Kayagaki, Nobuhiko, et al. "Non-canonical inflammasome activation targets caspase-11." Nature 479.7371 (2011): 117-121.  [[PMID:22002608](https://pubmed.ncbi.nlm.nih.gov/22002608/)]
+    -  Kayagaki, Nobuhiko, et al. "Caspase-11 cleaves gasdermin D for non-canonical inflammasome signalling." Nature 526.7575 (2015): 666-671. [[PMID:26375259](https://pubmed.ncbi.nlm.nih.gov/26375259/)]
+
+  
+
 5. [Judy Lieberman, HMS](https://liebermanlab.wixsite.com/liebermanlab/)
 - **The first to show that RNAi could be the basis for therapy in an animal model**
-    -
+
 
 - **Identification of novel mechanisms of mitochondrial and DNA damage activated by granzyme A**
-    - 
+  
 
 6. [Feng Shao lab, NIBS](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=777)
 - **The discovery and characterization of GSDMD mediated pyroptosis pathway** [[Online Talk](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESMkgErwCLBJpX7uvSWuP2cBIi1aDrrquoFlQVkrOD3RKw?e=xocLlb)]
@@ -173,7 +197,7 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
 1. [Alice Ting lab, Stanford](http://www.tinglab.org/)
 - **PROXIMITY LABELING**
     - APEX
-    - TurbID
+    - TurboID
 
 - Stanford Neuro-omics Initiative, 2020 Virtual Workshop
     - **"Proteomics and proximity labeling in neuroscience”**, by Alice Ting [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EURtS-fx5pdFph-mL6kXDBABw_5emkw7C2HCPO56SJqWJA?e=nHoZid)]
@@ -208,14 +232,6 @@ The Nobel Prize in Physiology or Medicine 2019\
 - **Gregg L. Semenza**, Johns Hopkins University, Baltimore, MD, USA
 The Nobel Prize in Physiology or Medicine 2019\
 **Hypoxia-Inducible Factors in Physiology and Medicine** [[Nobel Lecture video](https://www.youtube.com/watch?v=B_KBgSXUWoM&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESNkopdpfo1Hg4snunzkMBcB1tf8zbRYfc1SPzC7SIElHw?e=iCgGHX) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efl45HbMeoVFlKFDaQ3nlrEBpioqP1dJAdmLpltUt8RqSw?e=8BU3qs) | [Source](https://www.nobelprize.org/prizes/medicine/2019/semenza/facts/)]
-
-- **Yoshinori Ohsumi**, Tokyo Institute of Technology, Tokyo, Japan\
-The Nobel Prize in Physiology or Medicine 2016\
-**Molecular Mechanisms of Autophagy in Yeast** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQdBmtJNhnxFohd7o6ylMFoBL3J18eRXC1mlvmXWVX3scg?e=l6f8ia) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVa5BW1XUtNPiVyfzKQqoMEBDzMmDIKUw5pH5yebj17WLQ?e=OFDub1) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcTKfynF9kNNpsISMOp61uIBlEpIFyg92MYf9mq9M6E8Ww?e=k7UC5c) | [Source](https://www.nobelprize.org/prizes/medicine/2016/ohsumi/facts/)]
-
-- **Randy Schekman**, University of California, Berkeley\
-The Nobel Prize in Physiology or Medicine 2013\
-**Genes and Proteins That Control the Secretory Pathway** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdaL7FcHZh9AsKd8v-HxIuIBepQ_H-jDjVusB4MhQmIKAA?e=kVdA3y) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETlwjQfFx2ZLhi2koeyFZSEBJzl-nNtWLTBvFOQ2KSiTEw?e=4ywniu) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERWDnshBO41IlBb5eyW8wIQB5eCGmHGEXvF6Oc5ekw5UNw?e=XcfRjg) | [Source](https://www.nobelprize.org/prizes/medicine/2013/schekman/facts/)]
 
 - **Thomas C. Südhof**, Stanford University\
 The Nobel Prize in Physiology or Medicine 2013\

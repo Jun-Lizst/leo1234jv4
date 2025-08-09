@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2d density on Jun-Liszt Li</title>
+    <title>2d Density on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/2d-density/</link>
-    <description>Recent content in 2d density on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in 2d Density on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 21:13:14 -0500</lastBuildDate><atom:link href="https://leoj.xyz/tags/2d-density/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2019 21:13:14 -0500</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/2d-density/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R plot 2d density</title>
       <link>https://leoj.xyz/2019/05/01/r-plot-2d-density/</link>
       <pubDate>Wed, 01 May 2019 21:13:14 -0500</pubDate>
-      
       <guid>https://leoj.xyz/2019/05/01/r-plot-2d-density/</guid>
-      <description>a 2d density plot using ggplot2If you have a large number of points, a 2d density plot is helpful for examining the connection between 2 numerical variables.
-It divides the plot area into several little fragments to prevent overlapping (as in the scatterplot next to it) and shows the number of points in each fragment.
-Different kinds of 2D density graphs exist. Everyone has the appropriate ggplot2 function. All of them are discussed in this post.</description>
+      <description>a 2d density plot using ggplot2&#xD;If you have a large number of points, a 2d density plot is helpful for examining the connection between 2 numerical variables.&#xA;It divides the plot area into several little fragments to prevent overlapping (as in the scatterplot next to it) and shows the number of points in each fragment.&#xA;Different kinds of 2D density graphs exist. Everyone has the appropriate ggplot2 function. All of them are discussed in this post.</description>
     </item>
-    
   </channel>
 </rss>

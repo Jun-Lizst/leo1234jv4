@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>email on Jun-Liszt Li</title>
+    <title>Email on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/email/</link>
-    <description>Recent content in email on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Email on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 15:10:15 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 15:10:15 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/email/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
       <link>https://leoj.xyz/page/contact/</link>
       <pubDate>Mon, 15 Aug 2022 15:10:15 +0800</pubDate>
-      
       <guid>https://leoj.xyz/page/contact/</guid>
-      <description>Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
-Email Gmail: poppingjun7@gmail.com
-Outlook: poppingjun@outlook.com</description>
+      <description>Currently, I live in Prague, Czech Republic. You can contact me through email or interact with me in twitter/X(@poppingjun) since I frequently check it.&#xA;Email Gmail: poppingjun7@gmail.com&#xA;Outlook: poppingjun@outlook.com</description>
     </item>
-    
   </channel>
 </rss>

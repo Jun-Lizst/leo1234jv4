@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amino Acid Sensing on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/amino-acid-sensing/</link>
+    <description>Recent content in Amino Acid Sensing on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/amino-acid-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brain metabolic system</title>
+      <link>https://leoj.xyz/researchs/brain_metabolome/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/brain_metabolome/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>brain-vasculature-system on Jun-Liszt Li</title>
+    <title>Brain-Vasculature-System on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/brain-vasculature-system/</link>
-    <description>Recent content in brain-vasculature-system on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Brain-Vasculature-System on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 15:16:05 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/brain-vasculature-system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/brain-vasculature-system/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Research</title>
-      <link>https://leoj.xyz/page/research/</link>
-      <pubDate>Mon, 15 Aug 2022 15:16:05 +0800</pubDate>
-      
-      <guid>https://leoj.xyz/page/research/</guid>
-      <description>Brain vasculature system Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
-One the road of hunting new disease target&amp;hellip;&amp;hellip;</description>
+      <title>Molecular engineering</title>
+      <link>https://leoj.xyz/researchs/molecular_engineering/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/molecular_engineering/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Synthetic protein structures and functions can now be designed entirely on a computer or produced through directed evolution in the laboratory. AAV capsid engineering is based on protein engineering, genetically encoded ion and metabolite sensors can be developed through protein engineering. We leverage this approach to create a next-generation platform for the study of brain vasculature system and brain metabolic system.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
+    <item>
+      <title>Brain vasculature system</title>
+      <link>https://leoj.xyz/researchs/brain_vas_system/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/brain_vas_system/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
   </channel>
 </rss>

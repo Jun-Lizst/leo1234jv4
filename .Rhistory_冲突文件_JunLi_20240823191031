@@ -1,0 +1,512 @@
+#Negative:  Npas3, Nhsl1, Ptprz1, Zfp521, Plekhg1
+#PC_ 3
+#Positive:  Mecom, Cyyr1, Prex2, Adgrl4, Flt1
+#Negative:  Bcas1, St18, Plp1, Lhfpl3, Zfp536
+#PC_ 4
+#Positive:  Slc4a4, Slco1c1, Rfx4, Trpm3, Aldh1a1
+#Negative:  Piezo2, St6galnac3, St18, Mecom, Plp1
+#PC_ 5
+#Positive:  Gad2, Ankrd55, Kcnmb2, Nxph1, Gad1
+#Negative:  Grm3, Mbp, Ephb1, Ptn, Satb2
+VizDimLoadings(PID12, dims = 1:2, reduction = "pca")
+DimPlot(PID12, reduction = "pca")
+DimHeatmap(PID12, dims = 1, cells = 500, balanced = TRUE)
+DimHeatmap(PID12, dims = 2, cells = 500, balanced = TRUE)
+DimHeatmap(PID12, dims = 1:9, cells = 500, balanced = TRUE)
+#----------------Determine the ‘dimensionality’ of the dataset---------------------#
+# NOTE: This process can take a long time for big datasets, comment out for expediency. More
+# approximate techniques such as those implemented in ElbowPlot() can be used to reduce
+# computation time
+PID12 <- JackStraw(PID12, num.replicate = 100)
+PID12 <- ScoreJackStraw(PID12, dims = 1:20)
+JackStrawPlot(PID12, dims = 1:20)
+#Warning message:
+#  Removed 21000 rows containing missing values (geom_point).
+ElbowPlot(PID12)
+#------------------------------Cluster the cells----------------------------------#
+PID12 <- FindNeighbors(PID12, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+PID12 <- FindClusters(PID12, resolution = 0.5)
+#Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+#Number of nodes: 12236
+#Number of edges: 416133
+#Running Louvain algorithm...
+#0%   10   20   30   40   50   60   70   80   90   100%
+#  [----|----|----|----|----|----|----|----|----|----|
+#     **************************************************|
+#     Maximum modularity in 10 random starts: 0.9454
+#   Number of communities: 23
+#   Elapsed time: 1 seconds
+# Look at cluster IDs of the first 5 cells
+head(Idents(PID12), 5)
+#AATTCCTTACTAAACGT GAAATGAATGGAGAAGC GGGTAGAGCTAGTCGGA GGTTCTCGCTCAGCCAC GTCCTCATACCCATACC
+#1                 1                 0                 1                 1
+#Levels: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+PID12 <- RunUMAP(PID12, dims = 1:20)
+# note that you can set `label = TRUE` or use the LabelClusters function to help label
+# individual clusters
+#DimPlot(PID27, reduction = "umap", raster=FALSE)
+DimPlot(PID12, reduction = "umap", label = T)
+saveRDS(PID12, file = "E:/NGS_data/bAVM_snRNAseq/lijun_analysis/PID12exp_2w_cells_after_umap_1st.rds")
+#################Load previous analysis results into one object;
+PID12a1 <- readRDS("E:/NGS_data/bAVM_snRNAseq/lijun_analysis/PID12exp_2w_cells_after_umap_1st.rds")
+#---------Finding differentially expressed features (cluster biomarkers)-----------#
+# find all markers of cluster 2
+PID12a1_cluster2.markers <- FindMarkers(PID12a1, ident.1 = 2, min.pct = 0.25)
+head(PID15a1_cluster2.markers, n = 5)
+# find all markers distinguishing cluster 5 from clusters 0 and 3
+PID12a1_cluster5.markers <- FindMarkers(PID12a1, ident.1 = 5, ident.2 = c(0, 3), min.pct = 0.25)
+head(PID15a1_cluster5.markers)
+# find markers for every cluster compared to all remaining cells, report only the positive
+# ones
+PID12a1.markers <- FindAllMarkers(PID12a1, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+PID12a1.markers %>%
+group_by(cluster) %>%
+slice_max(n = 2, order_by = avg_log2FC)
+PID12a1.markers %>%
+group_by(cluster) %>%
+top_n(n = 5, wt = avg_log2FC) -> top5
+DoHeatmap(PID12a1, features = top5$gene) + NoLegend()
+#############################Astrocyte marker;
+FeaturePlot(PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3"), cols = c("grey", "red"), raster=FALSE, label = T)
+###Standard neuonal clustering
+##pan neuronal cell
+FeaturePlot(object = PID15, features = c("Snap25", "Syt1"), cols = c("grey", "red"), raster=FALSE, label = T)
+###Standard neuonal clustering
+##pan neuronal cell
+FeaturePlot(object = PID12a1, features = c("Snap25", "Syt1"), cols = c("grey", "red"), raster=FALSE, label = T)
+##############Oligodendrocytes; requested variables were not found: Oligo2
+FeaturePlot(object = PID15, features = c("Olig1", "Olig2", "Mbp", "Plp1"), cols = c("grey", "red"), raster=FALSE, label = T)
+##############Oligodendrocytes; requested variables were not found: Oligo2
+FeaturePlot(object = PID12a1, features = c("Olig1", "Olig2", "Mbp", "Plp1"), cols = c("grey", "red"), raster=FALSE, label = T)
+############################Microgla;
+FeaturePlot(object = PID12a1, features = c("Cx3cr1", "Tmem119", "C1qa"), cols = c("grey", "red"), raster=FALSE, label = T)
+############Brain endothelial cells
+FeaturePlot(object = PID12, features = c("Cldn5", "Slc2a1", "Cdh5"), cols = c("grey", "red"), raster=FALSE, label = T)
+############Brain endothelial cells
+FeaturePlot(object = PID12a1, features = c("Cldn5", "Slc2a1", "Cdh5"), cols = c("grey", "red"), raster=FALSE, label = T)
+############SMC;
+FeaturePlot(object = PID12a1, features = c("Acta2", "Kcnj8"), cols = c("grey", "red"), raster=FALSE, label = T)
+###known arterial EC (Bmx, Efnb2, Vegfc and Sema3g)
+FeaturePlot(object = PID12a1, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g"), cols = c("grey", "red"), raster=FALSE, label = T)
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = ECs_PID12a1, features = c("Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = PID12a1, features = c("Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+###venous (Nr2f2) markers
+FeaturePlot(object = PID12a1, features = c("Nr2f2", "Slc38a5"), cols = c("grey", "red"), raster=FALSE, label = T)
+###venous (Nr2f2) markers
+FeaturePlot(object = PID12a1, features = c("Nr2f2", "Slc38a5"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+VlnPlot(obj = PID15, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Tek", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Tek", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Tek", "Glut1", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Tek", "Slc2a1", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+###known arterial EC (Bmx, Efnb2, Vegfc and Sema3g)
+FeaturePlot(object = PID12a1, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g"), cols = c("grey", "red"), raster=FALSE, label = T)
+###Capillary EC (Nr2f2) markers
+FeaturePlot(object = PID12a1, features = c("Mfsd2a", "Tfrc", "Slc16a1"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+###Capillary EC (Nr2f2) markers
+FeaturePlot(object = PID12a1, features = c("Mfsd2a", "Tfrc", "Slc16a1"), cols = c("grey", "Red"), raster=FALSE, label = T)
+VlnPlot(obj = PID12a1, features = c("Tek", "Cdh5", "Slc2a1", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5", "Vwf", "Mfsd2a", "Tfrc", "Slc16a1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Tek", "Cdh5", "Slc2a1", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5", "Vwf", "Mfsd2a", "Tfrc", "Slc16a1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+############SMC;
+FeaturePlot(object = PID12a1, features = c("Acta2", "Kcnj8"), cols = c("grey", "red"), raster=FALSE, label = T)
+############SMC;
+FeaturePlot(object = PID12a1, features = c("Acta2", "Kcnj8"), cols = c("grey", "green"), raster=FALSE, label = T)
+############Pericyte;
+FeaturePlot(object = PID12a1, features = c("Pdgfrb", "Kcnj8"), cols = c("grey", "green"), raster=FALSE, label = T)
+############SMC;
+FeaturePlot(object = PID12a1, features = c("Acta2", "Pdlim3", "Tagln"), cols = c("grey", "green"), raster=FALSE, label = T)
+############Pericyte;
+FeaturePlot(object = PID12a1, features = c("Pdgfrb", "Kcnj8"), cols = c("grey", "red"), raster=FALSE, label = T)
+#---------Finding differentially expressed features (cluster biomarkers)-----------#
+# find all markers of cluster 2
+PID12a1_cluster2.markers <- FindMarkers(PID12a1, ident.1 = 2, min.pct = 0.25)
+head(PID15a1_cluster2.markers, n = 5)
+# find markers for every cluster compared to all remaining cells, report only the positive
+# ones
+PID12a1.markers <- FindAllMarkers(PID12a1, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+PID12a1.markers %>%
+group_by(cluster) %>%
+slice_max(n = 2, order_by = avg_log2FC)
+PID12a1.markers %>%
+group_by(cluster) %>%
+top_n(n = 5, wt = avg_log2FC) -> top5
+DoHeatmap(PID12a1, features = top5$gene) + NoLegend()
+##########Volin plot showing the SMC and Pericyte clusters;
+VlnPlot(obj = PID12a1, features = c("Acta2", "Pdlim3", "Tagln", "Myh11", "Pdgfrb", "Kcnj8"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+ElbowPlot(PID12)
+#------------------------------Cluster the cells----------------------------------#
+PID12 <- FindNeighbors(PID12, dims = 1:20)
+JackStrawPlot(PID12, dims = 1:20)
+VizDimLoadings(PID12, dims = 1:2, reduction = "pca")
+DimPlot(PID12, reduction = "pca")
+##Stacked violin plot functionality using the VlnPlot function is added to Seurat in version 3.2.1.
+#VlnPlot(PID27, features, stack = TRUE, sort = TRUE, flip = TRUE) +
+#  theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3", "Snap25", "Syt1"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+##Stacked violin plot functionality using the VlnPlot function is added to Seurat in version 3.2.1.
+#VlnPlot(PID27, features, stack = TRUE, sort = TRUE, flip = TRUE) +
+#  theme(legend.position = "none") + ggtitle("Identity on x-axis")
+VlnPlot(obj = PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3", "Snap25", "Syt1", "Olig1", "Mbp", "Plp1"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("Identity on x-axis")
+###Check the expression of markers of other cell types;
+VlnPlot(obj = PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3", "Snap25", "Syt1", "Olig1", "Mbp", "Plp1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+###Check the expression of markers of other cell types;
+VlnPlot(obj = PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3", "Snap25", "Syt1", "Slc32a1", "Gad1", "Olig1", "Mbp", "Plp1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+###Check the expression of markers of other cell types;
+VlnPlot(obj = PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3", "Snap25", "Syt1", "Slc32a1", "Gad1", "Olig1", "Mbp", "Plp1", "Cx3cr1", "Tmem119", "C1qa"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+############################Microgla;
+FeaturePlot(object = PID12a1, features = c("Cx3cr1", "Tmem119", "C1qa"), cols = c("grey", "red"), raster=FALSE, label = T)
+#######################Proliferative cells
+###Cell cycle analysis
+###Warning: All cells have the same value of Ccne1
+############
+###The following requested variables were not found: Tp53
+###The following requested variables were not found: Cdc25
+VlnPlot(obj = ECs_PID12a1, features = c("Cdc25b", "Cdc25a", "Cdkn2a", "Cdkn1a", "Gse1", "Ccdc141", "Angpt2", "Nr2f2", "Hey1", "Klf2", "Nrp2", "Mki67", "Cdk1", "Cdk2", "Cdk4", "Cdk6", "Ccnd1", "Ccnd2", "Ccnd3", "Ccne2", "Cdkn1b", "Cdkn1c", "Angpt2", "Ephb4", "Slc38a5", "Ackr1"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+#######################Proliferative cells
+###Cell cycle analysis
+###Warning: All cells have the same value of Ccne1
+############
+###The following requested variables were not found: Tp53
+###The following requested variables were not found: Cdc25
+VlnPlot(obj = PID12a1, features = c("Cdc25b", "Cdc25a", "Cdkn2a", "Cdkn1a", "Gse1", "Ccdc141", "Angpt2", "Nr2f2", "Hey1", "Klf2", "Nrp2", "Mki67", "Cdk1", "Cdk2", "Cdk4", "Cdk6", "Ccnd1", "Ccnd2", "Ccnd3", "Ccne2", "Cdkn1b", "Cdkn1c", "Angpt2", "Ephb4", "Slc38a5", "Ackr1"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+#---------------------------------Count number of cells per cluster--------------------------------------#
+# Store cluster identities in object@meta.data$my.clusters
+object <- Seurat::StashIdent(object = PID12, save.name = "my.clusters")
+# Get number of cells per cluster and per sample of origin
+table(object@meta.data$my.clusters, object@meta.data$orig.ident)
+#---------------------------------Count number of cells per cluster--------------------------------------#
+# Store cluster identities in object@meta.data$my.clusters
+object <- Seurat::StashIdent(object = PID12a1, save.name = "my.clusters")
+# Get number of cells per cluster and per sample of origin
+table(object@meta.data$my.clusters, object@meta.data$orig.ident)
+PID12
+PID12a1
+PID12_exp1
+PID12 <- merge(PID12_exp1, y = PID12_exp2, add.cell.ids = c("batch1", "batch2"), project = "bAVM12")
+PID12
+PID12a1
+PID12 <- subset(PID12, subset = nFeature_RNA > 200 & nFeature_RNA < 2500 & percent.mt < 5)
+library(dplyr)
+library(Seurat)       ########version:4.2.0
+library(patchwork)
+library(ggplot2)
+# The [[ operator can add columns to object metadata. This is a great place to stash QC stats
+PID12[["percent.mt"]] <- PercentageFeatureSet(PID12, pattern = "^MT-")
+PID12 <- subset(PID12, subset = nFeature_RNA > 200 & nFeature_RNA < 2500 & percent.mt < 5)
+PID12
+PID12 <- subset(PID12, subset = nFeature_RNA > 0 & nFeature_RNA < 0 & percent.mt < 5)
+PID12 <- merge(PID12_exp1, y = PID12_exp2, add.cell.ids = c("batch1", "batch2"), project = "bAVM12")
+# The [[ operator can add columns to object metadata. This is a great place to stash QC stats
+PID12[["percent.mt"]] <- PercentageFeatureSet(PID12, pattern = "^MT-")
+# Visualize QC metrics as a violin plot
+VlnPlot(PID12, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
+plot1 <- FeatureScatter(PID12, feature1 = "nCount_RNA", feature2 = "percent.mt")
+plot2 <- FeatureScatter(PID12, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
+plot1 + plot2
+PID12 <- NormalizeData(PID12, normalization.method = "LogNormalize", scale.factor = 10000)
+#-------------------Identification of highly variable features (feature selection)--------------------#
+PID12 <- FindVariableFeatures(PID12, selection.method = "vst", nfeatures = 2000)
+# Identify the 10 most highly variable genes
+top10 <- head(VariableFeatures(PID12), 10)
+# plot variable features with and without labels
+plot1 <- VariableFeaturePlot(PID12)
+plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
+plot2
+#  Shifts the expression of each gene, so that the mean expression across cells is 0
+#Scales the expression of each gene, so that the variance across cells is 1
+#This step gives equal weight in downstream analyses, so that highly-expressed genes do not dominate
+#The results of this are stored in pbmc[["RNA"]]@scale.data
+all.genes <- rownames(PID12)
+PID12 <- ScaleData(PID12, features = all.genes)
+#---------------------Perform linear dimensional reduction------------------------------#
+#Next we perform PCA on the scaled data. By default, only the previously determined variable features are used as input, but can be defined using features argument if you wish to choose a different subset.
+PID12 <- RunPCA(PID12, features = VariableFeatures(object = PID12))
+#Seurat provides several useful ways of visualizing both cells and features that define the PCA, including VizDimReduction(), DimPlot(), and DimHeatmap()
+# Examine and visualize PCA results a few different ways
+print(PID12[["pca"]], dims = 1:5, nfeatures = 5)
+VizDimLoadings(PID12, dims = 1:2, reduction = "pca")
+DimPlot(PID12, reduction = "pca")
+DimHeatmap(PID12, dims = 1, cells = 500, balanced = TRUE)
+DimHeatmap(PID12, dims = 2, cells = 500, balanced = TRUE)
+DimHeatmap(PID12, dims = 1:9, cells = 500, balanced = TRUE)
+#----------------Determine the ‘dimensionality’ of the dataset---------------------#
+# NOTE: This process can take a long time for big datasets, comment out for expediency. More
+# approximate techniques such as those implemented in ElbowPlot() can be used to reduce
+# computation time
+PID12 <- JackStraw(PID12, num.replicate = 100)
+PID12 <- ScoreJackStraw(PID12, dims = 1:20)
+JackStrawPlot(PID12, dims = 1:20)
+ElbowPlot(PID12)
+#------------------------------Cluster the cells----------------------------------#
+PID12 <- FindNeighbors(PID12, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+PID12 <- FindClusters(PID12, resolution = 0.5)
+# Look at cluster IDs of the first 5 cells
+head(Idents(PID12), 5)
+#Computing nearest neighbor graph
+#Computing SNN
+PID12 <- FindClusters(PID12, resolution = 0.4)
+# Look at cluster IDs of the first 5 cells
+head(Idents(PID12), 5)
+#Computing nearest neighbor graph
+#Computing SNN
+PID12 <- FindClusters(PID12, resolution = 0.3)
+# Look at cluster IDs of the first 5 cells
+head(Idents(PID12), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+PID12 <- RunUMAP(PID12, dims = 1:20)
+# note that you can set `label = TRUE` or use the LabelClusters function to help label
+# individual clusters
+#DimPlot(PID27, reduction = "umap", raster=FALSE)
+DimPlot(PID12, reduction = "umap", label = T)
+saveRDS(PID12, file = "E:/NGS_data/bAVM_snRNAseq/lijun_analysis/PID12exp_2w_cells_after_umap_1st.rds")
+PID12
+#################Load previous analysis results into one object;
+PID12a1 <- readRDS("E:/NGS_data/bAVM_snRNAseq/lijun_analysis/PID12exp_2w_cells_after_umap_1st.rds")
+#---------Finding differentially expressed features (cluster biomarkers)-----------#
+# find all markers of cluster 2
+PID12a1_cluster2.markers <- FindMarkers(PID12a1, ident.1 = 2, min.pct = 0.25)
+head(PID15a1_cluster2.markers, n = 5)
+# find markers for every cluster compared to all remaining cells, report only the positive
+# ones
+PID12a1.markers <- FindAllMarkers(PID12a1, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+PID12a1.markers %>%
+group_by(cluster) %>%
+slice_max(n = 2, order_by = avg_log2FC)
+PID12a1.markers %>%
+group_by(cluster) %>%
+top_n(n = 5, wt = avg_log2FC) -> top5
+DoHeatmap(PID12a1, features = top5$gene) + NoLegend()
+#############################Astrocyte marker;
+FeaturePlot(PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3"), cols = c("grey", "red"), raster=FALSE, label = T)
+###Standard neuonal clustering
+##pan neuronal cell: "Snap25", "Syt1"
+###pan excitatory neurons, Slc17a7(Vglut1), Slc17a6(Vglut2)
+FeaturePlot(object = PID12a1, features = c("Snap25", "Syt1", "Slc17a7", "Slc17a6", "Slc32a1", "Gad1", "Gad2"), cols = c("grey", "red"), raster=FALSE, label = T)
+###Check the expression of markers of other cell types;
+VlnPlot(obj = PID12a1, features = c("Aldh1l1", "Gfap", "Slc1a3", "Snap25", "Syt1", "Slc32a1", "Gad1", "Olig1", "Mbp", "Plp1", "Cx3cr1", "Tmem119", "C1qa"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+############################Microgla;
+FeaturePlot(object = PID12a1, features = c("Cx3cr1", "Tmem119", "C1qa"), cols = c("grey", "red"), raster=FALSE, label = T)
+############Brain endothelial cells
+FeaturePlot(object = PID12a1, features = c("Cldn5", "Slc2a1", "Cdh5"), cols = c("grey", "red"), raster=FALSE, label = T)
+##########All EC markers; segmentation analysis;
+VlnPlot(obj = PID12a1, features = c("Tek", "Cdh5", "Slc2a1", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5", "Vwf", "Mfsd2a", "Tfrc", "Slc16a1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+###known arterial EC (Bmx, Efnb2, Vegfc and Sema3g)
+FeaturePlot(object = PID12a1, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g"), cols = c("grey", "red"), raster=FALSE, label = T)
+#---------------------------------Count number of cells per cluster--------------------------------------#
+# Store cluster identities in object@meta.data$my.clusters
+object <- Seurat::StashIdent(object = PID12a1, save.name = "my.clusters")
+# Get number of cells per cluster and per sample of origin
+table(object@meta.data$my.clusters, object@meta.data$orig.ident)
+# Subset Seurat object based on identity class, also see ?SubsetData
+###Cluster.1.8.12.only <- subset(x = seuratA, idents = c('1','8', '12'))
+ECs_PID12a1 <- subset(x = PID12a1, idents = '0')
+ECs_PID12a1
+ECs_PID12a1@assays$RNA@counts
+#------------------------------------Normalizing the data--------------------------------------------#
+ECs_PID12a1 <- NormalizeData(ECs_PID12a1, normalization.method = "LogNormalize", scale.factor = 10000)
+#-------------------Identification of highly variable features (feature selection)--------------------#
+ECs_PID12a1 <- FindVariableFeatures(ECs_PID12a1, selection.method = "vst", nfeatures = 2000)
+#-------------------------------Scaling the data----------------------------------------#
+all.genes <- rownames(ECs_PID12a1)
+ECs_PID12a1 <- ScaleData(ECs_PID12a1, features = all.genes)
+#---------------------Perform linear dimensional reduction------------------------------#
+#Next we perform PCA on the scaled data. By default, only the previously determined variable features are used as input, but can be defined using features argument if you wish to choose a different subset.
+ECs_PID12a1 <- RunPCA(ECs_PID12a1, features = VariableFeatures(object = ECs_PID12a1))
+#Seurat provides several useful ways of visualizing both cells and features that define the PCA, including VizDimReduction(), DimPlot(), and DimHeatmap()
+# Examine and visualize PCA results a few different ways
+print(ECs_PID12a1[["pca"]], dims = 1:5, nfeatures = 5)
+#------------------------------Cluster the cells----------------------------------#
+ECs_PID12a1 <- FindNeighbors(ECs_PID12a1, dims = 1:20)
+#Computing nearest neighbor graph
+#Computing SNN
+ECs_PID12a1 <- FindClusters(ECs_PID12a1, resolution = 0.5)
+# Look at cluster IDs of the first 5 cells
+head(Idents(ECs_PID12a1), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+ECs_PID12a1 <- RunUMAP(ECs_PID12a1, dims = 1:20)
+DimPlot(ECs_PID12a1, reduction = "umap", label = T)
+#Computing nearest neighbor graph
+#Computing SNN
+ECs_PID12a1 <- FindClusters(ECs_PID12a1, resolution = 0.3)
+# Look at cluster IDs of the first 5 cells
+head(Idents(ECs_PID12a1), 5)
+#---------------Run non-linear dimensional reduction (UMAP/tSNE)------------------#
+# If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
+# 'umap-learn')
+ECs_PID12a1 <- RunUMAP(ECs_PID12a1, dims = 1:20)
+DimPlot(ECs_PID12a1, reduction = "umap", label = T)
+# find markers for every cluster compared to all remaining cells, report only the positive ones
+ECs_PID12a1.markers <- FindAllMarkers(ECs_PID12a1, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+##########All EC markers; segmentation analysis;
+VlnPlot(obj = ECs_PID12a1, features = c("Tek", "Cdh5", "Slc2a1", "Bmx", "Efnb2", "Vegfc", "Sema3g", "Nr2f2", "Slc38a5", "Vwf", "Mfsd2a", "Tfrc", "Slc16a1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+#######################Proliferative cells
+###Cell cycle analysis
+###Warning: All cells have the same value of Ccne1
+############
+###The following requested variables were not found: Tp53
+###The following requested variables were not found: Cdc25
+VlnPlot(obj = ECs_PID12a1, features = c("Cdc25b", "Cdc25a", "Cdkn2a", "Cdkn1a", "Gse1", "Ccdc141", "Angpt2", "Nr2f2", "Hey1", "Klf2", "Nrp2", "Mki67", "Cdk1", "Cdk2", "Cdk4", "Cdk6", "Ccnd1", "Ccnd2", "Ccnd3", "Ccne2", "Cdkn1b", "Cdkn1c", "Angpt2", "Ephb4", "Slc38a5", "Ackr1"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = PID12a1, features = c("Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = ECs_PID12a1, features = c("Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = ECs_PID12a1, features = c("Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = ECs_PID12a1, features = c("Esm1", "Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+##########Common tip cell markers:
+###Stalk cell marker: Jag1
+###The following requested variables were not found: Vegfr2
+############Tip: "Esm1"
+###Warning: All cells have the same value of Esm1
+##Kdr = Vegfr2
+###in primary cell line, "Igf1r", "Igf2",
+###The following requested variables were not found: Kdrl
+VlnPlot(obj = ECs_PID12a1, features = c("Esm1", "Vegfr2", "Notch1", "Rgcc", "Sparc", "Rhoa", "Jag1", "Pdgfb", "Tek", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Unc5b", "Angpt2", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67", "Cdk1", "Ccnd3", "Cdk6"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+####################HHT somatic mutation genes;
+###"Acvrl1(Alk1)", "Acvrl1", "Eng", "Smad4"
+VlnPlot(obj = ECs_PID12a1, features = c("Acvrl1", "Eng", "Smad4"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#####################Transcriptional factors that regulate AV zonation;
+#Venous: c("Zc3h12b", "Thap6", "Tcf15", "Klf10", "Carhsp1", "Ar", "Zfp691", "Zfat", "Nr2f2", "Sox12", "Bcl11a", "Zfp341", "Zfp174", "Zfp941", "Dach2", "Mbnl3", "Creb3l4", "Tbx1")
+###Warning: All cells have the same value of Tcf15
+###Warning: All cells have the same value of Creb3l4
+###The following requested variables were not found: Thap6
+VlnPlot(obj = ECs_PID12a1, features = c("Zc3h12b", "Klf10", "Carhsp1", "Ar", "Zfp691", "Zfat", "Nr2f2", "Sox12", "Bcl11a", "Zfp341", "Zfp941", "Dach2", "Mbnl3", "Tbx1"), stack = TRUE, sort = TRUE, flip = TRUE) +
+theme(legend.position = "none")
+#####################Transcriptional factors that regulate AV zonation;
+#Venous: c("Zc3h12b", "Thap6", "Tcf15", "Klf10", "Carhsp1", "Ar", "Zfp691", "Zfat", "Nr2f2", "Sox12", "Bcl11a", "Zfp341", "Zfp174", "Zfp941", "Dach2", "Mbnl3", "Creb3l4", "Tbx1")
+###Warning: All cells have the same value of Tcf15
+###Warning: All cells have the same value of Creb3l4
+###The following requested variables were not found: Thap6
+VlnPlot(obj = ECs_PID12a1, features = c("Zc3h12b", "Klf10", "Carhsp1", "Ar", "Zfp691", "Zfat", "Nr2f2", "Sox12", "Bcl11a", "Zfp341", "Zfp941", "Dach2", "Mbnl3", "Tbx1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#####################Transcriptional factors that regulate AV zonation;
+#Venous: c("Zc3h12b", "Thap6", "Tcf15", "Klf10", "Carhsp1", "Ar", "Zfp691", "Zfat", "Nr2f2", "Sox12", "Bcl11a", "Zfp341", "Zfp174", "Zfp941", "Dach2", "Mbnl3", "Creb3l4", "Tbx1")
+###Warning: All cells have the same value of Tcf15
+###Warning: All cells have the same value of Creb3l4
+###The following requested variables were not found: Thap6
+VlnPlot(obj = ECs_PID12a1, features = c("Zc3h12b", "Thap6", "Tcf15", "Klf10", "Carhsp1", "Ar", "Zfp691", "Zfat", "Nr2f2", "Sox12", "Bcl11a", "Zfp341", "Zfp174", "Zfp941", "Dach2", "Mbnl3", "Creb3l4", "Tbx1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#Capillary: c("Prdm11", "Plek", "Heyl", "Meox1", "Zfp382", "Zfp457", "Sall1", "Tbx2", "Klf15", "Lbx2", "Gli3", "Hnf1a", "Hif3a", "Tub", "Foxm1", "Zbtb41", "Etv5", "Prdm1", "Zfhx2", "Zfp334")
+###Warning: All cells have the same value of Klf15
+###Warning: All cells have the same value of Hnf1a
+###Warning: All cells have the same value of Foxm1
+###The following requested variables were not found: Lbx2
+VlnPlot(obj = ECs_PID12a1, features = c("Prdm11", "Plek", "Heyl", "Meox1", "Zfp382", "Zfp457", "Sall1", "Tbx2", "Klf15", "Lbx2", "Gli3", "Hnf1a", "Hif3a", "Tub", "Foxm1", "Zbtb41", "Etv5", "Prdm1", "Zfhx2", "Zfp334"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#Capillary: c("Prdm11", "Plek", "Heyl", "Meox1", "Zfp382", "Zfp457", "Sall1", "Tbx2", "Klf15", "Lbx2", "Gli3", "Hnf1a", "Hif3a", "Tub", "Foxm1", "Zbtb41", "Etv5", "Prdm1", "Zfhx2", "Zfp334")
+###Warning: All cells have the same value of Hnf1a
+VlnPlot(obj = ECs_PID12a1, features = c("Prdm11", "Plek", "Heyl", "Meox1", "Zfp382", "Zfp457", "Sall1", "Tbx2", "Klf15", "Lbx2", "Gli3", "Hif3a", "Tub", "Foxm1", "Zbtb41", "Etv5", "Prdm1", "Zfhx2", "Zfp334"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#Arterious
+VlnPlot(obj = ECs_PID12a1, features = c("Nr4a2", "Junb", "Gata6", "Stat4", "Setbp1", "Nfatc4", "Atf3", "Mybl2", "Csrnp1", "Nr4a1", "Bhlhe41", "Irf6", "Zkscan4", "Fos", "Gata2", "Mier2", "Hsf4", "Egr1", "Zbp1"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#The commonly used tip cell gene markers in angiogenesis research include
+##DLL4, VEGFR2(Kdr), VEGFR3(Flt4), Nrp1, Nrp2, CD34, Esm1, Robo4, Igfbp3, Apln.
+#Stalk cell marker: Rhoa, Notch1, Jag1
+VlnPlot(obj = ECs_PID12a1, features = c("Notch1", "Rhoa", "Jag1", "Esm1", "Vegfr2", "Rgcc", "Sparc", "Pdgfb", "Cxcr4", "Flt4", "Efnb2", "Robo4", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+#The commonly used tip cell gene markers in angiogenesis research include
+##DLL4, VEGFR2(Kdr), VEGFR3(Flt4), Nrp1, Nrp2, CD34, Esm1, Robo4, Igfbp3, Apln.
+#Stalk cell marker: Rhoa, Notch1, Jag1
+VlnPlot(obj = ECs_PID12a1, features = c("Notch1", "Rhoa", "Jag1", "Esm1", "Vegfr2", "Flt4", "Robo4", "Igfbp3", "Cd34", "Dll4", "Kdr", "Nrp1", "Nrp2", "Mki67"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none")
+############SMC;
+FeaturePlot(object = PID12a1, features = c("Acta2", "Pdlim3", "Tagln", "Myh11"), cols = c("grey", "green"), raster=FALSE, label = T)
+############Pericyte;
+FeaturePlot(object = PID12a1, features = c("Pdgfrb", "Kcnj8"), cols = c("grey", "red"), raster=FALSE, label = T)
+##########Volin plot showing the SMC and Pericyte clusters;
+VlnPlot(obj = PID12a1, features = c("Acta2", "Pdlim3", "Tagln", "Myh11", "Pdgfrb", "Kcnj8"), stack = TRUE, sort = F, flip = TRUE) +
+theme(legend.position = "none") + ggtitle("bAVM-PID12")
+###known arterial EC (Bmx, Efnb2, Vegfc and Sema3g)
+FeaturePlot(object = PID12a1, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g"), cols = c("grey", "red"), raster=FALSE, label = T)
+###known arterial EC (Bmx, Efnb2, Vegfc and Sema3g)
+FeaturePlot(object = ECs_PID12a1, features = c("Bmx", "Efnb2", "Vegfc", "Sema3g"), cols = c("grey", "red"), raster=FALSE, label = T)
+###venous (Nr2f2; Vwf) markers
+FeaturePlot(object = ECs_PID12a1, features = c("Nr2f2", "Vwf"), cols = c("grey", "Blue"), raster=FALSE, label = T)
+gc()
+gc()

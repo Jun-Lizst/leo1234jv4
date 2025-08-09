@@ -169,33 +169,6 @@ Thomas Reese studies synaptic structure and function using advanced light and el
 
 
 
-# Croy-Electron Microscopy(cryo-EM)
-
-
-**Ref labs**: 
-1. [Yifan Cheng Lab, UCSF](https://cryoem.ucsf.edu/)\
-**Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF\
-[Liao, et al. 2016, Nature; Cao et al. 2013 Nature and Gao et al. 2016, Nature]\
-**iBiology Talks**: [[Part 1: Single Particle Cryo-EM](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EfUivsENbh5Gj8E10GGp0KEBynIVfURLM06aJ4xv6Y3XxQ?e=I8Ahs5) | [Part 2: Single particle Cyro-EM of membrane proteins](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXRwR0JzrnBOoKHcQUQvjNMB5kaISskZMilMzXJFH2FAAw?e=05Bk8U)]
-2. [Niko Grigorieff Lab](https://grigoriefflab.umassmed.edu/research_interests)
-3. [Grant Jensen Lab, Caltech](https://jensenlab.caltech.edu/)
-- **Course**: [“Getting Started in Cryo-EM”](https://cryo-em-course.caltech.edu/unit-1-outline)
-    - Part 1: Currents, coils, knobs and names: Basic anatomy of the electron microscope [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efnw9H9kQwJAofudECHPDx4BMdMTU8d3jnUXn_azQBxEJQ?e=uAgYIL)]
-    - Part 2: Fourier transforms and reciprocal space for beginners [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ-oIS9Yk7RGlqvf08WdC-QBT99tJ16X4OvHbVl9T5E_lQ?e=dnQFtD)]
-    - Part 3: Image formation [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERImtLbXQxlNokWvDjq5fy4BnvdxCzDRxq57QySSTyy-8Q?e=Nc09nz)]
-    - Part 4: Fundamental challenges in biological EM [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZlN7ooM88xIkP2RPzrPj8MByqRvauoFSaF5-aHZsefRlA?e=sLCZHP)]
-    - Part 5: Tomography [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWfU4XfSAclLtLgYmv03_8MBeR8cDnqgOVFlQDCUqMikkA?e=JGdF04)]
-    - Part 6: Single-particle analysis [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbhLC2uJvGFGhHV2UEnibG0BCTDZaas8XJVuTgZf-MD8vw?e=hgCiGb)]
-    - Part 7: 2-D crystallography [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Edo3stS6v9hCrD7fTZ-Gx-cBHfhmwsP_y9zOurIfAVz3xg?e=iBYBXl)]
-
-
-**Ref softwares**:
-1. **MotionCorr**: This program corrects whole frame image motion recordded with dose fractionated image stack. [MotionCor2](https://emcore.ucsf.edu/ucsf-motioncor2)
-    - Xueming Li, Paul Mooney, Shawn Zheng, Chris Booth, Michael B. Braunfeld, Sander Gubbens, David A. Agard and Yifan Cheng (2013) Electron counting and beam-induced motion correction enables near atomic resolution single particle cryoEM. Nature Methods, 10, 584-590. PMID: 23644547 
-2. **GeFREALIGN**: FREALIGN is a program developed by Niko Grigorieff laboratory for high-resolution refinement of 3D reconstruction from cryoEM of single particles. 
-    - Xueming Li, Nikolaus Grigorieff and Yifan Cheng (2010) GPU-enabled FREALIGN: Accelerating single particle 3D reconstruction and refinement in Fourier space on graphics processors. Journal of Structural Biology, advanced publication online June 14 2010. PMID: 20558298
-
-
 **Ref database**:
 1. EMDB: https://www.ebi.ac.uk/pdbe/emdb/
 2. EMPIAR: https://www.ebi.ac.uk/pdbe/emdb/empiar/
@@ -214,18 +187,6 @@ Thomas Reese studies synaptic structure and function using advanced light and el
 
 ---
 ## Nobel laureates
-- **Jacques Dubochet**, University of Lausanne, Lausanne, Switzerland\
-The Nobel Prize in Chemistry 2017\
-**Early cryo-electron microscopy** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/dubochet/facts/)]
-
-- **Joachim Frank**, Columbia University, New York, NY, USA\
-The Nobel Prize in Chemistry 2017\
-**Single-Particle Reconstruction – Story in a Sample** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/frank/facts/)]
-
-- **Richard Henderson**, MRC Laboratory of Molecular Biology, Cambridge, United Kingdom\
-The Nobel Prize in Chemistry 2017\
-**From Electron Crystallography to Single Particle cryoEM** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/henderson/facts/)]
-
 - **Eric betzig**, Janelia/University of California, Berkeley\
 The Nobel Prize in Chemistry 2014\
 **Single Molecules, Cells, and Super-Resolution Optics** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ebp6gGAHF0BCqDucjArTPrsBjqwEbcroCr-chiOm3mfrlg?e=zoTrEg) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbaVxtGmO65GoDa7eS1W5uAB2_9z7ptjsNjG6dGNVxjVcg?e=RSkvRt) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERZDAZldU0BKklSfAgFsYB4BtEm3xjFE1hOp9ye54H3uXA?e=9LgHZE) | [Source](https://www.nobelprize.org/prizes/chemistry/2014/betzig/facts/)]

@@ -25,8 +25,6 @@ thumbnailImagePosition: left
 
 ![sydneybrenner1](/img/quotes_sydney_brenner.jpg)
 
----
-# Caenorhabditis elegans(C. elegans)
 
 ---
 # Mus musculus
@@ -102,9 +100,10 @@ thumbnailImagePosition: left
 
 
 ### Transgenic mouse line for disease modeling
-1. **5xFAD mouse (Alzheimer disease model)**: These 5XFAD transgenic mice overexpress mutant human amyloid beta (A4) precursor protein 695 (APP) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations along with human presenilin 1 (PS1) harboring two FAD mutations, M146L and L286V. Both transgenes are regulated by the mouse Thy1 promoter to drive overexpression in the brain. 5XFAD mice recapitulate major features of Alzheimer's Disease amyloid pathology and may be a useful model of intraneuronal Abeta-42 induced neurodegeneration and amyloid plaque formation. [[JAX Strain #:006554](https://www.jax.org/strain/006554) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=006554&protocolID=31769) | [PMID: 17021169](https://pubmed.ncbi.nlm.nih.gov/17021169/) | [DOI Link](https://doi.org/10.1523/jneurosci.1202-06.2006)]
+1. **5xFAD mice (Alzheimer disease model)**: These 5XFAD transgenic mice overexpress mutant human amyloid beta (A4) precursor protein 695 (APP) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations along with human presenilin 1 (PS1) harboring two FAD mutations, M146L and L286V. Both transgenes are regulated by the mouse Thy1 promoter to drive overexpression in the brain. 5XFAD mice recapitulate major features of Alzheimer's Disease amyloid pathology and may be a useful model of intraneuronal Abeta-42 induced neurodegeneration and amyloid plaque formation. [[JAX Strain #:006554](https://www.jax.org/strain/006554) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=006554&protocolID=31769) | [PMID: 17021169](https://pubmed.ncbi.nlm.nih.gov/17021169/) | [DOI Link](https://doi.org/10.1523/jneurosci.1202-06.2006)]
 
-2. 
+2. **Braf-CA mice (for modeling bAVM disease)**:
+    - Li, Jun-Liszt, et al. "rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling." bioRxiv (2025): 2025-06. [[JAX Strain #:017837](https://www.jax.org/strain/017837)]
 
 
 
@@ -140,7 +139,7 @@ thumbnailImagePosition: left
 
 
 ### Ref. Protocols
-1. Long ssDNA for Knockin
+##### 1. Long ssDNA for Knockin
 - **Guide-it Long ssDNA Production System v2** [[Takara Cat. #: 632666](https://www.takarabio.com/products/gene-function/gene-editing/crispr-cas9/long-ssdna-for-knockins) | [User Manual](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQfVXyLR-9xErAlcdXB085IBFjULGkeVfsw9MJL4lLnAkw?e=fRNBvA)]
     - The kit employs a simple and fast method that involves conversion of a dsDNA PCR product into ssDNA via selective digestion of either the sense or the antisense strand. Following digestion, ssDNA products are purified using silica membrane spin columns included with the kit.
     - It has been demonstrated that ssDNA offers two key advantages over dsDNA templates for precise genome editing applications: **greatly reduced toxicity** and **a much lower likelihood of random or off-target integration**.
@@ -148,9 +147,10 @@ thumbnailImagePosition: left
     - Miura, Hiromi, et al. "Easi-CRISPR for creating knock-in and conditional knockout mouse models using long ssDNA donors." Nature protocols 13.1 (2018): 195-215. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbBtyRIDnGdGvN-Uz9PrnSEB3wg_c-pGRSK06YcWY4eCNA?e=NzuX1B) | [PMID: 29266098](https://pubmed.ncbi.nlm.nih.gov/29266098/) | [DOI Link](https://doi.org/10.1038/nprot.2017.153)]
 
 
-2. Genetic screen
+##### 2. Genetic screen
 - ENU mutagenesis, forward genetic screen
     - Funato H, Miyoshi C, Fujiyama T, et al. Forward-genetics analysis of sleep in randomly mutagenized mice[J]. Nature, 2016, 539(7629): 378-383. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERGLKbQ9ev1NveMh3Z4YvRwBo0Ffy3v_fI3WnMKzq88NkQ?e=aij4Kn) | [PMID: 27806374](https://pubmed.ncbi.nlm.nih.gov/27806374/) | [DOI Link](https://doi.org/10.1038/nature20142)]
+    
 - CRISPR based pool screen, in cell line.
 
 
@@ -165,7 +165,8 @@ thumbnailImagePosition: left
 # Rat
 
 
-
+---
+# Caenorhabditis elegans(C. elegans)
 
 
 
@@ -192,6 +193,26 @@ Seymour Benzer with mega-Drosophila, 1974.
 1. [FlyBase](https://flybase.org/): A Database of Drosophila Genes & Genomes
 2. [DRSC/TRiP Functional Genomics Resources & DRSC-BTRR](https://fgr.hms.harvard.edu/): Drosophila RNAi Screening Center (DRSC), Transgenic RNAi Project (TRiP) and Drosophila Research & Screening Center-Biomedical Technology Research Resource (DRSC-BTRR) 
 
+
+
+---
+# Yeast
+
+
+
+
+
+
+
+
+### Ref protocol
+2. **EMS based Genetic screen**
+    - Tsukada, Miki, and Yoshinori Ohsumi. "Isolation and characterization of autophagy-defective mutants of Saccharomyces cerevisiae." FEBS letters 333.1-2 (1993): 169-174. [[PMID: 8224160](https://pubmed.ncbi.nlm.nih.gov/8224160/) | [DOI Link](https://doi.org/10.1016/0014-5793(93)80398-E)]
+      - **Key details**: BJ3505 cells were grown in YEPD to stationary phase, and then suspended in 340 μl of 0.1 M sodium phosphate buffer (pH 7.0) and treated with 10 μl EMS for 60 min at 30°C; the survival rate was 40-50%. The mutagenized culture (20 μl) was diluted with 780 μl of 5% sodium thiosulfate and spread on YEPD plates.  
+
+
+
+
 ---
 # Zebrafish
 
@@ -202,7 +223,7 @@ Seymour Benzer with mega-Drosophila, 1974.
 
 
 ### Ref protocol
-2. Genetic screen
+2. **Genetic screen**
 - ENU mutagenesis, forward genetic screen
     - Patton E E, Zon L I. The art and design of genetic screens: zebrafish[J]. Nature Reviews Genetics, 2001, 2(12): 956-966. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EarLtv_CAstMu0i1aFwvOl8BIfliaa_OPEpMmDnEjvNPRw?e=nDXbMJ) | [PMID: 11733748](https://pubmed.ncbi.nlm.nih.gov/11733748/) | [DOI Link](https://doi.org/10.1038/35103567)]
 
@@ -215,9 +236,17 @@ Seymour Benzer with mega-Drosophila, 1974.
 The Nobel Prize in Physiology or Medicine 2017\
 **Time Travels: A 40 Year Journey from Drosophila’s Clock Mutants to Human Circadian Disorders** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/2017/young/facts/)]
 
+- **Yoshinori Ohsumi**, Tokyo Institute of Technology, Tokyo, Japan\
+The Nobel Prize in Physiology or Medicine 2016\
+**Molecular Mechanisms of Autophagy in Yeast** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQdBmtJNhnxFohd7o6ylMFoBL3J18eRXC1mlvmXWVX3scg?e=l6f8ia) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVa5BW1XUtNPiVyfzKQqoMEBDzMmDIKUw5pH5yebj17WLQ?e=OFDub1) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcTKfynF9kNNpsISMOp61uIBlEpIFyg92MYf9mq9M6E8Ww?e=k7UC5c) | [Source](https://www.nobelprize.org/prizes/medicine/2016/ohsumi/facts/)]
+
+- **Randy Schekman**, University of California, Berkeley\
+The Nobel Prize in Physiology or Medicine 2013\
+**Genes and Proteins That Control the Secretory Pathway** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdaL7FcHZh9AsKd8v-HxIuIBepQ_H-jDjVusB4MhQmIKAA?e=kVdA3y) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETlwjQfFx2ZLhi2koeyFZSEBJzl-nNtWLTBvFOQ2KSiTEw?e=4ywniu) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERWDnshBO41IlBb5eyW8wIQB5eCGmHGEXvF6Oc5ekw5UNw?e=XcfRjg) | [Source](https://www.nobelprize.org/prizes/medicine/2013/schekman/facts/)]
+
 - **Robert G. Edwards(1925-2013)**, University of Cambridge, Cambridge, United Kingdom\
 The Nobel Prize in Physiology or Medicine 2010\
-**Robert Edwards: Nobel Laureate in Physiology or Medicine**  [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EZVBBylQMrFLuDOU-9kIph4BJu6Y8KdbtKUaQDOES1i2vA?e=wRnksB) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWiQV8Zn_OhOgycRjFR8ZeIBnfJ905XcM9RTUmh1BVZzlQ?e=2Zlecf) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESsb9s5dUqZGjmCDKdfucEMBshAhJaD6jWWoWFur5R55Zg?e=fD0L6O) | [Source](https://www.nobelprize.org/prizes/medicine/2010/edwards/facts/)]
+**for the development of in vitro fertilization**  [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EZVBBylQMrFLuDOU-9kIph4BJu6Y8KdbtKUaQDOES1i2vA?e=wRnksB) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWiQV8Zn_OhOgycRjFR8ZeIBnfJ905XcM9RTUmh1BVZzlQ?e=2Zlecf) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESsb9s5dUqZGjmCDKdfucEMBshAhJaD6jWWoWFur5R55Zg?e=fD0L6O) | [Source](https://www.nobelprize.org/prizes/medicine/2010/edwards/facts/)]
 
 - **Sydney Brenner(1927-2019)**, The Molecular Sciences Institute, Berkeley, CA\
 The Nobel Prize in Physiology or Medicine 2002\

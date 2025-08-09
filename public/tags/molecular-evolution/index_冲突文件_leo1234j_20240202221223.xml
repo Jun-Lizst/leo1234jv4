@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>molecular evolution on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/molecular-evolution/</link>
+    <description>Recent content in molecular evolution on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2022 10:48:56 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/molecular-evolution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VasCode system</title>
+      <link>https://leoj.xyz/tooldevelopment/minibend/</link>
+      <pubDate>Mon, 05 Sep 2022 10:48:56 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/minibend/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The VasCode system aims to integrate next-generation sequencing technologies such as whole-exome sequencing and CNV sequencing to identify potential disease-causing gene mutations.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>VasCode system</title>
+      <link>https://leoj.xyz/tooldevelopment/minibend_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</link>
+      <pubDate>Mon, 05 Sep 2022 10:48:56 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/minibend_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

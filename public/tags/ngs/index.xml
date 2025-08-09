@@ -4,20 +4,16 @@
     <title>NGS on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/ngs/</link>
     <description>Recent content in NGS on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2022 10:43:59 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/ngs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 10:43:59 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/ngs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Genomics and Sequencing</title>
       <link>https://leoj.xyz/resource/genomicsngs/</link>
       <pubDate>Sun, 21 Aug 2022 10:43:59 +0800</pubDate>
-      
       <guid>https://leoj.xyz/resource/genomicsngs/</guid>
-      <description>RNA-Seq KITS FOR RNA EXTRACTION Takara: Smart-Seq
-SEQUENCING PLATFORM illumina; Huada Gene
-ANALYSIS SOFTWARES QC:
-fastqc: FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.</description>
+      <description>RNA-Seq KITS FOR RNA EXTRACTION Takara: Smart-Seq&#xA;SEQUENCING PLATFORM illumina; Huada Gene&#xA;ANALYSIS SOFTWARES QC:&#xA;fastqc: FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.</description>
     </item>
-    
   </channel>
 </rss>

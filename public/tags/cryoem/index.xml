@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CryoEM on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/cryoem/</link>
+    <description>Recent content in CryoEM on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Aug 2022 13:24:59 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/cryoem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structure Biology</title>
+      <link>https://leoj.xyz/resource/structure_bio/</link>
+      <pubDate>Sun, 21 Aug 2022 13:24:59 +0800</pubDate>
+      <guid>https://leoj.xyz/resource/structure_bio/</guid>
+      <description>CroyEM system | Sample preparation 1.&#xA;Methods to improve particle behavior&#xA;Size exclusion chromatography: Gel filtration can be a powerful tool to predict structural heterogeneity. Whenever possible, gel filtration should be incorporated to the final steps of a purification protocol. Protein or protein complex stabilization: If negative stain or cryo-EM analysis reveals significant structural heterogeneity, then the user may consider additional methods to stabilize a structural target in a defined conformation.</description>
+    </item>
+  </channel>
+</rss>

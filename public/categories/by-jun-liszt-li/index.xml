@@ -1,53 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>by Jun-Liszt Li on Jun-Liszt Li</title>
+    <title>By Jun-Liszt Li on Jun-Liszt Li</title>
     <link>https://leoj.xyz/categories/by-jun-liszt-li/</link>
-    <description>Recent content in by Jun-Liszt Li on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in By Jun-Liszt Li on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leoj.xyz/categories/by-jun-liszt-li/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leoj.xyz/categories/by-jun-liszt-li/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molecular engineering</title>
+      <link>https://leoj.xyz/researchs/molecular_engineering/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/molecular_engineering/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Synthetic protein structures and functions can now be designed entirely on a computer or produced through directed evolution in the laboratory. AAV capsid engineering is based on protein engineering, genetically encoded ion and metabolite sensors can be developed through protein engineering. We leverage this approach to create a next-generation platform for the study of brain vasculature system and brain metabolic system.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Brain vasculature system</title>
+      <link>https://leoj.xyz/researchs/brain_vas_system/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/brain_vas_system/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Brain metabolic system</title>
+      <link>https://leoj.xyz/researchs/brain_metabolome/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/brain_metabolome/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Protocol for calcium imaging of free-moving mice</title>
       <link>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</link>
       <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tailoring the brain connectivity atlas: reconstruction and revision of large-scale microscopic brain atlas</title>
       <link>https://leoj.xyz/2020/04/28/tailoring-the-brain-connectivity-atlas-reconstruction-and-revision-of-large-scale-microscopic-brain-atlas/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://leoj.xyz/2020/04/28/tailoring-the-brain-connectivity-atlas-reconstruction-and-revision-of-large-scale-microscopic-brain-atlas/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;In complex biological systems, it is often the structure of the object of study that determines its function. This is also true for neural network systems. In order to understand the complexity of the structure of animal brain networks and their potential functions, brain mapping is one of the important goals in the current brain project.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;In complex biological systems, it is often the structure of the object of study that determines its function. This is also true for neural network systems. In order to understand the complexity of the structure of animal brain networks and their potential functions, brain mapping is one of the important goals in the current brain project.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>The origin and function of brain oscillation</title>
       <link>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://leoj.xyz/2019/06/14/the-origin-and-function-of-brain-oscillation/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Since German neurobiologist Hans Berger first documented spontaneous rhythmic fluctuations in the human electroencephalogram. Many scholars become captivated by this phenomena and attempt to unravel its secret. This periodic change in the brain is known as brain oscillation.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Since German neurobiologist Hans Berger first documented spontaneous rhythmic fluctuations in the human electroencephalogram. Many scholars become captivated by this phenomena and attempt to unravel its secret. This periodic change in the brain is known as brain oscillation.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>Summary report of attending SEU-Allen NRA International Workshop</title>
       <link>https://leoj.xyz/2018/09/25/index.en-us/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://leoj.xyz/2018/09/25/index.en-us/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;The primary focus of this meeting is to bring together expert neuroanatomists and computer scientists from different organizations to discuss cutting-edge research and applications on brain-wide reconstructions of neuron morphologies from whole-brain imaging datasets. Specifically, discussions will focus on effective data management, reconstruction workflows and common data quality and format standards for data sharing and reuse of manual, semi-automatic, and fully automatic neuron reconstructions at different organizations and at different resolution scales.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;The primary focus of this meeting is to bring together expert neuroanatomists and computer scientists from different organizations to discuss cutting-edge research and applications on brain-wide reconstructions of neuron morphologies from whole-brain imaging datasets. Specifically, discussions will focus on effective data management, reconstruction workflows and common data quality and format standards for data sharing and reuse of manual, semi-automatic, and fully automatic neuron reconstructions at different organizations and at different resolution scales.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
   </channel>
 </rss>

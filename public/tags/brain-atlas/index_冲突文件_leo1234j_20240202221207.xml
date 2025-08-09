@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>brain-atlas on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/brain-atlas/</link>
+    <description>Recent content in brain-atlas on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Sep 2022 09:46:13 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/brain-atlas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MetaBrain Explorer (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/metabrain/</link>
+      <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/metabrain/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>MetaBrain Explorer (Spatial Multi-omics Brain Explorer)</title>
+      <link>https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</link>
+      <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/tooldevelopment/metabrain_%E5%86%B2%E7%AA%81%E6%96%87%E4%BB%B6_leo1234j_20230331191116/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tailoring the brain connectivity atlas: reconstruction and revision of large-scale microscopic brain atlas</title>
+      <link>https://leoj.xyz/2020/04/28/tailoring-the-brain-connectivity-atlas-reconstruction-and-revision-of-large-scale-microscopic-brain-atlas/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leoj.xyz/2020/04/28/tailoring-the-brain-connectivity-atlas-reconstruction-and-revision-of-large-scale-microscopic-brain-atlas/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;In complex biological systems, it is often the structure of the object of study that determines its function. This is also true for neural network systems. In order to understand the complexity of the structure of animal brain networks and their potential functions, brain mapping is one of the important goals in the current brain project.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

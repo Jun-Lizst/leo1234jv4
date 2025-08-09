@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Promoter engineering on Jun-Liszt Li</title>
+    <title>Promoter Engineering on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/promoter-engineering/</link>
-    <description>Recent content in Promoter engineering on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Promoter Engineering on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Sep 2022 10:48:56 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/promoter-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 10:48:56 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/promoter-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VasCode system</title>
       <link>https://leoj.xyz/tooldevelopment/minibend/</link>
       <pubDate>Mon, 05 Sep 2022 10:48:56 +0800</pubDate>
-      
       <guid>https://leoj.xyz/tooldevelopment/minibend/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;The VasCode system aims to integrate next-generation sequencing technologies such as whole-exome sequencing and CNV sequencing to identify potential disease-causing gene mutations.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;The VasCode system aims to integrate next-generation sequencing technologies such as whole-exome sequencing and CNV sequencing to identify potential disease-causing gene mutations.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -18,7 +18,7 @@ showActions:    false
 
 ![leo1234jxwqexxs](/img/cover2.jpg)
 
-Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
+Currently, I live in Prague, Czech Republic. You can contact me through email or interact with me in twitter/X([@poppingjun](https://x.com/poppingjun)) since I frequently check it.
 
 
 

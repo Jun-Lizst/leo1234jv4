@@ -4,19 +4,16 @@
     <title>SEU-Allen on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/seu-allen/</link>
     <description>Recent content in SEU-Allen on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://leoj.xyz/tags/seu-allen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/seu-allen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summary report of attending SEU-Allen NRA International Workshop</title>
       <link>https://leoj.xyz/2018/09/25/index.en-us/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://leoj.xyz/2018/09/25/index.en-us/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;The primary focus of this meeting is to bring together expert neuroanatomists and computer scientists from different organizations to discuss cutting-edge research and applications on brain-wide reconstructions of neuron morphologies from whole-brain imaging datasets. Specifically, discussions will focus on effective data management, reconstruction workflows and common data quality and format standards for data sharing and reuse of manual, semi-automatic, and fully automatic neuron reconstructions at different organizations and at different resolution scales.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;The primary focus of this meeting is to bring together expert neuroanatomists and computer scientists from different organizations to discuss cutting-edge research and applications on brain-wide reconstructions of neuron morphologies from whole-brain imaging datasets. Specifically, discussions will focus on effective data management, reconstruction workflows and common data quality and format standards for data sharing and reuse of manual, semi-automatic, and fully automatic neuron reconstructions at different organizations and at different resolution scales.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
   </channel>
 </rss>

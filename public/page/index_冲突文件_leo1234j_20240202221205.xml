@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/page/</link>
+    <description>Recent content in Pages on Jun-Liszt Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Aug 2022 15:16:05 +0800</lastBuildDate><atom:link href="https://leoj.xyz/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>https://leoj.xyz/page/research/</link>
+      <pubDate>Mon, 15 Aug 2022 15:16:05 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/research/</guid>
+      <description>Brain vasculature system Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells are one of the major components of brain vasculature system and involved in many kinds of brain vasculature disease, like AVM, CCM, HHT.
+Brain metabolic system Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease.</description>
+    </item>
+    
+    <item>
+      <title>Publication</title>
+      <link>https://leoj.xyz/page/publication/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:56 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/publication/</guid>
+      <description>Journal Publications #: First author
+✝: corresponding author
+Wentong Hong#, Pifang Gong#, Zhonggan Ren#, Xinjie Pan#, Yitong Liu, Guibo Qi, Jun-Liszt Li ¶, Wenzhi Sun, Woo-Ping Ge, Chun-Li Zhang, Shumin Duan, Song Qin✝ (10/2023) Temporal-spatial generation of astrocytes in the developing diencephalon. Neuroscience bulletin, [PMID: 37843774 | DOI Link]
+Jian Ren#, Yazi Huang#, Yeqing Ren#, Tianqi Tu, Baoshan Qiu, Daosheng Ai, Zhanying Bi, Xue Bai, Fengzhi Li, Jun-Liszt Li ¶, Xing-jun Chen, Ziyan Feng, Zongpei Guo, Jianfeng Lei, An Tian, Ziwei Cui, Volkhard Lindner, Ralf H Adams, Yibo Wang, Fei Zhao, Jakob Körbelin, Wenzhi Sun, Yilong Wang, Hongqi Zhang, Tao Hong✝, Woo-ping Ge✝ (2023/03/30) Somatic variants of MAP3K3 are sufficient to cause cerebral and spinal cord cavernous malformations.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://leoj.xyz/page/about/</link>
+      <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/about/</guid>
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to address specific problems.
+Interest Areas Biological Question</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://leoj.xyz/page/contact/</link>
+      <pubDate>Mon, 15 Aug 2022 15:10:15 +0800</pubDate>
+      
+      <guid>https://leoj.xyz/page/contact/</guid>
+      <description>Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
+Email Gmail: poppingjun7@gmail.com
+Outlook: poppingjun@outlook.com</description>
+    </item>
+    
+  </channel>
+</rss>

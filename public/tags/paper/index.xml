@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>paper on Jun-Liszt Li</title>
+    <title>Paper on Jun-Liszt Li</title>
     <link>https://leoj.xyz/tags/paper/</link>
-    <description>Recent content in paper on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Paper on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 15:15:56 +0800</lastBuildDate><atom:link href="https://leoj.xyz/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 15:15:56 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/paper/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publication</title>
       <link>https://leoj.xyz/page/publication/</link>
       <pubDate>Mon, 15 Aug 2022 15:15:56 +0800</pubDate>
-      
       <guid>https://leoj.xyz/page/publication/</guid>
-      <description>Journal Publications #: First author
-✝: corresponding author
-Huanhuan Pang#, Jun-Liszt Li ¶, Xiaoling Hu, Fei Chen, Xiaofei Gao, Lauren Zacharias, Ralph Deberardinis, Wenzhi Sun✝, Zeping Hu✝, Woo-Ping Ge✝ (28/12/2020) Precision mapping of the mouse brain metabolome. BioRxiv [PDF | Shiny app | DOI Link] Co-first author Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li ¶, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ (09/02/2021) Metabolomic and transcriptional profiling reveals bioenergetic stress and activation of cell death and inflammatory pathways in vivo after neuronal deletion of NAMPT.</description>
+      <description>Journal Publications #: First author&#xA;✝: corresponding author&#xA;¶: me&#xA;Jun-Liszt Li#, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” BioRxiv [DOI Link] Nature Biomedical Engineering (08/2025, In press), First author</description>
     </item>
-    
   </channel>
 </rss>

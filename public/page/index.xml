@@ -4,50 +4,37 @@
     <title>Pages on Jun-Liszt Li</title>
     <link>https://leoj.xyz/page/</link>
     <description>Recent content in Pages on Jun-Liszt Li</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Aug 2022 15:16:05 +0800</lastBuildDate><atom:link href="https://leoj.xyz/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jul 2025 15:16:05 +0800</lastBuildDate>
+    <atom:link href="https://leoj.xyz/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Research</title>
-      <link>https://leoj.xyz/page/research/</link>
-      <pubDate>Mon, 15 Aug 2022 15:16:05 +0800</pubDate>
-      
-      <guid>https://leoj.xyz/page/research/</guid>
-      <description>Brain vasculature system Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
-One the road of hunting new disease target&amp;hellip;&amp;hellip;</description>
+      <title>Photos</title>
+      <link>https://leoj.xyz/page/photos/</link>
+      <pubDate>Wed, 16 Jul 2025 15:16:05 +0800</pubDate>
+      <guid>https://leoj.xyz/page/photos/</guid>
+      <description>Prague City &amp;hellip;&amp;hellip;&#xA;Art works &amp;hellip;&amp;hellip;&#xA;In IOCB lab, Prague &amp;hellip;&amp;hellip;&#xA;European Life style &amp;hellip;&amp;hellip;</description>
     </item>
-    
     <item>
       <title>Publication</title>
       <link>https://leoj.xyz/page/publication/</link>
       <pubDate>Mon, 15 Aug 2022 15:15:56 +0800</pubDate>
-      
       <guid>https://leoj.xyz/page/publication/</guid>
-      <description>Journal Publications #: First author
-✝: corresponding author
-Huanhuan Pang#, Jun-Liszt Li ¶, Xiaoling Hu, Fei Chen, Xiaofei Gao, Lauren Zacharias, Ralph Deberardinis, Wenzhi Sun✝, Zeping Hu✝, Woo-Ping Ge✝ (28/12/2020) Precision mapping of the mouse brain metabolome. BioRxiv [PDF | Shiny app | DOI Link] Co-first author Samuel Lundt#, Nannan Zhang#, Jun-Liszt Li ¶, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ (09/02/2021) Metabolomic and transcriptional profiling reveals bioenergetic stress and activation of cell death and inflammatory pathways in vivo after neuronal deletion of NAMPT.</description>
+      <description>Journal Publications #: First author&#xA;✝: corresponding author&#xA;¶: me&#xA;Jun-Liszt Li#, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” BioRxiv [DOI Link] Nature Biomedical Engineering (08/2025, In press), First author</description>
     </item>
-    
     <item>
       <title>About Me</title>
       <link>https://leoj.xyz/page/about/</link>
       <pubDate>Mon, 15 Aug 2022 15:15:42 +0800</pubDate>
-      
       <guid>https://leoj.xyz/page/about/</guid>
-      <description>Hello, My name is Jun-Liszt Li. Currently, I am a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I working on Next-generation omics (scRNAseq; Spatial metabolomics) technology, next-generation microscopy (Lightsheet, Confocal, 2p), and next-generation gene therapy (AAV, promoter) in order to apply these technologies to address specific problems.
-Interest Areas Biological Question</description>
+      <description>Hello, My name is Jun-Liszt Li. Currently, I am a postdoc researcher in David M. Sabatini lab. Before that, I was a graduate student in PKU-CIBR joint program of Peking University. My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I worked on next-generation gene therapy tools (AAV, promoter) in order to apply these technologies to explore animal physiology and address specific problems.</description>
     </item>
-    
     <item>
       <title>Contact</title>
       <link>https://leoj.xyz/page/contact/</link>
       <pubDate>Mon, 15 Aug 2022 15:10:15 +0800</pubDate>
-      
       <guid>https://leoj.xyz/page/contact/</guid>
-      <description>Currently, I live in Beijing, China. You can contact me through email or interact with me in twitter since I frequently check it.
-Email Gmail: poppingjun7@gmail.com
-Outlook: poppingjun@outlook.com</description>
+      <description>Currently, I live in Prague, Czech Republic. You can contact me through email or interact with me in twitter/X(@poppingjun) since I frequently check it.&#xA;Email Gmail: poppingjun7@gmail.com&#xA;Outlook: poppingjun@outlook.com</description>
     </item>
-    
   </channel>
 </rss>
