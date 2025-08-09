@@ -36,7 +36,7 @@ Defects in brain endothelial cells (brainECs) can cause severe cerebrovascular m
 
 
 ## Development of AAV-Vascode platform
-![5](/img/homepage_aav.jpg)
+![5x](/img/aav_capsid_engineering.png)
 
 We developed a novel platform that integrated multiple methods including direct evolution and receptor based capsid design. This platform can generate a series of AAV capsids that has unprecedented power of transduction towards different cell types across brain vasculature system in different model organisms, like Mouse, Rat, Pig, Marmmoset etc.
 
