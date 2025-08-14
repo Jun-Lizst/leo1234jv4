@@ -62,29 +62,41 @@ thumbnailImagePosition: left
 
 
 #### sc-RNAseq datasets
-1. Brain vasculature system, Mouse, Adult
+1. **Brain vasculature system, Mouse, Adult**
 
-2. Developing brain, Mouse, E8-E16
+
+
+
+2. **Developing brain, Mouse, E8-E16**
     - La Manno, Gioele, et al. "Molecular architecture of the developing mouse brain." Nature 596.7870 (2021): 92-96. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUys66UY2qJGrmdAzz2Q_l0B1lq3s6cBZydWt1O7W9TG_A?e=uvgDRR) | [PMID: 34321664](https://pubmed.ncbi.nlm.nih.gov/34321664/) | [DOI Link](https://doi.org/10.1038/s41586-021-03775-x)]
     
-3. Developing Cortex, Mouse
+3. **Developing Cortex, Mouse**
     - Di Bella, Daniela J., et al. "Molecular logic of cellular diversification in the mouse cerebral cortex." Nature 595.7868 (2021): 554-559. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee9YuhYUo8FFr_-fQcssEpUBUktL_0LyZHg7VO2cPcJ4oA?e=4S1tdf) | [PMID: 34163074](https://pubmed.ncbi.nlm.nih.gov/34163074/) | [DOI Link](https://doi.org/10.1038/s41586-021-03670-5)]
 
-4. 9 Brain regions, Mouse, Adult
+4. **9 Brain regions, Mouse, Adult**
     - Saunders, Arpiar, et al. "Molecular diversity and specializations among the cells of the adult mouse brain." Cell 174.4 (2018): 1015-1030. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVT_hw8h5ytHqq_nYYXs6h4BRA4zP-M5wc95_U1yL6QuPQ?e=qL8Jvo) | [PMID: 30096314](https://pubmed.ncbi.nlm.nih.gov/30096314/) | [DOI Link](https://doi.org/10.1016/j.cell.2018.06.021)]
     
-5. 11 Brain regions, Mouse, Adolescent
+5. **11 Brain regions, Mouse, Adolescent**
     - Zeisel, Amit, et al. "Molecular architecture of the mouse nervous system." Cell 174.4 (2018): 999-1014. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXEbgkfQHcVNuhio5-wW7HYByv9j2zBGk4ILN9wXdx_a9w?e=8d8gS8) | [PMID: 30096314](https://pubmed.ncbi.nlm.nih.gov/30096314/) | [DOI Link](https://doi.org/10.1016/j.cell.2018.06.021)]
     
-6. 2021-Cell-Allen brain-HPF and isocortex
+6. **2021-Cell-Allen brain-HPF and isocortex**
     - Yao, Zizhen, et al. "A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation." Cell 184.12 (2021): 3222-3241. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EddKYAm5NjVItXKLm10hTZ0BlCrXE8Bi_8y_RilmbW1zPw?e=0SEVUi) | [PMID: 34004146](https://pubmed.ncbi.nlm.nih.gov/34004146/) | [DOI Link](https://doi.org/10.1016/j.cell.2021.04.021)]
     
-7. Aging mouse brain[8 young
-(2–3 months) and 8 old (21–23 months) mice], 50,212 cells(24,401 young and 25,811 old)
+7. **Aging mouse brain [8 young
+(2–3 months) and 8 old (21–23 months) mice], 50,212 cells(24,401 young and 25,811 old)**
     - Ximerakis, Methodios, et al. "Single-cell transcriptomic profiling of the aging mouse brain." Nature neuroscience 22.10 (2019): 1696-1708. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Edtqg9wHakdIkCrjC3W75doBS3ezijbDgNali9M1tWc_Nw?e=XLpADE) | [PMID: 31551601](https://pubmed.ncbi.nlm.nih.gov/31551601/) | [DOI Link](https://doi.org/10.1038/s41593-019-0491-3)]
 
-8. scRNAseq profiling of mouse retinal bipolar cells (BCs), ~25,000 BCs.
-    - Shekhar, Karthik, et al. "Comprehensive classification of retinal bipolar neurons by single-cell transcriptomics." Cell 166.5 (2016): 1308-1323. [[PDF]() | [PMID: 27565351](https://pubmed.ncbi.nlm.nih.gov/27565351/) | [DOI Link](https://doi.org/10.1016/j.cell.2016.07.054)]
+8. **scRNAseq profiling of mouse retinal bipolar cells (BCs), ~25,000 BCs.**
+    - Shekhar, Karthik, et al. "Comprehensive classification of retinal bipolar neurons by single-cell transcriptomics." Cell 166.5 (2016): 1308-1323. [[PDF](https://www.sciencedirect.com/science/article/pii/S0092867416310078/pdfft?md5=d36f525f5046cf02785f4b55f0271cbe&pid=1-s2.0-S0092867416310078-main.pdf) | [PMID: 27565351](https://pubmed.ncbi.nlm.nih.gov/27565351/) | [DOI Link](https://doi.org/10.1016/j.cell.2016.07.054)]
+
+9. **scRNAseq profiling of mouse Choroid plexus**
+    - Dani, Neil, et al. "A cellular and spatial map of the choroid plexus across brain ventricles and ages." Cell 184.11 (2021): 3056-3074.[[PDF](https://www.cell.com/action/showPdf?pii=S0092-8674%2821%2900438-4) | [PMID: 33932339](https://pubmed.ncbi.nlm.nih.gov/33932339/) | [DOI Link](https://doi.org/10.1016/j.cell.2021.04.003) | [GEO: GSE168704](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168704)]
+    - **Samples(C57BL/6J)**: Adut LV x 2; Adut 3V x 2; Adut 4V x 2; Aged LV x 3; Aged 3V x 3; Aged 4V x 3
+
+
+10. **scRNA profiling of adult mouse leptomeninges**
+    - Pietilä, Riikka, et al. "Molecular anatomy of adult mouse leptomeninges." Neuron 111.23 (2023): 3745-3764. [[PDF](https://www.cell.com/action/showPdf?pii=S0896-6273%2823%2900666-9) | [PMID: 37776854](https://pubmed.ncbi.nlm.nih.gov/37776854/) | [DOI Link](https://doi.org/10.1016/j.neuron.2023.09.002) | [GEO: GSE227713](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227713)]
+   
 
 
 #### sc-ATACseq datasets
@@ -95,3 +107,13 @@ thumbnailImagePosition: left
     - Li, Yang Eric, et al. "An atlas of gene regulatory elements in adult mouse cerebrum." Nature 598.7879 (2021): 129-136. [[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8494637/pdf/41586_2021_Article_3604.pdf) | [PMID: 34616068](https://pubmed.ncbi.nlm.nih.gov/34616068/) | [DOI Link](https://doi.org/10.1038/s41586-021-03604-1)]
 3. 
 4. 
+
+
+
+
+#### proteomics datasets
+
+
+
+
+---

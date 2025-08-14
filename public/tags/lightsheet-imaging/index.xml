@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightsheet Imaging on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/tags/lightsheet-imaging/</link>
+    <description>Recent content in Lightsheet Imaging on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leoj.xyz/tags/lightsheet-imaging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protocol for tissue clearing and lightsheet imaging</title>
+      <link>https://leoj.xyz/2023/04/11/protocol-for-tissue-clearing-and-lightsheet-imaging/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/2023/04/11/protocol-for-tissue-clearing-and-lightsheet-imaging/</guid>
+      <description>1. Tissue clearing PEGASOS tissue clearing technique, developed by the Zhao lab, enables the simultaneous clearing of both soft and hard tissues, making it suitable for 3D fluorescence imaging of whole organs. In our study, we applied the PEGASOS protocol to clear whole-brain samples from double-transgenic mice (Tek-Cre; Ai47) in which endothelial cells were labeled with a fluorescent reporter. This was done in preparation for subsequent 3D whole-organ imaging using light-sheet microscopy.</description>
+    </item>
+  </channel>
+</rss>

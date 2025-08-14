@@ -49,9 +49,9 @@ in order to get ready, you need to do as following:
 
 # Step 3
 - **Start your analysis**
-
-
-
+![talkqtyyy](/img/spatial_meta_explorerx.png)
+![talkqtyyy](/img/spatial_meta_explorer2.png)
+![talkqtyyy](/img/spatial_meta_explorer3.png)
 
 ---
 ### Vendor instruments

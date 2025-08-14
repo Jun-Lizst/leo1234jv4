@@ -107,7 +107,7 @@ menu:
     - identifier: linkedin
       name: Linkedin
       pre: <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
-      url: https://www.linkedin.com/in/jun-liszt-li-32916aa3/
+      url: https://www.linkedin.com/in/jun-liszt-li-ph-d-32916aa3
       weight: 4
     - identifier: rss
       name: RSS

@@ -36,12 +36,14 @@ showActions:    false
 **......**
 
 
+
 ---
 ## Art works
 
 ![leogrillxx2](/img/Prague_life0.jpg) 
 
-
+![leogrillxx2](/img/retina_EC_network.png)
+By Jun-Liszt Li
 
 
 **......**
@@ -50,6 +52,7 @@ showActions:    false
 
 ---
 ## In IOCB lab, Prague
+![Lab Office](/img/DMS_01_LR_lab_group_picture.jpg)
 
 ![Lab Office](/img/DMS_lab_roof.jpg)
 

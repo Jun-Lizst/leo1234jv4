@@ -15,66 +15,67 @@ thumbnailImagePosition: left
 title: Brain vasculature system
 ---
 
-> Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
+> Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells (ECs) are one of the major components of brain vasculature system and involved in many kinds of genetic diseases and neuroninflammation related diseases, like bAVM, CCM, HHT, IA (Intracranial aneurysm), multiple sclerosis (MS) and stroke. We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
 
 
 <!--more-->
 
 
-**One the road of discover new molecular machinery that governs the functions of brain endothelial cells......**
+> **One the road of discover new molecular machinery that governs the functions of brain endothelial cells......**
 
 
 
 ---
-## To understand the molecular basis of physiological process of brain endothelial cells
+## I. To understand the molecular basis of physiological process of brain endothelial cells
 ![talkxssqwe](/img/576078_548648.png)
-Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
+Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells (ECs) are one of the major components of brain vasculature system and involved in many kinds of genetic diseases and neuroninflammation related diseases, like **bAVM, CCM, HHT, IA (Intracranial aneurysm)，multiple sclerosis (MS)** and **stroke**. We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
 
+>**Q1.** How is BBB Permeability dynamically regulated ?\
+ **Q2.** What are the molecular machineries that mediate transcytosis and how do they work cooperatively ?
+---
 
-![talkxssqwe](/img/SMC_pericyte_endfoot.png)
-Early anatomical and cytological studies established the basic cellular composition of the brain's vascular system, including smooth muscle cells (SMCs) on arteries, pericytes on capillary walls, and endothelial cells (ECs) as the fundamental component. Additionally, astrocytic endfeet envelop the perivascular space around the vessel walls. Parenchymal glial cells and neuronal cell bodies are also found in close proximity to cerebral vessels, typically within 15 μm.
+![talkxssqwe](/img/four_cell_types_in_brain_vas.png)
+Early anatomical and cytological studies established the basic cellular composition of the brain's vascular system, including **smooth muscle cells (SMCs)** on arteries, **pericytes** on capillary walls, and **endothelial cells (ECs)** as the fundamental component. Additionally, **astrocytic endfeet** envelop the perivascular space around the vessel walls. Parenchymal glial cells and neuronal cell bodies are also found in close proximity to cerebral vessels, typically within 15 μm.
 
-
+**In order to target brainECs, we decided to create following genetic tools.**
 #### 1. Development of a brainEC specific Cre driver line: Slco1c1-CreER-KI
+![talkxssqqq](/img/Slco1c1_scRNAseq.png)
+> **Slco1c1 gene is restricted expressed in endothelial cells in central nervous system (CNS).** Slco1c1 transporter mediates the Na(+)-independent high affinity transport of organic anions such as the thyroid hormones L-thyroxine (T4), L-thyroxine sulfate (T4S), and 3,3',5'-triiodo-L-thyronine (reverse T3, rT3) at the plasma membrane.
+
 ![talkxssqqq](/img/Slco1c1_KI_mouse_line_design.png)
-A schematic showing the strategy used to develop the Slco1c1-CreER-KI mouse line.
+> A schematic showing the strategy used to develop the Slco1c1-CreER-KI mouse line.
 
 
 
 ![talkxssqqq](/img/Slco1c1_KI_mouse_line_result.png)
-The expression pattern of EGFP in different brain regions of Slco1c1-CreER-KI ::Ai47 mice. EGFP, green; Nuclei, DAPI (purple).
+> The expression pattern of EGFP in different brain regions of Slco1c1-CreER-KI :: Ai47 mice. EGFP, green; Nuclei, DAPI (purple).
 
 
 
 
 ---
-#### 2. Development of rAAV-miniBEND system, A targeted vector for brain endothelial cell gene delivery
-**Application: 1**. somatic genetic analysis of the brainECs.
+#### 2. Development of rAAV-miniBEND system, A targeted vector for brain endothelial cell gene delivery and gene therapy
+
+**Application 1**. rAAV-miniBEND enable highly efficient labeling of Rat brainECs and retina ECs.
+![talkxssqqqggg](/img/AAV_miniBEND_Rat_brainEC.png)
+> **The rAAV-miniBEND system facilitates highly efficient gene delivery to rat brainECs through retro-orbital injection.** 
+Representative images showing the endothelial labeling efficiency and specificity in various brain regions at PID21 following injection with AAV-X1.1-Ef1α-Cre, AAV-BI30-Ef1α-EGFP, or AAV-BI30-miniBEND (mPro723-mCis700)-Cre into both wild-type (WT) rats and the transgenic strain Rosa26-CAG-LSL-EGFP.
+
+![talkxssqqkkkk](/img/Rat_retina_ECs.png)
+> **Representative images of retinas were captured at 21 days after retro-orbital injection of AAV-BI30 for gene delivery to retinal vascular endothelial cells in P3 rats.** Specifically, AAV-BI30-miniBEND-Cre virus (AAV-BI30-mPro723-Cre-mCis700) was injected into transgenic rats (Rosa26-CAG-LSL-EGFP).
+The white arrowheads indicate vascular endothelial cells (right panel).
+
+**Application 2**. somatic genetic analysis of the brainECs.
 
 
 
-
----
-
+**Aim 3**. Targeted delivery of brainECs in Non-human Primates (NHPs).
 
 
-
-**One the road of hunting new disease target and drug target......**
-
----
-## To dissect signaling pathway that control the pathogenesis of bAVM disease
+**Aim 4**. Development of gene therapy products for clinical usage.
 
 
-
-
-
-
----
-## To dissect signaling pathway that control the pathogenesis of CCM disease
-Defects in brain endothelial cells (brainECs) can cause severe cerebrovascular malformations, including arteriovenous malformation (AVM) and cerebral cavernous malformation (CCM).
-
-
-
+> **One the road of curing diseases by creating tools and drugs......**
 
 
 
@@ -83,7 +84,38 @@ Defects in brain endothelial cells (brainECs) can cause severe cerebrovascular m
 
 
 ---
-# References
+> **One the road of hunting new disease target and drug target......**
+
+
+## II. To dissect signaling pathway that control the pathogenesis of CCM disease
+**1. Somatic activation of MAP3K3 signaling in brainECs is sufficient to cause cerebral cavernous malformations (CCM).**
+![talkxssqqqxxert](/img/h3K3_CCM_laminin.png)
+
+
+
+
+
+---
+## III. To dissect signaling pathway that control the pathogenesis of bAVM disease
+
+**1. Activation of BRAF-MEK1 signaling pathway is sufficient to trigger brain arteriovenous malformations (bAVM).**
+![talkxssqqqxx](/img/Braf_bAVM_lamini.png)
+We firstly prove that Braf is a disease causing gene for brain arteriovenous malformations (bAVM) disease by providing comprehensive evidences ([Li et al., 2025](https://doi.org/10.1101/2025.06.10.658979)).
+
+**Next questions**
+> **Q1.** How inflammation signaling promote the progress of bAVM disease ?
+
+
+
+
+
+
+
+
+
+
+---
+# Representative works
 1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (08/2025, In press)
 
 

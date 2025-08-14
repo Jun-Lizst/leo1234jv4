@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Jun-Liszt Li</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://leoj.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protocol for tissue clearing and lightsheet imaging</title>
+      <link>https://leoj.xyz/2023/04/11/protocol-for-tissue-clearing-and-lightsheet-imaging/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/2023/04/11/protocol-for-tissue-clearing-and-lightsheet-imaging/</guid>
+      <description>1. Tissue clearing PEGASOS tissue clearing technique, developed by the Zhao lab, enables the simultaneous clearing of both soft and hard tissues, making it suitable for 3D fluorescence imaging of whole organs. In our study, we applied the PEGASOS protocol to clear whole-brain samples from double-transgenic mice (Tek-Cre; Ai47) in which endothelial cells were labeled with a fluorescent reporter. This was done in preparation for subsequent 3D whole-organ imaging using light-sheet microscopy.</description>
+    </item>
     <item>
       <title>Protocol for calcium imaging of free-moving mice</title>
       <link>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</link>
       <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</guid>
-      <description></description>
+      <description>1. Cranial window surgery Chronic cranial window implantation was performed following a standard protocol with the following specific steps for two-photon microscopy. Mice were anesthetized with isoflurane (induction 4%, maintenance 2%) and secured in a stereotaxic frame.&#xA;The scalp was incised and retracted to fully expose the skull, which was then cleaned by removing all overlying periosteum and fascia using a scalpel blade. Shallow, parallel scratches were made on the skull surface to enhance the adhesion of the subsequent adhesive layer.</description>
     </item>
     <item>
       <title>Draw connecting routes on map with R</title>

@@ -2,7 +2,7 @@
 categories:
 - PKU
 - by Jun-Liszt Li
-date: "2025-03-03"
+date: "2024-01-03"
 tags:
 - brain-metabolic-system
 - brain-vasculature-system
@@ -43,7 +43,7 @@ We developed a novel platform that integrated multiple methods including direct 
 
 
 ---
-# References
+# Representative works
 1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (08/2025, In press),
 _**First author**_
 

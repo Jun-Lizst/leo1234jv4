@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prague on Jun-Liszt Li</title>
+    <link>https://leoj.xyz/categories/prague/</link>
+    <description>Recent content in Prague on Jun-Liszt Li</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://leoj.xyz/categories/prague/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutrient sensing mTORC1 pathway</title>
+      <link>https://leoj.xyz/researchs/nutrient_sensing_mtorc1/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/nutrient_sensing_mtorc1/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Nutrient sensing is a fundamental biological process that enables organisms to adapt to their environment by regulating cell growth and metabolism in response to nutrient availability. mTOR signaling pathway is evolved to be able to sense environmental cues and coordinates cellular growth, we are focusing the question: How does mTOR sense nutritional cues and coordinates cellular growth ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

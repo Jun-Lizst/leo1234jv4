@@ -6,21 +6,35 @@
     <description>Recent content in By Jun-Liszt Li on Jun-Liszt Li</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://leoj.xyz/categories/by-jun-liszt-li/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Molecular engineering</title>
-      <link>https://leoj.xyz/researchs/molecular_engineering/</link>
-      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://leoj.xyz/researchs/molecular_engineering/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Synthetic protein structures and functions can now be designed entirely on a computer or produced through directed evolution in the laboratory. AAV capsid engineering is based on protein engineering, genetically encoded ion and metabolite sensors can be developed through protein engineering. We leverage this approach to create a next-generation platform for the study of brain vasculature system and brain metabolic system.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <title>Nutrient sensing mTORC1 pathway</title>
+      <link>https://leoj.xyz/researchs/nutrient_sensing_mtorc1/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/nutrient_sensing_mtorc1/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Nutrient sensing is a fundamental biological process that enables organisms to adapt to their environment by regulating cell growth and metabolism in response to nutrient availability. mTOR signaling pathway is evolved to be able to sense environmental cues and coordinates cellular growth, we are focusing the question: How does mTOR sense nutritional cues and coordinates cellular growth ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Brain vasculature system</title>
       <link>https://leoj.xyz/researchs/brain_vas_system/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://leoj.xyz/researchs/brain_vas_system/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells(ECs) are one of the major components of brain vasculature system and involved in many kinds of brain vasculature diseases, like bAVM, CCM, HHT, IA(Intracranial aneurysm). We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells (ECs) are one of the major components of brain vasculature system and involved in many kinds of genetic diseases and neuroninflammation related diseases, like bAVM, CCM, HHT, IA (Intracranial aneurysm), multiple sclerosis (MS) and stroke. We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Molecular engineering</title>
+      <link>https://leoj.xyz/researchs/molecular_engineering/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/researchs/molecular_engineering/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Synthetic protein structures and functions can now be designed entirely on a computer or produced through directed evolution in the laboratory. AAV capsid engineering is based on protein engineering, genetically encoded ion and metabolite sensors can be developed through protein engineering. We leverage this approach to create a next-generation platform for the study of brain vasculature system and brain metabolic system.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Protocol for tissue clearing and lightsheet imaging</title>
+      <link>https://leoj.xyz/2023/04/11/protocol-for-tissue-clearing-and-lightsheet-imaging/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://leoj.xyz/2023/04/11/protocol-for-tissue-clearing-and-lightsheet-imaging/</guid>
+      <description>1. Tissue clearing PEGASOS tissue clearing technique, developed by the Zhao lab, enables the simultaneous clearing of both soft and hard tissues, making it suitable for 3D fluorescence imaging of whole organs. In our study, we applied the PEGASOS protocol to clear whole-brain samples from double-transgenic mice (Tek-Cre; Ai47) in which endothelial cells were labeled with a fluorescent reporter. This was done in preparation for subsequent 3D whole-organ imaging using light-sheet microscopy.</description>
     </item>
     <item>
       <title>Brain metabolic system</title>
@@ -34,7 +48,7 @@
       <link>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</link>
       <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://leoj.xyz/2022/12/22/protocol-for-calcium-imaging-of-free-moving-mice/</guid>
-      <description></description>
+      <description>1. Cranial window surgery Chronic cranial window implantation was performed following a standard protocol with the following specific steps for two-photon microscopy. Mice were anesthetized with isoflurane (induction 4%, maintenance 2%) and secured in a stereotaxic frame.&#xA;The scalp was incised and retracted to fully expose the skull, which was then cleaned by removing all overlying periosteum and fascia using a scalpel blade. Shallow, parallel scratches were made on the skull surface to enhance the adhesion of the subsequent adhesive layer.</description>
     </item>
     <item>
       <title>Tailoring the brain connectivity atlas: reconstruction and revision of large-scale microscopic brain atlas</title>

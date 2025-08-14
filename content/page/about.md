@@ -63,6 +63,7 @@ Major In Bioscience; Class of State Key Educational Base
 ## Research Experiences
 
 **Postdoctoral researcher**, [Institute of Organic Chemistry and Biochemistry (IOCB) of the CAS, Prague](https://www.uochb.cz/en)\
+![Tranquilyxxxx](/img/IOCB_Prague_logo.jpg)
 MAY 2024 — NOW\
 Advised by: [Dr.David M. Sabatini, Ph.D.](https://www.davidsabatinilab.com/publication)
 
@@ -71,7 +72,7 @@ Advised by: [Dr.David M. Sabatini, Ph.D.](https://www.davidsabatinilab.com/publi
 
 **Graduate student**, [Peking University](https://english.pku.edu.cn/) & [Chinese institute for Brain Research (CIBR)](https://www.cibr.ac.cn/)\
 MARCH 2019 — DECEMBER 2023\
-Advised by: [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) and [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en)
+Advised by: [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en) and [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) 
 
 - Focusing on AAV capsid engineering and make molecular/genetic tools for study of brain 
 vasculature system.

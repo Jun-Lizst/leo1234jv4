@@ -4,9 +4,9 @@ categories:
 - by Jun-Liszt Li
 date: "2023-03-03"
 tags:
-- nitrogen sensing
-- amino acid sensing
-- autophage
+- metabolite
+- amino acid transportation
+- cell metabolism
 thumbnailImage: /img/brain_metabolome.jpg
 thumbnailImagePosition: left
 title: Brain metabolic system
@@ -31,15 +31,17 @@ Metabolism is physiologically fundamental to a biological system. Understanding 
 ---
 
 
-## Brain metabolome with high spatial resolution
+
+## Brain  with high spatial resolution
 
 
 
-
+---
+## Brain specific solute carrier (SLC) transporters
 
 
 
 
 ---
-# References
+# Representative works
 1. Huanhuan Pang#, ***Jun-Liszt Li#***, Xiaoling Hu, Fei Chen, Xiaofei Gao, Lauren Zacharias, Ralph Deberardinis, Wenzhi Sun✝, Zeping Hu✝, Woo-Ping Ge✝ (28/12/2020) Precision mapping of the mouse brain metabolome. **BioRxiv** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU-xBTRDra9Nq5ii6XGPA1sBb5L2IG1T4OkFt5M27uIAFQ?e=Znk6ct) | [Shiny app](https://leoj.shinyapps.io/BSMAv1_updated/) | [DOI Link](https://doi.org/10.1101/2020.12.28.424544)]  _**Co-first author**_
