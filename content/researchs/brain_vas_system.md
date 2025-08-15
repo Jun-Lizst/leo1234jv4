@@ -94,6 +94,10 @@ The white arrowheads indicate vascular endothelial cells (right panel).
 
 
 
+**Next questions**
+> **Q1.** How MAP3K3 kinase activity is regulated by CCM complex ? \
+> **Q2.** What is the downstream effctor that lead to CCM vascular malformation ?
+
 
 ---
 ## III. To dissect signaling pathway that control the pathogenesis of bAVM disease
@@ -102,13 +106,40 @@ The white arrowheads indicate vascular endothelial cells (right panel).
 ![talkxssqqqxx](/img/Braf_bAVM_lamini.png)
 We firstly prove that Braf is a disease causing gene for brain arteriovenous malformations (bAVM) disease by providing comprehensive evidences ([Li et al., 2025](https://doi.org/10.1101/2025.06.10.658979)).
 
+
+
+
+
+
+
+
+
 **Next questions**
-> **Q1.** How inflammation signaling promote the progress of bAVM disease ?
+> **Q1.** What are the negative regulators that prevent the initiation of bAVM vascular malformation ?
 
 
 
 
+---
+## IV. To explore and characterize the role of bECs in inflammatory response
 
+![talkxssacximmune](/img/immune_infiltration_bAVM.png)
+> **Immune cell infiltration revealed by snRNAseq of bAVM lesion**
+
+We characterized that monocyte and conventional dendritic cells (cDCs) are the main immune cell types that infiltrate in bAVM lesion. We also observed inflammation-mediated angiogenesis in bAVM lesion. And, Ackr1 gene is significantly upregulated during early stage of bAVM ([Li et al., 2025](https://doi.org/10.1101/2025.06.10.658979)). Ackr1 gene encodes the atypical chemokine receptor 1 (ACKR1, a.k.a. CD234, also known as the Duffy antigen receptor for chemokines (DARC)). This chemokine receptor is primarily expressed by postcapillary venules (PCV) ECs (and small venule ECs) ([Thiriot et al., 2017](https://link.springer.com/article/10.1186/s12915-017-0381-7)), and transports basal chemokines for presentation at the luminal surface of ECs and in paracellular junctions, where it regulates different stages of immune cell diapedesis ([Girbl et al., 2018](https://doi.org/10.1016/j.immuni.2018.09.018)) and recruitment ([Girbl et al., 2013](https://doi.org/10.1038/nri3544)).
+
+![talkxssackrxx](/img/Ackr1_bAVM_stalk.png)
+>**(a)** Marker genes related to tip and stalk cells in endothelial cell clusters among DEGs from both early (PID15) and late (PID27) developmental stages of AVMs.
+**(b)** Representative image of an individual tip cell in the bAVM lesion area. White arrowhead, a filopodia from the tip cell; green, anti-CD31; blue, nuclei (Hoechst 33342).
+
+
+
+**Next questions**
+> **Q1.** How inflammation signaling promote the progress of bAVM disease ? 
+
+
+**Other questions**
+> The mechanisms of BBB disruption during inflammatory conditions of multiple sclerosis remain poorly defined.
 
 
 

@@ -96,8 +96,8 @@ For imaging, mice were head-fixed under the objective lens while being placed on
 
 
 
-
-**Microvascular Hemodynamic Imaging**
+---
+### **Microvascular Hemodynamic Imaging**
 
 Microvascular hemodynamic imaging was performed as shown in Fig. 5. Experimental mice received an intravenous injection of 100 μL of Dextran-FITC plasma dye. The mice were then placed in the head-fixed setup under the two-photon microscope objective. After focusing, a target imaging region was selected. A single capillary was identified, and a short, straight segment of the vessel, aligned with the direction of blood flow, was selected for a time-series line scan (Fig. 6). The dye used in this experiment typically had a molecular weight of 2,000 kDa. Notably, 70 kDa Dextran-FITC is commonly used to detect changes in blood-brain barrier permeability.
 ![talkxqhemox](/img/microvascular_hemo_imaging.png)
@@ -106,16 +106,35 @@ Microvascular hemodynamic imaging was performed as shown in Fig. 5. Experimental
 (b) A representative line-scan image from a targeted capillary in (a) showing a microvascular blood flow rate of 91 RBC/s. RBC, red blood cell.
 
 
+
+
+
+
+
+
+---
+### **Long-term two-photon imaging of spinal cord**
+
+
+![spinalxqhemox](/img/spinal_cord_2p_imaging.jpg)
+We use 10x objective (NA = 0.6) for imaging of spinal cord, as this objective has larger FOV and also maintain a relative high resolution during imaging.
+
+![spinalobjemox](/img/objective_6x0.6na_2p_imaging.png)
+> **Working Distance:** 8 mm \
+> This is probably the longest focal length (180/10 = 18 mm) objective you can get and use with a standard two-photon system and see activity in single neurons. 0.6 NA might not be enough for tissue bulk labeled with OGB-1, but for GECIs like GCaMP6, signals from single cells are easily resolved. 
+
+
+
 ---
 ## 3. Data analysis
-
-
-
-
-
-
-
-
-
 #### softwares for 2p imaging data analysis:
 1. Motion correction: NoRMCorre Algorithm
+
+
+
+
+## 4. Materials
+1. Low-Friction Rodent-Driven Belt Treadmill [[Janelia farm](https://www.janelia.org/open-science/low-friction-rodent-driven-belt-treadmill) | [Github](https://github.com/janelia-experimental-technology/Rodent-Belt-Treadmill)] \
+Designed at HHMI's Janelia research campus by the jET team, this treadmill is relatively small and inexpensive compared to most existing designs. It is manually driven with an encoder which tracks the movement of the belt. The encoder does not have to be connected, unless it is desired to record or analyze the motion. Encoder interfaces are documented in a separate repository and on Flintbox.
+
+2. 
