@@ -187,6 +187,9 @@ Thomas Reese studies synaptic structure and function using advanced light and el
 
 ---
 ## Nobel laureates
+![nobelxqhemox](/img/nobel_prize.jpg)
+---
+
 - **Eric betzig**, Janelia/University of California, Berkeley\
 The Nobel Prize in Chemistry 2014\
 **Single Molecules, Cells, and Super-Resolution Optics** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ebp6gGAHF0BCqDucjArTPrsBjqwEbcroCr-chiOm3mfrlg?e=zoTrEg) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbaVxtGmO65GoDa7eS1W5uAB2_9z7ptjsNjG6dGNVxjVcg?e=RSkvRt) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERZDAZldU0BKklSfAgFsYB4BtEm3xjFE1hOp9ye54H3uXA?e=9LgHZE) | [Source](https://www.nobelprize.org/prizes/chemistry/2014/betzig/facts/)]

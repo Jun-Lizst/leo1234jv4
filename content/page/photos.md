@@ -23,6 +23,8 @@ showActions:    false
 ## Prague City
 ![leogrillxx](/img/Prague_city0.jpg)
 
+![leocastlexx](/img/prague_castle_cloud.jpg)
+
 ![leogrillxx](/img/Prague_city1.jpg)
 
 ![leogrillxx2](/img/Prague_city2.jpg)
@@ -59,16 +61,27 @@ By Jun-Liszt Li
 ![Lab Office](/img/DMS_lab_inside.jpg)
 
 ![Lab Office](/img/group_christmas.jpg)
+> 2024 Christmas party in IOCB
+---
 
 ![group_photo](/img/group_christmas_party.jpg)
+> 2024 Christmas party in prague
+---
 
 ![group_photo](/img/lab_dinner_202409.jpg)
+> lab dinner, 09/2024
+---
 
 ![group_photo](/img/lunch_with_regina.jpg)
+> lab lunch with MIT professor [Regina Barzilay](https://www.regina.csail.mit.edu/), 09/2024
+---
 
 ![talkxssqwe](/img/Leo_with_liron_all.jpg)
+> lab dinner with Harvard professor [Liron Bar-Peled](https://bbsphd.hms.harvard.edu/people/liron-bar-peled) (also lab alumni), 2025
+
 
 ![leogrill](/img/leo_grill.jpg)
+> lab BBQ, 2025
 
 **......**
 
@@ -81,6 +94,19 @@ By Jun-Liszt Li
 ![leogrillxx2](/img/Prague_life1.jpg) 
 
 ![leogrillxx2](/img/Prague_life2.jpg)
+
+
+
+---
+## European cities
+
+![citiesgermany](/img/frankfurt_germany.jpg)
+> In Frankfurt am Main, Germany, 04/2025
+
+
+---
+## In Peking University, Beijing, China
+
 
 
 

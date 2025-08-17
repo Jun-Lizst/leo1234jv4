@@ -216,6 +216,9 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
 
 ---
 ## Nobel laureates
+![nobelxqhemox](/img/nobel_prize.jpg)
+---
+
 - **Carolyn Bertozzi**, Stanford University, Stanford, CA, USA; Howard Hughes Medical Institute, USA [[lab link](https://bertozzigroup.stanford.edu/research)]\
 The Nobel Prize in Chemistry 2022\
 **The Bioorthogonal Chemistry Journey, from Laboratory to Life** [[Nobel Lecture video](https://youtu.be/pgIzEf_RfII) | [Lecture Slides]() | [Read the Lecture]() | [Source](https://www.nobelprize.org/prizes/chemistry/2022/bertozzi/facts/)]

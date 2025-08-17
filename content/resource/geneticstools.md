@@ -232,6 +232,9 @@ Seymour Benzer with mega-Drosophila, 1974.
 
 ---
 ## Nobel laureates
+![nobelxqhemox](/img/nobel_prize.jpg)
+---
+
 - **Michael W. Young**, Rockefeller University, New York, NY, USA\
 The Nobel Prize in Physiology or Medicine 2017\
 **Time Travels: A 40 Year Journey from Drosophila’s Clock Mutants to Human Circadian Disorders** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/2017/young/facts/)]

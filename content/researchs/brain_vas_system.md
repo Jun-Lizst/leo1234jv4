@@ -115,7 +115,7 @@ We firstly prove that Braf is a disease causing gene for brain arteriovenous mal
 
 
 **Next questions**
-> **Q1.** What are the negative regulators that prevent the initiation of bAVM vascular malformation ?
+> **Q1. What are the negative regulators that prevent the initiation of bAVM vascular malformation ?**
 
 
 
@@ -135,11 +135,30 @@ We characterized that monocyte and conventional dendritic cells (cDCs) are the m
 
 
 **Next questions**
-> **Q1.** How inflammation signaling promote the progress of bAVM disease ? 
+> **Q1. How inflammation signaling promote the progress of bAVM disease ？**
 
 
 **Other questions**
-> The mechanisms of BBB disruption during inflammatory conditions of multiple sclerosis remain poorly defined.
+>  **Q1. The mechanisms of BBB disruption during inflammatory conditions of multiple sclerosis remain poorly defined.**
+
+>  **Q2. What is the molecular basis of vascular regression in the aging brain ？**
+
+While the intervascular connective tissue strands in the central nervous system (also named string vessel or acellular capillaries) have been observed and documented for decades ([Cammermeyer 1960](https://doi.org/10.1002/cne.901140206); [Brown et al., 2010](10.3233/JAD-2010-100219IF)). its underlying cellular and molecular mechanisms remain largely unknown. **A central, unresolved question is how these structures form.** 
+
+Neuroinflammation, a hallmark of brain aging and neurodegenerative diseases, provides a compelling candidate mechanism. Driven by activated microglia and astrocytes, neuroinflammation generates a persistent stream of pro-inflammatory cytokines and damage-associated molecular patterns (DAMPs) in the brain. Consistent with this, we previously demonstrated that both brain aging and acute inflammation induced by systemic lipopolysaccharide (LPS) cause significant increase in vessel regression throughout the adult brain ([Gao et al., 2020](https://doi.org/10.1101/2020.09.15.262782)). While a recent study proposed that endothelial activation of GSDMD mediates inflammatory blood-brain barrier (BBB) breakdown ([Wei et al., 2024](https://doi.org/10.1038/s41586-024-07314-2)), its specific contribution to the macroscopic process of vessel regression and string vessel formation remains uncharacterized. 
+
+![string_vessel_xx](/img/regression_vessel.png)
+> **Pattern of regressive blood vessels in Tak1-fl/fl mice infected with AAV-PHP.eB-miniBEND-Cre.**\
+a, b, Representative images (a) and a summary of the density (b) of regressive blood vessels (arrowheads) in Tak1-fl/fl mice after administration of PBS (top row, a) or AAV-PHP.eB-miniBEND (mPro723-mCis700)-Cre (bottom row, a). Unpaired two-sided Welch’s t-test; ****p < 0.0001.
+
+
+Our findings demonstrate that genetic ablation of TAK1 signaling significantly increases vessel regression in the adult brain ([Gao et al., 2025](https://doi.org/10.1038/s41467-025-60308-0); [Li et al., 2025](https://doi.org/10.1101/2025.06.10.658979)). This observation is particularly intriguing given that TAK1 serves as a critical nexus in cell death signaling. In immune cells, TAK1 inhibition can lead to the activation of Caspase-8, which subsequently executes pyroptosis by directly cleaving key effectors, Gasdermin D (GSDMD) and Gasdermin E (GSDME) ([Guo et al., 2016](https://doi.org/10.1038/cddis.2016.294); [Orning et al., 2018](https://doi.org/10.1126/science.aau2818)). Although a clear link between TAK1 and distinct cell death pathways has been established, the precise mechanisms governing these processes in brain endothelial cells remain to be elucidated. It is currently unclear whether necroptosis or pyroptosis is the dominant form of regulated cell death in these cells and, crucially, how its specific regulation contributes to the breakdown of blood-brain barrier. 
+
+Building on those evidences, we propose a framework in which the canonical TAK1–Caspase-8–Gasdermin axis, a well-defined cell death pathway in immune cells, is co-opted to drive brain endothelial cell death and subsequent vascular pathology in the context of neuroinflammation and aging. To address this critical knowledge gap, we now investigate the novel mechanisms by which dysregulated innate immunity in aging drives the structural degradation of the cerebral microvasculature.
+
+
+
+
 
 
 
@@ -152,7 +171,7 @@ We characterized that monocyte and conventional dendritic cells (cDCs) are the m
 
 2. Gao X#, Chen XJ#, Ye M, ***Li JL*** &para;, Ci B, Chen F, Lu N, Shen B, Zheng L, Jia J, Yi Y, Zhang S, Shi Y, Shi K, Propson NE, Huang Y, Poinsatte K, Zhang Z, Yue Y, Bosco DB, Lu YM, Yang SB, Adams RF, Lindner V, Huang F, Wu LJ, Zheng H, Han F, Hippenmeyer S, Stowe AM, Peng B, Margeta M, Wang X, Liu Q, Korbelin J, Trepel M, Lu H, Zhou BO, Zhao H, Sun W, Bachoo RM, Ge WP* (01/07/2025)
 Reduction of neuronal activity mediated by blood-vessel regression in the brain. **Nature Communications** [[PMID: 40595484](https://pubmed.ncbi.nlm.nih.gov/40595484/) | [DOI Link](https://doi.org/10.1038/s41467-025-60308-0)]
-    - RNAseq analysis
+    - Pre-print version: **BioRxiv (15/09/2020)** [[DIO Link](https://doi.org/10.1101/2020.09.15.262782)]
     - Design and Characterization of a brainEC specific Cre driver line: _**Slco1c1-KI-P2A-iCreERT2**_
 
 3. Jian Ren#, Yazi Huang#, Yeqing Ren#, Tianqi Tu, Baoshan Qiu, Daosheng Ai, Zhanying Bi, Xue Bai, Fengzhi Li, ***Jun-Liszt Li*** &para;, Xing-jun Chen, Ziyan Feng, Zongpei Guo, Jianfeng Lei, An Tian, Ziwei Cui, Volkhard Lindner, Ralf H Adams, Yibo Wang, Fei Zhao, Jakob Körbelin, Wenzhi Sun, Yilong Wang, Hongqi Zhang, Tao Hong✝, Woo-ping Ge✝ (30/03/2023) Somatic variants of MAP3K3 are sufficient to cause cerebral and spinal cord cavernous malformations. **Brain** [[PMID: 36995941](https://pubmed.ncbi.nlm.nih.gov/36995941/) | [DOI Link](https://doi.org/10.1093/brain/awad104)]

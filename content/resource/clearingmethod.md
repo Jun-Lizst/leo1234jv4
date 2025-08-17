@@ -33,8 +33,9 @@ This webinar will explain tissue clearing, how it functions, and the three main 
     - Jing, Dian, et al. "Tissue clearing of both hard and soft tissue organs with the PEGASOS method." Cell research 28.8 (2018): 803-818. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcRC9PmbyA9BrlgLKSaS3bIB9E8yuXrCHZV1DNa0FvrtzA?e=cCFpYf) |  [DOI Link](https://doi.org/10.1038/s41422-018-0049-z)]
 
 2. **TESOS system:** 
-    - Yi, Yating, et al. "Mapping of individual sensory nerve axons from digits to spinal cord with the Transparent Embedding Solvent System." bioRxiv (2021).
-[[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERb89_2_XC1PsTprUqvJW-4By5iukXykpOZSn9FGqHin0g?e=ZFJwNs) |  [DOI Link](https://doi.org/10.1101/2021.11.13.467610)]
+    - Yi, Y., Li, Y., Zhang, S. et al. Mapping of individual sensory nerve axons from digits to spinal cord with the transparent embedding solvent system. Cell research 34, 124–139 (2024). [[PDF](https://www.nature.com/articles/s41422-023-00867-3.pdf) |  [DOI Link](https://doi.org/10.1038/s41422-023-00867-3)]
+    - Preprint version: bioRxiv (15/11/2021) [[DOI Link](https://doi.org/10.1101/2021.11.13.467610)]
+
 
 ### **CUBIC** 
 - **The alcoholic amines** in CUBIC can effectively remove the heme pigments within the sample hemoglobin and myoglobin, which can further reduce the light scattering and absorption and increase the transparency effect.

@@ -33,7 +33,7 @@ _**First author**_
 ---
 
 3. Samuel Lundt#, Nannan Zhang#, ***Jun-Liszt Li*** &para;, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ (09/02/2021) Metabolomic and transcriptional profiling reveals bioenergetic stress and activation of cell death and inflammatory pathways in vivo after neuronal deletion of NAMPT.  **Journal of Cerebral Blood Flow & Metabolism** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeMdie0AmzVFtF0Ibrj84w8BfCFt-J6ysC9ZgNv4z_yzIA?e=cgKWnC) | [PMID: 33563078](https://pubmed.ncbi.nlm.nih.gov/33563078/) | [DOI Link](https://doi.org/10.1177%2F0271678X21992625)]  _**Second author**_
-    - By **RNAseq analysis**, we identified the activated downstream gene programs after neuronal deletion of a important enzyme in NAD+ salvage pathway.\ 
+    - By **RNAseq analysis**, we identified the activated downstream gene programs after neuronal deletion of a important enzyme in NAD+ salvage pathway. 
 ![pub_Nampt_rnaseq](/img/2021_JCBFM_GSEA.png)
 
 4. Gao X#, Chen XJ#, Ye M, ***Li JL*** &para;, Ci B, Chen F, Lu N, Shen B, Zheng L, Jia J, Yi Y, Zhang S, Shi Y, Shi K, Propson NE, Huang Y, Poinsatte K, Zhang Z, Yue Y, Bosco DB, Lu YM, Yang SB, Adams RF, Lindner V, Huang F, Wu LJ, Zheng H, Han F, Hippenmeyer S, Stowe AM, Peng B, Margeta M, Wang X, Liu Q, Korbelin J, Trepel M, Lu H, Zhou BO, Zhao H, Sun W, Bachoo RM, Ge WP✝ (01/07/2025)
