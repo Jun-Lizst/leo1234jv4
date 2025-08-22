@@ -28,20 +28,34 @@ thumbnailImagePosition: left
 ## Fundamental techniques
 
 - **Protein quantification**
-    - SDS-PAGE(In-gel)
-    - Western blot
-    - ELISA
-    - BCA
+    - **SDS-PAGE(In-gel)**
+      - pre-cast gels (Thermo) [8% | 10% | 4~12% | 8~16%]
+      - pre-cast gels (BioRad) [8% | 10% | 4~12% | 8~16%]
+    - **Western blot**
+      - PVDF membrane, 0.45 um pore size [[Millipore: IPFL00010](https://www.sigmaaldrich.com/CZ/cs/product/mm/ipfl00010?srsltid=AfmBOopgFe8mgpL3NnXRtELNsYD2xkQ07O8kmDEvVDhQkGzKy3dkiuHi)]
+      - Transfer tank (Wet) [[Thermo: VEP-2](https://www.thermofisher.com/order/catalog/product/VEP-2) | [BioRad: ]() | Transfer buffer: CAPS]
+      - Transfer system (Semi-Dry) [[BioRad:]()]
+      
+    - **BCA:** The BCA (Bicinchoninic Acid) protein assay is a colorimetric method for determining the total protein concentration in a solution. It relies on the reduction of copper(II) to copper(I) by protein in an alkaline solution, followed by the chelation of two molecules of BCA with each Cu(I) ion, resulting in a purple-colored complex that absorbs strongly at 562 nm. The intensity of the purple color is directly proportional to the amount of protein present, allowing for quantification by comparing the absorbance to a standard curve of known protein concentrations. 
+      - Pierce™ BCA Protein Assay Kits [[User guide: PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0011430_Pierce_BCA_Protein_Asy_UG.pdf) | measure at 562 nm]
+      - Pierce™ Dilution-Free™ Rapid Gold BCA Protein Assay Kit [[User guide: PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0029413-Pierce%20DilutionFree%20RapidGoldBCA-UG.pdf) | measure at 480 nm]
+    - **Bradford**：The Bradford method is a quick and widely used colorimetric assay for determining protein concentration. It involves the binding of a dye, Coomassie Brilliant Blue G-250, to proteins, which causes a shift in the dye's absorbance spectrum. By measuring the absorbance of the resulting blue solution at 595 nm and comparing it to a standard curve, the protein concentration can be determined. [[original article, PMID:942051](https://pubmed.ncbi.nlm.nih.gov/942051/)]
+    - **ELISA**
 
 
 - **Protein purification**
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
-
-
-
+    - ATKA Pure [[Cytiva]()]
+    - Size-exclusion chromatography (SEC, Gel filtration): [[Superose 6 Increase 10/300 GL]() | [Superdex 200]()]
+    - HIC ()
+    - Anion exchange chromatography (AEC): [[Q HP]()
+    - Affinity Tag based purification:
+      - Anti-FLAG: anti-Flag M2 affinity gel (Millipore Sigma)
+      - Twin-Strep
+    
 - **Protein interaction**
-    - **co-IP**: Anti-FLAG Magnetic Agarose beads [[Thermo](https://www.thermofisher.com/order/catalog/product/A36798?ef_id=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE:G:s&s_kwcid=AL!3652!3!730146096394!!!g!!!22158546157!172279481245&cid=bid_sap_prp_r01_co_cp1362_pjt0000_bid00000_0se_gaw_dy_pur_con&gad_source=1&gad_campaignid=22158546157&gbraid=0AAAAADxi_GQApzePpHkuQmiLo2ZT9fVkx&gclid=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE) | [Sigma](https://www.sigmaaldrich.cn/CN/en/product/sigma/m8823?srsltid=AfmBOoq6WDnv8XUxZ__m1yIopkj5LQ8DzGDd35wvJ0y0Waw-PB0f2HU8)]; Anti-HA Magnetic Agarose [[Thermo](https://www.thermofisher.com/order/catalog/product/88837?SID=srch-srp-88837)]
-    - Proximity labeling: APEX[]; TurboID[];
+    - **co-IP**: Anti-FLAG (DYKDDDDK) Magnetic Agarose beads [[Thermo](https://www.thermofisher.com/order/catalog/product/A36798?ef_id=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE:G:s&s_kwcid=AL!3652!3!730146096394!!!g!!!22158546157!172279481245&cid=bid_sap_prp_r01_co_cp1362_pjt0000_bid00000_0se_gaw_dy_pur_con&gad_source=1&gad_campaignid=22158546157&gbraid=0AAAAADxi_GQApzePpHkuQmiLo2ZT9fVkx&gclid=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE) | [Sigma](https://www.sigmaaldrich.cn/CN/en/product/sigma/m8823?srsltid=AfmBOoq6WDnv8XUxZ__m1yIopkj5LQ8DzGDd35wvJ0y0Waw-PB0f2HU8)]; Anti-HA Magnetic Agarose [[Thermo](https://www.thermofisher.com/order/catalog/product/88837?SID=srch-srp-88837)]
+    - Proximity labeling: APEX[]; TurboID[]; UltraID[]
 
 - **Protein identification**
     - Protein sequencing:
@@ -50,23 +64,44 @@ thumbnailImagePosition: left
 
 - **Organelle isolation**
     - mitochondria: Mito-IP []; Mito-IP tg mice
-    - Lysosome: LysoIP [[PMID: 29074583](https://pubmed.ncbi.nlm.nih.gov/29074583/) | [Protocol](https://www.protocols.io/view/lysosome-immunopurification-lysoip-protocol-for-su-eq2lypy1rlx9/v1)] ; LysoIP tg mice [[PMID: 36131016](https://pubmed.ncbi.nlm.nih.gov/36131016/)]
+    - Lysosome: LysoIP [[PMID: 29074583](https://pubmed.ncbi.nlm.nih.gov/29074583/) | [Protocol](https://www.protocols.io/view/lysosome-immunopurification-lysoip-protocol-for-su-eq2lypy1rlx9/v1)] ; LysoIP tg mice (Rosa26;lox-stop-lox-TMEM192-3×HA) [[PMID: 36131016](https://pubmed.ncbi.nlm.nih.gov/36131016/)]
     - ER:
     - Golgi: Golgi-IP [[PMID: 37155866](https://pubmed.ncbi.nlm.nih.gov/37155866/) | [Protocol](https://www.protocols.io/view/golgi-immunopurification-golgi-ip-for-subcellular-5qpvor3dbv4o/v1)]
     - Synaptosome:     
 
 
 - **Cell culture basis**
-    - ATCC® ANIMAL CELL CULTURE GUIDE(tips and techniques for continuous cell lines) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYU7m2YqpAZNqy3oJNdiqSsBNpQMMGQkw7M4hro63wuWqw?e=njcNcQ)]
+    - ATCC® ANIMAL CELL CULTURE GUIDE (tips and techniques for continuous cell lines) [[PDF](https://www.atcc.org/-/media/resources/culture-guides/animal-cell-culture-guide.pdf)]
+    - Cell Culture Basics Handbook [[PDF](https://assets.thermofisher.com/TFS-Assets/BID/Handbooks/gibco-cell-culture-basics-handbook.pdf)]
     - Guideline of Cell biology experiment, Part I (In Chinese, 细胞实验指南(上)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeCUDsikGUFDtGqAy4-lErsBsKRz0Qn2T329ETyT0KjRzw?e=wTaHrr)]
     - Guideline of Cell biology experiment, Part II (In Chinese, 细胞实验指南(下)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee5Qbs939yFMvdbCV3iSbD0BdbhidwjLXTkoyxSk9M6TmA?e=fAVeeC)]
     - Gibco Cell Culture Basics Handbook(In Chinese) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EViSuQ_uP71Fqy3SHpHozhUBbA1xmaOYom-gIrwEW4-2sQ?e=UfLvlT)]
 
 
+    - Cell lines from ATCC library
+| Name    | ATCC Catalog | Organism | 
+| -------- | ------- |  ------- |
+| SH-SY5Y  | [CRL-2266](https://www.atcc.org/products/crl-2266)    | Homo sapiens  |
+| U-2 OS | [HTB-96](https://www.atcc.org/products/htb-96)     |  Homo sapiens  |
+| bEnd.3 [BEND3]   | [CRL-2299](https://www.atcc.org/products/crl-2299)    |  Mus musculus      |
+| HUVEC   | [Lonza, CC-2519]()    |  Homo sapiens      |
+
+
+- **Transfection reagents**
+    - **XtremeGene9**: Sigma
+    - **PEI**:
+
+
+
+- **Stable cell line generation**
+    - Lenti-virus system
+
+
+
 ---
 ## Vendor companies
-1. [Cell Signaling Technology](https://www.cellsignal.com/)
-2. [Abcam](https://www.abcam.com/)
+1. [Cell Signaling Technology](https://www.cellsignal.com/): We order antibodies in this company.
+2. [Abcam](https://www.abcam.com/): We order antibodies in this company.
 3. [ThermoFisher](https://www.thermofisher.cn/cn/zh/home/life-science/antibodies/primary-antibodies.html?icid=ab-search-primary-icons)
 4. [R&D Systems](https://www.rndsystems.com/products)
 5. [BioRad](https://www.bio-rad.com/)
@@ -172,6 +207,7 @@ thumbnailImagePosition: left
 
 3. [Nieng Yan lab, Tsinghua University/Princeton University](https://scholar.princeton.edu/yanlab)
 - **Structural basis of Membrane transport**
+    - human GLUT1
 - **Structural and mechanistic investigation of sterol homeostasis**
 
 
@@ -236,27 +272,24 @@ The Nobel Prize in Physiology or Medicine 2019\
 The Nobel Prize in Physiology or Medicine 2019\
 **Hypoxia-Inducible Factors in Physiology and Medicine** [[Nobel Lecture video](https://www.youtube.com/watch?v=B_KBgSXUWoM&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESNkopdpfo1Hg4snunzkMBcB1tf8zbRYfc1SPzC7SIElHw?e=iCgGHX) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efl45HbMeoVFlKFDaQ3nlrEBpioqP1dJAdmLpltUt8RqSw?e=8BU3qs) | [Source](https://www.nobelprize.org/prizes/medicine/2019/semenza/facts/)]
 
-- **Thomas C. Südhof**, Stanford University\
-The Nobel Prize in Physiology or Medicine 2013\
-**The Molecular Machine of Neurotransmitter Release** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EbLcx0QeibRGlgeSR-wfGJ4BWPlhZExnkIP7wc8-pFTxWA?e=k7strf) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESyTiEUSXRREmO874beTNA8BFYvkGXSzAiGxd6KjwPhNjg?e=cqoU9h) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETG3U9VtMvhFujJDV2El4DgBvZyaqkjeXXyW-zJZNp7_vw?e=tn3hs7) | [Source](https://www.nobelprize.org/prizes/medicine/2013/sudhof/biographical/)]
 
 - **Thomas A. Steitz**, Yale University, New Haven, CT, USA/HHMI\
 The Nobel Prize in Chemistry 2009\
-**From the Structure and Function of the Ribosome to New Antibiotics** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdrUMA_9tNFFoaPSwgyHoDYBCpJIdR2d3k-UCpJHoV3C1g?e=VFW41a) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVXBnv0u4ZFJhYQn8GDptrsB_h1rjWytyIgA-_jGlJnp0A?e=9GGhT9) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfciowG7i0xGkkbCawrXBYIBjfGg34AWPzRkUY9QjXxa0w?e=37F7SE) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
+**From the Structure and Function of the Ribosome to New Antibiotics** [[[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2013_med_sudhof_01_496.mp4) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVXBnv0u4ZFJhYQn8GDptrsB_h1rjWytyIgA-_jGlJnp0A?e=9GGhT9) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfciowG7i0xGkkbCawrXBYIBjfGg34AWPzRkUY9QjXxa0w?e=37F7SE) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
 
-- **Roger D. Kornberg(1947-)**, Stanford University, Stanford, CA, USA\
+- **Roger D. Kornberg (1947-)**, Stanford University, Stanford, CA, USA\
 The Nobel Prize in Chemistry 2006\
 **The Molecular Basis of Eukaryotic Transcription** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERw7C9PRlohLhRtknICEV7MBBSPm_2mWVIesmDVd2YOG4A?e=hF2pWW) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESyDWhQ3fdVKgUJCgAx60r0B_CtmOIHrlltak3g1vOG7IQ?e=I34sDq) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZT0GvMQveJMq-ixnGwABJUBS-5i5dHmP0wara5wRomYgA?e=3BsqbQ) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
 
-- **Aaron Ciechanover(1947-)**, Technion - Israel Institute of Technology, Haifa, Israel\
+- **Aaron Ciechanover (1947-)**, Technion - Israel Institute of Technology, Haifa, Israel\
 The Nobel Prize in Chemistry 2004\
 **Intracellular Protein Degradation: From a Vague Idea thru the Lysosome and the Ubiquitin-Proteasome System and onto Human Diseases and Drug Targeting** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERdlJ9rdPcFJv_R1mJut84kBUPLMOWBZXB7qbeCeSX5ryw?e=gqwpxE) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EYYwKnERfjlNlR8M2dUaBRkBRtKflup1lcj0mwyKSRIDGw?e=F7p9qz) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU43Ls9wC8hElhPZYmT6Mw4BqaFkBXTstZ0pMxcKkRDlcw?e=radGHz) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/ciechanover/facts/)]
 
-- **Avram Hershko(1937-)**, Technion - Israel Institute of Technology, Haifa, Israel\
+- **Avram Hershko (1937-)**, Technion - Israel Institute of Technology, Haifa, Israel\
 The Nobel Prize in Chemistry 2004\
 **The Ubiquitin System for Protein Degradation and some of its Roles in the Control of the Cell Division Cycle** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERK-w8_ezhdIgvzoRmAUiZYBP7U646FMYt5MwzffiOdsBg?e=1cjjXH) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU8HK0tUDq5GvbVsQQO0y2sBBhjvde1SrnZ-7spfFiXV-Q?e=KJ6WG5) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXSPPRnxcpZHhY4P0UAcdkEB8Bbl08QCMFZvLS5EGsUVng?e=fUDQcO) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/hershko/facts/)]
 
-- **Irwin Rose(1926-2015)**, University of California, Irvine, CA, USA\
+- **Irwin Rose (1926-2015)**, University of California, Irvine, CA, USA\
 The Nobel Prize in Chemistry 2004\
 **Ubiquitin at Fox Chase** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ET4_5AecXu9Cnf0uM19F4JsBS9IZDC6c5ICFlR0vH87a4g?e=siEias) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXbdZe1w5q9BkWFcrk386rQBAxL3Vs5s6363DWlxUCbwgA?e=jSkAIL) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETFDWhuZpgpKskP64kZaOyQBuQdyyA_dyO4bLO0hdcZvAQ?e=7iQmn9) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/rose/biographical/)]
 
@@ -274,15 +307,15 @@ The Nobel Prize in Physiology or Medicine 2001\
 **Protein Synthesis, Proteolysis, and Cell Cycle Transitions** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EaOQ-Mm3pGdHlV4I8wW2TekBDyip0iCCG2VWo9Z7L7YVRQ?e=qDd7zC) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUJnTxOTUVVOny_JXNJ3CQ8BrtlQv39qjtxkry_heWS9QQ?e=ZJHRVY) | [Source](https://www.nobelprize.org/prizes/medicine/2001/hunt/facts/) | [Careers interview](https://www.science.org/content/article/tim-hunt)]
 
 
-- **Paul Greengard(1925-2019)**, Rockefeller University, New York, NY, USA\
+- **Paul Greengard (1925-2019)**, Rockefeller University, New York, NY, USA\
 The Nobel Prize in Physiology or Medicine 2000\
-**The Neurobiology of Dopamine Signaling** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EZblptFXMR1Kk6z-nBXYQi0Bv5fQX93w5C1VfCkhzwxm3g?e=hvw6ZD) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVLV6ZEeoeVOtiH1frpXBrwBHfp2b2kRneQpzihNUc1nfw?e=DBrwHF) | [Source](https://www.nobelprize.org/prizes/medicine/2000/greengard/facts/)]
+**The Neurobiology of Dopamine Signaling** [[[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2000_med_greengard_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/greengard-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2000/greengard/facts/)]
 
-- **Günter Blobel(1936-2018)**, Rockefeller University, New York, NY, USA/HHMI\
+- **Günter Blobel (1936-2018)**, Rockefeller University, New York, NY, USA/HHMI\
 The Nobel Prize in Physiology or Medicine 1999\
 **Protein Targeting** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESIeTdXeQhFPucU3U8wRnlkBaeewC7fpnxh2NOxfFOCWDA?e=mukBY1) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZg3NWI41VJLrNYH7fBjeL8BwVR1OmqLCva5QVreNa3kHQ?e=98dUsD) | [Source](https://www.nobelprize.org/prizes/medicine/1999/blobel/facts/)]
 
-- **Jens C. Skou(1918-2018)**, Aarhus University, Aarhus, Denmark\
+- **Jens C. Skou (1918-2018)**, Aarhus University, Aarhus, Denmark\
 The Nobel Prize in Chemistry 1997\
 **The Identification of the Sodium-Potassium Pump** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcDHAa8liqBKhX4MwJ47m5MB7e7ODpl1miBXGyDt-s5qTg?e=IKeiXx) | [Source](https://www.nobelprize.org/prizes/chemistry/1997/skou/facts/)]
 
@@ -299,21 +332,21 @@ The Nobel Prize in Physiology or Medicine 1975\
 **Viruses, Polymerases and Cancer** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESnrenbCZZlAhI2JPh5t-x8B3X7SnCYq7xw02oP8GmjCeQ?e=IfvLqf) | [Source](https://www.nobelprize.org/prizes/medicine/1975/baltimore/facts/)]
 
 
-- **Christian de Duve(1917-2013)**, Rockefeller University, New York, NY, USA, Université Catholique de Louvain, Louvain, Belgium\
+- **Christian de Duve (1917-2013)**, Rockefeller University, New York, NY, USA, Université Catholique de Louvain, Louvain, Belgium\
 The Nobel Prize in Physiology or Medicine 1974\
 **Exploring Cells with a Centrifuge** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EdOinoSbtxVIi-cwGU-QE7gBFMjIvlVwC0bnRyqJVN9Emw?e=5KkvhL) | [Source](https://www.nobelprize.org/prizes/medicine/1974/duve/facts/)]
 
 
-- **Hans Adolf Krebs(1900-1981)**, Sheffield University, Sheffield, United Kingdom\
+- **Hans Adolf Krebs (1900-1981)**, Sheffield University, Sheffield, United Kingdom\
 The Nobel Prize in Physiology or Medicine 1953\
 **The Citric Acid Cycle** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVxi0wW7-IJJnjzqliHeFh8BGW0h1b8LObZyfqK-HVpA2Q?e=s3Ecby) | [Source](https://www.nobelprize.org/prizes/medicine/1953/krebs/facts/)]
 
-- **Fritz Albert Lipmann(1899-1986)**, Harvard Medical School, Boston, MA, USA, Massachusetts General Hospital, Boston, MA, USA\
+- **Fritz Albert Lipmann (1899-1986)**, Harvard Medical School, Boston, MA, USA, Massachusetts General Hospital, Boston, MA, USA\
 The Nobel Prize in Physiology or Medicine 1953\
 **Development of the Acetylation Problem: A Personal Account** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbCWJp6BlQ1EoXr9K9pupjoBSnpvv2RM_Sd_vccz32xDjg?e=YmE34g) | [Source](https://www.nobelprize.org/prizes/medicine/1953/lipmann/facts/)]
 
 
-- **Otto Heinrich Warburg(1883-1970)**, Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie, Berlin-Dahlem, Germany\
+- **Otto Heinrich Warburg (1883-1970)**, Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie, Berlin-Dahlem, Germany\
 The Nobel Prize in Physiology or Medicine 1931\
 **The Oxygen-Transferring Ferment of Respiration** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES4ZiJYfJ5ZCpQUBKCcgw78BmrgsbyYZ8pMmFbX3UxdyRQ?e=kPiQzd) | [Source](https://www.nobelprize.org/prizes/medicine/1931/warburg/facts/)]
 

@@ -34,6 +34,7 @@ thumbnailImagePosition: left
 
 
 - **Brain endothelial cell targeting**: 
+    - **rAAV-miniBEND system**: Highest specificity to brainECs. [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **(Highly recommended!)**
     - AAV-BR1: transduce Neurons(Cortex, Striatum, Cerebellum); Brain endothelial cells(Whole brain and spinal cord); has central nervous system specificity. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
     - AAV-BI30: AAV9 variants, with liver leakage, has brainEC specificity when used in adult mice. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUxMCsFh91tDl49LHoAorpkBT1REK6IuHFHofD7ze-dcFA?e=Z0s0iN) | [PMID: 35571675](https://pubmed.ncbi.nlm.nih.gov/35571675/) | [DOI Link](https://doi.org/10.1038/s44161-022-00046-4)]
     - AAV-X1.1: AAV9 variants, not specific when retro-orbitally injected into rat.
@@ -64,8 +65,20 @@ thumbnailImagePosition: left
     - AAV-PHP.S: 1 × 10^12 vg of AAV-PHP.S transduced 82% of dorsal root ganglion neurons, as well as cardiac and enteric neurons. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee3jKWcTBfNEmGVr907iDgUBvkTOtwgl7KyYe5ic2b56bg?e=dkOFlB) | [PMID: 35879607](https://pubmed.ncbi.nlm.nih.gov/28671695/) | [DOI Link](https://doi.org/10.1038/nn.4593)]
 
 
-## Tissue/Cell type specific promoters
 
+- **muscle cells specific (myotropic AAV variants)**: 
+    - MyoAAV2A: 
+    - AAV-MyoAAV4A: a muscle-tropic AAV capsid in mice and macaques. [[DOI Link](https://doi.org/10.1016/j.cell.2021.08.028) | [Addgene plasmid: #224448](https://www.addgene.org/224448/)]
+    - LICA1: a muscle-tropic AAV capsid
+
+- **immune system**:
+    - AAV-Ark313: A murine T cell-specific AAV variant, Ark313, is discovered through AAV6 evolution. [[DOI Link](https://doi.org/10.1016/j.cell.2022.12.022) | [PDF](https://www.cell.com/cell/pdf/S0092-8674(22)01535-5.pdf)]
+    - 
+
+
+
+
+## Tissue/Cell type specific promoters or cis-elements
 
 - **Pan-neuron**: 
     - hSyn: Kügler, S., E. Kilic, and M. Bähr. "Human synapsin 1 gene promoter confers highly neuron-specific long-term transgene expression from an adenoviral vector in the adult rat brain depending on the transduced area." Gene therapy 10.4 (2003): 337-347. [[PDF]() | [DOI Link](https://doi.org/10.1038/sj.gt.3301905) ]
@@ -100,6 +113,7 @@ thumbnailImagePosition: left
     - pCd68[]:
 
 - **Endothelial cells**: 
+    - miniBEND: Highest specificity to brainECs. [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **(Highly recommended!)**
 
 - **Liver hepatocyte**: P3[]
 
@@ -137,7 +151,7 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
   - **stagRFP**: A new single-residue mutant, super-TagRFP (stagRFP) has nearly twice the molecular brightness of TagRFP-T and negligible photoactivation. [[PMID: 32296061](https://pubmed.ncbi.nlm.nih.gov/32296061/) | [DOI Link](https://doi.org/10.1038/s41467-020-15687-x)]
   - **mScarlet**:
   - **mScarlet3**:
-  
+  - **mYongHong**
 
 
 - GFPs: 
@@ -146,6 +160,7 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
   - **mGreenLantern**: mGreenLantern is a basic (constitutively fluorescent) green fluorescent protein published in 2020[Campbell, Benjamin C., et al. PNAS], derived from Aequorea victoria. It is reported to be a very rapidly-maturing monomer with moderate acid sensitivity. **mGreenLantern was 190% brighter than mNeonGreen, 260% brighter than Clover, and 620% brighter than EGFP when expressed in HeLa cells and showed faster and complete maturation.**
 [[Addgene Plasmid: #164469](https://www.addgene.org/164469/) | [PMID: 33208539](https://pubmed.ncbi.nlm.nih.gov/33208539/) | [DOI Link](https://doi.org/10.1073/pnas.2000942117)]
   - **StayGold**: StayGold, a green fluorescent protein (GFP) derived from the jellyfish Cytaeis uchidae. StayGold is over one order of magnitude more photostable than any currently available fluorescent protein and has a cellular brightness similar to mNeonGreen. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWDddVtu-BxMnGXCVXGWtGEBbvSlIS9zU6n8lONjE4uKYQ?e=HOQnUc) | [PMID: 35468954](https://pubmed.ncbi.nlm.nih.gov/35468954/) | [DOI Link](https://doi.org/10.1038/s41587-022-01278-2)]
+  - **mBaoJin**
 
 
 - YFPs: 

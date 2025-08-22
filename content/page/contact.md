@@ -16,7 +16,7 @@ showActions:    false
 ---
 
 
-![leo1234jxwqexxs](/img/cover2.jpg)
+![leo1234jxwqexxs](/img/Prague_city0.jpg)
 
 Currently, I live in Prague, Czech Republic. You can contact me through email or interact with me in twitter/X([@poppingjun](https://x.com/poppingjun)) since I frequently check it.
 

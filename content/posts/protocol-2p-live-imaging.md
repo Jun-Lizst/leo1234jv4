@@ -115,11 +115,10 @@ Microvascular hemodynamic imaging was performed as shown in Fig. 5. Experimental
 ---
 ### **Long-term two-photon imaging of spinal cord**
 
-
-![spinalxqhemox](/img/spinal_cord_2p_imaging.jpg)
+![spinalxqhemoqe](/img/spinal_cord_2p_imaging.jpg)
 We use 10x objective (NA = 0.6) for imaging of spinal cord, as this objective has larger FOV and also maintain a relative high resolution during imaging.
 
-![spinalobjemox](/img/obj_6x0.6NA_in_my_hand.jpg)
+![spinalobjemdg](/img/obj_6x0.6NA_in_my_hand.jpg)
 > **Working Distance:** 8 mm \
 > This is probably the longest focal length (180/10 = 18 mm) objective you can get and use with a standard two-photon system and see activity in single neurons. 0.6 NA might not be enough for tissue bulk labeled with OGB-1, but for GECIs like GCaMP6, signals from single cells are easily resolved. 
 

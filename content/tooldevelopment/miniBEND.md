@@ -30,7 +30,19 @@ thumbnailImagePosition: left
 
 ## Module 1: VasCode Miner
 **VasCode Miner** is in the upstream of The Big VasCode system, and in charge of mining of disease causing molecular target)
-The VasCode system aims to integrate next-generation sequencing technologies such as whole-exome sequencing, CNV sequencing, scRNAseq to identify potential disease-causing gene mutations. 
+The VasCode system aims to integrate next-generation sequencing technologies such as whole-exome sequencing, GWAS, CNV sequencing, scRNAseq to identify potential disease-causing gene mutations. 
+
+**BrainEC related diseases**
+  - CCM
+  - AVM/bAVM
+  - Multiple sclerosis (MS) 
+  - Cerebral Malaria
+  - Stroke
+  - Aging
+  
+  
+**Databases**
+  - [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/): ClinVar is a freely accessible, public archive of reports of human variations classified for diseases and drug responses, with supporting evidence. ClinVar thus facilitates access to and communication about the relationships asserted between human variation and observed conditions, and the history of those assertions.
 
 
 

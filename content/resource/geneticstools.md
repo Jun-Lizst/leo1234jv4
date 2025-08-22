@@ -78,7 +78,7 @@ thumbnailImagePosition: left
 
 ### Microglia labeling
 1. **CX3CR1-EGFP**: [[JAX Strain #:005582](https://www.jax.org/strain/005582) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=005582&protocolID=27927)]
-2. **CX3CR1-iCreERT2**:
+2. **CX3CR1-iCreERT2**: [[JAX Strain #:021160](https://www.jax.org/strain/021160) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=021160&protocolID=24463)]
 3. **Tmem119-P2A-iCreERT2**:  [[JAX Strain #:031820](https://www.jax.org/strain/031820) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=031820&protocolID=34019) | [DOI Link](https://doi.org/10.1523/eneuro.0448-18.2019)]
 
 
@@ -99,11 +99,20 @@ thumbnailImagePosition: left
 5.
 
 
+### Muscle cells
+1. **HSA-Cre-ERT2**: HSA-Cre-ERT2 mice (also called ACTA1-Cre-ERT2) express a tamoxifen-inducible cre/ERT2 fusion under the control of the human skeletal muscle α-actin (ACTA1) promoter and regulatory elements. Cre recombinase activity is observed only in skeletal muscles. This strain allows temporally controlled deletion of floxed genes in skeletal muscles.  [[Strain #:003771](https://www.jax.org/strain/039097) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=039097&protocolID=49638) | [DOI Link](https://doi.org/10.1002/gene.20107)]
+
+
+
 ### Transgenic mouse line for disease modeling
 1. **5xFAD mice (Alzheimer disease model)**: These 5XFAD transgenic mice overexpress mutant human amyloid beta (A4) precursor protein 695 (APP) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations along with human presenilin 1 (PS1) harboring two FAD mutations, M146L and L286V. Both transgenes are regulated by the mouse Thy1 promoter to drive overexpression in the brain. 5XFAD mice recapitulate major features of Alzheimer's Disease amyloid pathology and may be a useful model of intraneuronal Abeta-42 induced neurodegeneration and amyloid plaque formation. [[JAX Strain #:006554](https://www.jax.org/strain/006554) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=006554&protocolID=31769) | [PMID: 17021169](https://pubmed.ncbi.nlm.nih.gov/17021169/) | [DOI Link](https://doi.org/10.1523/jneurosci.1202-06.2006)]
 
 2. **Braf-CA mice (for modeling bAVM disease)**:
     - Li, Jun-Liszt, et al. "rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling." bioRxiv (2025): 2025-06. [[JAX Strain #:017837](https://www.jax.org/strain/017837)]
+
+
+
+3. **Rosa26-LSL-KRAS-G12D**
 
 
 
@@ -163,6 +172,13 @@ thumbnailImagePosition: left
 
 ---
 # Rat
+
+
+
+
+
+
+
 
 
 ---

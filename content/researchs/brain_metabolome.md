@@ -33,11 +33,14 @@ Metabolism is physiologically fundamental to a biological system. Understanding 
 
 **Browse our project**: [shiny app](https://leoj.shinyapps.io/BSMAv1_updated/)
 
+
+
+
+
 ---
+## Brain metabolome with high spatial resolution
 
 
-
-## Brain  with high spatial resolution
 
 
 
@@ -45,6 +48,9 @@ Metabolism is physiologically fundamental to a biological system. Understanding 
 ## Brain specific solute carrier (SLC) transporters
 ![talkxssqwe](/img/brainEC_transport.png)
 Endogenous metabolites play important roles in the regulation of cellular activity. Our brain is in a dynamic state, communication between different cell types (Excitatory neuron, Inhibitory neuron, Microglia, Oligodendrocyte, Astrocyte, ect) depends on small metabolites. Cerebrovascular spread to whole brain and import some metabolites from peripheral system or export some metabolites outside CNS. It is important to have a comprehensive profile for gene expression of transporters across brain vasculature segmentations.
+
+
+
 
 
 

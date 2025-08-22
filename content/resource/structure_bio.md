@@ -91,7 +91,7 @@ thumbnailImagePosition: left
 
 
 
-**Ref labs**: 
+### Ref labs: 
 1. [Yifan Cheng Lab, UCSF](https://cryoem.ucsf.edu/)\
 **Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF\
 [Liao, et al. 2016, Nature; Cao et al. 2013 Nature and Gao et al. 2016, Nature]\
@@ -113,51 +113,63 @@ thumbnailImagePosition: left
 
 
 
----
-## Vendor companies
-
-
-
-
-
-
-
-### X-ray crystallography
-- 
-
-
-
-
 
 ---
-## Ref. Labs
+# X-ray crystallography
+
+
+
+
+### Vendor companies
+
+
+
+
+### Ref. Labs
 
 
 
 
 
-
+---
 # NMR
 
 
 
 
 
+
+
+
 ---
-## Ref. Labs
+### Ref. Labs
 1. [Chun Tang Lab](http://tanglab.cn/about.html), Peking University
     
     
 
 
 
+---
+# Structural Proteomics
+
+
+
+
+
+
+## Ref. Labs
+1. [Mass Spectrometry of Biopolymers (BioMS), Core facility, IOCB-Prague](https://msbiopolymers.group.uochb.cz/en)
+  - **HDX-MS:** Hydrogen-Deuterium Exchange Mass Spectrometry (HDX-MS) is a structural proteomics method based on a chemical reaction that allows the exchange of covalently bound hydrogen atoms for deuterium from the solution. This exchange occurs under physiological conditions, and its rate depends on the local secondary structure of proteins. By performing a differential experiment under different conditions, it is possible to track the rate of exchange at the peptide level to localize structural changes on proteins due to the binding of ligand (identification of the binding site), another protein (identification of the interaction interface), or due to changes in physicochemical conditions (temperature, pH), including accompanying allosteric effects.
+
+  - **Crosslinking (XL-MS):** This method is based on crosslinking proteins using reagents of a specific length, which, after binding to the protein and subsequent mass spectrometric detection, provide information about the distances between two amino acid side chains. This technique can detect and structurally characterize protein-protein interactions or characterize distances within the structure of an individual protein. The output is a table listing reliable detected crosslinks and their graphical representation on the protein sequence and on a 3D model.
+
+
 
 # Other technologies
 smFRET，FLIM-FRET
 
-SAXS
 
-
+---
 # Structure modeling
 
   - AlphaFoldv3
@@ -188,4 +200,18 @@ The Nobel Prize in Chemistry 2017\
 - **Richard Henderson**, MRC Laboratory of Molecular Biology, Cambridge, United Kingdom\
 The Nobel Prize in Chemistry 2017\
 **From Electron Crystallography to Single Particle cryoEM** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/henderson/facts/)]
+
+- 
+
+- **Max von Laue**, Frankfurt-on-the-Main University, Frankfurt-on-the-Main, Germany\
+The Nobel Prize in Physics 1914\
+**Concerning the Detection of X-ray Interferences** [[Nobel Documentary video](https://nobel-videocdn01.azureedge.net/video/docu_1914_phy_vonlaue_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/laue-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/physics/1914/laue/facts/)]
+
+
+- **Wilhelm Conrad Röntgen**, Munich University, Munich, Germany\
+The Nobel Prize in Physics 1901\
+**in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him** 
+
+
+
 

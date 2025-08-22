@@ -126,7 +126,7 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 #### Ref labs
 1. **Single cell genomics**: 
 - [Satija lab, NYU](https://satijalab.org/)
-
+  - Choosing a single cell technology. [[PDF Slides](https://www.dropbox.com/s/wl6sgqxb5rt44sq/SatijaLab_ChoosingTech.pdf?dl=1)]
 2. **Functional genomics**:
 - Wensheng Wei lab, PKU
 
@@ -140,7 +140,7 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 4. **Transcriptomics of brain cell types**: 
-- **Ben A. Barre(1954-2017)**, Stanford University School of Medicine\
+- **Ben A. Barre (1954-2017)**, Stanford University School of Medicine\
     Pioneer of glia biology
     [A Tribute to Ben Barres]()
     - Cahoy, J. D. et al. A Transcriptome Database for Astrocytes, Neurons, and Oligodendrocytes: A New Resource for Understanding Brain Development and Function. Journal of Neuroscience 28, 264–278 (2008). [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EdtWpOFux75DtCYSoiM3UuUBr-4OU0A1XKl1UBCtVFcWKA?e=o9ZFRu) | [PMID: 18171944](https://pubmed.ncbi.nlm.nih.gov/18171944/) | [DOI Link](https://doi.org/10.1523/jneurosci.4178-07.2008)]
@@ -152,25 +152,45 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 ---
 #### Online conferences
 1. **NYU single cell genomics, 2018**
+    - [New Advances in Single-Cell Genomics (2018)](https://satijalab.org/scgd18/) [[Watch video](https://youtu.be/X4RBshgH1x0)]
+    - Single Cell Genomics: Recent Advances and Future Directions [[PDF Slides](https://www.dropbox.com/s/2g1gj7q04696d01/scgd_2018_satija.pdf?dl=0)], Rahul Satija, NYGC/NYU 
 
 2. **NYU single cell genomics, 2019**
+    - [New Advances in Single-Cell and Spatial Genomics (2019)](https://satijalab.org/scgd19/) [[Watch video](https://youtu.be/UNlcBTknDZ8)]
     - [Mapping the brain with MERFISH](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EbWme5Hh81BKpICBuyT4d4sBmPm_QoONccpQi2v_M9jy8Q?e=lzXz6u), Jeffery R. Moffitt, Harvard Medical School
     - [Reconstruction of developmental trajectories during zebrafish embryogenesis](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdeugURNrcFGuN2mcnKaeWkBJFj2d6BkULUKJM6jpe-cRA?e=fX40R0), Jeff Farrell, Harvard University
 
 
 3. **NYU single cell genomics, 2020**
-    - [New Advances in Single-Cell and Spatial Genomics (2020)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/Ea1KJmNSIlZAmMKERuPcNEIBJa1-UsO2guziO3HlkZgsdw?e=esedKx)
+    - [New Advances in Single-Cell and Spatial Genomics (2020)](https://satijalab.org/scgd20/) [[Watch video](https://www.youtube.com/watch?v=UNlcBTknDZ8)]
     
 4. **NYU single cell genomics, 2021**
-    - [New Advances in Single-Cell and Spatial Genomics (2021)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EaC-F_kt4h5JnSRpiK1KCncBtap5xLJZUKBYqNaA-RA_5w?e=C0hElS)
+    - [New Advances in Single-Cell and Spatial Genomics (2021)](https://satijalab.org/scgd21/) [[Watch video](https://www.youtube.com/watch?v=uFRe-UMUlMQ)]
     
 5. **NYU single cell genomics, 2022**
-    - [New Advances in Single-Cell and Spatial Genomics (2022)](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EW11X86FVwtNiiEWnSfLEJ0Bj8oUJoIf-SrJBGL3mWvpCg?e=U6YQsT)
+    - [New Advances in Single-Cell and Spatial Genomics (2022)](https://satijalab.org/scgd22/) [[Watch video](https://www.youtube.com/watch?v=gJRS3KTlgdY&t=1s)]
+
+6. **NYU single cell genomics, 2023**
+    - [New Advances in Single-Cell and Spatial Genomics (2023)](https://satijalab.org/scgd23/) [[Watch video](https://www.youtube.com/watch?v=Dnnh6Jo-KRo)]
+    
+7. **NYU single cell genomics, 2024**
+    - [New Advances in Single-Cell and Spatial Genomics (2024)](https://satijalab.org/scgd24/) [[Watch video](https://youtu.be/ahzRYaS3Hlo)]
+    
+8. **NYU single cell genomics, 2025**
+    - [New Advances in Single-Cell and Spatial Genomics (2025)](https://satijalab.org/scgd25/) [[Watch video](https://youtu.be/ahzRYaS3Hlo)]
+![nobelxqhemox](/img/SingleCellGenomicsDay2025_flyer.png)
+
+
+
+
 
 
 
 ---
 ## Nobel laureates
+![nobelxqhemox](/img/nobel_prize.jpg)
+---
+
 1. **Frederick Sanger(1918-2013)**, Cambridge University, Great Britain\
 The Nobel Prize in Chemistry 1980\
 **Determination of Nucleotide Sequences in DNA**
