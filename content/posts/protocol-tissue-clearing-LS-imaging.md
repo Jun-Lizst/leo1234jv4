@@ -76,20 +76,12 @@ Cleared brain samples from normal adult Tek-Cre;Ai47 mice were acquired on the N
 
 
 
----
-## 4. TPLSM in mouse spinal cord
-
-
-
-
-
-
 
 
 
 
 ---
-#### Softwares for 2p imaging data analysis:
+#### Softwares for lightsheet imaging data analysis:
 1. [BigStitcher](https://imagej.net/plugins/bigstitcher/) [[PMID: 31384047](https://pubmed.ncbi.nlm.nih.gov/31384047/) | [DOI](https://doi.org/10.1038/s41592-019-0501-0)]\
 The BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes. The software supports images of almost arbitrary size ranging from very small images up to volumes in the range of many terabytes, which are for example produced when acquiring cleared tissue samples with lightsheet microscopy.
 

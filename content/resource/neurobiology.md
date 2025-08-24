@@ -25,27 +25,51 @@ thumbnailImagePosition: left
 
 
 ---
-I. **Synapse**
-1. **The molecular machinery for neurotransmitter release**:
-   - scaffolding proteins RIMs and RIM-BPs: the organizers of calcium-channels in the presynaptic active zone
-   - synaptotagmin isoform (synaptotagmin-7): a calcium-sensor for the remaining release in synaptotagmin-1 deficient forebrain neurons
+### I. **Synapse**
+1. **Major neurotransmitters**
+   - Acetylcholine
+   - Dopamine
+   - Glutamate
+   - GABA: [[Eugene Roberts (1920-2016)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sfn.org%2F-%2Fmedia%2FSfN%2FDocuments%2FTheHistoryofNeuroscience%2FVolume-2%2Fc12.pdf&psig=AOvVaw2cN4X246lPSRVMW0WPP0UY&ust=1756134068562000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCLie96vbo48DFQAAAAAdAAAAABAJ) | [Stephen William Kuffler (1913-1980)]()]
+   - Serotonin
+   - Norepinephrine
+   - Glycine
+   - Endorphins
+   
+2. **The molecular machinery for neurotransmitter release**:
+   - Synaptic transmission is rapid = 1-5 ms.
+   - Major processes govern neurotransmitter release:
+     1. Synaptic vesicle fusion.
+     2. Ca2+-triggering of fusion.
+     3. Localized Ca2+-influx.
+
+   - Synaptobrevin/VAMP, SNAP-25, and syntaxin form a complex, known as SNARE complex [[Montecucco lab, 1992](https://doi.org/10.1038/359832a0) | [J. Rothman lab, 1993](https://doi.org/10.1038/362318a0))]; Munc18 binds to SNAREs and is homologous to Unc18 and Sec1p [[Südhof Lab, 1993](https://doi.org/10.1038/366347a0)]; Complexins [[Südhof Lab, 1995](https://doi.org/10.1016/0092-8674(95)90239-2)]
+   
+   - scaffolding proteins Rab3-interacting molecules (RIMs) and RIM-binding proteins (RIM-BPs): the organizers of calcium-channels in the presynaptic active zone. [[Südhof Lab, 2002](https://doi.org/10.1038/415321a)]
+   
+   - Synaptotagmins: Synaptotagmin-1 [[Südhof Lab, 1987](https://doi.org/10.1126/science.3120313) | [Südhof Lab, 1991](https://doi.org/10.1016/0896-6273(91)90165-V)] is essential for Ca2+-triggered neurotransmitter release.
+     - synaptotagmin isoforms class I (Syt1, 2, 7 and 9);
+     - synaptotagmin isoforms class II (Syt3, 5, 6 and 10);
+      
+   - Review: "The synaptic vesicle cycle" [By Thomas C. Südhof, Citation: 5707 (2004-2025) | [DOI Link](https://doi.org/10.1146/annurev.neuro.26.041002.131412)]
+
+3. **The assembly of postsynaptic density**
+   - Liquid-liquid Phase Separation (LLPS) []
 
 
-
-2. **Regulation of synaptogenesis**
-    
-
+4. **Synapse formation and Regulation of synaptogenesis**
+   - Identification of synaptic adhesion molecules (SAMs): Neurexin Complexes [[Südhof Lab, 1992](https://doi.org/10.1126/science.1621094)]; Latrophilin Complexes [[Südhof Lab, 1998](https://doi.org/10.1074/jbc.273.49.32715)]
 
 
-3. **Open questions**
+5. **Open questions**
     - How calcium-channels are recruited to active zones ?
     - What mediates the calcium-triggered release that remains in synapses which lack fast synaptotagmin calcium-sensor isoforms ?
     - How synapses are formed ?
-
+    - What signal transduction pathways organize synapse formation ? Although some of the extracellular interactions involved in synapse formation has been revealed, for example, synaptic adhesion molecules (sAMs), the intracellular signaling event is largely unknown.
 
 
 ---
-II. **learning and memory**
+### II. **learning and memory**
 
 > The idea that memory is stored in the brain as physical alterations goes back at least as far as Plato, but further conceptualization of this idea had to wait until the 20th century when two guiding theories were presented: Richard Semon’s “engram theory” developed in the early 20th century, and Donald Hebb’s “synaptic plasticity theory” in 1949. 
 ---
@@ -64,9 +88,11 @@ II. **learning and memory**
 
 
 
+### III. **The regulation of sleep homeostasis**
+   - Phosphorylation based theory
 
 
-III. **The molecular architecture of sensory system**
+### IV. **The molecular architecture of sensory system**
 
 
 > "The role of our brain is to create an internal representation of the outside world, and the senses are its principal conduit."\
@@ -77,29 +103,47 @@ III. **The molecular architecture of sensory system**
 
 2. Sense of Smell
 
-3. Sense of sight (Vision)
+3. Sense of Sight (Vision)
 
-4. hearing
+4. Hearing
 
 5. Touch
 
 6. Temperature
-
+   - TRPV1
+   - TRPM8
 
 
 ---
-## Ref. Labs
+#### Ref. Labs
 
-#### **learning and memory**
+##### **learning and memory**
 1. [Susumu Tonegawa, MIT](https://tonegawalab.mit.edu/susumu-tonegawa/)
 - **Discovery of Memory engram cells**
     - Liu X., Ramirez, S., Pang, P., Puryear, C., Govindarajan, A., Deisseroth, K., and Tonegawa S. Optogenetic stimulation of a hippocampal engram activates fear memory recall. Nature 484: 381–385 (2012). [[PDF](https://www.nature.com/articles/nature11028.pdf) | [PMID: 22441246](https://pubmed.ncbi.nlm.nih.gov/22441246/) | [DOI Link](https://doi.org/10.1038/nature11028)]
 
 
-#### **Sense of Taste**
+##### **Sense of taste**
 2. [Charles S. Zuker, Columbia University](https://www.zukerlab.com/)
 - **Discovery of Taste receptors**
     - Adler E, Hoon MA, Mueller KL, Chandrashekar J, Ryba NJ, Zuker CS (2000). A novel family of mammalian taste receptors. Cell 100: 693-702. [[PDF](https://www.zukerlab.com/s/2000-Cell-Adler.pdf) | [PMID: 10761934](https://pubmed.ncbi.nlm.nih.gov/10761934/) | [DOI Link](http://www.sciencedirect.com/science/article/pii/S0092867400807059)]
+
+
+3. [Solomon H. Snyder, John hopkins](https://neuroscience.jhu.edu/)
+- **Discovery of Opioid receptors**
+    - Pert, Candace B., and Solomon H. Snyder. "Opiate receptor: demonstration in nervous tissue." Science 179.4077 (1973): 1011-1014. [[PDF](https://www.zukerlab.com/s/2000-Cell-Adler.pdf) | [PMID: 4687585](https://pubmed.ncbi.nlm.nih.gov/4687585/) | [DOI Link](https://doi.org/10.1126/science.179.4077.1011)]
+
+
+
+
+
+4. [Lily Yeh Jan, UCSF](https://janlab.ucsf.edu/home)
+
+
+##### **Regulation of Sleep homeostasis**
+5. 
+
+
 
 
 
@@ -108,18 +152,28 @@ III. **The molecular architecture of sensory system**
 
 ---
 ### Textbooks
-
-
+   - **Principles Of Neurobiology**, Liqun Luo
+![neurotextbook](/img/liqunLuo_book.jpg)
 
 ---
 ### Online Courses
-
+1. **Synapses, neurons, and the brain**, Hebrew University of Jerusalem [[Coursera](https://www.coursera.org/learn/synapses)]
 
 
 ---
 ## Nobel laureates
 ![nobelxqhemox](/img/nobel_prize.jpg)
 ---
+
+
+- **David Julius**, University of California, San Francisco, CA, USA\
+Nobel Prize in Physiology or Medicine 2021\
+**From peppers to peppermints: insights into thermosensation and pain** [[Nobel Lecture video](https://youtu.be/a5b9-_UQEzI) | [Read the Lecture](https://www.nobelprize.org/uploads/2025/04/julius-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2021/julius/facts/)]
+
+- **Ardem Patapoutian**, Scripps Research, La Jolla, CA, USA; Howard Hughes Medical Institute, USA\
+Nobel Prize in Physiology or Medicine 2021\
+**How do you feel? The molecules that sense touch** [[Nobel Lecture video](https://youtu.be/wtkKyZ9vjq4) | [Read the Lecture](https://www.nobelprize.org/uploads/2024/11/patapoutian-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2021/patapoutian/facts/)]
+
 
 - **Edvard I. Moser**, Norwegian University of Science and Technology (NTNU), Trondheim, Norway\
 Nobel Prize in Physiology or Medicine 2014\
@@ -138,11 +192,11 @@ The Nobel Prize in Physiology or Medicine 2013\
 **The Molecular Machine of Neurotransmitter Release** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2013_med_sudhof_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/sudhof-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/sudhof-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2013/sudhof/biographical/)]
 
 - **Linda B. Buck**, Fred Hutchinson Cancer Research Center, Seattle, WA, USA\
-Nobel Prize in Physiology or Medicine 2004
+Nobel Prize in Physiology or Medicine 2004\
 **Unraveling the Sense of Smell** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2004_med_buck_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/sudhof-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/buck-slides.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2004/buck/facts/)]
 
 - **Richard Axel**, Columbia University, New York, NY, USA\
-Nobel Prize in Physiology or Medicine 2004
+Nobel Prize in Physiology or Medicine 2004\
 **Scents and Sensibility: A Molecular Logic of Olfactory Perception** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2004_med_axel_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/axel-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/axel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2004/axel/facts/)]
 
 - **Eric Kandel**, Columbia University, New York, NY, USA\
@@ -150,13 +204,36 @@ Nobel Prize in Physiology or Medicine 2000\
 **The Molecular Biology of Memory Storage: A Dialog between Genes and Synapses** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2000_med_kandel_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/kandel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2000/kandel/facts/)]
 
 
+- **David H. Hubel**, Harvard Medical School, Boston, MA, USA\
+Nobel Prize in Physiology or Medicine 1981\
+**Evolution of Ideas on the Primary Visual Cortex, 1955-1978: A Biased Historical Account** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_1981_med_hubel_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/hubel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1981/hubel/facts/)]
+
+- **Torsten N. Wiesel**, Harvard Medical School, Boston, MA, USA\
+Nobel Prize in Physiology or Medicine 1981\
+**The Postnatal Development of the Visual Cortex and the Influence of Environment** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_1981_med_wiesel_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/wiesel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1981/wiesel/facts/)]
 
 
 
+- **Julius Axelrod**, National Institutes of Health, Bethesda, MD, USA\
+Nobel Prize in Physiology or Medicine 1970\
+**Noradrenaline: Fate and Control of Its Biosynthesis** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/axelrod-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1970/axelrod/facts/)]
 
 
 
+- **Ulf von Euler**, Karolinska Institutet, Stockholm, Sweden\
+Nobel Prize in Physiology or Medicine 1970\
+**Adrenergic Neurotransmitter Functions** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/euler-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1970/euler/facts/)]
 
 
+
+- **Sir Bernard Katz**, University College, London, United Kingdom\
+Nobel Prize in Physiology or Medicine 1970\
+**On the Quantal Mechanism of Neural Transmitter Release** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/katz-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1970/katz/facts/)]
+
+
+
+- **Santiago Ramón y Cajal**, Madrid University, Madrid, Spain\
+Nobel Prize in Physiology or Medicine 1906\
+**The Structure and Connexions of Neurons** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/cajal-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1906/cajal/facts/)]
 
 

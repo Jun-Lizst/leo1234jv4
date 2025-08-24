@@ -29,8 +29,12 @@ thumbnailImagePosition: left
 
 - **Protein quantification**
     - **SDS-PAGE(In-gel)**
-      - pre-cast gels (Thermo) [8% | 10% | 4~12% | 8~16%]
-      - pre-cast gels (BioRad) [8% | 10% | 4~12% | 8~16%]
+      - pre-cast gels ([Novex Tris-Glycine Gel, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gels/novex-tris-glycine-gels.html)) [6% | 7.5% | 10% | 12% | 4~15% | 4–20% | 8~16%]
+      - pre-cast gels ([Mini-PROTEIN TGX Gel,BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tgx-precast-gels?ID=N3GRW04VY)) [8% | 10% | 4~12% | 8~16%]
+      - Electrophoresis System ([XCell SureLock Mini-Cell, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gel-electrophoresis-chamber-systems/xcell-surelock-mini-vertical-electrophoresis-system.html))
+      - Electrophoresis System ([Mini-PROTEAN Tetra Cell, BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tetra-vertical-electrophoresis-cell?ID=N3F2UD4VY))
+      - Reagents: Laemmli Sample buffer, 2-Mercaptoethanol, DTT, Coomassie stain
+      
     - **Western blot**
       - PVDF membrane, 0.45 um pore size [[Millipore: IPFL00010](https://www.sigmaaldrich.com/CZ/cs/product/mm/ipfl00010?srsltid=AfmBOopgFe8mgpL3NnXRtELNsYD2xkQ07O8kmDEvVDhQkGzKy3dkiuHi)]
       - Transfer tank (Wet) [[Thermo: VEP-2](https://www.thermofisher.com/order/catalog/product/VEP-2) | [BioRad: ]() | Transfer buffer: CAPS]
@@ -45,30 +49,48 @@ thumbnailImagePosition: left
 
 - **Protein purification**
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
-    - ATKA Pure [[Cytiva]()]
-    - Size-exclusion chromatography (SEC, Gel filtration): [[Superose 6 Increase 10/300 GL]() | [Superdex 200]()]
-    - HIC ()
-    - Anion exchange chromatography (AEC): [[Q HP]()
-    - Affinity Tag based purification:
-      - Anti-FLAG: anti-Flag M2 affinity gel (Millipore Sigma)
-      - Twin-Strep
+    - **ATKA Pure** [[Cytiva]()]: ATKA Pure is a modern, compact, flexible and intuitive FPLC (Fast Protein Liquid Chromatography) system for fast purification of proteins, peptides, and nucleic acids from microgram to gram levels of the desired compound. Can be used for affinity chromatography, size exclusion chromatography (SEC, also known as gel filtration), ion exchange chromatography, hydrophobic interaction chromatography, and reversed phase chromatography (RPC).
+      - **Size-exclusion chromatography (SEC, Gel filtration)**: [[Superose 6 Increase 10/300 GL]() | [Superdex 200]() | [Superdex 75]() | [TSKgel G4000SWxl, Tosoh]()]
+      - **Hydrophobic interaction chromatography (HIC)**: Phenyl-HP cartridge
+      - **Anion exchange chromatography (AEC)**: [[Q HP, Cytiva, 17115401]() | [Mono Q]()]
+      - **Cation exchange chromatography (CEC)**: [[SP-Sepharose]()]
+      - **Affinity chromatography (AC)**: Heparin-affinity chromatography uses immobilized heparin to purify proteins by exploiting their ability to bind to the highly negatively charged glycosaminoglycan.
+      - **Affinity Tag based purification**:
+        - Anti-FLAG: anti-Flag M2 affinity gel (Millipore Sigma)
+        - Twin-Strep: The Twin-Strep-tag® (WSHPQFEKGGGSGGGSGG-SAWSHPQFEK) is a tandem version of the Strep-tag®II with an internal linker region. This twin version with the same specificity but higher affinity to Strep-Tactin® enables efficient purification even in batch or directly from culture supernatants. 
+        - His-Tag: Ni-NTA resin ()
+        - GST-Tag:
+    
+    
     
 - **Protein interaction**
+    - **Non-Covalent Bonds and Interactions**: Hydrogen Bonds, Ionic Bonds (Salt Bridges), Van der Waals Interactions, Hydrophobic Interactions
+    - **Covalent Bonds**: Disulfide Bonds
     - **co-IP**: Anti-FLAG (DYKDDDDK) Magnetic Agarose beads [[Thermo](https://www.thermofisher.com/order/catalog/product/A36798?ef_id=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE:G:s&s_kwcid=AL!3652!3!730146096394!!!g!!!22158546157!172279481245&cid=bid_sap_prp_r01_co_cp1362_pjt0000_bid00000_0se_gaw_dy_pur_con&gad_source=1&gad_campaignid=22158546157&gbraid=0AAAAADxi_GQApzePpHkuQmiLo2ZT9fVkx&gclid=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE) | [Sigma](https://www.sigmaaldrich.cn/CN/en/product/sigma/m8823?srsltid=AfmBOoq6WDnv8XUxZ__m1yIopkj5LQ8DzGDd35wvJ0y0Waw-PB0f2HU8)]; Anti-HA Magnetic Agarose [[Thermo](https://www.thermofisher.com/order/catalog/product/88837?SID=srch-srp-88837)]
     - Proximity labeling: APEX[]; TurboID[]; UltraID[]
+    - cross linking reagents: 
+
 
 - **Protein identification**
     - Protein sequencing:
     - IP-MS:
     
 
-- **Organelle isolation**
-    - mitochondria: Mito-IP []; Mito-IP tg mice
-    - Lysosome: LysoIP [[PMID: 29074583](https://pubmed.ncbi.nlm.nih.gov/29074583/) | [Protocol](https://www.protocols.io/view/lysosome-immunopurification-lysoip-protocol-for-su-eq2lypy1rlx9/v1)] ; LysoIP tg mice (Rosa26;lox-stop-lox-TMEM192-3×HA) [[PMID: 36131016](https://pubmed.ncbi.nlm.nih.gov/36131016/)]
-    - ER:
-    - Golgi: Golgi-IP [[PMID: 37155866](https://pubmed.ncbi.nlm.nih.gov/37155866/) | [Protocol](https://www.protocols.io/view/golgi-immunopurification-golgi-ip-for-subcellular-5qpvor3dbv4o/v1)]
-    - Synaptosome:     
+- **Protein expression system**
+    - E.coli: BL21(DE3) strain + pET-28a+ vector
+    - Sf21 insect cells: Bac-to-Bac Baculovirus Expression System (Life technologies)
+    - Expi293F cells: Expi293 Expression Medium (Thermo Fisher Scientific)
+    
 
+
+- **Organelle isolation**
+    - **mitochondria**: Mito-IP []; Mito-IP tg mice
+    - **Lysosome**: LysoIP [[PMID: 29074583](https://pubmed.ncbi.nlm.nih.gov/29074583/) | [Protocol](https://www.protocols.io/view/lysosome-immunopurification-lysoip-protocol-for-su-eq2lypy1rlx9/v1)] ; LysoIP tg mice (Rosa26;lox-stop-lox-TMEM192-3×HA) [[PMID: 36131016](https://pubmed.ncbi.nlm.nih.gov/36131016/)]
+    - **ER**:
+    - **Golgi**: Golgi-IP [[PMID: 37155866](https://pubmed.ncbi.nlm.nih.gov/37155866/) | [Protocol](https://www.protocols.io/view/golgi-immunopurification-golgi-ip-for-subcellular-5qpvor3dbv4o/v1)]
+    - **Synaptosome**: [A rapid Percoll gradient procedure, 2008, [DOI Link](https://doi.org/10.1038/nprot.2008.171)]     
+    - **Postsynaptic density (PSD)**: [[DOI Link](https://link.springer.com/protocol/10.1007/978-1-61779-111-6_4)]
+    
 
 - **Cell culture basis**
     - ATCC® ANIMAL CELL CULTURE GUIDE (tips and techniques for continuous cell lines) [[PDF](https://www.atcc.org/-/media/resources/culture-guides/animal-cell-culture-guide.pdf)]
@@ -89,7 +111,7 @@ thumbnailImagePosition: left
 
 - **Transfection reagents**
     - **XtremeGene9**: Sigma
-    - **PEI**:
+    - **PEI**: PEI MAX 40k (Polysciences)
 
 
 
@@ -120,6 +142,9 @@ thumbnailImagePosition: left
 - **Discovery of cGAS-cGAMP pathway and its role in immune defense**
     - Sun, Lijun, et al. "Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway." Science 339.6121 (2013): 786-791. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWZWjSjbymdFsI777Dv2EYsBAlzY_hKLXIg1JZQzN8XxeQ?e=y4CBrs) | [PMID: 23258413](https://pubmed.ncbi.nlm.nih.gov/23258413/) | [DOI Link](https://www.doi.org/10.1126/science.1232458)]
     - Wu, Jiaxi, et al. "Cyclic GMP-AMP is an endogenous second messenger in innate immune signaling by cytosolic DNA." Science 339.6121 (2013): 826-830. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcEtj2d-iKlGuWeCOcAUFisBiju-HRGaphC-v8jjZmznkA?e=SsslUO) | [DOI Link](https://www.doi.org/10.1126/science.1229963)]
+
+
+
 
 2. [David M. Sabatini lab, WIBR, MIT; IOCB-Prague, Boston](https://www.davidmsabatini.com/)
 - **The discovery of mTOR**
@@ -174,6 +199,10 @@ thumbnailImagePosition: left
 - **The discovery and characterization of GSDMD mediated pyroptosis pathway** [[Online Talk](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESMkgErwCLBJpX7uvSWuP2cBIi1aDrrquoFlQVkrOD3RKw?e=xocLlb)]
     - Shi, Jianjin, et al. "Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death." Nature 526.7575 (2015): 660-665. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ER85jPeKCyVIj24uQEX75W4BDUoOxtQY5Ap89wOXnDH6pw?e=8pOlMx) | [DOI Link](https://doi.org/10.1038/nature15514)]
 
+
+
+7. [Veit Hornung Lab, LMU](https://www.genzentrum.uni-muenchen.de/research-groups/hornung/index.html)
+- **The discovery and characterization of Nucleic acid sensors**
 
 
 #### **Transcriptional regulation and epigenetics**
