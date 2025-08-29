@@ -187,8 +187,7 @@ Technology, HZAU
 1. **Bronze medal of iGEM-2016 Competition** (International Genetically Engineered 
 Machine Competition), 11/2016, MIT Cambridge, Massachusetts, USA
 2. **Gold medal and Best nomination of iGEM-2015 Competition** (International 
-Genetically Engineered Machine Competition), 09/2015, MIT Cambridge-
-, Massachusetts, USA
+Genetically Engineered Machine Competition), 09/2015, MIT Cambridge, Massachusetts, USA
 3. **First prize of Academic excellence**,03/2017, College of Life science and 
 technology, HZAU
 4. **First prize of Academic excellence**,04/2015, College of Life science and 

@@ -29,7 +29,7 @@ thumbnailImagePosition: left
 ---
 # LC-MS system
 
-**| LC(Liquid Chromatography) part**
+### I. **| LC (Liquid Chromatography) part**
 1. LC
 
 2. HPLC
@@ -38,29 +38,30 @@ thumbnailImagePosition: left
     - Nexera UHPLC/HPLC System, [Shimadzu Corporation](https://www.shimadzu.com.cn/an/hplc/nexera-uhplc-hplc-system/3385.html)
     - Vanquish UHPLC FLEX, [Thermo Fisher](https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-flex-uhplc-system.html)
     - ACQUITY UPLC, [Waters](https://www.waters.com/nextgen/us/en/products/chromatography-systems/acquity-premier-system.html)
+    - Ultimate 3000 RSLCnano System, [Thermo Scientific](https://assets.thermofisher.com/TFS-Assets/CMD/brochures/BR-71898-LC-UltiMate-3000-RSLCnano-UHPLC-BR71898-EN.pdf), for nanoliters flow rates
+    - UltiMate 3000 RS HPLC systems, for microliters flow rates
+    - **Reversed-Phase Chromatography (RPLC)**: Reversed-Phase Chromatography (RPC) is the standard technique for separating peptides in mass spectrometry-based proteomics because it separates compounds based on their hydrophobicity using a nonpolar stationary phase and a polar mobile phase.
 
-**| MS(Mass spectrometry) part**
+
+### II. **| MS (Mass spectrometry) part**
 1. Orbitrap based: 
 - **Review article**: Evolution of Orbitrap Mass Spectrometry Instrumentation [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQUzf1IT4yFAnxTzocu7x3ABLgI2qWrPlVhiKY0rRi89-g?e=J304Ws) | [PMID: 26161972](https://pubmed.ncbi.nlm.nih.gov/26161972/) | [DOI Link](https://doi.org/10.1146/annurev-anchem-071114-040325)]
     - Q Exactive-HF
+    - Q Exactive HF-X
     - Q Exactive-fusion
-    - Orbitrap Exploris 240
-    - Orbitrap Exploris 480
-    - Lumos
-    
+    - **Orbitrap Exploris 240**
+    - **Orbitrap Exploris 480**
+    - [Orbitrap Astral](https://www.thermofisher.com/cz/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-systems/orbitrap-lc-ms/orbitrap-astral-mass-spectrometer.html?erpType=Global_E1): 
+    - **Orbitrap Fusion Lumos:** Orbitrap Fusion Lumos Tribrid mass spectrometr (Thermo Scientific) is mass spectrometer combines quadrupole, ion traps and orbitrap mass analyzer. According the mentioned combination, Thermo Scientific provider called the instrument tribrid. This system incorporates the brightest ion source, a segmented quadrupole mass filter with improved selectivity and ion transmission, Advanced Vacuum Technology for improved ion transmission to the Orbitrap mass analyzer. The instrument provide the possibility of well-established ionizations as ESI, nanoESI, APCI and APPI and fragmentation CID, HCD and ETD. The instrument provides 1,000,000 FWHM ultra-high resolution for improved structural elucidation and quantitation of isobaric compounds. The instrument can be connected to two HPLC systems; UltiMate 3000 RSLCnano and UltiMate 3000 RS HPLC systems (Thermo Scientific) for HPLC in nanoliters and microliters flow rates, respectively.
+
 
 2. Triple Quadrupole based
     - TSQ Quantum
     - TSQ Altis
     - SCIEX QTRAP5500
-    - SCIEX QTRAP6500
+    - SCIEX QTRAP6500+
     - SCIEX QTRAP7500
 
-
-3. Protocol for metabolite extraction
-    - From tissue/organ for HILIC LC-MS: [PDF]()
-    - From Plasma: [PDF]()
-    - From adherent cell line: [PDF]()
 
 
 
@@ -74,7 +75,7 @@ thumbnailImagePosition: left
 
 
 ---
-# MALDI system
+#### MALDI system
 1. MALDI
     - Rapiflex, MALDI-TOF/TOF, Bruker  
     - TimsTOF-Pro, Bruker: powered by the Trapped Ion Mobility Spectrometry(TIMS) [[]]
@@ -100,9 +101,10 @@ thumbnailImagePosition: left
 ## Proteomics
 
 - **Upstream: Protocol for peptide mixture cleanup**
-   - **StageTips**
+   - **Peptide extraction buffer (PXB)**: [ACN, 50% (v/v) | TFA, 0.1% (v/v) | ddH2O 49.9% (v/v)]
+   - **Peptide drying and resuspend**: [[SpeedVac, Thermo](https://www.thermofisher.com/order/catalog/product/SPD210P2-230) | 0.1% TFA]
+   - **Purification of peptides:** **StageTips**
     - Rappsilber, J., Mann, M. & Ishihama, Y. Protocol for micro-purification, enrichment, pre-fractionation and storage of peptides for proteomics using StageTips. Nat Protocol 2, 1896–1906 (2007). [[DOI link](https://doi.org/10.1038/nprot.2007.261)]
-
 
 - **Downstream: Bruker Proteomics solution**
   - Instrumentation
@@ -115,13 +117,50 @@ thumbnailImagePosition: left
       - PASEF
       - dia-PASEF
       - prm-PASEF
-  - Data Processing
-      - PEAKS Studio, PEAKS Online
-      - MaxQuant
-      - Skyline
-      - ProteinMetrics
+
+      
+- **Downstream: Thermo Fisher Proteomics solution**      
+  - ref. parameters on LC-MS
+      - Dionex Ultimate 3000 nanoLC system:
+        - **Column**: C18 analytical LC column (2 μm, 100 Å, 75 μm i.d. × 500 mm, nanoViper, [Thermo Scientific, 164942](https://www.thermofisher.com/order/catalog/product/164942)); Acclaim PepMap100 column (5 μm, 5 mm by 300-μm internal diameter (ID) [Thermo Fisher Scientific]); Acclaim PepMap100 analytical column (2 μm, 50 cm by 75 μm ID, Thermo Fisher Scientific)
+        - **mobile phase** A: 0.1% formic acid in water; mobile phase B: 0.1% formic acid in ACN
+        - **gradient elution**: 2% B at 0–15 min, 30% B at 81 min, 35% B at 85 min, 40% B at 87 min, 60% B at 95 min, 80% B at 96–107 min and 2% B at 108–120 min.
+        - **Flow rate**: 600 nl/min at 0–13.5 min and 250 nl/min at 13.5–120 min.
+      - Q Exactive HF-X (Data-Dependent Acquisition, DDA): Full-scan MS 
+        - dynamic exclusion time: 30 s
+        - m/z range of 300-1650, resolution of 60,000, AGC target = 3e6;
+        - top 15 for HCD, resolution of 15,000, collision energy of 30 eV, AGC target = 1e5;
+      - Orbitrap Fusion Lumos (DDA): m/z 350 to 2000 in the MS mode
+        - HCD: ions of m/z 100–2000.
+  - Database search:
+      - [MSCOT MS/MS Ions Search](https://www.matrixscience.com/server.html) 
 
 
+- **Downstream: Data Processing**
+   - [**MaxQuant**](https://www.maxquant.org/)
+        - MaxQuant DDA Basics 1 | Kyriakidou Pelagia: Frontal lecture on how MaxQuant analyses spectra. [[Download mp4 video](https://datashare.biochem.mpg.de/s/5PxDLIVUjhuzwQR/download)]
+        - MaxQuant DDA Basics 2 | Kyriakidou Pelagia: Frontal lecture on how Andromeda-search identifies peptides. [[Download mp4 video](https://datashare.biochem.mpg.de/s/zPt0pZX6xWPxQGX/download)]
+        - MaxQuant DDA Basics 3 | Kyriakidou Pelagia: Frontal lecture about which are the steps of a full MaxQuant run and how protein groups are generated. [[Download mp4 video](https://datashare.biochem.mpg.de/s/dsQfl8T2Dk84RjV/download)] 
+        - MaxQuant DDA Tutorial 1 | Dmitry Alexeev: Tutorial on how to run MaxQuant to analyze DDA data. [[Download mp4 video](https://datashare.biochem.mpg.de/s/k6FLMXChp0Q0s8P/download)] 
+        - MaxQuant DDA Tutorial 2 | Dmitry Alexeev: Tutorial on how to run MaxQuant in Linux, using the command line. [[Download mp4 video](https://datashare.biochem.mpg.de/s/nL7mA6WR4Aui6i2/download)]         - MaxDIA 1 | Jürgen Cox: Frontal lecture on how MaxQuant and Andromeda analyze DIA data. [[Download mp4 video](https://datashare.biochem.mpg.de/s/SlFk9tRN1BdgGoT/download)]
+        - MaxDIA 2 & new features | Jürgen Cox: Frontal lecture on how MaxDIA algorithm has been improved. [[Download mp4 video](https://datashare.biochem.mpg.de/s/Wtzz6kmCK8LARdB/download)]
+        - MaxQuant DIA Tutorial | Shamil Urazbakhtin: Tutorial on how to change parameters in MaxQuant in order to analyze DIA data. [[Download mp4 video](https://datashare.biochem.mpg.de/s/tBnVPBQes0TW6lI/download)]
+        - MaxQuant Viewer | Shamil Urazbakhtin: Tutorial on how to use MaxQuant viewer: tool to visualize spectra, ions and peptides. [[Download mp4 video](https://datashare.biochem.mpg.de/s/1O8fl1CZSpdTH22/download)]
+        - Andromeda: A Peptide Search Engine Integrated into the MaxQuant Environment [[PMID: 21254760](https://pubmed.ncbi.nlm.nih.gov/21254760/)]
+        - MaxDIA：MaxDIA is a software platform for analyzing data-independent acquisition (DIA) proteomics data within the MaxQuant software environment. [[PMID: 34239088](https://pubmed.ncbi.nlm.nih.gov/34239088/)]
+   - **Perseus**
+        - Perseus Introduction | Juan Luis Restrepo-López: Frontal lecture about Perseus: which statistical analyses can be done with it and how to. [[Download mp4 video](https://datashare.biochem.mpg.de/s/8ELt0jPWChZLn3g/download)] 
+        - Perseus Basic Tutorial | Juan Luis Restrepo-López: Data cleaning, pre-processing and data visualization. [[Download mp4 video](https://datashare.biochem.mpg.de/s/DhLRxiW9ytMqBzD/download)] 
+        - Perseus Intermediate Tutorial | Juan Luis Restrepo-López: Statistical analyses, results interpretation and visualization. [[Download mp4 video](https://datashare.biochem.mpg.de/s/crHK9Lbmn1t5Hjb/download)] 
+   - Skyline
+   - ProteinMetrics
+   - PEAKS Studio, PEAKS Online
+
+
+
+
+
+---
 #### Post-translational Modifications
 
 
@@ -133,8 +172,9 @@ thumbnailImagePosition: left
 
 
 
+---
+#### Other proteomics analysis softwares
 
-#### Proteomics analysis softwares
 
 1. [mMass](https://github.com/xxao/mMass-Dist): The mMass program we use to open spectra in .msd format has been discontinued and is no longer supported. The program website http://mmass.org/ is inactive and will soon be completely removed. The latest version of mMass can be downloaded from https://github.com/xxao/mMass-Dist. 
 2. [Mass Spectrum Interpreter](https://chemdata.nist.gov/mass-spc/interpreter/): The Interpreter finds possible structural origins of peaks in a mass spectrum and provides formula and isotopic processing utilities. It operates in conjunction with the MS Search Program. Version 2 replaces all earlier versions and was described in a poster in the meeting of the International Mass Spectrometry Society, Edinburgh, UK, 2003, "An Automated Method for Verifying Structure-Spectral Consistency Based on Ion Thermochemistry" ([Download ppt](https://chemdata.nist.gov/mass-spc/interpreter/docs/imsc03_poster.zip)). 
@@ -154,12 +194,7 @@ thumbnailImagePosition: left
 ## Ref. Labs
 1. [Lingjun Li Lab](https://www.lilabs.org/), University of Wisconsin Madison
 
-2. [West Coast Metabolomics Center](https://metabolomics.ucdavis.edu/), UC Davis
-- Fiehn Laboratory for Untargeted Metabolomics
-- Newman Laboratory for Lipid Mediators
-- Hammock Laboratory for Inflammatory Metabolism
-
-3. [Mass Spectrometry of Biopolymers (BioMS), Core facility, IOCB-Prague](https://msbiopolymers.group.uochb.cz/en)
+2. [Mass Spectrometry of Biopolymers (BioMS), Core facility, IOCB-Prague](https://msbiopolymers.group.uochb.cz/en)
 - **Bottom-up proteomics**
   - The analysis focuses primarily on the identification of proteins, their post-translational modifications, and/or the quantification of proteins, either using methods based on isotopic labelling or label-free methods. The procedure involves proteolytic digestion of proteins and the analysis of the resulting peptides. The analysis itself is based on liquid chromatography coupled with high-resolution mass spectrometric analysis of peptides. This allows for sensitive and reliable identification/quantification of proteins or their modifications in the analyzed sample. Protein samples in various forms can be analyzed. We can analyze dried protein samples, as well as proteins separated in SDS-PAGE gel or proteins dissolved in various buffers.
 
@@ -167,6 +202,30 @@ thumbnailImagePosition: left
   - **Intact mass:** Analysis of the intact mass of proteins or nucleic acids under denaturing conditions. **It serves as a more precise equivalent to SDS-PAGE with a mass determination accuracy up to 1 Da.** It is possible to analyze both pure proteins and nucleic acids, as well as simpler mixtures (up to, for example, 10-20 pure proteins). More complex mixtures, or a very heterogeneous mixture of different proteoforms of one protein, can be problematic; however, it is possible to perform LC-MS separation of the sample before analysis. It is also possible to analyze larger proteins, such as antibodies. We also provide the calculation of Drug-to-Antibody Ratio (DAR) for antibody-drug conjugates as a service.
 
   - **Native MS:** Native mass spectrometry allows for the study of non-covalent protein-protein or protein-ligand complexes under biologically relevant "native" conditions. The analysis is performed using very gentle ionization, which allows the entire non-covalent complex to be transferred from solution to the mass spectrometer detector.
+
+
+
+
+
+---
+## Metabolomics
+- **Upstream: Protocol for peptide mixture cleanup**
+1. Protocol for metabolite extraction
+    - From tissue/organ for HILIC LC-MS: [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Tissue-Extraction-Protocol-25-01-14.pdf)
+    - From Plasma for HILIC LC-MS: [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Plasma-Serum-Extraction-Protocol-25-01-14.pdf)
+    - From adherent cell line: [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Adherent-Cell-Lines-Extraction-Protocol-25-01-14.pdf)
+
+
+- **Downstream: Targeted metabolomics**
+
+
+
+1. Data Acquisition Methods
+    - SRM  
+
+
+
+- **Downstream: Untargeted metabolomics**
 
 
 
@@ -182,13 +241,26 @@ thumbnailImagePosition: left
 
 
 
+---
+## Ref. Labs
+1. [Metabolomics Facility, Children's research institute at UTSW](https://cri.utsw.edu/facilities/metabolomics-facility/)
+   - HILIC Plasma Serum Extraction Protocol [[PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Plasma-Serum-Extraction-Protocol-25-01-14.pdf) | [PMID: 27545456](https://pubmed.ncbi.nlm.nih.gov/27545456/)]
+   - HILIC Adherent Cell Lines Extraction Protocol [[PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Adherent-Cell-Lines-Extraction-Protocol-25-01-14.pdf) | [PMID: 28538732](https://pubmed.ncbi.nlm.nih.gov/28538732/)]
+   - HILIC Tissue Extraction Protocol [[PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Tissue-Extraction-Protocol-25-01-14.pdf) | [PMID: 28825709](https://pubmed.ncbi.nlm.nih.gov/28825709/)]
+
+2. [West Coast Metabolomics Center](https://metabolomics.ucdavis.edu/), UC Davis
+   - Fiehn Laboratory for Untargeted Metabolomics
+   - Newman Laboratory for Lipid Mediators
+   - Hammock Laboratory for Inflammatory Metabolism
+
+
 
 ### Online courses
-1. **2018 North American Mass Spectrometry Summer School(1st Annual)**
+1. **2018 North American Mass Spectrometry Summer School (1st Annual)**
     - [MS-based compound identification in untargeted metabolomics](https://youtu.be/UB1mOfcJwYc), Oliver Fiehn, University of California-Davis 
     - [Protein Quantification by Mass Spectrometry Part II/Development and Application of Chemical Tags](https://youtu.be/WUO5ZiaJFX0), Lingjun Li, University of Wisconsin-Madison    
 
-2. **2019 North American Mass Spectrometry Summer School(2nd Annual)**
+2. **2019 North American Mass Spectrometry Summer School (2nd Annual)**
     - [Ionization](https://youtu.be/cZ5AFL47A1I), Evan R. Williams
     - [Quantitative Proteomics](https://youtu.be/YdQF6EjQmZA), Lingjun Li
     - [Exploring Proteomes Using Discovery and Targeted Mass Spectrometry Approaches](https://youtu.be/hC8y1sA4ShA), Ulrike Kusebauch
@@ -198,7 +270,7 @@ thumbnailImagePosition: left
     - [Post-translational Modifications](https://youtu.be/IQ5ygy2aTp0), Judit Villen
     - [Mass Analyzers](https://youtu.be/aypTeWXgihc), Michael Westphall
     
-3. **2021 North American Mass Spectrometry Summer School(3nd Annual)**
+3. **2021 North American Mass Spectrometry Summer School (3nd Annual)**
     - [Deconstructing a Mass Spectrometer](https://youtu.be/4NbxGCS3K1g), Mike Westphall/Kenny Lee
     - [Separation Science of Complex Biological Mixtures](https://youtu.be/B4zlE0NqovA), Susan Olesik
     - [Tandem MS](https://youtu.be/PhHdS6oyENU), Joshua Coon
@@ -213,10 +285,24 @@ thumbnailImagePosition: left
     - [Top-down and Native MS](https://youtu.be/7EEmZLSU-0E), [Vicki Wysocki](https://research.cbc.osu.edu/wysocki.11/group-home/contact-info/); [nMS-to-SB](https://nativems.osu.edu/resources)
     - [Data Acquisition Methods](https://youtu.be/dgt9yKtoTg4), Jesper Velgaard Olsen
     
-4. **2022 North American Mass Spectrometry Summer School(4th Annual)**: Tutorial lecture topics include: Mass Analyzers, Ionization, Tandem MS, Chromatography, Shotgun Proteomics, Instrument Acquisition and Setup, Data analysis, and PTMs. Also planned are lectures workshops for scientific and professional development.
+4. **2022 North American Mass Spectrometry Summer School (4th Annual)**: Tutorial lecture topics include: Mass Analyzers, Ionization, Tandem MS, Chromatography, Shotgun Proteomics, Instrument Acquisition and Setup, Data analysis, and PTMs. Also planned are lectures workshops for scientific and professional development.
     - [Exploring the “Social Network” within a Human Cell](https://youtu.be/tlkD4sCbN7o), Edward Huttlin
     - [Future Technology Needs, Panel Discussion](https://youtu.be/RH7sz8Z8WAE)\
     Panelists: John A. Bowden, Ben Garcia, Jessica Prenni, Edward Huttlin, Lingjun Li, Rachel Loo, David Geffen, Vicki Wysocki
+ 
+ 
+5. **2023 North American Mass Spectrometry Summer School (5th Annual)** 
+      
+
+6. **2025 North American Mass Spectrometry Summer School (6th Annual)** 
+    - [Data Acquisition Methods](https://youtu.be/5FIEh7FHn5w)
+
+
+---
+### Textbooks
+   - <Mass Spectrometry – Principle and Applications>, By: Edmond de Hoffman and Vincent Stroobant [[Download PDF](http://www.usp.br/massa/2014/qfl2144/pdf/MassSpectrometry.pdf)] 
+    
+    
     
     
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Cellular Metabolism"
+title: "Cellular Metabolism and Signaling"
 date: 2022-09-03T20:14:35+08:00
 categories:
 - category
@@ -22,8 +22,8 @@ thumbnailImagePosition: left
 
 <!--more-->
 
-
 ---
+### I. **Cell metabolism**
 1. **Structure Biology of the Citric Acid Cycle**:
 The citric acid cycle is at the center of cellular metabolism. It plays a starring role in both the process of energy production and biosynthesis. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ebw1pJbfecJAhkj4gwLLnAUBsK0X1OjzPH7iVrtMMKxnmQ?e=kdjU4f)]
 
@@ -60,7 +60,7 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     --- Arginine(lysosomal) > SLC38A9 \
     --- S-adenosylmethionine > SAMTOR \
     --- S-adenosylmethionine > Unmet(Fly specific)    
-    [ ] GATOR2 > Nutrient sensing hub!? [[CroyEM Structure of human GATOR2 complex](https://doi.org/10.1038/s41586-022-04939-z)]
+    [ ] GATOR2 > Nutrient sensing hub! [[CryoEM Structure of human GATOR2 complex](https://doi.org/10.1038/s41586-022-04939-z) | [Valenstein et al., 2025](https://doi.org/10.1038/s41586-025-09428-7)]
     
     - Glucose: \
     ---AMPK
@@ -71,6 +71,34 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms?
     - Is GATOR2 the nutrient sensing hub complex ? How does it work to integrate multiple nutrient inputs?
     - How does brain sense the stress of energy supply and initiate its response program?
+
+
+### II. **Cell signaling in innate immune response**
+  - Pattern recognition receptors (PRRs): These receptors are crucial for sensing danger signals. 
+      - Toll-like receptors (TLRs)
+      - NOD-like receptors (NLRs)
+      - RIG-I-like receptors (RLRs)
+      - Intracellular receptor of LPS: 
+      - DNA sensor: cGAS [[James Chen Lab, 2012]()]
+  - Pathogen-associated molecular patterns (PAMPs) 
+  - damage-associated molecular patterns (DAMPs)
+
+
+
+
+
+
+
+
+### III. **Apoptosis and necrosis** 
+
+
+
+
+
+
+
+
 
 
 ---

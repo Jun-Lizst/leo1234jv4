@@ -19,7 +19,7 @@ thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
 > Although synapses differ in properties, all synapses operate by the same principle.\
---- Bernard Katz
+--- Sir Bernard Katz 
 
 <!--more-->
 
@@ -27,8 +27,8 @@ thumbnailImagePosition: left
 ---
 ### I. **Synapse**
 1. **Major neurotransmitters**
-   - Acetylcholine
-   - Dopamine
+   - Acetylcholine: [[Henry Dale, 1921]() | [Henry Dale, 1914]()]
+   - Dopamine: [[Arvid Carlsson, 1950]()]
    - Glutamate
    - GABA: [[Eugene Roberts (1920-2016)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sfn.org%2F-%2Fmedia%2FSfN%2FDocuments%2FTheHistoryofNeuroscience%2FVolume-2%2Fc12.pdf&psig=AOvVaw2cN4X246lPSRVMW0WPP0UY&ust=1756134068562000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCLie96vbo48DFQAAAAAdAAAAABAJ) | [Stephen William Kuffler (1913-1980)]()]
    - Serotonin
@@ -36,14 +36,14 @@ thumbnailImagePosition: left
    - Glycine
    - Endorphins
    
-2. **The molecular machinery for neurotransmitter release**:
+2. **The molecular machinery for neurotransmitter release**
    - Synaptic transmission is rapid = 1-5 ms.
    - Major processes govern neurotransmitter release:
      1. Synaptic vesicle fusion.
      2. Ca2+-triggering of fusion.
      3. Localized Ca2+-influx.
 
-   - Synaptobrevin/VAMP, SNAP-25, and syntaxin form a complex, known as SNARE complex [[Montecucco lab, 1992](https://doi.org/10.1038/359832a0) | [J. Rothman lab, 1993](https://doi.org/10.1038/362318a0))]; Munc18 binds to SNAREs and is homologous to Unc18 and Sec1p [[Südhof Lab, 1993](https://doi.org/10.1038/366347a0)]; Complexins [[Südhof Lab, 1995](https://doi.org/10.1016/0092-8674(95)90239-2)]
+   - Synaptobrevin/VAMP, SNAP-25, and syntaxin form a complex, known as SNARE complex [[Montecucco lab, 1992](https://doi.org/10.1038/359832a0) | [J. Rothman lab, 1993](https://doi.org/10.1038/362318a0)]; Munc18 binds to SNAREs and is homologous to Unc18 and Sec1p [[Südhof Lab, 1993](https://doi.org/10.1038/366347a0)]; Complexins [[Südhof Lab, 1995](https://doi.org/10.1016/0092-8674(95)90239-2)]
    
    - scaffolding proteins Rab3-interacting molecules (RIMs) and RIM-binding proteins (RIM-BPs): the organizers of calcium-channels in the presynaptic active zone. [[Südhof Lab, 2002](https://doi.org/10.1038/415321a)]
    
@@ -53,15 +53,38 @@ thumbnailImagePosition: left
       
    - Review: "The synaptic vesicle cycle" [By Thomas C. Südhof, Citation: 5707 (2004-2025) | [DOI Link](https://doi.org/10.1146/annurev.neuro.26.041002.131412)]
 
-3. **The assembly of postsynaptic density**
+
+3. **Postsynatic receptors**
+   - Glutamate receptors: 
+     - NMDAR: [[Morgan H. Sheng, 1994](https://doi.org/10.1038/368144a0) | ]
+     - AMPAR: 
+   - GABA receptors:
+     - GABAA: These are ionotropic (ligand-gated ion channels) and are the most abundant inhibitory receptors in the brain.
+     - GABAB: These are metabotropic (G-protein-coupled receptors). They are indirectly linked to ion channels and modulate neurotransmitter release and neuronal excitability through intracellular mechanisms. 
+     
+   - Dopamine receptors:
+     - D1-like
+     - D2-like
+   - Nicotinic acetylcholine receptors (nAChR):
+   - Serotonin receptors:
+   - Cannabinoid receptors: CB1R
+   - Opioid receptors: [[μOR] | [δOR] | [κOR] | [nociceptin receptor (NOPR)]()]
+   - Glycine receptors
+   - Trafficking of postsynaptic receptors
+
+4. **The assembly of postsynaptic density**
    - Liquid-liquid Phase Separation (LLPS) []
+   - ePSD
+   - iPSD
+   - Reviews: [[PDZ domain proteins of synapses](https://doi.org/10.1038/nrn1517) | ]
 
-
-4. **Synapse formation and Regulation of synaptogenesis**
+5. **Synapse formation and Regulation of synaptogenesis**
    - Identification of synaptic adhesion molecules (SAMs): Neurexin Complexes [[Südhof Lab, 1992](https://doi.org/10.1126/science.1621094)]; Latrophilin Complexes [[Südhof Lab, 1998](https://doi.org/10.1074/jbc.273.49.32715)]
+   - Complex that bridges the synapse: β-neurexin 1; cerebellin 1(Cbln1) [[Yuzaki Lab](https://www.yuzaki-lab.org/research?lang=en)]; GluD2
+   
+   
 
-
-5. **Open questions**
+6. **Open questions**
     - How calcium-channels are recruited to active zones ?
     - What mediates the calcium-triggered release that remains in synapses which lack fast synaptotagmin calcium-sensor isoforms ?
     - How synapses are formed ?
@@ -100,7 +123,7 @@ thumbnailImagePosition: left
 ---
 
 1. Sense of Taste
-
+   - Bitter taste: [TAS2R14]
 2. Sense of Smell
 
 3. Sense of Sight (Vision)
@@ -113,6 +136,18 @@ thumbnailImagePosition: left
    - TRPV1
    - TRPM8
 
+
+### V. **The architectures of neuronal circuits**
+> "Neurons that fire together, wire together."\
+--- Hebbian theory
+
+   - Key technology: Optogenetics []
+   - Mapping the Projectome
+   - Axon guidance: []
+   - Basic circuit wiring diagrams:
+   
+   - Molecular mechanisms underlying precise axon path finding:
+   - Circuit assembly during development
 
 ---
 #### Ref. Labs
@@ -136,12 +171,13 @@ thumbnailImagePosition: left
 
 
 
-
 4. [Lily Yeh Jan, UCSF](https://janlab.ucsf.edu/home)
-
+- **Discovery of Potassium ion channel-Shaker**
+    - Tempel, Bruce L., et al. "Sequence of a probable potassium channel component encoded at Shaker locus of Drosophila." Science 237.4816 (1987): 770-775. [[PDF](https://www.zukerlab.com/s/2000-Cell-Adler.pdf) | [PMID: 2441471](https://pubmed.ncbi.nlm.nih.gov/2441471/) | [DOI Link](https://doi.org/10.1126/science.2441471)]
+    
 
 ##### **Regulation of Sleep homeostasis**
-5. 
+5.  [Masashi Yanagisawa, UTSW/University of Tsukuba](https://wpi-iiis.tsukuba.ac.jp/research/member/detail/masashiyanagisawa/) 
 
 
 
@@ -160,11 +196,14 @@ thumbnailImagePosition: left
 1. **Synapses, neurons, and the brain**, Hebrew University of Jerusalem [[Coursera](https://www.coursera.org/learn/synapses)]
 
 
+
+
+
+
 ---
 ## Nobel laureates
 ![nobelxqhemox](/img/nobel_prize.jpg)
 ---
-
 
 - **David Julius**, University of California, San Francisco, CA, USA\
 Nobel Prize in Physiology or Medicine 2021\
@@ -199,9 +238,26 @@ Nobel Prize in Physiology or Medicine 2004\
 Nobel Prize in Physiology or Medicine 2004\
 **Scents and Sensibility: A Molecular Logic of Olfactory Perception** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2004_med_axel_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/axel-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/axel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2004/axel/facts/)]
 
-- **Eric Kandel**, Columbia University, New York, NY, USA\
+- **Eric Kandel (1929-)**, Columbia University, New York, NY, USA\
 Nobel Prize in Physiology or Medicine 2000\
 **The Molecular Biology of Memory Storage: A Dialog between Genes and Synapses** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2000_med_kandel_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/kandel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2000/kandel/facts/)]
+
+- **Paul Greengard (1925-2019)**, Rockefeller University, New York, NY, USA\
+The Nobel Prize in Physiology or Medicine 2000\
+**The Neurobiology of Dopamine Signaling** [[[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2000_med_greengard_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/greengard-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2000/greengard/facts/)]
+
+- **Arvid Carlsson (1923-2018)**,  Göteborg University, Gothenburg, Sweden\
+Nobel Prize in Physiology or Medicine 2000\
+**A Half-Century of Neurotransmitter Research: Impact on Neurology and Psychiatry** [[[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2000_med_carlsson_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/carlsson-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2000/carlsson/facts/)]
+
+
+- **Erwin Neher**, Max-Planck-Institut für Biophysikalische Chemie, Göttingen, Germany\
+Nobel Prize in Physiology or Medicine 1991\
+**Ion Channels for Communication Between and Within Cells** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_1991_med_neher_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/neher-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1991/neher/facts/)]
+
+
+- **Bert Sakmann**, Max-Planck-Institut für medizinische Forschung, Heidelberg, Germany\
+**Elementary Steps in Synaptic Transmission Revealed by Currents through Single Ion Channels** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_1991_med_sakmann_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/sakmann-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1991/sakmann/facts/)]
 
 
 - **David H. Hubel**, Harvard Medical School, Boston, MA, USA\
@@ -211,7 +267,6 @@ Nobel Prize in Physiology or Medicine 1981\
 - **Torsten N. Wiesel**, Harvard Medical School, Boston, MA, USA\
 Nobel Prize in Physiology or Medicine 1981\
 **The Postnatal Development of the Visual Cortex and the Influence of Environment** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_1981_med_wiesel_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/wiesel-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1981/wiesel/facts/)]
-
 
 
 - **Julius Axelrod**, National Institutes of Health, Bethesda, MD, USA\
@@ -230,6 +285,14 @@ Nobel Prize in Physiology or Medicine 1970\
 Nobel Prize in Physiology or Medicine 1970\
 **On the Quantal Mechanism of Neural Transmitter Release** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/katz-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1970/katz/facts/)]
 
+
+- **Alan Lloyd Hodgkin**, University of Cambridge, Cambridge, United Kingdom\
+Nobel Prize in Physiology or Medicine 1963\
+**The Ionic Basis of Nervous Conduction** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/hodgkin-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1963/hodgkin/facts/)]
+
+- **Andrew Fielding Huxley**, University College, London, United Kingdom
+Nobel Prize in Physiology or Medicine 1963\
+**The Quantitative Analysis of Excitation and Conduction in Nerve** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/huxley-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1963/huxley/facts/)]
 
 
 - **Santiago Ramón y Cajal**, Madrid University, Madrid, Spain\

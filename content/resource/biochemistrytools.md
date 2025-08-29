@@ -34,6 +34,7 @@ thumbnailImagePosition: left
       - Electrophoresis System ([XCell SureLock Mini-Cell, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gel-electrophoresis-chamber-systems/xcell-surelock-mini-vertical-electrophoresis-system.html))
       - Electrophoresis System ([Mini-PROTEAN Tetra Cell, BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tetra-vertical-electrophoresis-cell?ID=N3F2UD4VY))
       - Reagents: Laemmli Sample buffer, 2-Mercaptoethanol, DTT, Coomassie stain
+      - Silver Staining
       
     - **Western blot**
       - PVDF membrane, 0.45 um pore size [[Millipore: IPFL00010](https://www.sigmaaldrich.com/CZ/cs/product/mm/ipfl00010?srsltid=AfmBOopgFe8mgpL3NnXRtELNsYD2xkQ07O8kmDEvVDhQkGzKy3dkiuHi)]
@@ -49,8 +50,8 @@ thumbnailImagePosition: left
 
 - **Protein purification**
     - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
-    - **ATKA Pure** [[Cytiva]()]: ATKA Pure is a modern, compact, flexible and intuitive FPLC (Fast Protein Liquid Chromatography) system for fast purification of proteins, peptides, and nucleic acids from microgram to gram levels of the desired compound. Can be used for affinity chromatography, size exclusion chromatography (SEC, also known as gel filtration), ion exchange chromatography, hydrophobic interaction chromatography, and reversed phase chromatography (RPC).
-      - **Size-exclusion chromatography (SEC, Gel filtration)**: [[Superose 6 Increase 10/300 GL]() | [Superdex 200]() | [Superdex 75]() | [TSKgel G4000SWxl, Tosoh]()]
+    - **ATKA Pure** [[Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-16276-pdf) | [ÄKTA™ Laboratory-scale Chromatography Systems](https://www2.fcfar.unesp.br/Home/Instituicao/Departamentos/cienciasbiologicasnovo/laboratoriomultiusuariosfinep/akta_instrument_management.pdf)]: ATKA Pure is a modern, compact, flexible and intuitive FPLC (Fast Protein Liquid Chromatography) system for fast purification of proteins, peptides, and nucleic acids from microgram to gram levels of the desired compound. Can be used for affinity chromatography, size exclusion chromatography (SEC, also known as gel filtration), ion exchange chromatography, hydrophobic interaction chromatography, and reversed phase chromatography (RPC).
+      - **Size-exclusion chromatography (SEC, Gel filtration)**: [[Superose 6 Increase 10/300 GL, Sigma, GE29-0915-96](https://www.sigmaaldrich.com/CZ/cs/product/sigma/ge29091596?srsltid=AfmBOoq-t30M5EBnVcDokmFE85e9QI2iCyZPuNUq8BvXF0XoP1XCFcKg) | [Superdex 200]() | [Superdex 75]() | [TSKgel G4000SWxl, Tosoh]()]
       - **Hydrophobic interaction chromatography (HIC)**: Phenyl-HP cartridge
       - **Anion exchange chromatography (AEC)**: [[Q HP, Cytiva, 17115401]() | [Mono Q]()]
       - **Cation exchange chromatography (CEC)**: [[SP-Sepharose]()]
@@ -98,7 +99,7 @@ thumbnailImagePosition: left
     - Guideline of Cell biology experiment, Part I (In Chinese, 细胞实验指南(上)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeCUDsikGUFDtGqAy4-lErsBsKRz0Qn2T329ETyT0KjRzw?e=wTaHrr)]
     - Guideline of Cell biology experiment, Part II (In Chinese, 细胞实验指南(下)) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Ee5Qbs939yFMvdbCV3iSbD0BdbhidwjLXTkoyxSk9M6TmA?e=fAVeeC)]
     - Gibco Cell Culture Basics Handbook(In Chinese) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EViSuQ_uP71Fqy3SHpHozhUBbA1xmaOYom-gIrwEW4-2sQ?e=UfLvlT)]
-
+    - Primary neuron culture
 
     - Cell lines from ATCC library
 | Name    | ATCC Catalog | Organism | 
@@ -162,6 +163,11 @@ thumbnailImagePosition: left
     - Zou, Hua, et al. "Apaf-1, a human protein homologous to C. elegans CED-4, participates in cytochrome c–dependent activation of caspase-3." Cell 90.3 (1997): 405-413.
     [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERv446uXYcxCuPrmRHgWvgYBgN04_ogoRRKU8jTIB-WTEw?e=JvdhVY) | [PMID: 9267021](https://pubmed.ncbi.nlm.nih.gov/9267021/) | [DOI Link](https://doi.org/10.1016/s0092-8674(00)80501-2)]
 
+
+2. [Kun-Liang Guan lab, UCSD, Westlake](https://pharmacology.ucsd.edu/faculty/department-faculty/kun-liang-guan.html)
+- **Characterization of TSC2 as upstream negative regulator of mTORC1**
+    -  Inoki, Ken, Tianqing Zhu, and Kun-Liang Guan. "TSC2 mediates cellular energy response to control cell growth and survival." Cell 115.5 (2003): 577-590. [[DOI Link](https://doi.org/10.1016/S0092-8674(03)00929-2)]
+
 4. [Ronald David Vale lab](https://valelab.ucsf.edu/), University of California; San Francisco/HHMI
 - **The discovery of Kinesin** [[iBiology Talk]()]
     - Vale, Ronald D., et al. "Direct observation of single kinesin molecules moving along microtubules." Nature 380.6573 (1996): 451-453. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EW-o1QEOPyJEsgXt-_DClf8BveckhtoI-3VhkeYs7lROaw?e=8eRGFW) | [PMID: 8602245](https://pubmed.ncbi.nlm.nih.gov/8602245/) | [DOI Link](https://doi.org/10.1038/380451a0)]
@@ -223,21 +229,6 @@ thumbnailImagePosition: left
 - **The discovery of first RNA demethylase that oxidatively reverses N6-methyladenosine (m6A) methylation in mammalian messenger RNA**
     - Jia, Guifang, et al. "N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO." Nature chemical biology 7.12 (2011): 885-887. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETNp772T_4VNnY3909X_7lUB_8CJ36WsacqULe7ApUAzSA?e=QWFN4P) | [DOI Link](https://doi.org/10.1038/nchembio.687)]
 
-
-#### **Structural Biology**
-1. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)
-- **Structural basis of pre-mRNA splicing**
-- **Structural basis of Apoptosis (Programmed Cell Death)**
-- **Alzheimer's Disease (AD) and Regulated Intramembrane Proteolysis (RIP)**
-
-2. [Hao Wu lab, Harvard Medical School](https://www.wulab.tch.harvard.edu/)
-- **The discoverer of signalosomes**, which are large macromolecular complexes involved in cell death and in innate and adaptive immune pathways.
-    - Wu, Hao. "Higher-order assemblies in a new paradigm of signal transduction." Cell 153.2 (2013): 287-292. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES4S-RQx0FFEsL1XMYEsweQBeAjiV5qHw0yrYIDRkcZmMQ?e=8L9mMo) | [DOI Link](https://doi.org/10.1016/j.cell.2013.03.013)]
-
-3. [Nieng Yan lab, Tsinghua University/Princeton University](https://scholar.princeton.edu/yanlab)
-- **Structural basis of Membrane transport**
-    - human GLUT1
-- **Structural and mechanistic investigation of sterol homeostasis**
 
 
 
@@ -336,9 +327,6 @@ The Nobel Prize in Physiology or Medicine 2001\
 **Protein Synthesis, Proteolysis, and Cell Cycle Transitions** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EaOQ-Mm3pGdHlV4I8wW2TekBDyip0iCCG2VWo9Z7L7YVRQ?e=qDd7zC) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUJnTxOTUVVOny_JXNJ3CQ8BrtlQv39qjtxkry_heWS9QQ?e=ZJHRVY) | [Source](https://www.nobelprize.org/prizes/medicine/2001/hunt/facts/) | [Careers interview](https://www.science.org/content/article/tim-hunt)]
 
 
-- **Paul Greengard (1925-2019)**, Rockefeller University, New York, NY, USA\
-The Nobel Prize in Physiology or Medicine 2000\
-**The Neurobiology of Dopamine Signaling** [[[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2000_med_greengard_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/greengard-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2000/greengard/facts/)]
 
 - **Günter Blobel (1936-2018)**, Rockefeller University, New York, NY, USA/HHMI\
 The Nobel Prize in Physiology or Medicine 1999\
