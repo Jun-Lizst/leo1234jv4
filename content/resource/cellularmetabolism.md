@@ -64,13 +64,16 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     
     - Glucose: \
     ---AMPK
+    - Nitrogen sensing in yeast cells
+
 
 6. **Open questions**
     - How cells sense, integrate and respond to nutrient availability and how lysosomes are involved in the process?
-    - How amino acids were sensed? More amino acid sensors?
-    - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms?
-    - Is GATOR2 the nutrient sensing hub complex ? How does it work to integrate multiple nutrient inputs?
+    - How amino acids were sensed? More amino acid sensors ?
+    - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms ?
+    - Is GATOR2 the nutrient sensing hub complex ? How does it work to integrate multiple nutrient inputs ?
     - How does brain sense the stress of energy supply and initiate its response program?
+    - what is the nitrogen sensor in yeast cells ?
 
 
 ### II. **Cell signaling in innate immune response**
@@ -86,12 +89,19 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
 
 
 
+### III. **Immune surveillance against cancer**
+  - Firstly proposed by **Sir Frank Macfarlane Burnet (1970)**
+  - Discovery of PD1: [[Tasuku Honjo, 1992](https://pubmed.ncbi.nlm.nih.gov/1396582/)]
+  - Discovery of PD-L1 (B7-H1): [[Lieping Chen, 1999](https://pubmed.ncbi.nlm.nih.gov/10581077/)]
 
 
 
 
-### III. **Apoptosis and necrosis** 
 
+### IV. **Cell death pathways** 
+1. Programmed cell death-Apoptosis
+  - Discovery of the genes
+  - Identification of Apaf1
 
 
 
@@ -201,3 +211,17 @@ These tutorial videos were prepared for students in the UCSD School of Medicine 
 
 ### Ref. Database
 1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -127,6 +127,7 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 1. **Single cell genomics**: 
 - [Satija lab, NYU](https://satijalab.org/)
   - Choosing a single cell technology. [[PDF Slides](https://www.dropbox.com/s/wl6sgqxb5rt44sq/SatijaLab_ChoosingTech.pdf?dl=1)]
+  
 2. **Functional genomics**:
 - Wensheng Wei lab, PKU
 
@@ -135,9 +136,10 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 
 
 
-3. **Spatial Transcriptomics**: [Rongfan lab, Yale](https://www.eng.yale.edu/fanlab/Responsive_Fan_lab/index.html)
-
-
+3. **Spatial Transcriptomics**: 
+- [Rongfan lab, Yale](https://www.eng.yale.edu/fanlab/Responsive_Fan_lab/index.html)
+- [Fei Chen lab, Broad institute](https://www.insitubiology.org/)
+- [Evan Macosko lab, Broad institute](https://macoskolab.com/)
 
 4. **Transcriptomics of brain cell types**: 
 - **Ben A. Barre (1954-2017)**, Stanford University School of Medicine\
@@ -191,13 +193,18 @@ http://celltypes.brain-map.org/rnaseq/mouse/cortex-and-hippocampus
 ![nobelxqhemox](/img/nobel_prize.jpg)
 ---
 
-1. **Frederick Sanger(1918-2013)**, Cambridge University, Great Britain\
-The Nobel Prize in Chemistry 1980\
-**Determination of Nucleotide Sequences in DNA**
-[[Public talk](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESLmFc2bPj1NiQLr8MynjR8ByJViMi7kZA4tovrSNIpedg?e=4Bclbz) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZMCejlGVNNGkWrDQA9Ex4sBUyUIoGYRkafoFt2BA7T3SQ?e=Js9jO3) |  [Source](https://www.nobelprize.org/prizes/chemistry/1980/sanger/facts/)]
 
-2. **Walter Gilbert(1932-)**, Harvard University, Biological Laboratories, Cambridge, MA, USA\
+3. **Walter Gilbert(1932-)**, Harvard University, Biological Laboratories, Cambridge, MA, USA\
 The Nobel Prize in Chemistry 1980\
 **DNA Sequencing and Gene Structure**
 [[iBiology interview]() | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESLasGpogvVMvh4lDoG907IB81_uZWP46kxzSYNsvLox8A?e=pWUlZs) | [Source](https://www.nobelprize.org/prizes/chemistry/1980/gilbert/biographical/)]
 
+2. **Frederick Sanger(1918-2013)**, Cambridge University, Great Britain\
+The Nobel Prize in Chemistry 1980\
+**Determination of Nucleotide Sequences in DNA**
+[[Public talk](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ESLmFc2bPj1NiQLr8MynjR8ByJViMi7kZA4tovrSNIpedg?e=4Bclbz) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZMCejlGVNNGkWrDQA9Ex4sBUyUIoGYRkafoFt2BA7T3SQ?e=Js9jO3) |  [Source](https://www.nobelprize.org/prizes/chemistry/1980/sanger/facts/)]
+
+1. **Frederick Sanger(1918-2013)**, University of Cambridge, Cambridge, United Kingdom\
+The Nobel Prize in Chemistry 1958\
+**The Chemistry of Insulin**
+[[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/sanger-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/1958/sanger/facts/)]

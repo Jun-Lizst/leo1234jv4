@@ -124,7 +124,7 @@ thumbnailImagePosition: left
 
 - **Drug induced**: Tet-on system
 
-- **Activity dependent**: c-Fos
+- **Activity dependent**: c-Fos [[PMID: 1969743](https://pubmed.ncbi.nlm.nih.gov/1969743/)]; NPAS4 []
 
 - **ERK pathway activation**: 
     - pKrox24 [[PMID: 28199182](https://pubmed.ncbi.nlm.nih.gov/28199182/) | [DOI Link](https://doi.org/10.7554/elife.21536)]
@@ -151,7 +151,7 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
   - **stagRFP**: A new single-residue mutant, super-TagRFP (stagRFP) has nearly twice the molecular brightness of TagRFP-T and negligible photoactivation. [[PMID: 32296061](https://pubmed.ncbi.nlm.nih.gov/32296061/) | [DOI Link](https://doi.org/10.1038/s41467-020-15687-x)]
   - **mScarlet**:
   - **mScarlet3**:
-  - **mYongHong**
+  - **mYongHong**: []
 
 
 - GFPs: 
@@ -311,7 +311,7 @@ ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
 
 - Light-activated Cyclases: PAC & Cyclop
 
-
+- LOV2
 
 ### Reference
 1. [Resource website of Optogenetics in neuroscience](https://web.stanford.edu/group/dlab/optogenetics/), Karl Deisseroth lab
@@ -321,6 +321,7 @@ ChR2(Channelrhodopsin-2)[hChR2(H134R) | ChR2(C128A/C128S)]
     - light-activatable ERK and AKT signaling pathways
     - light-activatable receptor tyrosine kinases
     - light-activatable molecular motors
+
 
 ## Magnetogenetics tools
 > Magnetogenetics is a newly opened field that take advantages of genetically encoded proteins and protein assemblies that are are able to convert magnetic force signal into protein movement and conformation change which may can be applied to manipulate cell behavior.

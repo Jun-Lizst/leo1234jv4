@@ -34,8 +34,12 @@ thumbnailImagePosition: left
     - **Protein or protein complex stabilization**: If negative stain or cryo-EM analysis reveals significant structural heterogeneity, then the user may consider additional methods to stabilize a structural target in a defined conformation. These approaches have proven to be effective in trapping conformationally variable proteins and complexes in energetic minima that allow high-resolution structure determination. Examples include using small molecule inhibitors, non-hydrolyzable nucleotides (if applicable), Fab antibody fragments, or genetic perturbations (e.g., mutating catalytic residues).
     - **Chemical crosslinking**: One common way to counteract structural heterogeneity is to chemically crosslink the purified sample, such as with glutaraldehyde or BS3. However, crosslinked samples run a risk of producing structural artifacts and this approach should therefore be considered only after a control, non-crosslinked sample has been evaluated.
     - **Membrane proteins**:
-      - **Detergents**: [CHAPS | ]
-
+      - **Isolation of membrane fractions**: 100,000 g
+      - **Screen of Detergents**: [CHAPS | Digitonin | 1% DDM + 0.2% CHS | 2% (w/v) GDN + 0.1% (w/v) CHS + 0.2 mg/ml Avanti | 0.5% LMNG + 0.03% CHS]
+      - **Affinity Chromatography (AC)**: [anti-FLAG | Strep-Tactin XT]
+      - **Crosslinking for membrane protein complex**: 0.1% (v/v) , 40 mins
+      - **SEC**: [[Superose 6 increase 10/300] | [Superdex 200 increase 10/300]]
+      
 
 2. **Protocol for grid preparation**
     - From Negative stain TEM: [[Protocol, PDF](https://cryoem.wisc.edu/wp-content/uploads/sites/341/2021/01/Negative_Stain_Grid_Preparation_21Jan2021.pdf) | [Yifan Cheng lab, 2011](https://www.ncbi.nlm.nih.gov/pubmed/22215030)]

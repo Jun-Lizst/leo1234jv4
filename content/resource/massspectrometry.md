@@ -36,15 +36,16 @@ thumbnailImagePosition: left
     - HPLC User Maintenance & Troubleshooting ([PDF](https://www.agilent.com/cs/library/slidepresentation/public/HPLC_User_Maintenance_and_Troubleshooting.pdf)), [Agilent](https://www.agilent.com/en/product/liquid-chromatography)
     - HPLC Columns
     - Nexera UHPLC/HPLC System, [Shimadzu Corporation](https://www.shimadzu.com.cn/an/hplc/nexera-uhplc-hplc-system/3385.html)
-    - Vanquish UHPLC FLEX, [Thermo Fisher](https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-flex-uhplc-system.html)
+    - Vanquish UHPLC FLEX [[Thermo Fisher](https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-flex-uhplc-system.html)]; Vanquish Neo nanoLC[[VN-S10-A-01, Thermo Fisher](https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-neo-uhplc-system.html); for nano-flow]
     - ACQUITY UPLC, [Waters](https://www.waters.com/nextgen/us/en/products/chromatography-systems/acquity-premier-system.html)
     - Ultimate 3000 RSLCnano System, [Thermo Scientific](https://assets.thermofisher.com/TFS-Assets/CMD/brochures/BR-71898-LC-UltiMate-3000-RSLCnano-UHPLC-BR71898-EN.pdf), for nanoliters flow rates
     - UltiMate 3000 RS HPLC systems, for microliters flow rates
     - **Reversed-Phase Chromatography (RPLC)**: Reversed-Phase Chromatography (RPC) is the standard technique for separating peptides in mass spectrometry-based proteomics because it separates compounds based on their hydrophobicity using a nonpolar stationary phase and a polar mobile phase.
-
+ 
 
 ### II. **| MS (Mass spectrometry) part**
 1. Orbitrap based: 
+![instrument_qe](/img/QExactive_MS.png)
 - **Review article**: Evolution of Orbitrap Mass Spectrometry Instrumentation [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQUzf1IT4yFAnxTzocu7x3ABLgI2qWrPlVhiKY0rRi89-g?e=J304Ws) | [PMID: 26161972](https://pubmed.ncbi.nlm.nih.gov/26161972/) | [DOI Link](https://doi.org/10.1146/annurev-anchem-071114-040325)]
     - Q Exactive-HF
     - Q Exactive HF-X
@@ -120,18 +121,33 @@ thumbnailImagePosition: left
 
       
 - **Downstream: Thermo Fisher Proteomics solution**      
-  - ref. parameters on LC-MS
-      - Dionex Ultimate 3000 nanoLC system:
+1. ref. parameters on LC-MS (Ultimate 3000-nanoLC + QE HF-X):
+      - **Dionex Ultimate 3000 nanoLC system:**
         - **Column**: C18 analytical LC column (2 μm, 100 Å, 75 μm i.d. × 500 mm, nanoViper, [Thermo Scientific, 164942](https://www.thermofisher.com/order/catalog/product/164942)); Acclaim PepMap100 column (5 μm, 5 mm by 300-μm internal diameter (ID) [Thermo Fisher Scientific]); Acclaim PepMap100 analytical column (2 μm, 50 cm by 75 μm ID, Thermo Fisher Scientific)
-        - **mobile phase** A: 0.1% formic acid in water; mobile phase B: 0.1% formic acid in ACN
-        - **gradient elution**: 2% B at 0–15 min, 30% B at 81 min, 35% B at 85 min, 40% B at 87 min, 60% B at 95 min, 80% B at 96–107 min and 2% B at 108–120 min.
+        - **mobile phase** A: 0.1% formic acid in water; mobile phase B: 0.1% formic acid in ACN.
+        - **gradient elution**: 2% B at 0–15 min, 30% B at 81 min, 35% B at 85 min, 40% B at 87 min, 60% B at 95 min, 80% B at 96–107 min and 2% B at 108–120 min.
         - **Flow rate**: 600 nl/min at 0–13.5 min and 250 nl/min at 13.5–120 min.
       - Q Exactive HF-X (Data-Dependent Acquisition, DDA): Full-scan MS 
-        - dynamic exclusion time: 30 s
         - m/z range of 300-1650, resolution of 60,000, AGC target = 3e6;
         - top 15 for HCD, resolution of 15,000, collision energy of 30 eV, AGC target = 1e5;
+        - dynamic exclusion time: 30 s
       - Orbitrap Fusion Lumos (DDA): m/z 350 to 2000 in the MS mode
         - HCD: ions of m/z 100–2000.
+2. ref. parameters on LC-MS (Vanquish Neo nanoLC + QE plus/Exploris 480):
+      - **Vanquish Neo nanoLC:**
+        - Acclaim PepMap RSLC(75 μm × 25 cm); Trap column: Acclaim PepMap 100(75 μm × 2 cm)
+        -  **mobile phase** A: H2O with 0.1% formic acid; mobile phase B: 80/20 (%, v/v) ACN/H2O with 0.1% formic acid.
+        - **gradient elution**: 85 mins
+        - injection volumn: 2 μL
+      - QE plus (Full-MS/dd-MS2 DDA): 
+        - Range = 250-1800 m/z, MS1 resolution = 70,000, AGC target = 3e6;
+        - top 15 for HCD, resolution of 17,500, collision energy of 28 eV;
+        - dynamic exclusion time: 25 s
+      - Orbitrap Exploris 480: [[PDF](https://assets.thermofisher.com/TFS-Assets/CMD/Technical-Notes/tn-000138-lc-high-throughput-proteome-profiling-tn000138-en.pdf)]
+        - Range = 375-1200 m/z, MS1 resolution = 60,000, AGC target = 3e6;
+        - resolution of 15,000, Collision energy of 26 eV;
+        - dynamic exclusion time: [25s | 30s | 45s | 50s]
+              
   - Database search:
       - [MSCOT MS/MS Ions Search](https://www.matrixscience.com/server.html) 
 

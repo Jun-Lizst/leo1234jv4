@@ -33,7 +33,7 @@ thumbnailImagePosition: left
       - pre-cast gels ([Mini-PROTEIN TGX Gel,BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tgx-precast-gels?ID=N3GRW04VY)) [8% | 10% | 4~12% | 8~16%]
       - Electrophoresis System ([XCell SureLock Mini-Cell, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gel-electrophoresis-chamber-systems/xcell-surelock-mini-vertical-electrophoresis-system.html))
       - Electrophoresis System ([Mini-PROTEAN Tetra Cell, BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tetra-vertical-electrophoresis-cell?ID=N3F2UD4VY))
-      - Reagents: Laemmli Sample buffer, 2-Mercaptoethanol, DTT, Coomassie stain
+      - Reagents: Laemmli Sample buffer, 2-Mercaptoethanol, DTT, Coomassie stain ([InstantBlue, Abcam](https://www.abcam.com/en-us/products/reagents/instantblue-coomassie-protein-stain-isb1l-ab119211?srsltid=AfmBOoqRseIMqMctrEZHgbdIyJl7AG3S_CSSlsP1BaYm3J-fyuJU7c7z) | [PageBlue, Thermo](https://www.thermofisher.com/order/catalog/product/24620))
       - Silver Staining
       
     - **Western blot**
@@ -49,20 +49,24 @@ thumbnailImagePosition: left
 
 
 - **Protein purification**
-    - Purifying Challenging Proteins, Principles and Methods [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]
+![biochem_akta1](/img/AKTA_diagram.png)
     - **ATKA Pure** [[Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-16276-pdf) | [ÄKTA™ Laboratory-scale Chromatography Systems](https://www2.fcfar.unesp.br/Home/Instituicao/Departamentos/cienciasbiologicasnovo/laboratoriomultiusuariosfinep/akta_instrument_management.pdf)]: ATKA Pure is a modern, compact, flexible and intuitive FPLC (Fast Protein Liquid Chromatography) system for fast purification of proteins, peptides, and nucleic acids from microgram to gram levels of the desired compound. Can be used for affinity chromatography, size exclusion chromatography (SEC, also known as gel filtration), ion exchange chromatography, hydrophobic interaction chromatography, and reversed phase chromatography (RPC).
+![biochem_akta2](/img/AKTA_SEC_ects.png)
       - **Size-exclusion chromatography (SEC, Gel filtration)**: [[Superose 6 Increase 10/300 GL, Sigma, GE29-0915-96](https://www.sigmaaldrich.com/CZ/cs/product/sigma/ge29091596?srsltid=AfmBOoq-t30M5EBnVcDokmFE85e9QI2iCyZPuNUq8BvXF0XoP1XCFcKg) | [Superdex 200]() | [Superdex 75]() | [TSKgel G4000SWxl, Tosoh]()]
       - **Hydrophobic interaction chromatography (HIC)**: Phenyl-HP cartridge
-      - **Anion exchange chromatography (AEC)**: [[Q HP, Cytiva, 17115401]() | [Mono Q]()]
-      - **Cation exchange chromatography (CEC)**: [[SP-Sepharose]()]
-      - **Affinity chromatography (AC)**: Heparin-affinity chromatography uses immobilized heparin to purify proteins by exploiting their ability to bind to the highly negatively charged glycosaminoglycan.
+      - **Anion exchange chromatography (AEC)**: [[HiTrap Q, Cytiva, 17115401](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-q-hp-anion-exchange-chromatography-column-p-00607) | Capto HiRes Q 10/100]() | [Mono Q 5/50 GL](https://cdn.cytivalifesciences.com/api/public/content/digi-12715-original) | [HiTrap DEAE FF](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-deae-sepharose-ff-p-00605)]
+      - **Cation exchange chromatography (CEC)**: [[SP-Sepharose, Cytiva](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-sp-sepharose-ff-p-00798) | [Capto HiRes S 10/100]()]
+![biochem_akta3](/img/AKTA_SEC_others.png)
+      - **Affinity chromatography (AC)**: Heparin-affinity chromatography uses immobilized heparin to purify proteins by exploiting their ability to bind to the highly negatively charged glycosaminoglycan. [[HiTrap-Heparin HP](https://cdn.cytivalifesciences.com/api/public/content/digi-11293-pdf)]
+      - **Reverse Phase chromatography (RPC)**: Reverse phase chromatography uses columns packed with a non-polar, hydrophobic resins such as polystyrene/divinyl benzene particles. 
       - **Affinity Tag based purification**:
-        - Anti-FLAG: anti-Flag M2 affinity gel (Millipore Sigma)
+        - Anti-FLAG: anti-Flag M2 affinity gel [Millipore Sigma](https://www.sigmaaldrich.com/CZ/cs/product/sigma/a2220?srsltid=AfmBOoqHITxHuhMTw6YMp0sfyFchtOZCeJ8xMeE2PGH-olte2ivqRHFp)
         - Twin-Strep: The Twin-Strep-tag® (WSHPQFEKGGGSGGGSGG-SAWSHPQFEK) is a tandem version of the Strep-tag®II with an internal linker region. This twin version with the same specificity but higher affinity to Strep-Tactin® enables efficient purification even in batch or directly from culture supernatants. 
-        - His-Tag: Ni-NTA resin ()
-        - GST-Tag:
-    
-    
+        - His-Tag: [[Ni-NTA resin](https://www.qiagen.com/us/products/discovery-and-translational-research/protein-purification/tagged-protein-expression-purification-detection/ni-nta-agarose) | [HisTrap HP](https://cdn.cytivalifesciences.com/api/public/content/digi-12993-original)]
+        - GST-Tag: [[Selection guide, Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-14929-pdf) | [PMID: 26096507](https://pubmed.ncbi.nlm.nih.gov/26096507/)]
+    - **Purifying Challenging Proteins, Principles and Methods** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]   
+    - **Simulation software**: [Protein Purification](http://www.agbooth.com/pp_ajax/) starts off by letting you examine how a simple mixture of proteins behaves during gel filtration and ion-exchange chromatography and then goes on to allow the design and testing of full purification protocols using more complex mixtures of proteins.
+    - **Compute isoelectric point (pl): [[ExPASy](https://web.expasy.org/compute_pi/) | [Protein isoelectric point calculator](http://isoelectric.org/)]
     
 - **Protein interaction**
     - **Non-Covalent Bonds and Interactions**: Hydrogen Bonds, Ionic Bonds (Salt Bridges), Van der Waals Interactions, Hydrophobic Interactions
@@ -79,7 +83,8 @@ thumbnailImagePosition: left
 
 - **Protein expression system**
     - E.coli: BL21(DE3) strain + pET-28a+ vector
-    - Sf21 insect cells: Bac-to-Bac Baculovirus Expression System (Life technologies)
+    - Yeast 
+    - Sf21 insect cells: [[Bac-to-Bac Baculovirus Expression System (Life technologies)]() | [FastBac]() | [flashBAC]()]
     - Expi293F cells: Expi293 Expression Medium (Thermo Fisher Scientific)
     
 
@@ -144,7 +149,8 @@ thumbnailImagePosition: left
     - Sun, Lijun, et al. "Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway." Science 339.6121 (2013): 786-791. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWZWjSjbymdFsI777Dv2EYsBAlzY_hKLXIg1JZQzN8XxeQ?e=y4CBrs) | [PMID: 23258413](https://pubmed.ncbi.nlm.nih.gov/23258413/) | [DOI Link](https://www.doi.org/10.1126/science.1232458)]
     - Wu, Jiaxi, et al. "Cyclic GMP-AMP is an endogenous second messenger in innate immune signaling by cytosolic DNA." Science 339.6121 (2013): 826-830. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcEtj2d-iKlGuWeCOcAUFisBiju-HRGaphC-v8jjZmznkA?e=SsslUO) | [DOI Link](https://www.doi.org/10.1126/science.1229963)]
 
-
+- **Discovery of MAVS, a Mitochondrial Antiviral Signaling Adaptor Protein**
+    - Seth, Rashu B., et al. "Identification and characterization of MAVS, a mitochondrial antiviral signaling protein that activates NF-κB and IRF3." Cell 122.5 (2005): 669-682. [[PDF](https://www.cell.com/action/showPdf?pii=S0092-8674%2805%2900816-0) | [PMID: 16125763](https://pubmed.ncbi.nlm.nih.gov/16125763/) | [DOI Link](https://doi.org/10.1016/j.cell.2005.08.012)]
 
 
 2. [David M. Sabatini lab, WIBR, MIT; IOCB-Prague, Boston](https://www.davidmsabatini.com/)
@@ -184,7 +190,7 @@ thumbnailImagePosition: left
     - **key downstream executioner protease**: [YAMA/caspase-3]()
        -  Tewari, Muneesh, et al. "Yama/CPP32β, a mammalian homolog of CED-3, is a CrmA-inhibitable protease that cleaves the death substrate poly (ADP-ribose) polymerase." Cell 81.5 (1995): 801-809.
     
-    - **FADD-caspase-8 pathway as the central apoptotic conduit used by all death receptors **: [[FADD]() | [FLICE/caspase-8]()]
+    - **FADD-caspase-8 pathway as the central apoptotic conduit used by all death receptors**: [[FADD]() | [FLICE/caspase-8]()]
        -  Pan, Guohua, et al. "The receptor for the cytotoxic ligand TRAIL." Science 276.5309 (1997): 111-113. [[PMID: 9082980](https://pubmed.ncbi.nlm.nih.gov/9082980/)]
     
     
@@ -246,7 +252,7 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
 4. [Pfam 35.0](http://pfam.xfam.org/)
     - The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs).
     - Pfam 35.0 contains a total of 19,632 families and clans.
-
+5. [Proteome-pI](http://isoelectricpointdb.org/index.html): Database of pre-computed isoelectric points for proteomes from different model organisms ([5029 species](http://isoelectricpointdb.org/statistics.html)).
 
 
 #### **Tool development**
@@ -279,8 +285,9 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
 The Nobel Prize in Chemistry 2022\
 **The Bioorthogonal Chemistry Journey, from Laboratory to Life** [[Nobel Lecture video](https://youtu.be/pgIzEf_RfII) | [Lecture Slides]() | [Read the Lecture]() | [Source](https://www.nobelprize.org/prizes/chemistry/2022/bertozzi/facts/)]
    - iBiology Talk[[PartII: Imaging the glycome](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EY_HgB0cTHNDsXnohVjQeA4BIsfayV86bt3g40XGvpFEPA?e=7xJwMx)]
+---
 
-- **Sir Peter J. Ratcliffe**, University of Oxford, Oxford, United Kingdom; Francis Crick Institute, London, United Kingdom
+- **Sir Peter J. Ratcliffe**, University of Oxford, Oxford, United Kingdom; Francis Crick Institute, London, United Kingdom\
 The Nobel Prize in Physiology or Medicine 2019\
 **Elucidation of Oxygen Sensing Mechanisms in Human and Animal Cells** [[Nobel Lecture video](https://www.youtube.com/watch?v=-Q0OGLCzKEE&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXOiww-BbPVPk0ylchpMitcBK5MC0hqaj_dZfUS6TWHarw?e=WoVdIG) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVUxJoGlhiRJgtrbPqSTru0Blv3QBO-62yoz7SBpmWC27Q?e=xbjTH6) | [Source](https://www.nobelprize.org/prizes/medicine/2019/ratcliffe/facts/)]
 
@@ -291,15 +298,27 @@ The Nobel Prize in Physiology or Medicine 2019\
 - **Gregg L. Semenza**, Johns Hopkins University, Baltimore, MD, USA
 The Nobel Prize in Physiology or Medicine 2019\
 **Hypoxia-Inducible Factors in Physiology and Medicine** [[Nobel Lecture video](https://www.youtube.com/watch?v=B_KBgSXUWoM&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESNkopdpfo1Hg4snunzkMBcB1tf8zbRYfc1SPzC7SIElHw?e=iCgGHX) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efl45HbMeoVFlKFDaQ3nlrEBpioqP1dJAdmLpltUt8RqSw?e=8BU3qs) | [Source](https://www.nobelprize.org/prizes/medicine/2019/semenza/facts/)]
+---
 
+- **James P. Allison**, University of Texas MD Anderson Cancer Center, Houston, TX, USA
+The Nobel Prize in Physiology or Medicine 2018\
+**Immune Checkpoint Blockade in Cancer Therapy**  [[Nobel Lecture video](https://youtu.be/0kuh7G9CP9Y) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/10/allison-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/10/allison-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2018/allison/facts/)]
+
+- **Tasuku Honjo**, Kyoto University, Kyoto, Japan
+The Nobel Prize in Physiology or Medicine 2018\
+**Serendipities of Acquired Immunity**  [[Nobel Lecture video](https://youtu.be/9gx05bZIMc8) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/10/honjo-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/10/honjo-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2018/honjo/facts/)]
+---
 
 - **Thomas A. Steitz**, Yale University, New Haven, CT, USA/HHMI\
 The Nobel Prize in Chemistry 2009\
 **From the Structure and Function of the Ribosome to New Antibiotics** [[[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2013_med_sudhof_01_496.mp4) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVXBnv0u4ZFJhYQn8GDptrsB_h1rjWytyIgA-_jGlJnp0A?e=9GGhT9) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EfciowG7i0xGkkbCawrXBYIBjfGg34AWPzRkUY9QjXxa0w?e=37F7SE) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
 
+---
+
 - **Roger D. Kornberg (1947-)**, Stanford University, Stanford, CA, USA\
 The Nobel Prize in Chemistry 2006\
 **The Molecular Basis of Eukaryotic Transcription** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ERw7C9PRlohLhRtknICEV7MBBSPm_2mWVIesmDVd2YOG4A?e=hF2pWW) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESyDWhQ3fdVKgUJCgAx60r0B_CtmOIHrlltak3g1vOG7IQ?e=I34sDq) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZT0GvMQveJMq-ixnGwABJUBS-5i5dHmP0wara5wRomYgA?e=3BsqbQ) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
+---
 
 - **Aaron Ciechanover (1947-)**, Technion - Israel Institute of Technology, Haifa, Israel\
 The Nobel Prize in Chemistry 2004\
@@ -312,7 +331,7 @@ The Nobel Prize in Chemistry 2004\
 - **Irwin Rose (1926-2015)**, University of California, Irvine, CA, USA\
 The Nobel Prize in Chemistry 2004\
 **Ubiquitin at Fox Chase** [[[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/ET4_5AecXu9Cnf0uM19F4JsBS9IZDC6c5ICFlR0vH87a4g?e=siEias) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EXbdZe1w5q9BkWFcrk386rQBAxL3Vs5s6363DWlxUCbwgA?e=jSkAIL) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETFDWhuZpgpKskP64kZaOyQBuQdyyA_dyO4bLO0hdcZvAQ?e=7iQmn9) | [Source](https://www.nobelprize.org/prizes/chemistry/2004/rose/biographical/)]
-
+---
 
 - **H. Robert Horvitz**, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
 The Nobel Prize in Physiology or Medicine 2002\

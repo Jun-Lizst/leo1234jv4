@@ -401,7 +401,7 @@ Atoms are not indivisible, for negatively electrified particles can be torn from
 <li>HPLC User Maintenance &amp; Troubleshooting (<a href="https://www.agilent.com/cs/library/slidepresentation/public/HPLC_User_Maintenance_and_Troubleshooting.pdf">PDF</a>), <a href="https://www.agilent.com/en/product/liquid-chromatography">Agilent</a></li>
 <li>HPLC Columns</li>
 <li>Nexera UHPLC/HPLC System, <a href="https://www.shimadzu.com.cn/an/hplc/nexera-uhplc-hplc-system/3385.html">Shimadzu Corporation</a></li>
-<li>Vanquish UHPLC FLEX, <a href="https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-flex-uhplc-system.html">Thermo Fisher</a></li>
+<li>Vanquish UHPLC FLEX [<a href="https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-flex-uhplc-system.html">Thermo Fisher</a>]; Vanquish Neo nanoLC[<a href="https://www.thermofisher.com/cz/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-neo-uhplc-system.html">VN-S10-A-01, Thermo Fisher</a>; for nano-flow]</li>
 <li>ACQUITY UPLC, <a href="https://www.waters.com/nextgen/us/en/products/chromatography-systems/acquity-premier-system.html">Waters</a></li>
 <li>Ultimate 3000 RSLCnano System, <a href="https://assets.thermofisher.com/TFS-Assets/CMD/brochures/BR-71898-LC-UltiMate-3000-RSLCnano-UHPLC-BR71898-EN.pdf">Thermo Scientific</a>, for nanoliters flow rates</li>
 <li>UltiMate 3000 RS HPLC systems, for microliters flow rates</li>
@@ -411,7 +411,8 @@ Atoms are not indivisible, for negatively electrified particles can be torn from
 </ol>
 <h3 id="ii--ms-mass-spectrometry-part">II. <strong>| MS (Mass spectrometry) part</strong></h3>
 <ol>
-<li>Orbitrap based:</li>
+<li>Orbitrap based:
+<img src="https://leoj.xyz/img/QExactive_MS.png" alt="instrument_qe"></li>
 </ol>
 <ul>
 <li><strong>Review article</strong>: Evolution of Orbitrap Mass Spectrometry Instrumentation [<a href="https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQUzf1IT4yFAnxTzocu7x3ABLgI2qWrPlVhiKY0rRi89-g?e=J304Ws">PDF</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/26161972/">PMID: 26161972</a> | <a href="https://doi.org/10.1146/annurev-anchem-071114-040325">DOI Link</a>]
@@ -510,22 +511,24 @@ In particular, the speed and sensitivity of TimsTOF Pro enable us to see more sm
 </li>
 <li>
 <p><strong>Downstream: Thermo Fisher Proteomics solution</strong></p>
+</li>
+</ul>
+<ol>
+<li>ref. parameters on LC-MS (Ultimate 3000-nanoLC + QE HF-X):
 <ul>
-<li>ref. parameters on LC-MS
-<ul>
-<li>Dionex Ultimate 3000 nanoLC system:
+<li><strong>Dionex Ultimate 3000 nanoLC system:</strong>
 <ul>
 <li><strong>Column</strong>: C18 analytical LC column (2 μm, 100 Å, 75 μm i.d. × 500 mm, nanoViper, <a href="https://www.thermofisher.com/order/catalog/product/164942">Thermo Scientific, 164942</a>); Acclaim PepMap100 column (5 μm, 5 mm by 300-μm internal diameter (ID) [Thermo Fisher Scientific]); Acclaim PepMap100 analytical column (2 μm, 50 cm by 75 μm ID, Thermo Fisher Scientific)</li>
-<li><strong>mobile phase</strong> A: 0.1% formic acid in water; mobile phase B: 0.1% formic acid in ACN</li>
-<li><strong>gradient elution</strong>: 2% B at 0–15 min, 30% B at 81 min, 35% B at 85 min, 40% B at 87 min, 60% B at 95 min, 80% B at 96–107 min and 2% B at 108–120 min.</li>
+<li><strong>mobile phase</strong> A: 0.1% formic acid in water; mobile phase B: 0.1% formic acid in ACN.</li>
+<li><strong>gradient elution</strong>: 2% B at 0–15 min, 30% B at 81 min, 35% B at 85 min, 40% B at 87 min, 60% B at 95 min, 80% B at 96–107 min and 2% B at 108–120 min.</li>
 <li><strong>Flow rate</strong>: 600 nl/min at 0–13.5 min and 250 nl/min at 13.5–120 min.</li>
 </ul>
 </li>
 <li>Q Exactive HF-X (Data-Dependent Acquisition, DDA): Full-scan MS
 <ul>
-<li>dynamic exclusion time: 30 s</li>
 <li>m/z range of 300-1650, resolution of 60,000, AGC target = 3e6;</li>
 <li>top 15 for HCD, resolution of 15,000, collision energy of 30 eV, AGC target = 1e5;</li>
+<li>dynamic exclusion time: 30 s</li>
 </ul>
 </li>
 <li>Orbitrap Fusion Lumos (DDA): m/z 350 to 2000 in the MS mode
@@ -535,11 +538,38 @@ In particular, the speed and sensitivity of TimsTOF Pro enable us to see more sm
 </li>
 </ul>
 </li>
-<li>Database search:
+<li>ref. parameters on LC-MS (Vanquish Neo nanoLC + QE plus/Exploris 480):
 <ul>
-<li><a href="https://www.matrixscience.com/server.html">MSCOT MS/MS Ions Search</a></li>
+<li><strong>Vanquish Neo nanoLC:</strong>
+<ul>
+<li>Acclaim PepMap RSLC(75 μm × 25 cm); Trap column: Acclaim PepMap 100(75 μm × 2 cm)</li>
+<li><strong>mobile phase</strong> A: H2O with 0.1% formic acid; mobile phase B: 80/20 (%, v/v) ACN/H2O with 0.1% formic acid.</li>
+<li><strong>gradient elution</strong>: 85 mins</li>
+<li>injection volumn: 2 μL</li>
 </ul>
 </li>
+<li>QE plus (Full-MS/dd-MS2 DDA):
+<ul>
+<li>Range = 250-1800 m/z, MS1 resolution = 70,000, AGC target = 3e6;</li>
+<li>top 15 for HCD, resolution of 17,500, collision energy of 28 eV;</li>
+<li>dynamic exclusion time: 25 s</li>
+</ul>
+</li>
+<li>Orbitrap Exploris 480: [<a href="https://assets.thermofisher.com/TFS-Assets/CMD/Technical-Notes/tn-000138-lc-high-throughput-proteome-profiling-tn000138-en.pdf">PDF</a>]
+<ul>
+<li>Range = 375-1200 m/z, MS1 resolution = 60,000, AGC target = 3e6;</li>
+<li>resolution of 15,000, Collision energy of 26 eV;</li>
+<li>dynamic exclusion time: [25s | 30s | 45s | 50s]</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<p>Database search:</p>
+<ul>
+<li><a href="https://www.matrixscience.com/server.html">MSCOT MS/MS Ions Search</a></li>
 </ul>
 </li>
 <li>
