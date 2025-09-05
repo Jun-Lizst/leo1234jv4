@@ -50,17 +50,17 @@ thumbnailImagePosition: left
     - Q Exactive-HF
     - Q Exactive HF-X
     - Q Exactive-fusion
-    - **Orbitrap Exploris 240**
-    - **Orbitrap Exploris 480**
+    - **Orbitrap Exploris 240**:
+    - **Orbitrap Exploris 480**:
     - [Orbitrap Astral](https://www.thermofisher.com/cz/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-systems/orbitrap-lc-ms/orbitrap-astral-mass-spectrometer.html?erpType=Global_E1): 
     - **Orbitrap Fusion Lumos:** Orbitrap Fusion Lumos Tribrid mass spectrometr (Thermo Scientific) is mass spectrometer combines quadrupole, ion traps and orbitrap mass analyzer. According the mentioned combination, Thermo Scientific provider called the instrument tribrid. This system incorporates the brightest ion source, a segmented quadrupole mass filter with improved selectivity and ion transmission, Advanced Vacuum Technology for improved ion transmission to the Orbitrap mass analyzer. The instrument provide the possibility of well-established ionizations as ESI, nanoESI, APCI and APPI and fragmentation CID, HCD and ETD. The instrument provides 1,000,000 FWHM ultra-high resolution for improved structural elucidation and quantitation of isobaric compounds. The instrument can be connected to two HPLC systems; UltiMate 3000 RSLCnano and UltiMate 3000 RS HPLC systems (Thermo Scientific) for HPLC in nanoliters and microliters flow rates, respectively.
 
 
 2. Triple Quadrupole based
-    - TSQ Quantum
-    - TSQ Altis
-    - SCIEX QTRAP5500
-    - SCIEX QTRAP6500+
+    - TSQ Quantum Access MAX [[Thermo](https://assets.thermofisher.com/TFS-Assets/CMD/brochures/BR-62985-MS-TSQ-Quantum-Access-MAX-BR62985-EN.pdf)]
+    - TSQ Altis [[Thermo Brochure](https://documents.thermofisher.com/TFS-Assets/CMD/brochures/BR-TSQ-Altis-QQQ-MS-ZH.pdf) | [Hardware Manual](https://documents.thermofisher.com/TFS-Assets/CMD/manuals/man-80111-98005-tsq-altis-quantis-fortis-hardware-man8011198005-en.pdf) | ]
+    - SCIEX QTRAP5500+: [[SCIEX](https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-lc-ms-ms-system-qtrap-ready) | [System User Guide, PDF](https://sciex.jp/content/dam/SCIEX/pdf/customer-docs/user-guide/5500plus-system-user-guide-en.pdf)] 
+    - SCIEX QTRAP6500+: [[SCIEX](https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system) | [Operational Guide, PDF](https://imserc.northwestern.edu/downloads/ms-instruments-sciex-6500-plus.pdf)]
     - SCIEX QTRAP7500
 
 
@@ -199,7 +199,7 @@ thumbnailImagePosition: left
 5. [MSTools](https://ms.epfl.ch/): The open access EPFL MStoolbox is a compilation of all these tools that allow the analysis of High Resolution Mass Spectra directly from your web browser. This webpage provides guidelines and explanations for each tool and is targeted for both beginners and advanced MS users. The EPFL MStoolbox could be particularly useful for anyone working in the field of Mass Spectrometry but does not have access to commercial software for the data treatment. 
 
 
-
+6. [ProteoWizard](https://proteowizard.sourceforge.io/index.html): ProteoWizard provides a set of open-source, cross-platform software libraries and tools (e.g. msconvert, Skyline, IDPicker, SeeMS) that facilitate proteomics data analysis. The libraries enable rapid tool creation by providing a robust, pluggable development framework that simplifies and unifies data file access, and performs standard chemistry and LCMS dataset computations.
 
 
 
@@ -225,23 +225,52 @@ thumbnailImagePosition: left
 
 ---
 ## Metabolomics
-- **Upstream: Protocol for peptide mixture cleanup**
+- **Upstream: Protocol for metabolite extraction**
 1. Protocol for metabolite extraction
-    - From tissue/organ for HILIC LC-MS: [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Tissue-Extraction-Protocol-25-01-14.pdf)
-    - From Plasma for HILIC LC-MS: [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Plasma-Serum-Extraction-Protocol-25-01-14.pdf)
-    - From adherent cell line: [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Adherent-Cell-Lines-Extraction-Protocol-25-01-14.pdf)
-
-
+    - **From Plasma for HILIC LC-MS:** [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Plasma-Serum-Extraction-Protocol-25-01-14.pdf)
+    - **From adherent cell line:** [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Adherent-Cell-Lines-Extraction-Protocol-25-01-14.pdf)
+    - **From tissue/organ for HILIC LC-MS:** [PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Tissue-Extraction-Protocol-25-01-14.pdf)
+    - **Purification of metabolites from brain tissue:**
+    Brain tissue samples were collected in 1.5ml Eppendorf tubes and then 900 µl of ice-cold methanol/80% water (vol/vol) was added. The samples were shaken at 120 rpm on a shaker for 6 h at 4 °C. After centrifugation at 17,000 g for 15 min at 4°C, 850 µl of the supernatant was transferred to a new tube. Then all samples were evaporated to dryness using a SpeedVac concentrator (Thermo Savant). The samples were then stored in a −80 °C freezer before performing metabolomic profiling analysis. Before injected into LC-MS machine, metabolites were reconstituted in 50 µl of 0.03% formic acid in analytical-grade water, vortex-mixed, and centrifuged to remove debris. 
+    
+---
 - **Downstream: Targeted metabolomics**
+> Targeted metabolomics use tailored mass spectrometry approaches to assess the levels of specific metabolites pre-chosen by the user or the facility. These may include single metabolites for absolute quantitation (metabolite quant), several metabolites chosen to assess a single pathway (pathway analysis), or screening analysis using assays developed by the facility to detect hundreds of metabolites simultaneously.
 
+1. ref. parameters on LC-MS:
+    - Nexera Ultra High Performance Liquid Chromatograph (UHPLC) system (Shimadzu Corporation):
+        - **Separation column:** Phenomenex Synergi Polar-RP HPLC column (150 × 2 mm, 4 µm, 80 Å)
+        - **The mobile phases:** 0.03% formic acid in water (A) and 0.03% formic acid in acetonitrile (B).
+        - **The gradient program:** 0-3 min, 0% B; 3-15 min, 0% - 100% B; 15-17 min, 100% B; 17-17.1 min, 100% - 0% B; 17.1-20 min, 0% B.
+        - injection volume: 20 µL
 
+    - SCIEX QTRAP 5500 (triple quadrupole (QqQ) mass spectrometer): 
+        - Multiple reaction monitoring (MRM)
+        - MS/MS detector conditions: [curtain gas 30 psi | ion spray voltages 1200 V (positive) and -1500 V (negative) | temperature 650°C | ion source gas 150 psi | ion source gas 2 50 psi | interface heater on | entrance potential 10 V] 
+        - Dwell time for each transition was set at 3 ms.
+        - Sample analysis was performed in positive/negative switching mode.
+        - Declustering potential (DP), collision energy (CE) and Collision Cell Exit Potential (CXP) were optimized for each metabolite by direct infusion of reference standards using a syringe pump prior to sample analysis.   
 
-1. Data Acquisition Methods
-    - SRM  
-
+    - Selected reaction monitoring (SRM)  
+    
+  
 
 
 - **Downstream: Untargeted metabolomics**
+> Untargeted metabolomics is a shotgun-like approach that acquires all possible metabolite data from experimental samples with no prioritization of which pathways might be informative. The method reports the maximum number of metabolic features (i.e., “peaks”) and identifies as many of these as possible by comparing the precise molecular mass and MS2 spectra to commercial databases.
+
+
+
+
+
+
+
+
+- **Isotope Enrichment Analysis**
+
+
+
+
 
 
 
@@ -254,7 +283,8 @@ thumbnailImagePosition: left
 3. [MS-DIAL](http://prime.psc.riken.jp/compms/msdial/main.html)
 4. [MaxQuant](https://www.maxquant.org/)
 5. [SpatialMeta]()
-
+6. [MultiQuant software, SCIEX]()
+7. [LipidBlast](https://fiehnlab.ucdavis.edu/projects/lipidblast)
 
 
 ---
@@ -265,12 +295,19 @@ thumbnailImagePosition: left
    - HILIC Tissue Extraction Protocol [[PDF](https://cri.utsw.edu/wp-content/uploads/2025/01/HILIC-Tissue-Extraction-Protocol-25-01-14.pdf) | [PMID: 28825709](https://pubmed.ncbi.nlm.nih.gov/28825709/)]
 
 2. [West Coast Metabolomics Center](https://metabolomics.ucdavis.edu/), UC Davis
-   - Fiehn Laboratory for Untargeted Metabolomics
+   - Fiehn Laboratory for Untargeted Metabolomics ([Oliver Fiehn lab](https://fiehnlab.ucdavis.edu/instrumentation))
+     - ThermoFisher Vanquish UHPLC + Sciex QTRAP 6500+ mass spectrometer
+     - ThermoFisher Vanquish UHPLC + Sciex Triple TOF mass spectrometer
+     - ThermoFisher Vanquish UHPLC + ThermoFisher Altis triple quadrupole mass spectrometers
+     - Vanquish UHPLC + ThermoFisher Orbitrap mass spectrometers (Q-Exactive, IQX, Exploris models)
+     - Vanquish UHPLC + [Bruker timsTOF mass spectrometer flex](https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof/timstof-flex.html)
+     - **Chemical and Informatics Resources:** The Fiehn laboratory has purchased over 6,500 chemical reference standards for identification and quantifications and hosts several metabolomics databases.
+   
    - Newman Laboratory for Lipid Mediators
    - Hammock Laboratory for Inflammatory Metabolism
 
 
-
+---
 ### Online courses
 1. **2018 North American Mass Spectrometry Summer School (1st Annual)**
     - [MS-based compound identification in untargeted metabolomics](https://youtu.be/UB1mOfcJwYc), Oliver Fiehn, University of California-Davis 
