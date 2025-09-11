@@ -29,11 +29,15 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
 
 
 2. **Regulation of Cholesterol Synthesis**: 
+    - Discovery of receptor-mediated endocytosis (RME) of LDL: Michael S. Brown and Joseph L. Goldstein.
     - Part 1: Feedback Regulation of HMG CoA Reductase [[iBiology Talk video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EZ14Ti2ciNdIiJN4-4qnQAQBYB-Kf-O9XGnK0ePHUkXKxw?e=PhSwDP)]
     - Part 2: Schnyder Corneal Dystrophy: Importance of UBIAD1 in Regulation of Cholesterol [[iBiology Talk video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EbHEhuETHC1BuXduXcnksfEBKueRrsc1FwU9H426kgGj7w?e=bDqyul)]
     
     - Goldstein, Joseph L., and Michael S. Brown. “A Century of Cholesterol and Coronaries: From Plaques to Genes and Statins.” Cell 161, no. 1 (2015): 161–72. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVmM9yqeT0lPuIKaqQlzvkwB0cx7RREjxtfaEAEvtxji5A?e=gxGANA) | [PMID: 25815993](https://pubmed.ncbi.nlm.nih.gov/25815993/) | [DOI Link](https://doi.org/10.1016/j.cell.2015.01.036)]
 
+    - Question at 1970s:
+      1. Receptors on the plasma membrane communicate with proteins in the nucleus, endoplasmic reticulum, lysosomes, mitochondria, and other structures, how is this cell-wide communication articulated ?
+      2. How does a cell regulate a metabolic pathway whose active components reside in different subcellular compartments ? 
 
 3. **Regulation of Energy metabolism**
     - Review in 1979: [METABOLITE TRANSPORT IN MITOCHONDRIA](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeWcvgdnEsJHqnu77uAAWGoBq6d7dUWpyr1Kromjrev6Rg?e=ylv6xV)
@@ -41,7 +45,9 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
 
 
 4. **Lysosome role in metabolic signalling**
+    - Discovery of Lysosome: [[Christian de Duve, 1959](https://doi.org/10.1016/S0962-8924(98)01314-2)]
     - Review in 2019: **The lysosome as a cellular centre for signalling, metabolism and quality control** (Rosalie and Roberto, 2019) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcboMO4gKndOlJOzXWV8ohEBy6mrjgr8mpQGztgPqgYttw?e=yOvXBj) | [PMID: 30602725](https://pubmed.ncbi.nlm.nih.gov/30602725/) | [DOI Link](https://doi.org/10.1038/s41556-018-0244-7)]
+    - mTORC1 activation of Lysosomal membrane: 
 
 5. **Nutrient sensing machinery**
     - Cholesterol: \
@@ -63,7 +69,7 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     [ ] GATOR2 > Nutrient sensing hub! [[CryoEM Structure of human GATOR2 complex](https://doi.org/10.1038/s41586-022-04939-z) | [Valenstein et al., 2025](https://doi.org/10.1038/s41586-025-09428-7)]
     
     - Glucose: \
-    ---AMPK
+    --- AMPK
     - Nitrogen sensing in yeast cells
 
 
@@ -100,14 +106,15 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
 
 ### IV. **Cell death pathways** 
 1. Programmed cell death-Apoptosis
-  - Discovery of the genes
+  - Discovery of the genes:
   - Identification of Apaf1
 
 
 
 
-
-
+2. Inflammation induced pyroptosis
+  - Discovery of GSDMD
+  
 
 
 
@@ -215,13 +222,32 @@ These tutorial videos were prepared for students in the UCSD School of Medicine 
 
 
 
+---
+## Nobel laureates
+![nobelxqhemox](/img/nobel_prize.jpg)
+---
+
+
+- **George E. Palade**, Yale University, School of Medicine, New Haven, CT, USA
+Nobel Prize in Physiology or Medicine 1974\
+**Intracellular Aspects of the Process of Protein Secretion** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/palade-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1974/palade/facts/)]
 
 
 
 
+- **Christian de Duve**, Rockefeller University, New York, NY, USA; Université Catholique de Louvain, Louvain, Belgium
+Nobel Prize in Physiology or Medicine 1974\
+**Exploring Cells with a Centrifuge** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/duve-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1974/duve/facts/)]
 
 
 
 
+- **Hans Krebs**, Sheffield University, Sheffield, United Kingdom
+Nobel Prize in Physiology or Medicine 1953\
+**The Citric Acid Cycle** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/krebs-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1953/krebs/facts/)]
 
 
+
+- **Fritz Lipmann**, Harvard Medical School, Boston, MA, USA; Massachusetts General Hospital, Boston, MA, USA
+Nobel Prize in Physiology or Medicine 1953\
+**Development of the Acetylation Problem: A Personal Account** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/lipmann-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1953/lipmann/facts/)]

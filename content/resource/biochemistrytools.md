@@ -34,7 +34,9 @@ thumbnailImagePosition: left
       - Electrophoresis System ([XCell SureLock Mini-Cell, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gel-electrophoresis-chamber-systems/xcell-surelock-mini-vertical-electrophoresis-system.html))
       - Electrophoresis System ([Mini-PROTEAN Tetra Cell, BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tetra-vertical-electrophoresis-cell?ID=N3F2UD4VY))
       - Reagents: Laemmli Sample buffer, 2-Mercaptoethanol, DTT, Coomassie stain ([InstantBlue, Abcam](https://www.abcam.com/en-us/products/reagents/instantblue-coomassie-protein-stain-isb1l-ab119211?srsltid=AfmBOoqRseIMqMctrEZHgbdIyJl7AG3S_CSSlsP1BaYm3J-fyuJU7c7z) | [PageBlue, Thermo](https://www.thermofisher.com/order/catalog/product/24620))
-      - Silver Staining
+      - Silver Staining: [[SilverQuest Silver staining kit (Thermo Fisher Scientific)](https://documents.thermofisher.com/TFS-Assets/LSG/manuals/silverquest_man.pdf)]: The SilverQuest™ Silver Staining Kit provides a rapid and easy method to silver stain proteins in polyacrylamide gels. Silver staining allows detection of most proteins since it is 30-fold more sensitive than staining with colloidal Coomassie G-250. This kit is specifically designed to provide sensitive silver staining compatible with mass spectrometry analysis. [Original article: [Rabilloud et al, 1994](https://pubmed.ncbi.nlm.nih.gov/8003936/)]
+      - SYPRO Ruby Protein Stain: Sypro Ruby is a mass spec compatible protein stain with similar sensitivity as silver stain.
+      - Instruments: [[Amersham™ ImageQuant™ 800, Cytiva](https://www.cytivalifesciences.com/en/us/shop/protein-analysis/molecular-imaging-for-proteins/imaging-systems/amersham-imagequant-800-systems-p-11546?psmenu=2) | [SPARK Plate reader, TECAN](https://lifesciences.tecan.com/multimode-plate-reader)]
       
     - **Western blot**
       - PVDF membrane, 0.45 um pore size [[Millipore: IPFL00010](https://www.sigmaaldrich.com/CZ/cs/product/mm/ipfl00010?srsltid=AfmBOopgFe8mgpL3NnXRtELNsYD2xkQ07O8kmDEvVDhQkGzKy3dkiuHi)]
@@ -44,7 +46,7 @@ thumbnailImagePosition: left
     - **BCA:** The BCA (Bicinchoninic Acid) protein assay is a colorimetric method for determining the total protein concentration in a solution. It relies on the reduction of copper(II) to copper(I) by protein in an alkaline solution, followed by the chelation of two molecules of BCA with each Cu(I) ion, resulting in a purple-colored complex that absorbs strongly at 562 nm. The intensity of the purple color is directly proportional to the amount of protein present, allowing for quantification by comparing the absorbance to a standard curve of known protein concentrations. 
       - Pierce™ BCA Protein Assay Kits [[User guide: PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0011430_Pierce_BCA_Protein_Asy_UG.pdf) | measure at 562 nm]
       - Pierce™ Dilution-Free™ Rapid Gold BCA Protein Assay Kit [[User guide: PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0029413-Pierce%20DilutionFree%20RapidGoldBCA-UG.pdf) | measure at 480 nm]
-    - **Bradford**：The Bradford method is a quick and widely used colorimetric assay for determining protein concentration. It involves the binding of a dye, Coomassie Brilliant Blue G-250, to proteins, which causes a shift in the dye's absorbance spectrum. By measuring the absorbance of the resulting blue solution at 595 nm and comparing it to a standard curve, the protein concentration can be determined. [[original article, PMID:942051](https://pubmed.ncbi.nlm.nih.gov/942051/)]
+    - **Bradford:** The Bradford method is a quick and widely used colorimetric assay for determining protein concentration. It involves the binding of a dye, Coomassie Brilliant Blue G-250, to proteins, which causes a shift in the dye's absorbance spectrum. By measuring the absorbance of the resulting blue solution at 595 nm and comparing it to a standard curve, the protein concentration can be determined. [[original article, PMID:942051](https://pubmed.ncbi.nlm.nih.gov/942051/)]
     - **ELISA**
 
 
@@ -66,7 +68,7 @@ thumbnailImagePosition: left
         - GST-Tag: [[Selection guide, Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-14929-pdf) | [PMID: 26096507](https://pubmed.ncbi.nlm.nih.gov/26096507/)]
     - **Purifying Challenging Proteins, Principles and Methods** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERJk71FTHSNElA3GMam-l3IBX6v_i_oCQeLQLG1Hb6bBiA?e=mAkBNn)]   
     - **Simulation software**: [Protein Purification](http://www.agbooth.com/pp_ajax/) starts off by letting you examine how a simple mixture of proteins behaves during gel filtration and ion-exchange chromatography and then goes on to allow the design and testing of full purification protocols using more complex mixtures of proteins.
-    - **Compute isoelectric point (pl): [[ExPASy](https://web.expasy.org/compute_pi/) | [Protein isoelectric point calculator](http://isoelectric.org/)]
+    - **Compute isoelectric point (pl)**: [[ExPASy](https://web.expasy.org/compute_pi/) | [Protein isoelectric point calculator](http://isoelectric.org/)]
     
 - **Protein interaction**
     - **Non-Covalent Bonds and Interactions**: Hydrogen Bonds, Ionic Bonds (Salt Bridges), Van der Waals Interactions, Hydrophobic Interactions
@@ -74,7 +76,7 @@ thumbnailImagePosition: left
     - **co-IP**: Anti-FLAG (DYKDDDDK) Magnetic Agarose beads [[Thermo](https://www.thermofisher.com/order/catalog/product/A36798?ef_id=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE:G:s&s_kwcid=AL!3652!3!730146096394!!!g!!!22158546157!172279481245&cid=bid_sap_prp_r01_co_cp1362_pjt0000_bid00000_0se_gaw_dy_pur_con&gad_source=1&gad_campaignid=22158546157&gbraid=0AAAAADxi_GQApzePpHkuQmiLo2ZT9fVkx&gclid=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE) | [Sigma](https://www.sigmaaldrich.cn/CN/en/product/sigma/m8823?srsltid=AfmBOoq6WDnv8XUxZ__m1yIopkj5LQ8DzGDd35wvJ0y0Waw-PB0f2HU8)]; Anti-HA Magnetic Agarose [[Thermo](https://www.thermofisher.com/order/catalog/product/88837?SID=srch-srp-88837)]
     - Proximity labeling: APEX[]; TurboID[]; UltraID[]
     - cross linking reagents: 
-
+    - Magnetic Separation Rack: [[DynaMag™-2 Magnet](https://www.thermofisher.com/order/catalog/product/12321D)]
 
 - **Protein identification**
     - Protein sequencing:
@@ -87,12 +89,14 @@ thumbnailImagePosition: left
     - Sf21 insect cells: [[Bac-to-Bac Baculovirus Expression System (Life technologies)]() | [FastBac]() | [flashBAC]()]
     - Expi293F cells: Expi293 Expression Medium (Thermo Fisher Scientific)
     
-
-
+---
+> We are seeing cells more and more clearly as chemical factories, where the various products are manufactured in separate workshops, the enzymes act[ing] as the overseers.\
+--- Eduard Buchner (The Founder of Modern Biochemistry)
+---
 - **Organelle isolation**
     - **mitochondria**: Mito-IP []; Mito-IP tg mice
     - **Lysosome**: LysoIP [[PMID: 29074583](https://pubmed.ncbi.nlm.nih.gov/29074583/) | [Protocol](https://www.protocols.io/view/lysosome-immunopurification-lysoip-protocol-for-su-eq2lypy1rlx9/v1)] ; LysoIP tg mice (Rosa26;lox-stop-lox-TMEM192-3×HA) [[PMID: 36131016](https://pubmed.ncbi.nlm.nih.gov/36131016/)]
-    - **ER**:
+    - **ER**: ER-IP
     - **Golgi**: Golgi-IP [[PMID: 37155866](https://pubmed.ncbi.nlm.nih.gov/37155866/) | [Protocol](https://www.protocols.io/view/golgi-immunopurification-golgi-ip-for-subcellular-5qpvor3dbv4o/v1)]
     - **Synaptosome**: [A rapid Percoll gradient procedure, 2008, [DOI Link](https://doi.org/10.1038/nprot.2008.171)]     
     - **Postsynaptic density (PSD)**: [[DOI Link](https://link.springer.com/protocol/10.1007/978-1-61779-111-6_4)]
@@ -260,11 +264,11 @@ sequence domain families, including the Pfam database. [[User's Guide](https://p
 - **PROXIMITY LABELING**
     - APEX
     - TurboID
-
+    - LOV-Turbo: Light-regulated TurboID
 - Stanford Neuro-omics Initiative, 2020 Virtual Workshop
-    - **"Proteomics and proximity labeling in neuroscience”**, by Alice Ting [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EURtS-fx5pdFph-mL6kXDBABw_5emkw7C2HCPO56SJqWJA?e=nHoZid)]
-    - **“Design and execution of proximity labeling experiments”**, by Tess Branon [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcWMnFwx-yBIm2EZMn-b6iwBSEHgCjWSW653PifJ0IsUWA?e=DQaNMA)]
-    - **“Analysis of proximity labeling data”**, by Shuo Han [[Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESFYHhnoc-5Lj82mPOTuVaQB9zZkrxfXJddxrLED6dHSkA?e=b2j49X)]
+    - **"Proteomics and proximity labeling in neuroscience”**, by Alice Ting [[YouTube video](https://youtu.be/IX8v1EX6k9E) | [Slides](https://www.tinglab.org/s/Ting-proximity-labeling)]
+    - **“Design and execution of proximity labeling experiments”**, by Tess Branon [[YouTube video](https://youtu.be/_EZ-A-_GeWE) |  [Slides](https://www.tinglab.org/s/Branon-proximitylabeling)]
+    - **“Analysis of proximity labeling data”**, by Shuo Han [[YouTube video](https://youtu.be/sKLj_uxqMUE) | [Slides](https://www.tinglab.org/s/Han-proximitylabeling.pdf)]
 
 
 
@@ -308,6 +312,13 @@ The Nobel Prize in Physiology or Medicine 2018\
 The Nobel Prize in Physiology or Medicine 2018\
 **Serendipities of Acquired Immunity**  [[Nobel Lecture video](https://youtu.be/9gx05bZIMc8) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/10/honjo-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/10/honjo-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2018/honjo/facts/)]
 ---
+
+
+- **James E. Rothman**, Yale University, New Haven, CT, USA
+The Nobel Prize in Physiology or Medicine 2013\
+**The Principle of Membrane Fusion in the Cell**  [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2013_med_rothman_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/10/honjo-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/rothman-lecture-slides.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2013/rothman/facts/)]
+---
+
 
 - **Thomas A. Steitz**, Yale University, New Haven, CT, USA/HHMI\
 The Nobel Prize in Chemistry 2009\
@@ -363,7 +374,7 @@ The Nobel Prize in Physiology or Medicine 1985\
 The Nobel Prize in Physiology or Medicine 1985\
 **A Receptor-Mediated Pathway for Cholesterol Homeostasis** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EVutn3EsSJ1HqNxaasJhoyAB1zOSUp0fnA-22pIXkxSVBg?e=KWa8bN) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EV1QI23lnYJEsidk8PwsdkUBHwujaCAxk-IZn7-CJBKRjg?e=PvKRA5) | [Source](https://www.nobelprize.org/prizes/medicine/1985/goldstein/facts/)]
 
-- **David Baltimore**, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
+- **David Baltimore (1938-2025)**, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA\
 The Nobel Prize in Physiology or Medicine 1975\
 **Viruses, Polymerases and Cancer** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESnrenbCZZlAhI2JPh5t-x8B3X7SnCYq7xw02oP8GmjCeQ?e=IfvLqf) | [Source](https://www.nobelprize.org/prizes/medicine/1975/baltimore/facts/)]
 
@@ -373,9 +384,20 @@ The Nobel Prize in Physiology or Medicine 1974\
 **Exploring Cells with a Centrifuge** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EdOinoSbtxVIi-cwGU-QE7gBFMjIvlVwC0bnRyqJVN9Emw?e=5KkvhL) | [Source](https://www.nobelprize.org/prizes/medicine/1974/duve/facts/)]
 
 
+- **Arthur Kornberg (1918-2007)**, Stanford University, Stanford, CA, USA\
+The Nobel Prize in Physiology or Medicine 1959\
+**The Biologic Synthesis of Deoxyribonucleic Acid** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1959/kornberg/facts/)]
+
+
+- **Severo Ochoa (1905-1993)**, New York University, College of Medicine, New York, NY, USA\
+The Nobel Prize in Physiology or Medicine 1959\
+**Enzymatic Synthesis of Ribonucleic Acid** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/ochoa-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1959/ochoa/facts/)]
+
+
 - **Hans Adolf Krebs (1900-1981)**, Sheffield University, Sheffield, United Kingdom\
 The Nobel Prize in Physiology or Medicine 1953\
 **The Citric Acid Cycle** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVxi0wW7-IJJnjzqliHeFh8BGW0h1b8LObZyfqK-HVpA2Q?e=s3Ecby) | [Source](https://www.nobelprize.org/prizes/medicine/1953/krebs/facts/)]
+
 
 - **Fritz Albert Lipmann (1899-1986)**, Harvard Medical School, Boston, MA, USA, Massachusetts General Hospital, Boston, MA, USA\
 The Nobel Prize in Physiology or Medicine 1953\
@@ -387,4 +409,8 @@ The Nobel Prize in Physiology or Medicine 1931\
 **The Oxygen-Transferring Ferment of Respiration** [[Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ES4ZiJYfJ5ZCpQUBKCcgw78BmrgsbyYZ8pMmFbX3UxdyRQ?e=kPiQzd) | [Source](https://www.nobelprize.org/prizes/medicine/1931/warburg/facts/)]
 
 
-
+- **Eduard Buchner (1860-1917)**, Landwirtschaftliche Hochschule (Agricultural College), Berlin, Germany\
+The Nobel Prize in Chemistry 1907\
+**for his biochemical researches and his discovery of cell-free fermentation** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/buchner-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/1907/buchner/facts/)]
+> We must never let ourselves fall into thinking "ignorabimus" ("We shall never know"), but must have every confidence that the day will dawn when even those processes of life which are still a puzzle today will cease to be inaccessible to us natural scientists.\
+--- Eduard Buchner (December 11, 1907)

@@ -157,9 +157,8 @@ thumbnailImagePosition: left
     - human GLUT1
 - **Structural and mechanistic investigation of sterol homeostasis**
 
-
-
-
+8. [James H. Hurley Lab, University of California Berkeley](https://membrane.berkeley.edu/)
+- **Structural basis of Lysosomal Regulation**
 
 
 
@@ -233,6 +232,20 @@ smFRET，FLIM-FRET
 **Ref database**:
 1. EMDB: https://www.ebi.ac.uk/pdbe/emdb/
 2. EMPIAR: https://www.ebi.ac.uk/pdbe/emdb/empiar/
+---
+3. Protein structure database
+  
+| Protein Name    | PDB No. | Species | Expression System | Best Resolution (Å) |
+| -------- | ------- |  ------- | ------- | ------- |
+| BRAF  | [8C7X; 8C7Y](https://www.rcsb.org/structure/8C7X)    | Homo sapiens  |  Escherichia coli  |    1.65      |
+| AKT1 | [1UNQ](https://www.rcsb.org/structure/1UNQ)     |  Homo sapiens  |  Escherichia coli BL21    |  0.98  |
+| mTOR   | [5H64](https://www.rcsb.org/structure/5H64)    |  Homo sapiens      |  HEK293F   |  4.4 | 
+| mTORC1-TFEB-Rag-Ragulator | [7UXH](https://www.rcsb.org/structure/7UXH)    |  Homo sapiens      |  HEK293F   |     3.4   |
+| Raptor-TFEB-Rag-Ragulator | [7UX2](https://www.rcsb.org/structure/7UX2)    |  Homo sapiens      |  HEK293F   |     2.9   |
+
+
+
+
 
 
 

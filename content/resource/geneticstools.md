@@ -274,13 +274,36 @@ Nobel Prize in Physiology or Medicine 2024\
 The Nobel Prize in Physiology or Medicine 2017\
 **Time Travels: A 40 Year Journey from Drosophila’s Clock Mutants to Human Circadian Disorders** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/medicine/2017/young/facts/)]
 
+
+
+- **Jeffrey C. Hall**, University of Maine, Maine, ME, USA
+Nobel Prize in Physiology or Medicine 2017\
+**The Little Flies and their Genes, all the way to uncovering Mysteries of the Circadian Clock** [[Nobel Lecture video](https://youtu.be/GevgxcVL5HY) | [Read the Lecture](https://www.nobelprize.org/uploads/2017/12/hall-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2017/hall/facts/)]
+
+
+
+- **Michael Rosbash**, Brandeis University, Waltham, MA, USA; Howard Hughes Medical Institute, USA
+Nobel Prize in Physiology or Medicine 2017\
+**The Circadian Clock, Transcriptional Feedback and the Regulation of Gene Expression**
+[[Nobel Lecture video](https://youtu.be/0X2jY8isna8) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/rosbash-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2017/12/rosbash-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2017/rosbash/facts/)]
+
+
+
 - **Yoshinori Ohsumi**, Tokyo Institute of Technology, Tokyo, Japan\
 The Nobel Prize in Physiology or Medicine 2016\
 **Molecular Mechanisms of Autophagy in Yeast** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EQdBmtJNhnxFohd7o6ylMFoBL3J18eRXC1mlvmXWVX3scg?e=l6f8ia) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EVa5BW1XUtNPiVyfzKQqoMEBDzMmDIKUw5pH5yebj17WLQ?e=OFDub1) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EcTKfynF9kNNpsISMOp61uIBlEpIFyg92MYf9mq9M6E8Ww?e=k7UC5c) | [Source](https://www.nobelprize.org/prizes/medicine/2016/ohsumi/facts/)]
 
-- **Randy Schekman**, University of California, Berkeley\
+
+- **Randy W. Schekman**, University of California, Berkeley\
 The Nobel Prize in Physiology or Medicine 2013\
-**Genes and Proteins That Control the Secretory Pathway** [[Nobel Lecture video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EdaL7FcHZh9AsKd8v-HxIuIBepQ_H-jDjVusB4MhQmIKAA?e=kVdA3y) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ETlwjQfFx2ZLhi2koeyFZSEBJzl-nNtWLTBvFOQ2KSiTEw?e=4ywniu) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERWDnshBO41IlBb5eyW8wIQB5eCGmHGEXvF6Oc5ekw5UNw?e=XcfRjg) | [Source](https://www.nobelprize.org/prizes/medicine/2013/schekman/facts/)]
+**Genes and Proteins That Control the Secretory Pathway** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2013_med_shekman_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/schekman-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/schekman-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2013/schekman/facts/)]
+
+
+- **Bruce A. Beutler**, University of Texas Southwestern Medical Center at Dallas, Dallas, TX, USA; The Scripps Research Institute, La Jolla, CA, USA\
+Nobel Prize in Physiology or Medicine 2011\
+**How Mammals Sense Infection: From Endotoxin to the Toll-like Receptors** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2011_med_beutler_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/beutler-lecture_slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/beutler-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2011/beutler/facts/)]
+
+
 
 - **Robert G. Edwards (1925-2013)**, University of Cambridge, Cambridge, United Kingdom\
 The Nobel Prize in Physiology or Medicine 2010\

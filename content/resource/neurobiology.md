@@ -33,6 +33,7 @@ thumbnailImagePosition: left
    - GABA: [[Eugene Roberts (1920-2016)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sfn.org%2F-%2Fmedia%2FSfN%2FDocuments%2FTheHistoryofNeuroscience%2FVolume-2%2Fc12.pdf&psig=AOvVaw2cN4X246lPSRVMW0WPP0UY&ust=1756134068562000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCLie96vbo48DFQAAAAAdAAAAABAJ) | [Stephen William Kuffler (1913-1980)]()]
    - Serotonin
    - Norepinephrine
+   - Histamine
    - Glycine
    - Endorphins
    
@@ -69,6 +70,7 @@ thumbnailImagePosition: left
    - Serotonin receptors:
    - Cannabinoid receptors: CB1R
    - Opioid receptors: [[μOR] | [δOR] | [κOR] | [nociceptin receptor (NOPR)]()]
+   - Histamine receptors: [[H1R]() | [H2R]() | [H3R]() | [H4R]()]
    - Glycine receptors
    - Trafficking of postsynaptic receptors
 
@@ -88,7 +90,9 @@ thumbnailImagePosition: left
     - How calcium-channels are recruited to active zones ?
     - What mediates the calcium-triggered release that remains in synapses which lack fast synaptotagmin calcium-sensor isoforms ?
     - How synapses are formed ?
-    - What signal transduction pathways organize synapse formation ? Although some of the extracellular interactions involved in synapse formation has been revealed, for example, synaptic adhesion molecules (sAMs), the intracellular signaling event is largely unknown.
+    - What signal transduction pathways organize synapse formation ? Although some of the extracellular interactions involved in synapse formation has been revealed, for example, synaptic adhesion molecules (SAMs), the intracellular signaling event is largely unknown.
+    - How ePSD and iPSD is formed in single neurons ? 
+
 
 
 ---
@@ -102,9 +106,9 @@ thumbnailImagePosition: left
    - Memory engram cells
 
 2. **Cells that constitute a positioning system in the brain**:
-   - Place cells
-   - Grid cells
-   - Head direction cells
+   - Place cells:
+   - Grid cells:
+   - Head direction cells:
    - Boundary cells: Boundary vector cells (BVCs)
    - Speed cells
 
@@ -143,11 +147,16 @@ thumbnailImagePosition: left
 
    - Key technology: Optogenetics []
    - Mapping the Projectome
-   - Axon guidance: []
+   - Axon guidance: [[Netrins]() | [Slits]() | [Semaphorins]() | [Ephrins]()]
    - Basic circuit wiring diagrams:
+     - Reward circuits
+     - 
    
    - Molecular mechanisms underlying precise axon path finding:
    - Circuit assembly during development
+   - Molecular mechanisms underlying neuronal wiring specificity
+   
+   
 
 ---
 #### Ref. Labs
@@ -257,6 +266,7 @@ Nobel Prize in Physiology or Medicine 1991\
 
 
 - **Bert Sakmann**, Max-Planck-Institut für medizinische Forschung, Heidelberg, Germany\
+Nobel Prize in Physiology or Medicine 1991\
 **Elementary Steps in Synaptic Transmission Revealed by Currents through Single Ion Channels** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_1991_med_sakmann_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/sakmann-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1991/sakmann/facts/)]
 
 
@@ -290,13 +300,19 @@ Nobel Prize in Physiology or Medicine 1970\
 Nobel Prize in Physiology or Medicine 1963\
 **The Ionic Basis of Nervous Conduction** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/hodgkin-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1963/hodgkin/facts/)]
 
+
 - **Andrew Fielding Huxley**, University College, London, United Kingdom
 Nobel Prize in Physiology or Medicine 1963\
 **The Quantitative Analysis of Excitation and Conduction in Nerve** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/huxley-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1963/huxley/facts/)]
 
-
+---
 - **Santiago Ramón y Cajal**, Madrid University, Madrid, Spain\
 Nobel Prize in Physiology or Medicine 1906\
 **The Structure and Connexions of Neurons** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/cajal-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1906/cajal/facts/)]
+
+
+- **Camillo Golgi**, Pavia University, Pavia, Italy\
+Nobel Prize in Physiology or Medicine 1906\
+**The Neuron Doctrine – Theory and Facts** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/golgi-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/1906/golgi/facts/)]
 
 
