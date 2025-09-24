@@ -68,6 +68,9 @@ By Jun-Liszt Li
 > 2024 Christmas party in prague
 ---
 
+![group_photo](/img/lab_dinner_2024_04.jpg)
+> lab dinner, 2024
+
 ![group_photo](/img/lab_dinner_202409.jpg)
 > lab dinner, 09/2024
 ---

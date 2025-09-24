@@ -138,6 +138,7 @@ thumbnailImagePosition: left
 - **Downstream: Thermo Fisher Proteomics solution**      
 1. ref. parameters on LC-MS (Ultimate 3000-nanoLC + QE HF-X):
       - **Dionex Ultimate 3000 nanoLC system:**
+        - Autosampler: Thermo Finnigan HPLC Micro AS Autosampler [[Hardware manual, PDF](http://tools.thermofisher.com/content/sfs/manuals/Man-97255-97020-Micro-AS-Hardware-Man9725597020-B-EN.pdf) | [Video demo](https://youtu.be/UAy5WOnWA_w)]
         - **Column**: C18 analytical LC column (2 μm, 100 Å, 75 μm i.d. × 500 mm, nanoViper, [Thermo Scientific, 164942](https://www.thermofisher.com/order/catalog/product/164942)); Acclaim PepMap100 column (5 μm, 5 mm by 300 μm internal diameter (ID) [Thermo Fisher Scientific]); Acclaim PepMap100 analytical column (2 μm, 50 cm by 75 μm ID, Thermo Fisher Scientific)
         - **mobile phase** A: 0.1% formic acid in water; mobile phase B: 0.1% formic acid in ACN.
         - **gradient elution**: 2% B at 0–15 min, 30% B at 81 min, 35% B at 85 min, 40% B at 87 min, 60% B at 95 min, 80% B at 96–107 min and 2% B at 108–120 min.

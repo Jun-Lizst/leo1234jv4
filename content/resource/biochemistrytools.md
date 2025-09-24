@@ -28,15 +28,17 @@ thumbnailImagePosition: left
 ## Fundamental techniques
 
 - **Protein quantification**
-    - **SDS-PAGE(In-gel)**
+    - **SDS-PAGE (In-gel)**
       - pre-cast gels ([Novex Tris-Glycine Gel, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gels/novex-tris-glycine-gels.html)) [6% | 7.5% | 10% | 12% | 4~15% | 4–20% | 8~16%]
       - pre-cast gels ([Mini-PROTEIN TGX Gel,BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tgx-precast-gels?ID=N3GRW04VY)) [8% | 10% | 4~12% | 8~16%]
-      - Electrophoresis System ([XCell SureLock Mini-Cell, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gel-electrophoresis-chamber-systems/xcell-surelock-mini-vertical-electrophoresis-system.html))
-      - Electrophoresis System ([Mini-PROTEAN Tetra Cell, BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tetra-vertical-electrophoresis-cell?ID=N3F2UD4VY))
+      - Electrophoresis System: [[XCell SureLock Mini-Cell, Thermo](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-gel-electrophoresis/protein-gel-electrophoresis-chamber-systems/xcell-surelock-mini-vertical-electrophoresis-system.html) | [Mini-PROTEAN Tetra Cell, BioRad](https://www.bio-rad.com/en-cz/product/mini-protean-tetra-vertical-electrophoresis-cell?ID=N3F2UD4VY)]
       - Reagents: Laemmli Sample buffer, 2-Mercaptoethanol, DTT, Coomassie stain ([InstantBlue, Abcam](https://www.abcam.com/en-us/products/reagents/instantblue-coomassie-protein-stain-isb1l-ab119211?srsltid=AfmBOoqRseIMqMctrEZHgbdIyJl7AG3S_CSSlsP1BaYm3J-fyuJU7c7z) | [PageBlue, Thermo](https://www.thermofisher.com/order/catalog/product/24620))
       - Silver Staining: [[SilverQuest Silver staining kit (Thermo Fisher Scientific)](https://documents.thermofisher.com/TFS-Assets/LSG/manuals/silverquest_man.pdf)]: The SilverQuest™ Silver Staining Kit provides a rapid and easy method to silver stain proteins in polyacrylamide gels. Silver staining allows detection of most proteins since it is 30-fold more sensitive than staining with colloidal Coomassie G-250. This kit is specifically designed to provide sensitive silver staining compatible with mass spectrometry analysis. [Original article: [Rabilloud et al, 1994](https://pubmed.ncbi.nlm.nih.gov/8003936/)]
       - SYPRO Ruby Protein Stain: Sypro Ruby is a mass spec compatible protein stain with similar sensitivity as silver stain.
       - Instruments: [[Amersham™ ImageQuant™ 800, Cytiva](https://www.cytivalifesciences.com/en/us/shop/protein-analysis/molecular-imaging-for-proteins/imaging-systems/amersham-imagequant-800-systems-p-11546?psmenu=2) | [SPARK Plate reader, TECAN](https://lifesciences.tecan.com/multimode-plate-reader)]
+
+    - **Native-PAGE**
+      - 
       
     - **Western blot**
       - PVDF membrane, 0.45 um pore size [[Millipore: IPFL00010](https://www.sigmaaldrich.com/CZ/cs/product/mm/ipfl00010?srsltid=AfmBOopgFe8mgpL3NnXRtELNsYD2xkQ07O8kmDEvVDhQkGzKy3dkiuHi)]
@@ -47,6 +49,7 @@ thumbnailImagePosition: left
       - Pierce™ BCA Protein Assay Kits [[User guide: PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0011430_Pierce_BCA_Protein_Asy_UG.pdf) | measure at 562 nm]
       - Pierce™ Dilution-Free™ Rapid Gold BCA Protein Assay Kit [[User guide: PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0029413-Pierce%20DilutionFree%20RapidGoldBCA-UG.pdf) | measure at 480 nm]
     - **Bradford:** The Bradford method is a quick and widely used colorimetric assay for determining protein concentration. It involves the binding of a dye, Coomassie Brilliant Blue G-250, to proteins, which causes a shift in the dye's absorbance spectrum. By measuring the absorbance of the resulting blue solution at 595 nm and comparing it to a standard curve, the protein concentration can be determined. [[original article, PMID:942051](https://pubmed.ncbi.nlm.nih.gov/942051/)]
+      - **Calculation of Protein Extinction Coefficients**: The molar absorption coefficient of a peptide or protein is related to its tryptophan (W), tyrosine (Y) and cysteine (C) amino acid composition. At 280nm, this value is approximated by the weighted sum of the 280nm molar absorption coefficients of these three constituent amino acids. [[Online calculator](https://www.novoprolabs.com/tools/protein-extinction-coefficient-calculation)]
     - **ELISA**
 
 
@@ -56,13 +59,13 @@ thumbnailImagePosition: left
 ![biochem_akta2](/img/AKTA_SEC_ects.png)
       - **Size-exclusion chromatography (SEC, Gel filtration)**: [[Superose 6 Increase 10/300 GL, Sigma, GE29-0915-96](https://www.sigmaaldrich.com/CZ/cs/product/sigma/ge29091596?srsltid=AfmBOoq-t30M5EBnVcDokmFE85e9QI2iCyZPuNUq8BvXF0XoP1XCFcKg) | [Superdex 200]() | [Superdex 75]() | [TSKgel G4000SWxl, Tosoh]()]
       - **Hydrophobic interaction chromatography (HIC)**: Phenyl-HP cartridge
-      - **Anion exchange chromatography (AEC)**: [[HiTrap Q, Cytiva, 17115401](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-q-hp-anion-exchange-chromatography-column-p-00607) | Capto HiRes Q 10/100]() | [Mono Q 5/50 GL](https://cdn.cytivalifesciences.com/api/public/content/digi-12715-original) | [HiTrap DEAE FF](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-deae-sepharose-ff-p-00605)]
+      - **Anion exchange chromatography (AEC)**: [[HiTrap Q, Cytiva, 17115401](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-q-hp-anion-exchange-chromatography-column-p-00607) | [Capto HiRes Q 10/100]() | [Mono Q 5/50 GL](https://cdn.cytivalifesciences.com/api/public/content/digi-12715-original) | [HiTrap DEAE FF](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-deae-sepharose-ff-p-00605)]
       - **Cation exchange chromatography (CEC)**: [[SP-Sepharose, Cytiva](https://www.cytivalifesciences.com/en/us/shop/chromatography/prepacked-columns/ion-exchange/hitrap-sp-sepharose-ff-p-00798) | [Capto HiRes S 10/100]()]
 ![biochem_akta3](/img/AKTA_SEC_others.png)
       - **Affinity chromatography (AC)**: Heparin-affinity chromatography uses immobilized heparin to purify proteins by exploiting their ability to bind to the highly negatively charged glycosaminoglycan. [[HiTrap-Heparin HP](https://cdn.cytivalifesciences.com/api/public/content/digi-11293-pdf)]
       - **Reverse Phase chromatography (RPC)**: Reverse phase chromatography uses columns packed with a non-polar, hydrophobic resins such as polystyrene/divinyl benzene particles. 
       - **Affinity Tag based purification**:
-        - Anti-FLAG: anti-Flag M2 affinity gel [Millipore Sigma](https://www.sigmaaldrich.com/CZ/cs/product/sigma/a2220?srsltid=AfmBOoqHITxHuhMTw6YMp0sfyFchtOZCeJ8xMeE2PGH-olte2ivqRHFp)
+        - Anti-FLAG: anti-Flag M2 affinity gel [[Millipore Sigma](https://www.sigmaaldrich.com/CZ/cs/product/sigma/a2220?srsltid=AfmBOoqHITxHuhMTw6YMp0sfyFchtOZCeJ8xMeE2PGH-olte2ivqRHFp)]
         - Twin-Strep: The Twin-Strep-tag® (WSHPQFEKGGGSGGGSGG-SAWSHPQFEK) is a tandem version of the Strep-tag®II with an internal linker region. This twin version with the same specificity but higher affinity to Strep-Tactin® enables efficient purification even in batch or directly from culture supernatants. 
         - His-Tag: [[Ni-NTA resin](https://www.qiagen.com/us/products/discovery-and-translational-research/protein-purification/tagged-protein-expression-purification-detection/ni-nta-agarose) | [HisTrap HP](https://cdn.cytivalifesciences.com/api/public/content/digi-12993-original)]
         - GST-Tag: [[Selection guide, Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-14929-pdf) | [PMID: 26096507](https://pubmed.ncbi.nlm.nih.gov/26096507/)]
@@ -80,12 +83,14 @@ thumbnailImagePosition: left
 
 - **Protein identification**
     - Protein sequencing:
+        - N-terminal sequencing (Edman degradation)：Step-by-step **N-terminal sequencing**, is a classic technique to analyze the N-terminal amino acid sequence of protein or polypeptide by chemical directional cleavage and identification. This technology was initiated by Swedish biochemist Pehr Edman in 1950, and was automated in 1967 (liquid-phase pulse sequencer) [[Source](https://www.creative-proteomics.com/resource/overview-edman-sequencing.htm)]
+        - De novo sequencing based on MS
     - IP-MS:
     
 
 - **Protein expression system**
-    - E.coli: BL21(DE3) strain + pET-28a+ vector
-    - Yeast 
+    - E.coli: [BL21(DE3) strain + pET-28a+ vector | Rosetta(DE3) strain]
+    - Yeast：[S. cerevisiae strain yMLT62 (J. Thorner lab) | yeast strain ySS025 ([ref.](https://pubmed.ncbi.nlm.nih.gov/37344598/))] 
     - Sf21 insect cells: [[Bac-to-Bac Baculovirus Expression System (Life technologies)]() | [FastBac]() | [flashBAC]()]
     - Expi293F cells: Expi293 Expression Medium (Thermo Fisher Scientific)
     
@@ -111,13 +116,15 @@ thumbnailImagePosition: left
     - Primary neuron culture
 
     - Cell lines from ATCC library
-| Name    | ATCC Catalog | Organism | 
-| -------- | ------- |  ------- |
-| SH-SY5Y  | [CRL-2266](https://www.atcc.org/products/crl-2266)    | Homo sapiens  |
-| U-2 OS | [HTB-96](https://www.atcc.org/products/htb-96)     |  Homo sapiens  |
-| bEnd.3 [BEND3]   | [CRL-2299](https://www.atcc.org/products/crl-2299)    |  Mus musculus      |
-| HUVEC   | [Lonza, CC-2519]()    |  Homo sapiens      |
-
+| Name    | ATCC Catalog | Organism |  Description | 
+| -------- | ------- |  ------- |   ------- |
+| HEK293T  | [xxxx](https://www.atcc.org/products/crl-2266)    | Homo sapiens  |          |
+| Hela  | [xxxx](https://www.atcc.org/products/crl-2266)    | Homo sapiens  |          |
+| SH-SY5Y  | [CRL-2266](https://www.atcc.org/products/crl-2266)    | Homo sapiens  |          |
+| U-2 OS | [HTB-96](https://www.atcc.org/products/htb-96)     |  Homo sapiens  |          |
+| bEnd.3 [BEND3]   | [CRL-2299](https://www.atcc.org/products/crl-2299)    |  Mus musculus      |          |
+| HUVEC   | [Lonza, CC-2519]()    |  Homo sapiens      |          |
+| THP1   | [ATCC, TIB-202](https://www.atcc.org/products/tib-202)    |  Homo sapiens      | human leukemia monocytic cell line |
 
 - **Transfection reagents**
     - **XtremeGene9**: Sigma

@@ -17,7 +17,10 @@ thumbnailImage: /img/7uhy_GATOR2.jpeg
 thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
+> My own prejudices are exactly the opposite of the functionalists': "If you want to understand function, study structure".\
+--- Francis Crick
 
+<!--more-->
 
 
 ---
@@ -25,40 +28,55 @@ thumbnailImagePosition: left
 
 
 1. **Cryo-EM microscopy**
-    - [300 kV Titan Krios](https://www.thermofisher.com/cz/en/home/electron-microscopy/products/transmission-electron-microscopes/krios-cryo-tem/features.html)
-    - **Glacios**: The Glacios from Thermo Fisher Scientific is a 200 kV transmission electron microscope with a two-condenser lens system.
+    - [300 kV Titan Krios](https://www.thermofisher.com/cz/en/home/electron-microscopy/products/transmission-electron-microscopes/krios-cryo-tem/features.html): The Titan Krios G4 from Thermo Fisher Scientific is a 300 kV transmission electron microscope (TEM) with a three-condenser lens system. It features the latest technology for high-end single-particle and tomography data acquisition including a cold field emission gun (C-FEG), SelectrisX energy filter, Falcon 4 electron counting camera and volta phase plate.
+    - [200 kV](): The cryo-grids were initially screened at a nominal magnification of ×92,000 in an 200 kV microscope.
+       - **Glacios**: The Glacios from Thermo Fisher Scientific is a 200 kV transmission electron microscope with a two-condenser lens system.
+       - **Talos Arctica**: FEI [Talos Arctica microscope (200 kV)](https://documents.thermofisher.com/TFS-Assets/MSD/Datasheets/DS0189-EN-11-2019-Thermo-Scientific-Talos-Arctica-WEB.pdf), equipped with an FEI Ceta camera. 
 
 ### **| Sample preparation** 
 1. **Methods to improve particle behavior**
     - **Size exclusion chromatography**: Gel filtration can be a powerful tool to predict structural heterogeneity. Whenever possible, gel filtration should be incorporated to the final steps of a purification protocol.
     - **Protein or protein complex stabilization**: If negative stain or cryo-EM analysis reveals significant structural heterogeneity, then the user may consider additional methods to stabilize a structural target in a defined conformation. These approaches have proven to be effective in trapping conformationally variable proteins and complexes in energetic minima that allow high-resolution structure determination. Examples include using small molecule inhibitors, non-hydrolyzable nucleotides (if applicable), Fab antibody fragments, or genetic perturbations (e.g., mutating catalytic residues).
+      - [[ALFA tag (SRLEEELRRRLTE) and ALFA nanobody]() | [Reference](https://www.nature.com/articles/s41467-023-42210-9#Sec2)]
     - **Chemical crosslinking**: One common way to counteract structural heterogeneity is to chemically crosslink the purified sample, such as with glutaraldehyde or BS3. However, crosslinked samples run a risk of producing structural artifacts and this approach should therefore be considered only after a control, non-crosslinked sample has been evaluated.
     - **Membrane proteins**:
       - **Isolation of membrane fractions**: 100,000 g
-      - **Screen of Detergents**: [CHAPS | Digitonin | 1% DDM + 0.2% CHS | 2% (w/v) GDN + 0.1% (w/v) CHS + 0.2 mg/ml Avanti | 0.5% LMNG + 0.03% CHS]
+      - **Screen of Detergents**: [CHAPS | Digitonin | 1% DDM + 0.2% CHS | 2% (w/v) GDN + 0.1% (w/v) CHS + 0.2 mg/ml Avanti | 0.5% LMNG + 0.03% CHS | AMPHIPOL A8-35 | AMPHIPOL PMAL-C8]
       - **Affinity Chromatography (AC)**: [anti-FLAG | Strep-Tactin XT]
       - **Crosslinking for membrane protein complex**: 0.1% (v/v) , 40 mins
       - **SEC**: [[Superose 6 increase 10/300] | [Superdex 200 increase 10/300]]
       
 
 2. **Protocol for grid preparation**
-    - From Negative stain TEM: [[Protocol, PDF](https://cryoem.wisc.edu/wp-content/uploads/sites/341/2021/01/Negative_Stain_Grid_Preparation_21Jan2021.pdf) | [Yifan Cheng lab, 2011](https://www.ncbi.nlm.nih.gov/pubmed/22215030)]
+    - For Negative stain TEM: [[Protocol, PDF](https://cryoem.wisc.edu/wp-content/uploads/sites/341/2021/01/Negative_Stain_Grid_Preparation_21Jan2021.pdf) | [Yifan Cheng lab, 2011](https://www.ncbi.nlm.nih.gov/pubmed/22215030)]
     
     - Graphene type \
      --- [Monolayer graphene](https://www.biorxiv.org/node/981810.full) \
      --- [Graphene oxide](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6119484/) \
      --- [Functionalized graphene](https://www.pnas.org/content/116/24/11718) \
      --- [Functionalized graphene oxide](https://www.biorxiv.org/content/10.1101/657411v1.full)
+    - Grids:
+     - Quantifoil R 1.2/1.3 300 Holey Carbon films Au 300 mesh grids
+     - holey carbon grid (Quantifoil R1.2/1.3)
     - Plasma cleaner for glow discharge
+    
     
 
 3. **Sample Vitrification**: Vitrification is the rapid cooling of a liquid into a solid, glass-like amorphous state, preventing the formation of damaging ice crystals. 
     - [**EM GP2, Leica**](https://www.leica-microsystems.com/products/sample-preparation-for-electron-microscopy/p/leica-em-gp2/): The EM GP2 from Leica Microsystems is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/d8/77/91cf34504384919c5e5787c54f07/666c8301-1b09-43d0-9472-1d00f5dbe414-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/883df0db-6349-4fca-9686-a4a8107152e6.pdf)]
 
     - **Vitrobot, Thermo Fisher**: The Vitrobot Mark IV System from Thermo Fisher Scientific is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/a4/8e/d17c5c5e4d858b49938c682dca00/b9546e76-893f-4b41-bc9d-d3b4b6244c48-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/0ac79af7-f4bc-45ff-9fcf-0cf3f357e656.pdf)]
+    - Vitrodrop:
     - Preassis    
     - CryoSol Vitrojet System
-
+    - Products for improving sample vitrification
+| Product name    | Catalog | Vendor |  Description | 
+| -------- | ------- |  ------- |   ------- |
+| Fluorinated FC-8  | [F300F](https://anatrace.com/en/product/F300F-1-GM)    | Anatrace  | FC-8 has been  vitrification condition for both soluble and membrane proteins       |
+| Fluorinated OM  | [0310F](https://www.atcc.org/products/crl-2266)    | Anatrace  |          |
+| Calixar C2B kit  | [MD1-109](https://www.atcc.org/products/crl-2266)    | MD  |          |
+| Cryo-EM V-Kit | [X-CEM-301](https://www.atcc.org/products/htb-96)     |  Jena  |          |
+| Cryo-EM Vitrification Starter Kit   | [M-CEM-VK301](https://www.mitegen.com/product/cryo-em-vitrification-starter-kit/)    |  MiTeGen      | The Cryo-EM V-Kit is a Vitrification Starter Kit that offers both a selection of surfactants which have been successfully applied in cryo-EM sample preparation and a selection of Quantifoil Holey Carbon Films to facilitate the search for the optimal vitrification condition for both soluble and membrane proteins. |
 
 
 ### **| Cryo-EM data analysis**
@@ -103,7 +121,12 @@ thumbnailImagePosition: left
 1. [The UW-Madison Cryo-Electron Microscopy Research Center (CEMRC), University of Wisconsin-Madison](https://cryoem.wisc.edu/)
 
 
-1. [Bio-Electron Microscopy Facility, Shanghai Tech University](https://bioem.shanghaitech.edu.cn/7390/list.htm)
+2. [Bio-Electron Microscopy Facility, Shanghai Tech University](https://bioem.shanghaitech.edu.cn/7390/list.htm)
+
+
+3. [MIT.nano](https://cryoem.mit.edu/), MIT campus
+- The Cryo-Electron Microscopy Facility in MIT.nano enables automated electron imaging of cryogenically preserved specimens. The facility was established in 2018 with support from The Arnold and Mabel Beckman Foundation, an Anonymous donor, as well as institutional support from the Vice President for Research, School of Science, and Departments of Biology, Materials Science, and Chemistry. The facility includes two cryoTEMs, a cryoFIB-SEM, two different cryoplungers, and a laboratory space for cryo-specimen preparation.
+  
 
 
 
@@ -114,28 +137,35 @@ thumbnailImagePosition: left
 4. [SPT Labtech](https://cryowrite.ch/)
 5. [cryoWrite](https://support.shimadzu.com.cn/an/resource/index.html#105)
 6. [CryoSol](https://cryosol-world.com/vitrojet-solutions/technology/)
-
+7. [Quantifoil, Germany](https://www.quantifoil.com/): Founded in 1999, Quantifoil Micro Tools GmbH was the first commercial manufacturer of electron microscopy support films of predefined hole size and arrangement and continues to set the global standard. Quantifoil's cryo-EM sample supports have been cited in more than 4,000 peer-reviewed publications, and are essential to cryo-EM workflows worldwide.
 
 
 
 
 ### Ref labs: 
 1. [Yifan Cheng Lab, UCSF](https://cryoem.ucsf.edu/)
-- **Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF [Liao, et al. 2016, Nature | Cao et al. 2013, Nature | Gao et al. 2016, Nature]
+- **Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF [[Liao, et al. 2013, Nature](https://www.nature.com/articles/nature12822#Abs1) | [Cao et al. 2013, Nature](https://doi.org/10.1038/nature12823) | Gao et al. 2016, Nature]
 - **iBiology Talks**: [[Part 1: Single Particle Cryo-EM](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EfUivsENbh5Gj8E10GGp0KEBynIVfURLM06aJ4xv6Y3XxQ?e=I8Ahs5) | [Part 2: Single particle Cyro-EM of membrane proteins](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXRwR0JzrnBOoKHcQUQvjNMB5kaISskZMilMzXJFH2FAAw?e=05Bk8U)]
 
 2. [Niko Grigorieff Lab](https://grigoriefflab.umassmed.edu/research_interests)
 
-3. [Grant Jensen Lab, Caltech](https://jensenlab.caltech.edu/)
+3. [Grant Jensen Lab, Caltech](https://jensenlab.caltech.edu/): Grant then entered an M.D./Ph.D. program at Stanford University, and earned his doctorate in Biophysics working on electron microscopy of RNA polymerase and other protein complexes with **Dr. Roger Kornberg** (who later won the Nobel prize for structural studies of transcription).
 - **Course**: [“Getting Started in Cryo-EM”](https://cryo-em-course.caltech.edu/unit-1-outline)
-    - Part 1: Currents, coils, knobs and names: Basic anatomy of the electron microscope [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Efnw9H9kQwJAofudECHPDx4BMdMTU8d3jnUXn_azQBxEJQ?e=uAgYIL)]
-    - Part 2: Fourier transforms and reciprocal space for beginners [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ-oIS9Yk7RGlqvf08WdC-QBT99tJ16X4OvHbVl9T5E_lQ?e=dnQFtD)]
-    - Part 3: Image formation [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERImtLbXQxlNokWvDjq5fy4BnvdxCzDRxq57QySSTyy-8Q?e=Nc09nz)]
-    - Part 4: Fundamental challenges in biological EM [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZlN7ooM88xIkP2RPzrPj8MByqRvauoFSaF5-aHZsefRlA?e=sLCZHP)]
-    - Part 5: Tomography [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EWfU4XfSAclLtLgYmv03_8MBeR8cDnqgOVFlQDCUqMikkA?e=JGdF04)]
-    - Part 6: Single-particle analysis [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EbhLC2uJvGFGhHV2UEnibG0BCTDZaas8XJVuTgZf-MD8vw?e=hgCiGb)]
-    - Part 7: 2-D crystallography [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/Edo3stS6v9hCrD7fTZ-Gx-cBHfhmwsP_y9zOurIfAVz3xg?e=iBYBXl)]
-
+    - Part 1: Currents, coils, knobs and names: Basic anatomy of the electron microscope [[PDF](https://cryo-em-course.caltech.edu/documents/8696/part_1-_em_anatomy_cBGbc1R.pdf) | [Lecture video](https://youtu.be/GBU1eA1PqeQ?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Part 2: Fourier transforms and reciprocal space for beginners [[PDF](https://cryo-em-course.caltech.edu/documents/8699/part_2_-_fouriertransforms_gIqtOnD.pdf) | [Lecture video](https://youtu.be/-EAQm8wgLbc?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Part 3: Image formation [[PDF](https://cryo-em-course.caltech.edu/documents/8698/part_3_-_image_formation_47kqLDj.pdf) | [Lecture video](https://youtu.be/gmZ-vzB5lyI?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Part 4: Fundamental challenges in biological EM [[PDF](https://cryo-em-course.caltech.edu/documents/8701/part_4_-_fundamentalchallenges_21NEmk3.pdf) | [Lecture video](https://youtu.be/jYhp4aLZEb4?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Part 5: Tomography [[PDF](https://cryo-em-course.caltech.edu/documents/14740/part_5_-_Review_slides_tomography_Revised.pdf) | [Lecture video](https://youtu.be/tOnijBqdJ1E?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Part 6: Single-particle analysis [[PDF](https://cryo-em-course.caltech.edu/documents/8702/part_6_-_single_particle_analysis_3bTNWgw.pdf) | [Lecture video](https://youtu.be/MkzZNrrrJpc?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Part 7: 2-D crystallography [[PDF](https://cryo-em-course.caltech.edu/documents/8697/part_7_-_electroncrystallography_qQ7rp3w.pdf) | [Lecture video](https://youtu.be/Qn7aP-fRT5I?list=PL8_xPU5epJdctoHdQjpfHmd_z9WvGxK8-)]
+    - Concept Check Questions [[PDF](https://cryo-em-course.caltech.edu/documents/14853/cryo-em_concept_check_questions_Revised_1.pdf)]
+    - Unit 2: Sample Preparation [[Hands-on videos](https://www.youtube.com/playlist?list=PL8_xPU5epJdfd5fM2CjQItR-iRlIEIJk8)]
+      - **(1) Preparing hydrophilic grids**: [Manufacturer's grid boxes | Recognizing the carbon and copper sides of a grid | How to grab grids with tweezers | Glow discharging Plasma cleaning | Hydrophobic and hydrophilic grids]
+      - **(2) Plunge freezing with a Vitrobot**: [Plunge freezing tools | Vitrobot connections | Mounting the Vitrobot humidifier | Filling the Vitrobot humidifier | Tour of the Vitrobot humidifying chamber | The Vitrobot user interface and options | Replacing Vitrobot blot pads | Mounting and unmounting Vitrobot tweezers | Aligning the Vitrobot tweezers between the blot pads | Preparing the ethane gas source | Filling the ethane cup | Plunge freezing with the Vitrobot | Reviving the ethane | Sources of contamination]
+      - **(3) Assembling autogrids**: [Autogrid assembly tools | Loading C clips into insertion tools | room temp demo | Assembling autogrids (cryo conditions)]
+      - **(4) Loading autogrids into cassettes**: [Cassette loading tools | Assembling the cassette loading station | Structure of the cassette | Inserting autogrids into the cassette | Loading the cassette - room temp demo | Loading the cassette (cryo conditions) | ]
+      - **(5) Docking and undocking capsules**: [The capsule pin and its purpose | Docking a cassette | Undocking a cassette]
+      - **(6) Plunge-freezing safety**: [Biological hazards | Compressed gas hazards | Explosive gas hazards | Can the liquid ethane in the cup catch fire? | Large liquid nitrogen tank hazards | Safety Small liquid nitrogen dewars | Liquid nitrogen on the skin hazards | Ethane splash and cold cup hazards] 
 
 4. [Yigong Shi lab, Princeton University/Tsinghua University/Westlake University](https://ygshi.org/)
 - **Structural basis of pre-mRNA splicing**
@@ -162,6 +192,10 @@ thumbnailImagePosition: left
 
 
 
+
+
+
+
 ---
 # X-ray crystallography
 
@@ -175,6 +209,9 @@ thumbnailImagePosition: left
 
 ### Ref. Labs
 
+
+### Pioneers
+1. Rosalind Franklin (1920-1958)
 
 
 
@@ -222,9 +259,9 @@ smFRET，FLIM-FRET
 
   - AlphaFoldv3
   - molecular dynamics simulations
-  
-  
-  # Cryo-Electron Microscopy (cryo-EM)
+    - The CHARMM-GUI  
+    - The CHARMM36m force field
+    - Gromacs 2023
 
 
 
@@ -258,13 +295,28 @@ smFRET，FLIM-FRET
 The Nobel Prize in Chemistry 2017\
 **Early cryo-electron microscopy** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/dubochet/facts/)]
 
+
 - **Joachim Frank**, Columbia University, New York, NY, USA\
 The Nobel Prize in Chemistry 2017\
 **Single-Particle Reconstruction – Story in a Sample** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/frank/facts/)]
 
+
 - **Richard Henderson**, MRC Laboratory of Molecular Biology, Cambridge, United Kingdom\
 The Nobel Prize in Chemistry 2017\
 **From Electron Crystallography to Single Particle cryoEM** [[Nobel Lecture video](https://www.youtube.com/watch?v=Blm3QwT-rRk&ab_channel=NobelPrize) | [Lecture Slides](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EQ3Lh8WjagRFoiNVbUsIbk0BbkzwPzSe2gswYWApBQQSoA?e=70flib) | [Read the Lecture](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERsnFw1YSGpKmK-x6I-OcY8B_SnYvmbc9TuU_qTaM_bA4Q?e=GYkHk2) | [Source](https://www.nobelprize.org/prizes/chemistry/2017/henderson/facts/)]
+
+- **Thomas A. Steitz**, Yale University, New Haven, CT, USA; Howard Hughes Medical Institute, USA
+The Nobel Prize in Chemistry 2009\
+**From the Structure and Function of the Ribosome to New Antibiotics**  [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2009_che_steitz_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/steitz-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/steitz_lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/2009/steitz/facts/)]
+
+- **Venkatraman Ramakrishnan**, MRC Laboratory of Molecular Biology, Cambridge, United Kingdom
+The Nobel Prize in Chemistry 2009\
+**Unraveling the Structure of the Ribosome** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2009_che_ramakrishnan_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/ramakrishnan-lecture-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/ramakrishnan_lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/2009/ramakrishnan/facts/)]
+
+- **Roger D. Kornberg**, Stanford University, Stanford, CA, USA
+The Nobel Prize in Chemistry 2006\
+**The Molecular Basis of Eukaryotic Transcription**  [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2006_che_kornberg_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/kornberg-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/kornberg_lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/)]
+
 
 - **Roderick MacKinnon**, Rockefeller University, New York, NY, USA; Howard Hughes Medical Institute, USA\
 Nobel Prize in Chemistry 2003\

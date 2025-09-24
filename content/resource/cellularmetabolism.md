@@ -84,16 +84,25 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
 
 ### II. **Cell signaling in innate immune response**
   - Pattern recognition receptors (PRRs): These receptors are crucial for sensing danger signals. 
-      - Toll-like receptors (TLRs)
+      - Toll-like receptors (TLRs): TLR4 []
       - NOD-like receptors (NLRs)
       - RIG-I-like receptors (RLRs)
-      - Intracellular receptor of LPS: 
-      - DNA sensor: cGAS [[James Chen Lab, 2012]()]
+      - Key question at that time: What is the intracellular receptor of LPS ?
+      - Cytosolic DNA sensor: cGAS [[James Chen Lab, 2012]()]
   - Pathogen-associated molecular patterns (PAMPs) 
   - damage-associated molecular patterns (DAMPs)
 
 
-
+**1. Discovery of cytosolic DNA sensor**
+  - Key question at that time: What is the cytosolic DNA sensor that trigger antiviral response ?
+  - pioneering works: 
+    1. Stetson, Daniel B., and Ruslan Medzhitov. "Recognition of cytosolic DNA activates an IRF3-dependent innate immune response." Immunity 24.1 (2006): 93-103. [[PMID: 16413926](https://pubmed.ncbi.nlm.nih.gov/16413926/)]
+    2. Ishii, Ken J., et al. "A Toll-like receptor–independent antiviral response induced by double-stranded B-form DNA." Nature immunology 7.1 (2006): 40-48. [[PMID: 16286919](https://pubmed.ncbi.nlm.nih.gov/16286919/)]
+  - Key discovery works:     
+   
+   
+   
+    
 
 ### III. **Immune surveillance against cancer**
   - Firstly proposed by **Sir Frank Macfarlane Burnet (1970)**
