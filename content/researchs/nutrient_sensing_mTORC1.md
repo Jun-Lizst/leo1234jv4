@@ -28,7 +28,7 @@ Nutrient sensing is a fundamental biological process that enables organisms to a
 ![researchxxxxsensor](/img/amino_acid_sensors.png)
 
 
-
+To be active, mTORC1 requires the environmental presence of amino acids and glucose. While a mechanistic understanding of amino acid sensing by mTORC1 is emerging, how glucose activates mTORC1 remains mysterious. It was previously reported that mTORC1 senses a metabolite downstream of the aldolase and upstream of the GAPDH-catalysed steps of glycolysis and pinpoint dihydroxyacetone phosphate (DHAP) as the key molecule [[8](https://doi.org/10.1038/s42255-020-0250-5)]. Now, we are one the way to discover the glucose sensor.
 
 
 
@@ -42,4 +42,4 @@ Nutrient sensing is a fundamental biological process that enables organisms to a
 5. Gu, X. et al. SAMTOR is an S-adenosylmethionine sensor for the mTORC1 pathway. Science 358, 813-818 (2017). 
 6. Liu, G. Y., Jouandin, P., Bahng, R. E., Perrimon, N. & Sabatini, D. M. An evolutionary mechanism to assimilate new nutrient sensors into the mTORC1 pathway. Nature Communications 15, 2517 (2024). 
 7. Efeyan, A., Comb, W. C. & Sabatini, D. M. Nutrient-sensing mechanisms and pathways. Nature 517, 302-310 (2015). 
-
+8. Orozco, J.M., Krawczyk, P.A., Scaria, S.M. et al. Dihydroxyacetone phosphate signals glucose availability to mTORC1. Nat Metab 2, 893–901 (2020).

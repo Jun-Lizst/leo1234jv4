@@ -28,10 +28,13 @@ thumbnailImagePosition: left
 
 
 1. **Cryo-EM microscopy**
-    - [300 kV Titan Krios](https://www.thermofisher.com/cz/en/home/electron-microscopy/products/transmission-electron-microscopes/krios-cryo-tem/features.html): The Titan Krios G4 from Thermo Fisher Scientific is a 300 kV transmission electron microscope (TEM) with a three-condenser lens system. It features the latest technology for high-end single-particle and tomography data acquisition including a cold field emission gun (C-FEG), SelectrisX energy filter, Falcon 4 electron counting camera and volta phase plate.
+    - [300 kV Titan Krios](https://www.thermofisher.com/cz/en/home/electron-microscopy/products/transmission-electron-microscopes/krios-cryo-tem/features.html): The Titan **Krios G4** from Thermo Fisher Scientific is a 300 kV transmission electron microscope (TEM) with a three-condenser lens system. It features the latest technology for high-end single-particle and tomography data acquisition including a cold field emission gun (C-FEG), SelectrisX energy filter, Falcon 4 electron counting camera and volta phase plate.
     - [200 kV](): The cryo-grids were initially screened at a nominal magnification of ×92,000 in an 200 kV microscope.
        - **Glacios**: The Glacios from Thermo Fisher Scientific is a 200 kV transmission electron microscope with a two-condenser lens system.
-       - **Talos Arctica**: FEI [Talos Arctica microscope (200 kV)](https://documents.thermofisher.com/TFS-Assets/MSD/Datasheets/DS0189-EN-11-2019-Thermo-Scientific-Talos-Arctica-WEB.pdf), equipped with an FEI Ceta camera. 
+       - **Talos Arctica**: FEI [Talos Arctica microscope (200 kV)](https://documents.thermofisher.com/TFS-Assets/MSD/Datasheets/DS0189-EN-11-2019-Thermo-Scientific-Talos-Arctica-WEB.pdf), equipped with an FEI Ceta camera. [[Talos L120C manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/b83e470e-0a1b-4f87-a897-ea30e42efe93.pdf) | [Tutorial video](https://bioem.shanghaitech.edu.cn/_upload/article/videos/63/19/77aa69a04eca8fbc00f84f182337/b0817747-7020-4f37-80a3-d94cd4ed4365-B.mp4) | [Instruction for Arctica screening, UCSF](https://emcore.ucsf.edu/content/instructions-arctica-screening)]
+    - [40kV-120kV]: [FEI Tecnai T12](https://emcore.ucsf.edu/fei-t12) is mainly used for simple screening and data collection of negatively-stained samples. It's also used for cryo-EM training and screening of vitrified grids. 
+       - FEI T12 (FEI Tecnai T12 Transmission Electron Microscope) operates at 120kV with a LaB6 filament and is equipped with a Gatan UltraScan 895 4k CCD.
+
 
 ### **| Sample preparation** 
 1. **Methods to improve particle behavior**
@@ -48,7 +51,9 @@ thumbnailImagePosition: left
       
 
 2. **Protocol for grid preparation**
-    - For Negative stain TEM: [[Protocol, PDF](https://cryoem.wisc.edu/wp-content/uploads/sites/341/2021/01/Negative_Stain_Grid_Preparation_21Jan2021.pdf) | [Yifan Cheng lab, 2011](https://www.ncbi.nlm.nih.gov/pubmed/22215030)]
+    - For Negative stain TEM: [[Protocol, PDF](https://cryoem.wisc.edu/wp-content/uploads/sites/341/2021/01/Negative_Stain_Grid_Preparation_21Jan2021.pdf) | [Yifan Cheng lab, 2011](https://www.ncbi.nlm.nih.gov/pubmed/22215030) | [UCSF protocol](https://emcore.ucsf.edu/content/negative-stain-protocol)]
+     --- General procedure: 3.5 μL of purified protein complexes at 0.02 mg/ml was pipetted onto a continuous carbon coated grid and incubated at room temperature for 60 s. The sample was blotted using filter paper. Immediately, 3.5 μL of 2% (w/v) uranyl formate was pipetted onto the grid and blotted away with filter paper. This treatment with uranyl formate stain was repeated two more times, except an addition of a 30 s wait between stain application and blotting during the last cycle. The grid was left to dry at room temperature for 2 mins.
+     --- Cressington 208 carbon evaporator [[Carbon coating grids (UCSF manual)](https://emcore.ucsf.edu/content/cressington-208-carbon-evaporator)]
     
     - Graphene type \
      --- [Monolayer graphene](https://www.biorxiv.org/node/981810.full) \
@@ -56,16 +61,22 @@ thumbnailImagePosition: left
      --- [Functionalized graphene](https://www.pnas.org/content/116/24/11718) \
      --- [Functionalized graphene oxide](https://www.biorxiv.org/content/10.1101/657411v1.full)
     - Grids:
-     - Quantifoil R 1.2/1.3 300 Holey Carbon films Au 300 mesh grids
-     - holey carbon grid (Quantifoil R1.2/1.3)
+     --- Quantifoil R 1.2/1.3 300 Holey Carbon films Au 300 mesh grids
+     --- holey carbon grid (Quantifoil R1.2/1.3)
     - Plasma cleaner for glow discharge
-    
-    
+     --- Glow Discharge Plasma Cleaner ([SKU: M-PDC-32G](https://www.mitegen.com/product/basic-plasma-cleaner/))
+     --- Economy Dry Oxygen Service Pump ([SKU: M-PDC-OPE](https://www.mitegen.com/product/economy-dry-oxygen-service-pump/))
+     --- Vacuum Gauge and Digital Meter ([SKU: M-PDC-VCG](https://www.mitegen.com/product/vacuum-gauge-digital-meter/))
+     --- Quartz Sample Tray ([SKU: M-PDC-32T](https://www.mitegen.com/product/quartz-sample-tray/))
+     --- GridPrepBlock Support For Grids During Surface Treatment ([SKU: M-CEM-GSB5-1](https://www.mitegen.com/product/grid-prep-block/))
+
+
 
 3. **Sample Vitrification**: Vitrification is the rapid cooling of a liquid into a solid, glass-like amorphous state, preventing the formation of damaging ice crystals. 
     - [**EM GP2, Leica**](https://www.leica-microsystems.com/products/sample-preparation-for-electron-microscopy/p/leica-em-gp2/): The EM GP2 from Leica Microsystems is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/d8/77/91cf34504384919c5e5787c54f07/666c8301-1b09-43d0-9472-1d00f5dbe414-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/883df0db-6349-4fca-9686-a4a8107152e6.pdf)]
 
-    - **Vitrobot, Thermo Fisher**: The Vitrobot Mark IV System from Thermo Fisher Scientific is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/a4/8e/d17c5c5e4d858b49938c682dca00/b9546e76-893f-4b41-bc9d-d3b4b6244c48-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/0ac79af7-f4bc-45ff-9fcf-0cf3f357e656.pdf)]
+    - **Vitrobot, Thermo Fisher**: The Vitrobot Mark IV System from Thermo Fisher Scientific is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/a4/8e/d17c5c5e4d858b49938c682dca00/b9546e76-893f-4b41-bc9d-d3b4b6244c48-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/0ac79af7-f4bc-45ff-9fcf-0cf3f357e656.pdf) | [Standard Operation Protocol, PDF](https://info.cpos.hku.hk/wp-content/uploads/2025/04/Standard-Operation-Protocol-%E2%80%93-Vitrobot-Mark-IV.pdf)]
+    
     - Vitrodrop:
     - Preassis    
     - CryoSol Vitrojet System
@@ -88,11 +99,19 @@ thumbnailImagePosition: left
 
 4. [COOT](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/): For manually rebuilt and/or adjust models.
     - Emsley, Paul, and Kevin Cowtan. "Coot: model-building tools for molecular graphics." Biological crystallography 60.12 (2004): 2126-2132. [[PMID: 15572765](https://pubmed.ncbi.nlm.nih.gov/15572765/)]
+    - Using Coot for model building into EM maps: A tutorial [[PDF](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/files/EM-Tutorial-Coot-PE.pdf)]
     
 5. [Phenix](https://phenix-online.org/): For Real space and Rosetta refinements.
     - Adams, Paul D., et al. "PHENIX: a comprehensive Python-based system for macromolecular structure solution." Biological crystallography 66.2 (2010): 213-221. [[PMID: 20124702](https://pubmed.ncbi.nlm.nih.gov/20124702/)]
+
+6. [Rosetta Commons](https://www.rosettacommons.org/software/): For decades, Rosetta has been at the forefront of computational biology, offering groundbreaking capabilities in the modeling, design and analysis of protein structures.
+
+7. [CCP-EM](https://www.ccpem.ac.uk/): Supported by the UK Medical Research Council, the Collaborative Computational Project for Electron cryo-Microscopy (cryoEM) provides support in computational areas for users and developers in biological cryoEM.
+    - Single Particle Analysis using Relion [[PDF](https://www.ccpem.ac.uk/downloads/tutorials/doppio/Doppio_Relion_SPA_tutorial.pdf)]
+    - Model Building and Validation in CCP-EM Doppio [[PDF](https://www.ccpem.ac.uk/downloads/tutorials/doppio/Doppio_model_docking_refinement_tutorial.pdf)] 
+    - Refinement against cryo-EM data with CCP-EM using REFMAC & Coot [[PDF](https://www.ccpem.ac.uk/downloads/tutorials/refmac_servalcat/servalcat-refmac_coot_tutorial_ECM_2022.pdf)]
     
-6. [Requirement of computational cluster/Workstation](https://guide.cryosparc.com/setup-configuration-and-management/hardware-and-system-requirements):
+8. [Requirement of computational cluster/Workstation](https://guide.cryosparc.com/setup-configuration-and-management/hardware-and-system-requirements):
     - **CPU:** 32 Cores (base clock 2.8GHz+), e.g, AMD Threadripper 3975X
     - **RAM:** 256GB DDR4 @ 3200MHz
     - **Storage:** 4TB PCIe SSD (cache); 200TB RAID 6 storage server via 10Gbps link (raw movies)
@@ -105,6 +124,8 @@ thumbnailImagePosition: left
 **Ref softwares**:
 1. **MotionCorr**: This program corrects whole frame image motion recordded with dose fractionated image stack. [MotionCor2](https://emcore.ucsf.edu/ucsf-motioncor2)
     - Xueming Li, Paul Mooney, Shawn Zheng, Chris Booth, Michael B. Braunfeld, Sander Gubbens, David A. Agard and Yifan Cheng (2013) Electron counting and beam-induced motion correction enables near atomic resolution single particle cryoEM. Nature Methods, 10, 584-590. PMID: 23644547 
+    - [MotionCor3](https://github.com/czimaginginstitute/MotionCor3), an improved implementation of MotionCor2 with addition of CTF (Contrast Transfer Function) estimation, is a multi-GPU accelerated software package that enables single-pixel level correction of anisotropic beam induced sample motion for cryo-electron microscopy and cryo-electron tomography images.
+    
 2. **GeFREALIGN**: FREALIGN is a program developed by Niko Grigorieff laboratory for high-resolution refinement of 3D reconstruction from cryoEM of single particles. 
     - Xueming Li, Nikolaus Grigorieff and Yifan Cheng (2010) GPU-enabled FREALIGN: Accelerating single particle 3D reconstruction and refinement in Fourier space on graphics processors. Journal of Structural Biology, advanced publication online June 14 2010. PMID: 20558298
 
@@ -114,17 +135,34 @@ thumbnailImagePosition: left
 1. [**CryoEM 101**](https://cryoem101.org/)
 2. [Cryo-EM University](https://www.thermofisher.com/cz/en/home/electron-microscopy/life-sciences/learning-center/cryo-em-university.html): Cryo-EM University features over 70 hours of theoretical lectures and videos. Created in collaboration with online education expert Professor Grant Jensen, it serves as an introduction to the field and is intended for participants of all levels. Upon completion, you will have a fundamental knowledge of cryo-EM, tips and tricks to overcome sample preparation challenges, and valuable practical advice on the cryo-EM workflow.
 
+3. [Electron Cryo-microscopy Course 2023, MRC-LMB](https://www2.mrc-lmb.cam.ac.uk/research/scientific-training/electron-microscopy/)
+    - Specimen preparation for cryo-EM – Katerina Naydenova [[Video](https://youtu.be/hF17d6XjV98)]
+    - Cryo-EM Data Collection – Giuseppe Cannone [[Video](https://youtu.be/hS-HrgWv0HQ)]
+    - Modelling using Cryo-EM Data: A Review of the Problems and Software (including Coot) – Paul Emsley [[Video](https://youtu.be/a_fJ6kAcsa4)]
+    
 
+3. [Electron Cryo-microscopy Course 2017, MRC-LMB](https://www2.mrc-lmb.cam.ac.uk/research/scientific-training/electron-microscopy/): Below are recordings of the LMB’s 2017 Cryo-microscopy course.
+    - Cryo-EM17 Lecture 01: Past Present Future [[Video](https://youtu.be/aHhmnxD6RCI) | [Lecture Slide, PDF](https://www2.mrc-lmb.cam.ac.uk/download/cryo-em17-lecture-01-past-present-future/?wpdmdl=18763&refresh=68defc2580e3c1759444005)] 
+    - Cryo-EM17 Lecture 02: Physics Optics [[Video](https://youtu.be/nQ-9QmRxDmA) | [Lecture Slide, PDF](https://www2.mrc-lmb.cam.ac.uk/download/cryo-em17-lecture-02-physics-optics/?wpdmdl=18757&refresh=68defc24bc6661759444004)]
+    - Cryo-EM17 Lecture 04: Data Acquisition [[Video](https://youtu.be/9AMSabcTN24) | [Lecture Slide, PDF](https://www2.mrc-lmb.cam.ac.uk/download/cryo-em17-lecture-04-data-acquisition/?wpdmdl=18759&refresh=68defc24e19ae1759444004)]
+    - Cryo-EM17 Lecture 06: Refinement [[Video](https://youtu.be/TfLFCeehfjM) | [Lecture Slide, PDF](https://www2.mrc-lmb.cam.ac.uk/download/cryo-em17-lecture-06-refinement/?wpdmdl=18760&refresh=68defc2514c571759444005)]
+    - Cryo-EM17 Lecture 07: Data processing strategy - Rafael Fernandez-Leiro     
+    - Cryo-EM17 Lecture 08: Modelling – Alan Brown [[Video](https://youtu.be/byAFhhDt-f4) | [Lecture Slide, PDF](https://www2.mrc-lmb.cam.ac.uk/download/cryo-em17-lecture-08-modelling/?wpdmdl=18761&refresh=68defc2537ecc1759444005)]
+    - Cryo-EM17 Lecture 09: Tomography [[Video](https://youtu.be/4Z0sQ_GhBkk) | [Lecture Slide, PDF](https://www2.mrc-lmb.cam.ac.uk/download/cryo-em17-lecture-09-tomography/?wpdmdl=18762&refresh=68defc255dd601759444005)]
 
+    
 
 #### Service Centers: 
-1. [The UW-Madison Cryo-Electron Microscopy Research Center (CEMRC), University of Wisconsin-Madison](https://cryoem.wisc.edu/)
+1.[UCSF EM Core, University of California San Francisco](https://emcore.ucsf.edu/)
 
 
-2. [Bio-Electron Microscopy Facility, Shanghai Tech University](https://bioem.shanghaitech.edu.cn/7390/list.htm)
+2. [The UW-Madison Cryo-Electron Microscopy Research Center (CEMRC), University of Wisconsin-Madison](https://cryoem.wisc.edu/)
 
 
-3. [MIT.nano](https://cryoem.mit.edu/), MIT campus
+3. [Bio-Electron Microscopy Facility, Shanghai Tech University](https://bioem.shanghaitech.edu.cn/7390/list.htm)
+
+
+4. [MIT.nano](https://cryoem.mit.edu/), MIT campus
 - The Cryo-Electron Microscopy Facility in MIT.nano enables automated electron imaging of cryogenically preserved specimens. The facility was established in 2018 with support from The Arnold and Mabel Beckman Foundation, an Anonymous donor, as well as institutional support from the Vice President for Research, School of Science, and Departments of Biology, Materials Science, and Chemistry. The facility includes two cryoTEMs, a cryoFIB-SEM, two different cryoplungers, and a laboratory space for cryo-specimen preparation.
   
 
@@ -198,8 +236,8 @@ thumbnailImagePosition: left
 
 ---
 # X-ray crystallography
-
-
+> While the X-ray evidence cannot, at present, be taken as direct proof that the structure is helical, other considerations discussed below make the existence of a helical structure highly probable.
+--- Rosalind Franklin
 
 
 ### Vendor companies
@@ -214,7 +252,12 @@ thumbnailImagePosition: left
 1. Rosalind Franklin (1920-1958)
 
 
-
+#### Online resources
+1. [Crystallography Course 2013, MRC-LMB](https://www2.mrc-lmb.cam.ac.uk/research/scientific-training/crystallography-course-2013/)
+    - Molecular replacement [[Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/molecular-replacement/?wpdmdl=18799&refresh=68df0795bcf791759446933)]
+    - 03 Protein Expression Crystallization And Mutagenesis – Meindert Lamers [[Video](https://youtu.be/glQXW7MyIts) | [Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/03-protein-expression-crystallization-and-mutagenesis-meindert-lamers/?wpdmdl=18793&refresh=68df0795ddcca1759446933)]   
+    - LMB Crystallography Course, 2013 [[Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/lmb-crystallography-course-2013/?wpdmdl=18792&refresh=68df0796e2a431759446934)]  
+    - Model-Building of Proteins Using X-ray Data With Coot Paul Emsley [[Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/model-building-of-proteins-using-x-ray-data-with-coot-paul-emsley/?wpdmdl=18785&refresh=68df07978699a1759446935)]
 
 ---
 # NMR
@@ -321,6 +364,25 @@ The Nobel Prize in Chemistry 2006\
 - **Roderick MacKinnon**, Rockefeller University, New York, NY, USA; Howard Hughes Medical Institute, USA\
 Nobel Prize in Chemistry 2003\
 **Potassium Channels and the Atomic Basis of Selective Ion Conduction** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2003_che_mckinnon_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/mackinnon-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/2003/mackinnon/facts/)]
+
+
+- **Kurt Wüthrich**, Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology), Zurich, Switzerland; The Scripps Research Institute, La Jolla, CA, USA
+The Nobel Prize in Physics 2002\
+**NMR Studies of Structure and Function of Biological Macromolecules** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2002_che_wuthrich_01_496.mp4) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/wutrich-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/chemistry/2003/mackinnon/facts/)]
+
+
+- **Linus Carl Pauling (C)**,
+The Nobel Prize in Physics 1954\
+
+- **James Batcheller Sumner**,
+The Nobel Prize in Physics 1946\
+
+- **Theodor (The) Svedberg (C)**,
+The Nobel Prize in Physics 1926\
+
+
+- **Sir William Henry Bragg**, 
+The Nobel Prize in Physics 1915\
 
 
 - **Max von Laue**, Frankfurt-on-the-Main University, Frankfurt-on-the-Main, Germany\

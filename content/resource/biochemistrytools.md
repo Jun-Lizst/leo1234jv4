@@ -38,7 +38,10 @@ thumbnailImagePosition: left
       - Instruments: [[Amersham™ ImageQuant™ 800, Cytiva](https://www.cytivalifesciences.com/en/us/shop/protein-analysis/molecular-imaging-for-proteins/imaging-systems/amersham-imagequant-800-systems-p-11546?psmenu=2) | [SPARK Plate reader, TECAN](https://lifesciences.tecan.com/multimode-plate-reader)]
 
     - **Native-PAGE**
-      - 
+      - The NativePAGE™ 5% G-250 Sample Additive
+      - The NativePAGE™ Running Buffer (20X)
+      - The NativePAGE™ Sample Buffer (4X)
+      - The NativePAGE™ Cathode Buffer Additive (20X)
       
     - **Western blot**
       - PVDF membrane, 0.45 um pore size [[Millipore: IPFL00010](https://www.sigmaaldrich.com/CZ/cs/product/mm/ipfl00010?srsltid=AfmBOopgFe8mgpL3NnXRtELNsYD2xkQ07O8kmDEvVDhQkGzKy3dkiuHi)]
@@ -55,7 +58,7 @@ thumbnailImagePosition: left
 
 - **Protein purification**
 ![biochem_akta1](/img/AKTA_diagram.png)
-    - **ATKA Pure** [[Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-16276-pdf) | [ÄKTA™ Laboratory-scale Chromatography Systems](https://www2.fcfar.unesp.br/Home/Instituicao/Departamentos/cienciasbiologicasnovo/laboratoriomultiusuariosfinep/akta_instrument_management.pdf)]: ATKA Pure is a modern, compact, flexible and intuitive FPLC (Fast Protein Liquid Chromatography) system for fast purification of proteins, peptides, and nucleic acids from microgram to gram levels of the desired compound. Can be used for affinity chromatography, size exclusion chromatography (SEC, also known as gel filtration), ion exchange chromatography, hydrophobic interaction chromatography, and reversed phase chromatography (RPC).
+    - **ATKA Pure** [[Cytiva](https://cdn.cytivalifesciences.com/api/public/content/digi-16276-pdf) | [ÄKTA™ Laboratory-scale Chromatography Systems](https://www2.fcfar.unesp.br/Home/Instituicao/Departamentos/cienciasbiologicasnovo/laboratoriomultiusuariosfinep/akta_instrument_management.pdf)]: ATKA Pure is a modern, compact, flexible and intuitive FPLC (Fast Protein Liquid Chromatography) system for fast purification of proteins, peptides, and nucleic acids from microgram to gram levels of the desired compound. Can be used for affinity chromatography, size exclusion chromatography (SEC, also known as gel filtration), ion exchange chromatography, hydrophobic interaction chromatography, and reversed phase chromatography (RPC). [[Equipment SOP, PDF](https://biomanufacturing.org/uploads/files/804256350604880707-dp-5-operation-of-%C3%A4kta-pure-chromatography-system.pdf)]
 ![biochem_akta2](/img/AKTA_SEC_ects.png)
       - **Size-exclusion chromatography (SEC, Gel filtration)**: [[Superose 6 Increase 10/300 GL, Sigma, GE29-0915-96](https://www.sigmaaldrich.com/CZ/cs/product/sigma/ge29091596?srsltid=AfmBOoq-t30M5EBnVcDokmFE85e9QI2iCyZPuNUq8BvXF0XoP1XCFcKg) | [Superdex 200]() | [Superdex 75]() | [TSKgel G4000SWxl, Tosoh]()]
       - **Hydrophobic interaction chromatography (HIC)**: Phenyl-HP cartridge
@@ -77,26 +80,32 @@ thumbnailImagePosition: left
     - **Non-Covalent Bonds and Interactions**: Hydrogen Bonds, Ionic Bonds (Salt Bridges), Van der Waals Interactions, Hydrophobic Interactions
     - **Covalent Bonds**: Disulfide Bonds
     - **co-IP**: Anti-FLAG (DYKDDDDK) Magnetic Agarose beads [[Thermo](https://www.thermofisher.com/order/catalog/product/A36798?ef_id=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE:G:s&s_kwcid=AL!3652!3!730146096394!!!g!!!22158546157!172279481245&cid=bid_sap_prp_r01_co_cp1362_pjt0000_bid00000_0se_gaw_dy_pur_con&gad_source=1&gad_campaignid=22158546157&gbraid=0AAAAADxi_GQApzePpHkuQmiLo2ZT9fVkx&gclid=CjwKCAjw7rbEBhB5EiwA1V49nccS1QFtXTbMm-oCz9VqsYqHrtQ5Kt6rMMK39Nfu2uTSpTGa4aiQBBoCnNgQAvD_BwE) | [Sigma](https://www.sigmaaldrich.cn/CN/en/product/sigma/m8823?srsltid=AfmBOoq6WDnv8XUxZ__m1yIopkj5LQ8DzGDd35wvJ0y0Waw-PB0f2HU8)]; Anti-HA Magnetic Agarose [[Thermo](https://www.thermofisher.com/order/catalog/product/88837?SID=srch-srp-88837)]
-    - Proximity labeling: APEX[]; TurboID[]; UltraID[]
-    - cross linking reagents: 
-    - Magnetic Separation Rack: [[DynaMag™-2 Magnet](https://www.thermofisher.com/order/catalog/product/12321D)]
+      - cross linking reagents: 
+      - Magnetic Separation Rack: [[DynaMag™-2 Magnet](https://www.thermofisher.com/order/catalog/product/12321D)]
+    - **SPR (Surface plasmon resonance)**: SPR is a phenomenon that occurs where electrons in a thin metal sheet become excited by light that is directed to the sheet with a particular angle of incidence, and then travel parallel to the sheet. Assuming a constant light source wavelength and that the metal sheet is thin, the angle of incidence that triggers SPR is related to the refractive index of the material and even a small change in the refractive index will cause SPR to not be observed. [[Biacore T200, Cytiva](https://www.cytivalifesciences.com/en/us/shop/protein-analysis/spr-label-free-analysis/spr-systems/biacore-t200-p-05644) | ]
+    - **BLI (Bio-layer interferometry)**: [[ForteBio Octet 96e]()]
+
 
 - **Protein identification**
     - Protein sequencing:
         - N-terminal sequencing (Edman degradation)：Step-by-step **N-terminal sequencing**, is a classic technique to analyze the N-terminal amino acid sequence of protein or polypeptide by chemical directional cleavage and identification. This technology was initiated by Swedish biochemist Pehr Edman in 1950, and was automated in 1967 (liquid-phase pulse sequencer) [[Source](https://www.creative-proteomics.com/resource/overview-edman-sequencing.htm)]
         - De novo sequencing based on MS
     - IP-MS:
-    
+    - Proximity labeling: APEX[]; TurboID[]; UltraID[]
 
 - **Protein expression system**
     - E.coli: [BL21(DE3) strain + pET-28a+ vector | Rosetta(DE3) strain]
-    - Yeast：[S. cerevisiae strain yMLT62 (J. Thorner lab) | yeast strain ySS025 ([ref.](https://pubmed.ncbi.nlm.nih.gov/37344598/))] 
+    - Yeast：[S. cerevisiae strain yMLT62 (J. Thorner lab) | yeast strain ySS025 ([ref.](https://pubmed.ncbi.nlm.nih.gov/37344598/)) | Pichia pastoris expression system] 
     - Sf21 insect cells: [[Bac-to-Bac Baculovirus Expression System (Life technologies)]() | [FastBac]() | [flashBAC]()]
-    - Expi293F cells: Expi293 Expression Medium (Thermo Fisher Scientific)
+    - Expi293F cells: Expi293F Cells are human cells derived from the 293F cell line, they are maintained in suspension culture and optimized to grow to high density in Expi293 Expression Medium. Expi293F Cells are highly transfectable and generate superior transient protein
+yields compared to standard 293 cell lines. [Expi293 Expression Medium (Thermo Fisher Scientific) | [Expi293 Expression System User guide, PDF](https://documents.thermofisher.com/TFS-Assets/LSG/manuals/MAN0019402_Expi293_ExpressionSystem_3L_UG.pdf)]
+      - Growth conditions: Suspension at 37℃, 8% CO2.
+    - ExpiCHO-S cells: The Gibco [ExpiCHO Expression System](https://www.thermofisher.com/cz/en/home/life-science/protein-biology/protein-expression/mammalian-protein-expression/transient-mammalian-protein-expression/expicho-expression-system.html) brings together a high-expressing CHO cell line, a chemically-defined animal origin-free, serum-free, and protein-free culture medium, an optimized culture feed, and a high-efficiency transfection reagent that work in concert to provide protein titers 3x higher than the Gibco Expi293 Expression System and 160x higher than the Gibco FreeStyle CHO Expression System. [[User Guide, PDF](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0014337_expicho_expression_system_UG.pdf)]
     
 ---
 > We are seeing cells more and more clearly as chemical factories, where the various products are manufactured in separate workshops, the enzymes act[ing] as the overseers.\
 --- Eduard Buchner (The Founder of Modern Biochemistry)
+
 ---
 - **Organelle isolation**
     - **mitochondria**: Mito-IP []; Mito-IP tg mice
