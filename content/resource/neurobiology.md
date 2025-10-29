@@ -74,25 +74,33 @@ thumbnailImagePosition: left
    - Glycine receptors
    - Trafficking of postsynaptic receptors
 
-4. **The assembly of postsynaptic density**
+
+4. **Postsynaptic signaling**
+   - CaMKII (Ca2+/calmodulin-activated protein kinase II): [[Paul Greengard Lab, 1978](https://doi.org/10.1038/271478a0)];
+   - DARPP32 (dopamine and cyclic AMP regulated phosphoprotein of 32 kDa): [[Paul Greengard Lab, 1983](https://doi.org/10.1038/301069a0)]
+   - P11 (S100A10): p11 increases localization of 5-HT1B receptors at the cell surface. p11 is the Binding parter of 5-HTRs(1B/1D/4) and mGluR5 (with AnxA2); [[Paul Greengard Lab, 2006](https://doi.org/10.1126/science.1117571) | [Review, Paul Greengard Lab, 2013](https://doi.org/10.1038/nrn3564)]
+
+
+5. **The assembly of postsynaptic density**
    - Liquid-liquid Phase Separation (LLPS) []
    - ePSD
    - iPSD
    - Reviews: [[PDZ domain proteins of synapses](https://doi.org/10.1038/nrn1517) | ]
 
-5. **Synapse formation and Regulation of synaptogenesis**
+
+6. **Synapse formation and Regulation of synaptogenesis**
    - Identification of synaptic adhesion molecules (SAMs): Neurexin Complexes [[Südhof Lab, 1992](https://doi.org/10.1126/science.1621094)]; Latrophilin Complexes [[Südhof Lab, 1998](https://doi.org/10.1074/jbc.273.49.32715)]
    - Complex that bridges the synapse: β-neurexin 1; cerebellin 1(Cbln1) [[Yuzaki Lab](https://www.yuzaki-lab.org/research?lang=en)]; GluD2
    
    
 
-6. **Open questions**
+7. **Open questions**
     - How calcium-channels are recruited to active zones ?
     - What mediates the calcium-triggered release that remains in synapses which lack fast synaptotagmin calcium-sensor isoforms ?
     - How synapses are formed ?
     - What signal transduction pathways organize synapse formation ? Although some of the extracellular interactions involved in synapse formation has been revealed, for example, synaptic adhesion molecules (SAMs), the intracellular signaling event is largely unknown.
     - How ePSD and iPSD is formed in single neurons ? 
-
+    - Different patterns of activation of NMDA receptors (NMDARs) can lead to either long-term potentiation (LTP) or long-term depression (LTD) of synaptic strength. These long-lasting forms of synaptic plasticity are intensively studied because they may represent ways of encoding “memories” in the brain. How postsynaptic signaling enable memory storage is largely unknown. What is the internal molecular machinery that enable memory storage ?
 
 
 ---
@@ -110,14 +118,14 @@ thumbnailImagePosition: left
    - Grid cells:
    - Head direction cells:
    - Boundary cells: Boundary vector cells (BVCs)
-   - Speed cells
+   - Speed cells:
 
 
 
 
 ### III. **The regulation of sleep homeostasis**
    - Phosphorylation based theory
-
+   - Orexin neurons
 
 ### IV. **The molecular architecture of sensory system**
 
@@ -128,6 +136,7 @@ thumbnailImagePosition: left
 
 1. Sense of Taste
    - Bitter taste: [TAS2R14]
+   
 2. Sense of Smell
 
 3. Sense of Sight (Vision)
@@ -150,7 +159,7 @@ thumbnailImagePosition: left
    - Axon guidance: [[Netrins]() | [Slits]() | [Semaphorins]() | [Ephrins]()]
    - Basic circuit wiring diagrams:
      - Reward circuits
-     - 
+     - Motor control circuits
    
    - Molecular mechanisms underlying precise axon path finding:
    - Circuit assembly during development

@@ -19,7 +19,7 @@ thumbnailImagePosition: left
 #thumbnailImage: //example.com/image.jpg
 ---
 
-> A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.
+> A online interactive website for browsing multi-omics data of mouse brain, which including brain cell type specific RNA-seq, sc-RNAseq, sc-ATACseq, brain spatial transcriptome, brain spatial metabolome, brain cell type specific proteome. Detailed gene information, protein domain, related publications are included.
 
 <!--more-->
 
@@ -111,7 +111,12 @@ thumbnailImagePosition: left
 
 
 
-#### proteomics datasets
+#### Proteomics datasets
+1. Cell type– and brain region–resolved mouse brain proteome.
+    - Sharma, Kirti, et al. "Cell type–and brain region–resolved mouse brain proteome." Nature neuroscience 18.12 (2015): 1819-1831. [[PMID: 26523646](https://pubmed.ncbi.nlm.nih.gov/26523646/) | [DOI Link](https://doi.org/10.1038/nn.4160)]
+
+
+2. AP-MS datasets
 
 
 

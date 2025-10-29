@@ -27,7 +27,7 @@
       <link>https://leoj.xyz/tooldevelopment/metabrain/</link>
       <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
       <guid>https://leoj.xyz/tooldevelopment/metabrain/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including brain cell type specific RNA-seq, sc-RNAseq, sc-ATACseq, brain spatial transcriptome, brain spatial metabolome, brain cell type specific proteome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>VasCode system</title>
@@ -125,7 +125,7 @@
       <link>https://leoj.xyz/page/publication/</link>
       <pubDate>Mon, 15 Aug 2022 15:15:56 +0800</pubDate>
       <guid>https://leoj.xyz/page/publication/</guid>
-      <description>Journal Publications #: First author&#xA;✝: corresponding author&#xA;¶: me&#xA;Jun-Liszt Li#, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” BioRxiv (15/06/2025) [DOI Link] Nature Biomedical Engineering (09/2025, In press), First author</description>
+      <description>Journal Publications #: First author&#xA;✝: corresponding author&#xA;¶: me&#xA;Jun-Liszt Li#, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” BioRxiv (15/06/2025) [DOI Link] Nature Biomedical Engineering (29/10/2025) [DOI Link] First author</description>
     </item>
     <item>
       <title>About Me</title>

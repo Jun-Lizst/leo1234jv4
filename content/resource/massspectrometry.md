@@ -195,6 +195,7 @@ thumbnailImagePosition: left
         - Perseus Introduction | Juan Luis Restrepo-López: Frontal lecture about Perseus: which statistical analyses can be done with it and how to. [[Download mp4 video](https://datashare.biochem.mpg.de/s/8ELt0jPWChZLn3g/download)] 
         - Perseus Basic Tutorial | Juan Luis Restrepo-López: Data cleaning, pre-processing and data visualization. [[Download mp4 video](https://datashare.biochem.mpg.de/s/DhLRxiW9ytMqBzD/download)] 
         - Perseus Intermediate Tutorial | Juan Luis Restrepo-López: Statistical analyses, results interpretation and visualization. [[Download mp4 video](https://datashare.biochem.mpg.de/s/crHK9Lbmn1t5Hjb/download)] 
+   - [**Spectronaut**](https://biognosys.com/software/spectronaut/): Powerful software package for comprehensive analysis of data-independent acquisition (DIA) proteomics experiments. [[Software manual, PDF](https://biognosys.com/content/uploads/2025/06/Spectronaut-20-Manual.pdf)]
    - Skyline
    - ProteinMetrics
    - PEAKS Studio, PEAKS Online

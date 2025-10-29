@@ -93,8 +93,8 @@ For imaging, mice were head-fixed under the objective lens while being placed on
 ---
 ![talkxssqqqexxx](/img/long_term_imaging_of_capillary_neuron.png)
 
-
-
+---
+![dualcolorxxxxx](/img/2p_dual_color_imaging_capillary_neurons.png)
 
 ---
 ### **Microvascular Hemodynamic Imaging**

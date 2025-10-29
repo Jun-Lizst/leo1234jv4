@@ -24,7 +24,7 @@ showActions:    false
 **✝: corresponding author**\
 **&para;: me**
 
-1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** (15/06/2025) [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (09/2025, In press),
+1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** (15/06/2025) [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (29/10/2025) [[DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
 _**First author**_
 
 2. Huanhuan Pang#, ***Jun-Liszt Li#***, Xiaoling Hu, Fei Chen, Xiaofei Gao, Lauren Zacharias, Ralph Deberardinis, Wenzhi Sun✝, Zeping Hu✝, Woo-Ping Ge✝ (28/12/2020) Precision mapping of the mouse brain metabolome. **BioRxiv** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU-xBTRDra9Nq5ii6XGPA1sBb5L2IG1T4OkFt5M27uIAFQ?e=Znk6ct) | [Shiny app](https://leoj.shinyapps.io/BSMAv1_updated/) | [DOI Link](https://doi.org/10.1101/2020.12.28.424544)]  _**Co-first author**_

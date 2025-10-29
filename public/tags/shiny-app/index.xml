@@ -13,7 +13,7 @@
       <link>https://leoj.xyz/tooldevelopment/metabrain/</link>
       <pubDate>Sat, 10 Sep 2022 09:46:13 +0800</pubDate>
       <guid>https://leoj.xyz/tooldevelopment/metabrain/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including Brain cell type specific RNA-seq, scRNAseq, scATACseq, brain spatial transcriptome, brain spatial metabolome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;A online interactive website for browsing multi-omics data of mouse brain, which including brain cell type specific RNA-seq, sc-RNAseq, sc-ATACseq, brain spatial transcriptome, brain spatial metabolome, brain cell type specific proteome. Detailed gene information, protein domain, related publications are included.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>SpatialMeta (Online MALDI data analysis server)</title>

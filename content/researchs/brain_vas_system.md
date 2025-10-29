@@ -166,7 +166,8 @@ Building on those evidences, we propose a framework in which the canonical TAK1�
 
 ---
 # Representative works
-1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** (15/06/2025) [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (09/2025, In press)
+1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** (15/06/2025) [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (29/10/2025) [[DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
+_**First author**_
 
 
 2. Gao X#, Chen XJ#, Ye M, ***Li JL*** &para;, Ci B, Chen F, Lu N, Shen B, Zheng L, Jia J, Yi Y, Zhang S, Shi Y, Shi K, Propson NE, Huang Y, Poinsatte K, Zhang Z, Yue Y, Bosco DB, Lu YM, Yang SB, Adams RF, Lindner V, Huang F, Wu LJ, Zheng H, Han F, Hippenmeyer S, Stowe AM, Peng B, Margeta M, Wang X, Liu Q, Korbelin J, Trepel M, Lu H, Zhou BO, Zhao H, Sun W, Bachoo RM, Ge WP* (01/07/2025)

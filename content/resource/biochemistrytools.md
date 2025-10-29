@@ -90,7 +90,8 @@ thumbnailImagePosition: left
     - Protein sequencing:
         - N-terminal sequencing (Edman degradation)：Step-by-step **N-terminal sequencing**, is a classic technique to analyze the N-terminal amino acid sequence of protein or polypeptide by chemical directional cleavage and identification. This technology was initiated by Swedish biochemist Pehr Edman in 1950, and was automated in 1967 (liquid-phase pulse sequencer) [[Source](https://www.creative-proteomics.com/resource/overview-edman-sequencing.htm)]
         - De novo sequencing based on MS
-    - IP-MS:
+    - AP-MS: Affinity purification coupled with mass spectrometry (AP-MS) is a widely used approach for the identification of protein-protein interactions.
+        - the contaminant repository for affinity purification (the CRAPome) [[Website](https://reprint-apms.org/)] 
     - Proximity labeling: APEX[]; TurboID[]; UltraID[]
 
 - **Protein expression system**
