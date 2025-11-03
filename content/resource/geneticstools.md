@@ -234,7 +234,10 @@ Seymour Benzer with mega-Drosophila, 1974.
 ### Ref protocol
 2. **EMS based Genetic screen**
     - Tsukada, Miki, and Yoshinori Ohsumi. "Isolation and characterization of autophagy-defective mutants of Saccharomyces cerevisiae." FEBS letters 333.1-2 (1993): 169-174. [[PMID: 8224160](https://pubmed.ncbi.nlm.nih.gov/8224160/) | [DOI Link](https://doi.org/10.1016/0014-5793(93)80398-E)]
-      - **Key details**: BJ3505 cells were grown in YEPD to stationary phase, and then suspended in 340 μl of 0.1 M sodium phosphate buffer (pH 7.0) and treated with 10 μl EMS for 60 min at 30°C; the survival rate was 40-50%. The mutagenized culture (20 μl) was diluted with 780 μl of 5% sodium thiosulfate and spread on YEPD plates.  
+      - **Key details**: BJ3505 cells were grown in YEPD to stationary phase, and then suspended in 340 μl of 0.1 M sodium phosphate buffer (pH 7.0) and treated with **10 μl EMS** for 60 min at 30°C; the survival rate was 40-50%. The mutagenized culture (20 μl) was diluted with 780 μl of 5% sodium thiosulfate and spread on YEPD plates.  
+
+    - L.H. Hartwell,J. Culotti, & B. Reid,  Genetic Control of the Cell-Division Cycle in Yeast, I. Detection of Mutants, Proc. Natl. Acad. Sci. U.S.A. 66 (2) 352-359, [[DOI Link](https://doi.org/10.1073/pnas.66.2.352)]
+      - **Key details**: **Mutant isolation:** A culture of S. cerevisiae, strain A364A, was grown from a small inoculum overnight at 36 ℃. in YM-1. While still growing logarithmically, 50 ml of culture was shifted to 23 ℃. and 0.2 ml of a solution containing 4 mg (per ml) of N-methyl-N'-nitro-N-nitrosoguanidine was added. Samples containing 0.5 ml of the culture were immediately distributed to a large number of tubes. The tubes were then rotated for a period of 5 hr (survival, 0.2 to 1.0%), after which time samples were removed, diluted, plated on YEPD-TAU plates, and incubated at 23 ℃. When colonies appeared, the pattern was replicated onto two plates, the first of which was incubated at 36 C and the second of which was incubated at 23 ℃. Colonies which grew up on the latter but not the former (approximately 1% of the total number of colonies) were picked, diluted with water, and streaked onto two YEPD-TAU plates, which were again incubated at the two temperatures. Clones which formed approximately 1,000 colonies on the 23 ℃. plate and no colonies on the 36 C plate were picked from the low-temperature plate and designated as ts- mutants. Only one or two mutants were isolated from a single mutagen-treated culture tube.
 
 
 
@@ -318,6 +321,10 @@ The Nobel Prize in Physiology or Medicine 2006\
 - **Craig C. Mello**, University of Massachusetts Medical School, Worcester, MA, USA\
 Nobel Prize in Physiology or Medicine 2006\
 **Return to the RNAi World: Rethinking Gene Expression and Evolution** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2006_med_mello_01_496.mp4) | [Lecture Slides](https://www.nobelprize.org/uploads/2018/06/mello-slides.pdf) | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/mello_lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2006/mello/facts/) | [Lab Link](https://www.umassmed.edu/mellolab/)]
+
+- **Leland H. Hartwell**, Fred Hutchinson Cancer Research Center, Seattle, WA, USA\
+Nobel Prize in Physiology or Medicine 2004\
+**Yeast and Cancer** [[Nobel Lecture video](https://nobel-videocdn01.azureedge.net/video/lecture_2001_med_hartwell_01_496.mp4)  | [Read the Lecture](https://www.nobelprize.org/uploads/2018/06/hartwell-lecture.pdf) | [Source](https://www.nobelprize.org/prizes/medicine/2001/hartwell/facts/)]
 
 
 - **Sydney Brenner (1927-2019)**, The Molecular Sciences Institute, Berkeley, CA\

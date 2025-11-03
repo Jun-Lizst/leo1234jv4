@@ -47,7 +47,7 @@ We developed a novel platform that integrated multiple methods including direct 
 
 ---
 # Representative works
-1. ***Jun-Liszt Li#***, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **BioRxiv** (15/06/2025) [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **Nature Biomedical Engineering** (29/10/2025) [[DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
+1. ***Jun-Liszt Li#*** &para;, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **Nature Biomedical Engineering** (29/10/2025) [[PDF](https://www.nature.com/articles/s41551-025-01538-x.pdf) | [PMID: 41162685](https://pubmed.ncbi.nlm.nih.gov/41162685/) | [DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
 _**First author**_
 
 
