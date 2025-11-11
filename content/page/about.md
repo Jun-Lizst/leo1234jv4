@@ -18,24 +18,50 @@ showActions:    false
 
 ![leo1erefdfxc](/img/BillfishgPXSBX.PNG)
 
-Hello, My name is Jun-Liszt Li. Currently, I am a postdoc researcher in [David M. Sabatini lab](https://iocbboston.org/#groups). Before that, I was a graduate student in PKU-CIBR joint program of [Peking University](https://english.pku.edu.cn/). My long-term goal is to discover and characterize basic mechanisms underlying brain aging and neuron growth. In addition, I worked on next-generation gene delivery tools (AAV, promoter) in order to apply these technologies to explore animal physiology and address specific problems. 
+---
+
+## Personal Statement
+
+Hello, My name is Jun-Liszt Li. Currently, I am a postdoc researcher in [David M. Sabatini lab (IOCB Boston and IOCB Prague)](https://iocbboston.org/#groups). Before that, I was working as a PhD graduate student in PKU-CIBR joint program of [Peking University](https://english.pku.edu.cn/). I am focusing on dissecting the upstream of mTORC1 nutrient sensing pathway recently. My long-term goal is to discover and characterize basic mechanisms underlying cell growth (Vascular cells and Neurons). In addition, I worked on next-generation gene delivery tools (AAV, promoter), next-generation sequencing (RNAseq/scRNAseq), Proteomics, advanced microscopic imaging (confocal/lightsheet/2p) in order to apply these technologies to explore animal physiology and address specific problems. 
+
+I would like to highlight five publications demonstrating my expertise with RNAseq/scRNAseq methods.
+
+1. ***Jun-Liszt Li#*** &para;, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling.” **Nature Biomedical Engineering** **(29/10/2025)** [[PDF](https://www.nature.com/articles/s41551-025-01538-x.pdf) | [PMID: 41162685](https://pubmed.ncbi.nlm.nih.gov/41162685/) | [DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
+_**First author**_
+    - By rAAV-miniBEND mediated bAVM modeling and **snRNAseq analysis**, we identified key pathways or genes involved in bAVM onset and its progression. venous endothelial cells (vECs) is the most relevant endothelial cell subpopulation responsible for bAVM formation. 
+
+2. Samuel Lundt#, Nannan Zhang#, ***Jun-Liszt Li*** &para;, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ “Metabolomic and transcriptional profiling reveals bioenergetic stress and activation of cell death and inflammatory pathways in vivo after neuronal deletion of NAMPT.”  **Journal of Cerebral Blood Flow & Metabolism** **(09/02/2021)** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeMdie0AmzVFtF0Ibrj84w8BfCFt-J6ysC9ZgNv4z_yzIA?e=cgKWnC) | [PMID: 33563078](https://pubmed.ncbi.nlm.nih.gov/33563078/) | [DOI Link](https://doi.org/10.1177%2F0271678X21992625)]  _**Second author**_
+    - By **RNAseq analysis**, we identified the activated downstream gene programs after neuronal deletion of a important enzyme in NAD+ salvage pathway. 
+
+3. Xiaofei Gao#, Xing-jun Chen#, Meng Ye, ***Jun-Liszt Li*** &para;, Nannan Lu, Di Yao, Bo Ci, Fei Chen, Lijun Zheng, Yating Yi, Shiwen Zhang, Zhanying Bi, Xinwei Gao, Yuanlei Yue, Tingbo Li, Jiafu Lin, Ying-Chao Shi, Kaibin Shi, Nicholas E. Propson, Yubin Huang, Katherine Poinsatte, Zhaohuan Zhang, Dale B. Bosco, Shi-bing Yang, Ralf H. Adams, Volkhard Lindner, Fen Huang, Long-Jun Wu, Hui Zheng, Simon Hippenmeyer, Ann M. Stowe, Bo Peng, Marta Margeta, Qingchun Guo, Xiaoqun Wang, Qiang Liu, Jakob Körbelin, Martin Trepel, Hui Lu, Guoen Cai, Bo O. Zhou, Bo Shen, Ying-mei Lu, Wenzhi Sun, Jie-Min Jia, Feng Han, Hu Zhao, Robert M. Bachoo & Woo-ping Ge✝ "Reduction of neuronal activity mediated by blood-vessel regression in the brain." **Nature Communications** **(01/07/2025)** [[PDF](https://www.nature.com/articles/s41467-025-60308-0.pdf) | [PMID: 40595484](https://pubmed.ncbi.nlm.nih.gov/40595484/) | [DOI Link](https://doi.org/10.1038/s41467-025-60308-0)]
+    - By **RNAseq analysis**, we identified blood vessel regression cause a reduction of neuronal activity due to downregulated of gene cluster pertaining to glutamatergic transmission.
+
+4. Yihui Wang#, Yue Liang#, Daosheng Ai, ***Jun-Liszt Li*** &para;, Ziyan Feng, Zhibao Guo, Xing-jun Chen, Tingting Zhang, Xiaoxiao Zou, Jun-Li Gao, Xiaofei Gao, Xiao-Ling Hu, Long-Jun Wu, Wenzhi Sun, Suiqiang Zhu, Shumin Duan, Wei Wang✝, Woo-ping Ge✝ "ADAM10 mediates macroglial cell fate decisions in the developing brain." **BioRxiv** **(12/02/2023)**  [[PDF](https://www.biorxiv.org/content/10.1101/2023.02.11.527059v1.full.pdf) | [DOI Link](https://doi.org/10.1101/2023.02.11.527059)] **Under revision in Developmental Cell**
+    - By **RNAseq analysis**, We identified a gene program regulated by Adam10 that promote early oligodendrocyte differentiation and repress astrocyte differentiation.
+
+5. Wentong Hong#, Pifang Gong#, Zhonggan Ren#, Xinjie Pan#, Yitong Liu, Guibo Qi, ***Jun-Liszt Li*** &para;, Wenzhi Sun, Woo-ping Ge, Chun-Li Zhang, Shumin Duan, Song Qin✝ "Temporal-spatial generation of astrocytes in the developing diencephalon." **Neuroscience bulletin** **(16/10/2023)** [[PDF](https://link.springer.com/content/pdf/10.1007/s12264-023-01131-9.pdf) | [PMID: 37843774](https://pubmed.ncbi.nlm.nih.gov/37843774/) | [DOI Link](https://link.springer.com/article/10.1007/s12264-023-01131-9)] _**Cover story**_
+    - By **RNAseq analysis** of the region-specific 3V wall and lateral ventricle (LV) wall, we identified cohorts of differentially-expressed genes in the dorsal 3V wall compared to the ventral 3V wall and LV wall that may regulate astrogenesis in the dorsal diencephalon.
+
 
 
 ## Interest Areas
 
-- **Biological Question**\
-Nutrient sensing pathways\
-Brain vasculature system\
-Brain metabolic system\
-AAV biology
+##### **Biological Question**
+- mTORC1 pathway
+- Nutrient sensing pathways
+- Brain vasculature system
+- Brain metabolic system
+- AAV biology
 
 
-- **Technology**\
-AAV engineering\
-Promoter engineering\
-scRNAseq & Spatial transcriptome\
-Spatial metabolomics
+##### **Technology**
+- AAV engineering
+- Promoter engineering
+- scRNAseq & Spatial transcriptome
+- Metabolomics & Spatial metabolomics
+- Proteomics (AP-MS)
 
+---
 ## Education
 
 ![Tranquilxxx](/img/BillfishgP.PNG)
@@ -53,10 +79,6 @@ Academy for Advanced Interdisciplinary Studies (AAIS)\
 SEPTEMBER 2014 --- JUNE 2018\
 College of Life Science and Technology\
 **Major In Biological Science**; Class of State Key Educational Base
-
----
-
-[This is my CV](), click and view.
 
 ---
 
@@ -98,7 +120,7 @@ Advised by: [Dr.Xiaoqun Wang, Ph.D.](http://wanglaboratory.org/?list_4/)
 Skills including: single cell isolation, library construction, scRNA-seq data analysis( 
 Linux system operation, R statistic analysis).
 
-**Undergraduate Researcher, National institute of Biological Science (NIBS)**\
+**Undergraduate Researcher, National institute of Biological Science (NIBS), Tsinghua University**\
 JANUARY 2018 — SEPTEMBER 2018\
 Advised by: [Dr.Minmin Luo, Ph.D.](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=775)
 
