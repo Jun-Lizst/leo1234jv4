@@ -22,7 +22,9 @@ showActions:    false
 
 ## Personal Statement
 
-Hello, My name is Jun-Liszt Li. Currently, I am a postdoc researcher in [David M. Sabatini lab (IOCB Boston and IOCB Prague)](https://iocbboston.org/#groups). Before that, I was working as a PhD graduate student in PKU-CIBR joint program of [Peking University](https://english.pku.edu.cn/). I am focusing on dissecting the upstream of mTORC1 nutrient sensing pathway recently. My long-term goal is to discover and characterize basic mechanisms underlying cell growth (Vascular cells and Neurons). In addition, I worked on next-generation gene delivery tools (AAV, promoter), next-generation sequencing (RNAseq/scRNAseq), Proteomics, advanced microscopic imaging (confocal/lightsheet/2p) in order to apply these technologies to explore animal physiology and address specific problems. 
+Hello, My name is Jun-Liszt Li. I am currently working as a postdoc researcher in [David M. Sabatini lab (IOCB Boston and IOCB Prague)](https://iocbboston.org/#groups), a leading center for nutrient sensing and growth control research. My research focus is to understand the upstream logic of mTORC1 nutrient sensing pathway. At the Sabatini Lab, I have been fortunate to receive rigorous training in biochemistry and mechanistic cell biology. This experience not only refined my experimental precision but also shaped the way I think about scientific questions — emphasizing clarity, reproducibility, and the pursuit of fundamental molecular principles.
+
+Previously, I was working as a PhD graduate student in PKU-CIBR joint program of [Peking University](https://english.pku.edu.cn/). My long-term goal is to discover and characterize basic mechanisms underlying cell growth (Vascular cells and Neurons). In addition, I worked on next-generation gene delivery tools (rAAV vector/capsid engineering), next-generation sequencing (RNAseq/scRNAseq), Proteomics, advanced microscopic imaging (confocal/lightsheet/2p) in order to apply these technologies to explore animal physiology and address specific questions. 
 
 I would like to highlight five publications demonstrating my expertise with RNAseq/scRNAseq methods.
 
@@ -55,9 +57,9 @@ _**First author**_
 
 
 ##### **Technology**
-- AAV engineering
-- Promoter engineering
-- scRNAseq & Spatial transcriptome
+- AAV capsid engineering
+- rAAV vector engineering 
+- scRNAseq & Spatial transcriptomics
 - Metabolomics & Spatial metabolomics
 - Proteomics (AP-MS)
 
@@ -84,15 +86,15 @@ College of Life Science and Technology\
 
 ## Research Experiences
 
-**Postdoctoral researcher**, [Institute of Organic Chemistry and Biochemistry (IOCB) of the CAS, Prague](https://www.uochb.cz/en)\
+**Postdoctoral researcher, [Institute of Organic Chemistry and Biochemistry (IOCB) of the CAS, Prague](https://www.uochb.cz/en)**\
 ![Tranquilyxxxx](/img/IOCB_Prague_logo.jpg)
 MAY 2024 — NOW\
-Advised by: [Dr.David M. Sabatini, Ph.D.](https://www.davidsabatinilab.com/publication)
+Advised by: [Dr.David M. Sabatini, M.D., Ph.D.](https://www.davidsabatinilab.com/publication)
 
 - Project: “Discovery of novel nutrient sensors based on evolutionary perspective of mTORC1 nutrient sensing pathway”
 - Skills: Molecular biology, biochemistry, IP-MS, yeast genetics, bioinformatic analysis (Proteomics, PPI screen based on Alphafoldv3)
 
-**Graduate student**, [Peking University](https://english.pku.edu.cn/) & [Chinese institute for Brain Research (CIBR)](https://www.cibr.ac.cn/)\
+**Graduate student, [Peking University](https://english.pku.edu.cn/) & [Chinese institute for Brain Research (CIBR)](https://www.cibr.ac.cn/)**\
 MARCH 2019 — DECEMBER 2023\
 Advised by: [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en) and [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) 
 
@@ -103,7 +105,7 @@ technology into study of brain vasculature system.
 - Applying Next-generation omics technology (Transcriptomics; Metabolomics) to 
 study the molecular architecture of brain metabolic system.
 
-**Rotation student, National institute of Biological Science (NIBS), Tsinghua University**\
+**Rotation student, [National institute of Biological Science (NIBS)](http://www.nibs.ac.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm)**\
 DECEMBER 2018 — FEBRUARY 2019\
 Advised by: [Dr.Qinghua Liu, Ph.D.](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=8&sid=25&id=1488)
 
@@ -151,7 +153,7 @@ FEBRUARY 2015 - OCTOBER 2016\
 
 
 **Summer Research intern, Wenzhou Medical University**\
-July 2016 — July 2016\
+JULY 2016 — JULY 2016\
 Laboratory of Molecular Neuropharmacology, School of Optometry and Ophthalmology and Eye Hospital;
 Advised by: Dr.Zhihui Li, Ph.D. and [Dr. Jiang-Fan Chen, Ph.D.](https://www.bumc.bu.edu/ophthalmology/core/jiang-fan-chen-md-phd/)
 - Learning knowledge in field of instrumental behavior and Corticostriatal Adenosine A2A receptor studies. 
@@ -160,7 +162,7 @@ Handing of mice, maintenance, breeding of multiple mouse colonies and transgenic
 
 
 **Summer Research intern, Wenzhou University**\
-July 2014 — July 2014\
+JULY 2014 — JULY 2014\
 Laboratory of Molecular Engineering, College of Chemistry & Materials Engineering;\
 Advised by: [Dr.Zhongyu Li, Ph.D.](https://www.researchgate.net/profile/Zhongyu-Li-7)
 - Learning knowledge in Polymer Chemistry, Molecular Engineering and Targeted Drug Delivery.
@@ -170,31 +172,32 @@ Advised by: [Dr.Zhongyu Li, Ph.D.](https://www.researchgate.net/profile/Zhongyu-
 ---
 # Posters & Conferences:
 SEPTEMBER 2015 — PRESENT
-1. **Online attendee**, 7 th CCP Phenogenomics Conference, 2025, Prague, Czech Republic
-2. **Attendee**, High-end-Symposium of Metabolomics and exposomics, Dalian 
+1. **Attendee**, Prague bioML Symposium 2025, August 21–22, 2025 at IOCB Prague, Czech Republic (on site)
+2. **Online attendee**, The Cell Biology at Scale meeting 2025, July 31, 2025, West End Labs, 125 W End Ave, New York, NY 10023
+3. **Online attendee**, 7 th CCP Phenogenomics Conference, 2024, Prague, Czech Republic
+4. **Attendee**, High-end-Symposium of Metabolomics and exposomics, Dalian 
 Institute of Chemical Physics, Chinese Academy of Sciences, 2021, Dalian, 
 China
-3. **Online Attendee**, Beijing International Conference on Brain Science, 2020, 
+5. **Online Attendee**, Beijing International Conference on Brain Science, 2020, 
 Beijing, China
-4. **Conference Volunteers**, Beijing "Brain and Behavior" International Symposium 
+6. **Conference Volunteers**, Beijing "Brain and Behavior" International Symposium 
 and Zhongguancun Life Science Park Development Symposium, 2019, Beijing, 
 China
-5. **Attendee**, Beijing International Academic Exchange Season-Brain Science and 
+7. **Attendee**, Beijing International Academic Exchange Season-Brain Science and 
 Brain-like Intelligence Research Symposium, Beijing Normal University, 2018, 
 Beijing, China
-6. **Attendee**, International Workshop of Neuron Reconstruction and 
+8. **Attendee**, International Workshop of Neuron Reconstruction and 
 Applications, 2018, SEU-Allen Joint Institute, Nanjing, China
-7. P.C.,H.K.J.,B.Y.Z.,**J.L.**,Z.X.D.,X.X.,B.C.C.Q.L.Z.,B.G.M.et.al. Bio-Pattern 
-Formation in Augmented Reality (BioPaFiAR), Gaint Jambree iGEM meeting, 
+9. **Poster**, P.C., H.K.J., B.Y.Z., **J.L. (Jun Li)**, Z.X.D., X.X., B.C.C., Q.L.Z., B.G.M. et.al. Bio-Pattern 
+Formation in Augmented Reality (BioPaFiAR), Giant Jambree iGEM meeting, 
 2016, MIT Cambridge, Massachusetts, USA
-8. L.Q.D.,L.Z.Y.,Y.K.J.,Z.'.,Z.'.Y.J.'.,**L.J.**-
-,C.P.,X.Y.B.,H.K.J.,X.S.'.,L.S.J.,G.Q.Q.,Q.Y.,B.G.M.,Mixed-Reality 
-Cell-Bidirectional coupling between real and virtual bio-oscillators, Gaint 
+10. **Poster**, L.Q.D., L.Z.Y., Y.K.J., Z.'., Z.'.Y.J.'., **L.J. (Jun Li)**,C.P., X.Y.B., H.K.J., X.S.'., L.S.J., G.Q.Q., Q.Y., B.G.M., Mixed-Reality 
+Cell-Bidirectional coupling between real and virtual bio-oscillators, Giant 
 Jambree iGEM meeting, 2015, MIT Cambridge, Massachusetts, USA
-9. L.Q.D.,L.Z.Y.,Y.K.J.,Z.'.,Z.'.Y.J.'.,**L.J.**,-
-C.P.,X.Y.B.,H.K.J.,X.S.'.,L.S.J.,G.Q.Q.,Q.Y.,B.G.M.,Mixed-Reality 
+11. **Poster**, L.Q.D.,L.Z.Y.,Y.K.J.,Z.'.,Z.'.Y.J.'.,**L.J. (Jun Li)**,
+C.P., X.Y.B., H.K.J., X.S.'., L.S.J., G.Q.Q., Q.Y., B.G.M., Mixed-Reality 
 Cell-Bidirectional coupling between real and virtual bio-oscillators, 
-CCIC(Conference of China iGEMers Committee)meeting, 2015, Peking 
+CCIC (Conference of China iGEMers Committee) meeting, 2015, Peking 
 University, Beijing, China
 
 
@@ -240,3 +243,11 @@ technology, HZAU
 Office of Educational Administration, HZAU
 7. **Second prize of Plant Biology Experiment Skill and Operation Contest**, 07/2015, 
 Office of Educational Administration, HZAU
+
+---
+# Science and society
+1. Member of European Vascular Biology Organisation (EVBO), 11/2025 
+![TrxxEVBO](/img/EVBO_logo2.png)
+2. Founder and editor of the VasCure blog, a WeChat-based science communication platform (focused on promoting public understanding of vascular biology and biomedical research), since March 2023, China
+3. Conference Volunteer, Beijing “Brain and Behavior” International Symposium and Zhongguancun Life Science Park Development Symposium, 04/2019, Beijing, China
+4. Volunteer, Wuhan Science and Technology Museum (guiding school students through exhibitions on modern science and technology), 07/2016, Wuhan, China

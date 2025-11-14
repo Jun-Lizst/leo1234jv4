@@ -237,6 +237,9 @@ yields compared to standard 293 cell lines. [Expi293 Expression Medium (Thermo F
 7. [Veit Hornung Lab, LMU](https://www.genzentrum.uni-muenchen.de/research-groups/hornung/index.html)
 - **The discovery and characterization of Nucleic acid sensors**
 
+8. [Stephen J. Elledge, Harvard Medical School](https://elledge.hms.harvard.edu/?page_id=63)
+- **Discoveries concerning the DNA-damage response — a fundamental mechanism that protects the genomes of all living organisms**
+
 
 #### **Transcriptional regulation and epigenetics**
 1. [Robert Tjian, University of California, Berkeley/HHMI](https://www.tjian-darzacq.mcb.berkeley.edu/tjian/)

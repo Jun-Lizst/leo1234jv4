@@ -16,14 +16,24 @@ title: Brain metabolic system
 
 <!--more-->
 
-**One the road of discovering new metabolic machinery......**
+Our research employs quantitative metabolomics to construct a comprehensive map of the metabolic landscape within the mammalian brain. Understanding this intricate environment is essential, as the availability and concentration of metabolites fundamentally dictate neuronal function, signaling, and pathology.
 
 ![talkxsszzz](/img/KEGG_maps_for_web.png)
 
 
 ---
-## Brain metabolic system
-Metabolism is physiologically fundamental to a biological system. Understanding brain metabolism is critical for our comprehensive knowledge of brain function in health and disease. In addition, brain is the most heterogeneous organ across whole body, in order to understand the metabolic basis, a detailed spatial metabolome atlas is needed. In our study, we combined a microarray collection system with targeted/untargeted metabolomics analysis and performed precision mapping of the metabolome in the mouse brain, and created maps for 79 metabolites with a resolution of 0.125mm3 per pixel (i.e., brain subregion).
+## 1. Spatial profiling of endogenous metabolites in mouse brain
+
+We focus on differentiating and quantifying two primary classes of metabolites in mouse brain tissue, one is **Endogenous Metabolites**, These are molecules produced by individual brain cells and present in the intarcellular spaces. This category includes critical cellular components such as: **Neurotransmitters**, **Amino Acids & Nucleotides**, **Lipids** and **Carbohydrates**.
+
+Second is **Exogenous Metabolites**, These are molecules that enter the brain via the blood-brain barrier (BBB) from the systemic circulation. This category includes systemic signals crucial for brain function: **Hormones** and **Systemic Amino Acids**.
+
+![talkxsszzz](/img/profling_endogenous_metas_in_brain.png)
+
+
+
+In our study, we designed a micro-tube collection array (MCA) system and integrated it with targeted/untargeted metabolomics analysis and performed precision mapping of the metabolome in the mouse brain, and created maps for 79 metabolites with a resolution of 0.125mm^3 per pixel (i.e., brain sub-region).
+
 
 ![talkxssqwe](/img/MCA_spatial_metabo.png)
 > **Figure 1 | Significant metabolomic heterogeneity across different brain regions.**
@@ -35,23 +45,23 @@ Metabolism is physiologically fundamental to a biological system. Understanding 
 
 
 
+**One the road of discovering new brain-active metabolites......**
+
+---
+## 2. Brain metabolome with high spatial resolution
+
+
+
 
 
 ---
-## Brain metabolome with high spatial resolution
-
-
-
-
-
----
-## Brain specific solute carrier (SLC) transporters
+## 3. Brain specific solute carrier (SLC) transporters
 ![talkxssqwe](/img/brainEC_transport.png)
 Endogenous metabolites play important roles in the regulation of cellular activity. Our brain is in a dynamic state, communication between different cell types (Excitatory neuron, Inhibitory neuron, Microglia, Oligodendrocyte, Astrocyte, ect) depends on small metabolites. Cerebrovascular spread to whole brain and import some metabolites from peripheral system or export some metabolites outside CNS. It is important to have a comprehensive profile for gene expression of transporters across brain vasculature segmentations.
 
 
 
-
+**One the road of discovering new metabolic machinery......**
 
 
 
