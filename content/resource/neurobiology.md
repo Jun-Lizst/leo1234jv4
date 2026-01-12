@@ -103,6 +103,23 @@ thumbnailImagePosition: left
     - Different patterns of activation of NMDA receptors (NMDARs) can lead to either long-term potentiation (LTP) or long-term depression (LTD) of synaptic strength. These long-lasting forms of synaptic plasticity are intensively studied because they may represent ways of encoding “memories” in the brain. How postsynaptic signaling enable memory storage is largely unknown. What is the internal molecular machinery that enable memory storage ?
 
 
+
+
+## Pioneers
+1. **Stephen W. Kuffler(1913-1980)**: Neurophysiologist and founding father of modern neurobiology. Born in Táp, Hungary, on August 24, 1913, he died on October 11, 1980, in Woods Hole, MA, USA, aged 67 years. [**Biography** [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESi3sZ3FB_NIr4HXb-VbuoMBtbPska8tvtRzns7Of9twdg?e=f2Vln4)]
+    - **Synaptic transmission**
+    - **GABA as an inhibitory neurotransmitter**
+
+2. **Solomon H. Snyder**: Snyder's finding of receptors for neurotransmitters and medicines, as well as the characterization of psychotropic agent activities, has resulted in many breakthroughs in molecular neuroscience. [[Talk video](https://youtu.be/DO0217PZAV4)] [**Biography: A Life of Neurotransmitters** [PDF](https://www.annualreviews.org/content/journals/10.1146/annurev-pharmtox-010716-104511#)]
+    - **Co-discovered the opioid receptor** and later identified the existence of normally occurring opiate-like peptides in the brain.
+    - **Characterization of novel neurotransmitters**, like the gases NO and CO and the D-isomers of amino acids, including D-serine.
+    - **Co-founder of Nova Pharmaceuticals and Guilford Pharmaceuticals**
+
+
+
+
+
+
 ---
 ### II. **learning and memory**
 

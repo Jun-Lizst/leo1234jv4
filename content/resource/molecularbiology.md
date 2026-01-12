@@ -34,7 +34,7 @@ thumbnailImagePosition: left
 
 
 - **Brain endothelial cell targeting**: 
-    - **rAAV-miniBEND system**: Highest specificity to brainECs. [[DOI Link](https://doi.org/10.1101/2025.06.10.658979)] **(Highly recommended!)**
+    - **rAAV-miniBEND system**: Highest specificity to brainECs in all developmental stages for both Mouse and Rat. [[PMID: 41162685](https://pubmed.ncbi.nlm.nih.gov/41162685/) | [DOI Link](https://doi.org/10.1038/s41551-025-01538-x)] **(Highly recommended!)**
     - AAV-BR1: transduce Neurons(Cortex, Striatum, Cerebellum); Brain endothelial cells(Whole brain and spinal cord); has central nervous system specificity. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERka7Rr3iDhLhVZTKh8dj7ABHgOXCwzpN2avX_XUSP8jvw?e=0AOQ70) | [PMID: 27137490](https://pubmed.ncbi.nlm.nih.gov/27137490/) | [DOI Link](https://doi.org/10.15252/emmm.201506078)]
     - AAV-BI30: AAV9 variants, with liver leakage, has brainEC specificity when used in adult mice. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EUxMCsFh91tDl49LHoAorpkBT1REK6IuHFHofD7ze-dcFA?e=Z0s0iN) | [PMID: 35571675](https://pubmed.ncbi.nlm.nih.gov/35571675/) | [DOI Link](https://doi.org/10.1038/s44161-022-00046-4)]
     - AAV-X1.1: AAV9 variants, not specific when retro-orbitally injected into rat.
@@ -197,6 +197,10 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
 - **Oxytocin (OT)**:
   - GRAB-OT[[GRAB-OT1.0](https://doi.org/10.1038/s41587-022-01561-2)]
 
+**| Engineered intracellular second messenger sensors**
+- **Adenosine**:
+  - GRABAdo1.0:
+  - HypnoS: [[DOI Link](https://doi.org/10.1038/s41467-025-59530-7)]
 
 - **Glucose**:
     - iGlucoSnFR: A genetically encoded single-wavelength sensor for imaging cytosolic glucose [[PMID: 34161775](https://pubmed.ncbi.nlm.nih.gov/34161775/) | [DOI Link](https://doi.org/10.1016/j.celrep.2021.109284)]
@@ -244,14 +248,7 @@ fuoresces in mammalian cells and tissues. miRFP718nano has maximal emission at 7
 
 
 ## Pioneers
-1. **Stephen W. Kuffler(1913-1980)**: Neurophysiologist and founding father of modern neurobiology. Born in Táp, Hungary, on August 24, 1913, he died on October 11, 1980, in Woods Hole, MA, USA, aged 67 years. [**Biography** [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ESi3sZ3FB_NIr4HXb-VbuoMBtbPska8tvtRzns7Of9twdg?e=f2Vln4)]
-    - **Synaptic transmission**
-    - **GABA as an inhibitory neurotransmitter**
 
-2. **Solomon H. Snyder**: Snyder's finding of receptors for neurotransmitters and medicines, as well as the characterization of psychotropic agent activities, has resulted in many breakthroughs in molecular neuroscience. [[Talk video](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EYM-PFMexBRGpMbUa5lOfSoBJAksIGtWJD3GH_X1otr_GA?e=rjpFaH)] [**Biography: A Life of Neurotransmitters** [PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/ERD2vU-Uo7VLuxI0ldTjXK8BChBVhpds_TwEAjjV4bbZmg?e=2BeB1c)]
-    - **Co-discovered the opioid receptor** and later identified the existence of normally occurring opiate-like peptides in the brain.
-    - **Characterization of novel neurotransmitters**, like the gases NO and CO and the D-isomers of amino acids, including D-serine.
-    - **Co-founder of Nova Pharmaceuticals and Guilford Pharmaceuticals**
 
 
 

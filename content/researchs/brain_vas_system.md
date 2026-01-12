@@ -28,9 +28,9 @@ title: Brain vasculature system
 ---
 ## I. To understand the molecular basis of physiological process of brain endothelial cells
 ![talkxssqwe](/img/576078_548648.png)
-Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells (ECs) are one of the major components of brain vasculature system and involved in many kinds of genetic diseases and neuroninflammation related diseases, like **bAVM, CCM, HHT, IA (Intracranial aneurysm)，multiple sclerosis (MS)** and **stroke**. We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
+Our goal is to understand the principles underlying the formation of the brain vasculature system. Brain endothelial cells (ECs) are one of the major components of brain vasculature system and involved in many kinds of genetic diseases and neuroninflammation related diseases, like **bAVM, CCM, HHT, IA (Intracranial aneurysm), multiple sclerosis (MS)** and **stroke**. We are developing and applying cutting edge technologies to interrogate the signal transduction pathways that involved in disease progression.
 
->**Q1.** How is BBB Permeability dynamically regulated ?\
+>**Q1.** How is BBB Permeability dynamically regulated in health or disease state ?\
  **Q2.** What are the molecular machineries that mediate transcytosis and how do they work cooperatively ?
 ---
 

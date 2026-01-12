@@ -39,9 +39,8 @@ thumbnailImagePosition: left
 4. ***Pdgfrb-Cre***: Pericyte labeling. [DOI Link](https://doi.org/10.1002/dvg.20769)
 5. ***Pdgfrb-CreERT2***: Pdgfrb-CreERT2 transgenic mice is suitable for Pericyte labeling, the result of Pdgfrb-CreERT2::Ai14 is very clean and specific. [[JAX Strain #:029684](https://www.jax.org/strain/029684) | [Genotyping Protocol](https://www.jax.org/Protocol?stockNumber=029684&protocolID=20745) | [DOI Link](https://doi.org/10.1038/ki.2015.274)]
 6. ***BMX-CreERT2***: Artery EC labeling.  [[Genotyping Protocol](https://static1.squarespace.com/static/542b27b6e4b04193388466d4/t/58ee4b7b9f745687d35f380f/1492011904519/Tg+%28BMX-CreERT2%29+Genotyping.pdf)] 
-7. ***Slco1c1-KI-P2A-iCreERT2***: Brain specific EC labeling(including spinal cord). [Woo-Ping Ge lab, Design by Jun-Liszt Li, [Contact](https://www.cibr.ac.cn/science/team/detail/404?language=en)]
+7. ***Slco1c1-KI-P2A-iCreERT2***: Brain specific EC labeling (including spinal cord). [Woo-Ping Ge lab, Design and characterized by Jun-Liszt Li, [Contact]() | [PMID: 33563078 ](https://pubmed.ncbi.nlm.nih.gov/33563078/) | [DOI Link](https://doi.org/10.1177%2F0271678X21992625)]
 
-8. 
 
 
 
@@ -195,6 +194,10 @@ thumbnailImagePosition: left
 - **Sydney Brenner (1927-2019)**, The Molecular Sciences Institute, Berkeley, CA, USA
    - [Public Interview](https://youtu.be/Qlay8-SdI0E)
 
+- **Victor Ambros (1953- )**, UMass Chan Medical School, Worcester, MA, USA
+   - [Biography]: Victor Ambros grew up in Vermont and graduated from MIT in 1975. He did his graduate research (1976-1979) with David Baltimore at MIT, studying poliovirus genome structure and replication. He began to study the genetic pathways controlling developmental timing in the nematode C. elegans as a postdoc in H. Robert Horvitz's lab at MIT, and continued those studies while on the faculty of Harvard (1984-1992), Dartmouth (1992-2007), and the University of Massachusetts Medical School (2008-present). In 1993, members of the Ambros lab identified the first microRNA, the product of lin-4, a heterochronic gene of C. elegans. Since then, the role of microRNAs in development has been a major focus of his research.
+   - [Lab website](https://www.umassmed.edu/ambroslab/)
+
 
 ---
 # Drosophila melanogaster
@@ -210,9 +213,9 @@ Seymour Benzer with mega-Drosophila, 1974.
 
 - **Norbert Perrimon**, Harvard Medical School/HHMI [[Lab Link](https://perrimon.med.harvard.edu/)]
     - Developed the Gal4/UAS system, with [Andrea Brand](https://andreabrandlab.org/)\
-    [ ] Brand A H, Perrimon N. Targeted gene expression as a means ofaltering cell fates and generating dominant phenotypes. development, 1993,118(2): 401-415.[[PMID:8223268](https://pubmed.ncbi.nlm.nih.gov/8223268/) | [DOI Link](https://doi.org/10.1242/dev.118.2.401)]
+     -- Brand A H, Perrimon N. Targeted gene expression as a means ofaltering cell fates and generating dominant phenotypes. development, 1993,118(2): 401-415.[[PMID:8223268](https://pubmed.ncbi.nlm.nih.gov/8223268/) | [DOI Link](https://doi.org/10.1242/dev.118.2.401)]
     - Developed the RNAi screen system in Drosophila cells \
-    [ ] Boutros M, Kiger A A, Armknecht S, et al. Genome-wide RNAi analysis of growth and viability in Drosophila cells. Science, 2004, 303(5659): 832-835. [[PMID:14764878](https://pubmed.ncbi.nlm.nih.gov/14764878/) | [DOI Link](https://doi.org/10.1126/science.1091266)]
+     -- Boutros M, Kiger A A, Armknecht S, et al. Genome-wide RNAi analysis of growth and viability in Drosophila cells. Science, 2004, 303(5659): 832-835. [[PMID:14764878](https://pubmed.ncbi.nlm.nih.gov/14764878/) | [DOI Link](https://doi.org/10.1126/science.1091266)]
 
 
 ### Ref. Websites
@@ -224,21 +227,22 @@ Seymour Benzer with mega-Drosophila, 1974.
 ---
 # Yeast
 
-
-
-
-
-
+![sceyeast](/img/Sce_yeast.jpg)
 
 
 ### Ref protocol
-2. **EMS based Genetic screen**
+1. **EMS based Genetic screen**
     - Tsukada, Miki, and Yoshinori Ohsumi. "Isolation and characterization of autophagy-defective mutants of Saccharomyces cerevisiae." FEBS letters 333.1-2 (1993): 169-174. [[PMID: 8224160](https://pubmed.ncbi.nlm.nih.gov/8224160/) | [DOI Link](https://doi.org/10.1016/0014-5793(93)80398-E)]
       - **Key details**: BJ3505 cells were grown in YEPD to stationary phase, and then suspended in 340 μl of 0.1 M sodium phosphate buffer (pH 7.0) and treated with **10 μl EMS** for 60 min at 30°C; the survival rate was 40-50%. The mutagenized culture (20 μl) was diluted with 780 μl of 5% sodium thiosulfate and spread on YEPD plates.  
 
     - L.H. Hartwell,J. Culotti, & B. Reid,  Genetic Control of the Cell-Division Cycle in Yeast, I. Detection of Mutants, Proc. Natl. Acad. Sci. U.S.A. 66 (2) 352-359, [[DOI Link](https://doi.org/10.1073/pnas.66.2.352)]
       - **Key details**: **Mutant isolation:** A culture of S. cerevisiae, strain A364A, was grown from a small inoculum overnight at 36 ℃. in YM-1. While still growing logarithmically, 50 ml of culture was shifted to 23 ℃. and 0.2 ml of a solution containing 4 mg (per ml) of N-methyl-N'-nitro-N-nitrosoguanidine was added. Samples containing 0.5 ml of the culture were immediately distributed to a large number of tubes. The tubes were then rotated for a period of 5 hr (survival, 0.2 to 1.0%), after which time samples were removed, diluted, plated on YEPD-TAU plates, and incubated at 23 ℃. When colonies appeared, the pattern was replicated onto two plates, the first of which was incubated at 36 C and the second of which was incubated at 23 ℃. Colonies which grew up on the latter but not the former (approximately 1% of the total number of colonies) were picked, diluted with water, and streaked onto two YEPD-TAU plates, which were again incubated at the two temperatures. Clones which formed approximately 1,000 colonies on the 23 ℃. plate and no colonies on the 36 C plate were picked from the low-temperature plate and designated as ts- mutants. Only one or two mutants were isolated from a single mutagen-treated culture tube.
 
+
+
+
+### Ref. Websites
+1. [YeastGFP](https://yeastgfp.yeastgenome.org/): The YeastGFP database (the Yeast GFP Fusion Localization Database) of global analysis of protein localization studies in the budding yeast, S. cerevisiae, was originally designed and built by the laboratories of Erin O'Shea and Jonathan Weissman at the University of California, San Francisco.  It is now hosted by SGD.
 
 
 
@@ -252,7 +256,7 @@ Seymour Benzer with mega-Drosophila, 1974.
 
 
 ### Ref protocol
-2. **Genetic screen**
+1. **Genetic screen**
 - ENU mutagenesis, forward genetic screen
     - Patton E E, Zon L I. The art and design of genetic screens: zebrafish[J]. Nature Reviews Genetics, 2001, 2(12): 956-966. [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EarLtv_CAstMu0i1aFwvOl8BIfliaa_OPEpMmDnEjvNPRw?e=nDXbMJ) | [PMID: 11733748](https://pubmed.ncbi.nlm.nih.gov/11733748/) | [DOI Link](https://doi.org/10.1038/35103567)]
 

@@ -15,6 +15,19 @@ keywords:
 comments:       T
 showMeta:       false
 showActions:    false
+gallery:
+- /img/Prague_city0.jpg /img/Prague_city0.jpg 
+  "Prague"
+- /img/prague_castle_cloud.jpg /img/prague_castle_cloud.jpg
+  "Prague Castle"
+- /img/Prague_city5.jpg /img/Prague_city5.jpg
+  "Prague Night"
+- /img/Prague_city4.jpg /img/Prague_city4.jpg
+  "Old Town Hall with Astronomical Clock"
+- /img/Prague_city3.jpg /img/Prague_city3.jpg
+  "Prague Snow"
+- /img/Prague_city2.jpg /img/Prague_city2.jpg
+  "Prague, A fairytale city"
 #thumbnailImage: //example.com/image.jpg
 ---
 
@@ -98,6 +111,12 @@ By Jun-Liszt Li
 
 ![leogrillxx2](/img/Prague_life2.jpg)
 
+![Parislife](/img/Paris_France_people.jpg)
+
+
+![citiesfrance](/img/Tuileries_garden.jpg)
+> In Jardin des Tuileries, Paris, France, 11/2025
+
 
 
 ---
@@ -109,10 +128,24 @@ By Jun-Liszt Li
 
 
 
+
+
 ---
 ## With Scientific Giants
 
 
+
+
+> In Frankfurt am Main, Germany, 04/2025
+
+
+
+
+
+
+> With Georg Nagel (Left), 
+During Professor Nagel visit HZAU campus, at Wuhan, China, 07/2016
+**[Georg Nagel](https://brainprize.org/winners/optogenetics-2013/georg-nagel)** is the pioneer of optogenetics technology who discovered channelrhodopsins (ChR1 and ChR2).
 
 
 ---
@@ -121,9 +154,10 @@ By Jun-Liszt Li
 
 
 
-
+---
 
 **......**
 
+---
 
 

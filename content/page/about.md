@@ -22,11 +22,13 @@ showActions:    false
 
 ## Personal Statement
 
-Hello, My name is Jun-Liszt Li. I am currently working as a postdoc researcher in [David M. Sabatini lab (IOCB Boston and IOCB Prague)](https://iocbboston.org/#groups), a leading center for nutrient sensing and growth control research. My research focus is to understand the upstream logic of mTORC1 nutrient sensing pathway. At the Sabatini Lab, I have been fortunate to receive rigorous training in biochemistry and mechanistic cell biology. This experience not only refined my experimental precision but also shaped the way I think about scientific questions — emphasizing clarity, reproducibility, and the pursuit of fundamental molecular principles.
+Hello, My name is Jun-Liszt Li. I am currently working as a postdoc researcher in [David M. Sabatini lab (IOCB Boston and IOCB Prague)](https://www.davidsabatinilab.com/), a leading center for nutrient sensing and growth control research. My research focus is to understand the upstream logic of mTORC1 nutrient sensing pathway. At the Sabatini Lab, I have been fortunate to receive rigorous training in biochemistry and mechanistic cell biology. This experience not only refined my experimental precision but also shaped the way I think about scientific questions — emphasizing clarity, reproducibility, and the pursuit of fundamental molecular principles.
 
-Previously, I was working as a PhD graduate student in PKU-CIBR joint program of [Peking University](https://english.pku.edu.cn/). My long-term goal is to discover and characterize basic mechanisms underlying cell growth (Vascular cells and Neurons). In addition, I worked on next-generation gene delivery tools (rAAV vector/capsid engineering), next-generation sequencing (RNAseq/scRNAseq), Proteomics, advanced microscopic imaging (confocal/lightsheet/2p) in order to apply these technologies to explore animal physiology and address specific questions. 
+Previously, I received my PhD from the PKU–CIBR joint program at [Peking University](https://english.pku.edu.cn/). My long-term goal is to discover and characterize basic mechanisms underlying cell growth (Vascular cells and Neurons). During my doctoral training, I worked extensively on next-generation gene delivery technologies, including rAAV capsid engineering and vector optimization, and integrated these tools with high-throughput sequencing (RNA-seq, single-cell RNA-seq), and advanced imaging platforms (confocal, light-sheet, and two-photon microscopy) in order to apply these technologies to explore animal physiology and address specific questions. 
 
-I would like to highlight five publications demonstrating my expertise with RNAseq/scRNAseq methods.
+My long-term goal is to become a **cell biology architect — someone who defines not just mechanisms, but the construction rules of specific biological system**. I want to understand why certain molecular architectures are necessary, how they enforce stability and plasticity, and how altering these architectures reshapes system-level behavior.
+
+I would like to highlight five publications demonstrating my expertise in molecular dissection, genetic perturbation, and system-level analysis, and that reflect my commitment to building mechanistic clarity in complex biological contexts.
 
 1. ***Jun-Liszt Li#*** &para;, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling.” **Nature Biomedical Engineering** **(29/10/2025)** [[PDF](https://www.nature.com/articles/s41551-025-01538-x.pdf) | [PMID: 41162685](https://pubmed.ncbi.nlm.nih.gov/41162685/) | [DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
 _**First author**_
@@ -62,6 +64,7 @@ _**First author**_
 - scRNAseq & Spatial transcriptomics
 - Metabolomics & Spatial metabolomics
 - Proteomics (AP-MS)
+
 
 ---
 ## Education
@@ -122,7 +125,7 @@ Advised by: [Dr.Xiaoqun Wang, Ph.D.](http://wanglaboratory.org/?list_4/)
 Skills including: single cell isolation, library construction, scRNA-seq data analysis( 
 Linux system operation, R statistic analysis).
 
-**Undergraduate Researcher, National institute of Biological Science (NIBS), Tsinghua University**\
+**Undergraduate Researcher, [National institute of Biological Science (NIBS)](http://www.nibs.ac.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm)**\
 JANUARY 2018 — SEPTEMBER 2018\
 Advised by: [Dr.Minmin Luo, Ph.D.](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=775)
 
@@ -184,17 +187,18 @@ Beijing, China
 and Zhongguancun Life Science Park Development Symposium, 2019, Beijing, 
 China
 7. **Attendee**, Beijing International Academic Exchange Season-Brain Science and 
-Brain-like Intelligence Research Symposium, Beijing Normal University, 2018, 
+Brain-like Intelligence Research Symposium, Beijing Normal University, 10/2018, 
 Beijing, China
 8. **Attendee**, International Workshop of Neuron Reconstruction and 
-Applications, 2018, SEU-Allen Joint Institute, Nanjing, China
-9. **Poster**, P.C., H.K.J., B.Y.Z., **J.L. (Jun Li)**, Z.X.D., X.X., B.C.C., Q.L.Z., B.G.M. et.al. Bio-Pattern 
+Applications, 09/2018, SEU-Allen Joint Institute, Nanjing, China
+9. **Attendee**, International academic Symposium of Gene editing, 03/2018, State Key Laboratory of Natural and Biomimetic Drugs, Peking University, Beijing, China
+10. **Poster**, P.C., H.K.J., B.Y.Z., **J.L. (Jun Li)**, Z.X.D., X.X., B.C.C., Q.L.Z., B.G.M. et.al. Bio-Pattern 
 Formation in Augmented Reality (BioPaFiAR), Giant Jambree iGEM meeting, 
 2016, MIT Cambridge, Massachusetts, USA
-10. **Poster**, L.Q.D., L.Z.Y., Y.K.J., Z.'., Z.'.Y.J.'., **L.J. (Jun Li)**,C.P., X.Y.B., H.K.J., X.S.'., L.S.J., G.Q.Q., Q.Y., B.G.M., Mixed-Reality 
+11. **Poster**, L.Q.D., L.Z.Y., Y.K.J., Z.'., Z.'.Y.J.'., **L.J. (Jun Li)**,C.P., X.Y.B., H.K.J., X.S.'., L.S.J., G.Q.Q., Q.Y., B.G.M., Mixed-Reality 
 Cell-Bidirectional coupling between real and virtual bio-oscillators, Giant 
 Jambree iGEM meeting, 2015, MIT Cambridge, Massachusetts, USA
-11. **Poster**, L.Q.D.,L.Z.Y.,Y.K.J.,Z.'.,Z.'.Y.J.'.,**L.J. (Jun Li)**,
+12. **Poster**, L.Q.D.,L.Z.Y.,Y.K.J.,Z.'.,Z.'.Y.J.'.,**L.J. (Jun Li)**,
 C.P., X.Y.B., H.K.J., X.S.'., L.S.J., G.Q.Q., Q.Y., B.G.M., Mixed-Reality 
 Cell-Bidirectional coupling between real and virtual bio-oscillators, 
 CCIC (Conference of China iGEMers Committee) meeting, 2015, Peking 
@@ -230,7 +234,7 @@ honored by the president of HZAU), 09/2014, Huazhong Agricultural University
 
 ## Awards
 1. **Bronze medal of iGEM-2016 Competition** (International Genetically Engineered 
-Machine Competition), 11/2016, MIT Cambridge, Massachusetts, USA
+Machine Competition), 10/2016, MIT Cambridge, Massachusetts, USA
 2. **Gold medal and Best nomination of iGEM-2015 Competition** (International 
 Genetically Engineered Machine Competition), 09/2015, MIT Cambridge, Massachusetts, USA
 3. **First prize of Academic excellence**,03/2017, College of Life science and 
