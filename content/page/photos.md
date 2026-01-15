@@ -53,6 +53,27 @@ gallery:
 
 
 ---
+## With Scientific Giants
+
+
+> With Victor Robert Ambros (Middle),
+During Professor Victor gave a talk at Charles University, at Prague, Czech Republic, 2025
+
+
+![giantjames](/img/with_james_chen_frankfurt.jpg)
+> With Zhijian (James) Chen (Right),
+During Professor James was awarded the Paul Ehrlich and Ludwig Darmstaedter Prize for 2025, at Frankfurt am Main, Germany, 04/2025\
+**[Zhijian (James) Chen](https://laskerfoundation.org/winners/cgas-enzyme-that-senses-self-and-foreign-dna/)** is the first one who discovered the DNA sensor-cGAS and is laureate of [the Breakthrough Prize in Life Sciences (2019)](https://breakthroughprize.org/Laureates/2/L3848) and the Lasker Award (2024). 
+
+
+
+
+> With Georg Nagel (Left), 
+During Professor Nagel visit HZAU campus, at Wuhan, China, 07/2016
+**[Georg Nagel](https://brainprize.org/winners/optogenetics-2013/georg-nagel)** is the pioneer of optogenetics technology who discovered channelrhodopsins (ChR1 and ChR2).
+
+
+---
 ## Art works
 
 ![leogrillxx2](/img/Prague_life0.jpg) 
@@ -103,6 +124,9 @@ By Jun-Liszt Li
 
 
 
+
+
+
 ---
 ## European Life style
 
@@ -126,26 +150,6 @@ By Jun-Liszt Li
 > In Frankfurt am Main, Germany, 04/2025
 
 
-
-
-
-
----
-## With Scientific Giants
-
-
-
-
-> In Frankfurt am Main, Germany, 04/2025
-
-
-
-
-
-
-> With Georg Nagel (Left), 
-During Professor Nagel visit HZAU campus, at Wuhan, China, 07/2016
-**[Georg Nagel](https://brainprize.org/winners/optogenetics-2013/georg-nagel)** is the pioneer of optogenetics technology who discovered channelrhodopsins (ChR1 and ChR2).
 
 
 ---

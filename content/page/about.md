@@ -24,7 +24,13 @@ showActions:    false
 
 Hello, My name is Jun-Liszt Li. I am currently working as a postdoc researcher in [David M. Sabatini lab (IOCB Boston and IOCB Prague)](https://www.davidsabatinilab.com/), a leading center for nutrient sensing and growth control research. My research focus is to understand the upstream logic of mTORC1 nutrient sensing pathway. At the Sabatini Lab, I have been fortunate to receive rigorous training in biochemistry and mechanistic cell biology. This experience not only refined my experimental precision but also shaped the way I think about scientific questions — emphasizing clarity, reproducibility, and the pursuit of fundamental molecular principles.
 
-Previously, I received my PhD from the PKU–CIBR joint program at [Peking University](https://english.pku.edu.cn/). My long-term goal is to discover and characterize basic mechanisms underlying cell growth (Vascular cells and Neurons). During my doctoral training, I worked extensively on next-generation gene delivery technologies, including rAAV capsid engineering and vector optimization, and integrated these tools with high-throughput sequencing (RNA-seq, single-cell RNA-seq), and advanced imaging platforms (confocal, light-sheet, and two-photon microscopy) in order to apply these technologies to explore animal physiology and address specific questions. 
+My scientific interest originate from a persistent question encountered throughout my training: **how cells decide when to grow, specialize, or preserve function under constraint.**
+
+Previously, I received my PhD from the PKU–CIBR joint program at [Peking University](https://english.pku.edu.cn/). During my PhD, while studying endothelial cell growth in the context of brain vascular malformations, I became increasingly aware of a conceptual gap in cell growth biology. Classical signaling pathways, such as VEGF, Notch, and TGF-β, **explain how growth is instructed, but not when growth is permitted**. Endothelial cells must continuously balance proliferation with barrier integrity, particularly under metabolic and environmental constraints. Growth-factor signaling alone could not fully account for this decision-making process.
+
+This realization led me to view nutrient availability not as a passive metabolic parameter, but as a fundamental layer of growth control. The mTORC1 pathway, particularly its upstream nutrient-sensing machinery, represents a cellular decision node that integrates internal resource status with external growth cues. Rather than modulating the speed of growth, nutrient sensing determines whether growth is allowed at all. By elucidating how cells sense nutrients to make growth decisions, this work will address a fundamental constraint shared by all long-lived systems: **how to balance growth with maintenance under limited resources**. **Understanding this decision logic opens new conceptual paths toward extending healthy lifespan without blunt pharmacological inhibition.**
+
+During my doctoral training, I also worked extensively on next-generation gene delivery technologies, including rAAV capsid engineering and vector optimization, and integrated these tools with high-throughput sequencing (RNA-seq, single-cell RNA-seq), and advanced imaging platforms (confocal, light-sheet, and two-photon microscopy) in order to apply these technologies to explore animal physiology and address specific questions. 
 
 My long-term goal is to become a **cell biology architect — someone who defines not just mechanisms, but the construction rules of specific biological system**. I want to understand why certain molecular architectures are necessary, how they enforce stability and plasticity, and how altering these architectures reshapes system-level behavior.
 
@@ -32,13 +38,14 @@ I would like to highlight five publications demonstrating my expertise in molecu
 
 1. ***Jun-Liszt Li#*** &para;, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling.” **Nature Biomedical Engineering** **(29/10/2025)** [[PDF](https://www.nature.com/articles/s41551-025-01538-x.pdf) | [PMID: 41162685](https://pubmed.ncbi.nlm.nih.gov/41162685/) | [DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
 _**First author**_
-    - By rAAV-miniBEND mediated bAVM modeling and **snRNAseq analysis**, we identified key pathways or genes involved in bAVM onset and its progression. venous endothelial cells (vECs) is the most relevant endothelial cell subpopulation responsible for bAVM formation. 
+    - By rAAV-miniBEND mediated **bAVM modeling** and **snRNAseq analysis**, we identified key pathways or genes involved in bAVM onset and its progression. venous endothelial cells (vECs) is the most relevant endothelial cell subpopulation responsible for bAVM formation. 
 
 2. Samuel Lundt#, Nannan Zhang#, ***Jun-Liszt Li*** &para;, Zhe Zhang, Xiaowan Wang, Ruisi Bao, Feng Cai, Wenzhi Sun, Woo-Ping Ge, Shinghua Ding✝ “Metabolomic and transcriptional profiling reveals bioenergetic stress and activation of cell death and inflammatory pathways in vivo after neuronal deletion of NAMPT.”  **Journal of Cerebral Blood Flow & Metabolism** **(09/02/2021)** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeMdie0AmzVFtF0Ibrj84w8BfCFt-J6ysC9ZgNv4z_yzIA?e=cgKWnC) | [PMID: 33563078](https://pubmed.ncbi.nlm.nih.gov/33563078/) | [DOI Link](https://doi.org/10.1177%2F0271678X21992625)]  _**Second author**_
     - By **RNAseq analysis**, we identified the activated downstream gene programs after neuronal deletion of a important enzyme in NAD+ salvage pathway. 
 
-3. Xiaofei Gao#, Xing-jun Chen#, Meng Ye, ***Jun-Liszt Li*** &para;, Nannan Lu, Di Yao, Bo Ci, Fei Chen, Lijun Zheng, Yating Yi, Shiwen Zhang, Zhanying Bi, Xinwei Gao, Yuanlei Yue, Tingbo Li, Jiafu Lin, Ying-Chao Shi, Kaibin Shi, Nicholas E. Propson, Yubin Huang, Katherine Poinsatte, Zhaohuan Zhang, Dale B. Bosco, Shi-bing Yang, Ralf H. Adams, Volkhard Lindner, Fen Huang, Long-Jun Wu, Hui Zheng, Simon Hippenmeyer, Ann M. Stowe, Bo Peng, Marta Margeta, Qingchun Guo, Xiaoqun Wang, Qiang Liu, Jakob Körbelin, Martin Trepel, Hui Lu, Guoen Cai, Bo O. Zhou, Bo Shen, Ying-mei Lu, Wenzhi Sun, Jie-Min Jia, Feng Han, Hu Zhao, Robert M. Bachoo & Woo-ping Ge✝ "Reduction of neuronal activity mediated by blood-vessel regression in the brain." **Nature Communications** **(01/07/2025)** [[PDF](https://www.nature.com/articles/s41467-025-60308-0.pdf) | [PMID: 40595484](https://pubmed.ncbi.nlm.nih.gov/40595484/) | [DOI Link](https://doi.org/10.1038/s41467-025-60308-0)]
+3. Xiaofei Gao#, Xing-jun Chen#, Meng Ye, ***Jun-Liszt Li*** &para;, Nannan Lu, Di Yao, Bo Ci, Fei Chen, Lijun Zheng, Yating Yi, Shiwen Zhang, Zhanying Bi, Xinwei Gao, Yuanlei Yue, Tingbo Li, Jiafu Lin, Ying-Chao Shi, Kaibin Shi, Nicholas E. Propson, Yubin Huang, Katherine Poinsatte, Zhaohuan Zhang, Dale B. Bosco, Shi-bing Yang, Ralf H. Adams, Volkhard Lindner, Fen Huang, Long-Jun Wu, Hui Zheng, Simon Hippenmeyer, Ann M. Stowe, Bo Peng, Marta Margeta, Qingchun Guo, Xiaoqun Wang, Qiang Liu, Jakob Körbelin, Martin Trepel, Hui Lu, Guoen Cai, Bo O. Zhou, Bo Shen, Ying-mei Lu, Wenzhi Sun, Jie-Min Jia, Feng Han, Hu Zhao, Robert M. Bachoo & Woo-ping Ge✝ "Reduction of neuronal activity mediated by blood-vessel regression in the adult brain." **Nature Communications** **(01/07/2025)** [[PDF](https://www.nature.com/articles/s41467-025-60308-0.pdf) | [PMID: 40595484](https://pubmed.ncbi.nlm.nih.gov/40595484/) | [DOI Link](https://doi.org/10.1038/s41467-025-60308-0)]
     - By **RNAseq analysis**, we identified blood vessel regression cause a reduction of neuronal activity due to downregulated of gene cluster pertaining to glutamatergic transmission.
+    - By Creating a brain-endothelial cell specific Cre driver line, **Slco1c1-KI-iCreERT2**, we use mouse genetics to provide evidence that TAK1 is necessary to maintain the stability of Neurovascular unit (NVU) in the brain.
 
 4. Yihui Wang#, Yue Liang#, Daosheng Ai, ***Jun-Liszt Li*** &para;, Ziyan Feng, Zhibao Guo, Xing-jun Chen, Tingting Zhang, Xiaoxiao Zou, Jun-Li Gao, Xiaofei Gao, Xiao-Ling Hu, Long-Jun Wu, Wenzhi Sun, Suiqiang Zhu, Shumin Duan, Wei Wang✝, Woo-ping Ge✝ "ADAM10 mediates macroglial cell fate decisions in the developing brain." **BioRxiv** **(12/02/2023)**  [[PDF](https://www.biorxiv.org/content/10.1101/2023.02.11.527059v1.full.pdf) | [DOI Link](https://doi.org/10.1101/2023.02.11.527059)] **Under revision in Developmental Cell**
     - By **RNAseq analysis**, We identified a gene program regulated by Adam10 that promote early oligodendrocyte differentiation and repress astrocyte differentiation.
@@ -58,7 +65,7 @@ _**First author**_
 - AAV biology
 
 
-##### **Technology**
+##### **Technology development**
 - AAV capsid engineering
 - rAAV vector engineering 
 - scRNAseq & Spatial transcriptomics
@@ -99,23 +106,23 @@ Advised by: [Dr.David M. Sabatini, M.D., Ph.D.](https://www.davidsabatinilab.com
 
 **Graduate student, [Peking University](https://english.pku.edu.cn/) & [Chinese institute for Brain Research (CIBR)](https://www.cibr.ac.cn/)**\
 MARCH 2019 — DECEMBER 2023\
-Advised by: [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en) and [Dr.Wooping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) 
+Advised by: [Dr.Wenzhi Sun, Ph.D.](https://www.cibr.ac.cn/science/team/detail/405?language=en) and [Dr.Woo-ping Ge, Ph.D.](https://www.cibr.ac.cn/science/team/detail/404?language=en) 
 
-- Focusing on AAV capsid engineering and make molecular/genetic tools for study of brain 
-vasculature system.
-- Applying Next-generation microscopy (Confocal, Lightsheet, Two photon) 
+- **Dissertation:** “A brain vascular endothelial cell targeted gene delivery system based on
+recombinant AAV vector: its development and applications”
+- **Second project:** Spatial profiling of brain metabolome with LC-MS and MALDI
 technology into study of brain vasculature system.
-- Applying Next-generation omics technology (Transcriptomics; Metabolomics) to 
-study the molecular architecture of brain metabolic system.
+- **Skills:** Mouse genetics, molecular biology, rAAV packaging, Confocal imaging, Cranial window
+surgery and Two-Photon imaging, bioinformatic analysis (RNAseq/sc-RNAseq, metabolomics)
 
 **Rotation student, [National institute of Biological Science (NIBS)](http://www.nibs.ac.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm)**\
 DECEMBER 2018 — FEBRUARY 2019\
 Advised by: [Dr.Qinghua Liu, Ph.D.](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=8&sid=25&id=1488)
 
-- Learning knowledge and research approaches(Genetic screen) in the Sleep field.
-- Designing and implementing Automatic sleep staging system based on manifold 
-and deep learning algorithm(EEG/EMG data processing); Automatic video tracking 
-based sleep staging system based on computer vision algorithms.
+- Gained training in mouse genetics and somatic genetics approaches to study the biological basis of sleep need.
+- Designing and implementing automatic sleep staging system based on manifold and deep learning
+algorithm (EEG/EMG data processing); Primary neuron culture
+- During this rotation, I was exposed to foundational concepts in sleep biology and had the opportunity to discuss early discoveries in the field with [Dr. Masashi Yanagisawa](https://breakthroughprize.org/Laureates/2/L3925).
 
 **Rotation student, Institute of Biophysics (IBP), Chinese Academy of Sciences**\
 SEPTEMBER 2018 — DECEMBER 2018\
@@ -129,9 +136,8 @@ Linux system operation, R statistic analysis).
 JANUARY 2018 — SEPTEMBER 2018\
 Advised by: [Dr.Minmin Luo, Ph.D.](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=775)
 
-- Designing and implementing a cell lethality Reporter(CLR) based system for 
-orphan GPCRs high throughput screening(HTS) and novel kinase activity Reporter 
-system
+- Designed and implemented a cell lethality-based reporter(CLR) system for high throughput screening(HTS) of orphan GPCRs. 
+- Developed a novel live-cell reporter system for monitoring kinase activity.
 
 **Undergraduate Researcher, HuaZhong Agricultural University**\
 SEPTEMBER 2015 — JANUARY 2017\
@@ -209,7 +215,7 @@ University, Beijing, China
 # Honors & Awards （APRIL 2014 — PRESENT）
 
 ## Honors
-1. **IOCB postdoctoral fellowship**, 10/2024, Institute of Organic Chemistry and Biochemistry of the Czech
+1. **IOCB postdoctoral fellowship**, 10/2024-10/2026, Institute of Organic Chemistry and Biochemistry of the Czech
 Academy of Sciences, Czech Republic
 2. **China Optics Valley Scholarship**, 12/2022, Optical Valley Foundation, China
 3. **Merit Student**, 12/2022, Peking University, China

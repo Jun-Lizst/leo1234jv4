@@ -93,9 +93,10 @@ thumbnailImagePosition: left
 ### **| Cryo-EM data analysis**
 #### Softwares
 1. [CryoSPARC](https://guide.cryosparc.com/): CryoSPARC (Cryo-EM Single Particle Ab-Initio Reconstruction and Classification) is a state of the art data analysis solution for single-particle analysis (SPA) in cryo-electron microscopy (cryo-EM). CryoSPARC is used to reconstruct and visualize cryo-EM structures of biological targets including membrane proteins, viruses and complexes.
-2. [Relion](https://relion.readthedocs.io/en/release-5.0/): relion (for REgularised LIkelihood OptimisatioN, pronounce rely-on) is a software package that employs an empirical Bayesian approach for electron cryo-microscopy (cryo-EM) structure determination. It is developed in the group of Sjors Scheres at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk/).
-3. [SPIDER](https://github.com/spider-em/SPIDER):
+2. [Relion](https://relion.readthedocs.io/en/release-5.0/): relion (for REgularised LIkelihood OptimisatioN, pronounce rely-on) is a software package that employs an empirical Bayesian approach for electron cryo-microscopy (cryo-EM) structure determination. It is developed in the group of [Sjors Scheres](https://www2.mrc-lmb.cam.ac.uk/groups/scheres/impact.html) at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk/group-leaders/n-to-s/sjors-scheres/).
+3. [SPIDER](https://github.com/spider-em/SPIDER): SPIDER (System for Processing Image Data from Electron microscopy and Related fields) is an image processing system for electron microscopy, especially usefull for single-particle reconstruction. 
     - [Online tutorial](https://spider-em.github.io/SPIDER/)
+    - Evaluation of difference maps: It can be achieved by Spider and the [diffmap program](https://grigoriefflab.umassmed.edu/diffmap) to calculate a difference map between two input maps and the estimated standard deviation of the difference map.
 
 4. [COOT](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/): For manually rebuilt and/or adjust models.
     - Emsley, Paul, and Kevin Cowtan. "Coot: model-building tools for molecular graphics." Biological crystallography 60.12 (2004): 2126-2132. [[PMID: 15572765](https://pubmed.ncbi.nlm.nih.gov/15572765/)]
@@ -117,6 +118,7 @@ thumbnailImagePosition: left
     - **Storage:** 4TB PCIe SSD (cache); 200TB RAID 6 storage server via 10Gbps link (raw movies)
     - **GPU:** 4x NVIDIA Quadro GV100, or 4x NVIDIA Tesla V100 or 4x NVIDIA RTX 8000
 
+#### CryoEM data analysis protocols
 
 
 #### Deep learning tools
@@ -185,7 +187,7 @@ thumbnailImagePosition: left
 - **Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF [[Liao, et al. 2013, Nature](https://www.nature.com/articles/nature12822#Abs1) | [Cao et al. 2013, Nature](https://doi.org/10.1038/nature12823) | Gao et al. 2016, Nature]
 - **iBiology Talks**: [[Part 1: Single Particle Cryo-EM](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EfUivsENbh5Gj8E10GGp0KEBynIVfURLM06aJ4xv6Y3XxQ?e=I8Ahs5) | [Part 2: Single particle Cyro-EM of membrane proteins](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXRwR0JzrnBOoKHcQUQvjNMB5kaISskZMilMzXJFH2FAAw?e=05Bk8U)]
 
-2. [Niko Grigorieff Lab](https://grigoriefflab.umassmed.edu/research_interests)
+2. [Niko Grigorieff Lab, UMASS](https://grigoriefflab.umassmed.edu/research_interests): The Grigorieff lab has played a foundational role in modern single-particle cryo-electron microscopy by developing widely adopted algorithms and software for motion correction, contrast transfer function estimation, and high-resolution 3D reconstruction, including CTFFIND, Unblur, Frealign, and cisTEM. These contributions have significantly advanced the resolution, robustness, and accessibility of cryo-EM, transforming it into a routine tool for structural biology. Their work exemplifies how rigorous physical modeling and computational innovation can unlock biological insight from complex and noisy imaging data.
 
 3. [Grant Jensen Lab, Caltech](https://jensenlab.caltech.edu/): Grant then entered an M.D./Ph.D. program at Stanford University, and earned his doctorate in Biophysics working on electron microscopy of RNA polymerase and other protein complexes with **Dr. Roger Kornberg** (who later won the Nobel prize for structural studies of transcription).
 - **Course**: [“Getting Started in Cryo-EM”](https://cryo-em-course.caltech.edu/unit-1-outline)
