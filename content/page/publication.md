@@ -31,6 +31,7 @@ _**First author**_
     - Conceived and lead whole project
     
 2. Huanhuan Pang#, ***Jun-Liszt Li#*** &para;, Xiaoling Hu, Fei Chen, Xiaofei Gao, Lauren Zacharias, Ralph Deberardinis, Wenzhi Sun✝, Zeping Hu✝, Woo-Ping Ge✝  "Precision mapping of the mouse brain metabolome." **BioRxiv** **(28/12/2020)** [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EU-xBTRDra9Nq5ii6XGPA1sBb5L2IG1T4OkFt5M27uIAFQ?e=Znk6ct) | [Shiny app](https://leoj.shinyapps.io/BSMAv1_updated/) | [DOI Link](https://doi.org/10.1101/2020.12.28.424544)]  _**Co-first author**_
+    - We are one of the pioneers for method development of spatial metabolomics.
 
 ---
 ---
