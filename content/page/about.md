@@ -263,10 +263,12 @@ Office of Educational Administration, HZAU
 
 ---
 # Science and society
-1. Member of Chinese American Society for Mass Spectrometry (CASMS), 11/2025
+1. Member of American Society of Gene + Cell Therapy (ASGCT), 1/2026
+![TrxxASGCT](/img/ASGCT_logo.png)
+2. Member of Chinese American Society for Mass Spectrometry (CASMS), 11/2025
 ![TrxxCASMS](/img/CASMS_logo.jpg)
-2. Member of European Vascular Biology Organisation (EVBO), 11/2025 
+3. Member of European Vascular Biology Organisation (EVBO), 11/2025 
 ![TrxxEVBO](/img/EVBO_logo2.png)
-3. Founder and editor of the VasCure blog, a WeChat-based science communication platform (focused on promoting public understanding of vascular biology and biomedical research), since March 2023, China
-4. Conference Volunteer, Beijing “Brain and Behavior” International Symposium and Zhongguancun Life Science Park Development Symposium, 04/2019, Beijing, China
-5. Volunteer, Wuhan Science and Technology Museum (guiding school students through exhibitions on modern science and technology), 07/2016, Wuhan, China
+4. Founder and editor of the VasCure blog, a WeChat-based science communication platform (focused on promoting public understanding of vascular biology and biomedical research), since March 2023, China
+5. Conference Volunteer, Beijing “Brain and Behavior” International Symposium and Zhongguancun Life Science Park Development Symposium, 04/2019, Beijing, China
+6. Volunteer, Wuhan Science and Technology Museum (guiding school students through exhibitions on modern science and technology), 07/2016, Wuhan, China

@@ -187,7 +187,7 @@ thumbnailImagePosition: left
 - **Atomic structures of TRPV1**: With David Julius’s laboratory at UCSF [[Liao, et al. 2013, Nature](https://www.nature.com/articles/nature12822#Abs1) | [Cao et al. 2013, Nature](https://doi.org/10.1038/nature12823) | Gao et al. 2016, Nature]
 - **iBiology Talks**: [[Part 1: Single Particle Cryo-EM](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EfUivsENbh5Gj8E10GGp0KEBynIVfURLM06aJ4xv6Y3XxQ?e=I8Ahs5) | [Part 2: Single particle Cyro-EM of membrane proteins](https://pkueducn-my.sharepoint.com/:v:/g/personal/lijun0705_pku_edu_cn/EXRwR0JzrnBOoKHcQUQvjNMB5kaISskZMilMzXJFH2FAAw?e=05Bk8U)]
 
-2. [Niko Grigorieff Lab, UMASS](https://grigoriefflab.umassmed.edu/research_interests): The Grigorieff lab has played a foundational role in modern single-particle cryo-electron microscopy by developing widely adopted algorithms and software for motion correction, contrast transfer function estimation, and high-resolution 3D reconstruction, including CTFFIND, Unblur, Frealign, and cisTEM. These contributions have significantly advanced the resolution, robustness, and accessibility of cryo-EM, transforming it into a routine tool for structural biology. Their work exemplifies how rigorous physical modeling and computational innovation can unlock biological insight from complex and noisy imaging data.
+2. Niko Grigorieff Lab, [Janelia farm](https://www.janelia.org/our-research/former-labs/grigorieff-lab)/[UMASS](https://grigoriefflab.umassmed.edu/research_interests): The Grigorieff lab has played a foundational role in modern single-particle cryo-electron microscopy by developing widely adopted algorithms and software for motion correction, contrast transfer function estimation, and high-resolution 3D reconstruction, including CTFFIND, Unblur, Frealign, and cisTEM. These contributions have significantly advanced the resolution, robustness, and accessibility of cryo-EM, transforming it into a routine tool for structural biology. Their work exemplifies how rigorous physical modeling and computational innovation can unlock biological insight from complex and noisy imaging data.
 
 3. [Grant Jensen Lab, Caltech](https://jensenlab.caltech.edu/): Grant then entered an M.D./Ph.D. program at Stanford University, and earned his doctorate in Biophysics working on electron microscopy of RNA polymerase and other protein complexes with **Dr. Roger Kornberg** (who later won the Nobel prize for structural studies of transcription).
 - **Course**: [“Getting Started in Cryo-EM”](https://cryo-em-course.caltech.edu/unit-1-outline)
@@ -231,7 +231,7 @@ thumbnailImagePosition: left
 - **Structural basis of Lysosomal Regulation**
 
 
-
+9. [Xiaochen Bai Lab, UTSW]()
 
 
 
@@ -241,11 +241,27 @@ thumbnailImagePosition: left
 > While the X-ray evidence cannot, at present, be taken as direct proof that the structure is helical, other considerations discussed below make the existence of a helical structure highly probable.
 --- Rosalind Franklin
 
+---
+### Principle of technology
+Crystals are formed by the periodic arrangement of atoms, ions, or molecules in space, and this periodic lattice structure provides the fundamental basis for X-ray diffraction (XRD). X-ray diffraction technology enables the precise determination of the spatial positions of these constituents within a crystal, allowing for the inference of substance structures. Consequently, it has become one of the primary technical means for studying the structures of biological macromolecules.
 
-### Vendor companies
+The field of single-crystal diffraction for biological macromolecules evolved significantly after the 1950s. By the 1970s, it had matured into a specialized branch of crystallography known as Protein Crystallography.
 
+#### Methodologies in X-ray Crystallography
+- **SIR (Single Isomorphous Replacement)**: A traditional method involving the introduction of a single heavy atom into the crystal to determine phases.
+- **MR (Molecular Replacement)**: A technique that utilizes a known homologous protein structure as a search model to determine the orientation and position of the molecule in a new crystal ([Rossmann and Blow, 1962](https://doi.org/10.1107/S0365110X62000067)).
+- **MAD (Multi-wavelength Anomalous Diffraction)**: A method that collects data at multiple wavelengths around the absorption edge of an anomalous scatterer (e.g., selenium or a heavy atom) to solve the phase problem ([Hendrickson, 1985](https://pubmed.ncbi.nlm.nih.gov/4079795/)).
+- **SAD (Single-wavelength Anomalous Diffraction)**: A streamlined approach that uses anomalous scattering data collected at a single wavelength to determine phases.
+- **Direct Methods**: Mathematical approaches that derive phases directly from the observed intensities of the diffraction spots, typically used for small molecules or very high-resolution protein data.
 
-
+### Vendor companies and X-ray Diffractometers
+1. [Rigaku, Japan](https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd)
+  - Rigaku MicroMax-007HF
+2. [Bruker, USA](https://www.bruker.com/en/products-and-solutions/diffractometers-and-x-ray-microscopes/x-ray-diffractometers.html)
+  - The D8 DISCOVER Family
+  - D8 QUEST
+3. [sptlabtech, UK](https://www.sptlabtech.com/products/mosquito/mosquito-crystal)
+  - mosquito: For high-throughput protein crystallization screenings, the **Mosquito Crystal Robot** serves as a premier liquid handling platform. It seamlessly facilitates both **vapor diffusion** and **lipidic cubic phase (LCP)** methodologies. The system supports standardized protocols for sitting drop and microbatch techniques across all industry-standard multi-well plates, while also enabling automated hanging drop setups in 96-well formats.
 
 ### Ref. Labs
 
@@ -260,6 +276,14 @@ thumbnailImagePosition: left
     - 03 Protein Expression Crystallization And Mutagenesis – Meindert Lamers [[Video](https://youtu.be/glQXW7MyIts) | [Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/03-protein-expression-crystallization-and-mutagenesis-meindert-lamers/?wpdmdl=18793&refresh=68df0795ddcca1759446933)]   
     - LMB Crystallography Course, 2013 [[Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/lmb-crystallography-course-2013/?wpdmdl=18792&refresh=68df0796e2a431759446934)]  
     - Model-Building of Proteins Using X-ray Data With Coot Paul Emsley [[Lecture slides, PDF](https://www2.mrc-lmb.cam.ac.uk/download/model-building-of-proteins-using-x-ray-data-with-coot-paul-emsley/?wpdmdl=18785&refresh=68df07978699a1759446935)]
+
+
+
+
+
+
+
+
 
 ---
 # NMR
@@ -317,14 +341,14 @@ smFRET，FLIM-FRET
 ---
 3. Protein structure database
   
-| Protein Name    | PDB No. | Species | Expression System | Best Resolution (Å) |
-| -------- | ------- |  ------- | ------- | ------- |
-| BRAF  | [8C7X; 8C7Y](https://www.rcsb.org/structure/8C7X)    | Homo sapiens  |  Escherichia coli  |    1.65      |
-| AKT1 | [1UNQ](https://www.rcsb.org/structure/1UNQ)     |  Homo sapiens  |  Escherichia coli BL21    |  0.98  |
-| mTOR   | [5H64](https://www.rcsb.org/structure/5H64)    |  Homo sapiens      |  HEK293F   |  4.4 | 
-| mTORC1-TFEB-Rag-Ragulator | [7UXH](https://www.rcsb.org/structure/7UXH)    |  Homo sapiens      |  HEK293F   |     3.4   |
-| Raptor-TFEB-Rag-Ragulator | [7UX2](https://www.rcsb.org/structure/7UX2)    |  Homo sapiens      |  HEK293F   |     2.9   |
-
+| Protein Name    | PDB No. | Species | Expression System | Best Resolution (Å) | EM Data Bank |
+| -------- | ------- |  ------- | ------- | ------- | ------- | 
+| BRAF  | [8C7X; 8C7Y](https://www.rcsb.org/structure/8C7X)    | Homo sapiens  |  Escherichia coli  |    1.65      |   |
+| AKT1 | [1UNQ](https://www.rcsb.org/structure/1UNQ)     |  Homo sapiens  |  Escherichia coli BL21    |  0.98  | |
+| mTOR   | [5H64](https://www.rcsb.org/structure/5H64)    |  Homo sapiens      |  HEK293F   |  4.4 |  |
+| mTORC1-TFEB-Rag-Ragulator | [7UXH](https://www.rcsb.org/structure/7UXH)    |  Homo sapiens      |  HEK293F   |     3.4   | |
+| Raptor-TFEB-Rag-Ragulator | [7UX2](https://www.rcsb.org/structure/7UX2)    |  Homo sapiens      |  HEK293F   |     2.9   | |
+| mTORC1-RAG-Ragulator-4E-BP1 | [7UXH](https://www.rcsb.org/structure/7UXH)    |  Homo sapiens      |  HEK293F   |     3.23   | [EMD-47932](https://www.ebi.ac.uk/emdb/EMD-47932?tab=experiment) |
 
 
 
