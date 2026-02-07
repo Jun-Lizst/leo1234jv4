@@ -389,8 +389,10 @@ My own prejudices are exactly the opposite of the functionalists&rsquo;: &ldquo;
 </blockquote>
 <hr>
 <h1 id="cryoem-single-particle-analysis-spa">CryoEM Single Particle Analysis (SPA)</h1>
+<h3 id="-key-hardwares"><strong>| Key Hardwares</strong></h3>
 <ol>
-<li><strong>Cryo-EM microscopy</strong>
+<li>
+<p><strong>Cryo-EM microscopy</strong></p>
 <ul>
 <li><a href="https://www.thermofisher.com/cz/en/home/electron-microscopy/products/transmission-electron-microscopes/krios-cryo-tem/features.html">300 kV Titan Krios</a>: The Titan <strong>Krios G4</strong> from Thermo Fisher Scientific is a 300 kV transmission electron microscope (TEM) with a three-condenser lens system. It features the latest technology for high-end single-particle and tomography data acquisition including a cold field emission gun (C-FEG), SelectrisX energy filter, Falcon 4 electron counting camera and volta phase plate.</li>
 <li><a href="">200 kV</a>: The cryo-grids were initially screened at a nominal magnification of ×92,000 in an 200 kV microscope.
@@ -399,14 +401,48 @@ My own prejudices are exactly the opposite of the functionalists&rsquo;: &ldquo;
 <li><strong>Talos Arctica</strong>: FEI <a href="https://documents.thermofisher.com/TFS-Assets/MSD/Datasheets/DS0189-EN-11-2019-Thermo-Scientific-Talos-Arctica-WEB.pdf">Talos Arctica microscope (200 kV)</a>, equipped with an FEI Ceta camera. [<a href="https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/b83e470e-0a1b-4f87-a897-ea30e42efe93.pdf">Talos L120C manual, PDF</a> | <a href="https://bioem.shanghaitech.edu.cn/_upload/article/videos/63/19/77aa69a04eca8fbc00f84f182337/b0817747-7020-4f37-80a3-d94cd4ed4365-B.mp4">Tutorial video</a> | <a href="https://emcore.ucsf.edu/content/instructions-arctica-screening">Instruction for Arctica screening, UCSF</a>]</li>
 </ul>
 </li>
-<li>[40kV-120kV]: <a href="https://emcore.ucsf.edu/fei-t12">FEI Tecnai T12</a> is mainly used for simple screening and data collection of negatively-stained samples. It&rsquo;s also used for cryo-EM training and screening of vitrified grids.
+<li><a href="">40kV-120kV</a>: <a href="https://emcore.ucsf.edu/fei-t12">FEI Tecnai T12</a> is mainly used for simple screening and data collection of negatively-stained samples. It&rsquo;s also used for cryo-EM training and screening of vitrified grids.
 <ul>
 <li>FEI T12 (FEI Tecnai T12 Transmission Electron Microscope) operates at 120kV with a LaB6 filament and is equipped with a Gatan UltraScan 895 4k CCD.</li>
 </ul>
 </li>
 </ul>
 </li>
+<li>
+<p><strong>Direct Electron Detectors (DEDs)</strong>:
+The advent of Direct Electron Detectors (DEDs) marks the definitive &ldquo;singularity&rdquo; in the history of Cryo-Electron Microscopy (Cryo-EM). Prior to 2013, the field was bottlenecked by traditional Charge-Coupled Devices (CCDs), which suffered from significant signal degradation due to the indirect conversion of electrons to photons.The breakthrough came with DED technology, which allows for the direct sensing of electrons with unprecedented detective quantum efficiency (DQE). By introducing ultra-fast frame rates (Movie Mode), DEDs enabled researchers to overcome the two primary obstacles to high resolution: radiation damage and beam-induced motion. This shift facilitated the &ldquo;Resolution Revolution,&rdquo; transforming Cryo-EM from a &ldquo;blob-ology&rdquo; niche into a premier tool for resolving complex membrane assemblies—such as the spliceosome and gamma-secretase—at near-atomic scales.</p>
+</li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>Detector</th>
+<th>Sensor size</th>
+<th>Pixel size (um)</th>
+<th>Readout speed (fps)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DE-20</td>
+<td>5120x3480</td>
+<td>6.4</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Falcon-II</td>
+<td>4096x4096</td>
+<td>14.0</td>
+<td>18</td>
+</tr>
+<tr>
+<td>K2 Summit</td>
+<td>3838x3710</td>
+<td>5</td>
+<td>400</td>
+</tr>
+</tbody>
+</table>
 <h3 id="-sample-preparation"><strong>| Sample preparation</strong></h3>
 <ol>
 <li>
@@ -464,10 +500,10 @@ My own prejudices are exactly the opposite of the functionalists&rsquo;: &ldquo;
 <p><strong>Sample Vitrification</strong>: Vitrification is the rapid cooling of a liquid into a solid, glass-like amorphous state, preventing the formation of damaging ice crystals.</p>
 <ul>
 <li>
-<p><a href="https://www.leica-microsystems.com/products/sample-preparation-for-electron-microscopy/p/leica-em-gp2/"><strong>EM GP2, Leica</strong></a>: The EM GP2 from Leica Microsystems is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [<a href="https://bioem.shanghaitech.edu.cn/_upload/article/videos/d8/77/91cf34504384919c5e5787c54f07/666c8301-1b09-43d0-9472-1d00f5dbe414-B.mp4">Tutorial video, mp4</a> | <a href="https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/883df0db-6349-4fca-9686-a4a8107152e6.pdf">Manual, PDF</a>]</p>
+<p><strong>Vitrobot, Thermo Fisher</strong>: The Vitrobot Mark IV System from Thermo Fisher Scientific is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [<a href="https://bioem.shanghaitech.edu.cn/_upload/article/videos/a4/8e/d17c5c5e4d858b49938c682dca00/b9546e76-893f-4b41-bc9d-d3b4b6244c48-B.mp4">Tutorial video, mp4</a> | <a href="https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/0ac79af7-f4bc-45ff-9fcf-0cf3f357e656.pdf">Manual, PDF</a> | <a href="https://info.cpos.hku.hk/wp-content/uploads/2025/04/Standard-Operation-Protocol-%E2%80%93-Vitrobot-Mark-IV.pdf">Standard Operation Protocol, PDF</a>]</p>
 </li>
 <li>
-<p><strong>Vitrobot, Thermo Fisher</strong>: The Vitrobot Mark IV System from Thermo Fisher Scientific is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [<a href="https://bioem.shanghaitech.edu.cn/_upload/article/videos/a4/8e/d17c5c5e4d858b49938c682dca00/b9546e76-893f-4b41-bc9d-d3b4b6244c48-B.mp4">Tutorial video, mp4</a> | <a href="https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/0ac79af7-f4bc-45ff-9fcf-0cf3f357e656.pdf">Manual, PDF</a> | <a href="https://info.cpos.hku.hk/wp-content/uploads/2025/04/Standard-Operation-Protocol-%E2%80%93-Vitrobot-Mark-IV.pdf">Standard Operation Protocol, PDF</a>]</p>
+<p><a href="https://www.leica-microsystems.com/products/sample-preparation-for-electron-microscopy/p/leica-em-gp2/"><strong>EM GP2, Leica</strong></a>: The EM GP2 from Leica Microsystems is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [<a href="https://bioem.shanghaitech.edu.cn/_upload/article/videos/d8/77/91cf34504384919c5e5787c54f07/666c8301-1b09-43d0-9472-1d00f5dbe414-B.mp4">Tutorial video, mp4</a> | <a href="https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/883df0db-6349-4fca-9686-a4a8107152e6.pdf">Manual, PDF</a>]</p>
 </li>
 <li>
 <p>Vitrodrop:</p>
@@ -630,14 +666,36 @@ My own prejudices are exactly the opposite of the functionalists&rsquo;: &ldquo;
 <p><a href="https://cryoem.wisc.edu/">The UW-Madison Cryo-Electron Microscopy Research Center (CEMRC), University of Wisconsin-Madison</a></p>
 </li>
 <li>
-<p><a href="https://bioem.shanghaitech.edu.cn/7390/list.htm">Bio-Electron Microscopy Facility, Shanghai Tech University</a></p>
-</li>
-<li>
 <p><a href="https://cryoem.mit.edu/">MIT.nano</a>, MIT campus</p>
 </li>
 </ol>
 <ul>
 <li>The Cryo-Electron Microscopy Facility in MIT.nano enables automated electron imaging of cryogenically preserved specimens. The facility was established in 2018 with support from The Arnold and Mabel Beckman Foundation, an Anonymous donor, as well as institutional support from the Vice President for Research, School of Science, and Departments of Biology, Materials Science, and Chemistry. The facility includes two cryoTEMs, a cryoFIB-SEM, two different cryoplungers, and a laboratory space for cryo-specimen preparation.</li>
+</ul>
+<ol start="4">
+<li>
+<p><a href="">Bio-Electron Microscopy Facility, Tsinghua University</a></p>
+</li>
+<li>
+<p><a href="https://cryoem.sustech.edu.cn/">Bio-Electron Microscopy Facility, Southern University of Science and Technology</a></p>
+</li>
+</ol>
+<ul>
+<li>Five 300-kV Titan Krios (FEI)</li>
+<li>One 120-KV Talos L120C G2</li>
+</ul>
+<ol start="6">
+<li>
+<p><a href="https://bioem.shanghaitech.edu.cn/7390/list.htm">Bio-Electron Microscopy Facility, Shanghai Tech University</a></p>
+</li>
+<li>
+<p><a href="">IOCB, Prague</a></p>
+</li>
+</ol>
+<ul>
+<li>One 300-kV Titan Krios (FEI) (equipped with a Gatan K3 (model 1025) <strong>direct electron detector</strong> mounted on a Gatan BioQuantum (model 1967) <strong>energy filter</strong>)</li>
+<li>One 200-KV</li>
+<li>One 120-KV</li>
 </ul>
 <h4 id="vendor-companies">Vendor companies</h4>
 <ol>
@@ -729,6 +787,12 @@ My own prejudices are exactly the opposite of the functionalists&rsquo;: &ldquo;
 <li><strong>Structural basis of Membrane transport</strong>
 <ul>
 <li>human GLUT1</li>
+</ul>
+</li>
+<li><strong>Structural basis of ion channels</strong>
+<ul>
+<li>Nav-1.7</li>
+<li>Cav-3.1</li>
 </ul>
 </li>
 <li><strong>Structural and mechanistic investigation of sterol homeostasis</strong></li>

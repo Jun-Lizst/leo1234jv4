@@ -26,14 +26,23 @@ thumbnailImagePosition: left
 ---
 # CryoEM Single Particle Analysis (SPA)
 
-
+### **| Key Hardwares** 
 1. **Cryo-EM microscopy**
     - [300 kV Titan Krios](https://www.thermofisher.com/cz/en/home/electron-microscopy/products/transmission-electron-microscopes/krios-cryo-tem/features.html): The Titan **Krios G4** from Thermo Fisher Scientific is a 300 kV transmission electron microscope (TEM) with a three-condenser lens system. It features the latest technology for high-end single-particle and tomography data acquisition including a cold field emission gun (C-FEG), SelectrisX energy filter, Falcon 4 electron counting camera and volta phase plate.
     - [200 kV](): The cryo-grids were initially screened at a nominal magnification of ×92,000 in an 200 kV microscope.
        - **Glacios**: The Glacios from Thermo Fisher Scientific is a 200 kV transmission electron microscope with a two-condenser lens system.
        - **Talos Arctica**: FEI [Talos Arctica microscope (200 kV)](https://documents.thermofisher.com/TFS-Assets/MSD/Datasheets/DS0189-EN-11-2019-Thermo-Scientific-Talos-Arctica-WEB.pdf), equipped with an FEI Ceta camera. [[Talos L120C manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/b83e470e-0a1b-4f87-a897-ea30e42efe93.pdf) | [Tutorial video](https://bioem.shanghaitech.edu.cn/_upload/article/videos/63/19/77aa69a04eca8fbc00f84f182337/b0817747-7020-4f37-80a3-d94cd4ed4365-B.mp4) | [Instruction for Arctica screening, UCSF](https://emcore.ucsf.edu/content/instructions-arctica-screening)]
-    - [40kV-120kV]: [FEI Tecnai T12](https://emcore.ucsf.edu/fei-t12) is mainly used for simple screening and data collection of negatively-stained samples. It's also used for cryo-EM training and screening of vitrified grids. 
+    - [40kV-120kV](): [FEI Tecnai T12](https://emcore.ucsf.edu/fei-t12) is mainly used for simple screening and data collection of negatively-stained samples. It's also used for cryo-EM training and screening of vitrified grids. 
        - FEI T12 (FEI Tecnai T12 Transmission Electron Microscope) operates at 120kV with a LaB6 filament and is equipped with a Gatan UltraScan 895 4k CCD.
+
+2. **Direct Electron Detectors (DEDs)**:
+The advent of Direct Electron Detectors (DEDs) marks the definitive "singularity" in the history of Cryo-Electron Microscopy (Cryo-EM). Prior to 2013, the field was bottlenecked by traditional Charge-Coupled Devices (CCDs), which suffered from significant signal degradation due to the indirect conversion of electrons to photons.The breakthrough came with DED technology, which allows for the direct sensing of electrons with unprecedented detective quantum efficiency (DQE). By introducing ultra-fast frame rates (Movie Mode), DEDs enabled researchers to overcome the two primary obstacles to high resolution: radiation damage and beam-induced motion. This shift facilitated the "Resolution Revolution," transforming Cryo-EM from a "blob-ology" niche into a premier tool for resolving complex membrane assemblies—such as the spliceosome and gamma-secretase—at near-atomic scales.
+  
+| Detector    | Sensor size | Pixel size (um) | Readout speed (fps) |
+| -------- | ------- |  ------- | ------- | 
+| DE-20  | 5120x3480   | 6.4  |  25  | 
+| Falcon-II  | 4096x4096   | 14.0  |  18  | 
+| K2 Summit  | 3838x3710   | 5  |  400  | 
 
 
 ### **| Sample preparation** 
@@ -73,9 +82,9 @@ thumbnailImagePosition: left
 
 
 3. **Sample Vitrification**: Vitrification is the rapid cooling of a liquid into a solid, glass-like amorphous state, preventing the formation of damaging ice crystals. 
-    - [**EM GP2, Leica**](https://www.leica-microsystems.com/products/sample-preparation-for-electron-microscopy/p/leica-em-gp2/): The EM GP2 from Leica Microsystems is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/d8/77/91cf34504384919c5e5787c54f07/666c8301-1b09-43d0-9472-1d00f5dbe414-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/883df0db-6349-4fca-9686-a4a8107152e6.pdf)]
-
     - **Vitrobot, Thermo Fisher**: The Vitrobot Mark IV System from Thermo Fisher Scientific is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/a4/8e/d17c5c5e4d858b49938c682dca00/b9546e76-893f-4b41-bc9d-d3b4b6244c48-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/0ac79af7-f4bc-45ff-9fcf-0cf3f357e656.pdf) | [Standard Operation Protocol, PDF](https://info.cpos.hku.hk/wp-content/uploads/2025/04/Standard-Operation-Protocol-%E2%80%93-Vitrobot-Mark-IV.pdf)]
+
+    - [**EM GP2, Leica**](https://www.leica-microsystems.com/products/sample-preparation-for-electron-microscopy/p/leica-em-gp2/): The EM GP2 from Leica Microsystems is an automated plunge freezer able to vitrify thin samples applied to an electron microscopy grid after removing excess fluid by blotting. [[Tutorial video, mp4](https://bioem.shanghaitech.edu.cn/_upload/article/videos/d8/77/91cf34504384919c5e5787c54f07/666c8301-1b09-43d0-9472-1d00f5dbe414-B.mp4) | [Manual, PDF](https://bioem.shanghaitech.edu.cn/_upload/article/files/79/11/d357319b47e584a520a8bbd06351/883df0db-6349-4fca-9686-a4a8107152e6.pdf)]
     
     - Vitrodrop:
     - Preassis    
@@ -161,13 +170,21 @@ thumbnailImagePosition: left
 2. [The UW-Madison Cryo-Electron Microscopy Research Center (CEMRC), University of Wisconsin-Madison](https://cryoem.wisc.edu/)
 
 
-3. [Bio-Electron Microscopy Facility, Shanghai Tech University](https://bioem.shanghaitech.edu.cn/7390/list.htm)
-
-
-4. [MIT.nano](https://cryoem.mit.edu/), MIT campus
+3. [MIT.nano](https://cryoem.mit.edu/), MIT campus
 - The Cryo-Electron Microscopy Facility in MIT.nano enables automated electron imaging of cryogenically preserved specimens. The facility was established in 2018 with support from The Arnold and Mabel Beckman Foundation, an Anonymous donor, as well as institutional support from the Vice President for Research, School of Science, and Departments of Biology, Materials Science, and Chemistry. The facility includes two cryoTEMs, a cryoFIB-SEM, two different cryoplungers, and a laboratory space for cryo-specimen preparation.
   
+4. [Bio-Electron Microscopy Facility, Tsinghua University]()
 
+5. [Bio-Electron Microscopy Facility, Southern University of Science and Technology](https://cryoem.sustech.edu.cn/)
+ - Five 300-kV Titan Krios (FEI)
+ - One 120-KV Talos L120C G2
+
+6. [Bio-Electron Microscopy Facility, Shanghai Tech University](https://bioem.shanghaitech.edu.cn/7390/list.htm)
+
+7. [IOCB, Prague]()
+ - One 300-kV Titan Krios (FEI) (equipped with a Gatan K3 (model 1025) **direct electron detector** mounted on a Gatan BioQuantum (model 1967) **energy filter**)
+ - One 200-KV
+ - One 120-KV 
 
 
 #### Vendor companies
@@ -225,6 +242,9 @@ thumbnailImagePosition: left
 7. [Nieng Yan lab, Tsinghua University/Princeton University/ShenZhen Medical Institute](https://scholar.princeton.edu/yanlab)
 - **Structural basis of Membrane transport**
     - human GLUT1
+- **Structural basis of ion channels**
+    - Nav-1.7
+    - Cav-3.1
 - **Structural and mechanistic investigation of sterol homeostasis**
 
 8. [James H. Hurley Lab, University of California Berkeley](https://membrane.berkeley.edu/)

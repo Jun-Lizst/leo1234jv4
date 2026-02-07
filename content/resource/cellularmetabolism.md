@@ -82,12 +82,22 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     - what is the nitrogen sensor in yeast cells ?
 
 
-### II. **Cell signaling in innate immune response**
+### II. **Cell signaling for cell growth control**
+  - mTORC1 pathway 
+  - AMPK pathway
+  - PI3K-AKT pathway
+  - Autophagy signaling ()
+  - Cell size checkpoint 
+  - Hippo-YAP/TAZ pathway (Kun-Liang Guan) 
+  
+### III. **Cell signaling in innate immune response**
   - Pattern recognition receptors (PRRs): These receptors are crucial for sensing danger signals. 
       - Toll-like receptors (TLRs): TLR4 []
+      - C-type lectin receptors (CLRs)
       - NOD-like receptors (NLRs)
       - RIG-I-like receptors (RLRs)
-      - Key question at that time: What is the intracellular receptor of LPS ?
+      - AIM2-like receptors (ALRs)
+      - Key question at that time (**before 2014**): What is the intracellular receptor of LPS ?
       - Cytosolic DNA sensor: cGAS [[James Chen Lab, 2012]()]
   - Pathogen-associated molecular patterns (PAMPs) 
   - damage-associated molecular patterns (DAMPs)
@@ -104,7 +114,7 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
    
     
 
-### III. **Immune surveillance against cancer**
+### IV. **Immune surveillance against cancer**
   - Firstly proposed by **Sir Frank Macfarlane Burnet (1970)**
   - Discovery of PD1: [[Tasuku Honjo, 1992](https://pubmed.ncbi.nlm.nih.gov/1396582/)]
   - Discovery of PD-L1 (B7-H1): [[Lieping Chen, 1999](https://pubmed.ncbi.nlm.nih.gov/10581077/)]
@@ -113,7 +123,7 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
 
 
 
-### IV. **Cell death pathways** 
+### V. **Cell death pathways** 
 1. Programmed cell death-Apoptosis
   - Discovery of the genes:
   - Identification of Apaf1
