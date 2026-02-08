@@ -50,14 +50,14 @@ The citric acid cycle is at the center of cellular metabolism. It plays a starri
     - mTORC1 activation of Lysosomal membrane: 
 
 5. **Nutrient sensing machinery**
-    - Cholesterol: \
+    - **Cholesterol**: \
     --- LYsosomal CHOlesterol Signaling protein (LYCHOS, previously annotated as G-protein coupled receptor 155), Reported at 25-Aug-2022 [[PDF]() | [PMID:36007018](https://pubmed.ncbi.nlm.nih.gov/36007018/) | [DOI Link](https://doi.org/10.1126/science.abg6621)]\
     --- PATCHED,\
     --- HMG-CoA reductase, \
     --- Niemann-Pick type C protein 1 (NPC1), Reported at 11-Jul-1997 [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EeFpXfiJMvtMnHHJFEP9kWEBll3GHkSLBymuXpv5xewIDA?e=UHeLri) | [PMID:9211849](https://pubmed.ncbi.nlm.nih.gov/9211849/) | [DOI Link](https://doi.org/10.1126/science.277.5323.228)]\
-    --- SREBP(Sterol regulatory element-binding protein),\
+    --- SREBP (Sterol regulatory element-binding protein),\
     --- SREBP cleavage-activating protein (SCAP), 
-    - Amino acids: \
+    - **Amino acids**: \
     [ ] Review: **The Dawn of the Age of Amino Acid
 Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pkueducn-my.sharepoint.com/:b:/g/personal/lijun0705_pku_edu_cn/EZgzP49XBXxLkseXtjZA-PUB_zSWROkzRhi8hLTUYoCIfA?e=sajlnb) | [PMID:28768171](https://pubmed.ncbi.nlm.nih.gov/28768171/) | [DOI Link](https://doi.org/10.1016/j.cmet.2017.07.001)] \
     --- Leucine > Sestrin2 \
@@ -68,51 +68,101 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
     --- S-adenosylmethionine > Unmet(Fly specific)    
     [ ] GATOR2 > Nutrient sensing hub! [[CryoEM Structure of human GATOR2 complex](https://doi.org/10.1038/s41586-022-04939-z) | [Valenstein et al., 2025](https://doi.org/10.1038/s41586-025-09428-7)]
     
-    - Glucose: \
-    --- AMPK
-    - Nitrogen sensing in yeast cells
-
+    - **Glucose**: \
+    --- AMPK \
+    --- X? -- GATOR2-GATOR1-Rags-Ragulator-mTORC1 signaling axis
+    - **Nitrogen sensing in yeast cells**: \
+    --- X? -- SEA complex-EGO-Gtrs-TORC1 signaling axis
 
 6. **Open questions**
-    - How cells sense, integrate and respond to nutrient availability and how lysosomes are involved in the process?
+    - How cells sense, integrate and respond to nutrient availability and how lysosomes are involved in the process ?
     - How amino acids were sensed? More amino acid sensors ?
     - How different or similar the amino acid and nutrient inputs are that drive mTORC1/TORC1 signaling in diverse organisms ?
     - Is GATOR2 the nutrient sensing hub complex ? How does it work to integrate multiple nutrient inputs ?
-    - How does brain sense the stress of energy supply and initiate its response program?
+    - How does brain sense the stress of energy supply and initiate its response program ?
     - what is the nitrogen sensor in yeast cells ?
+
 
 
 ### II. **Cell signaling for cell growth control**
   - mTORC1 pathway 
+  
   - AMPK pathway
+  
   - PI3K-AKT pathway
+  
   - Autophagy signaling ()
+  
   - Cell size checkpoint 
+  
   - Hippo-YAP/TAZ pathway (Kun-Liang Guan) 
+
+
+
   
 ### III. **Cell signaling in innate immune response**
+> Between 1998 and 2000, innate immunity transitioned from a phenomenological description of inflammatory responses to a receptor- and adaptor-defined signaling architecture, setting the stage for the discovery that immune identity is encoded not by receptors alone, but by adaptor-mediated kinase licensing.
+
   - Pattern recognition receptors (PRRs): These receptors are crucial for sensing danger signals. 
-      - Toll-like receptors (TLRs): TLR4 []
+      - Toll-like receptors (TLRs): TLR4 [[Poltorak et al., Science 1998](https://pubmed.ncbi.nlm.nih.gov/9851930/)]; TLR3 []; TLR9 []
       - C-type lectin receptors (CLRs)
       - NOD-like receptors (NLRs)
       - RIG-I-like receptors (RLRs)
       - AIM2-like receptors (ALRs)
       - Key question at that time (**before 2014**): What is the intracellular receptor of LPS ?
       - Cytosolic DNA sensor: cGAS [[James Chen Lab, 2012]()]
+      - Non-canonical LPS sensor: Caspase 11 [[Feng Shao Lab, 2014]()]
   - Pathogen-associated molecular patterns (PAMPs) 
-  - damage-associated molecular patterns (DAMPs)
+      - LPS
+      - dsRNA or its analog poly(I:C)
+      
+  - Damage-associated molecular patterns (DAMPs)
+  - Signaling adaptors:
+      - TRIF (cell membrane):
+      - MAVS (in Mitochondria): [[James Chen Lab, 2005](https://pubmed.ncbi.nlm.nih.gov/16125763/)]
+      - STING (in ER/Golgi) [[Barber Lab, 2008](https://www.nature.com/articles/nature07317)]
+      - SLC15A4-TASL (in endolysosome) [[Superti-Furga Lab, 2020](https://www.nature.com/articles/s41586-020-2282-0)]
+  
 
+#### 1. TLR4-TRIF-TBK1-IRF3 signaling axis 
+> TLR4–TRIF–TBK1–IRF3 axis links pathogen recognition at the plasma membrane to type I interferon production in the nucleus. 
 
-**1. Discovery of cytosolic DNA sensor**
+  (1) **TLR4: Sensing Danger at the Cell Surface**
+  - Toll-like receptor 4 (TLR4) is a pattern recognition receptor that detects lipopolysaccharide (LPS) from Gram-negative bacteria. Unlike many receptors that signal through a single pathway, TLR4 is unique in that it activates two distinct downstream signaling programs:
+    - MyD88-dependent signaling, leading to NF-κB activation and inflammatory cytokines
+    - TRIF-dependent signaling, leading to TBK1 activation and type I interferon production [[Shizuo Akira Lab, Dec 2002](https://pubmed.ncbi.nlm.nih.gov/12471095/) | [Tsukasa Seya Lab, Jan 2003](https://www.nature.com/articles/ni886#Abs1) | [Shizuo Akira Lab, Aug 2003](https://pubmed.ncbi.nlm.nih.gov/12855817/)]
+  
+  (2) **Spatial Control as a Signaling Logic**
+  
+  (3) **TRIF: A Central Adaptor with Kinase-Licensing Function**
+  - innate immune signaling is not determined by receptors alone, but by adaptor-defined kinase licensing, a principle that later emerged as a unifying logic across diverse membrane-associated signaling pathways.
+  
+  (4) **TBK1: Context-Dependent Kinase Activation**
+  
+
+#### 2. cGAS-STING-TBK1-IRF3 signaling axis
+> Understanding Innate Immunity: Cells constantly face threats from pathogens and damaged DNA. A central question in immunology has been: how do cells detect cytosolic DNA and convert this information into an antiviral response?
+
+  (1) **Discovery of cytosolic DNA sensor: cGAS** (2006-2013)
   - Key question at that time: What is the cytosolic DNA sensor that trigger antiviral response ?
   - pioneering works: 
     1. Stetson, Daniel B., and Ruslan Medzhitov. "Recognition of cytosolic DNA activates an IRF3-dependent innate immune response." Immunity 24.1 (2006): 93-103. [[PMID: 16413926](https://pubmed.ncbi.nlm.nih.gov/16413926/)]
     2. Ishii, Ken J., et al. "A Toll-like receptor–independent antiviral response induced by double-stranded B-form DNA." Nature immunology 7.1 (2006): 40-48. [[PMID: 16286919](https://pubmed.ncbi.nlm.nih.gov/16286919/)]
   - Key discovery works:     
-   
-   
-   
-    
+  - The first step in this signaling cascade is the detection of cytosolic DNA by the enzyme cGAS (cyclic GMP-AMP synthase). cGAS binds double-stranded DNA, irrespective of sequence, and synthesizes the second messenger cGAMP.
+  
+  (2) **STING: The Adaptor on Membranes**
+  - cGAMP binds to STING (Stimulator of Interferon Genes), a transmembrane protein localized primarily at the endoplasmic reticulum (ER). Upon binding, STING relocalizes to perinuclear puncta, often associated with the Golgi.
+  
+  (3) **Activation of TBK1**
+  - After translocating to the Golgi, STING recruits TBK1 kinase, initiating phosphorylation cascades.
+  - The activation triggers IRF3 phosphorylation, leading to type I interferon production.
+  - Key works:  
+    1. A critical advancement was the identification of the PLPLRT/SD motif in STING’s C-terminal tail (CTT). [[Pingwei Li Lab, 2019](https://www.nature.com/articles/s41586-019-1228-x)]
+    2. Structural Insights: Full-Length STING–TBK1 Complex. [[James Chen Lab, UTSW structure team (Xuewu Zhang, Xiao-chen Bai), 2019](https://www.nature.com/articles/s41586-019-1000-2#Abs1)]
+
+
+
 
 ### IV. **Immune surveillance against cancer**
   - Firstly proposed by **Sir Frank Macfarlane Burnet (1970)**
@@ -124,16 +174,34 @@ Sensors for the mTORC1 Pathway** (Wolfson and Sabatini, 2017) [[PDF](https://pku
 
 
 ### V. **Cell death pathways** 
-1. Programmed cell death-Apoptosis
+#### 1. Programmed cell death - Apoptosis (1995-2002)
   - Discovery of the genes:
   - Identification of Apaf1
 
 
 
+#### 2. Programmed cell death - Necrosis
+  - Discovery of the genes:
+  - Identification of RIP3
+  - Identification of MLKL
 
-2. Inflammation induced pyroptosis
+#### 3. Inflammation induced pyroptosis
   - Discovery of GSDMD
   
+
+
+
+---
+> Rather than viewing signaling pathways as linear cascades, here we trying to focus on adaptor-mediated control nodes that license kinase activation in specific membrane and tissue contexts. By integrating genetics, biochemistry, and structural biology, we aim to uncover unannotated signaling grammars that govern cell growth, immunity, and vascular development.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -246,10 +314,16 @@ These tutorial videos were prepared for students in the UCSD School of Medicine 
 ![nobelxqhemox](/img/nobel_prize.jpg)
 ---
 
+- **Bruce A. Beutler**, University of Texas Southwestern Medical Center at Dallas, Dallas, TX, USA; The Scripps Research Institute, La Jolla, CA, USA
+Nobel Prize in Physiology or Medicine 2011\
+**How Mammals Sense Infection: From Endotoxin to the Toll-like Receptors** [[Lecture slides](https://www.nobelprize.org/uploads/2018/06/beutler-lecture_slides.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1974/palade/facts/)]
+
+
+
 
 - **George E. Palade**, Yale University, School of Medicine, New Haven, CT, USA
 Nobel Prize in Physiology or Medicine 1974\
-**Intracellular Aspects of the Process of Protein Secretion** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/palade-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/1974/palade/facts/)]
+**Intracellular Aspects of the Process of Protein Secretion** [[Read the Lecture](https://www.nobelprize.org/uploads/2018/06/palade-lecture.pdf) |  [Source](https://www.nobelprize.org/prizes/medicine/2011/beutler/facts/)]
 
 
 

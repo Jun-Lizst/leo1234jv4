@@ -139,7 +139,7 @@ Advised by: [Dr.Xiaoqun Wang, Ph.D.](http://wanglaboratory.org/?list_4/)
 Skills including: single cell isolation, library construction, scRNA-seq data analysis( 
 Linux system operation, R statistic analysis).
 
-**Undergraduate Researcher, [National institute of Biological Science (NIBS)](http://www.nibs.ac.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm)**\
+**Undergraduate Researcher and Research assistant, [National institute of Biological Science (NIBS)](http://www.nibs.ac.cn/en/), [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm)**\
 JANUARY 2018 — SEPTEMBER 2018\
 Advised by: [Dr.Minmin Luo, Ph.D.](http://www.nibs.ac.cn/en/yjsjyimgshow.php?cid=5&sid=6&id=775)
 
@@ -158,15 +158,17 @@ non-invasive manipulation of neuronal activity.
 **HZAU-iGEM team member, Inovation Lab, College of Life science and technology, HZAU**\
 FEBRUARY 2015 - OCTOBER 2016\
 2016 HZAU-iGEM team member with instructor [Dr.Bin-Guang Ma, PhD](http://encoi.hzau.edu.cn/info/1016/1034.htm)
-- Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion
+- Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion [Field learning: [Jeffrey J. Tabor Lab, Rice University](https://taborlab.rice.edu/people/)]
 - During the Competition and in our project, I am responsible for the Optical control part which uses light switchable circuit (LSC) to control the expression of bacteria movement related gene CheZ.
 - Website of HZAU-iGEM2016: http://2016.igem.org/Team:HZAU-China
+- We won the **bronze medal** in [iGEM-2016 Competition at MIT, Boston (10/2016)](https://2016.igem.org/Main_Page). 
 
 2015 HZAU-iGEM team member with instructor Dr.BingGuang Ma, PhD
 - Systems and Synthetic Biology learning: student presentation, case-based learning, and discussion
 - During the Competition and in our project, I am responsible for the interface part. We choose the light and use Optogenetics technique to regulate the synthetic gene oscillator in bacteria.
+- Development of a light-switchable Escherichia coli two-component system (TCS)
 - Website of HZAU-iGEM2015: http://2015.igem.org/Team:HZAU-China
-
+- We won the **gold medal and best nomination** in our section of [iGEM-2015 Competition at MIT, Boston (09/2015)](https://2015.igem.org/Main_Page). 
 
 **Summer Research intern, Wenzhou Medical University**\
 JULY 2016 — JULY 2016\
