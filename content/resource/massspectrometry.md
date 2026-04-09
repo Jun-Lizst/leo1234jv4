@@ -201,11 +201,42 @@ thumbnailImagePosition: left
    - PEAKS Studio, PEAKS Online
 
 
+---
+#### Cross-linking MS
+
+> **Active Groups on Proteins** | Proteins are composed of twenty different amino acids. Each amino acid molecule consists of an alpha-carbon atom bonded to an alpha-amino group, an alpha-carboxyl group, a hydrogen atom, and a unique side chain specific to that amino acid. The alpha-amino group of one amino acid reacts with the alpha-carboxyl group of another to form a peptide bond. The condensation of multiple amino acids results in a linear polypeptide, which folds to form a protein with a three-dimensional structure. \
+The functional groups present on amino acid side chains form the basis for protein chemical modification. The side chain groups that exhibit relatively high reactivity are as follow: the carboxyl groups of aspartic acid and glutamic acid, the ε-amino group of lysine, the guanidino group of arginine, the sulfhydryl group of cysteine, the phenolic hydroxyl group of tyrosine, the indolyl group of tryptophan, the thiomethyl group of methionine, and the imidazolyl group of histidine [xx]. The reactive groups in crosslinkers currently designed by chemists primarily target these amino acid residues.
+
+Among the most commonly targeted residues for crosslinking is lysine, due to the nucleophilic nature of its primary amine (ε-amino group). A prominent class of crosslinkers designed for this purpose are those containing N-hydroxysuccinimide (NHS) esters. Two exemplary homobifunctional crosslinkers from this class, which share a similar core structure but possess distinct properties, are BS3 and DSS.
+
+- **Application of Cross-Linking Mass Spectrometry in the Study of Protein-Protein Interactions**
+
+
+
+**Common Crosslinkers: Arm Length and Properties**
+
+| Crosslinker    | Spacer Arm Length (Å) | Reactive Group / Target |  Solubility / Membrane Permeability |   Cleavability  |  Key Feature |
+| -------- | ------- |  ------- |   ------- |  ------- |   ------- |
+| DSS  | 11.4    | NHS-ester / Primary amine (Lysine)  | Organic solvent-soluble, Membrane-permeable   |   Non-cleavable   |  Classic intracellular crosslinking    |
+| BS3  | 11.4    | NHS-ester / Primary amine (Lysine)  |   Water-soluble, Membrane-impermeable   |  Non-cleavable   |  Classic extracellular/membrane surface crosslinking    |
+| DSSO  | 10.1 - 10.3    | NHS-ester / Primary amine (Lysine)  |    Organic solvent-soluble, Membrane-permeable      |  MS-cleavable (CID)    |   MS-friendly, simplifies data analysis     |   
+| DSBU (BuUrBU) | 12.5     |  NHS-ester / Primary amine (Lysine)  |   Organic solvent-soluble, Membrane-permeable       | MS-cleavable (CID)  |  Slightly longer arm, MS-cleavable  |
+| DTSSP   | 12.0    |  NHS-ester / Primary amine (Lysine)      |    Water-soluble, Membrane-impermeable      |   Reducible (Disulfide bond)   |   Reversible crosslinking for membrane proteins; water-soluble analog of DSP      |
+| DSP (Lomant's Reagent)   | 12.0    |  NHS-ester / Primary amine (Lysine)    |   Water-insoluble (dissolve in DMF/DMSO), Membrane-permeable       |    Reducible (Disulfide bond)   |     Reversible crosslinking for Co-IP; stabilizes weak/transient interactions; cleaved by DTT/TCEP       |
+| EDC   | 0    |  Homo sapiens      | Carbodiimide / Carboxyl (Asp/Glu) & Primary amine |   Water-soluble   |    Non-cleavable    |   Zero-length crosslinker, directly detects interaction interface   |  
+
+
+
+
+
 
 
 
 ---
 #### Post-translational Modifications
+
+
+
 
 
 

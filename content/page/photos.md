@@ -134,8 +134,9 @@ During Professor Nagel visit HZAU campus, at Wuhan, China, 07/2016\
 ![leogrillxx2](/img/Prague_life2.jpg)
 
 ![Parislife](/img/Paris_France_people.jpg)
+> In front of [the eiffel tower](https://www.toureiffel.paris/en), Paris, France, 11/2025
 
-
+---
 ![citiesfrance](/img/Tuileries_garden.jpg)
 > In Jardin des Tuileries, Paris, France, 11/2025
 
@@ -148,10 +149,16 @@ During Professor Nagel visit HZAU campus, at Wuhan, China, 07/2016\
 > In Frankfurt am Main, Germany, 04/2025
 
 
+![citiesitaly](/img/Milano_Italy.jpg)
+> [Duomo di Milano](https://www.duomomilano.it/en/)，in Milan, Germany, 02/2026
+
 
 
 ---
-## In Peking University, Beijing, China
+## In China
+
+![citieschina](/img/victoria_harbour_HongKong.jpg)
+> Victoria Harbour at Hong Kong, China, 02/2026
 
 
 

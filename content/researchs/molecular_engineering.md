@@ -24,7 +24,7 @@ title: Molecular engineering
 
 
 ---
-## Development of rAAV-miniBEND system
+## I. Development of rAAV-miniBEND system
 ![1x](/img/rAAV-miniBEND.png)
 
 Defects in brain endothelial cells (brainECs) can cause severe cerebrovascular malformations, including arteriovenous malformation (AVM) and cerebral cavernous malformation (CCM). The lack of appropriate tools for cerebrovascular disease modeling and local genetic manipulation of the brain vasculature hinders research on cerebrovascular malformations. Here we develop a recombinant adeno-associated virus (rAAV) tool miniBEND (rAAV-based mini-system for brain endothelial cells, rAAV-miniBEND), which combines a minimal promoter and an optimized cis-acting element (cis-element) isolated from the mouse gene Tek. This system achieves gene expression specifically in mouse and rat brainECs. Using rAAV-miniBEND, we achieve high-efficiency and high-specificity gene expression in brainECs through intracranial injection at various developmental stages and through intravenous administration at all postnatal stages in mice. Furthermore, we use rAAV-miniBEND to model sporadic CCMs mediated by MAP3K3I441M and AVMs mediated by BrafV600E. We demonstrate that somatic expression of BrafV600E in brainECs induces an AVM phenotype, and that brainEC proliferation are important for AVM development. Thus, our rAAV-miniBEND system provides a valuable and widely applicable tool for cerebrovascular disease modeling and local or global brainEC gene delivery.
@@ -38,7 +38,7 @@ Defects in brain endothelial cells (brainECs) can cause severe cerebrovascular m
 ---
 
 
-## Development of AAV-Vascode platform
+## II. Development of AAV-Vascode platform
 ![5x](/img/aav_capsid_engineering.png)
 
 We developed a novel platform that integrated multiple methods including direct evolution and receptor based capsid design. This platform can generate a series of AAV capsids that has unprecedented power of transduction towards different cell types across brain vasculature system in different model organisms, like Mouse, Rat, Pig, Marmmoset etc.
@@ -49,5 +49,17 @@ We developed a novel platform that integrated multiple methods including direct 
 # Representative works
 1. ***Jun-Liszt Li#*** &para;, Zhanying Bi#, Xingjun Chen#, Tianyue Ming, Baoshan Qiu, Fengzhi Li, Ziyan Feng, Daosheng Ai, Tingting Zhang, Jiayu Wang, Shuai Lin, Yiping Lu, Hu Zhao, Zhanjing Wang, Juan Huang, Fei Zhao, Hu Zhao, Yilong Wang, Wenzhi Sun✝, Woo-ping Ge✝. “rAAV-miniBEND: A targeted vector for brain endothelial cell gene delivery and cerebrovascular malformation modeling” **Nature Biomedical Engineering** (29/10/2025) [[PDF](https://www.nature.com/articles/s41551-025-01538-x.pdf) | [PMID: 41162685](https://pubmed.ncbi.nlm.nih.gov/41162685/) | [DOI Link](https://doi.org/10.1038/s41551-025-01538-x)]
 _**First author**_
+
+
+
+
+## III. Development of a reporter system for ERK/MAPK intracellular signaling
+> G protein-coupled receptors (GPCRs) constitute a large superfamily of membrane proteins capable of receiving extracellular signals and transducing them into intracellular responses. These receptors are widely expressed in humans and other animals and are involved in numerous physiological processes, making them important molecular targets for drug development (Saito et al., 2013). Although many functionally important GPCRs have been identified—such as the diabetes-associated B-type GPCR GCGR (Zhang et al., 2018) and the psychosis-related dopamine receptor D2R (Wang et al., 2018)—a substantial number of key receptors within this complex biological system remain undiscovered. Furthermore, the precise molecular targets of many clinically important drugs are still unknown. While existing therapeutics are often effective, they may also produce unintended side effects, underscoring the need for the development of truly targeted therapies. From the perspective of drug development, a rational and effective strategy involves designing drugs based on the structural characteristics of their specific targets. Therefore, identifying these molecular targets is a critical prerequisite. To facilitate this, researchers require robust and efficient methods for discovering or screening the molecular targets of drugs.
+
+Recent studies have shown that the upstream regulatory region of the EGR1 gene functions as an effective response element for the ERK signaling pathway. In particular, researchers selected the D and E regions within the upstream sequence of the EGR1 gene and constructed a composite promoter, designated Krox24 (2*D-E), by concatenating two copies of the D region and one copy of the E region, followed by the native EGR1 promoter downstream. Quantitative luciferase assays demonstrated that this synthetic promoter effectively reports the activation of intracellular ERK signaling induced by fibroblast growth factor (FGF) or other activators (Gudernova et al., 2017; this study). Therefore, combining the Krox24 promoter with luciferase-based quantitative detection represents a powerful approach for monitoring GPCR activity and enabling high-throughput screening in drug discovery.
+
+![krox24](/img/xxxx)
+> **Characterization of the krox24 synthetic promoter for reporting ERK signaling**\
+
 
 

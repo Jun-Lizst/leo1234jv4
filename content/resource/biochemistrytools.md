@@ -135,6 +135,7 @@ yields compared to standard 293 cell lines. [Expi293 Expression Medium (Thermo F
 | bEnd.3 [BEND3]   | [CRL-2299](https://www.atcc.org/products/crl-2299)    |  Mus musculus      |          |
 | HUVEC   | [Lonza, CC-2519]()    |  Homo sapiens      |          |
 | THP1   | [ATCC, TIB-202](https://www.atcc.org/products/tib-202)    |  Homo sapiens      | human leukemia monocytic cell line |
+| Caco2  | [] | Homo sapiens  |   |
 
 - **Transfection reagents**
     - **XtremeGene9**: Sigma
